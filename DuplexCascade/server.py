@@ -29,6 +29,7 @@ import os
 import re
 import sys
 import time
+import traceback
 from pathlib import Path
 from typing import Any, Dict, Optional, Tuple
 
@@ -233,11 +234,13 @@ class BridgeServer:
         }
         deltas: list[str] = []
         timeout = httpx.Timeout(60.0, connect=5.0)
+        print(f"[bridge] llm_stream: entering, api={self.llm_api_base}", flush=True)
         try:
             async with httpx.AsyncClient(timeout=timeout) as client:
                 async with client.stream(
                     "POST", f"{self.llm_api_base}/completions", json=payload
                 ) as resp:
+                    print(f"[bridge] llm_stream: connected, status={resp.status_code}", flush=True)
                     async for raw in resp.aiter_lines():
                         if not raw.startswith("data:"):
                             continue
@@ -575,17 +578,24 @@ class BridgeServer:
                             print(f"[bridge] tick: ANSWERING with user_text {user_text!r}", flush=True)
 
                             # explicit turn boundary for STT: reset its buffer so the
-                            # next utterance starts fresh (avoids cross-turn bleed)
+                            # next utterance starts fresh (avoids cross-turn bleed).
+                            # Non-blocking on purpose - a stuck STT websocket send
+                            # must never block the answer path.
                             try:
                                 async with stt_send_lock:
-                                    await stt_ref["ws"].send(msgpack.packb({"type": "Eos"}, use_bin_type=True))
+                                    await asyncio.wait_for(
+                                        stt_ref["ws"].send(msgpack.packb({"type": "Eos"}, use_bin_type=True)),
+                                        timeout=2.0,
+                                    )
                             except Exception:
                                 pass
+                            print("[bridge] tick: sent Eos to STT", flush=True)
 
                             history.append({"role": "user", "content": user_text})
                             # prime the assistant turn: the user finished speaking, so
                             # the model continues with <|user finish speaking|> + content
                             llm_t0 = time.time()
+                            print("[bridge] tick: calling llm_stream", flush=True)
 
                             # Duplex micro-turn loop: the fine-tuned model was trained
                             # on CHUNKED assistant turns - each chunk is a separate
@@ -610,7 +620,9 @@ class BridgeServer:
                                 # user interrupted to speak again) and breaks the
                                 # natural content->thinking transition.
                                 prime = "<|user finish speaking|>" if _ == 0 else ""
-                                deltas = await self.llm_stream(micro_history, prime=prime)
+                                deltas = await asyncio.wait_for(
+                                    self.llm_stream(micro_history, prime=prime), timeout=30.0
+                                )
                                 chunk = "".join(deltas)
                                 print(f"[bridge] tick: LLM micro-turn ({time.time()-llm_t0:.2f}s): {chunk!r}", flush=True)
 
@@ -689,8 +701,12 @@ class BridgeServer:
                                 # assistant assistant") on long sessions.
                                 MAX_HISTORY_MSGS = 30  # ~15 user+assistant turns
                                 if len(history) > MAX_HISTORY_MSGS:
-                                    keep_sys = history[:1]
-                                    history = keep_sys + history[-(MAX_HISTORY_MSGS - 1):]
+                                    # mutate in place (never reassign `history`):
+                                    # reassigning inside llm_tick_task makes Python
+                                    # treat `history` as a local and the first
+                                    # answer then fails with UnboundLocalError.
+                                    # Keep index 0 (system) + the last 29 msgs.
+                                    del history[1 : len(history) - (MAX_HISTORY_MSGS - 1)]
                                 print(f"[bridge] tick: turn complete, history now {len(history)} msgs", flush=True)
 
                             # turn complete: clear both buffers so the next
@@ -702,6 +718,7 @@ class BridgeServer:
                 except asyncio.CancelledError:
                     return
                 except Exception:
+                    traceback.print_exc()
                     return
 
             stt_sender = asyncio.create_task(stt_sender_task())
