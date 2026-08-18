@@ -350,6 +350,12 @@ class BridgeServer:
             first_text_received_event = asyncio.Event()
             asr_buffer_words: list[str] = []
             asr_buffer_lock = asyncio.Lock()
+            # serializes writes to the shared STT websocket. stt_sender_task
+            # streams audio AND can reconnect/swap stt_ref["ws"], while
+            # llm_tick_task sends Eos turn boundaries. Without this lock the
+            # two tasks write to the same websocket concurrently and the send
+            # can hang forever (the bridge then stops answering).
+            stt_send_lock = asyncio.Lock()
 
             # conversation history (message format for the duplex micro-turn stream)
             history: list[dict] = [{
@@ -470,15 +476,18 @@ class BridgeServer:
                             stt_msg = {"type": "Audio", "pcm": [float(x) for x in chunk]}
                             packed = msgpack.packb(stt_msg, use_bin_type=True, use_single_float=True)
                             try:
-                                await stt_ref["ws"].send(packed)
+                                async with stt_send_lock:
+                                    await stt_ref["ws"].send(packed)
                             except Exception:
                                 # stale connection: reconnect and resend
                                 try:
-                                    await stt_ref["ws"].close()
+                                    async with stt_send_lock:
+                                        await stt_ref["ws"].close()
                                 except Exception:
                                     pass
-                                stt_ref["ws"] = await _ws_connect(self.stt_ws, {})
-                                await stt_ref["ws"].send(packed)
+                                async with stt_send_lock:
+                                    stt_ref["ws"] = await _ws_connect(self.stt_ws, {})
+                                    await stt_ref["ws"].send(packed)
                         audio_q.task_done()
                 except websockets.exceptions.ConnectionClosed:
                     return
@@ -568,7 +577,8 @@ class BridgeServer:
                             # explicit turn boundary for STT: reset its buffer so the
                             # next utterance starts fresh (avoids cross-turn bleed)
                             try:
-                                await stt_ref["ws"].send(msgpack.packb({"type": "Eos"}, use_bin_type=True))
+                                async with stt_send_lock:
+                                    await stt_ref["ws"].send(msgpack.packb({"type": "Eos"}, use_bin_type=True))
                             except Exception:
                                 pass
 
