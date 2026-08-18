@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+unsloth_compiled_cache/
+
+# Trained model runs (large; live on the HDD /mnt/f by default)
+/mnt/f/duplex_cascade_runs/
+training/runs/
+*.gguf
+*.safetensors
+
+# Large generated datasets (rebuilt via the data pipeline)
+data/*.jsonl
+data/prepped_*/
+data/__pycache__/
+
+# Runtime logs
+logs/*.log
+logs/*_foreground.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# CUDA / misc
+core.*

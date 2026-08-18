@@ -1,0 +1,13 @@
+# DuplexCascade-PT — training-only dependencies.
+#
+# These are needed for the fine-tuning pipeline (training/ + data/), NOT for
+# serving the demo. Install after the runtime requirements:
+#
+#   pip install -r requirements.txt -r requirements-train.txt
+#
+# unsloth must be installed from its own channel (wheels are not on PyPI):
+#   pip install "unsloth[cu130] @ git+https://github.com/unslothai/unsloth.git"
+unsloth>=2026.4.0            # must be imported before transformers/trl/peft
+trl>=0.24.0
+datasets>=3.0.0
+huggingface-hub>=0.23.0

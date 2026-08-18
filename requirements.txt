@@ -1,0 +1,40 @@
+# DuplexCascade-PT — Python dependencies
+#
+# Two profiles:
+#   * pip install -r requirements.txt            # runtime (STT/TTS/bridge) + training
+#   * pip install -r requirements.txt -r requirements-train.txt   # + training-only
+#
+# Tested against the unsloth venv (python 3.13, CUDA 13.1). The training libs
+# (unsloth/trl/datasets/peft) are only needed for the fine-tuning pipeline
+# (training/ + data/); the runtime services (services/, DuplexCascade/server.py)
+# only need the runtime block below.
+
+# ---------------------------------------------------------------------------
+# Runtime — serving the demo (services/ + DuplexCascade/server.py)
+# ---------------------------------------------------------------------------
+torch>=2.1.0
+numpy>=1.24.0
+websockets>=14.0,<18.0      # server.py uses the v14+ process_request->Response API
+msgpack>=1.0.5
+faster-whisper>=1.1.0        # STT (:31607)
+pocket-tts>=2.0.0            # TTS (:31608) — installs its own torch/audio deps
+scipy>=1.10.0                # 24k->16k resample in STT
+
+# Data generation + HTTP client to llama.cpp (data/build_*.py)
+requests>=2.28.0
+tqdm>=4.60.0
+
+# Vendored DuplexCascade/server.py load path (optional model_state loader)
+transformers>=4.40.0
+peft>=0.11.0
+safetensors>=0.4.3
+
+# ---------------------------------------------------------------------------
+# Training — fine-tuning pipeline (training/ + data/)
+# ---------------------------------------------------------------------------
+# Install unsloth from its own channel (its wheels are not on PyPI):
+#   pip install "unsloth[cu130] @ git+https://github.com/unslothai/unsloth.git"
+unsloth>=2026.4.0            # imported before transformers/trl/peft
+trl>=0.24.0
+datasets>=3.0.0
+huggingface-hub>=0.23.0
