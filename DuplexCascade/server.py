@@ -207,11 +207,11 @@ class BridgeServer:
             role = m.get("role", "user")
             content = str(m.get("content", ""))
             if role == "system":
-                parts.append(f"<|im_start|>system\n{content}\n<|im_end|>\n")
+                parts.append(f"<|im_start|>system\n{content}<|im_end|>\n")
             elif role == "assistant":
-                parts.append(f"<|im_start|>assistant\n{content}\n<|im_end|>")
+                parts.append(f"<|im_start|>assistant\n{content}<|im_end|>")
             else:
-                parts.append(f"<|im_start|>user\n{content}\n<|im_end|>\n")
+                parts.append(f"<|im_start|>user\n{content}<|im_end|>\n")
         parts.append("<|im_start|>assistant\n" + prime)
         return "".join(parts)
 
@@ -672,6 +672,15 @@ class BridgeServer:
 
                             if assistant_text.strip():
                                 history.append({"role": "assistant", "content": assistant_text})
+                                # keep the prompt within the 8192-token context: drop the
+                                # OLDEST full turn pairs (but always keep the system msg at
+                                # the front). Unbounded history grows past the window and the
+                                # model degenerates into header-imitation ("assistant
+                                # assistant assistant") on long sessions.
+                                MAX_HISTORY_MSGS = 30  # ~15 user+assistant turns
+                                if len(history) > MAX_HISTORY_MSGS:
+                                    keep_sys = history[:1]
+                                    history = keep_sys + history[-(MAX_HISTORY_MSGS - 1):]
                                 print(f"[bridge] tick: turn complete, history now {len(history)} msgs", flush=True)
 
                             # turn complete: clear both buffers so the next
