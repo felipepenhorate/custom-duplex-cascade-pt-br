@@ -119,9 +119,9 @@ When the edit location is not known a priori, you can often align outputs to a c
 
 Everything is open — training code, evaluation harness, the teacher-generated dataset, adapters and GGUFs:
 
-- Code & paper: [github.com/lumierenoir/duplex_cascade_distill](https://github.com/lumierenoir/duplex_cascade_distill)
+- Code & paper: [github.com/lumierenoir/duplex_cascade_distill](https://github.com/felipepenhorate/custom-duplex-cascade-pt-br)
 - Models & data: [huggingface.co/lumierenoir/DuplexCascade-PT-BR-V0](https://huggingface.co/lumierenoir/DuplexCascade-PT-BR-V0)
-- Voice demo stack: [github.com/lumierenoir/duplex_cascade](https://github.com/lumierenoir/duplex_cascade)
+- Voice demo stack: [github.com/lumierenoir/duplex_cascade](https://github.com/felipepenhorate/custom-duplex-cascade-pt-br)
 
 **References**
 
