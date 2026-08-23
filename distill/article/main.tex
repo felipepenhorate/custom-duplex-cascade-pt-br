@@ -58,8 +58,8 @@ turn-taking, catastrophic forgetting, function calling
 \IEEEPARstart{L}{arge} language models that power interactive systems are often
 post-trained on narrowly defined behavioral protocols. A representative example is
 the \emph{duplex cascade} paradigm~\cite{duplexcascade}: a conversational LLM is
-fine-tuned to emit special turn-taking tokens (``\textless|user is speaking|>'',
-``\textless|user finish speaking|>'', ``\textless|user interruption|>'', etc.) that
+fine-tuned to emit special turn-taking tokens (``\texttt{\textless|user is speaking|>}'',
+``\texttt{\textless|user finish speaking|>}'', ``\texttt{\textless|user interruption|>}'', etc.) that
 drive a VAD-free, full-duplex speech pipeline. Learning the protocol is easy---the
 supervision is cheap, synthetic and deterministic---but the fine-tune is destructive.
 In our pt-BR implementation of the duplex cascade, the plain-SFT model that learns
@@ -165,7 +165,7 @@ weights plus a LoRA adapter ($\theta$ = adapter parameters). The training corpus
 set of \emph{duplex sequences} $x$ produced by the duplex micro-turn builder: a
 dialogue is split into micro-turns and conversational special tokens
 ($\mathcal{T}$) are inserted deterministically at turn boundaries
-(e.g. ``\textless|user finish speaking|>'' before every system turn, probabilistic
+(e.g. ``\texttt{\textless|user finish speaking|>}'' before every system turn, probabilistic
 interruptions/backchannels). Every position $t$ of $x$ is thus either a
 \emph{tag} position (label $y_t \in \mathcal{T}$) or a \emph{content} position
 (label $y_t$ is ordinary text). User-side and header positions are masked
@@ -197,7 +197,7 @@ student loss is
 \end{split}
 \end{equation}
 where $w_t$ are the per-special-token weights of the original recipe (e.g.
-``\textless|user finish speaking|>''$=10$, ``\textless|user interruption|>''$=5$).
+``\texttt{\textless|user\_finish\_speaking|\textgreater}''$=10$, ``\texttt{\textless|user\_interruption|\textgreater}''$=5$.
 The KL is in the forward direction and computed in cross-entropy form
 $-\sum_k p_0(k)\log p_\theta(k)$ over the teacher's top-$k$ ($k{=}32$) next-token
 support, with the student logits gathered at those ids. Because the teacher is
