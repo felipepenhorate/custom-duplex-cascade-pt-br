@@ -18,7 +18,7 @@
 \title{Self Distillation using only supervised fine tuning: a duplex cascade case study}
 
 \author{
-\IEEEauthorblockN{Penh Fel}
+\IEEEauthorblockN{Felipe Penhorate Carvalho da Fonseca}
 \IEEEauthorblockA{}
 }
 
@@ -373,10 +373,11 @@ governed by the KL to the base on the new task, and partial-answer settings are
 precisely where an explicit per-token KL constraint is cheapest and most natural,
 because the supervised support is small.
 
-\emph{Limitations.} Our evaluation is on a single backbone (Qwen3-4B), a single
-language (pt-BR) and subset-scale benchmarks; the IFEval and GSM8K numbers carry
-per-sample stderr of order $2$ pp. We did not ablate $\lambda$ against math, nor test
-the full 50k-scale data regime. The offline cache assumes the teacher is fixed,
+\emph{Limitations.} This is work in progress: our evaluation is on a single backbone
+(Qwen3-4B), a single language (pt-BR) and subset-scale benchmarks; the IFEval and GSM8K
+numbers carry per-sample stderr of order $2$ pp. We did not ablate $\lambda$ against
+math, nor test the full 50k-scale data regime; we plan to evaluate with substantially
+more data in future work. The offline cache assumes the teacher is fixed,
 which is true by construction but means the student can never ``teach forward'' a
 better protocol---acceptable here because the tags are deterministic.
 
@@ -391,6 +392,11 @@ base-level function calling, general instruction following, MMLU, HellaSwag, ARC
 TruthfulQA and improving IFEval---where the SFT baseline regresses broadly. Per-token
 KL-anchoring to the frozen base is a practical, RL-free anti-forgetting tool that
 generalizes beyond duplex dialogue.
+
+\section*{Use of Generative AI}
+This manuscript was prepared with the assistance of generative artificial
+intelligence. All experimental results and the associated code were reviewed
+and verified by the author.
 
 \begin{thebibliography}{99}
 

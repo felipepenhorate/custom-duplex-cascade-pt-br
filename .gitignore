@@ -23,6 +23,10 @@ unsloth_compiled_cache/
 **/logs/*_foreground.log
 **/logs/eval/
 
+# LaTeX build artifacts
+**/article/*.aux
+**/article/*.log
+
 # Editor / OS
 .vscode/
 .idea/
