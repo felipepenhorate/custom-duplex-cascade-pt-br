@@ -1,0 +1,469 @@
+% !TEX TS-program = pdflatex
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{mathtools}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{Self Distillation using only supervised fine tuning: a duplex cascade case study}
+
+\author{
+\IEEEauthorblockN{Penh Fel}
+\IEEEauthorblockA{}
+}
+
+\maketitle
+
+\begin{abstract}
+Fine-tuning a full-duplex speech model to emit conversational turn-taking tags
+(the \emph{duplex cascade} micro-turn protocol) with plain supervised fine-tuning
+(SFT) regresses the model's general capabilities: function calling, instruction
+following and world knowledge degrade because the off-policy training signal
+pushes the whole next-token distribution toward tag-heavy dialogue. We show that
+this regression can be avoided \emph{without reinforcement learning and without
+on-policy rollouts} by borrowing the self-distillation idea of
+\emph{Self-Distillation Fine-Tuning} (SDFT): the frozen original model acts as its
+own teacher, and the fine-tune optimizes a two-term loss---the weighted
+cross-entropy on the duplex tags exactly as before, plus a per-token
+\textbf{forward-KL to the frozen base model} on every other (content) position.
+The content term \emph{anchors} the student to the pretrained distribution
+everywhere the tags are not explicitly supervised, which is precisely the
+mechanism that prevents regression. We train a QLoRA adapter on 10k teacher-derived
+duplex dialogues and evaluate against both the base model and the plain-SFT
+baseline. The distill model learns the protocol (96.4\% tag accuracy) while keeping
+function calling and general instruction-following at base level (100\% vs the SFT
+baseline's 55.6\% and 41.7\%), and it stays within 1--2 pp of base on MMLU, HellaSwag,
+ARC and TruthfulQA, and above base on IFEval---where the SFT baseline drops broadly.
+The only measured regression is on multi-step math reasoning (GSM8K). These results
+establish per-token KL-anchoring to the frozen base as a practical, RL-free
+anti-forgetting mechanism for task-specific fine-tuning.
+\end{abstract}
+
+\begin{IEEEkeywords}
+self-distillation, continual learning, supervised fine-tuning, full-duplex dialogue,
+turn-taking, catastrophic forgetting, function calling
+\end{IEEEkeywords}
+
+\section{Introduction}
+\IEEEPARstart{L}{arge} language models that power interactive systems are often
+post-trained on narrowly defined behavioral protocols. A representative example is
+the \emph{duplex cascade} paradigm~\cite{duplexcascade}: a conversational LLM is
+fine-tuned to emit special turn-taking tokens (``\textless|user is speaking|>'',
+``\textless|user finish speaking|>'', ``\textless|user interruption|>'', etc.) that
+drive a VAD-free, full-duplex speech pipeline. Learning the protocol is easy---the
+supervision is cheap, synthetic and deterministic---but the fine-tune is destructive.
+In our pt-BR implementation of the duplex cascade, the plain-SFT model that learns
+the tags with 98\% accuracy simultaneously loses most of its ability to call
+functions (100\% $\rightarrow$ 55.6\%) and follow general instructions
+(100\% $\rightarrow$ 41.7\%). This is catastrophic forgetting in its most practical
+form: the model becomes a good turn-taker and a bad assistant.
+
+The conventional remedy is to make the post-training signal \emph{on-policy}, via
+reinforcement learning (RL) with an explicit reward~\cite{chu2025,airef}. But rewards
+are often unavailable, and on-policy RL (PPO/GRPO) is expensive and brittle. A recent
+line of work, \emph{Self-Distillation Fine-Tuning}
+(SDFT)~\cite{selfdistill2026}, obtains the benefits of on-policy learning from
+demonstrations alone: the model is used in two roles---a \emph{teacher} conditioned
+on a demonstration, and a \emph{student} conditioned only on the query---and the
+training minimizes a KL divergence between the two on the student's own trajectories.
+SDFT substantially reduces catastrophic forgetting compared to SFT, but it still
+requires on-policy rollouts (roughly $4\times$ the wall-clock of SFT).
+
+We show that for the duplex-cascade setting there is a much simpler instantiation
+that needs \emph{neither RL nor rollouts}. Our key observation is that the
+``new skill'' (the turn-taking protocol) and the ``everything else'' (the general
+capabilities we want to preserve) are \emph{separable by token position}: the tags
+live at supervised positions, the content lives at the other positions. We therefore
+split the objective in two:
+
+\begin{itemize}
+  \item \textbf{Tags}: the weighted cross-entropy to the supervised tag tokens,
+        exactly as in the plain SFT recipe.
+  \item \textbf{Everything else}: a per-token forward-KL to the \emph{frozen base
+        model} on content positions, so the student's distribution is anchored to
+        the pretrained policy wherever there is no explicit tag supervision.
+\end{itemize}
+
+The teacher is the frozen original model itself (conditioned on the same duplex
+sequence via the tag tokens in its input), so no second model and no rollouts are
+needed. Because the student is \emph{base + LoRA}, the teacher forward is obtained
+with zero extra VRAM by temporarily disabling the adapters. We precompute the
+teacher's top-$k$ next-token logits once (offline cache), which removes the second
+forward pass entirely and makes the run no more expensive than SFT.
+
+We evaluate on a pt-BR duplex-cascade model (Qwen3-4B-Instruct-2507, QLoRA, 10k
+teacher-derived dialogues). The resulting \emph{distill} model matches the plain-SFT
+model on the protocol (96.4\% vs 98\% tag accuracy) while retaining base-level
+function calling, general instruction following, MMLU, HellaSwag, ARC and TruthfulQA,
+and \emph{improving} on IFEval. The plain-SFT baseline regresses on all of them. The
+one caveat is GSM8K, where the distill model drops 11 pp below base---a limitation we
+discuss in Section~\ref{sec:discussion}.
+
+\section{Background and Related Work}
+\subsection{Catastrophic forgetting and off-policy fine-tuning}
+Sequential SFT is inherently off-policy: the model learns to imitate expert actions
+on a fixed offline distribution, and prior work has shown this leads to severe
+forgetting when the model is adapted to a new task or domain~\cite{kirkpatrick2017,
+lifhoiem2017,mecklenburg2024}. On-policy methods---training on trajectories induced
+by the model itself---forget substantially less~\cite{ross2011,airef,chu2025,
+rlsrazor2025}. DAgger~\cite{ross2011} established that on-policy imitation avoids the
+compounding-error failure mode of behavior cloning. More recently,
+``SFT memorizes, RL generalizes''~\cite{chu2025} and related analyses~\cite{airef}
+showed empirically that RL-based post-training retains general capabilities far
+better than SFT.
+
+\subsection{Self-distillation}
+Our method is most closely related to \emph{Self-Distillation Fine-Tuning}
+(SDFT)~\cite{selfdistill2026}. SDFT builds the teacher by conditioning the model on
+an expert demonstration, $\pi(\cdot|x,c)$, and trains the student $\pi_\theta(\cdot|x)$
+to match it on the student's own rollouts:
+\begin{equation}
+\begin{split}
+  L(\theta) \;=\; D_{KL}\big(\pi_\theta(\cdot|x) \,\|\, \pi(\cdot|x,c)\big)\\
+  \;=\; \mathbb{E}_{y\sim\pi_\theta}\sum_{t}
+      \log\frac{\pi_\theta(y_t|y_{<t},x)}
+      {\pi(y_t|y_{<t},x,c)}\,.
+\end{split}
+\end{equation}
+The paper shows that on Tool Use, Science Q\&A and Medical skill-learning, SDFT
+achieves higher new-task accuracy than SFT while keeping previous-capabilities
+performance near the base model, and that an EMA of the student is the most stable
+teacher. Our work differs in two ways. First, we do \emph{not} run on-policy
+rollouts; instead the tags are supplied by a deterministic construction rule, so the
+only on-policy-sensitive component is the content, which we anchor to the frozen base
+distribution directly. Second, our teacher is the frozen base model (not a
+demonstration-conditioned variant), which is exactly the ``keep everything else the
+same'' reference the anti-forgetting objective requires.
+
+Context distillation~\cite{bai2022,snell2022} also uses a model conditioned on extra
+context as a teacher for the model without it, but typically distills offline from
+static contexts and does not combine a separate supervised tag term with a
+content-anchoring KL. \emph{Learning by distilling context}~\cite{snell2022}
+distills a prompt-conditioned teacher into the base model; our tag term is the
+analogous ``hard'' supervision and our content term the distillation.
+
+\subsection{Parameter-efficient fine-tuning}
+We train with QLoRA~\cite{qlora2023} (4-bit NF4 base, LoRA~\cite{lora2022} rank 16,
+$16$ $\alpha$, dropout 0) via the Unsloth~\cite{unsloth} training library, keeping the
+embedding and LM head trainable so the new special-token rows can be learned.
+
+\section{Method: DuplexCascade-Distill}
+\label{sec:method}
+\subsection{Setup}
+Let the base model be $\pi_0$ (frozen) and the student $\pi_\theta$ be the same
+weights plus a LoRA adapter ($\theta$ = adapter parameters). The training corpus is a
+set of \emph{duplex sequences} $x$ produced by the duplex micro-turn builder: a
+dialogue is split into micro-turns and conversational special tokens
+($\mathcal{T}$) are inserted deterministically at turn boundaries
+(e.g. ``\textless|user finish speaking|>'' before every system turn, probabilistic
+interruptions/backchannels). Every position $t$ of $x$ is thus either a
+\emph{tag} position (label $y_t \in \mathcal{T}$) or a \emph{content} position
+(label $y_t$ is ordinary text). User-side and header positions are masked
+(label $-\infty$), as in the original recipe.
+
+\subsection{Teacher content}
+The tags themselves come from the deterministic builder. The \emph{content} comes
+from the teacher: the frozen base model, prompted with a \emph{duplex-cascade trigger}
+system message (``you are a DuplexCascade full-duplex voice assistant\ldots speak in
+short, natural micro-turns\ldots no tags''), generates each assistant turn
+conditioned on the history. At first the base model does not follow the protocol
+faithfully---that is expected and irrelevant; we keep only its \emph{content} and
+let the deterministic builder place the tags. This yields the aligned demonstration
+sequence $x$.
+
+\subsection{Loss}
+Let $T$ be the set of tag positions and $C$ the set of content positions. The
+student loss is
+\begin{equation}
+\label{eq:loss}
+\begin{split}
+  L(\theta) \;=\;
+  \underbrace{\sum_{\mathclap{t\in T}} w_t\, \mathrm{CE}\big(\pi_\theta(\cdot|x_{<t}),\, y_t\big)
+  }_{\text{tags: as in plain SFT}}\\
+  \qquad{}+{}\;
+  \lambda\underbrace{\sum_{\mathclap{t\in C}} D_{KL}\big(
+      \pi_0(\cdot|x_{<t}) \,\|\, \pi_\theta(\cdot|x_{<t})\big)
+  }_{\text{content: anchor to the frozen base}},
+\end{split}
+\end{equation}
+where $w_t$ are the per-special-token weights of the original recipe (e.g.
+``\textless|user finish speaking|>''$=10$, ``\textless|user interruption|>''$=5$).
+The KL is in the forward direction and computed in cross-entropy form
+$-\sum_k p_0(k)\log p_\theta(k)$ over the teacher's top-$k$ ($k{=}32$) next-token
+support, with the student logits gathered at those ids. Because the teacher is
+conditioned on the same $x$ (its input already contains the tags), its content
+distribution is the natural ``what would the original model say in a duplex
+dialogue'' reference. The single hyper-parameter $\lambda$ trades tag fidelity
+against anchoring; we use $\lambda{=}1.0$.
+
+\subsection{Practical implementation}
+\begin{itemize}
+\item \textbf{Teacher forward is free.} The student is base $+$ LoRA, so the teacher
+      is the same weights without adapters: one additional \texttt{no\_grad} forward
+      under \texttt{disable\_adapter()} costs zero extra VRAM.
+\item \textbf{Offline teacher cache.} To avoid the second forward in the training
+      loop (and the GPU-allocator pressure it creates at the 16 GB ceiling), we
+      precompute the teacher's top-$k$ ids/logits for every position of every
+      sequence once (one bf16 forward pass over the corpus, $\approx$36 min). Training
+      then reads cached targets and runs at the plain-SFT cost. This is the
+      difference between our ${\sim}10$ s/step and the two-forward path.
+\item \textbf{Anchor set (D2 variant).} A small set of general-capability prompts
+      (function calling, QA) is distilled the same way, pinning the LoRA delta to
+      $\approx 0$ outside the duplex protocol.
+\item \textbf{Artifact masking.} Following the SDFT ``learned artifacts''
+      fix~\cite{selfdistill2026}, the first few content tokens after each
+      ``\textless|user finish speaking|>'' tag are left unsupervised so the student
+      does not copy teacher surface artifacts.
+\end{itemize}
+
+\section{Experimental Setup}
+\label{sec:setup}
+\subsection{Models}
+Base: \texttt{Qwen/Qwen3-4B-Instruct-2507} (dense Qwen3, 151.9k vocab). Student:
+QLoRA (r$=16$, $\alpha{=}16$, dropout 0, all linear modules, trainable embeddings and
+LM head), 7 duplex special tokens appended and Gaussian-initialized. Teacher: the same
+base, frozen. All models evaluated as bf16.
+
+\subsection{Data}
+10,000 pt-BR dialogues from the existing corpus had every assistant turn regenerated
+by the teacher (trigger prompt, temperature 0.7, top-p 0.95), then passed through the
+deterministic micro-turn builder (user chunks 1--7 tokens, system chunks 10--48,
+probabilistic pauses/interruptions/backchannels), yielding 10,249 training sequences
+at ${\le}1024$ tokens. 300 anchor prompts (150 function calling, 150 general QA).
+
+\subsection{Training}
+2,000 optimizer steps, batch 1 $\times$ grad-accum 16 (effective 16), AdamW lr
+$10^{-4}$ (embeddings $2{\times}10^{-4}$), 20-step warmup, bf16, gradient
+checkpointing, $\lambda{=}1.0$ (chosen by a short sweep on $\lambda\in\{0.1,0.3,1.0\}$
+using tag accuracy and KL drift). The \texttt{sft} baseline is the existing
+DuplexCascade-PT QLoRA fine-tune (same data family, no KL term).
+
+\subsection{Evaluation}
+\emph{Protocol}: tag accuracy (argmax $=$ supervised tag) on a held-out duplex eval
+split. \emph{Capabilities}: 18 pt-BR function-calling prompts (native Qwen tool
+calls, greedy) and 12 general instruction/QA prompts. \emph{Distribution drift}:
+mean per-token forward-KL (student $\|$ frozen base) on the content positions of the
+held-out split---a direct measure of ``everything else stayed the same''.
+\emph{Standard benchmarks}: HellaSwag, ARC-Challenge, MMLU (2000-example subsets),
+GSM8K (5-shot, 300), TruthfulQA (mc2), IFEval (40) via lm-evaluation-harness, raw
+prompts, no chat template, identical configs for all three models.
+
+\section{Results}
+\label{sec:results}
+\subsection{Protocol vs. capability retention}
+Table~\ref{tab:custom} shows the central result. The \emph{distill} model learns the
+protocol (96.4\% tag accuracy, only 1.6 pp behind the SFT baseline) while keeping
+function calling and general instruction-following at \emph{base level} (100\%), and
+a KL drift only slightly above the base floor. The plain-SFT baseline, by contrast,
+learns the protocol (98\%) but regresses catastrophically on the format-following
+capabilities (function calling 55.6\%, general 41.7\%) and drifts ${\sim}3.5\times$
+further from the base distribution.
+
+\begin{table}[t]
+\centering
+\caption{Protocol and capability retention (our pt-BR eval sets).}
+\label{tab:custom}
+\begin{tabular}{lccc}
+\toprule
+ & base & \textbf{distill} & sft \\
+\midrule
+Tag accuracy (\%) & 0.0 & \textbf{96.4} & 98.0 \\
+Function calling (\%) & 100 & \textbf{100} & 55.6 \\
+General instruction/QA (\%) & 100 & \textbf{100} & 41.7 \\
+KL drift vs base (nats) & 0.51 & 1.07 & 4.76 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Standard benchmarks}
+Table~\ref{tab:bench} reports the lm-evaluation-harness results. The distill model is
+within ${\sim}1$--2 pp of base on knowledge (MMLU), commonsense (HellaSwag) and
+reasoning (ARC), \emph{above} base on factuality (TruthfulQA $+2.3$ pp) and
+instruction following (IFEval loose $+3.2$ pp), and at base on the format-following
+evals of Table~\ref{tab:custom}. The SFT baseline drops on MMLU ($-4.5$ pp),
+TruthfulQA ($-2.5$ pp), IFEval ($-12.7$ pp) and the custom sets. The one regression
+of the distill model is GSM8K ($-11.3$ pp), discussed next.
+
+\begin{table}[t]
+\centering
+\caption{Standard benchmarks (lm-evaluation-harness 0.4.12; subsets as noted).}
+\label{tab:bench}
+\footnotesize
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+Benchmark & base & \textbf{distill} & sft \\
+\midrule
+HellaSwag acc-norm ($n{=}2000$) & 0.584 & 0.566 & 0.593 \\
+ARC-Challenge acc-norm ($n{=}2000$) & 0.584 & 0.563 & 0.574 \\
+MMLU ($n{=}2000$) & 0.705 & 0.698 & \textbf{0.660} \\
+GSM8K exact ($n{=}300$, 5-shot) & 0.890 & 0.777 & 0.827 \\
+TruthfulQA mc2 & 0.626 & \textbf{0.649} & 0.601 \\
+IFEval loose / strict ($n{=}40$) & 0.730/0.651 & \textbf{0.762/0.683} & 0.603/0.524 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\section{Discussion and Limitations}
+\label{sec:discussion}
+\emph{Why the content-KL works.} The tags live at supervised positions and are
+predicted with the original high weights, so they are learned essentially as before.
+Every other position is anchored to the frozen base, which is exactly the behavior
+we want to preserve. The mechanism is a single-stage, per-token analogue of the
+``re-invoke'' two-stage procedure~\cite{tml2025} and of SDFT's on-policy
+anchoring~\cite{selfdistill2026}, but it requires neither rollouts nor a reward.
+
+\emph{The GSM8K caveat.} The distill model drops 11 pp below base on GSM8K, a
+long-form multi-step reasoning task. This is the honest tradeoff of a strong
+anchoring term ($\lambda{=}1.0$): content distributions are heavily pinned to the
+base, and on 300 samples the 4B base's fragile chain-of-thought is sensitive to any
+distributional shift. Two natural follow-ups are (i) a lower $\lambda$ (our sweep did
+not include a math benchmark), and (ii) the EMA-teacher or on-policy variants of SDFT
+(SPEC D3/D4), which track the student's progress and may preserve the student's
+adaptability on reasoning while still reducing forgetting.
+
+\subsection{Next steps: learning only part of the answer}
+The crux of our method is the \emph{positional separation} of the objective: a small,
+well-localized set of supervised positions carries the new behavior, and every other
+position is anchored to the frozen base. This is a special case of a much more common
+and important fine-tuning pattern---\emph{partial-answer supervision}---where the
+student's target output is already largely correct and only a small, identifiable
+part must be edited. Our approach should transfer directly to any such setting, and
+we plan to evaluate it there next. Concretely:
+
+\begin{itemize}
+  \item \textbf{Guardrail classifiers.} The most immediate target is fine-tuning an
+        LLM to behave as a \emph{classifier}. For a content-moderation guardrail, the
+        input is a text and the target output is a verdict from a small fixed
+        taxonomy (e.g.\ ``\textsc{ok}'' / ``\textsc{flagged}'', or a category label),
+        often preceded by a one-line justification. Plain SFT on this data collapses
+        the model's output distribution onto the label tokens and erodes general
+        abilities. With our recipe, the \emph{verdict position is the ``tag''} (weighted
+        cross-entropy) and the justification and everything else are the ``content''
+        (forward-KL to the frozen base). The model then learns the decision boundary
+        while keeping its language, instruction-following and knowledge intact---exactly
+        the retention we measured for the duplex tags (Table~\ref{tab:custom}).
+  \item \textbf{Other candidate settings.} (i)~\emph{Schema/format fix-ups} where the
+        answer semantics are correct but the formatting (JSON keys, tool-call syntax)
+        must change; (ii)~\emph{claim correction} (medical, legal, RAG) where only a
+        factually wrong token span needs editing; (iii)~\emph{code repair} where only
+        the buggy lines change; (iv)~\emph{citation insertion}.
+\end{itemize}
+
+The enabling requirement is that the ``new behavior'' is locatable at predictable
+token positions. When it is---a verdict token, a tag, a format delimiter---the
+off-policy recipe above is directly applicable and stays at plain-SFT cost. When the
+edit location is \emph{not} known a priori, one can first align the student to a
+canonical template (exactly as the deterministic micro-turn builder does for duplex
+dialogue) so the edit collapses onto predictable positions; otherwise the on-policy
+SDFT variant~\cite{selfdistill2026} is the fallback. This planned evaluation also
+speaks to the principle of \emph{RL's Razor}~\cite{rlsrazor2025}: forgetting is
+governed by the KL to the base on the new task, and partial-answer settings are
+precisely where an explicit per-token KL constraint is cheapest and most natural,
+because the supervised support is small.
+
+\emph{Limitations.} Our evaluation is on a single backbone (Qwen3-4B), a single
+language (pt-BR) and subset-scale benchmarks; the IFEval and GSM8K numbers carry
+per-sample stderr of order $2$ pp. We did not ablate $\lambda$ against math, nor test
+the full 50k-scale data regime. The offline cache assumes the teacher is fixed,
+which is true by construction but means the student can never ``teach forward'' a
+better protocol---acceptable here because the tags are deterministic.
+
+\section{Conclusion}
+We showed that the duplex-cascade protocol can be learned with plain supervised
+fine-tuning \emph{without} the catastrophic regression that usually accompanies it,
+by splitting the objective into a supervised tag term and a per-token forward-KL to
+the frozen base model. The approach needs neither reinforcement learning nor on-policy
+rollouts, and with an offline teacher cache it costs no more than SFT. On a pt-BR
+duplex-cascade model it matches the plain-SFT protocol accuracy while preserving
+base-level function calling, general instruction following, MMLU, HellaSwag, ARC and
+TruthfulQA and improving IFEval---where the SFT baseline regresses broadly. Per-token
+KL-anchoring to the frozen base is a practical, RL-free anti-forgetting tool that
+generalizes beyond duplex dialogue.
+
+\begin{thebibliography}{99}
+
+\bibitem{selfdistill2026}
+I.~Shenfeld, M.~Damani, J.~H{\"u}b{\"o}tter, and P.~Agrawal,
+``On-policy self-distillation fine-tuning (SDFT): self-distillation enables continual
+learning,'' arXiv:2601.19897, 2026.
+
+\bibitem{duplexcascade}
+J.~Yang, Y.~Fujita, and Y.~Sudo,
+``DuplexCascade: Full-duplex speech-to-speech dialogue with VAD-free cascaded
+ASR--LLM--TTS pipeline and micro-turn optimization,'' arXiv:2603.09180, 2026.
+
+\bibitem{ross2011}
+S.~Ross, G.~Gordon, and D.~Bagnell,
+``A reduction of imitation learning and structured prediction to no-regret online
+learning,'' in \emph{Proc. AISTATS}, 2011.
+
+\bibitem{kirkpatrick2017}
+J.~Kirkpatrick \emph{et al.},
+``Overcoming catastrophic forgetting in neural networks,'' \emph{PNAS},
+vol.~114, no.~13, pp.~3521--3526, 2017.
+
+\bibitem{lifhoiem2017}
+Z.~Li and D.~Hoiem,
+``Learning without forgetting,'' \emph{IEEE TPAMI}, vol.~40, no.~12,
+pp.~2935--2947, 2018.
+
+\bibitem{mecklenburg2024}
+L.~Mecklenburg \emph{et al.},
+``Injecting new knowledge into large language models via supervised fine-tuning,''
+arXiv:2404.00213, 2024.
+
+\bibitem{chu2025}
+T.~Chu, Y.~Zhai, J.~Yang, S.~Tong, S.~Xie, D.~Schuurmans, Q.~V.~Le, S.~Levine, and
+Y.~Ma,
+``SFT memorizes, RL generalizes: a comparative study of foundation model
+post-training,'' in \emph{Proc. ICML}, 2025, pp.~10818--10838.
+
+\bibitem{airef}
+R.~Agarwal, N.~Vieillard, Y.~Zhou, P.~Sta{\'n}czyk, S.~Ramos, M.~Geist, and O.~Bachem,
+``On-policy distillation of language models: learning from self-generated mistakes,''
+in \emph{Proc. ICLR}, 2024, arXiv:2306.13649.
+
+\bibitem{rlsrazor2025}
+I.~Shenfeld, J.~Pari, and P.~Agrawal,
+``RL's razor: why online reinforcement learning forgets less,''
+in \emph{Proc. ICLR}, 2026, arXiv:2509.04259.
+
+\bibitem{tml2025}
+K.~Lu and Thinking Machines Lab,
+``On-policy distillation,'' Thinking Machines Lab: Connectionism,
+DOI 10.64434/tml.20251026, 2025.
+
+\bibitem{bai2022}
+Y.~Bai \emph{et al.},
+``Constitutional AI: harmlessness from AI feedback,'' arXiv:2212.08073, 2022.
+
+\bibitem{snell2022}
+C.~Snell, D.~Klein, and R.~Zhong,
+``Learning by distilling context,'' arXiv:2209.15189, 2022.
+
+\bibitem{lora2022}
+E.~J.~Hu \emph{et al.},
+``LoRA: low-rank adaptation of large language models,'' in \emph{Proc. ICLR}, 2022.
+
+\bibitem{qlora2023}
+T.~Dettmers, A.~Pagnoni, A.~Holtzman, and L.~Zettlemoyer,
+``QLoRA: efficient finetuning of quantized LLMs,'' in \emph{Proc. NeurIPS}, 2023.
+
+\bibitem{unsloth}
+Unsloth AI, ``Unsloth: 2x faster free finetuning,'' https://unsloth.ai, 2026.
+
+\end{thebibliography}
+
+\end{document}

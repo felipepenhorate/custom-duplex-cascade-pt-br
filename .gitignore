@@ -8,18 +8,20 @@ unsloth_compiled_cache/
 
 # Trained model runs (large; live on the HDD /mnt/f by default)
 /mnt/f/duplex_cascade_runs/
-training/runs/
+**/training/runs/
 *.gguf
 *.safetensors
 
 # Large generated datasets (rebuilt via the data pipeline)
-data/*.jsonl
-data/prepped_*/
-data/__pycache__/
+**/data/*.jsonl
+**/data/prepped_*/
+**/data/__pycache__/
 
 # Runtime logs
-logs/*.log
-logs/*_foreground.log
+**/logs/*.log
+**/logs/*.err
+**/logs/*_foreground.log
+**/logs/eval/
 
 # Editor / OS
 .vscode/
