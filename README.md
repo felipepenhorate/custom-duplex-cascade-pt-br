@@ -50,3 +50,16 @@ Point `GGUF=/path/to/model.gguf` to switch models.
   folder's data/training pipeline (see the SPECs).
 - `sft/` = the original project moved verbatim; `distill/` = the new
   self-distillation project.
+
+## Citation
+
+If you use this work, please cite the accompanying article
+([`distill/article/main.tex`](./distill/article/main.pdf)):
+
+```bibtex
+@article{fonseca2026selfdistillation,
+  title   = {Self Distillation using only supervised fine tuning: a duplex cascade case study},
+  author  = {Fonseca, Felipe Penhorate Carvalho da},
+  year    = {2026}
+}
+```
