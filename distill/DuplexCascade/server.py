@@ -165,6 +165,20 @@ def _strip_degenerate_tail(text: str) -> str:
     return out
 
 
+# The distill model occasionally OPENS a micro-turn by continuing the user's own
+# utterance instead of answering fresh (e.g. user: "Qual é a capital do Brasil?"
+# -> ", a capital do Brasil é Brasília."). This is a learned artifact: the
+# frozen-base teacher sometimes autocompleted the user turn under the v1
+# short-answer trigger, and the content-KL anchors that mode. Strip leading
+# whitespace + continuation punctuation (",", ";", ".", "…", "—", "-") so the
+# reply starts clean; everything after the first real character is kept.
+def _strip_leading_continuation(text: str) -> str:
+    out = re.sub(r"^[\s,;:.…—–-]+", "", text)
+    if out and out != text:
+        print(f"[bridge] _strip_leading_continuation: dropped leading continuation ({text!r} -> {out!r})", flush=True)
+    return out
+
+
 class BridgeServer:
     def __init__(
         self,
@@ -716,6 +730,11 @@ class BridgeServer:
                                     break
                                 if stripped != chunk_body:
                                     chunk_body = stripped
+
+                                # strip leading continuation punctuation (the
+                                # ", a capital do Brasil..." autocomplete
+                                # artifact) so UI/TTS/history all start clean
+                                chunk_body = _strip_leading_continuation(chunk_body)
 
                                 # strip consecutive repeat fillers ("Opa! Opa!" or
                                 # "Entendi!" repeated right after the same filler) so
