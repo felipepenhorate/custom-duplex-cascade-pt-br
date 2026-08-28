@@ -51,6 +51,30 @@ Point `GGUF=/path/to/model.gguf` to switch models.
 - `sft/` = the original project moved verbatim; `distill/` = the new
   self-distillation project.
 
+## Known issues
+
+### Distill: reply opens by continuing the user's utterance (mitigated 2026-08)
+
+The distill model occasionally opens its reply with the **continuation of the
+user's own sentence** instead of a fresh answer — e.g. user: *"Qual é a capital
+do Brasil?"* → assistant: *", a capital do Brasil é Brasília."* (leading comma
++ echo of the user's words).
+
+**Why:** the teacher (frozen base) sometimes autocompleted the user turn when
+generating the assistant content under the v1 *"Responda de forma curta"*
+trigger, and the content forward-KL anchors that mode into the trained model.
+The v2 trigger at inference reduces it but does not remove it.
+
+**Current mitigation:** the bridge strips leading whitespace + continuation
+punctuation from every micro-turn before TTS/transcript/history
+(`_strip_leading_continuation` in `distill/DuplexCascade/server.py`).
+
+**Planned fix (future):** regenerate the teacher training data with the **v2
+trigger** ("responda de forma natural e completa … que responda de fato ao que o
+usuário perguntou … não se repita") and retrain — see `distill/SPEC.md` §6 R0 —
+so the continuation artifact is gone from the model natively instead of being
+stripped at inference.
+
 ## Citation
 
 If you use this work, please cite the accompanying article
