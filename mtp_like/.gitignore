@@ -1,0 +1,17 @@
+# training artifacts
+training/runs/
+data/prepped_policy/
+data/prepped_policy.parquet
+data/*.parquet
+logs/
+_unsloth_temporary_saved_buffers/
+unsloth_compiled_cache/
+
+# latex
+article/*.aux
+article/*.log
+article/*.out
+
+# python
+__pycache__/
+*.pyc

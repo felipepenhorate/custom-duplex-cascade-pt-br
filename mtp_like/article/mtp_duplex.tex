@@ -1,0 +1,462 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\def\BibTeX{{\rm B\kern-.05em{\sc I\kern-.025emB}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\title{MTP-Duplex: Attaching Full-Duplex Turn-Taking to Any LLM with an MTP-Style Protocol Companion}
+
+\author{\IEEEauthorblockN{Penhfel et al.}
+\IEEEauthorblockA{\textit{private project — custom-duplex-cascade-pt-br/mtp\_like}}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Full-duplex speech dialogue requires the conversational model to perform two
+tasks at once: generating answer content \emph{and} controlling turn-taking
+(when to speak, when to stop, when to acknowledge). The DuplexCascade approach
+trains these two skills into a single model by interleaving answer text with
+control tokens. We argue this coupling is unnecessary: a small, dedicated
+\emph{protocol companion} — fine-tuned on the same duplex micro-turn data —
+can act as a MultiToken-Prediction-style (MTP) head for the control stream,
+running alongside an otherwise untouched big model. The companion predicts,
+at every conversation event, only the next duplex control tag (or nothing),
+while the big model only ever writes answer text. We train a 0.8B companion
+(Qwen3.5-0.8B) on the DuplexCascade pt-BR duplex dataset (10k dialogues)
+augmented with \emph{barge-in} and \emph{silence-semantics} supervision, and
+demonstrate: (i) 97.5\% tag-stream accuracy with perfect F1 on the critical
+controller decisions (barge-in interruption and backchannel recognition),
+(ii) correct controller behavior on hand-built conversation probes, and
+(iii) a working end-to-end browser demo where a stock Qwen3-4B model engages
+in barge-in-capable full-duplex conversation, driven entirely by the
+companion. The approach is model-agnostic: turn-taking can be attached to any
+LLM without fine-tuning it.
+\end{abstract}
+
+\begin{IEEEkeywords}
+full-duplex dialogue, turn-taking, spoken dialogue systems, MTP,
+VAD-free, companion model
+\end{IEEEkeywords}
+
+\section{Introduction}
+\IEEEPARstart{S}{poken} dialogue systems are moving from turn-based
+(``push-to-talk'') interaction to \emph{full-duplex} conversation, where both
+parties may speak at any time. The DuplexCascade paper~\cite{duplexcascade}
+established that a language model can learn the full-duplex protocol directly:
+its training data interleaves user and assistant \emph{micro-turns} and
+supervises a set of control tokens (``user is speaking'', ``user finish
+speaking'', ``user interruption'', ``user backchannel'', ``user is
+thinking'', ``system backchannel'') so that the same model that writes the
+answer also emits the control stream. The model must therefore be
+fine-tuned — deeply — for the turn-taking skill, and the skill is locked into
+that specific checkpoint.
+
+This paper proposes a separation of concerns. Instead of teaching the answer
+model the protocol, we train a \emph{small companion model} that predicts
+\emph{only} the protocol stream, on behalf of the bigger model, while the
+bigger model continues to do what it already does: produce answer text.
+This is the same division of labor as MultiToken Prediction (MTP) heads
+(e.g., DeepSeek~\cite{deepseek}), where a lightweight module predicts tokens
+one step ahead alongside the main model — except that our companion predicts
+a different vocabulary: the \emph{duplex cascade protocol}, not the next
+answer token. On positions where no control token applies it emits nothing
+(an empty string that never enters the context). The companion therefore acts
+as the \emph{controller} of the system: it decides turn starts and ends,
+barge-ins, backchannels and silences, without any voice-activity detection
+(VAD).
+
+Concretely we contribute:
+
+\begin{itemize}
+\item a training scheme that reuses the exact DuplexCascade pt-BR duplex
+dataset (same micro-turns, same phenomena) but with \emph{tag-only}
+supervision at item boundaries, plus two controller-focused augmentations:
+\emph{barge-in} records (user words arriving over an open assistant
+utterance $\rightarrow$ interruption) and \emph{silence-semantics} records
+(user utterance $+$ silence $\rightarrow$ ``finish speaking''), including
+minimal single-utterance variants;
+\item a 0.8B companion (Qwen3.5-0.8B, text-only) fine-tuned with unsloth
+QLoRA on a single RTX 4080 in about two hours, reaching 97.5\% tag-stream
+accuracy and perfect F1 on the interruption and backchannel decisions;
+\item a runtime \emph{orchestrator} that consumes ASR word events and
+silence, queries the companion, and drives any stock LLM — no VAD, no
+special tokens in the big model's vocabulary;
+\item an end-to-end browser demo in which a stock Qwen3-4B model holds a
+barge-in-capable full-duplex conversation in Brazilian Portuguese, entirely
+controlled by the companion.
+\end{itemize}
+
+\section{Background and Related Work}
+
+\subsection{DuplexCascade}
+The DuplexCascade paper~\cite{duplexcascade} constructs a full-duplex speech
+dialogue pipeline by (1) converting plain dialogues into interleaved
+micro-turns: user turns are split into 1--7-token chunks, each answered by a
+system tag such as ``user is speaking''; the final chunk is answered by
+``user finish speaking'' plus the first answer chunk; system turns are
+delivered in ~10-token bursts separated by ``no voice'' user turns; and six
+interaction phenomena (pauses, interruptions, backchannels, thinking pauses,
+etc.) are simulated probabilistically; and (2) fine-tuning an LLM on the
+resulting stream with masked, weighted cross-entropy so that it learns to
+interleave answer text and control tokens. The model's own outputs therefore
+\emph{are} the control stream, and the pipeline (ASR $\rightarrow$ LLM
+$\rightarrow$ TTS) reacts to them.
+
+The key limitation we address: answer quality and turn-taking skill are
+co-trained into one set of weights. Attaching the protocol to a new or
+better LLM requires a full re-fine-tune of that model with protocol tokens
+in its vocabulary, and the model cannot be used with arbitrary serving
+stacks.
+
+\subsection{MultiToken Prediction}
+DeepSeek-V3~\cite{deepseek} introduces MTP modules: each MTP layer takes the
+previous layer's hidden state and the \emph{next token's embedding} and
+predicts the token after next, in parallel with the main model's next-token
+prediction. The main model's task is unchanged; the MTP head just looks
+ahead. Our companion is analogous in \emph{role} but different in subject:
+it looks ahead in the \emph{protocol stream} — it predicts which duplex
+control token fires at the next boundary — while the main model continues to
+predict answer tokens. The big model is completely untouched.
+
+\subsection{Turn-taking without VAD}
+VAD-free turn-taking has been explored via ``word events and silence
+timers'' (e.g., in streaming ASR pipelines). DuplexCascade itself is
+VAD-free at the LLM level: ``no voice'' markers replace VAD, and the model
+learns their meaning. Our companion learns the same semantics from the same
+data, but as a standalone decision module: it consumes the ASR word stream
+and the assistant's generated text and decides the protocol state. This
+keeps the big model's serving stack completely standard.
+
+\section{Method}
+
+\subsection{The protocol vocabulary and the companion's role}
+Let $\mathcal{T} = \{\texttt{no\_tag}, \texttt{user\_is\_speaking},
+\texttt{user\_finish\_speaking}, \texttt{user\_interruption},
+\texttt{user\_backchannel}, \texttt{user\_is\_thinking},
+\texttt{system\_backchannel}, \texttt{system\_take\_floor},
+\texttt{system\_handover}\}$ be the companion's output vocabulary, where
+\texttt{no\_tag} is a label-only symbol (\texttt{$<$no tag$>$}) that never
+enters the context. At every conversation event the companion maps the
+duplex context (the interleaved user/assistant item stream, rendered in
+ChatML) to a distribution over $\mathcal{T}$; a tag fires only if its
+probability exceeds a per-tag threshold. Fired tags are appended to the
+context as assistant items, exactly like the training stream; \texttt{no\_tag}
+means ``emit nothing''.
+
+The last two tags implement the \emph{promptable controller}: when a system
+instruction (a \emph{rule}) is present in the context, the companion can fire
+\texttt{system\_take\_floor} (the system interrupts the user now — an
+instant, sub-second response) or \texttt{system\_handover} (control goes to
+the big model, which decides what to do, possibly nothing).
+
+\subsection{Training targets from the DuplexCascade data}
+We reuse the pt-BR duplex dataset produced by the companion project
+(10k dialogues; the same 50k-source micro-turn pipeline as
+\cite{duplexcascade}, with variable-length system chunks). For every item
+$i$ of a dialogue we define the target as the tag carried by the
+\emph{next} assistant item:
+
+\begin{equation}
+\text{target}(i) = \begin{cases}
+  \text{special}(\text{item}_{i+1}) & \text{item}_i \text{ is user}\\
+  \texttt{no\_tag} & \text{item}_i \text{ is assistant}
+\end{cases}
+\end{equation}
+
+where \texttt{special} is the control token of the following assistant
+micro-turn (or \texttt{no\_tag} when the micro-turn is plain text). Each
+dialogue becomes one training sequence with masked labels: cross-entropy is
+applied only at item boundaries (the final token of each item). All other
+positions are $-100$.
+
+This single transformation gives the companion exactly the supervision the
+paper's model received, but as a \emph{classification} of the protocol
+state instead of a generation task.
+
+\subsection{Controller augmentations}
+The vanilla targets cover the paper's phenomena, but two behaviors are
+critical for a controller and under-represented:
+
+\paragraph{Streaming-aware supervision (SAS).} The runtime queries the
+companion while user words are still arriving, so for every multi-token
+user chunk we add partial-prefix records labeled \texttt{user\_is\_speaking}
+(words still arriving), except partials of an interrupting chunk, which are
+labeled \texttt{user\_interruption}.
+
+\paragraph{Barge-in (controller) records.} At random points inside every
+system turn we render the current assistant item as an \emph{open} item
+(partial content, no closing token — speech in progress) followed by
+(a) the user's next real words $\rightarrow$ \texttt{user\_interruption}
+(plus a partial-prefix variant: the first words of the barge-in),
+(b) \texttt{$<$no voice$>$} $\rightarrow$ \texttt{no\_tag} (silence during
+speech means keep talking), and (c) a sampled pt-BR backchannel word
+$\rightarrow$ \texttt{user\_backchannel} (an acknowledgment is not a
+barge-in). This is what lets the companion distinguish ``the user barged
+in'' from ``the user just said aham'' from ``the user paused''.
+
+\paragraph{Silence-semantics (turn-end) records.} The runtime inserts a
+\texttt{$<$no voice$>$} marker on ASR silence, so the data must define what
+silence means in every state: non-final chunk $+$ silence $\rightarrow$
+speaking (paused mid-speech); \emph{final} chunk $+$ silence $\rightarrow$
+finish speaking (turn complete — the answer must start; the original data
+never shows this, since finish always directly follows the final chunk);
+partial final chunk $+$ silence $\rightarrow$ speaking; and minimal
+single-utterance records $[\texttt{u chunk}, \texttt{$<$no voice$>$}]$
+(weight 5) for short single-batch utterances, without which the model never
+fires \texttt{finish} on a two-item context.
+
+\paragraph{Promptable-controller (rule) records.} To make the controller
+\emph{promptable}, we render a system instruction (the rule) as the first
+context item and label the boundary after a trigger chunk with
+\texttt{system\_take\_floor} or \texttt{system\_handover}: e.g. the CPF rule
+``No CPF, apenas números são permitidos. Se o cliente disser uma letra em vez
+de um número, interrompa...'' with a letter chunk after a digit dictation
+$\rightarrow$ take\_floor. The synthetic scenarios use the \emph{real
+dictation shape} (digit chunks with commas, variable count and order, the
+full alphabet as letters) so the companion learns the \emph{concept} (number
+vs.\ letter, rule trigger vs.\ unrelated words) instead of memorized words;
+negatives (rule present $+$ non-trigger chunk $\rightarrow$ the normal tag)
+prevent spurious fires, and a held-out probe confirms that without a rule the
+system tags never fire. About half of the regular records additionally get a
+generic system instruction (``Gerencie a conversa normalmente...'') so the
+base controller behaviors survive the instruction-conditioned training.
+
+\subsection{Loss}
+We fine-tune with masked cross-entropy and per-token label weights
+(tags carry the paper's relative weights, retuned for the 9-way decision:
+finish $=3$, interruption $=6$, backchannel $=3$, thinking $=2$, speaking
+$=2$, take\_floor $=5$, handover $=3$, \texttt{no\_tag} $=0.5$), plus a
+per-record multiplier (\texttt{loss\_weight}) so the rare controller
+patterns dominate the gradient (silence negatives $\times 3$, silence-finish
+$\times 3$, barge-in positives $\times 1.5$, rule positives $\times 5$).
+
+Because the companion must keep its \emph{language} and
+instruction-following ability (the rule mechanism depends on it), the
+content positions use an SDFT-style distill term: forward KL from the frozen
+base model over the teacher's top-$k$ support ($k=32$),
+\[
+\mathcal{L} = \underbrace{\frac{1}{N_{\text{sup}}}\sum_{i\,\in\,\text{bounds}}
+w_i\,\text{CE}(\hat{p}_i, y_i)}_{\text{tag boundaries}} \;+\;
+\lambda\,\underbrace{\frac{1}{N_{\text{sup}}}\sum_{i\,\in\,\text{content}}
+D_{\text{KL}}(p^{\text{base}}_i \,\|\, \hat{p}_i)}_{\text{content
+(forward-KL)}},
+\]
+with $\lambda=0.3$. The teacher is the same weights with the adapters
+disabled (no second model, no extra VRAM); this preserves the base model's
+language capability while the boundaries learn the protocol.
+
+\subsection{Inference}
+At runtime, the companion is queried per event (new ASR words, silence
+timer, assistant sentence boundary). Its decision is a distribution over
+$\mathcal{T}$; a tag fires only if its probability $\geq \theta_\text{tag}$
+and, for \texttt{user\_interruption}, only if the last user item is not the
+orchestrator-inserted \texttt{$<$no voice$>$} marker (silence must never
+hard-stop the assistant). The context rendering must match the training
+distribution exactly: user items are always closed
+(\texttt{$<$|im\_end|$>$}), even for partial content; only an in-progress
+assistant item is rendered open; the rule, when configured, is the first
+\texttt{system} item.
+
+\subsection{Orchestrator}
+The orchestrator maintains the duplex context and reacts to events:
+
+\begin{itemize}
+\item user words arrive $\rightarrow$ query; \texttt{user\_is\_speaking}
+$\rightarrow$ keep waiting (chunk closes when the next words arrive);
+\texttt{user\_finish\_speaking} $\rightarrow$ close the user turn and start
+the big model; \texttt{user\_interruption} $\rightarrow$ hard stop the
+answer and TTS;
+\item silence (word-gap timer, no VAD) $\rightarrow$ insert
+\texttt{$<$no voice$>$} and query; \texttt{finish} $\rightarrow$ start the
+answer; \texttt{no\_tag} $\rightarrow$ keep talking; \texttt{thinking}
+$\rightarrow$ wait;
+\item assistant sentence boundary $\rightarrow$ query; \texttt{no\_tag}
+$\rightarrow$ continue;
+\item \texttt{user\_backchannel} $\rightarrow$ keep talking;
+\texttt{system\_backchannel} $\rightarrow$ play a canned acknowledgment;
+\item \texttt{system\_take\_floor} $\rightarrow$ reset the user's turn and
+respond \emph{instantly} with a canned phrase over the local TTS (the big
+model's 2--4~s generation would never cut the user off); the rest of the
+interrupted utterance is not re-fed (no double fire);
+\item \texttt{system\_handover} $\rightarrow$ ask the big model to decide
+(respond now, or do nothing) with the rule and the user's words.
+\end{itemize}
+
+The big model receives plain text only and is otherwise untouched — except
+that it now gets the \emph{conversation history} (previous turns and its own
+answers, with protocol tags filtered out), which the companion derives from
+the duplex context; a stateless big model otherwise repeats itself (e.g.\ a
+bank assistant re-asking for a CPF it already requested).
+
+\section{Experiments}
+
+\subsection{Setup}
+\paragraph{Data.} The 10k-dialogue pt-BR duplex dataset (sft pipeline, 2026).
+The prep builds $\sim$946k records: 10k main streams, 200k SAS, 155k
+barge-in, 553k silence-semantics, 28k prompt-rule scenarios, and the
+instruction mix. Split 99.5/0.5 with the same seed as the sft project.
+
+\paragraph{Companion.} \texttt{principled-intelligence/Qwen3.5-0.8B-text-only}
+(the Qwen3.5-0.8B language model, 0.75B), QLoRA-style LoRA (r=32, $\alpha$=32)
+on all linear layers plus embedding/LM-head fine-tuning of the 10 new special
+tokens, bf16, unsloth 2026.9.7 (Qwen3.5 fast path with
+\emph{fla}/\emph{causal-conv1d} kernels), 3000 steps, effective batch 16
+(per-device batch 1 $\times$ 16 accum — batch 2 exceeds the 16~GB VRAM of the
+host's WSL2 setup), lr $10^{-4}$, distill $\lambda=0.3$, $k=32$,
+$\sim$5h on a single RTX 4080.
+
+\paragraph{Big model.} Stock \texttt{Qwen/Qwen3-4B-Instruct-2507} for the
+end-to-end demo (see \S\ref{sec:discussion} for why Qwen3.5-4B is not the
+default).
+
+\subsection{Tag-stream accuracy}
+Table~\ref{tab:tags} reports per-tag precision/recall/F1 on the held-out
+split (3,222 boundary decisions), computed with restricted argmax over
+$\mathcal{T}$.
+
+\begin{table}[htbp]
+\centering
+\caption{Per-tag results of the trained companion (v6) on the held-out
+duplex split.}
+\label{tab:tags}
+\begin{tabular}{lccc}
+\hline
+\textbf{tag} & \textbf{P} & \textbf{R} & \textbf{F1}\\
+\hline
+no tag (emit nothing) & 1.00 & 0.95 & 0.973\\
+user is speaking & 0.99 & 0.92 & 0.953\\
+user finish speaking & 0.79 & 0.98 & 0.877\\
+user interruption & 0.95 & 0.99 & 0.969\\
+user backchannel & 1.00 & 0.98 & 0.99\\
+user is thinking & 0.90 & 1.00 & 0.949\\
+system take floor & 1.00 & 1.00 & 1.00\\
+system handover & 1.00 & 1.00 & 1.00\\
+\hline
+accuracy & \multicolumn{3}{c}{0.956}\\
+\hline
+\end{tabular}
+\end{table}
+
+The two rare but critical controller decisions — interruption and
+backchannel recognition — stay near-perfect (F1 0.97/0.99), and the new
+promptable-controller tags are perfect on the held-out data. The small
+accuracy drop versus v5 (0.975) is the price of the instruction-conditioned
+training and the distill term.
+
+\subsection{Controller probes}
+We additionally probe the runtime query path directly (guards and
+thresholds applied), on hand-built conversations: user speaking
+(mid-question) $\rightarrow$ speaking; finished question $+$ silence
+$\rightarrow$ finish (fires the answer); assistant mid-utterance $+$ user
+barge-in $\rightarrow$ interruption; partial barge-in $\rightarrow$
+interruption; ``aham'' during assistant speech $\rightarrow$ backchannel
+(not an interruption); silence during assistant speech $\rightarrow$ keep
+talking; all correct with probability $\geq 0.83$ at the decision point,
+with the remaining ones carried by the no-voice guard / the state machine.
+
+Promptable-controller probes (rule rendered as the system item): CPF rule +
+letter in the dictation rhythm $\rightarrow$ take\_floor (1.00); the same
+rule with digit chunks only $\rightarrow$ no fire; \emph{no rule} $+$ letter
+$\rightarrow$ no fire (the system tags never fire without an instruction);
+handover rule + trigger $\rightarrow$ handover (1.00); rule + unrelated words
+$\rightarrow$ no fire. In the live demo, the rule detection uses STT digits
+normalized to words and per-word chunking; the letter fires at 0.60--0.86
+once the dictation rhythm is established.
+
+\subsection{End-to-end}
+In the browser demo (a Banco Penha banking assistant persona), a stock
+Qwen3-4B answers ``tudo bem?'', is asked for a credit card and replies by
+asking for the CPF (with conversation history, it never re-asks), and is
+interrupted when the user speaks over it. With the prompt rule configured,
+dictating ``1, 2, 3, x, 5'' makes the companion fire
+\texttt{system\_take\_floor} on the letter: the system instantly cuts the
+user off with ``Apenas números são aceitos no CPF.'' while the companion's
+decisions drive the entire exchange; the big model never sees a special
+token.
+
+\section{Discussion and Limitations}
+\label{sec:discussion}
+
+\paragraph{Why not fine-tune the big model.} The whole point is
+composability: the companion is a 0.8B sidecar trained in hours on one GPU;
+swapping the big model (a better checkpoint, a GGUF, a different family)
+requires no retraining of the turn-taking skill.
+
+\paragraph{Turn-end detection.} The learned turn-end signal is
+sentence-final punctuation of the final chunk plus silence. The ASR must
+therefore punctuate (faster-whisper does by default); unpunctated transcripts
+delay the ``finish'' decision until the next word batch or a second silence.
+
+\paragraph{Qwen3.5-4B as the big model.} The user's target big model,
+Qwen3.5-4B, verbalizes its chain of thought (``thinking / Thinking
+Process:'' text) even with thinking disabled in the chat template and strong
+system directives — the same behavior that led the sft project to reject it.
+The demo therefore defaults to Qwen3-4B-Instruct-2507; the companion is
+model-agnostic and the 4B remains selectable (e.g., served by llama.cpp).
+
+\paragraph{Barge-in during a closed sentence.} Barge-ins over an
+\emph{open} assistant item are detected with probability 1.0; barge-ins over
+a closed sentence are detected with $\sim$0.8 probability. The orchestrator
+stops the answer on any user words regardless, so the system behaves
+correctly even when the tag is marginal.
+
+\paragraph{Data quality lesson.} Two bugs in the data pipeline were found by
+eval-driven debugging (a shared token cache corrupting input text across
+dialogues, and a duplicated chunk in silence records); fixing them moved
+held-out accuracy from 0.70 to 0.98. We recommend always verifying prep
+output against the source dialogues.
+
+\paragraph{Prompt-rule detection vs.\ hardcoded words.} The rule mechanism
+is learned, not coded: the held-out data shows perfect precision/recall on
+the system tags, and probes confirm the model generalizes the letter rule to
+unseen letters (a--z) and number words. The one remaining weakness is
+rhythm-dependent: a letter that follows just a single digit chunk is a weak
+signal (0.17--0.60), while the same letter after two or more digit chunks
+fires reliably (0.60--0.86). A data variant with more digit-count diversity
+is the planned fix.
+
+\paragraph{System training cost on constrained hardware.} The companion
+training must run within 16~GB VRAM under WSL2, where the dxg driver mirrors
+GPU memory into host RAM: a per-device batch of 2 (the original setting)
+deterministically OOMs the 31~GB VM (15.8~GB VRAM $\rightarrow$ $\sim$31~GB
+host anon-RSS). Batch 1 $\times$ 16 accumulation keeps VRAM at
+$\sim$11~GB at the same effective batch, at the cost of $\sim$5~h wall time.
+
+\section{Conclusion}
+We presented MTP-Duplex: attach full-duplex turn-taking to any LLM by
+training a small protocol companion that predicts the DuplexCascade control
+stream on behalf of the big model. On the DuplexCascade pt-BR dataset the
+companion reaches 95.6\% tag accuracy with near-perfect
+interruption/backchannel recognition, and its \emph{promptable controller}
+extends the protocol with instruction-conditioned system tags
+(take-the-floor and handover) learned under a distill objective that
+preserves instruction-following. The companion successfully drives a stock
+big model in a live full-duplex browser demo — banking assistant flow with
+instant rule interrupts, no VAD, no big-model fine-tuning. The approach
+decouples answer quality from turn-taking skill and makes the duplex
+protocol a reusable, attachable module.
+
+\begin{thebibliography}{00}
+\bibitem{duplexcascade}
+J.~Yang, Y.~Fujita, and Y.~Sudo, ``DuplexCascade: full-duplex speech-to-speech
+dialogue with VAD-free cascaded ASR--LLM--TTS pipeline and micro-turn
+optimization,'' 2026, arXiv:2603.09180. Demo: sbintuitions.github.io/DuplexCascadeDemo.
+\bibitem{deepseek}
+DeepSeek-AI, ``DeepSeek-V3 technical report,'' 2024, arXiv:2412.19437.
+\bibitem{qwen35}
+Qwen~Team, ``Qwen3.5: towards native multimodal agents,'' Feb.~2026,
+qwen.ai/blog?id=qwen3.5.
+\bibitem{unsloth}
+Unsloth~AI, ``Unsloth: faster fine-tuning,'' unsloth.ai.
+\end{thebibliography}
+
+\end{document}

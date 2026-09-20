@@ -47,13 +47,14 @@ def resample_24k_to_16k(pcm: np.ndarray) -> np.ndarray:
 
 class STTService:
     def __init__(self, model_name: str, device: str, compute_type: str, silence_s: float, min_silence_s: float,
-                 partial_interval_s: float = 0.6):
+                 partial_interval_s: float = 0.6, partial_commit_s: float = 2.0):
         self.model_name = model_name
         self.device = device
         self.compute_type = compute_type
         self.silence_s = silence_s
         self.min_silence_s = min_silence_s
         self.partial_interval_s = partial_interval_s  # live feedback cadence while speaking
+        self.partial_commit_s = partial_commit_s  # how old a word must be before it is "settled"
         self.model = WhisperModel(model_name, device=device, compute_type=compute_type)
 
     async def _transcribe(self, pcm16: np.ndarray, beam_size: int, word_timestamps: bool):
@@ -149,7 +150,7 @@ class STTService:
             # words whose end is well before the current buffer end are settled;
             # the newest ~2s tail is still being re-decoded and may change
             buf_end = pcm16.size / WHISPER_SR
-            commit_cut = buf_end - 2.0
+            commit_cut = buf_end - self.partial_commit_s
             settled: list[str] = []
             for seg in segments:
                 if not getattr(seg, "words", None):
@@ -237,9 +238,13 @@ async def main() -> None:
     p.add_argument("--silence-s", type=float, default=0.6,
                    help="silence gap that ends an utterance (turn boundary)")
     p.add_argument("--min-silence-s", type=float, default=0.3)
+    p.add_argument("--partial-commit-s", type=float, default=2.0,
+                   help="words older than this are streamed as settled partials")
+    p.add_argument("--partial-interval-s", type=float, default=0.6,
+                   help="cadence of live partial transcripts")
     args = p.parse_args()
 
-    svc = STTService(args.model, args.device, args.compute_type, args.silence_s, args.min_silence_s)
+    svc = STTService(args.model, args.device, args.compute_type, args.silence_s, args.min_silence_s, partial_interval_s=args.partial_interval_s, partial_commit_s=args.partial_commit_s)
     print(f"[stt] faster-whisper '{args.model}' ready on :{args.port} (pt, silence {args.silence_s}s)", flush=True)
     async with websockets.serve(svc.handle, host="", port=args.port, max_size=8 << 20):
         await asyncio.Future()

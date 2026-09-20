@@ -128,10 +128,13 @@ def encode_items(
             seg_sup = [True] * len(seg)
             if item.get("special") == FINISH_SPECIAL and mask_first_tokens > 0:
                 # mask the first `mask_first_tokens` content tokens of the
-                # response: positions 0..mask-1 of this item (position 0
-                # predicts content[0]; the tag itself is predicted earlier).
-                n = min(mask_first_tokens, len(seg) - 1)
-                seg_sup[:n] = [False] * n
+                # response: content positions of this item (after the ChatML
+                # header). The tag sits at content position 0: masking it
+                # drops the CE/KL on the first content token, while the tag
+                # itself is predicted by the position BEFORE it (the header's
+                # final token), whose weighted CE is preserved.
+                n = min(mask_first_tokens, len(seg) - 1 - len(header_assistant))
+                seg_sup[len(header_assistant):len(header_assistant) + n] = [False] * n
 
         boundaries.append(len(seq) + len(seg))
         seq.extend(seg)
@@ -161,7 +164,7 @@ def encode_items(
     weights = [0.0] * len(seq)
     for i in range(len(seq) - 1):
         if labels[i] != -100:
-            weights[i] = seq_weight[i + 1] if seq_supervised[i + 1] else 0.0
+            weights[i] = seq_weight[i + 1]
 
     return {
         "input_ids": torch.tensor(seq, dtype=torch.long),

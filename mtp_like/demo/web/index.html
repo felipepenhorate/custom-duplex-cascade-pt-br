@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DuplexCascade</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="title">DuplexCascade(Real-time Demo)</div>
+      <div class="status">
+        <span id="wsStatus" class="badge">WS: Disconnected</span>
+        <span id="audioStatus" class="badge">Audio: Idle</span>
+        <button id="btnStart" class="btn">Start Microphone</button>
+        <button id="btnStop" class="btn btn-secondary" disabled>Stop Microphone</button>
+        <button id="btnMute" class="btn btn-secondary">Mute: Off</button>
+        <button id="btnReset" class="btn">Reset</button>
+        <button id="btnDone" class="btn btn-secondary">Done</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="side-panel system-panel">
+        <div class="wave-wrap">
+          <canvas id="systemWave" class="wave-canvas"></canvas>
+        </div>
+        <div class="wave-label">System</div>
+      </aside>
+
+      <section class="chat-panel">
+        <div id="chatList" class="chat-list"></div>
+      </section>
+
+      <aside class="side-panel user-panel">
+        <div class="wave-wrap">
+          <canvas id="userWave" class="wave-canvas"></canvas>
+        </div>
+        <div class="wave-label">User</div>
+      </aside>
+    </main>
+
+    <footer class="state-panel">
+      <div class="state-title">Companion state (controller)</div>
+      <div id="companionNow" class="state-now">—</div>
+      <div id="companionLog" class="state-log"></div>
+    </footer>
+    <script src="client.js"></script>
+  </body>
+</html>
+
