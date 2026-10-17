@@ -832,6 +832,17 @@ stay-silent tasks reward. Almost all of the missing behaviour is in the candour-
 column; the interruption and smooth-turn columns are unchanged or slightly better in
 the ablation, so the cost of the extra machinery is confined rather than global.
 
+\paragraph{The clock is not a sensitive parameter.} Because durations in this
+harness come from a calibrated speaking rate rather than from audio, we recomputed
+every TOR column of the four trained models at 2.5, 3.0, 3.25 and 4.0 words/s---a
+$\pm25\%$ band around the calibrated value. Every value is identical to three
+decimals at all four rates. The reason is that the decisions sit far from the
+duration gates: a six-word reply is 1.5--2.4\,s at these rates, comfortably above
+the 1\,s ``formal turn'' threshold, so the word-count branch of FDB's rule decides
+rather than the duration branch. The clock is therefore a documented approximation
+that does not drive any conclusion in this paper. The latency columns are measured
+inference compute and are unaffected by it by construction.
+
 \subsection{Anchoring strength and capability retention}
 \label{sec:abl_lambda}
 The retention result of Section~\ref{sec:results}---distillation keeps function
@@ -882,17 +893,6 @@ flat over $0.1$--$1.0$ at a matched 300-step budget, and that retention still ho
 at full budget for $\lambda{=}1.0$; it does not measure a $\lambda$ sweep at full
 budget, which is the experiment that would rule out a small-$\lambda$ degradation
 appearing only with longer training.
-
-\paragraph{The clock is not a sensitive parameter.} Because durations in this
-harness come from a calibrated speaking rate rather than from audio, we recomputed
-every TOR column of the four trained models at 2.5, 3.0, 3.25 and 4.0 words/s---a
-$\pm25\%$ band around the calibrated value. Every value is identical to three
-decimals at all four rates. The reason is that the decisions sit far from the
-duration gates: a six-word reply is 1.5--2.4\,s at these rates, comfortably above
-the 1\,s ``formal turn'' threshold, so the word-count branch of FDB's rule decides
-rather than the duration branch. The clock is therefore a documented approximation
-that does not drive any conclusion in this paper. The latency columns are measured
-inference compute and are unaffected by it by construction.
 
 \section{Discussion and Limitations}
 \label{sec:discussion}
