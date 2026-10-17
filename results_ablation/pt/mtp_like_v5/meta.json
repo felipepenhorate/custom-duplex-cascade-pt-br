@@ -1,0 +1,23 @@
+{
+  "model": "mtp_like_v5",
+  "label": "Companion v5 (no promptable controller) [instruction]",
+  "kind": "policy_companion",
+  "lang": "pt",
+  "tasks": [
+    "pause_candor",
+    "pause_synthetic",
+    "smooth_turn",
+    "backchannel_icc",
+    "interruption_synthetic"
+  ],
+  "seed": 1234,
+  "prime_mode": "decision",
+  "prompt_candidate": "instruction",
+  "system_prompt": "Gerencie a conversa normalmente, com turnos naturais.",
+  "words_per_second": 3.25,
+  "n_scenarios": 727,
+  "n_errors": 0,
+  "chunker": "TrainingChunker",
+  "turn_style": "training",
+  "ablation": "companion v5: 7 tags, no promptable-controller / augmentation set"
+}

@@ -117,6 +117,37 @@ def word_chunker(text: str, rng: random.Random) -> list[str]:
     return out
 
 
+def sentence_chunker(text: str, rng: random.Random) -> list[str]:
+    """The naive arm of the input-stream ablation: whole sentences.
+
+    Kept on purpose. Feeding complete sentences as if they were ASR partials is
+    the mistake that inflated pause-handling TOR from 0.08 to 0.29 (see
+    ``FINDINGS.md``), and an ablation needs the wrong arm available and
+    labelled rather than re-discovered. Sentences longer than a normal turn are
+    split in half so this arm still has an end-of-turn decision to make.
+    """
+    sents = split_sentences(text)
+    if not sents:
+        return [text]
+    out: list[str] = []
+    for s in sents:
+        ws = s.split()
+        if len(ws) > 20:                     # keep sentence-sized pieces bounded
+            mid = len(ws) // 2
+            out.append(" ".join(ws[:mid]))
+            out.append(" ".join(ws[mid:]))
+        else:
+            out.append(s)
+    return out
+
+
+CHUNKERS: dict[str, object] = {
+    "training": None,     # resolved to TrainingChunker(tokenizer) when available
+    "sentence": sentence_chunker,
+    "word": word_chunker,
+}
+
+
 def ends_sentence(text: str) -> bool:
     """True when this piece ends a sentence (used for the backchannel GT)."""
     return bool(_TERMINAL_RE.search(text))

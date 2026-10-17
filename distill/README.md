@@ -1,5 +1,10 @@
 # DuplexCascade-Distill
 
+> **Write-up:** this approach is also covered, together with the other two
+> and a shared free-generation evaluation, in the combined article at
+> [`../article/main.tex`](../article/main.tex) (PDF: `../article/main.pdf`).
+
+
 A new training methodology for the DuplexCascade micro-turn model that **learns
 the duplex turn-taking protocol without regressing general capabilities** (the
 current `duplex_cascade/` fine-tune drifts on function calling / tool use / etc.).

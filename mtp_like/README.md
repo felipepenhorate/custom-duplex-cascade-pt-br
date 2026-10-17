@@ -1,5 +1,10 @@
 # mtp_like — MTP-Style Duplex Protocol Companion for Any LLM
 
+> **Write-up:** this approach is also covered, together with the other two
+> and a shared free-generation evaluation, in the combined article at
+> [`../article/main.tex`](../article/main.tex) (PDF: `../article/main.pdf`).
+
+
 A **novel approach to full-duplex turn-taking** (the DuplexCascade paper,
 `sft/duplex_cascade_article.pdf`): instead of fine-tuning the conversational
 LLM to both answer AND emit the duplex control tokens, a **small companion

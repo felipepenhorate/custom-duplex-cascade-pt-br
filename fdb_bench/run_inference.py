@@ -33,13 +33,21 @@ def resolved_candidate(adapter, args) -> str:
             or DEFAULT_PROMPT_CANDIDATE.get(args.model, "none"))
 
 
-def build_chunker(prefer_training: bool = True):
-    """The user-side chunker: the training one if a tokenizer is available.
+def build_chunker(prefer_training: bool = True, kind: str = "training"):
+    """The user-side chunker. The single most important fidelity knob in the bench.
 
-    This is the single most important fidelity knob in the bench — see
-    ``fdb_bench/chunking.py``. Falls back to the tokenizer-free approximation
-    only if no tokenizer can be loaded.
+    ``kind`` selects the arm of the input-stream ablation:
+      * ``training`` (default) — the training algorithm, 1--7-token pieces;
+      * ``sentence`` — whole sentences, the naive arm that flatters the model;
+      * ``word`` — tokenizer-free approximation with matched piece lengths.
+
+    See ``fdb_bench/chunking.py``; falls back to ``word`` if no tokenizer can be
+    loaded for ``training``.
     """
+    if kind != "training":
+        from .chunking import CHUNKERS
+        print(f"chunker: {kind} (ablation arm — see FINDINGS.md)")
+        return CHUNKERS[kind]
     from .chunking import TrainingChunker, word_chunker
     if not prefer_training:
         return word_chunker
@@ -120,6 +128,14 @@ def main() -> None:
     ap.add_argument("--big-api-base", default=None,
                     help="llama-server for the mtp_like stock content model")
     ap.add_argument("--device", default="cuda")
+    ap.add_argument("--chunker", default="training",
+                    choices=["training", "sentence", "word"],
+                    help="user-stream chunker; 'sentence' is the ablation arm "
+                         "that does NOT match training (see FINDINGS.md)")
+    ap.add_argument("--turn-style", default="training",
+                    choices=["training", "long"],
+                    help="scenario turn length; 'long' is the ablation arm that "
+                         "does NOT match training (see FINDINGS.md)")
     ap.add_argument("--prompt-candidate", default=None,
                     help="named system-prompt configuration (see "
                          "adapters.PROMPT_CANDIDATES). Defaults to each "
@@ -160,7 +176,7 @@ def main() -> None:
 
     clock = SpeechClock(words_per_second=args.words_per_second)
     sim = DuplexSimulator(adapter, clock)
-    chunker = build_chunker(prefer_training=True)
+    chunker = build_chunker(prefer_training=True, kind=args.chunker)
 
     args.out.mkdir(parents=True, exist_ok=True)
     raw_path = args.out / "raw.jsonl"
@@ -170,7 +186,8 @@ def main() -> None:
     with raw_path.open("w", encoding="utf-8") as fh:
         for task in tasks:
             for sc in S.build_scenarios(task, limit=args.limit, seed=args.seed,
-                                        lang=args.lang, chunker=chunker):
+                                        lang=args.lang, chunker=chunker,
+                                        turn_style=args.turn_style):
                 res = sim.run(sc)
                 res.compute_s = getattr(adapter, "last_call_s", 0.0)
                 fh.write(json.dumps(_serialise(res), ensure_ascii=False) + "\n")
@@ -195,7 +212,8 @@ def main() -> None:
         "prompt_candidate": resolved_candidate(adapter, args),
         "system_prompt": adapter.system_prompt or "<none>",
         "words_per_second": args.words_per_second,
-        "chunker": type(chunker).__name__,
+        "chunker": type(chunker).__name__ if not callable(chunker) or hasattr(chunker, "__name__") else "?",
+        "turn_style": args.turn_style,
         "n_server_rejected": getattr(getattr(adapter, "client", None), "n_rejected", 0),
         "n_scenarios": n,
         "n_errors": n_err,

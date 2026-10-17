@@ -231,6 +231,46 @@ scored by rule (silence correct -> 5, silence when a reply was due -> 0). The
 interruption column keeps FDB's rubric verbatim, and each `judged.jsonl` record
 records which rubric produced it.
 
+## Ablations
+
+Three single-factor arms, all on pt-BR, 727 scenarios each, same seed and clock.
+Full table and discussion in `article/main.tex` §IX; the raw runs are committed
+under `results_ablation/` (TOR/ATA only — the arms are not judged, since no
+ablation claim depends on reply relevance). Re-run with
+`./fdb_bench/run_ablations.sh`.
+
+| arm | factor changed | pause synth ↓ | pause candor ↓ | smooth ↑ | intr ↑ | ATA ↑ |
+|---|---|---|---|---|---|---|
+| SFT main | none | 0.080 | 0.032 | 1.000 | 0.995 | **0.971** |
+| A1 | pieces = whole sentences | 0.080 | 0.097 | 1.000 | **0.000** | 0.706 |
+| A2 | turns = multi-sentence | **0.307** | 0.056 | 1.000 | 0.995 | 0.908 |
+| companion v6 main | full augmentation set, 9 tags | **0.073** | **0.000** | 0.975 | 0.990 | **0.973** |
+| A3 | companion v5, no promptable controller | 0.088 | 0.097 | **1.000** | **1.000** | 0.954 |
+
+**What each shows.**
+
+* **A1 (input granularity).** Whole sentences leave pause handling alone but
+  destroy interruption recovery (0.995 -> 0.000), because a one-piece interrupting
+  turn is off-distribution in a specific way: the training builder refuses to
+  interrupt with a single-chunk turn (it would produce two consecutive assistant
+  messages and break alternation). A benchmark can silently violate a training
+  invariant like this.
+* **A2 (turn length).** More than triples synthetic-pause TOR (0.080 -> 0.307) and
+  leaves everything else at its ceiling. Sentence-final pieces per turn is the
+  variable: real data ~1.5, A2 ~3.1.
+* **A3 (controller augmentations).** Removing the promptable-controller records and
+  the two extra tags costs 0.019 ATA (0.973 -> 0.954). The trade is precision for
+  recall: v5 has *better* turn-end recall (1.000 vs 0.958) and worse precision
+  (0.680 vs 0.698), and that precision loss is what appears as worse pause
+  handling. The augmentations make the controller more conservative about
+  committing — which is exactly what the stay-silent tasks reward.
+* **The clock is not a sensitive parameter.** Recomputing every TOR column of the
+  four trained models at 2.5, 3.0, 3.25 and 4.0 words/s (±25% around the calibrated
+  value) leaves every value identical to three decimals. A six-word reply is
+  1.5-2.4 s at those rates, well above FDB's 1 s formal-turn gate, so the
+  word-count branch of the rule decides rather than the duration branch. The clock
+  is a documented approximation that does not drive any conclusion here.
+
 ## The bugs this bench had
 
 Recorded because each produced a plausible-looking table, and three of them
@@ -254,9 +294,8 @@ which caps a perfect text-only policy at **precision 0.695 / recall 0.997**.
 
 The generator joined 2-4 sentences per turn: **3-7x the training length and
 2-4x the ambiguity**. Every extra sentence-final piece is another chance to fire
-early, which inflated pause/backchannel TOR (should not fire) *and* smooth/
-interruption TOR (should fire). Effect on SFT, same model and chunker, only the
-turn length changed:
+`<|user finish speaking|>` early. Effect on SFT, same model and chunker, only the
+turn length changed (the A2 ablation, which isolates this axis):
 
 | metric | buggy | fixed | *published* |
 |---|---|---|---|
@@ -296,10 +335,29 @@ All eight runs now have 0 lost scenarios.
 ### Wrong input shape
 
 The bench fed whole sentences (10-25 words) where training uses 1-7-token pieces
-(measured mean 2.19 words). A full sentence is a strong "complete thought" cue,
-so the turn-end decision became artificially easy and pause TOR looked excellent
-(0.015) while the model was handed information it never sees in production.
-Fixed by porting the training chunker (`chunking.TrainingChunker`).
+(measured mean 2.9 words per piece). **The ablation corrects what this actually
+cost, and the original explanation in this document was wrong.** The first harness
+deviated on two axes at once, and they are separable:
+
+| arm (SFT, pt-BR, one factor changed) | pause synth ↓ | pause candor ↓ | smooth ↑ | intr ↑ | ATA ↑ |
+|---|---|---|---|---|---|
+| main: training pieces, training turns | 0.080 | 0.032 | 1.000 | 0.995 | **0.971** |
+| A1: pieces = whole sentences | 0.080 | 0.097 | 1.000 | **0.000** | 0.706 |
+| A2: turns = multi-sentence (2-4) | **0.307** | 0.056 | 1.000 | 0.995 | 0.908 |
+
+* **Turn length** is what distorted pause handling: multi-sentence turns more
+  than triple synthetic-pause TOR (0.080 -> 0.307) because sentence-final
+  ambiguity scales with pieces per turn. This is the A2 arm, and it reproduces
+  the old buggy 0.292 almost exactly.
+* **Piece granularity** breaks interruption recovery instead: a one-piece
+  interrupting turn is a shape the training builder never produces (`can_interrupt
+  = len(q_chunks) > 1`), so the model has never seen it and does not re-take the
+  floor (0.995 -> 0.000). This is the A1 arm, and it leaves pause handling alone.
+
+Multi-sentence turns did **not** inflate smooth-turn or interruption TOR, contrary
+to what this section originally claimed; both stay at their ceiling in A2. Fixed
+by porting the training chunker (`chunking.TrainingChunker`) *and* generating
+turns to the measured distribution.
 
 ### Pause scenarios allowed resumption
 

@@ -1,0 +1,1034 @@
+% !TEX TS-program = pdflatex
+% Combined article for the three DuplexCascade pt-BR approaches.
+% Supersedes distill/article/main.tex and mtp_like/article/mtp_duplex.tex as the
+% single write-up; those remain as per-approach records.
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{mathtools}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{Three ways to learn the DuplexCascade micro-turn protocol:\\
+supervised fine-tuning, self-distillation, and a policy companion}
+
+\author{
+\IEEEauthorblockN{Felipe Penhorate Carvalho da Fonseca}
+\IEEEauthorblockA{}
+}
+
+\maketitle
+
+\begin{abstract}
+Full-duplex spoken dialogue requires a conversational model to do two things at
+once: produce answer content and control turn-taking---when to speak, when to
+stop, when to acknowledge, when to yield. The DuplexCascade paradigm encodes both
+in one language model by interleaving answer text with control tokens over
+\emph{micro-turns}. Learning that protocol is cheap, but the fine-tune is
+destructive: in our Brazilian-Portuguese implementation the plain-SFT model that
+learns the tags with 98\% accuracy simultaneously loses most of its function
+calling (100\%$\rightarrow$55.6\%) and general instruction following
+(100\%$\rightarrow$41.7\%). This paper studies three ways to obtain the protocol
+without that cost, on one shared pt-BR data pipeline, and evaluates them with one
+shared harness. (i)~\textbf{SFT} is the original recipe, kept as the baseline and
+as the fastest deployable model. (ii)~\textbf{Self-distillation} splits the
+objective by token position: weighted cross-entropy on the tags exactly as
+before, plus a per-token forward-KL to the frozen base model on every content
+position. It needs neither reinforcement learning nor on-policy rollouts, and
+with an offline teacher cache it costs no more than SFT; it matches the protocol
+(96.4\% vs.\ 98\% tag accuracy) while holding function calling, general
+instruction-following and knowledge benchmarks at base level. (iii)~An
+\textbf{MTP-style protocol companion} separates the skills instead of balancing
+them: a 0.8B sidecar predicts \emph{only} the control stream while an untouched
+big model writes the answer, reaching 95.6\% tag-stream accuracy with 0.97/0.99
+F1 on the two critical controller decisions (barge-in interruption and
+backchannel) and supporting instruction-conditioned interrupts. All three are
+then evaluated in \emph{free generation} with a Full-Duplex-Bench harness, and
+against the upstream English DuplexCascade release re-measured on the same
+harness, which reproduces its own published turn-taking numbers (ATA 0.896 vs.\
+0.858 published). All three pt-BR variants beat that published accuracy
+(ATA 0.955--0.973). The comparison also exposes what teacher-forced accuracy
+cannot see: the distill model, despite the best capability retention, has the
+weakest interruption relevance (1.59 vs.\ 3.56 and 4.36) and commits to the floor
+$13\times$ more slowly (3.29\,s vs.\ 0.25\,s), because the KL anchors the
+teacher's \emph{generation style} along with its capabilities. We further show
+that the evaluated input stream must match the training stream---on the same model,
+one ablation arm more than triples pause-handling TOR and another destroys
+interruption recovery, and the two axes are separable---and that one FDB dimension
+is unanswerable on this data by construction, since the system-backchannel tag
+occurs zero times in training.
+\end{abstract}
+
+\begin{IEEEkeywords}
+full-duplex dialogue, turn-taking, self-distillation, catastrophic forgetting,
+parameter-efficient fine-tuning, MTP, VAD-free, evaluation
+\end{IEEEkeywords}
+
+\section{Introduction}
+\IEEEPARstart{S}{poken} dialogue systems are moving from turn-based
+(``push-to-talk'') interaction to \emph{full-duplex} conversation, where both
+parties may speak at any time. The DuplexCascade
+paper~\cite{duplexcascade} established that a language model can learn the
+full-duplex protocol directly: its training data interleaves user and assistant
+\emph{micro-turns} and supervises a set of control tokens (``user is speaking'',
+``user finish speaking'', ``user interruption'', ``user backchannel'', ``user is
+thinking'', ``system backchannel'') so that the same model that writes the answer
+also emits the control stream. The model must therefore be fine-tuned---deeply---
+for the turn-taking skill.
+
+Learning the protocol is easy: the supervision is cheap, synthetic and
+deterministic. The fine-tune is not. In our pt-BR implementation, the plain-SFT
+model that learns the tags with 98\% accuracy simultaneously loses most of its
+ability to call functions (100\%$\rightarrow$55.6\%) and to follow general
+instructions (100\%$\rightarrow$41.7\%). This is catastrophic forgetting in its
+most practical form: the model becomes a good turn-taker and a bad assistant.
+
+This paper studies three answers to that problem, all built on the same pt-BR
+duplex pipeline and all evaluated with the same harness:
+
+\begin{itemize}
+  \item \textbf{SFT} (Section~\ref{sec:sft})---the original recipe: QLoRA on the
+        duplex micro-turn data with weighted, position-masked cross-entropy. It
+        remains the best raw turn-taker and the fastest to deploy, and it is the
+        baseline the other two are measured against.
+  \item \textbf{Self-distillation} (Section~\ref{sec:distill})---the observation
+        that the new skill and the capabilities to preserve are \emph{separable
+        by token position}. The tags live at supervised positions; the content
+        lives at the rest. Splitting the objective accordingly---weighted CE on
+        the tags, per-token forward-KL to the frozen base everywhere else---
+        retains the capabilities without RL and without rollouts.
+  \item \textbf{An MTP-style protocol companion}
+        (Section~\ref{sec:companion})---the inverse decomposition: a 0.8B sidecar
+        learns \emph{only} the protocol and drives an untouched big model, which
+        is the same division of labour as a Multi-Token-Prediction head except
+        that the predicted vocabulary is the control protocol rather than the
+        next answer token.
+\end{itemize}
+
+\emph{Is the protocol actually used?} The protocol metric these methods are
+usually compared on is teacher-forced: at each supervised position the model is
+handed the correct prefix and only its next-token choice is scored. That measures
+whether the protocol was \emph{learned}; it says nothing about whether the model
+\emph{decides} correctly when generating on its own, which is what a deployed
+duplex system needs. We therefore evaluate all three, plus the untrained base as
+a control, with a free-generation harness modelled on Full-Duplex-Bench
+(FDB)~\cite{lin2025fdb}, and---to anchor the comparison---we re-measure the
+upstream English \textsc{DuplexCascade} release with the same harness instead of
+quoting it. That reference lands on its own published numbers, which is the
+strongest available check that the harness measures what the benchmark measures.
+
+Four findings follow from pairing the two evaluations, and they are the
+contribution of Sections~\ref{sec:eval} and~\ref{sec:results}:
+
+\begin{enumerate}
+  \item \textbf{All three approaches reach the protocol; they differ in what it
+        costs.} SFT and the companion reach the best turn-taking accuracy
+        (ATA 0.971/0.973), distill is close (0.955) and all three exceed the
+        published 0.858---but the companion also has the best interruption
+        relevance (4.36) and the fastest commitment among the decomposed designs,
+        while SFT is an order of magnitude faster to stop and respond (0.035\,s
+        vs.\ 0.066\,s and 0.351\,s).
+  \item \textbf{Teacher forcing hides a generation-style cost.} The distill model
+        has the best capability retention and the worst free-generation reply
+        quality (interruption relevance 1.59) with a $13\times$ slower floor
+        commitment. The content-KL anchors the teacher's generation style
+        together with its capabilities, and the teacher occasionally
+        autocompleted the user's turn---an artifact teacher-forced accuracy
+        (96.4\%) cannot detect.
+  \item \textbf{The input stream is an experimental variable.} The models are
+        trained on 1--7-token ASR pieces and $\sim$10-word turns. Two single-factor
+        ablations show the axes are separable: multi-sentence turns more than
+        triple pause-handling TOR (0.080$\rightarrow$0.307) while whole-sentence
+        pieces destroy interruption recovery (0.995$\rightarrow$0.000). Any
+        free-generation protocol benchmark must therefore report the input
+        distribution it used.
+  \item \textbf{A metric can be unanswerable by construction.} No model here can
+        score the FDB backchannel dimension, because the tag it requires
+        (\texttt{<|system backchannel|>}) occurs zero times in the training data.
+        The upstream release, trained elsewhere, scores it---so the column
+        measures a data gap, not a capability gap.
+\end{enumerate}
+
+\section{Background and Related Work}
+\label{sec:background}
+
+\subsection{DuplexCascade and the micro-turn protocol}
+DuplexCascade~\cite{duplexcascade} keeps the intelligence of a text LLM by not
+modelling audio: a streaming ASR feeds text to the LLM, which emits interleaved
+answer text and control tokens, and a streaming TTS speaks the text. Turn-taking
+is \emph{VAD-free} in the sense that no separate voice-activity detector decides
+who speaks: the LLM itself emits control tokens based on the incoming text
+stream. The dialogue is decomposed into \emph{micro-turns}---short interleaved
+user and assistant fragments---so that the system can react before an utterance
+is complete. We adopt this setting exactly, and our contributions are about
+\emph{how the protocol is learned} and \emph{how it is measured}, not about the
+architecture.
+
+\subsection{Catastrophic forgetting and off-policy fine-tuning}
+Sequential SFT is inherently off-policy: the model learns to imitate expert
+actions on a fixed offline distribution, which prior work shows causes severe
+forgetting when adapting to a new task or
+domain~\cite{kirkpatrick2017,lifhoiem2017,mecklenburg2024}. The standard remedy
+is to make the signal on-policy with reinforcement learning and an explicit
+reward~\cite{chu2025,airef}. Rewards are often unavailable for a protocol skill,
+and on-policy RL (PPO/GRPO) is expensive and brittle. This motivates the
+distillation-based approaches we compare against plain SFT.
+
+\subsection{Self-distillation}
+\emph{Self-Distillation Fine-Tuning} (SDFT)~\cite{selfdistill2026} obtains
+on-policy benefits from demonstrations alone: the model acts as a \emph{teacher}
+conditioned on a demonstration and as a \emph{student} conditioned only on the
+query, and training minimizes a KL between the two on the student's own
+trajectories. It reduces forgetting substantially relative to SFT, but still
+needs on-policy rollouts (roughly $4\times$ SFT wall-clock). Related
+on-policy-distillation work reaches similar conclusions from different
+directions~\cite{tml2025,airef,rlsrazor2025,bai2022,snell2022}. Our
+self-distillation variant (Section~\ref{sec:distill}) is the degenerate case of
+this family in which the demonstration is the training sequence itself, so the
+teacher is simply the frozen base and no rollouts are required.
+
+\subsection{Parameter-efficient fine-tuning}
+We use LoRA~\cite{lora2022} and its quantized
+variant~\cite{qlora2023} throughout, both for the 4B duplex models and for the
+0.8B companion, with the toolchain of~\cite{unsloth}. PEFT matters here for a
+second reason: because the student is \emph{base + adapter}, the teacher forward
+pass is obtained by temporarily disabling the adapters, so the distillation
+teacher costs no extra VRAM and no second checkpoint.
+
+\subsection{Multi-token prediction and VAD-free turn-taking}
+Multi-Token Prediction heads~\cite{deepseek} predict several future tokens from a
+shared trunk with a lightweight module. Our companion
+(Section~\ref{sec:companion}) borrows the \emph{architectural} idea---a small
+module running alongside a large frozen model---but predicts a different
+vocabulary: the duplex protocol. It is therefore closer in spirit to a
+speculative or auxiliary head than to a pretraining objective. The
+companion is trained on the same data and with the same distill objective as
+Section~\ref{sec:distill}, which makes the two directly comparable.
+
+\section{Shared infrastructure: the pt-BR micro-turn pipeline}
+\label{sec:shared}
+
+All three approaches consume one dataset and target one protocol vocabulary, so
+we describe them once.
+
+\subsection{Protocol vocabulary and supervision}
+A dialogue is a strict alternation of user and assistant \emph{items}, each
+rendered in ChatML and closed with \texttt{<|im\_end|>}; assistant items may carry
+one control tag at their start. The tags are \texttt{<|user is speaking|>},
+\texttt{<|user finish speaking|>}, \texttt{<|user is thinking|>},
+\texttt{<|user interruption|>}, \texttt{<|user backchannel|>},
+\texttt{<|system backchannel|>}, plus the input-only marker
+\texttt{<|no voice|>} used for silence. Following the paper, loss is computed only
+on assistant micro-turns and each tag carries a task-specific weight:
+\texttt{user finish speaking} $\times 10$, \texttt{user interruption} $\times 5$,
+\texttt{system backchannel} $\times 3$, \texttt{user backchannel} $\times 2$,
+\texttt{user is speaking} and \texttt{user is thinking} $\times 1$.
+
+\subsection{Data: source dialogues and micro-turn construction}
+Two generations of source dialogues exist, and the difference matters for
+evaluation (Section~\ref{sec:fdb_setup}). The first generator instructed
+\emph{``respostas curtas do Assistente. Nada de textos longos''}, and the chunker
+fixed every assistant micro-turn at exactly 10 tokens; the resulting models spoke
+only in $\sim$10-token bursts. The continuation generator
+(\texttt{build\_long\_dialogues.py}) mixes \emph{short} (weight 6), \emph{long}
+(2) and \emph{mixed} (2) styles, so a fraction of assistant turns are 2--4-sentence
+replies up to 220 words, and system chunking samples 10--48 tokens instead of a
+constant. Both models in this paper train on the continuation data; the
+companion trains on the same dialogues.
+
+The deterministic micro-turn builder then converts each dialogue into items with
+six phenomena: randomized micro-turn length (user chunks 1--7 tokens), natural
+pauses (1--5 \texttt{<|no voice|>} items), user interruptions ($p=0.30$, with the
+first interrupting chunk labelled \texttt{user interruption} and later ones
+\texttt{user is speaking}), user backchannels ($p=0.01$, from a pt-BR
+interjection list), system backchannels (opt-in, $p=0.20$ at sentence-final user
+chunks) and user thinking pairs (1--20 \texttt{<|user is thinking|>} items closing
+each completed system turn). Strict user/assistant alternation is asserted. The
+generator \emph{oversamples interruptions} in FDB's sense in one respect worth
+noting: it never samples the position where an interruption begins, so we treat
+its 0.30 rate as an augmentation strength rather than a label prior.
+
+\subsection{Measured turn sizes}
+Because FDB's turn-taking gates are \emph{durations}, both sides' length
+distributions are load-bearing. Measured over the training data (3{,}000
+sequences):
+
+\begin{itemize}
+  \item \textbf{User pieces}: mean \textbf{2.9 words} per piece (median 3, p90 5),
+        arriving as 3.7 pieces per turn---so a user turn is $\sim$10.5 words and
+        contains $\sim$1.5 sentence-final pieces.
+  \item \textbf{Assistant content bursts}: mean 6.1 words but \emph{median 5,
+        p90 12, max 37}, with 50\% of bursts at ${\le}5$ words and 1\% above 20.
+        The heavy right tail is the intended effect of the variable chunking and
+        the longer source dialogues.
+\end{itemize}
+
+The consequence for evaluation is a mixture rather than a mean: a model trained
+on longer bursts crosses FDB's ``formal turn'' threshold ($\ge$1\,s) with fewer
+words, so the assistant-side length distribution moves the metric being reported.
+We return to this in Section~\ref{sec:fdb_setup} and report both sides' lengths
+with the results.
+
+\subsection{Runtime}
+The live stack is four components: \texttt{llama.cpp} serving the fine-tuned GGUF,
+\texttt{faster-whisper} for streaming ASR, \texttt{pocket-tts} for streaming
+speech synthesis, and a bridge that wires them and exposes a browser UI. Two
+serving details are mandatory and were sources of silent failure: the server must
+be started with \texttt{-sp} so the special tokens are returned by the completions
+endpoint at all, and the bridge must post to the raw completions endpoint rather
+than the chat endpoint, because the chat template mangles \texttt{<|...|>} tokens
+appearing in assistant history.
+
+\section{Approach A: supervised fine-tuning (the original recipe)}
+\label{sec:sft}
+
+\subsection{Method}
+QLoRA with $r{=}16$, $\alpha{=}16$, dropout 0, applied to all linear modules,
+plus \texttt{modules\_to\_save=["embed\_tokens","lm\_head"]} so that the seven new
+special-token embeddings are trained. The base is
+\texttt{Qwen/Qwen3-4B-Instruct-2507}. The objective is a weighted,
+position-masked cross-entropy: labels are shifted by one, every user position and
+every ChatML header is masked to $-100$, and each supervised tag token carries the
+weight of Section~\ref{sec:shared}. Training runs in two stages: an initial
+fine-tune, then a continuation fine-tune started from the \emph{merged} model on
+a short+long response mixture. Starting the second stage from the merged model
+rather than the base is required---from the base, the learned special-token
+embeddings and the turn-taking pattern are re-randomized and lost.
+
+\subsection{What it costs}
+SFT is the fastest model to serve and, as Section~\ref{sec:results} shows, the
+best raw turn-taker of the three. Its cost is the capability regression of
+Section~\ref{sec:results}: it is the baseline that motivates the other two
+approaches, not a straw man.
+
+\section{Approach B: self-distillation by position}
+\label{sec:distill}
+
+\subsection{The observation}
+The ``new skill'' (the turn-taking protocol) and the ``everything else'' (the
+capabilities we want to preserve) are \emph{separable by token position}: the tags
+live at supervised positions, the content lives at the other positions. We
+therefore split the objective in two:
+
+\begin{itemize}
+  \item \textbf{Tags}: the weighted cross-entropy to the supervised tag tokens,
+        exactly as in the plain SFT recipe.
+  \item \textbf{Everything else}: a per-token forward-KL to the \emph{frozen base
+        model} on content positions, so the student's distribution is anchored to
+        the pretrained policy wherever there is no explicit tag supervision.
+\end{itemize}
+
+The teacher is the frozen original model itself conditioned on the same duplex
+sequence, so no second model and no rollouts are needed. Because the student is
+\emph{base + LoRA}, the teacher forward is obtained with zero extra VRAM by
+temporarily disabling the adapters, and the teacher's top-$k$ next-token logits
+are precomputed once (offline cache), which removes the second forward pass
+entirely and makes the run no more expensive than SFT.
+
+\subsection{Loss}
+With $\hat{p}_i$ the student distribution at position $i$, $p^{\text{base}}_i$ the
+frozen base distribution, $y_i$ the supervised tag and $w_i$ its weight,
+\[
+\begin{aligned}
+\mathcal{L} ={}&
+\underbrace{\frac{1}{N_{\text{sup}}}\sum_{i\in\text{tags}}
+w_i\,\text{CE}(\hat{p}_i, y_i)}_{\text{tag cross-entropy}}\\
+&+\;\lambda\,\underbrace{\frac{1}{N_{\text{sup}}}\sum_{i\in\text{content}}
+D_{\text{KL}}\!\left(p^{\text{base}}_i \,\|\, \hat{p}_i\right)}_{\text{content
+anchoring}},
+\end{aligned}
+\]
+with $\lambda=1.0$ chosen by a short sweep over $\lambda\in\{0.1,0.3,1.0\}$ scored
+on tag accuracy and KL drift.
+
+\subsection{Practical details}
+Two implementation details mattered. First, \emph{artifact masking}: in every
+\texttt{user finish speaking} item the first two \emph{content} tokens of the
+response are left unsupervised, so the model is not forced to reproduce the
+teacher's opening tokens verbatim while the tag itself---predicted by the
+position before it---stays fully supervised. Second, \emph{capability anchors}:
+300 anchor prompts (150 function calling, 150 general QA) are mixed into the
+training set with \texttt{is\_anchor} set, so the formats we intend to protect are
+also anchored by the KL rather than only by the base weights.
+
+\section{Approach C: an MTP-style protocol companion}
+\label{sec:companion}
+
+\subsection{Separation of concerns}
+Instead of teaching the answer model the protocol, we train a \emph{small
+companion} that predicts \emph{only} the protocol stream on behalf of the bigger
+model, while the bigger model continues to do what it already does: produce answer
+text. This is the same division of labour as an MTP
+head~\cite{deepseek}---a lightweight module alongside the main model---except
+that our companion predicts a different vocabulary: the duplex protocol, not the
+next answer token. Where no control token applies it emits nothing (an empty
+string that never enters the context). The companion is therefore the
+\emph{controller} of the system: it decides turn starts and ends, barge-ins,
+backchannels and silences, without any voice-activity detection.
+
+\subsection{Vocabulary and supervision}
+Let $\mathcal{T}$ be the companion's output vocabulary, a set of nine names:
+\texttt{no\_tag}, \texttt{user\_is\_speaking}, \texttt{user\_finish\_speaking},
+\texttt{user\_interruption}, \texttt{user\_backchannel},
+\texttt{user\_is\_thinking}, \texttt{system\_backchannel},
+\texttt{system\_take\_floor} and \texttt{system\_handover}, where
+\texttt{no\_tag} is a label-only symbol that never enters the context. For every item $i$ of a dialogue the target is the tag
+carried by the \emph{next} assistant item:
+\[
+\text{target}(i) = \begin{cases}
+  \text{special}(\text{item}_{i+1}) & \text{item}_i \text{ is user}\\
+  \texttt{no\_tag} & \text{item}_i \text{ is assistant}
+\end{cases}
+\]
+Each dialogue becomes one sequence with labels masked everywhere except at item
+boundaries. This gives the companion exactly the supervision the paper's model
+received, but as a \emph{classification} of the protocol state rather than a
+generation task.
+
+\subsection{Controller augmentations}
+The vanilla targets cover the paper's phenomena, but two behaviours are critical
+for a controller and under-represented, so the prep adds $\sim$946k records on top
+of the 10k main streams:
+
+\paragraph{Streaming-aware supervision.} The runtime queries the companion while
+user words are still arriving, so every multi-token user chunk also yields
+partial-prefix records labelled \texttt{user\_is\_speaking}---except partials of
+an interrupting chunk, labelled \texttt{user\_interruption}.
+
+\paragraph{Barge-in records.} At random points inside every system turn the
+current assistant item is rendered \emph{open} (speech in progress) followed by
+(a)~the user's next real words $\rightarrow$ \texttt{user\_interruption},
+(b)~\texttt{<|no voice|>} $\rightarrow$ \texttt{no\_tag} (silence during speech
+means keep talking), or (c)~a sampled pt-BR backchannel word $\rightarrow$
+\texttt{user\_backchannel}. This is what lets the companion distinguish ``the user
+barged in'' from ``the user just said \emph{aham}'' from ``the user paused''.
+
+\paragraph{Silence semantics.} The runtime inserts a \texttt{<|no voice|>} marker
+on ASR silence, so the data must define what silence means in every state:
+non-final chunk $+$ silence $\rightarrow$ keep speaking; \emph{final} chunk $+$
+silence $\rightarrow$ \texttt{finish} (turn complete---the case the original data
+never shows, since \texttt{finish} always directly follows the final chunk);
+partial final chunk $+$ silence $\rightarrow$ keep speaking; and minimal
+single-utterance records $[\text{user chunk}, \texttt{<|no voice|>}]$ at weight 5,
+without which the model never fires \texttt{finish} on a two-item context.
+
+\paragraph{Promptable-controller records.} To make the controller
+\emph{promptable}, a system instruction (a \emph{rule}) is rendered as the first
+context item and the boundary after a trigger chunk is labelled
+\texttt{system\_take\_floor} (the system interrupts the user immediately) or
+\texttt{system\_handover} (control passes to the big model). Synthetic scenarios
+use the real dictation shape---digit chunks with commas, the full alphabet as
+letters---so the companion learns the concept (number vs.\ letter, trigger vs.\
+unrelated words) rather than memorized strings; negatives prevent spurious fires.
+About half of the regular records additionally carry a generic instruction so the
+base controller behaviours survive instruction-conditioned training.
+
+\subsection{Loss and inference}
+The loss is the same two-term objective as Section~\ref{sec:distill}: masked
+cross-entropy with per-token weights at item boundaries (retuned for the 9-way
+decision---finish $=3$, interruption $=6$, backchannel $=3$, thinking $=2$,
+speaking $=2$, take\_floor $=5$, handover $=3$, \texttt{no\_tag} $=0.5$), plus a
+per-record multiplier so rare controller patterns dominate the gradient, and a
+forward-KL to the frozen base on content positions with $\lambda=0.3$. Preserving
+the companion's language ability is not cosmetic---the rule mechanism is an
+instruction-following behaviour.
+
+At inference the companion is queried per event (new ASR words, silence timer,
+assistant sentence boundary); a tag fires only if its probability exceeds a
+per-tag threshold, and \texttt{user\_interruption} is additionally suppressed when
+the last user item is the orchestrator-inserted \texttt{<|no voice|>} marker, so
+silence can never hard-stop the assistant. The context rendering must match
+training exactly: user items are always closed, even for partial content, and only
+an in-progress assistant item is rendered open.
+
+\section{Evaluation}
+\label{sec:eval}
+
+\subsection{Protocol metric (teacher-forced)}
+Tag accuracy on a held-out duplex split: at each supervised tag position the
+argmax must equal the supervised special token. This is the metric the three
+approaches are usually compared on. We also report the mean per-token forward-KL
+between each student and the frozen base on the held-out content positions---a
+direct measure of ``everything else stayed the same''.
+
+\subsection{Capability metrics}
+18 pt-BR function-calling prompts scored by native Qwen tool calls (greedy,
+tool-name plus required/expected arguments, digit-normalized) and 12 general
+instruction/QA prompts. Standard benchmarks: HellaSwag, ARC-Challenge and MMLU
+(2{,}000-example subsets), GSM8K (5-shot, 300), TruthfulQA (mc2) and IFEval (40)
+via lm-evaluation-harness 0.4.12, raw prompts without a chat template and
+identical configs across models. The companion is additionally evaluated on its
+own tag-stream held-out split with per-tag precision/recall/F1 and on hand-built
+runtime probes.
+
+\subsection{Free generation: Full-Duplex-Bench}
+\label{sec:fdb_setup}
+The metrics above are teacher-forced: at every supervised position the model is
+handed the correct prefix and only its next-token choice is scored. That is the
+right measure of whether the protocol was \emph{learned}, but it says nothing
+about whether the model \emph{uses} it when generating on its own, which is what a
+deployed duplex system needs. We therefore add a free-generation evaluation
+modelled on Full-Duplex-Bench (FDB)~\cite{lin2025fdb}.
+
+\paragraph{Dimensions and metrics.} FDB v1.0 scores four behaviours:
+\emph{pause handling} and \emph{backchannel} (the model must stay silent or briefly
+acknowledge: TOR $\downarrow$, backchannel frequency $\uparrow$, JSD against a
+ground-truth backchannel-time distribution $\downarrow$), \emph{smooth
+turn-taking} (take the floor as soon as the user's turn ends: TOR $\uparrow$,
+latency $\downarrow$) and \emph{user interruption} (yield, then answer the
+interrupting turn: TOR $\uparrow$, latency $\downarrow$, and an LLM-judged 0--5
+relevance of the post-interruption reply). We use FDB's thresholds verbatim---a
+model utterance is a formal turn at ${\ge}1$\,s or ${>}3$ words, a backchannel at
+${\le}3$\,s and ${\le}3$ words---and its interruption rubric verbatim. Each subset
+is generated at FDB v1.0's published size (216/137/119/55/200 scenarios, 727 per
+model), in pt-BR and in English.
+
+\paragraph{Text-domain adaptation.} Our cascade decides turn-taking in text, so
+the harness replays the ASR stream as timed events rather than audio and converts
+text to seconds with a calibrated speaking rate (3.25 words/s, measured against
+the pocket-tts voice the live bridge uses and anchored to the rate implied by
+FDB's own released transcripts). Latency is the model's real inference compute
+between the user's turn ending and the model committing---the honest text-domain
+analogue of acoustic response latency, and the quantity that separates a
+tag-emitting LLM from a separate policy companion. Interruption relevance is
+judged by a local \texttt{Qwen3.5-9B} GGUF under FDB's own rubric; the judge is
+not GPT-4o, so that column ranks our models against each other rather than against
+the published absolute. All runs are greedy and every model is served through the
+same llama.cpp stack at the same quantisation.
+
+\paragraph{The input stream must match training.} The models never see whole
+sentences. The micro-turn builder delivers each user turn as 1--7-\textbf{token}
+pieces (Section~\ref{sec:shared}), so we re-use that algorithm verbatim, including
+its mid-word cuts and leading-space artifacts, to generate the evaluated stream.
+This is not a detail, and the ablation in Section~\ref{sec:ablation} separates the
+two ways it matters. Our first harness deviated on two axes at once: it fed whole
+sentences as ASR pieces \emph{and} joined several sentences into one turn. The
+single-factor arms show that the second axis is what distorted the turn-taking
+numbers---multi-sentence turns more than triple pause-handling TOR, because
+sentence-final ambiguity scales with pieces per turn---while the first axis breaks
+interruption recovery instead, because a one-piece interrupting turn is a shape the
+training builder never produces. We therefore generate every task's turns and pieces
+to the measured distribution of Section~\ref{sec:shared}.
+
+\paragraph{Every scenario is scored.} FDB v1.0 consults its judge in exactly one
+dimension, so the paper-comparable column is the 200-sample interruption subset---
+that is the whole subset, not a subsample. Our harness additionally scores every
+scenario in which the model spoke ($\sim$400 per run) on a shared 0--5 relevance
+rubric, and scores the rest by rule (silence correct $\rightarrow$ 5, silence when
+a reply was due $\rightarrow$ 0), giving a whole-dataset quality column.
+
+\paragraph{The reference model.} To anchor the comparison we download the upstream
+English \textsc{DuplexCascade} release, merge its PEFT state dict, quantize to
+4-bit and serve it through the identical stack. Three conventions of its own
+codebase had to be matched, and each is documented because getting them wrong
+makes the reference look broken: it prepends BOS before the first micro-turn; it
+\emph{speaks by emitting text} rather than a tag (its server streams any generated
+text to TTS and uses the tags only to stop); and it commits to the floor on the
+\emph{silence} that follows speech rather than on the final word, so scenarios
+must include the trailing silence that real audio always has. Its tag vocabulary
+also differs (``talking'' vs.\ ``speaking'', and no system-backchannel token), and
+is carried per-model.
+
+\section{Results}
+\label{sec:results}
+
+\subsection{Protocol vs.\ capability retention}
+Table~\ref{tab:custom} is the central result for the two in-model approaches. The
+distill model learns the protocol (96.4\% tag accuracy, 1.6\,pp behind SFT) while
+keeping function calling and general instruction-following at \emph{base level}
+(100\%), with a KL drift only slightly above the base floor. The plain-SFT
+baseline learns the protocol slightly better (98\%) but regresses on both
+format-following capabilities and drifts ${\sim}3.5\times$ further from the base
+distribution.
+
+\begin{table}[t]
+\centering
+\caption{Protocol and capability retention (our pt-BR eval sets).}
+\label{tab:custom}
+\begin{tabular}{lccc}
+\toprule
+ & base & \textbf{distill} & sft \\
+\midrule
+Tag accuracy (\%) & 0.0 & \textbf{96.4} & 98.0 \\
+Function calling (\%) & 100 & \textbf{100} & 55.6 \\
+General instruction/QA (\%) & 100 & \textbf{100} & 41.7 \\
+KL drift vs base (nats) & 0.51 & 1.07 & 4.76 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Standard benchmarks}
+Table~\ref{tab:bench} reports the lm-evaluation-harness results. The distill model
+is within ${\sim}1$--2\,pp of base on knowledge, commonsense and reasoning,
+\emph{above} base on factuality and instruction following, and at base on the
+custom sets. The SFT baseline drops on MMLU, TruthfulQA, IFEval and the custom
+sets. The one regression of the distill model is GSM8K, discussed in
+Section~\ref{sec:discussion}.
+
+\begin{table}[t]
+\centering
+\caption{Standard benchmarks (lm-evaluation-harness 0.4.12; subsets as noted).}
+\label{tab:bench}
+\footnotesize
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+Benchmark & base & \textbf{distill} & sft \\
+\midrule
+HellaSwag acc-norm ($n{=}2000$) & 0.584 & 0.566 & 0.593 \\
+ARC-Challenge acc-norm ($n{=}2000$) & 0.584 & 0.563 & 0.574 \\
+MMLU ($n{=}2000$) & 0.705 & 0.698 & \textbf{0.660} \\
+GSM8K exact ($n{=}300$, 5-shot) & 0.890 & 0.777 & 0.827 \\
+TruthfulQA mc2 & 0.626 & \textbf{0.649} & 0.601 \\
+IFEval loose / strict ($n{=}40$) & 0.730/0.651 & \textbf{0.762/0.683} & 0.603/0.524 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Companion: tag-stream accuracy and controller probes}
+Table~\ref{tab:tags} reports the companion's per-tag results on its held-out split
+(3{,}222 boundary decisions, restricted argmax over the tag vocabulary). The two
+rare but critical controller decisions---barge-in interruption and backchannel
+recognition---stay near-perfect, and the two promptable-controller tags are
+perfect. The small accuracy drop versus an earlier revision is the price of the
+instruction-conditioned training and the distill term.
+
+\begin{table}[t]
+\centering
+\caption{Per-tag results of the trained companion on the held-out duplex split.}
+\label{tab:tags}
+\footnotesize
+\begin{tabular}{lccc}
+\toprule
+\textbf{tag} & \textbf{P} & \textbf{R} & \textbf{F1} \\
+\midrule
+no tag (emit nothing) & 1.00 & 0.95 & 0.973 \\
+user is speaking & 0.99 & 0.92 & 0.953 \\
+user finish speaking & 0.79 & 0.98 & 0.877 \\
+user interruption & 0.95 & 0.99 & 0.969 \\
+user backchannel & 1.00 & 0.98 & 0.99 \\
+user is thinking & 0.90 & 1.00 & 0.949 \\
+system take floor & 1.00 & 1.00 & 1.00 \\
+system handover & 1.00 & 1.00 & 1.00 \\
+\midrule
+accuracy & \multicolumn{3}{c}{0.956} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Runtime probes on hand-built conversations exercise the query path with guards and
+thresholds applied: a mid-question user chunk $\rightarrow$ keep waiting; a
+finished question followed by silence $\rightarrow$ \texttt{finish} (fires the
+answer); a barge-in during assistant speech $\rightarrow$ \texttt{interruption};
+``aham'' during assistant speech $\rightarrow$ \texttt{backchannel} rather than an
+interruption; silence during assistant speech $\rightarrow$ keep talking. All are
+correct with probability ${\ge}0.83$ at the decision point, the remainder being
+carried by the no-voice guard and the state machine. With a rule configured, a
+letter inside a digit dictation fires \texttt{system\_take\_floor} at 0.60--0.86,
+the same rule with digit chunks only does not fire, and without a rule the system
+tags never fire at all.
+
+\subsection{Free-generation turn-taking}
+Table~\ref{tab:fdb} reports the FDB results for the three approaches, the untrained
+base as a control, and the upstream release measured with the same harness. Table
+\ref{tab:fdb2} gives the same comparison in English, which is out-of-distribution
+for all three trained variants (\S\ref{sec:results_transfer}).
+
+\begin{table*}[t]
+\centering
+\caption{Full-Duplex-Bench, pt-BR (727 scenarios per model). TOR and latency are
+better when lower; TOR, relevance and quality are better when higher. ``Original''
+is the upstream English release measured with the same harness; the published row
+is its paper's English audio result and is a range check, not a baseline. Quality
+is a whole-dataset 0--5 reply rubric (see \S\ref{sec:fdb_setup}).}
+\label{tab:fdb}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccccc}
+\toprule
+Model & Pause TOR\textsubscript{syn} & Pause TOR\textsubscript{cand} & BC TOR & Smooth TOR & Floor lat.\,(s) & Intr.\ TOR & Intr.\ relevance & Stop lat.\,(s) & \textbf{ATA} \\
+\midrule
+Companion (MTP-style)             & 0.073 & \textbf{0.000} & 1.000 & 0.975 & 0.33 & 0.990 & \textbf{4.36} & 0.066 & \textbf{0.973} \\
+SFT (original recipe)             & 0.080 & 0.032 & 1.000 & \textbf{1.000} & \textbf{0.25} & \textbf{0.995} & 3.56 & \textbf{0.035} & \textbf{0.971} \\
+Self-distillation                 & 0.095 & 0.065 & 1.000 & 0.983 & 3.29 & 0.995 & 1.59 & 0.351 & 0.955 \\
+Original DuplexCascade (upstream) & 0.102 & 0.273 & \textbf{0.436} & 0.975 & 1.02 & 0.985 & 3.92 & 0.323 & 0.896 \\
+Base (no fine-tune, control)      & 0.000 & 0.000 & 0.000 & 0.000 & -- & 0.000 & -- & 0.15 & 0.000 \\
+\midrule
+\emph{published DuplexCascade (EN audio)} & \emph{0.058} & \emph{0.222} & \emph{0.218} & \emph{0.832} & \emph{1.72} & \emph{0.955} & \emph{4.02} & \emph{1.23} & \emph{0.858} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{Full-Duplex-Bench in English (same harness, same scenario sizes). English
+is out-of-distribution for all four trained models---they are fine-tuned on pt-BR
+only---so this measures transfer of the protocol, not language skill.}
+\label{tab:fdb2}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccccc}
+\toprule
+Model & Pause TOR\textsubscript{syn} & Pause TOR\textsubscript{cand} & BC TOR & Smooth TOR & Floor lat.\,(s) & Intr.\ TOR & Intr.\ relevance & Stop lat.\,(s) & \textbf{ATA} \\
+\midrule
+SFT (original recipe)             & \textbf{0.051} & \textbf{0.000} & 1.000 & \textbf{1.000} & \textbf{0.27} & 0.995 & 4.08 & \textbf{0.031} & \textbf{0.986} \\
+Companion (MTP-style)             & 0.066 & \textbf{0.000} & 1.000 & \textbf{1.000} & 0.32 & \textbf{1.000} & \textbf{4.88} & 0.057 & \textbf{0.984} \\
+Original DuplexCascade (upstream) & 0.095 & 0.102 & \textbf{0.345} & \textbf{1.000} & 1.16 & \textbf{1.000} & 4.35 & 0.251 & 0.951 \\
+Self-distillation                 & 0.095 & 0.065 & 1.000 & 0.941 & 4.34 & 0.915 & 2.12 & 0.189 & 0.924 \\
+Base (no fine-tune, control)      & 0.000 & 0.000 & 0.000 & 0.000 & -- & 0.000 & -- & 0.15 & 0.000 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+
+\paragraph{The harness reproduces the reference.} The upstream release, measured
+here, lands on its own published numbers: pause handling 0.102/0.273 against the
+published 0.058/0.222, smooth turn-taking 0.975 against 0.832, interruption TOR
+0.985 against 0.955, interruption relevance 3.92 against 4.02, and ATA 0.896
+against 0.858. A re-implementation that reproduces the reference model's scores is
+measuring the same thing the reference measures, which is the strongest available
+check on everything else in these tables.
+
+\paragraph{All three approaches beat the reference on turn-taking accuracy.} They
+reach ATA 0.973 (companion), 0.971 (SFT) and 0.955 (self-distillation)---every one
+above the upstream model's 0.896 and above the published 0.858---and all three sit
+at or better than the published figures on every TOR column. They get there
+differently, and that difference is the practical point of the paper: the
+companion has the best interruption relevance and the best candour-pause behaviour
+while a separate controller is queried before audio can be cut (stop latency
+0.066\,s), whereas SFT is an order of magnitude faster to stop and to respond
+(0.035\,s and 0.28\,s) because one model does everything.
+
+\paragraph{What teacher forcing hid.} The distill model is competitive on
+turn-taking accuracy but has by far the weakest interruption relevance (1.59
+against 3.56 and 4.36) and is $13\times$ slower to commit to the floor (3.29\,s
+against 0.25\,s). Teacher-forced tag accuracy (96.4\%, Table~\ref{tab:custom},
+1.6\,pp behind SFT) is blind to exactly this: both models put the right tag at the
+right position when given the correct prefix, but in free generation the distill
+model's continuation artifact---the known failure in which it opens by finishing
+the user's own sentence---degrades the reply and delays the turn. The live bridge
+masks it by stripping leading continuation punctuation; this evaluation does not,
+so the cost is visible. This is the concrete form of the exposure-bias gap
+between the protocol metric and deployed behaviour, and it is the strongest
+argument for evaluating turn-taking in free generation rather than at supervised
+positions.
+
+\paragraph{Cross-lingual transfer.}
+\label{sec:results_transfer}
+All variants are fine-tuned on pt-BR only, and the protocol transfers: ATA is
+0.986 (SFT), 0.984 (companion) and 0.924 (distill) on the English scenarios---SFT
+and the companion are as good or better in English than in pt-BR, with the
+companion's interruption relevance rising to 4.88. Only the distill variant
+degrades (0.955$\rightarrow$0.924, interruption TOR 0.995$\rightarrow$0.915),
+consistent with it being the most fragile of the three. The ranking of the
+approaches is stable across languages, which is a good sign that it reflects the
+models rather than the run.
+
+\paragraph{Backchannel is a data gap, not a capability gap.} Every pt-BR variant
+scores BC TOR $=1.000$ where the upstream model scores 0.436: they always take a
+formal turn during a monologue, while upstream backchannels. The cause is in the
+training data---across 10{,}249 sequences the tag
+\texttt{<|system backchannel|>} occurs \textbf{zero} times, and
+\texttt{<|user backchannel|>} only 1{,}262 times (0.09\% of duplex tags)---so the
+token exists in the vocabulary but was never trained. That column is not evidence
+about these models and we do not interpret it. The same table also shows why a
+single headline number is not enough: the untrained control scores
+\texttt{chunk\_accuracy} 0.85 on the turn-end decision---\emph{higher} than every
+trained model---purely by never taking the floor. Our averaged turn-taking
+accuracy gates on the model demonstrably taking turns elsewhere and scores an
+unmeasured interruption as zero, which puts the control at 0.000.
+
+\subsection{Where the decisions go}
+A diagnostic that turned out to explain the whole comparison: the two codebases
+commit to the floor at \emph{different moments}. SFT, distill and the companion
+fire on the final user chunk (rate 0.94--1.00) and essentially never on the
+post-turn silence; the upstream release fires on the silence (0.95--0.99) and
+almost never on the final chunk (0.013). Both conventions reach ${\sim}1.0$ smooth
+turn-taking and interruption TOR---they are inverses of one another, not better or
+worse---and this is why the upstream model measured as unable to take a turn at
+all until its trailing-silence cue was supplied. Meanwhile
+\texttt{pause\_stayed\_silent} is ${\sim}1.000$ for every trained model, original
+included: \emph{nobody} speaks during a mid-turn pause. The differences between
+these models are about \emph{when} they commit, not about whether they can hold.
+
+\section{Ablations}
+\label{sec:ablation}
+
+We isolate the three factors that the results above depend on. Each arm changes
+exactly one factor with respect to the main run---same 727 scenarios, seed, clock,
+decoding and serving stack---so the differences in Table~\ref{tab:abl} are
+attributable to that factor alone.
+
+\begin{table*}[t]
+\centering
+\caption{Ablations on the pt-BR FDB harness. Each arm differs from its main run in
+one factor. A1/A2 ablate the SFT model; A3 ablates the companion. TOR $\downarrow$
+for the pause and backchannel columns, $\uparrow$ for smooth and interruption.}
+\label{tab:abl}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccccc}
+\toprule
+Arm & Factor changed & Pause TOR\textsubscript{syn} & Pause TOR\textsubscript{cand} & Smooth TOR & Intr.\ TOR & \textbf{ATA} \\
+\midrule
+\multicolumn{7}{l}{\emph{SFT: input-stream and turn-length axes}}\\
+main            & none (training pieces, training-sized turns) & 0.080 & 0.032 & 1.000 & 0.995 & \textbf{0.971} \\
+A1              & user pieces $=$ whole sentences & 0.080 & 0.097 & 1.000 & \textbf{0.000} & 0.706 \\
+A2              & user turns $=$ multi-sentence (2--4) & \textbf{0.307} & 0.056 & 1.000 & 0.995 & 0.908 \\
+\midrule
+\multicolumn{7}{l}{\emph{Companion: controller augmentations}}\\
+main (v6)       & full augmentation set, 9 tags & \textbf{0.073} & \textbf{0.000} & 0.975 & 0.990 & \textbf{0.973} \\
+A3 (v5)         & no promptable-controller set, 7 tags & 0.088 & 0.097 & \textbf{1.000} & \textbf{1.000} & 0.954 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+
+\paragraph{Turn length, not piece granularity, drives pause handling.} The two
+axes of the input distribution had to be separated, and doing so corrected our own
+earlier account of the harness bug. Feeding whole sentences as ASR pieces (A1)
+leaves pause handling essentially unchanged---0.080 synthetic, 0.097 candour---while
+making the turns multi-sentence (A2) more than triples the synthetic-pause TOR to
+\textbf{0.307}. The cause is the number of sentence-final pieces per turn: the real
+data carries ${\sim}1.5$, A2 carries $3.1$, and each additional sentence-final piece
+is another opportunity to fire \texttt{finish} early. What moves the pause metric
+is therefore \emph{how much of the turn is still unheard}, not how the ASR slices
+it. Our first harness did both at once and we initially attributed the effect to
+the slicing; the single-factor arms show it belongs to the turn length.
+
+\paragraph{Piece granularity drives interruption recovery.} The opposite holds for
+interruptions: A1 collapses interruption TOR from 0.995 to \textbf{0.000} while
+leaving every other column intact. A one-piece interrupting turn is
+off-distribution in a specific way---the training builder refuses to interrupt with
+a single-chunk turn, because that would produce two consecutive assistant messages
+and break strict alternation---so the model has never seen an interruption delivered
+as one long piece and does not re-take the floor afterwards. This is a concrete
+example of a training-data invariant that a benchmark can silently violate, and it
+is why the harness reproduces the builder's piece sizes rather than approximating
+them.
+
+\paragraph{Controller augmentations pay for themselves in precision.} The companion
+ablates cleanly against its earlier revision (A3): without the promptable-controller
+records and the two extra tags, ATA falls from 0.973 to 0.954. The trade is
+instructive---A3 has \emph{better} recall on the turn-end decision (1.000 vs.\ 0.958)
+but worse precision (0.680 vs.\ 0.698), and that precision loss is what shows up as
+worse pause handling (0.088/0.097 vs.\ 0.073/0.000). The augmentations make the
+controller more conservative about committing, which is exactly what the
+stay-silent tasks reward. Almost all of the missing behaviour is in the candour-pause
+column; the interruption and smooth-turn columns are unchanged or slightly better in
+the ablation, so the cost of the extra machinery is confined rather than global.
+
+\paragraph{The clock is not a sensitive parameter.} Because durations in this
+harness come from a calibrated speaking rate rather than from audio, we recomputed
+every TOR column of the four trained models at 2.5, 3.0, 3.25 and 4.0 words/s---a
+$\pm25\%$ band around the calibrated value. Every value is identical to three
+decimals at all four rates. The reason is that the decisions sit far from the
+duration gates: a six-word reply is 1.5--2.4\,s at these rates, comfortably above
+the 1\,s ``formal turn'' threshold, so the word-count branch of FDB's rule decides
+rather than the duration branch. The clock is therefore a documented approximation
+that does not drive any conclusion in this paper. The latency columns are measured
+inference compute and are unaffected by it by construction.
+
+\section{Discussion and Limitations}
+\label{sec:discussion}
+
+\emph{Why the content-KL works.} The tags live at supervised positions and are
+predicted with the original high weights, so they are learned essentially as
+before. Every other position is anchored to the frozen base, which is exactly the
+behaviour we want to preserve. The mechanism is a single-stage, per-token analogue
+of the ``re-invoke'' two-stage procedure~\cite{tml2025} and of SDFT's on-policy
+anchoring~\cite{selfdistill2026}, but it requires neither rollouts nor a reward.
+
+\emph{Free-generation cost of the anchoring term.} The content-KL preserves
+capabilities but, at $\lambda{=}1.0$, it also anchors the model to the teacher's
+content \emph{generation style}, and the teacher was occasionally autocompleting
+the user turn when its auxiliary trigger asked for a short answer. The
+distillation therefore inherits that continuation artifact, which shows up in
+Table~\ref{tab:fdb} as the worst interruption relevance and the slowest floor
+commitment of any model measured, even though its teacher-forced tag accuracy is
+96.4\%. The fix we planned is at the data level, not the loss: regenerate the
+teacher content with a corrected trigger (``responda de forma natural e completa
+\ldots\ não se repita'') and retrain, so the artifact is absent from the anchored
+distribution rather than stripped at inference. The FDB harness now provides the
+measurement that tells us whether that retrain succeeded---relevance and stop
+latency, not tag accuracy.
+
+\emph{The GSM8K caveat.} The distill model drops 11\,pp below base on GSM8K, a
+long-form multi-step reasoning task. This is the honest tradeoff of a strong
+anchoring term ($\lambda{=}1.0$): content distributions are heavily pinned to the
+base, and on 300 samples the 4B base's fragile chain-of-thought is sensitive to
+any distributional shift. Two natural follow-ups are a lower $\lambda$ (our sweep
+did not include a math benchmark) and the EMA-teacher or on-policy variants, which
+track the student's progress and may preserve adaptability on reasoning while
+still reducing forgetting.
+
+\emph{Turn size is an experimental variable.} Two generations of source dialogues
+exist in this project---short-only with a fixed 10-token assistant micro-turn, and
+the short/long/mixed mixture with 10--48-token chunking used here---and the
+assistant-side length distribution has a heavy right tail (median 5 words, p90 12,
+max 37). Because FDB's turn-taking gates are durations, that distribution moves
+the metric: a model trained on longer bursts crosses the formal-turn threshold
+with fewer words. Benchmarking a duration-gated protocol therefore requires
+reporting the turn-length distribution on both sides, and we do so.
+
+\emph{What the companion buys and what it costs.} The companion makes turn-taking a
+reusable, attachable module: a 0.8B sidecar trained in hours on one GPU, swappable
+across big models with no retraining, and it supports instruction-conditioned
+interrupts that no single-model fine-tune provides. The costs are real: one extra
+model in the loop (stop latency 0.066\,s versus 0.035\,s for SFT), a learned
+turn-end signal that depends on the ASR punctuating its output---unpunctuated
+transcripts delay the \texttt{finish} decision---and a controller whose
+instruction-conditioned behaviours must be explicitly mixed with generic
+instructions so the base behaviours survive.
+
+\emph{Limitations.} Our free-generation harness is text-domain: durations come from
+a calibrated speaking rate rather than from audio, latency is inference compute
+rather than acoustic end-to-end latency, and the judge is a local 9B model, so the
+relevance column anchors our models against each other but not against the
+published GPT-4o absolute. The published row is English audio and our rows are
+pt-BR text; we use it as a range check rather than a baseline. All results are from
+a single seed per configuration, and the source dialogues are synthetic. Finally,
+one FDB dimension is unanswerable on this data by construction, as discussed above.
+
+\section{Conclusion}
+We compared three ways to give a conversational LLM the duplex-cascade micro-turn
+protocol, on one pt-BR pipeline and with one harness.
+
+Plain \textbf{SFT} learns the protocol best (98\% tag accuracy) but regresses on
+function calling and general instruction-following; it remains the fastest model at
+runtime and, in free generation, the best all-round turn-taker of the three.
+\textbf{Self-distillation} splits the objective by token position---weighted CE on
+the tags, forward-KL to the frozen base everywhere else---and retains base-level
+capabilities and knowledge without RL or rollouts, at no extra cost over SFT with
+an offline teacher cache. It is competitive on turn-taking accuracy but inherits
+the teacher's generation style, which costs reply relevance and latency in free
+generation---a cost teacher-forced tag accuracy (96.4\%) cannot see. The
+\textbf{MTP-style companion} separates the two skills instead of balancing them: a
+0.8B sidecar predicts only the control stream and drives an untouched big model,
+reaching 95.6\% tag-stream accuracy with 0.97/0.99 F1 on barge-in and backchannel
+decisions and supporting instruction-conditioned interrupts, at the price of one
+extra model in the loop.
+
+Evaluated in free generation with Full-Duplex-Bench, all three beat the published
+turn-taking accuracy, and re-measuring the upstream DuplexCascade release with the
+same harness reproduces its published numbers---which is what makes the comparison
+trustworthy. Three lessons generalize beyond this system: a protocol metric should
+be paired with a free-generation metric whenever the protocol is \emph{used} rather
+than merely reproduced; a generative benchmark inherits the training input
+distribution, so that distribution is an experimental variable that must be
+reported (our single-factor ablations move pause-handling TOR by $4\times$ and
+interruption TOR to zero on the same scenarios); and a metric can be unanswerable by
+construction, as with the backchannel dimension here, where the required tag never
+appears in the training data. Per-token KL-anchoring to a frozen base remains a practical, RL-free
+anti-forgetting mechanism; the work here makes its cost measurable and localizes
+it to the teacher's generation style rather than its knowledge.
+
+\section*{Use of Generative AI}
+This manuscript was prepared with the assistance of generative artificial
+intelligence. All experimental results and the associated code were reviewed and
+verified by the author.
+
+\begin{thebibliography}{99}
+
+\bibitem{duplexcascade}
+J.~Yang, Y.~Fujita, and Y.~Sudo,
+``DuplexCascade: Full-duplex speech-to-speech dialogue with VAD-free cascaded
+ASR--LLM--TTS pipeline and micro-turn optimization,'' arXiv:2603.09180, 2026.
+Demo: sbintuitions.github.io/DuplexCascadeDemo.
+
+\bibitem{selfdistill2026}
+I.~Shenfeld, M.~Damani, J.~H{\"u}b{\"o}tter, and P.~Agrawal,
+``On-policy self-distillation fine-tuning (SDFT): self-distillation enables
+continual learning,'' arXiv:2601.19897, 2026.
+
+\bibitem{lin2025fdb}
+G.-T. Lin, J.~Lian, T.~Li, Q.~Wang, G.~Anumanchipalli, A.~H.~Liu, and H.-y.~Lee,
+``Full-Duplex-Bench: A benchmark to evaluate full-duplex spoken dialogue models on
+turn-taking capabilities,'' arXiv:2503.04721, 2025.
+
+\bibitem{ross2011}
+S.~Ross, G.~Gordon, and D.~Bagnell,
+``A reduction of imitation learning and structured prediction to no-regret online
+learning,'' in \emph{Proc. AISTATS}, 2011.
+
+\bibitem{kirkpatrick2017}
+J.~Kirkpatrick \emph{et al.},
+``Overcoming catastrophic forgetting in neural networks,'' \emph{PNAS},
+vol.~114, no.~13, pp.~3521--3526, 2017.
+
+\bibitem{lifhoiem2017}
+Z.~Li and D.~Hoiem,
+``Learning without forgetting,'' \emph{IEEE TPAMI}, vol.~40, no.~12,
+pp.~2935--2947, 2018.
+
+\bibitem{mecklenburg2024}
+L.~Mecklenburg \emph{et al.},
+``Injecting new knowledge into large language models via supervised fine-tuning,''
+arXiv:2404.00213, 2024.
+
+\bibitem{chu2025}
+T.~Chu, Y.~Zhai, J.~Yang, S.~Tong, S.~Xie, D.~Schuurmans, Q.~V.~Le, S.~Levine, and
+Y.~Ma,
+``SFT memorizes, RL generalizes: a comparative study of foundation model
+post-training,'' in \emph{Proc. ICML}, 2025, pp.~10818--10838.
+
+\bibitem{airef}
+R.~Agarwal, N.~Vieillard, Y.~Zhou, P.~Sta{\'n}czyk, S.~Ramos, M.~Geist, and
+O.~Bachem,
+``On-policy distillation of language models: learning from self-generated
+mistakes,'' in \emph{Proc. ICLR}, 2024, arXiv:2306.13649.
+
+\bibitem{rlsrazor2025}
+I.~Shenfeld, J.~Pari, and P.~Agrawal,
+``RL's razor: why online reinforcement learning forgets less,''
+in \emph{Proc. ICLR}, 2026, arXiv:2509.04259.
+
+\bibitem{tml2025}
+K.~Lu and Thinking Machines Lab,
+``On-policy distillation,'' Thinking Machines Lab: Connectionism,
+DOI 10.64434/tml.20251026, 2025.
+
+\bibitem{bai2022}
+Y.~Bai \emph{et al.},
+``Constitutional AI: harmlessness from AI feedback,'' arXiv:2212.08073, 2022.
+
+\bibitem{snell2022}
+C.~Snell, D.~Klein, and R.~Zhong,
+``Learning by distilling context,'' arXiv:2209.15189, 2022.
+
+\bibitem{lora2022}
+E.~J.~Hu \emph{et al.},
+``LoRA: low-rank adaptation of large language models,'' in \emph{Proc. ICLR}, 2022.
+
+\bibitem{qlora2023}
+T.~Dettmers, A.~Pagnoni, A.~Holtzman, and L.~Zettlemoyer,
+``QLoRA: efficient finetuning of quantized LLMs,'' in \emph{Proc. NeurIPS}, 2023.
+
+\bibitem{deepseek}
+DeepSeek-AI,
+``DeepSeek-V3 technical report,'' arXiv:2412.19437, 2024.
+
+\bibitem{qwen35}
+Qwen~Team,
+``Qwen3.5: towards native multimodal agents,'' qwen.ai, Feb.~2026.
+
+\bibitem{unsloth}
+Unsloth~AI, ``Unsloth: 2x faster free finetuning,'' https://unsloth.ai, 2026.
+
+\end{thebibliography}
+
+\end{document}

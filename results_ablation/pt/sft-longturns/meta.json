@@ -1,0 +1,35 @@
+{
+  "model": "sft",
+  "label": "SFT (original recipe, continue)",
+  "kind": "llama_duplex",
+  "lang": "pt",
+  "tasks": [
+    "pause_candor",
+    "pause_synthetic",
+    "smooth_turn",
+    "backchannel_icc",
+    "interruption_synthetic"
+  ],
+  "limit": null,
+  "seed": 1234,
+  "prime_mode": "decision",
+  "prompt_candidate": "none",
+  "system_prompt": "<none>",
+  "words_per_second": 3.25,
+  "chunker": "?",
+  "turn_style": "long",
+  "n_server_rejected": 0,
+  "n_scenarios": 727,
+  "n_errors": 0,
+  "wall_s": 927.2,
+  "git_rev": "c96fb5b",
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 96,
+    "repeat_penalty": 1.0
+  },
+  "adapter": "LlamaDuplexAdapter",
+  "judge": "Qwen3.5-9B-UD-Q4_K_XL.gguf (see fdb_bench/judge.py)",
+  "ablation": "turn_style=long (A2): 2-4 sentences per user turn, chunker unchanged"
+}

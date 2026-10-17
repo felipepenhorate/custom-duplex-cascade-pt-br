@@ -29,6 +29,21 @@ pipelines live in each subfolder's `README.md` + `SPEC.md`:
 - [`distill/`](./distill/) → `distill/README.md`, `distill/SPEC.md`
   (incl. §6 R0 — how to regenerate everything with the v2 trigger)
 
+## Article
+
+The three approaches are written up together in **[`article/`](./article/)** —
+one paper with a section per approach, a shared evaluation, the free-generation
+results and the ablations:
+
+```bash
+cd article && pdflatex main.tex && pdflatex main.tex   # -> main.pdf
+```
+
+The per-approach write-ups ([`distill/article/main.tex`](./distill/article/main.tex),
+[`mtp_like/article/mtp_duplex.tex`](./mtp_like/article/mtp_duplex.tex)) are kept as
+records of each project; the combined article supersedes them as the single
+citable document.
+
 ## Full-Duplex-Bench results
 
 The three variants are evaluated against a pt-BR + English Full-Duplex-Bench

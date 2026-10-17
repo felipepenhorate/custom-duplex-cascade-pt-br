@@ -502,6 +502,21 @@ def _training_sized_turn(rng: random.Random, clauses: list[str]) -> str:
     return turn + "."
 
 
+def _long_turn(rng: random.Random, clauses: list[str]) -> str:
+    """The other ablation arm: 2--4 sentences joined into one user turn.
+
+    This is what the harness did before the turn-length bug was found: 35--71
+    word turns carrying 3--7 sentence-final pieces, i.e. 2--4x the ambiguity of
+    the real data. Kept as an explicit arm so the effect can be measured rather
+    than argued about.
+    """
+    return _utterance(rng, clauses, rng.randint(2, 4))
+
+
+def _turn(rng: random.Random, clauses: list[str], style: str = "training") -> str:
+    return _long_turn(rng, clauses) if style == "long" else _training_sized_turn(rng, clauses)
+
+
 def _utterance(
     rng: random.Random, clauses: list[str], n: int | None = None, close_last: bool = True,
 ) -> str:
@@ -527,10 +542,10 @@ def _utterance(
 
 # ------------------------------------------------------- subset generators --
 
-def _gen_smooth_turn(sid: str, rng: random.Random, L: LangPack, chunker=None) -> Scenario:
+def _gen_smooth_turn(sid: str, rng: random.Random, L: LangPack, chunker=None, style="training") -> Scenario:
     """A complete user turn; the model must take the floor."""
     topic, clauses = _pick_topic(rng, L)
-    turn = _training_sized_turn(rng, clauses).rstrip(".") + L.ask_opinion
+    turn = _turn(rng, clauses, style).rstrip(".") + L.ask_opinion
     events = _join_events(_chunk(turn, rng, chunker), ends_turn=True)
     # Trailing silence: real audio never stops the instant the user's last word
     # does, and the upstream sbintuitions release relies on it — its server keeps
@@ -546,11 +561,11 @@ def _gen_smooth_turn(sid: str, rng: random.Random, L: LangPack, chunker=None) ->
     )
 
 
-def _gen_pause_synthetic(sid: str, rng: random.Random, L: LangPack, chunker=None) -> Scenario:
+def _gen_pause_synthetic(sid: str, rng: random.Random, L: LangPack, chunker=None, style="training") -> Scenario:
     """An inserted pause mid-sentence; the stream then ends."""
     topic, clauses = _pick_topic(rng, L)
     # last clause left open: the turn is genuinely unfinished when the pause hits
-    turn = _training_sized_turn(rng, clauses).rstrip(".")
+    turn = _turn(rng, clauses, style).rstrip(".")
     chunks = _chunk(turn, rng, chunker)
     # the pause lands mid-turn: with ASR-sized pieces the first piece is 1-2
     # words, so split around the middle of the turn instead
@@ -583,11 +598,11 @@ def _gen_pause_synthetic(sid: str, rng: random.Random, L: LangPack, chunker=None
     )
 
 
-def _gen_pause_candor(sid: str, rng: random.Random, L: LangPack, chunker=None) -> Scenario:
+def _gen_pause_candor(sid: str, rng: random.Random, L: LangPack, chunker=None, style="training") -> Scenario:
     """A natural hesitation: the utterance trails off with a filler."""
     topic, clauses = _pick_topic(rng, L)
     # the trailing clause is left open — candor trailing off mid-thought
-    turn = _training_sized_turn(rng, clauses).rstrip(".")
+    turn = _turn(rng, clauses, style).rstrip(".")
     chunks = _chunk(turn, rng, chunker)
     split_at = max(1, min(len(chunks) - 1,
                           int(round(len(chunks) * rng.uniform(0.4, 0.7)))))
@@ -620,7 +635,7 @@ def _gen_pause_candor(sid: str, rng: random.Random, L: LangPack, chunker=None) -
     )
 
 
-def _gen_backchannel_icc(sid: str, rng: random.Random, L: LangPack, chunker=None) -> Scenario:
+def _gen_backchannel_icc(sid: str, rng: random.Random, L: LangPack, chunker=None, style="training") -> Scenario:
     """A monologue with sentence endpoints; the user never yields the floor."""
     topic, clauses = _pick_topic(rng, L)
     picked = rng.sample(clauses, rng.randint(2, min(4, len(clauses))))
@@ -650,10 +665,10 @@ def _gen_backchannel_icc(sid: str, rng: random.Random, L: LangPack, chunker=None
     )
 
 
-def _gen_interruption(sid: str, rng: random.Random, L: LangPack, chunker=None) -> Scenario:
+def _gen_interruption(sid: str, rng: random.Random, L: LangPack, chunker=None, style="training") -> Scenario:
     """The user asks, the model answers, the user barges in."""
     topic, clauses = _pick_topic(rng, L)
-    context = _training_sized_turn(rng, clauses)
+    context = _turn(rng, clauses, style)
     context_q = context.rstrip(".!?") + L.ask_opinion
     interrupt_q = rng.choice(L.followup_q)
     interrupt = rng.choice(L.interrupt_templates).format(q=interrupt_q)
@@ -689,8 +704,14 @@ _GENERATORS = {
 def build_scenarios(
     task: str, limit: int | None = None, seed: int = 1234, lang: str = "pt",
     chunker: Callable[[str, random.Random], list[str]] | None = None,
+    turn_style: str = "training",
 ) -> list[Scenario]:
-    """Build ``limit`` scenarios for ``task`` (default: the FDB v1.0 size)."""
+    """Build ``limit`` scenarios for ``task`` (default: the FDB v1.0 size).
+
+    ``turn_style`` is an ablation axis: ``training`` matches the measured
+    distribution, ``long`` reproduces the multi-sentence turns that the harness
+    used before the turn-length bug was found (see FINDINGS.md).
+    """
     if task not in _GENERATORS:
         raise KeyError(f"unknown task {task!r}; expected one of {TASKS}")
     if lang not in LANG_PACKS:
@@ -699,15 +720,16 @@ def build_scenarios(
     n = SUBSET_SIZES[task] if limit is None else min(limit, SUBSET_SIZES[task])
     # per-task seed offset keeps each subset independent yet reproducible
     rng = random.Random(seed + TASKS.index(task) * 7919 + LANGS.index(lang) * 104729)
-    return [_GENERATORS[task](f"{task}_{i:04d}", rng, L, chunker)
+    return [_GENERATORS[task](f"{task}_{i:04d}", rng, L, chunker, turn_style)
             for i in range(n)]
 
 
 def build_all(
     limit: int | None = None, seed: int = 1234, lang: str = "pt",
     chunker: Callable[[str, random.Random], list[str]] | None = None,
+    turn_style: str = "training",
 ) -> list[Scenario]:
     out: list[Scenario] = []
     for task in TASKS:
-        out.extend(build_scenarios(task, limit, seed, lang, chunker))
+        out.extend(build_scenarios(task, limit, seed, lang, chunker, turn_style))
     return out
