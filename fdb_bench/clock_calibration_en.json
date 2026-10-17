@@ -1,0 +1,182 @@
+{
+  "lang": "en",
+  "n_synthesized": 24,
+  "used_pocket_tts": true,
+  "words_per_second_mean": 3.3632,
+  "words_per_second_median": 3.284,
+  "words_per_second_trimmed_mean": 3.337,
+  "words_per_second_std": 0.6778,
+  "literature_fallback": 3.0,
+  "chosen_words_per_second": 3.169,
+  "total_audio_s": 63.68,
+  "samples": [
+    {
+      "text": "The bigger problem is the battery",
+      "words": 6,
+      "audio_s": 1.68,
+      "words_per_second": 3.5714,
+      "rtf": 8.781
+    },
+    {
+      "text": "only lasts two hours. I thought",
+      "words": 6,
+      "audio_s": 2.4,
+      "words_per_second": 2.5,
+      "rtf": 0.262
+    },
+    {
+      "text": "about replacing it, but the other models",
+      "words": 7,
+      "audio_s": 2.72,
+      "words_per_second": 2.5735,
+      "rtf": 0.261
+    },
+    {
+      "text": "are pricey, what do you think?",
+      "words": 6,
+      "audio_s": 1.44,
+      "words_per_second": 4.1667,
+      "rtf": 0.276
+    },
+    {
+      "text": "I packed a bag with only the essentials to avoid",
+      "words": 10,
+      "audio_s": 2.8,
+      "words_per_second": 3.5714,
+      "rtf": 0.26
+    },
+    {
+      "text": "baggage fees. The best time to go is May, because",
+      "words": 10,
+      "audio_s": 3.92,
+      "words_per_second": 2.551,
+      "rtf": 0.26
+    },
+    {
+      "text": "it rains less. I found a hostel with a",
+      "words": 9,
+      "audio_s": 2.8,
+      "words_per_second": 3.2143,
+      "rtf": 0.259
+    },
+    {
+      "text": "high rating and lots of reviews, what do you think?",
+      "words": 10,
+      "audio_s": 2.32,
+      "words_per_second": 4.3103,
+      "rtf": 0.27
+    },
+    {
+      "text": "only lasts two hours. I tried",
+      "words": 6,
+      "audio_s": 2.56,
+      "words_per_second": 2.3438,
+      "rtf": 0.26
+    },
+    {
+      "text": "clearing the temporary files and it helped",
+      "words": 7,
+      "audio_s": 2.48,
+      "words_per_second": 2.8226,
+      "rtf": 0.265
+    },
+    {
+      "text": "a little, what do you think?",
+      "words": 6,
+      "audio_s": 1.2,
+      "words_per_second": 5.0,
+      "rtf": 0.285
+    },
+    {
+      "text": "Every Sunday I prepare the meals for the week.",
+      "words": 9,
+      "audio_s": 2.32,
+      "words_per_second": 3.8793,
+      "rtf": 0.265
+    },
+    {
+      "text": "That saves me time and still cuts the cost",
+      "words": 9,
+      "audio_s": 2.56,
+      "words_per_second": 3.5156,
+      "rtf": 0.265
+    },
+    {
+      "text": "at month's end. My kitchen is small, so",
+      "words": 8,
+      "audio_s": 2.8,
+      "words_per_second": 2.8571,
+      "rtf": 0.261
+    },
+    {
+      "text": "I organize everything on shelves, what do you think?",
+      "words": 9,
+      "audio_s": 2.88,
+      "words_per_second": 3.125,
+      "rtf": 0.26
+    },
+    {
+      "text": "I'm going to take it in for a proper diagnostic.",
+      "words": 10,
+      "audio_s": 2.48,
+      "words_per_second": 4.0323,
+      "rtf": 0.266
+    },
+    {
+      "text": "It happens mostly when I open several programs at once.",
+      "words": 10,
+      "audio_s": 3.12,
+      "words_per_second": 3.2051,
+      "rtf": 0.262
+    },
+    {
+      "text": "The bigger problem is the battery only lasts two hours.",
+      "words": 10,
+      "audio_s": 2.64,
+      "words_per_second": 3.7879,
+      "rtf": 0.266
+    },
+    {
+      "text": "I want to get better at using keyboard shortcuts, what do you think?",
+      "words": 13,
+      "audio_s": 4.16,
+      "words_per_second": 3.125,
+      "rtf": 0.256
+    },
+    {
+      "text": "The biggest expense is food, mostly delivery.",
+      "words": 7,
+      "audio_s": 3.04,
+      "words_per_second": 2.3026,
+      "rtf": 0.259
+    },
+    {
+      "text": "I learned that saving matters as much as earning.",
+      "words": 9,
+      "audio_s": 2.56,
+      "words_per_second": 3.5156,
+      "rtf": 0.265
+    },
+    {
+      "text": "I'm trying to organize my monthly bills.",
+      "words": 7,
+      "audio_s": 2.24,
+      "words_per_second": 3.125,
+      "rtf": 0.268
+    },
+    {
+      "text": "I put part of the savings into an emergency fund, what do you think?",
+      "words": 14,
+      "audio_s": 3.28,
+      "words_per_second": 4.2683,
+      "rtf": 0.26
+    },
+    {
+      "text": "One recommendation is the band that opened the show last night.",
+      "words": 11,
+      "audio_s": 3.28,
+      "words_per_second": 3.3537,
+      "rtf": 0.257
+    }
+  ]
+}

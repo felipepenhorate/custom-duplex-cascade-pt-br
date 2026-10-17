@@ -1,0 +1,182 @@
+{
+  "lang": "pt",
+  "n_synthesized": 24,
+  "used_pocket_tts": true,
+  "words_per_second_mean": 4.3354,
+  "words_per_second_median": 3.6895,
+  "words_per_second_trimmed_mean": 3.6627,
+  "words_per_second_std": 3.7908,
+  "literature_fallback": 3.0,
+  "chosen_words_per_second": 3.331,
+  "total_audio_s": 53.12,
+  "samples": [
+    {
+      "text": "Colher o que eu mesmo plantei",
+      "words": 6,
+      "audio_s": 1.04,
+      "words_per_second": 5.7692,
+      "rtf": 4.092
+    },
+    {
+      "text": "muda o meu dia. Plantei alface, tomate",
+      "words": 7,
+      "audio_s": 3.2,
+      "words_per_second": 2.1875,
+      "rtf": 0.263
+    },
+    {
+      "text": "e manjericão. Um vizinho me deu mudas",
+      "words": 7,
+      "audio_s": 0.32,
+      "words_per_second": 21.875,
+      "rtf": 0.459
+    },
+    {
+      "text": "de hortelã, o que você acha?",
+      "words": 6,
+      "audio_s": 1.52,
+      "words_per_second": 3.9474,
+      "rtf": 0.278
+    },
+    {
+      "text": "Minha cozinha é pequena, então organizo tudo em prateleiras.",
+      "words": 9,
+      "audio_s": 2.8,
+      "words_per_second": 3.2143,
+      "rtf": 0.267
+    },
+    {
+      "text": "Com o tempo essa rotina virou natural.",
+      "words": 7,
+      "audio_s": 2.56,
+      "words_per_second": 2.7344,
+      "rtf": 0.261
+    },
+    {
+      "text": "O segredo é não deixar comida crua na geladeira.",
+      "words": 9,
+      "audio_s": 2.32,
+      "words_per_second": 3.8793,
+      "rtf": 0.272
+    },
+    {
+      "text": "Só faço marmita de vidro que vai pro micro-ondas, o que você acha?",
+      "words": 13,
+      "audio_s": 2.72,
+      "words_per_second": 4.7794,
+      "rtf": 0.27
+    },
+    {
+      "text": "Peguei uma panela de ferro e",
+      "words": 6,
+      "audio_s": 1.6,
+      "words_per_second": 3.75,
+      "rtf": 0.277
+    },
+    {
+      "text": "mudou completamente o sabor. Aprendi a",
+      "words": 6,
+      "audio_s": 3.76,
+      "words_per_second": 1.5957,
+      "rtf": 0.261
+    },
+    {
+      "text": "temperar com alho, cebola e um pouco",
+      "words": 7,
+      "audio_s": 2.0,
+      "words_per_second": 3.5,
+      "rtf": 0.274
+    },
+    {
+      "text": "de páprica, o que você acha?",
+      "words": 6,
+      "audio_s": 1.2,
+      "words_per_second": 5.0,
+      "rtf": 0.297
+    },
+    {
+      "text": "Plantei alface, tomate e manjericão. Quero",
+      "words": 6,
+      "audio_s": 3.36,
+      "words_per_second": 1.7857,
+      "rtf": 0.264
+    },
+    {
+      "text": "montar uma estufa pequena para",
+      "words": 5,
+      "audio_s": 1.6,
+      "words_per_second": 3.125,
+      "rtf": 0.279
+    },
+    {
+      "text": "o inverno, o que você acha?",
+      "words": 6,
+      "audio_s": 1.36,
+      "words_per_second": 4.4118,
+      "rtf": 0.286
+    },
+    {
+      "text": "Aprendi que ele entende bem o tom da voz.",
+      "words": 9,
+      "audio_s": 2.08,
+      "words_per_second": 4.3269,
+      "rtf": 0.267
+    },
+    {
+      "text": "De madrugada ele acorda só pra olhar pela janela.",
+      "words": 9,
+      "audio_s": 2.48,
+      "words_per_second": 3.629,
+      "rtf": 0.265
+    },
+    {
+      "text": "Comecei com ração e agora misturo um pouco de caseiro.",
+      "words": 10,
+      "audio_s": 2.56,
+      "words_per_second": 3.9062,
+      "rtf": 0.265
+    },
+    {
+      "text": "Adotei um cachorro filhote no mês passado, o que você acha?",
+      "words": 11,
+      "audio_s": 2.48,
+      "words_per_second": 4.4355,
+      "rtf": 0.269
+    },
+    {
+      "text": "Acontece bem quando abro vários programas ao mesmo",
+      "words": 8,
+      "audio_s": 2.32,
+      "words_per_second": 3.4483,
+      "rtf": 0.271
+    },
+    {
+      "text": "tempo. Vou levar numa assistência pra fazer",
+      "words": 7,
+      "audio_s": 3.04,
+      "words_per_second": 2.3026,
+      "rtf": 0.257
+    },
+    {
+      "text": "um diagnóstico. Um técnico falou que pode",
+      "words": 7,
+      "audio_s": 2.64,
+      "words_per_second": 2.6515,
+      "rtf": 0.267
+    },
+    {
+      "text": "ser o cooler parado, o que você acha?",
+      "words": 8,
+      "audio_s": 1.84,
+      "words_per_second": 4.3478,
+      "rtf": 0.282
+    },
+    {
+      "text": "O joelho reclamou no começo, aí reduzi o",
+      "words": 8,
+      "audio_s": 2.32,
+      "words_per_second": 3.4483,
+      "rtf": 0.267
+    }
+  ]
+}

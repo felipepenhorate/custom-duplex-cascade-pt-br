@@ -29,6 +29,51 @@ pipelines live in each subfolder's `README.md` + `SPEC.md`:
 - [`distill/`](./distill/) → `distill/README.md`, `distill/SPEC.md`
   (incl. §6 R0 — how to regenerate everything with the v2 trigger)
 
+## Full-Duplex-Bench results
+
+The three variants are evaluated against a pt-BR + English Full-Duplex-Bench
+(FDB v1.0) harness in [`fdb_bench/`](./fdb_bench/) — same four dimensions as the
+paper's Table 1 (pause handling, backchannel, smooth turn-taking, user
+interruption), 727 scenarios per subset set, with the interruption ratings
+judged by a local Qwen3.5-9B GGUF:
+
+```bash
+./fdb_bench/run_all.sh                 # all variants, pt-BR + en
+LIMIT=3 ./fdb_bench/run_all.sh         # quick smoke
+```
+
+**Results are committed** under [`results/`](./results/) — per-model
+`raw.jsonl` / `judged.jsonl` / `quality.jsonl` plus `summary.md` and the
+cross-language [`comparison.md`](./results/comparison.md) — so every number below
+is reproducible from the repository. See:
+
+- [`fdb_bench/FINDINGS.md`](./fdb_bench/FINDINGS.md) — results, the mechanism
+  behind them, and the six bugs found and fixed along the way
+- [`fdb_bench/README.md`](./fdb_bench/README.md) — what the harness does and does
+  not reproduce
+- [`fdb_bench/REFERENCE.md`](./fdb_bench/REFERENCE.md) — the published numbers it
+  compares against
+- [`distill/article/main.tex`](./distill/article/main.tex) §V-E / §VI-C — the
+  experiments, results and findings written up in the article
+
+Headline (pt-BR, 727 scenarios per model, ATA ↑):
+
+| Model | ATA | Pause↓ syn | Pause↓ cand | Smooth↑ | Intr↑ | Relevance↑ | Quality↑ |
+|---|---|---|---|---|---|---|---|
+| MTP-like companion | **0.973** | 0.073 | **0.000** | 0.975 | 0.990 | 4.36 | **4.38** |
+| SFT (original recipe) | **0.971** | 0.080 | 0.032 | **1.000** | **0.995** | 3.56 | 4.19 |
+| Distill | 0.955 | 0.095 | 0.065 | 0.983 | 0.995 | 1.59 | 2.79 |
+| *Original DuplexCascade (upstream, measured here)* | *0.896* | *0.102* | *0.273* | *0.975* | *0.985* | *3.92* | *4.01* |
+| Base (control) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | – | 2.81 |
+| *Published DuplexCascade (EN audio)* | *0.858* | *0.058* | *0.222* | *0.832* | *0.955* | *4.02* | *–* |
+
+All three trained variants beat the published ATA; the upstream release,
+re-measured with the same harness, lands on its own published row (pause
+0.102/0.273 vs 0.058/0.222, ATA 0.896 vs 0.858). The one dimension where the
+upstream model wins is backchannel (TOR 0.436 vs 1.000) — a **data gap**, not a
+capability gap: `<|system backchannel|>` occurs **zero** times in this project's
+training data. See [`fdb_bench/FINDINGS.md`](./fdb_bench/FINDINGS.md).
+
 ## Running the GUI
 
 Both versions use the same four-component stack (llama.cpp + faster-whisper +

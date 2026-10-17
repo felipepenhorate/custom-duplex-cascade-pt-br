@@ -1,0 +1,104 @@
+[sft/pt] 10 done (0.49s/scenario, 0 errors)
+[sft/pt] 20 done (0.45s/scenario, 0 errors)
+[sft/pt] 30 done (0.44s/scenario, 0 errors)
+[sft/pt] 40 done (0.43s/scenario, 0 errors)
+[sft/pt] 50 done (0.42s/scenario, 0 errors)
+[sft/pt] 60 done (0.41s/scenario, 0 errors)
+[sft/pt] 70 done (0.41s/scenario, 0 errors)
+[sft/pt] 80 done (0.41s/scenario, 0 errors)
+[sft/pt] 90 done (0.41s/scenario, 0 errors)
+[sft/pt] 100 done (0.41s/scenario, 0 errors)
+[sft/pt] 110 done (0.41s/scenario, 0 errors)
+[sft/pt] 120 done (0.41s/scenario, 0 errors)
+[sft/pt] 130 done (0.40s/scenario, 0 errors)
+[sft/pt] 140 done (0.40s/scenario, 0 errors)
+[sft/pt] 150 done (0.40s/scenario, 0 errors)
+[sft/pt] 160 done (0.39s/scenario, 0 errors)
+[sft/pt] 170 done (0.40s/scenario, 0 errors)
+[sft/pt] 180 done (0.40s/scenario, 0 errors)
+[sft/pt] 190 done (0.41s/scenario, 0 errors)
+[sft/pt] 200 done (0.41s/scenario, 0 errors)
+[sft/pt] 210 done (0.41s/scenario, 0 errors)
+[sft/pt] 220 done (0.41s/scenario, 0 errors)
+[sft/pt] 230 done (0.41s/scenario, 0 errors)
+[sft/pt] 240 done (0.41s/scenario, 0 errors)
+[sft/pt] 250 done (0.41s/scenario, 0 errors)
+[sft/pt] 260 done (0.41s/scenario, 0 errors)
+[sft/pt] 270 done (0.40s/scenario, 0 errors)
+[sft/pt] 280 done (0.40s/scenario, 0 errors)
+[sft/pt] 290 done (0.40s/scenario, 0 errors)
+[sft/pt] 300 done (0.39s/scenario, 0 errors)
+[sft/pt] 310 done (0.39s/scenario, 0 errors)
+[sft/pt] 320 done (0.39s/scenario, 0 errors)
+[sft/pt] 330 done (0.39s/scenario, 0 errors)
+[sft/pt] 340 done (0.39s/scenario, 0 errors)
+[sft/pt] 350 done (0.39s/scenario, 0 errors)
+[sft/pt] 360 done (0.39s/scenario, 0 errors)
+[sft/pt] 370 done (0.39s/scenario, 0 errors)
+[sft/pt] 380 done (0.39s/scenario, 0 errors)
+[sft/pt] 390 done (0.39s/scenario, 0 errors)
+[sft/pt] 400 done (0.39s/scenario, 0 errors)
+[sft/pt] 410 done (0.39s/scenario, 0 errors)
+[sft/pt] 420 done (0.40s/scenario, 0 errors)
+[sft/pt] 430 done (0.40s/scenario, 0 errors)
+[sft/pt] 440 done (0.40s/scenario, 0 errors)
+[sft/pt] 450 done (0.40s/scenario, 0 errors)
+[sft/pt] 460 done (0.40s/scenario, 0 errors)
+[sft/pt] 470 done (0.40s/scenario, 0 errors)
+[sft/pt] 480 done (0.42s/scenario, 0 errors)
+[sft/pt] 490 done (0.44s/scenario, 0 errors)
+[sft/pt] 500 done (0.46s/scenario, 0 errors)
+[sft/pt] 510 done (0.48s/scenario, 0 errors)
+[sft/pt] 520 done (0.49s/scenario, 0 errors)
+[sft/pt] 530 done (0.51s/scenario, 0 errors)
+[sft/pt] 540 done (0.52s/scenario, 0 errors)
+[sft/pt] 550 done (0.52s/scenario, 0 errors)
+[sft/pt] 560 done (0.53s/scenario, 0 errors)
+[sft/pt] 570 done (0.53s/scenario, 0 errors)
+[sft/pt] 580 done (0.54s/scenario, 0 errors)
+[sft/pt] 590 done (0.54s/scenario, 0 errors)
+[sft/pt] 600 done (0.55s/scenario, 0 errors)
+[sft/pt] 610 done (0.55s/scenario, 0 errors)
+[sft/pt] 620 done (0.55s/scenario, 0 errors)
+[sft/pt] 630 done (0.56s/scenario, 0 errors)
+[sft/pt] 640 done (0.56s/scenario, 0 errors)
+[sft/pt] 650 done (0.56s/scenario, 0 errors)
+[sft/pt] 660 done (0.57s/scenario, 0 errors)
+[sft/pt] 670 done (0.57s/scenario, 0 errors)
+[sft/pt] 680 done (0.57s/scenario, 0 errors)
+[sft/pt] 690 done (0.58s/scenario, 0 errors)
+[sft/pt] 700 done (0.58s/scenario, 0 errors)
+[sft/pt] 710 done (0.58s/scenario, 0 errors)
+[sft/pt] 720 done (0.58s/scenario, 0 errors)
+{
+  "model": "sft",
+  "label": "SFT (original recipe, continue)",
+  "kind": "llama_duplex",
+  "lang": "pt",
+  "tasks": [
+    "pause_candor",
+    "pause_synthetic",
+    "smooth_turn",
+    "backchannel_icc",
+    "interruption_synthetic"
+  ],
+  "limit": null,
+  "seed": 1234,
+  "prime_mode": "decision",
+  "prompt_candidate": "none",
+  "system_prompt": "<none>",
+  "words_per_second": 3.25,
+  "chunker": "TrainingChunker",
+  "n_scenarios": 727,
+  "n_errors": 0,
+  "wall_s": 425.9,
+  "git_rev": "9525030",
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 96,
+    "repeat_penalty": 1.0
+  },
+  "adapter": "LlamaDuplexAdapter",
+  "judge": "Qwen3.5-9B-UD-Q4_K_XL.gguf (see fdb_bench/judge.py)"
+}

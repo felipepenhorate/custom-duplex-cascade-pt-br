@@ -1,0 +1,31 @@
+{
+  "model": "mtp_like",
+  "label": "MTP-like (0.8B policy companion + stock Qwen3-4B)",
+  "kind": "policy_companion",
+  "lang": "en",
+  "tasks": [
+    "pause_candor",
+    "pause_synthetic",
+    "smooth_turn",
+    "backchannel_icc",
+    "interruption_synthetic"
+  ],
+  "limit": null,
+  "seed": 1234,
+  "prime_mode": "decision",
+  "prompt_candidate": "instruction",
+  "system_prompt": "Manage the conversation normally, with natural turns.",
+  "words_per_second": 3.25,
+  "chunker": "TrainingChunker",
+  "n_scenarios": 727,
+  "n_errors": 0,
+  "wall_s": 618.6,
+  "git_rev": "9525030",
+  "generation": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "max_tokens": 96
+  },
+  "adapter": "PolicyAdapter",
+  "judge": "Qwen3.5-9B-UD-Q4_K_XL.gguf (see fdb_bench/judge.py)"
+}

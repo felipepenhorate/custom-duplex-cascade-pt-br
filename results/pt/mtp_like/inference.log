@@ -1,0 +1,104 @@
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:   0%|          | 1/320 [00:02<13:51,  2.61s/it]Loading weights:   3%|▎         | 10/320 [00:02<01:01,  5.02it/s]Loading weights:   5%|▌         | 16/320 [00:02<00:34,  8.76it/s]Loading weights:   7%|▋         | 23/320 [00:02<00:21, 14.11it/s]Loading weights:   9%|▉         | 30/320 [00:03<00:14, 20.38it/s]Loading weights:  12%|█▏        | 39/320 [00:03<00:09, 29.87it/s]Loading weights:  15%|█▍        | 47/320 [00:03<00:08, 32.09it/s]Loading weights:  18%|█▊        | 58/320 [00:03<00:06, 42.46it/s]Loading weights:  21%|██        | 66/320 [00:03<00:05, 47.35it/s]Loading weights:  23%|██▎       | 74/320 [00:03<00:04, 49.72it/s]Loading weights:  25%|██▌       | 81/320 [00:03<00:04, 51.83it/s]Loading weights:  29%|██▉       | 92/320 [00:03<00:03, 64.38it/s]Loading weights:  31%|███▏      | 100/320 [00:04<00:04, 53.89it/s]Loading weights:  35%|███▌      | 113/320 [00:04<00:03, 66.22it/s]Loading weights:  38%|███▊      | 121/320 [00:04<00:03, 63.52it/s]Loading weights:  41%|████      | 131/320 [00:04<00:02, 71.46it/s]Loading weights:  43%|████▎     | 139/320 [00:04<00:02, 72.06it/s]Loading weights:  46%|████▌     | 147/320 [00:04<00:02, 63.38it/s]Loading weights:  48%|████▊     | 154/320 [00:04<00:02, 59.83it/s]Loading weights:  52%|█████▏    | 167/320 [00:05<00:02, 67.68it/s]Loading weights:  54%|█████▍    | 174/320 [00:05<00:02, 64.79it/s]Loading weights:  57%|█████▊    | 184/320 [00:05<00:01, 72.60it/s]Loading weights:  60%|██████    | 192/320 [00:05<00:01, 73.28it/s]Loading weights:  62%|██████▎   | 200/320 [00:05<00:01, 62.89it/s]Loading weights:  65%|██████▍   | 207/320 [00:05<00:01, 58.99it/s]Loading weights:  69%|██████▉   | 220/320 [00:05<00:01, 67.98it/s]Loading weights:  71%|███████   | 227/320 [00:06<00:01, 64.95it/s]Loading weights:  74%|███████▍  | 238/320 [00:06<00:01, 70.21it/s]Loading weights:  78%|███████▊  | 248/320 [00:06<00:01, 69.04it/s]Loading weights:  80%|███████▉  | 255/320 [00:06<00:00, 66.05it/s]Loading weights:  82%|████████▏ | 262/320 [00:06<00:00, 66.21it/s]Loading weights:  85%|████████▌ | 273/320 [00:06<00:00, 72.39it/s]Loading weights:  88%|████████▊ | 281/320 [00:06<00:00, 67.15it/s]Loading weights:  90%|█████████ | 288/320 [00:06<00:00, 67.43it/s]Loading weights:  92%|█████████▏| 295/320 [00:07<00:00, 67.16it/s]Loading weights:  95%|█████████▍| 303/320 [00:07<00:00, 69.44it/s]Loading weights:  97%|█████████▋| 310/320 [00:07<00:00, 62.61it/s]Loading weights:  99%|█████████▉| 317/320 [00:07<00:00, 59.34it/s]Loading weights: 100%|██████████| 320/320 [00:07<00:00, 43.21it/s]
+[mtp_like/pt] 10 done (0.96s/scenario, 0 errors)
+[mtp_like/pt] 20 done (0.88s/scenario, 0 errors)
+[mtp_like/pt] 30 done (0.87s/scenario, 0 errors)
+[mtp_like/pt] 40 done (0.87s/scenario, 0 errors)
+[mtp_like/pt] 50 done (0.86s/scenario, 0 errors)
+[mtp_like/pt] 60 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 70 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 80 done (0.85s/scenario, 0 errors)
+[mtp_like/pt] 90 done (0.85s/scenario, 0 errors)
+[mtp_like/pt] 100 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 110 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 120 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 130 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 140 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 150 done (0.83s/scenario, 0 errors)
+[mtp_like/pt] 160 done (0.83s/scenario, 0 errors)
+[mtp_like/pt] 170 done (0.83s/scenario, 0 errors)
+[mtp_like/pt] 180 done (0.83s/scenario, 0 errors)
+[mtp_like/pt] 190 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 200 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 210 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 220 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 230 done (0.83s/scenario, 0 errors)
+[mtp_like/pt] 240 done (0.83s/scenario, 0 errors)
+[mtp_like/pt] 250 done (0.82s/scenario, 0 errors)
+[mtp_like/pt] 260 done (0.82s/scenario, 0 errors)
+[mtp_like/pt] 270 done (0.81s/scenario, 0 errors)
+[mtp_like/pt] 280 done (0.81s/scenario, 0 errors)
+[mtp_like/pt] 290 done (0.80s/scenario, 0 errors)
+[mtp_like/pt] 300 done (0.80s/scenario, 0 errors)
+[mtp_like/pt] 310 done (0.80s/scenario, 0 errors)
+[mtp_like/pt] 320 done (0.79s/scenario, 0 errors)
+[mtp_like/pt] 330 done (0.79s/scenario, 0 errors)
+[mtp_like/pt] 340 done (0.79s/scenario, 0 errors)
+[mtp_like/pt] 350 done (0.79s/scenario, 0 errors)
+[mtp_like/pt] 360 done (0.78s/scenario, 0 errors)
+[mtp_like/pt] 370 done (0.78s/scenario, 0 errors)
+[mtp_like/pt] 380 done (0.78s/scenario, 0 errors)
+[mtp_like/pt] 390 done (0.77s/scenario, 0 errors)
+[mtp_like/pt] 400 done (0.76s/scenario, 0 errors)
+[mtp_like/pt] 410 done (0.76s/scenario, 0 errors)
+[mtp_like/pt] 420 done (0.76s/scenario, 0 errors)
+[mtp_like/pt] 430 done (0.75s/scenario, 0 errors)
+[mtp_like/pt] 440 done (0.75s/scenario, 0 errors)
+[mtp_like/pt] 450 done (0.74s/scenario, 0 errors)
+[mtp_like/pt] 460 done (0.74s/scenario, 0 errors)
+[mtp_like/pt] 470 done (0.73s/scenario, 0 errors)
+[mtp_like/pt] 480 done (0.75s/scenario, 0 errors)
+[mtp_like/pt] 490 done (0.77s/scenario, 0 errors)
+[mtp_like/pt] 500 done (0.78s/scenario, 0 errors)
+[mtp_like/pt] 510 done (0.79s/scenario, 0 errors)
+[mtp_like/pt] 520 done (0.81s/scenario, 0 errors)
+[mtp_like/pt] 530 done (0.82s/scenario, 0 errors)
+[mtp_like/pt] 540 done (0.83s/scenario, 0 errors)
+[mtp_like/pt] 550 done (0.83s/scenario, 0 errors)
+[mtp_like/pt] 560 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 570 done (0.84s/scenario, 0 errors)
+[mtp_like/pt] 580 done (0.85s/scenario, 0 errors)
+[mtp_like/pt] 590 done (0.85s/scenario, 0 errors)
+[mtp_like/pt] 600 done (0.86s/scenario, 0 errors)
+[mtp_like/pt] 610 done (0.86s/scenario, 0 errors)
+[mtp_like/pt] 620 done (0.86s/scenario, 0 errors)
+[mtp_like/pt] 630 done (0.87s/scenario, 0 errors)
+[mtp_like/pt] 640 done (0.87s/scenario, 0 errors)
+[mtp_like/pt] 650 done (0.88s/scenario, 0 errors)
+[mtp_like/pt] 660 done (0.88s/scenario, 0 errors)
+[mtp_like/pt] 670 done (0.88s/scenario, 0 errors)
+[mtp_like/pt] 680 done (0.89s/scenario, 0 errors)
+[mtp_like/pt] 690 done (0.89s/scenario, 0 errors)
+[mtp_like/pt] 700 done (0.89s/scenario, 0 errors)
+[mtp_like/pt] 710 done (0.90s/scenario, 0 errors)
+[mtp_like/pt] 720 done (0.90s/scenario, 0 errors)
+{
+  "model": "mtp_like",
+  "label": "MTP-like (0.8B policy companion + stock Qwen3-4B)",
+  "kind": "policy_companion",
+  "lang": "pt",
+  "tasks": [
+    "pause_candor",
+    "pause_synthetic",
+    "smooth_turn",
+    "backchannel_icc",
+    "interruption_synthetic"
+  ],
+  "limit": null,
+  "seed": 1234,
+  "prime_mode": "decision",
+  "prompt_candidate": "instruction",
+  "system_prompt": "Gerencie a conversa normalmente, com turnos naturais.",
+  "words_per_second": 3.25,
+  "chunker": "TrainingChunker",
+  "n_scenarios": 727,
+  "n_errors": 0,
+  "wall_s": 656.0,
+  "git_rev": "9525030",
+  "generation": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "max_tokens": 96
+  },
+  "adapter": "PolicyAdapter",
+  "judge": "Qwen3.5-9B-UD-Q4_K_XL.gguf (see fdb_bench/judge.py)"
+}

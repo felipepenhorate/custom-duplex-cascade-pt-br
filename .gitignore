@@ -17,6 +17,21 @@ unsloth_compiled_cache/
 **/data/prepped_*/
 **/data/__pycache__/
 
+# Full-Duplex-Bench run outputs.
+#
+# results/ IS committed: it is the evidence behind every table in
+# fdb_bench/FINDINGS.md and distill/article/main.tex, and it is small once the
+# two things below are excluded. Kept:
+#   <lang>/<model>/{raw,judged,quality}.jsonl, meta.json, judge_meta.json,
+#                  summary.md, summary.json, inference.log, judge.log
+#   <lang>/{summary.md,summary.json}, comparison.md
+# Excluded because they are pure noise or duplicates:
+results/**/llama-server.log
+results/**/judge-server.log
+results/**/*.jsonl.bak
+# The superseded run kept for the turn-length bug write-up, not a result.
+results_longturns_buggy/
+
 # Runtime logs
 **/logs/*.log
 **/logs/*.err

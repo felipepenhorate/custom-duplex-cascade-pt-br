@@ -1,0 +1,23 @@
+chunker that produced this run: TrainingChunker
+judge GGUF should be: /mnt/f/GGUF/Qwen_3.5-9B/Qwen3.5-9B-UD-Q4_K_XL.gguf
+judge API:           http://127.0.0.1:8099/v1
+judged 20/200  rated=19 skipped=1 failed=0  1.27s/item
+judged 40/200  rated=39 skipped=1 failed=0  1.24s/item
+judged 60/200  rated=58 skipped=2 failed=0  1.26s/item
+judged 80/200  rated=77 skipped=3 failed=0  1.26s/item
+judged 100/200  rated=95 skipped=5 failed=0  1.24s/item
+judged 120/200  rated=115 skipped=5 failed=0  1.24s/item
+judged 140/200  rated=133 skipped=7 failed=0  1.24s/item
+judged 160/200  rated=153 skipped=7 failed=0  1.24s/item
+judged 180/200  rated=171 skipped=9 failed=0  1.23s/item
+judged 200/200  rated=190 skipped=10 failed=0  1.24s/item
+{
+  "n": 200,
+  "rated": 190,
+  "skipped": 10,
+  "failed": 0,
+  "wall_s": 247.8,
+  "judge_gguf": "/mnt/f/GGUF/Qwen_3.5-9B/Qwen3.5-9B-UD-Q4_K_XL.gguf",
+  "lang": "pt",
+  "rubric": "FDB eval_user_interruption.py (verbatim for en)"
+}

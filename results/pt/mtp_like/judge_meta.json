@@ -1,0 +1,18 @@
+{
+  "n": 200,
+  "rated": 198,
+  "skipped": 2,
+  "failed": 0,
+  "wall_s": 891.2,
+  "judge_gguf": "/mnt/f/GGUF/Qwen_3.5-9B/Qwen3.5-9B-UD-Q4_K_XL.gguf",
+  "lang": "pt",
+  "scope": "all",
+  "quality": {
+    "n": 727,
+    "judged": 406,
+    "silence_correct": 318,
+    "silence_failed": 3,
+    "judge_failed": 0
+  },
+  "rubric": "FDB eval_user_interruption.py (verbatim for en)"
+}
