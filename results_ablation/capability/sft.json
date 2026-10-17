@@ -1,0 +1,16 @@
+{
+  "name": "sft",
+  "model": "/mnt/f/duplex_cascade_runs/continue/export/merged_bf16",
+  "function_calling_accuracy": 0.5555555555555556,
+  "general_accuracy": 0.4166666666666667,
+  "n_function_calling": 18,
+  "n_general": 12,
+  "fc_by_tool": {
+    "agendar_compromisso": 0.6,
+    "buscar_previsao_do_tempo": 0.5,
+    "calcular_frete": 1.0,
+    "enviar_email": 0.0
+  },
+  "max_tokens": 800,
+  "wall_s": 45.5
+}

@@ -271,6 +271,38 @@ ablation claim depends on reply relevance). Re-run with
   word-count branch of the rule decides rather than the duration branch. The clock
   is a documented approximation that does not drive any conclusion here.
 
+### Anchoring strength vs capability retention
+
+The self-distillation claim is "keeps function calling and instruction following
+where plain SFT loses them", and it rests on one hyper-parameter, λ. Re-measured
+here with the same prompts, decoding and scoring as the project's committed
+capability eval (`fdb_bench/run_capability_ablation.py`; raw results under
+`results_ablation/capability/`):
+
+| arm | steps | λ | FC acc ↑ | general acc ↑ |
+|---|---|---|---|---|
+| base (no fine-tune) | – | – | 1.000 | 1.000 |
+| SFT (no KL term) | 3000 | – | **0.556** | **0.417** |
+| distill | 300 | 0.1 | 1.000 | 1.000 |
+| distill | 300 | 0.3 | 1.000 | 1.000 |
+| distill | 300 | 1.0 | 1.000 | 1.000 |
+| distill (shipped) | 2000 | 1.0 | 1.000 | 1.000 |
+
+Two things this establishes. First, **retention is a step in the presence of the
+anchoring term, not a curve in its weight**: dropping the term costs more than half
+of both capabilities, while a ten-fold change in λ (0.1 → 1.0) changes nothing
+measurable. λ does not need tuning to protect capabilities. Second, the three
+reference arms reproduce the committed numbers exactly (base 1.000/1.000, SFT
+0.556/0.417, shipped distill 1.000/1.000), which is a reproducibility check on the
+one number the claim depends on.
+
+Caveat, stated because it bounds the claim: the λ arms are 300-step (the sweep that
+exists), plain SFT is 3000-step and the shipped model is 2000-step at λ=1.0. So the
+ablation shows λ is flat over 0.1-1.0 at a matched 300-step budget and that
+retention still holds at full budget for λ=1.0; it does not measure a λ sweep at
+full budget, which would be needed to rule out a small-λ degradation that only
+appears with longer training.
+
 ## The bugs this bench had
 
 Recorded because each produced a plausible-looking table, and three of them

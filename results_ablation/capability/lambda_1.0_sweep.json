@@ -1,0 +1,16 @@
+{
+  "name": "lambda_1.0_sweep",
+  "model": "/mnt/f/duplex_cascade_runs/distill/sweep/lambda_1.0/adapter",
+  "function_calling_accuracy": 1.0,
+  "general_accuracy": 1.0,
+  "n_function_calling": 18,
+  "n_general": 12,
+  "fc_by_tool": {
+    "agendar_compromisso": 1.0,
+    "buscar_previsao_do_tempo": 1.0,
+    "calcular_frete": 1.0,
+    "enviar_email": 1.0
+  },
+  "max_tokens": 800,
+  "wall_s": 60.8
+}

@@ -832,6 +832,57 @@ stay-silent tasks reward. Almost all of the missing behaviour is in the candour-
 column; the interruption and smooth-turn columns are unchanged or slightly better in
 the ablation, so the cost of the extra machinery is confined rather than global.
 
+\subsection{Anchoring strength and capability retention}
+\label{sec:abl_lambda}
+The retention result of Section~\ref{sec:results}---distillation keeps function
+calling and instruction following where SFT loses them---rests on a single
+hyper-parameter, the anchoring weight $\lambda$. We vary it and re-measure the two
+capabilities that collapse under plain SFT, using the same prompts, decoding and
+scoring as the project's committed capability evaluation
+(Table~\ref{tab:abl_lambda}). All six arms were run again for this paper, and the
+three reference arms reproduce their committed values exactly---base
+1.000/1.000, SFT 0.556/0.417, shipped distill 1.000/1.000---which is the
+reproducibility check on the one arm whose number the paper's claim depends on.
+
+\begin{table}[t]
+\centering
+\caption{Anchoring strength vs.\ capability retention (pt-BR: 18 function-calling
+and 12 general instruction/QA prompts, greedy, identical prompts and scoring for
+every arm). $\lambda{=}0$ is plain SFT.}
+\label{tab:abl_lambda}
+\footnotesize
+\begin{tabular}{llccc}
+\toprule
+Arm & Steps & $\lambda$ & FC acc.\,$\uparrow$ & General acc.\,$\uparrow$ \\
+\midrule
+base (no fine-tune)        & --   & --   & 1.000 & 1.000 \\
+SFT (no KL term)           & 3000 & --   & \textbf{0.556} & \textbf{0.417} \\
+\midrule
+distill                    & 300  & 0.1  & 1.000 & 1.000 \\
+distill                    & 300  & 0.3  & 1.000 & 1.000 \\
+distill                    & 300  & 1.0  & 1.000 & 1.000 \\
+distill (shipped)          & 2000 & 1.0  & 1.000 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Retention behaves as a \emph{step} in the presence of the anchoring term rather
+than a curve in its weight: removing it entirely costs more than half of both
+capabilities (1.000$\rightarrow$0.556 and 1.000$\rightarrow$0.417), while a
+ten-fold change in $\lambda$ from 0.1 to 1.0 changes nothing measurable. The
+practical consequence is that $\lambda$ does not need to be tuned to protect
+capabilities---the reported $\lambda{=}1.0$ is safe on this axis, and the real
+cost of a large $\lambda$ lies elsewhere, in the free-generation behaviour of
+Section~\ref{sec:discussion} and the GSM8K trade-off.
+
+One caveat is inherent to the runs we have: the $\lambda$ arms are 300-step (the
+sweep the project trained) while plain SFT is 3000-step and the shipped distill is
+2000-step at $\lambda{=}1.0$. The ablation therefore establishes that $\lambda$ is
+flat over $0.1$--$1.0$ at a matched 300-step budget, and that retention still holds
+at full budget for $\lambda{=}1.0$; it does not measure a $\lambda$ sweep at full
+budget, which is the experiment that would rule out a small-$\lambda$ degradation
+appearing only with longer training.
+
 \paragraph{The clock is not a sensitive parameter.} Because durations in this
 harness come from a calibrated speaking rate rather than from audio, we recomputed
 every TOR column of the four trained models at 2.5, 3.0, 3.25 and 4.0 words/s---a

@@ -242,6 +242,8 @@ and is carried per-model.
 | `run_inference.py` → `run_judge.py` → `run_metrics.py` | the three phases |
 | `calibrate_clock.py` | measures `words_per_second` against `pocket_tts` |
 | `calibrate_prompts.py` | measures which prompt activates each variant's duplex mode → `PROMPTS.md` |
+| `run_ablations.sh` | the input-stream / turn-length / controller ablation arms → `results_ablation/` |
+| `run_capability_ablation.py` | anchoring strength λ vs function-calling and instruction-following retention |
 | `compare.py` | cross-language (pt→en) deltas + protocol tag diagnostics |
 | `tests/` | parity against the live bridges + simulator/metric direction tests |
 
