@@ -47,11 +47,29 @@ ARC and TruthfulQA, and above base on IFEval---where the SFT baseline drops broa
 The only measured regression is on multi-step math reasoning (GSM8K). These results
 establish per-token KL-anchoring to the frozen base as a practical, RL-free
 anti-forgetting mechanism for task-specific fine-tuning.
+
+Because teacher-forced tag accuracy is blind to whether the protocol is actually
+\emph{used} when generating, we add a free-generation evaluation built on
+Full-Duplex-Bench and run it on all three variants trained in this project plus the
+upstream DuplexCascade release, which we re-measure with the same harness
+and which reproduces its own published turn-taking numbers (ATA 0.896 vs.\ the
+published 0.858). All three variants beat that published accuracy, but the
+comparison exposes what teacher forcing hid: the distill model is competitive on
+turn-taking accuracy yet has by far the weakest interruption relevance (1.59 vs.\
+3.56 and 4.36) and commits to the floor $13\times$ more slowly (3.29\,s vs.\
+0.25\,s), because the content-KL anchors the teacher's generation style along with
+its capabilities, and the teacher occasionally autocompleted the user's turn. The
+same harness also identifies a property of the shared training data rather than of
+any model---the system-backchannel tag occurs zero times, so that dimension is not
+testable---and shows that the assistant micro-turn length distribution, which
+differs between the two generations of the source dialogues, moves the
+duration-gated turn-taking metric itself.
 \end{abstract}
 
 \begin{IEEEkeywords}
 self-distillation, continual learning, supervised fine-tuning, full-duplex dialogue,
-turn-taking, catastrophic forgetting, function calling
+turn-taking, evaluation, full-duplex benchmark, catastrophic forgetting,
+function calling
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -108,6 +126,25 @@ function calling, general instruction following, MMLU, HellaSwag, ARC and Truthf
 and \emph{improving} on IFEval. The plain-SFT baseline regresses on all of them. The
 one caveat is GSM8K, where the distill model drops 11 pp below base---a limitation we
 discuss in Section~\ref{sec:discussion}.
+
+\emph{Is the protocol actually used?} Every number above is teacher-forced: at each
+supervised position the model is handed the correct prefix and only its next-token
+choice is scored. That measures whether the protocol was \emph{learned}; it says
+nothing about whether the model \emph{decides} correctly when it generates on its own,
+which is what a deployed duplex system needs. We therefore build a free-generation
+evaluation on Full-Duplex-Bench~\cite{lin2025fdb} and run it on the three variants
+trained in this project as well as on the upstream DuplexCascade release,
+re-measured with the same harness rather than quoted. Three findings follow, and they
+refine the picture above. (i) The harness is trustworthy: the upstream release lands
+on its own published turn-taking numbers. (ii) All three variants exceed the published
+turn-taking accuracy---but the distill model is the worst of the three once reply
+\emph{quality} and \emph{latency} are counted, which is exactly the cost teacher-forced
+tag accuracy cannot see. (iii) A property of the data, not of any model, makes one
+FDB dimension untestable here: the system-backchannel tag never occurs in training.
+We also document the measurement trap that dominated our own first attempt---the
+evaluated input stream must match the training stream, because feeding whole sentences
+instead of ASR-sized pieces changes the reported turn-taking accuracy by a factor of
+four.
 
 \section{Background and Related Work}
 \subsection{Catastrophic forgetting and off-policy fine-tuning}
@@ -384,7 +421,7 @@ IFEval loose / strict ($n{=}40$) & 0.730/0.651 & \textbf{0.762/0.683} & 0.603/0.
 \label{sec:fdb_results}
 Table~\ref{tab:fdb} reports the FDB results for the three variants trained in this
 project, the untrained base as a control, and---measured with the same harness
-rather than quoted---the original English \textsc{DuplexCascade} release from
+rather than quoted---the original English DuplexCascade release from
 \texttt{sbintuitions}, which we downloaded, merged to a 4-bit GGUF and served
 through the identical stack.
 
@@ -422,10 +459,10 @@ against 0.858. A re-implementation that reproduces the reference model's scores 
 measuring the same thing the reference measures, which is the strongest available
 check on everything else in the table.
 
-\emph{Both trained variants beat the reference on turn-taking.} The SFT model and
-the MTP-companion variant reach ATA 0.971 and 0.973---above the upstream model's
-0.896 and above the published 0.858---and both sit at or better than the published
-figures on every TOR column. They get there differently: the SFT model is fastest
+\emph{All three variants beat the reference on turn-taking accuracy.} They reach
+ATA 0.955 (distill), 0.971 (SFT) and 0.973 (MTP-companion)---every one above the
+upstream model's 0.896 and above the published 0.858---and all three sit at or
+better than the published figures on every TOR column. They get there differently: the SFT model is fastest
 by an order of magnitude (stop latency 0.035\,s, response 0.28\,s) because one
 model does everything, whereas the companion has the best interruption relevance
 (4.36) but cannot cut the audio until its separate 0.8B controller has been
@@ -557,6 +594,24 @@ base-level function calling, general instruction following, MMLU, HellaSwag, ARC
 TruthfulQA and improving IFEval---where the SFT baseline regresses broadly. Per-token
 KL-anchoring to the frozen base is a practical, RL-free anti-forgetting tool that
 generalizes beyond duplex dialogue.
+
+Free-generation evaluation qualifies that conclusion in a way we think generalizes
+with it. Anchoring the content distribution preserves capabilities, but it also
+preserves the teacher's \emph{generation style}, including the one artifact we know it
+has: the teacher sometimes autocompleted the user's turn, and the student inherited
+it. Teacher-forced accuracy could not detect this---it stayed at 96.4\%---while a
+turn-taking benchmark measures it directly as the worst interruption relevance and a
+$13\times$ slower floor commitment of any model tested. The practical lesson is that a
+protocol metric should be paired with a free-generation metric whenever the protocol is
+\emph{used} rather than merely reproduced, and that the fix for a distilled artifact
+belongs in the teacher data (our corrected trigger and retrain) rather than in
+inference-time cleanup. Two further observations are about benchmarks rather than
+models, and both cost us real time before we found them. A generative benchmark
+inherits the training stream: evaluate the same model on ASR-sized pieces and on whole sentences and its
+turn-taking accuracy moves from 0.08 to 0.29, so the input distribution is an
+experimental variable that must be reported. And a metric can be unanswerable by
+construction: no model here can score the backchannel dimension, because the tag it
+requires never appears in the training data.
 
 \section*{Use of Generative AI}
 This manuscript was prepared with the assistance of generative artificial
