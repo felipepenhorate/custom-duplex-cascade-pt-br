@@ -65,6 +65,31 @@ Three deliberate departures, each measurable:
 Pieces are cut to the training maximum (`user_chunk_max=7`); the emitted stream is
 asserted to be lossless and to stay within that bound.
 
+## A known accounting gap (found on the pt-BR set)
+
+`Adapter.last_call_s` -- the number the session bills into latency -- times only
+the *first* generation of a decision. When the model takes the floor, the adapter
+then runs a micro-turn loop (up to `MAX_MICRO_TURNS = 10` further generations,
+copied from the deployed bridge), and that loop's wall time is **not** included.
+
+It went unnoticed on the English set because the upstream model closes its turns
+quickly there (1.1 assistant turns per scenario, ~38 words). On the pt-BR set the
+same model rambles through Portuguese: 1.6 turns per scenario and the full loop
+every time, which is why the pt sweep runs at 19.1 s/scenario against 7.0 while
+the *recorded* per-scenario compute stays at ~8 s. The missing ~11 s is that
+loop.
+
+Consequences, stated so the two sets are read correctly:
+
+* **turn-taking numbers are unaffected** -- invitations and the decision to take
+  the floor do not depend on the clock;
+* **latency columns are under-reported for rambling models**, so the pt-BR
+  floor-latency figures are optimistic by roughly the loop time (up to a few
+  seconds per turn). The English figures carry the same, smaller, bias;
+* fixing it changes the meaning of the latency column, so it should be applied to
+  both sets and both re-run rather than patched mid-sweep. The sweep in flight
+  therefore keeps the old accounting throughout.
+
 ## Latency, precisely
 
 An assistant turn is placed at the moment its triggering piece became available to
