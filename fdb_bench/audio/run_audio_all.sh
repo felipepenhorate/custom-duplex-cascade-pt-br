@@ -28,6 +28,12 @@ RESULTS="${RESULTS:-$ROOT/results_audio}"
 AUDIO_ROOT="${AUDIO_ROOT:-/mnt/f/fdb_audio}"
 MODELS="${MODELS:-original_dc sft distill mtp_like}"
 MODE="${MODE:-decision}"
+# Language / data set: the English v1.0 set by default; point these at the pt-BR
+# re-voicing (build_pt_audio.py) to measure the same models in distribution.
+# NB: not LANG, which is the locale.
+FDB_LANG="${FDB_LANG:-en}"
+DATA_ROOT="${DATA_ROOT:-/mnt/f/fdb_data/v1.0}"
+TTS_LANG="${TTS_LANG:-$([ "$FDB_LANG" = pt ] && echo portuguese || echo english)}"
 VAD="${VAD:-silero}"
 LIMIT="${LIMIT:-}"
 
@@ -93,6 +99,7 @@ for model in $MODELS; do
   set -o pipefail
   if ! "$PY" -m fdb_bench.audio.run_audio \
       --model "$model" --mode "$MODE" --out "$out" --vad "$VAD" \
+      --lang "$FDB_LANG" --data-root "$DATA_ROOT" --tts-language "$TTS_LANG" \
       --api-base "$MODEL_API" --big-api-base "$MODEL_API" \
       --judge-api-base "$JUDGE_API" --audio-root "$AUDIO_ROOT" \
       ${LIMIT:+--limit "$LIMIT"} \
@@ -111,6 +118,7 @@ for model in $MODELS; do
   ensure_judge || log "  judge unavailable — interruption relevance will be missing"
   if ! "$PY_SCORE" -m fdb_bench.audio.run_audio \
       --model "$model" --mode "$MODE" --out "$out" --vad "$VAD" \
+      --lang "$FDB_LANG" --data-root "$DATA_ROOT" \
       --judge-api-base "$JUDGE_API" --audio-root "$AUDIO_ROOT" --score-only \
       ${LIMIT:+--limit "$LIMIT"} > "$out/scoring.log" 2>&1; then
     log "  SCORING FAILED for $model — see $out/scoring.log"

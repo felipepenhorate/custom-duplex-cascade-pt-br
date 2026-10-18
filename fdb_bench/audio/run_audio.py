@@ -272,7 +272,11 @@ def main() -> None:
             / f"{args.mode}_{args.model}"
         for subset in tasks:
             audio_dir = args.audio_root / args.mode / args.model / subset
+            # published layout is <root>/<subset>/<subset>/; the pt-BR
+            # re-voicing writes <root>/<subset>/ directly
             src_root = args.data_root / subset / subset
+            if not src_root.is_dir():
+                src_root = args.data_root / subset
             sdirs = sorted([p for p in audio_dir.glob("*") if p.is_dir()
                             and (p / "output.wav").is_file()],
                            key=lambda p: int(p.name) if p.name.isdigit() else 0)
