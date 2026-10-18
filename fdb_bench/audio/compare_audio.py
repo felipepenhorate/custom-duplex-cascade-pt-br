@@ -18,6 +18,8 @@ import argparse
 import json
 from pathlib import Path
 
+from ..metrics import averaged_turn_taking_accuracy
+
 PUBLISHED = {
     "pause_synth": 0.058, "pause_candor": 0.222, "bc_tor": 0.218,
     "bc_freq": 0.009, "bc_jsd": 0.949, "smooth_tor": 0.832, "smooth_lat": 1.724,
@@ -84,6 +86,19 @@ def partial_audio_tor(results_dir: Path, model: str) -> dict:
     return out
 
 
+def ata_audio(off: dict) -> float:
+    """ATA with the project's own convention (``metrics.averaged_turn_taking_accuracy``)."""
+    try:
+        return round(averaged_turn_taking_accuracy({
+            "pause_synthetic_tor": off["synthetic_pause_handling"]["tor"],
+            "pause_candor_tor": off["candor_pause_handling"]["tor"],
+            "smooth_tor": off["candor_turn_taking"]["tor"],
+            "intr_tor": off["synthetic_user_interruption"]["tor"],
+        }), 3)
+    except Exception:  # noqa: BLE001 - an unfinished run has no ATA
+        return float("nan")
+
+
 def text_rows(path: Path) -> dict[str, dict]:
     """Rows from the text-domain bench (results/<lang>/summary.json)."""
     if not path.is_file():
@@ -98,6 +113,7 @@ def text_rows(path: Path) -> dict[str, dict]:
             "smooth_tor": r.get("smooth_tor"),
             "intr_tor": r.get("intr_tor"),
             "intr_rel": r.get("intr_rating_all"),
+            "ata": r.get("ata"),
             "n": r.get("n_scenarios"),
         }
     return out
@@ -109,19 +125,23 @@ def tor_section(rows: dict[str, dict], text: dict[str, dict],
          "The same five columns the benchmark reports TOR for. Arrow = the good "
          "direction; pause and backchannel rate a model that speaks too eagerly, "
          "smooth turn-taking and interruption rate a model that answers.\n",
-         "| run | model | pause_synth ↓ | pause_candor ↓ | bc_tor ↓ | smooth_tor ↑ | intr_tor ↑ |",
-         "|---|---|---|---|---|---|---|",
-         "| *published* | *DuplexCascade (EN audio, GPT-4o)* | *0.058* | *0.222* | *0.218* | *0.832* | *0.955* |"]
+         "| run | model | pause_synth ↓ | pause_candor ↓ | bc_tor ↓ | smooth_tor ↑ | intr_tor ↑ | ATA ↑ |",
+         "|---|---|---|---|---|---|---|---|",
+         "| *published* | *DuplexCascade (EN audio, GPT-4o)* | *0.058* | *0.222* | *0.218* | *0.832* | *0.955* | *0.858* |"]
     for m, r in rows.items():
+        off = r.get("_official") or {}
+        ata_v = ata_audio(off) if off else None
         L.append(f"| audio (real WAVs, official evaluators) | {LABELS.get(m, m)} | "
-                 + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS) + " |")
+                 + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS)
+                 + f" | {fmt(ata_v)} |")
     for m, r in partials.items():
         L.append(f"| audio (in progress, audio-truth reading) | {LABELS.get(m, m)} "
                  f"({r['n']}/727 scenarios) | "
-                 + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS) + " |")
+                 + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS) + " | — |")
     for m, r in text.items():
         L.append(f"| text (synthetic stimuli, en) | {LABELS.get(m, m)} | "
-                 + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS) + " |")
+                 + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS)
+                 + f" | {fmt(r.get('ata'))} |")
     L.append("")
     L.append("Reading the two runs side by side: the text bench feeds clean "
              "transcripts and knows where turns end, so it flatters every model; "
@@ -157,6 +177,7 @@ def collect(mode_dir: Path) -> dict[str, dict]:
             sum(v.get("mean_tts_s", 0) * v.get("n", 0) for v in roll.values())
             / max(1, sum(v.get("n", 0) for v in roll.values())), 2)
         row["n"] = sum(v.get("n", 0) for v in roll.values())
+        row["_official"] = off
         out[d.name] = row
     return out
 

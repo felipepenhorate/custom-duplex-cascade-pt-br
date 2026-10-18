@@ -21,3 +21,4 @@ WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may
 [audio/mtp_like] 325/727 queue (9.3s/scenario, 7.2s audio) spoke=True pieces=8
 [audio/mtp_like] 350/727 queue (9.3s/scenario, 10.6s audio) spoke=True pieces=15
 [audio/mtp_like] 375/727 queue (9.2s/scenario, 9.9s audio) spoke=True pieces=13
+[audio/mtp_like] 400/727 queue (9.4s/scenario, 17.0s audio) spoke=True pieces=20
