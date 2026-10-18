@@ -1,0 +1,103 @@
+{
+    "text": "Caring for an orchid is a balance of light, water, and a bit of",
+    "chunks": [
+        {
+            "text": "Caring",
+            "timestamp": [
+                3.2,
+                3.92
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                3.92,
+                4.08
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                4.08,
+                4.24
+            ]
+        },
+        {
+            "text": "orchid",
+            "timestamp": [
+                4.24,
+                4.8
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "balance",
+            "timestamp": [
+                5.2,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                5.6000000000000005,
+                5.84
+            ]
+        },
+        {
+            "text": "light,",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "water,",
+            "timestamp": [
+                6.48,
+                6.96
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                7.2,
+                7.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        }
+    ]
+}

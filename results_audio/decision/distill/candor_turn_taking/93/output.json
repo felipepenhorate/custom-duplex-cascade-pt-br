@@ -1,0 +1,215 @@
+{
+    "text": "I didn't know you noticed that. Ah, but I'm not really a drinker. Ah, peff. You're using the Korean character for p. You're using the Korean character for pet, right?",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                3.52,
+                3.84
+            ]
+        },
+        {
+            "text": "didn't",
+            "timestamp": [
+                3.84,
+                4.08
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                4.08,
+                4.24
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.24,
+                4.4
+            ]
+        },
+        {
+            "text": "noticed",
+            "timestamp": [
+                4.4,
+                4.8
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                5.2,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                5.92,
+                6.16
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                6.32,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "drinker.",
+            "timestamp": [
+                6.640000000000001,
+                7.12
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                7.44,
+                7.84
+            ]
+        },
+        {
+            "text": "peff.",
+            "timestamp": [
+                8.0,
+                8.48
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "using",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "Korean",
+            "timestamp": [
+                9.44,
+                9.92
+            ]
+        },
+        {
+            "text": "character",
+            "timestamp": [
+                9.92,
+                10.24
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "p.",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "using",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "Korean",
+            "timestamp": [
+                11.76,
+                12.24
+            ]
+        },
+        {
+            "text": "character",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "pet,",
+            "timestamp": [
+                12.72,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "right?",
+            "timestamp": [
+                13.280000000000001,
+                13.36
+            ]
+        }
+    ]
+}

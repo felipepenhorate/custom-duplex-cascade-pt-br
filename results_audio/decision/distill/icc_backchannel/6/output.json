@@ -1,0 +1,54 @@
+{
+    "text": "You were saying, my schedule is imbalanced.",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                44.56,
+                44.88
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                44.88,
+                45.2
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                45.2,
+                45.44
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                45.68,
+                45.76
+            ]
+        },
+        {
+            "text": "schedule",
+            "timestamp": [
+                45.92,
+                46.4
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                46.4,
+                46.56
+            ]
+        },
+        {
+            "text": "imbalanced.",
+            "timestamp": [
+                46.56,
+                47.2
+            ]
+        }
+    ]
+}

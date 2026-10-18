@@ -1,0 +1,40 @@
+{
+    "text": "You're so welcome. I'm really",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "welcome.",
+            "timestamp": [
+                10.88,
+                11.36
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        }
+    ]
+}

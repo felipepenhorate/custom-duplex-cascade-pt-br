@@ -1,0 +1,82 @@
+{
+    "text": "Ah, so no car or public transport right stress, at least.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                5.2,
+                5.68
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                6.0,
+                6.24
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "car",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "public",
+            "timestamp": [
+                6.96,
+                7.28
+            ]
+        },
+        {
+            "text": "transport",
+            "timestamp": [
+                7.28,
+                7.68
+            ]
+        },
+        {
+            "text": "right",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "stress,",
+            "timestamp": [
+                8.16,
+                8.48
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "least.",
+            "timestamp": [
+                8.88,
+                9.28
+            ]
+        }
+    ]
+}

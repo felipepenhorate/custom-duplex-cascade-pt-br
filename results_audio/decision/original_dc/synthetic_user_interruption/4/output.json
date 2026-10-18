@@ -1,0 +1,369 @@
+{
+    "text": "I'm sorry for any confusion, but as an AI, I don't have real-time capabilities to provide current or future weather forecasts. I recommend checking a reliable online weather source or using a weather app on your device for the most accurate and up-to-date information. You're welcome. If you have any other questions,",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                13.847999999999999,
+                14.248
+            ]
+        },
+        {
+            "text": "sorry",
+            "timestamp": [
+                14.248,
+                14.568
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                14.568,
+                14.728
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                14.728,
+                14.968
+            ]
+        },
+        {
+            "text": "confusion,",
+            "timestamp": [
+                14.968,
+                15.528
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                15.688,
+                15.928
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                15.928,
+                16.088
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                16.088,
+                16.248
+            ]
+        },
+        {
+            "text": "AI,",
+            "timestamp": [
+                16.248,
+                16.728
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.887999999999998,
+                17.048000000000002
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                17.048000000000002,
+                17.208
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                17.208,
+                17.448
+            ]
+        },
+        {
+            "text": "real-time",
+            "timestamp": [
+                17.448,
+                17.928
+            ]
+        },
+        {
+            "text": "capabilities",
+            "timestamp": [
+                17.928,
+                18.648
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                18.648,
+                18.808
+            ]
+        },
+        {
+            "text": "provide",
+            "timestamp": [
+                18.808,
+                19.208
+            ]
+        },
+        {
+            "text": "current",
+            "timestamp": [
+                19.208,
+                19.608
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                19.608,
+                19.768
+            ]
+        },
+        {
+            "text": "future",
+            "timestamp": [
+                19.768,
+                20.088
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                20.088,
+                20.408
+            ]
+        },
+        {
+            "text": "forecasts.",
+            "timestamp": [
+                20.408,
+                21.048000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                21.288,
+                21.448
+            ]
+        },
+        {
+            "text": "recommend",
+            "timestamp": [
+                21.448,
+                21.928
+            ]
+        },
+        {
+            "text": "checking",
+            "timestamp": [
+                21.928,
+                22.328
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                22.328,
+                22.408
+            ]
+        },
+        {
+            "text": "reliable",
+            "timestamp": [
+                22.408,
+                23.048000000000002
+            ]
+        },
+        {
+            "text": "online",
+            "timestamp": [
+                23.048000000000002,
+                23.528
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                23.528,
+                23.848
+            ]
+        },
+        {
+            "text": "source",
+            "timestamp": [
+                23.848,
+                24.247999999999998
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                24.408,
+                24.728
+            ]
+        },
+        {
+            "text": "using",
+            "timestamp": [
+                24.728,
+                25.048000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.048000000000002,
+                25.128
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                25.128,
+                25.448
+            ]
+        },
+        {
+            "text": "app",
+            "timestamp": [
+                25.448,
+                25.688000000000002
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                25.688000000000002,
+                25.848
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                25.848,
+                26.008000000000003
+            ]
+        },
+        {
+            "text": "device",
+            "timestamp": [
+                26.008000000000003,
+                26.408
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                26.408,
+                26.567999999999998
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                26.567999999999998,
+                26.728
+            ]
+        },
+        {
+            "text": "most",
+            "timestamp": [
+                26.728,
+                26.968
+            ]
+        },
+        {
+            "text": "accurate",
+            "timestamp": [
+                26.968,
+                27.528
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                27.528,
+                27.768
+            ]
+        },
+        {
+            "text": "up-to-date",
+            "timestamp": [
+                27.768,
+                28.488
+            ]
+        },
+        {
+            "text": "information.",
+            "timestamp": [
+                28.488,
+                28.887999999999998
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                29.208,
+                29.448
+            ]
+        },
+        {
+            "text": "welcome.",
+            "timestamp": [
+                29.448,
+                29.927999999999997
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                30.168,
+                30.328000000000003
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                30.328000000000003,
+                30.488
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                30.488,
+                30.648000000000003
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                30.648000000000003,
+                30.808
+            ]
+        },
+        {
+            "text": "other",
+            "timestamp": [
+                30.808,
+                31.048000000000002
+            ]
+        },
+        {
+            "text": "questions,",
+            "timestamp": [
+                31.048000000000002,
+                31.448
+            ]
+        }
+    ]
+}

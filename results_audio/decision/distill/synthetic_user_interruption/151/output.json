@@ -1,0 +1,327 @@
+{
+    "text": "You're asking, can I save energy at home? That's a great ah. You are asking about saving energy at home, and it looks like you might have meant plastic or energy, not peef F. Let me help you. With the right answer, yes, you can absolutely.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                16.344,
+                16.664
+            ]
+        },
+        {
+            "text": "asking,",
+            "timestamp": [
+                16.664,
+                16.984
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                17.224,
+                17.464
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                17.464,
+                17.624000000000002
+            ]
+        },
+        {
+            "text": "save",
+            "timestamp": [
+                17.624000000000002,
+                17.864
+            ]
+        },
+        {
+            "text": "energy",
+            "timestamp": [
+                17.864,
+                18.504
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                18.504,
+                18.664
+            ]
+        },
+        {
+            "text": "home?",
+            "timestamp": [
+                18.664,
+                19.144
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                19.784,
+                20.024
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.024,
+                20.184
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                20.184,
+                20.424
+            ]
+        },
+        {
+            "text": "ah.",
+            "timestamp": [
+                20.424,
+                20.824
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                21.064,
+                21.144
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                21.464,
+                21.624000000000002
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                21.704,
+                21.944000000000003
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                21.944000000000003,
+                22.184
+            ]
+        },
+        {
+            "text": "saving",
+            "timestamp": [
+                22.184,
+                22.584000000000003
+            ]
+        },
+        {
+            "text": "energy",
+            "timestamp": [
+                22.584000000000003,
+                22.984
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                22.984,
+                23.144
+            ]
+        },
+        {
+            "text": "home,",
+            "timestamp": [
+                23.144,
+                23.464
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                23.704,
+                23.864
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                23.864,
+                24.024
+            ]
+        },
+        {
+            "text": "looks",
+            "timestamp": [
+                24.024,
+                24.184
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                24.184,
+                24.424
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                24.424,
+                24.504
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                24.504,
+                24.664
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                24.664,
+                24.744
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                24.744,
+                25.064
+            ]
+        },
+        {
+            "text": "plastic",
+            "timestamp": [
+                25.064,
+                25.864
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                25.864,
+                26.184
+            ]
+        },
+        {
+            "text": "energy,",
+            "timestamp": [
+                26.184,
+                26.744
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                26.984,
+                27.224
+            ]
+        },
+        {
+            "text": "peef",
+            "timestamp": [
+                27.224,
+                27.624000000000002
+            ]
+        },
+        {
+            "text": "F.",
+            "timestamp": [
+                27.784,
+                28.024
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                28.504,
+                28.664
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                28.664,
+                28.904
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                28.904,
+                29.144
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                29.144,
+                29.224
+            ]
+        },
+        {
+            "text": "With",
+            "timestamp": [
+                29.464,
+                29.704
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                29.704,
+                29.863999999999997
+            ]
+        },
+        {
+            "text": "right",
+            "timestamp": [
+                29.863999999999997,
+                30.104
+            ]
+        },
+        {
+            "text": "answer,",
+            "timestamp": [
+                30.104,
+                30.744
+            ]
+        },
+        {
+            "text": "yes,",
+            "timestamp": [
+                31.064,
+                31.464
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                31.624000000000002,
+                31.784
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                31.784,
+                31.944000000000003
+            ]
+        },
+        {
+            "text": "absolutely.",
+            "timestamp": [
+                31.944000000000003,
+                32.264
+            ]
+        }
+    ]
+}

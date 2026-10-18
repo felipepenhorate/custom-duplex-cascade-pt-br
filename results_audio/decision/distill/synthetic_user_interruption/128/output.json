@@ -1,0 +1,327 @@
+{
+    "text": "Great question. You're shifting from smartphones to laptops now. You let us talk about ah. I think you might have meant iPhone or F was a typo, but now you were asking about laptops, which is great. Let's go ahead and talk about the latest laptops.",
+    "chunks": [
+        {
+            "text": "Great",
+            "timestamp": [
+                14.584,
+                15.064
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                15.064,
+                15.304
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                15.464,
+                15.704
+            ]
+        },
+        {
+            "text": "shifting",
+            "timestamp": [
+                15.704,
+                16.024
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                16.024,
+                16.184
+            ]
+        },
+        {
+            "text": "smartphones",
+            "timestamp": [
+                16.184,
+                16.744
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                16.744,
+                16.824
+            ]
+        },
+        {
+            "text": "laptops",
+            "timestamp": [
+                16.824,
+                17.384
+            ]
+        },
+        {
+            "text": "now.",
+            "timestamp": [
+                17.384,
+                17.624000000000002
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                17.864,
+                18.104
+            ]
+        },
+        {
+            "text": "let",
+            "timestamp": [
+                18.104,
+                18.264
+            ]
+        },
+        {
+            "text": "us",
+            "timestamp": [
+                18.584,
+                18.904
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                18.904,
+                19.224
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                19.224,
+                19.464
+            ]
+        },
+        {
+            "text": "ah.",
+            "timestamp": [
+                19.624000000000002,
+                19.944000000000003
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                20.264000000000003,
+                20.344
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                20.344,
+                20.503999999999998
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                20.503999999999998,
+                20.664
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                20.664,
+                20.823999999999998
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                20.823999999999998,
+                20.984
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                20.984,
+                21.304000000000002
+            ]
+        },
+        {
+            "text": "iPhone",
+            "timestamp": [
+                21.544,
+                22.503999999999998
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                22.503999999999998,
+                22.823999999999998
+            ]
+        },
+        {
+            "text": "F",
+            "timestamp": [
+                23.064,
+                23.384
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                23.624000000000002,
+                23.864
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                23.864,
+                24.024
+            ]
+        },
+        {
+            "text": "typo,",
+            "timestamp": [
+                24.024,
+                24.744
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                25.064,
+                25.224
+            ]
+        },
+        {
+            "text": "now",
+            "timestamp": [
+                25.224,
+                25.464
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                25.464,
+                25.704
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                25.704,
+                25.864
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                25.864,
+                26.184
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                26.184,
+                26.344
+            ]
+        },
+        {
+            "text": "laptops,",
+            "timestamp": [
+                26.344,
+                26.984
+            ]
+        },
+        {
+            "text": "which",
+            "timestamp": [
+                27.144,
+                27.304000000000002
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                27.304000000000002,
+                27.544
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                27.544,
+                27.704
+            ]
+        },
+        {
+            "text": "Let's",
+            "timestamp": [
+                28.504,
+                28.744
+            ]
+        },
+        {
+            "text": "go",
+            "timestamp": [
+                28.744,
+                28.824
+            ]
+        },
+        {
+            "text": "ahead",
+            "timestamp": [
+                28.824,
+                29.064
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                29.064,
+                29.144000000000002
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                29.144000000000002,
+                29.304000000000002
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                29.304000000000002,
+                29.464000000000002
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                29.464000000000002,
+                29.544
+            ]
+        },
+        {
+            "text": "latest",
+            "timestamp": [
+                29.544,
+                29.864
+            ]
+        },
+        {
+            "text": "laptops.",
+            "timestamp": [
+                29.864,
+                30.184
+            ]
+        }
+    ]
+}

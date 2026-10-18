@@ -1,0 +1,54 @@
+{
+    "text": "Oh, you're really getting into the flow.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.56,
+                12.88
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                12.88,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "getting",
+            "timestamp": [
+                13.120000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "into",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                13.6,
+                13.68
+            ]
+        },
+        {
+            "text": "flow.",
+            "timestamp": [
+                13.68,
+                14.0
+            ]
+        }
+    ]
+}

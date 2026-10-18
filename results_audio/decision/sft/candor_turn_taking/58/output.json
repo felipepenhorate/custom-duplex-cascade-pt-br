@@ -1,0 +1,131 @@
+{
+    "text": "Nah, I a lot, I guess. Depends on the mask, I mean. I can't vouch for that, no.",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                12.24,
+                12.72
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.84,
+                14.08
+            ]
+        },
+        {
+            "text": "lot,",
+            "timestamp": [
+                14.08,
+                14.4
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "guess.",
+            "timestamp": [
+                14.72,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "Depends",
+            "timestamp": [
+                15.36,
+                15.76
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                15.76,
+                15.92
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                15.92,
+                16.0
+            ]
+        },
+        {
+            "text": "mask,",
+            "timestamp": [
+                16.0,
+                16.4
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.48,
+                16.56
+            ]
+        },
+        {
+            "text": "mean.",
+            "timestamp": [
+                16.56,
+                16.72
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.96,
+                17.04
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                17.04,
+                17.36
+            ]
+        },
+        {
+            "text": "vouch",
+            "timestamp": [
+                17.36,
+                17.68
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                17.68,
+                17.92
+            ]
+        },
+        {
+            "text": "that,",
+            "timestamp": [
+                17.92,
+                18.16
+            ]
+        },
+        {
+            "text": "no.",
+            "timestamp": [
+                18.48,
+                18.8
+            ]
+        }
+    ]
+}

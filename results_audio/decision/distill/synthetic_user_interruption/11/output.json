@@ -1,0 +1,215 @@
+{
+    "text": "Uh, you probably meant to say, I'm thinking of buying a new laptop, but now you're asking about cooking. Let let's go with the delicious plan. Let's talk cooking tips.",
+    "chunks": [
+        {
+            "text": "Uh,",
+            "timestamp": [
+                14.872000000000002,
+                15.272000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.512,
+                15.752000000000002
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                15.752000000000002,
+                16.072000000000003
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                16.072000000000003,
+                16.392000000000003
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                16.392000000000003,
+                16.632
+            ]
+        },
+        {
+            "text": "say,",
+            "timestamp": [
+                16.632,
+                16.792
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                17.112000000000002,
+                17.352
+            ]
+        },
+        {
+            "text": "thinking",
+            "timestamp": [
+                17.352,
+                17.672
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                17.672,
+                17.832
+            ]
+        },
+        {
+            "text": "buying",
+            "timestamp": [
+                17.832,
+                18.152
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.152,
+                18.232000000000003
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                18.232000000000003,
+                18.472
+            ]
+        },
+        {
+            "text": "laptop,",
+            "timestamp": [
+                18.472,
+                19.032000000000004
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                19.272000000000002,
+                19.432000000000002
+            ]
+        },
+        {
+            "text": "now",
+            "timestamp": [
+                19.432000000000002,
+                19.592000000000002
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                19.592000000000002,
+                19.832
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                19.832,
+                20.152
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                20.152,
+                20.392000000000003
+            ]
+        },
+        {
+            "text": "cooking.",
+            "timestamp": [
+                20.392000000000003,
+                20.712000000000003
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                22.312,
+                22.632
+            ]
+        },
+        {
+            "text": "let's",
+            "timestamp": [
+                23.272000000000002,
+                23.752000000000002
+            ]
+        },
+        {
+            "text": "go",
+            "timestamp": [
+                23.992,
+                24.232
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                24.232,
+                24.472
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                24.472,
+                24.632
+            ]
+        },
+        {
+            "text": "delicious",
+            "timestamp": [
+                24.632,
+                25.352000000000004
+            ]
+        },
+        {
+            "text": "plan.",
+            "timestamp": [
+                25.352000000000004,
+                25.992
+            ]
+        },
+        {
+            "text": "Let's",
+            "timestamp": [
+                29.672,
+                30.312
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                30.312,
+                30.632
+            ]
+        },
+        {
+            "text": "cooking",
+            "timestamp": [
+                30.872000000000003,
+                31.272000000000002
+            ]
+        },
+        {
+            "text": "tips.",
+            "timestamp": [
+                31.272000000000002,
+                31.512
+            ]
+        }
+    ]
+}

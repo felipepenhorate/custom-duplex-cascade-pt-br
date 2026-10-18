@@ -1,0 +1,404 @@
+{
+    "text": "Uh, I think you might be starting to share something interesting. Maybe a moment from your freshman year, ah, P, could you mean P as in P10? Or is it a typo for P like in pain? ER, are you referring to something more personal? Maybe a moment from your freshman year? Ah, you're saying, you saying.",
+    "chunks": [
+        {
+            "text": "Uh,",
+            "timestamp": [
+                9.120000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "starting",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "share",
+            "timestamp": [
+                11.200000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "interesting.",
+            "timestamp": [
+                11.84,
+                12.4
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                12.72,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "moment",
+            "timestamp": [
+                13.200000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "freshman",
+            "timestamp": [
+                13.84,
+                14.24
+            ]
+        },
+        {
+            "text": "year,",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                14.56,
+                14.96
+            ]
+        },
+        {
+            "text": "P,",
+            "timestamp": [
+                15.120000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "could",
+            "timestamp": [
+                15.68,
+                15.76
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.84,
+                15.92
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "P",
+            "timestamp": [
+                16.16,
+                16.32
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                16.48,
+                16.64
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                16.64,
+                16.8
+            ]
+        },
+        {
+            "text": "P10?",
+            "timestamp": [
+                16.8,
+                17.28
+            ]
+        },
+        {
+            "text": "Or",
+            "timestamp": [
+                17.44,
+                17.6
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                17.6,
+                17.68
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                17.68,
+                17.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.84,
+                17.92
+            ]
+        },
+        {
+            "text": "typo",
+            "timestamp": [
+                17.92,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                18.400000000000002,
+                18.56
+            ]
+        },
+        {
+            "text": "P",
+            "timestamp": [
+                18.56,
+                18.8
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                18.96,
+                19.12
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                19.12,
+                19.28
+            ]
+        },
+        {
+            "text": "pain?",
+            "timestamp": [
+                19.28,
+                19.44
+            ]
+        },
+        {
+            "text": "ER,",
+            "timestamp": [
+                19.76,
+                20.16
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                20.400000000000002,
+                20.56
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                20.56,
+                20.64
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                20.64,
+                21.04
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                21.04,
+                21.2
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                21.2,
+                21.44
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                21.44,
+                21.68
+            ]
+        },
+        {
+            "text": "personal?",
+            "timestamp": [
+                21.68,
+                22.080000000000002
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                22.400000000000002,
+                22.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                22.64,
+                22.72
+            ]
+        },
+        {
+            "text": "moment",
+            "timestamp": [
+                22.72,
+                23.04
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                23.04,
+                23.2
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                23.2,
+                23.28
+            ]
+        },
+        {
+            "text": "freshman",
+            "timestamp": [
+                23.28,
+                23.68
+            ]
+        },
+        {
+            "text": "year?",
+            "timestamp": [
+                23.68,
+                23.84
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                24.16,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                24.88,
+                25.2
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                25.28,
+                25.36
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                25.84,
+                25.92
+            ]
+        },
+        {
+            "text": "saying.",
+            "timestamp": [
+                26.16,
+                26.240000000000002
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "text": "Ah, I just finished sapiens. Fascinating, right?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                13.656,
+                13.976
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                14.136000000000001,
+                14.296
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                14.296,
+                14.536
+            ]
+        },
+        {
+            "text": "finished",
+            "timestamp": [
+                14.536,
+                14.936
+            ]
+        },
+        {
+            "text": "sapiens.",
+            "timestamp": [
+                15.176,
+                16.056
+            ]
+        },
+        {
+            "text": "Fascinating,",
+            "timestamp": [
+                16.296,
+                16.936
+            ]
+        },
+        {
+            "text": "right?",
+            "timestamp": [
+                17.176000000000002,
+                17.496000000000002
+            ]
+        }
+    ]
+}

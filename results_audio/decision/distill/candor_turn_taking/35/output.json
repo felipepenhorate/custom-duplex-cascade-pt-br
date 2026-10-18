@@ -1,0 +1,82 @@
+{
+    "text": "I'm here to help. You were asking, you this talking thing?",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                9.120000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        },
+        {
+            "text": "help.",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "asking,",
+            "timestamp": [
+                11.92,
+                12.56
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.88,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "this",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                13.44,
+                13.68
+            ]
+        },
+        {
+            "text": "thing?",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        }
+    ]
+}

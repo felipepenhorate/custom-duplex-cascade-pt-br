@@ -1,0 +1,40 @@
+{
+    "text": "Ah, thrillers, I can relate.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "thrillers,",
+            "timestamp": [
+                6.72,
+                7.36
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                7.6000000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "relate.",
+            "timestamp": [
+                7.84,
+                8.48
+            ]
+        }
+    ]
+}

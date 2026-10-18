@@ -1,0 +1,68 @@
+{
+    "text": "Nah, not a lot, I assume. Is it tiring?",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                12.8,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                13.44,
+                13.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "lot,",
+            "timestamp": [
+                13.84,
+                14.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                14.16,
+                14.32
+            ]
+        },
+        {
+            "text": "assume.",
+            "timestamp": [
+                14.32,
+                14.64
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                14.96,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                15.120000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "tiring?",
+            "timestamp": [
+                15.280000000000001,
+                16.0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "text": "I can't resist a pop or rock vibe or a chill chill hazz. A vibe of",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.8000000000000003,
+                3.12
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                3.12,
+                3.36
+            ]
+        },
+        {
+            "text": "resist",
+            "timestamp": [
+                3.44,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                3.7600000000000002,
+                3.84
+            ]
+        },
+        {
+            "text": "pop",
+            "timestamp": [
+                3.84,
+                4.08
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                4.16,
+                4.32
+            ]
+        },
+        {
+            "text": "rock",
+            "timestamp": [
+                4.32,
+                4.64
+            ]
+        },
+        {
+            "text": "vibe",
+            "timestamp": [
+                4.64,
+                4.96
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.2,
+                5.28
+            ]
+        },
+        {
+            "text": "chill",
+            "timestamp": [
+                5.28,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "chill",
+            "timestamp": [
+                5.6000000000000005,
+                5.84
+            ]
+        },
+        {
+            "text": "hazz.",
+            "timestamp": [
+                5.92,
+                7.12
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "vibe",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                7.92,
+                8.16
+            ]
+        }
+    ]
+}

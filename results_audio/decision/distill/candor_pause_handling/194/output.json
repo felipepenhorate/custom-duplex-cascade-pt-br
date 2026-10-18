@@ -1,0 +1,54 @@
+{
+    "text": "Uh, so you're not into gaming 24-7.",
+    "chunks": [
+        {
+            "text": "Uh,",
+            "timestamp": [
+                14.0,
+                14.32
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                14.8,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                15.120000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "into",
+            "timestamp": [
+                15.280000000000001,
+                15.52
+            ]
+        },
+        {
+            "text": "gaming",
+            "timestamp": [
+                15.52,
+                15.84
+            ]
+        },
+        {
+            "text": "24-7.",
+            "timestamp": [
+                15.92,
+                16.4
+            ]
+        }
+    ]
+}

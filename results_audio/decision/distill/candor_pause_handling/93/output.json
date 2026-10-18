@@ -1,0 +1,145 @@
+{
+    "text": "That's such a related You did say dude and you did say that's like you were giving up. You said.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                11.76,
+                12.08
+            ]
+        },
+        {
+            "text": "such",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.32,
+                12.4
+            ]
+        },
+        {
+            "text": "related",
+            "timestamp": [
+                12.4,
+                12.72
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                20.48,
+                20.64
+            ]
+        },
+        {
+            "text": "did",
+            "timestamp": [
+                20.64,
+                20.8
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                20.8,
+                20.96
+            ]
+        },
+        {
+            "text": "dude",
+            "timestamp": [
+                21.04,
+                21.28
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                21.36,
+                21.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                36.64,
+                36.88
+            ]
+        },
+        {
+            "text": "did",
+            "timestamp": [
+                36.88,
+                37.12
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                37.12,
+                37.28
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                37.6,
+                38.08
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                38.08,
+                38.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                38.32,
+                38.4
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                38.4,
+                38.56
+            ]
+        },
+        {
+            "text": "giving",
+            "timestamp": [
+                38.56,
+                38.96
+            ]
+        },
+        {
+            "text": "up.",
+            "timestamp": [
+                38.96,
+                39.04
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                39.68,
+                39.84
+            ]
+        },
+        {
+            "text": "said.",
+            "timestamp": [
+                39.84,
+                40.0
+            ]
+        }
+    ]
+}

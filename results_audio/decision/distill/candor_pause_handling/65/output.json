@@ -1,0 +1,110 @@
+{
+    "text": "You're absolutely right. Uh, you're saying something like there, there's a lot of corruption in.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                12.96,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "absolutely",
+            "timestamp": [
+                13.280000000000001,
+                14.16
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                14.16,
+                14.48
+            ]
+        },
+        {
+            "text": "Uh,",
+            "timestamp": [
+                20.88,
+                21.44
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                22.080000000000002,
+                22.48
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                22.48,
+                22.8
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                22.8,
+                23.04
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                23.04,
+                23.36
+            ]
+        },
+        {
+            "text": "there,",
+            "timestamp": [
+                23.68,
+                23.84
+            ]
+        },
+        {
+            "text": "there's",
+            "timestamp": [
+                24.32,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.560000000000002,
+                24.64
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                24.64,
+                24.8
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                24.8,
+                24.88
+            ]
+        },
+        {
+            "text": "corruption",
+            "timestamp": [
+                24.88,
+                25.12
+            ]
+        },
+        {
+            "text": "in.",
+            "timestamp": [
+                25.12,
+                25.2
+            ]
+        }
+    ]
+}

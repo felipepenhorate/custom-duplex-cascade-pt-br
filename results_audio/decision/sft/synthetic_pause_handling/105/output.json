@@ -1,0 +1,173 @@
+{
+    "text": "Depends on a lot of things, I guess. You prefer to be in control of what you eat. Pizza is a solid, no-drama choice.",
+    "chunks": [
+        {
+            "text": "Depends",
+            "timestamp": [
+                2.8000000000000003,
+                3.36
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                3.36,
+                3.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                3.52,
+                3.6
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                3.6,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                3.7600000000000002,
+                3.92
+            ]
+        },
+        {
+            "text": "things,",
+            "timestamp": [
+                3.92,
+                4.08
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.16,
+                4.32
+            ]
+        },
+        {
+            "text": "guess.",
+            "timestamp": [
+                4.32,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                4.8,
+                4.96
+            ]
+        },
+        {
+            "text": "prefer",
+            "timestamp": [
+                4.96,
+                5.28
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                5.28,
+                5.36
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                5.36,
+                5.44
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "control",
+            "timestamp": [
+                5.6000000000000005,
+                5.92
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.24,
+                6.48
+            ]
+        },
+        {
+            "text": "eat.",
+            "timestamp": [
+                6.48,
+                7.04
+            ]
+        },
+        {
+            "text": "Pizza",
+            "timestamp": [
+                9.28,
+                9.92
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "solid,",
+            "timestamp": [
+                10.32,
+                10.8
+            ]
+        },
+        {
+            "text": "no-drama",
+            "timestamp": [
+                10.96,
+                11.68
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                11.68,
+                12.0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "It sounds like you're navigating through a place with.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                11.6,
+                11.92
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                11.92,
+                12.32
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "navigating",
+            "timestamp": [
+                12.72,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "through",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        },
+        {
+            "text": "place",
+            "timestamp": [
+                13.52,
+                13.76
+            ]
+        },
+        {
+            "text": "with.",
+            "timestamp": [
+                13.76,
+                14.0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "text": "Hey, here are some great books to consider. You're absolutely right.",
+    "chunks": [
+        {
+            "text": "Hey,",
+            "timestamp": [
+                5.6000000000000005,
+                5.92
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                6.640000000000001,
+                6.8
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                6.8,
+                7.04
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "books",
+            "timestamp": [
+                7.2,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "consider.",
+            "timestamp": [
+                7.84,
+                8.8
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                10.48,
+                10.88
+            ]
+        },
+        {
+            "text": "absolutely",
+            "timestamp": [
+                10.88,
+                11.6
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        }
+    ]
+}

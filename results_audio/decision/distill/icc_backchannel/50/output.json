@@ -1,0 +1,117 @@
+{
+    "text": "It sounds like you're just going to be scared. Clearly, trying to say something like this.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                9.76,
+                10.16
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "going",
+            "timestamp": [
+                15.44,
+                15.44
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.44,
+                15.44
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                15.44,
+                15.44
+            ]
+        },
+        {
+            "text": "scared.",
+            "timestamp": [
+                15.44,
+                15.44
+            ]
+        },
+        {
+            "text": "Clearly,",
+            "timestamp": [
+                17.52,
+                17.84
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                17.92,
+                18.16
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                18.16,
+                18.32
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                18.32,
+                18.64
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                18.64,
+                18.96
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                18.96,
+                19.28
+            ]
+        },
+        {
+            "text": "this.",
+            "timestamp": [
+                19.28,
+                19.6
+            ]
+        }
+    ]
+}

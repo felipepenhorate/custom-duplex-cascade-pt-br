@@ -1,0 +1,61 @@
+{
+    "text": "You're referring to the side of the city.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                10.16,
+                10.88
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                10.88,
+                11.36
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.52,
+                11.6
+            ]
+        },
+        {
+            "text": "side",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.84,
+                11.84
+            ]
+        },
+        {
+            "text": "city.",
+            "timestamp": [
+                11.84,
+                11.84
+            ]
+        }
+    ]
+}

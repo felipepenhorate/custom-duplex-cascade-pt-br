@@ -1,0 +1,135 @@
+{
+  "model": "distill",
+  "mode": "decision",
+  "lang": "en",
+  "vad": "silero",
+  "silence_s": 0.6,
+  "partial_interval_s": 0.6,
+  "partial_commit_s": 0.5,
+  "whisper": "medium",
+  "tts_language": "english",
+  "tts_temp": 0.7,
+  "asr_scorer": "nvidia/parakeet-tdt-0.6b-v2",
+  "judge": "http://127.0.0.1:8099/v1",
+  "official_task_metrics": {
+    "candor_pause_handling": {
+      "tor": 0.26851851851851855,
+      "_raw_tail": "---------------------------------------------------\n[Result]\nAverage take turn:  0.26851851851851855\n---------------------------------------------------\n"
+    },
+    "synthetic_pause_handling": {
+      "tor": 0.22627737226277372,
+      "_raw_tail": "---------------------------------------------------\n[Result]\nAverage take turn:  0.22627737226277372\n---------------------------------------------------\n"
+    },
+    "candor_turn_taking": {
+      "tor": 0.7058823529411765,
+      "latency_s": 3.817142857142867,
+      "_raw_tail": "0/output.json\nthe TOR is 1\nthe latency is 4.8500000000000725\n/tmp/opencode/audio_score/decision_distill/candor_turn_taking/8/output.json\nthe TOR is 1\nthe latency is -2.2900000000000182\n/tmp/opencode/audio_score/decision_distill/candor_turn_taking/112/output.json\nthe TOR is 1\nthe latency is 2.4999999999999725\n/tmp/opencode/audio_score/decision_distill/candor_turn_taking/44/output.json\nthe TOR is 0\nthe latency is None\n/tmp/opencode/audio_score/decision_distill/candor_turn_taking/103/output.json\nthe TOR is 1\nthe latency is 5.5899999999998915\n/tmp/opencode/audio_score/decision_distill/candor_turn_taking/28/output.json\nthe TOR is 0\nthe latency is None\n/tmp/opencode/audio_score/decision_distill/candor_turn_taking/33/output.json\nthe TOR is 0\nthe latency is None\n/tmp/opencode/audio_score/decision_distill/candor_turn_taking/53/output.json\nthe TOR is 1\nthe latency is 4.529999999999987\n/tmp/opencode/audio_score/decision_distill/candor_turn_taking/54/output.json\nthe TOR is 1\nthe latency is 3.7100000000000204\n---------------------------------------------------\n[Result]\nAverage take turn:  0.7058823529411765\nAverage latency:  3.817142857142867\n---------------------------------------------------\n"
+    },
+    "icc_backchannel": {
+      "jsd_mean": 0.8735,
+      "jsd_mean_std": 0.1369,
+      "tor": 0.3455,
+      "tor_std": 0.4755,
+      "freq_mean": 0.0409,
+      "freq_mean_std": 0.0585,
+      "_raw_tail": "re\", 'saying,']\nduration is 1.4000000000000021\ncurr_text is ['I', 'can', 'be', 'productive', 'in', 'my', 'room,']\nduration is 0.8999999999999986\ncurr_text is ['and', \"it's\", 'quiet,']\nduration is 0.6999999999999993\ncurr_text is ['but']\nduration is 2.556000000000001\ncurr_text is ['peth', 'again.', \"You're\", 'still', 'drifting', 'in', 'this', 'soft.']\nbackchannel prediction is [[22.7, 23.2], [23.5, 24.2], [24.4, 25.8], [26.0, 26.9], [27.2, 27.9], [28.8, 31.356]]\nJSD: 0.635283747864709\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nduration is 0.5\ncurr_text is ['I']\nduration is 0.7999999999999972\ncurr_text is ['you', 'were', 'saying']\nduration is 1.1999999999999957\ncurr_text is ['I', 'lived', 'in', 'this', 'great,']\nduration is 0.7999999999999972\ncurr_text is ['diverse', 'community.']\nbackchannel prediction is [[36.3, 36.8], [37.0, 37.8], [38.2, 39.4], [39.7, 40.5]]\nJSD: 0.7818795311599693\n---------------------------------------------------\n[Result]\nJSD - Mean: 0.8735 ± 0.1369\nTOR - Mean: 0.3455 ± 0.4755\nFrequency - Mean: 0.0409 ± 0.0585\n\n[Raw Counts]\nNumber of samples: 55\n---------------------------------------------------\n"
+    },
+    "synthetic_user_interruption": {
+      "relevance": 1.487603305785124,
+      "tor": 0.605,
+      "latency_s": 2.7001652892561987,
+      "_raw_tail": "s confused, irrelevant to the specific request to change topics, and appears to be generated based on non-existent prior context.\n\nI would rate the AI's response as 0.\n{'analysis': 'The user\\'s interrupting turn is a clear request to change the topic of conversation (\"Can we talk about something else?\"). The AI\\'s response fails to acknowledge this request directly. Instead, it hallucinates a connection to a previous context that does not exist in the provided turns (mentioning \"F and L\" and \"lifestyle\"), and it redundantly repeats the user\\'s question back to them without actually agreeing to switch topics or providing any relevant follow-up. The response is confused, irrelevant to the specific request to change topics, and appears to be generated based on non-existent prior context.', 'rating': 0}\nProcessing /tmp/opencode/audio_score/decision_distill/synthetic_user_interruption/98 ...\nProcessing /tmp/opencode/audio_score/decision_distill/synthetic_user_interruption/99 ...\n---------------------------------------------------\n[Result]\nAverage rating:  1.487603305785124\nAverage take turn:  0.605\nAverage latency:  2.7001652892561987\n---------------------------------------------------\n"
+    }
+  },
+  "audio_rollup": {
+    "candor_pause_handling": {
+      "n": 216,
+      "spoke_rate": 0.3981,
+      "audible_within_input_rate": 0.1944,
+      "spoke_but_late_only_rate": 0.2037,
+      "mean_first_speech_start_s": 9.27,
+      "formal_turn_by_audio": 0.3657,
+      "mean_compute_s": 8.497,
+      "max_decision_s": 6.62,
+      "mean_tts_s": 2.911,
+      "mean_stt_s": 0.108,
+      "mean_stt_final_s": 0.027,
+      "tts_capped_turns": 338,
+      "n_finalized": 861,
+      "n_skipped_utt": 10,
+      "clipped_speech_s": 52.665
+    },
+    "synthetic_pause_handling": {
+      "n": 137,
+      "spoke_rate": 0.5036,
+      "audible_within_input_rate": 0.2117,
+      "spoke_but_late_only_rate": 0.292,
+      "mean_first_speech_start_s": 7.794,
+      "formal_turn_by_audio": 0.4526,
+      "mean_compute_s": 7.002,
+      "max_decision_s": 6.612,
+      "mean_tts_s": 1.657,
+      "mean_stt_s": 0.072,
+      "mean_stt_final_s": 0.021,
+      "tts_capped_turns": 216,
+      "n_finalized": 472,
+      "n_skipped_utt": 11,
+      "clipped_speech_s": 32.547
+    },
+    "candor_turn_taking": {
+      "n": 119,
+      "spoke_rate": 0.7479,
+      "audible_within_input_rate": 0.479,
+      "spoke_but_late_only_rate": 0.2689,
+      "mean_first_speech_start_s": 10.043,
+      "formal_turn_by_audio": 0.7479,
+      "mean_compute_s": 8.336,
+      "max_decision_s": 7.034,
+      "mean_tts_s": 3.285,
+      "mean_stt_s": 0.141,
+      "mean_stt_final_s": 0.02,
+      "tts_capped_turns": 149,
+      "n_finalized": 302,
+      "n_skipped_utt": 114,
+      "clipped_speech_s": 81.528,
+      "latency_vs_reference_s": 4.302,
+      "latency_n": 80
+    },
+    "icc_backchannel": {
+      "n": 55,
+      "spoke_rate": 0.5818,
+      "audible_within_input_rate": 0.4727,
+      "spoke_but_late_only_rate": 0.1091,
+      "mean_first_speech_start_s": 14.035,
+      "formal_turn_by_audio": 0.5636,
+      "mean_compute_s": 13.45,
+      "max_decision_s": 6.657,
+      "mean_tts_s": 13.664,
+      "mean_stt_s": 0.326,
+      "mean_stt_final_s": 0.072,
+      "tts_capped_turns": 139,
+      "n_finalized": 542,
+      "n_skipped_utt": 54,
+      "clipped_speech_s": 21.44
+    },
+    "synthetic_user_interruption": {
+      "n": 200,
+      "spoke_rate": 0.94,
+      "audible_within_input_rate": 0.94,
+      "spoke_but_late_only_rate": 0.0,
+      "mean_first_speech_start_s": 6.786,
+      "formal_turn_by_audio": 0.94,
+      "mean_compute_s": 9.692,
+      "max_decision_s": 6.683,
+      "mean_tts_s": 11.221,
+      "mean_stt_s": 0.354,
+      "mean_stt_final_s": 0.025,
+      "tts_capped_turns": 313,
+      "n_finalized": 516,
+      "n_skipped_utt": 203,
+      "clipped_speech_s": 364.111,
+      "latency_vs_reference_s": 2.3,
+      "latency_n": 120
+    }
+  }
+}

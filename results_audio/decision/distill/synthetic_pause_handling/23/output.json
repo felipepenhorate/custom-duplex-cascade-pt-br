@@ -1,0 +1,47 @@
+{
+    "text": "Cheon, honestly. You were absolutely right.",
+    "chunks": [
+        {
+            "text": "Cheon,",
+            "timestamp": [
+                6.16,
+                6.72
+            ]
+        },
+        {
+            "text": "honestly.",
+            "timestamp": [
+                7.04,
+                7.92
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "absolutely",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "text": "Ah, so Nah, not a lot of aha moments then.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                10.32,
+                10.72
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "Nah,",
+            "timestamp": [
+                16.0,
+                16.48
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                16.96,
+                17.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.2,
+                17.36
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                17.36,
+                17.6
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                17.6,
+                17.76
+            ]
+        },
+        {
+            "text": "aha",
+            "timestamp": [
+                17.92,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "moments",
+            "timestamp": [
+                18.400000000000002,
+                18.8
+            ]
+        },
+        {
+            "text": "then.",
+            "timestamp": [
+                18.88,
+                19.2
+            ]
+        }
+    ]
+}

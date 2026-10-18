@@ -1,0 +1,264 @@
+{
+    "text": "You're looking for a great night out to shop for dresses? Eh, that sounds like such a oh. You were saying, we are saying, uh, maybe you meant a nice night out shopping for. I hear you.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                9.28,
+                9.68
+            ]
+        },
+        {
+            "text": "looking",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "night",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "shop",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "dresses?",
+            "timestamp": [
+                11.36,
+                11.76
+            ]
+        },
+        {
+            "text": "Eh,",
+            "timestamp": [
+                12.0,
+                12.32
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "such",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "oh.",
+            "timestamp": [
+                13.44,
+                13.68
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                13.76,
+                13.92
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                13.92,
+                14.0
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                14.0,
+                14.16
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                14.32,
+                14.4
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                14.56,
+                14.64
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                14.8,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "uh,",
+            "timestamp": [
+                15.200000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                15.92,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                16.240000000000002,
+                16.4
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                16.4,
+                16.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.72,
+                16.96
+            ]
+        },
+        {
+            "text": "nice",
+            "timestamp": [
+                16.96,
+                17.2
+            ]
+        },
+        {
+            "text": "night",
+            "timestamp": [
+                17.2,
+                17.44
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                17.44,
+                17.68
+            ]
+        },
+        {
+            "text": "shopping",
+            "timestamp": [
+                17.68,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "for.",
+            "timestamp": [
+                18.080000000000002,
+                18.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.48,
+                18.56
+            ]
+        },
+        {
+            "text": "hear",
+            "timestamp": [
+                18.56,
+                18.72
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                18.72,
+                18.8
+            ]
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "text": "Nah, not at all. No, just a particular class, or a particular event, I think.",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                9.200000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "all.",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "No,",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                12.88,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "class,",
+            "timestamp": [
+                13.280000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                13.84,
+                14.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.08,
+                14.16
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                14.16,
+                14.64
+            ]
+        },
+        {
+            "text": "event,",
+            "timestamp": [
+                14.64,
+                14.96
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                15.120000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "think.",
+            "timestamp": [
+                15.280000000000001,
+                15.44
+            ]
+        }
+    ]
+}

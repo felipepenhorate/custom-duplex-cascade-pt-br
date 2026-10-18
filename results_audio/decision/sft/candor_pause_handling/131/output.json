@@ -1,0 +1,47 @@
+{
+    "text": "Nostalgia, I guess. Demographics, I suppose.",
+    "chunks": [
+        {
+            "text": "Nostalgia,",
+            "timestamp": [
+                9.120000000000001,
+                9.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.08,
+                10.16
+            ]
+        },
+        {
+            "text": "guess.",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "Demographics,",
+            "timestamp": [
+                10.56,
+                11.28
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "suppose.",
+            "timestamp": [
+                11.6,
+                12.16
+            ]
+        }
+    ]
+}

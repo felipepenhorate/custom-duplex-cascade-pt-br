@@ -1,0 +1,82 @@
+{
+    "text": "I can't go to a cinema, so I can only recommend.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                12.552000000000001,
+                12.872
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                12.872,
+                13.192
+            ]
+        },
+        {
+            "text": "go",
+            "timestamp": [
+                13.192,
+                13.352
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.352,
+                13.512
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.512,
+                13.592
+            ]
+        },
+        {
+            "text": "cinema,",
+            "timestamp": [
+                13.592,
+                14.072000000000001
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                14.232000000000001,
+                14.472000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                14.472000000000001,
+                14.552
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                14.552,
+                14.712
+            ]
+        },
+        {
+            "text": "only",
+            "timestamp": [
+                14.712,
+                14.952000000000002
+            ]
+        },
+        {
+            "text": "recommend.",
+            "timestamp": [
+                14.952000000000002,
+                15.672
+            ]
+        }
+    ]
+}

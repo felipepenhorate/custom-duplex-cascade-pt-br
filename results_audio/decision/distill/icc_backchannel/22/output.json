@@ -1,0 +1,131 @@
+{
+    "text": "You're saying you're saying we're someone who always wanted you were saying you knew there was a story.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                12.0,
+                12.08
+            ]
+        },
+        {
+            "text": "we're",
+            "timestamp": [
+                12.32,
+                12.4
+            ]
+        },
+        {
+            "text": "someone",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "who",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "always",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "wanted",
+            "timestamp": [
+                13.040000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.4,
+                14.56
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                14.72,
+                14.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.040000000000001,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "knew",
+            "timestamp": [
+                15.120000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "there",
+            "timestamp": [
+                15.36,
+                15.44
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                15.44,
+                15.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.6,
+                15.84
+            ]
+        },
+        {
+            "text": "story.",
+            "timestamp": [
+                15.84,
+                16.240000000000002
+            ]
+        }
+    ]
+}

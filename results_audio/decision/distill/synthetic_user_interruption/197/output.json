@@ -1,0 +1,341 @@
+{
+    "text": "You're asking a great question. What can we do about water? You might ah. You might ah. You're asking about water, and maybe meant, how can we reduce our water footprint? Let me help. You ought to reduce your water footprint. Simple and practical. One, we'll fix the",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                15.912,
+                16.232
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                16.232,
+                16.552
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.552,
+                16.792
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                16.792,
+                17.112000000000002
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                17.112000000000002,
+                17.352
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                17.672,
+                17.912
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                17.912,
+                18.072000000000003
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                18.072000000000003,
+                18.232
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                18.232,
+                18.392
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                18.392,
+                18.552
+            ]
+        },
+        {
+            "text": "water?",
+            "timestamp": [
+                18.552,
+                18.952
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                19.272,
+                19.432000000000002
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                19.432000000000002,
+                19.592
+            ]
+        },
+        {
+            "text": "ah.",
+            "timestamp": [
+                19.752000000000002,
+                20.152
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                20.312,
+                20.472
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                20.472,
+                20.632
+            ]
+        },
+        {
+            "text": "ah.",
+            "timestamp": [
+                20.792,
+                21.112000000000002
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                21.432000000000002,
+                21.672
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                21.672,
+                21.992
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                21.992,
+                22.312
+            ]
+        },
+        {
+            "text": "water,",
+            "timestamp": [
+                22.312,
+                22.712000000000003
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                22.951999999999998,
+                23.192
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                23.192,
+                23.512
+            ]
+        },
+        {
+            "text": "meant,",
+            "timestamp": [
+                23.512,
+                23.912
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                24.232,
+                24.472
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                24.472,
+                24.632
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                24.632,
+                24.712000000000003
+            ]
+        },
+        {
+            "text": "reduce",
+            "timestamp": [
+                24.712000000000003,
+                25.032
+            ]
+        },
+        {
+            "text": "our",
+            "timestamp": [
+                25.032,
+                25.192
+            ]
+        },
+        {
+            "text": "water",
+            "timestamp": [
+                25.192,
+                25.512
+            ]
+        },
+        {
+            "text": "footprint?",
+            "timestamp": [
+                25.512,
+                26.232
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                27.352,
+                27.512
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                27.512,
+                27.752000000000002
+            ]
+        },
+        {
+            "text": "help.",
+            "timestamp": [
+                27.752000000000002,
+                27.912
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                28.152,
+                28.312
+            ]
+        },
+        {
+            "text": "ought",
+            "timestamp": [
+                28.312,
+                28.552
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                28.552,
+                28.632
+            ]
+        },
+        {
+            "text": "reduce",
+            "timestamp": [
+                28.632,
+                28.872
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                28.872,
+                29.032
+            ]
+        },
+        {
+            "text": "water",
+            "timestamp": [
+                29.032,
+                29.352
+            ]
+        },
+        {
+            "text": "footprint.",
+            "timestamp": [
+                29.352,
+                29.832
+            ]
+        },
+        {
+            "text": "Simple",
+            "timestamp": [
+                30.072000000000003,
+                30.392000000000003
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                30.392000000000003,
+                30.552
+            ]
+        },
+        {
+            "text": "practical.",
+            "timestamp": [
+                30.552,
+                31.112000000000002
+            ]
+        },
+        {
+            "text": "One,",
+            "timestamp": [
+                31.432000000000002,
+                31.752000000000002
+            ]
+        },
+        {
+            "text": "we'll",
+            "timestamp": [
+                31.912,
+                32.152
+            ]
+        },
+        {
+            "text": "fix",
+            "timestamp": [
+                32.152,
+                32.312
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                32.312,
+                32.392
+            ]
+        }
+    ]
+}

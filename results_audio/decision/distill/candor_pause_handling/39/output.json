@@ -1,0 +1,201 @@
+{
+    "text": "I. I think you're trying to say something like: I studied in a college where there were people, ah, it looks like you might have meant, I studied.",
+    "chunks": [
+        {
+            "text": "I.",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                13.44,
+                13.6
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.6,
+                13.68
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                13.84,
+                14.08
+            ]
+        },
+        {
+            "text": "like:",
+            "timestamp": [
+                14.08,
+                14.4
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "studied",
+            "timestamp": [
+                14.8,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                15.200000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.36,
+                15.44
+            ]
+        },
+        {
+            "text": "college",
+            "timestamp": [
+                15.44,
+                15.84
+            ]
+        },
+        {
+            "text": "where",
+            "timestamp": [
+                15.84,
+                16.0
+            ]
+        },
+        {
+            "text": "there",
+            "timestamp": [
+                16.0,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                16.080000000000002,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "people,",
+            "timestamp": [
+                16.240000000000002,
+                16.4
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                16.56,
+                16.96
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                17.28,
+                17.44
+            ]
+        },
+        {
+            "text": "looks",
+            "timestamp": [
+                17.44,
+                17.68
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                17.68,
+                17.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.84,
+                17.92
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                17.92,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                18.080000000000002,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "meant,",
+            "timestamp": [
+                18.240000000000002,
+                18.56
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.8,
+                19.04
+            ]
+        },
+        {
+            "text": "studied.",
+            "timestamp": [
+                19.04,
+                19.68
+            ]
+        }
+    ]
+}

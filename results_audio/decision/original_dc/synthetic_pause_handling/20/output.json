@@ -1,0 +1,40 @@
+{
+    "text": "Certainly. What genre or type",
+    "chunks": [
+        {
+            "text": "Certainly.",
+            "timestamp": [
+                3.36,
+                4.0
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                4.32,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "genre",
+            "timestamp": [
+                4.5600000000000005,
+                5.04
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "type",
+            "timestamp": [
+                5.2,
+                5.76
+            ]
+        }
+    ]
+}

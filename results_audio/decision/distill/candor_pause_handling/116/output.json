@@ -1,0 +1,33 @@
+{
+    "text": "You're asking about hindsight.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                10.88,
+                11.28
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "hindsight.",
+            "timestamp": [
+                11.76,
+                12.48
+            ]
+        }
+    ]
+}

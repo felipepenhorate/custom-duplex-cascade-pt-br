@@ -1,0 +1,54 @@
+{
+    "text": "You're saying, uh, that was a problem.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                14.88,
+                15.44
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                15.44,
+                15.68
+            ]
+        },
+        {
+            "text": "uh,",
+            "timestamp": [
+                16.0,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                16.88,
+                17.12
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                17.12,
+                17.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.28,
+                17.44
+            ]
+        },
+        {
+            "text": "problem.",
+            "timestamp": [
+                17.44,
+                17.68
+            ]
+        }
+    ]
+}

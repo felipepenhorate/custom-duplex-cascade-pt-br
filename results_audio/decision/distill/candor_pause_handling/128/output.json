@@ -1,0 +1,103 @@
+{
+    "text": "You're saying it's like, eh? That sounds a bit casual. Maybe you were up",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                3.68,
+                4.0
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                4.0,
+                4.24
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "like,",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "eh?",
+            "timestamp": [
+                4.8,
+                5.2
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                6.08,
+                6.4
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "casual.",
+            "timestamp": [
+                7.04,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.0,
+                8.16
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                8.16,
+                8.24
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        }
+    ]
+}

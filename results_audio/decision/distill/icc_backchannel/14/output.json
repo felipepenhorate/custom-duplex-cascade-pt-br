@@ -1,0 +1,103 @@
+{
+    "text": "You're saying you liked your class I think Thank you for the clear message.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                8.32,
+                8.64
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.88,
+                8.96
+            ]
+        },
+        {
+            "text": "liked",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "class",
+            "timestamp": [
+                9.36,
+                9.84
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                26.72,
+                27.04
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                27.04,
+                27.36
+            ]
+        },
+        {
+            "text": "Thank",
+            "timestamp": [
+                32.8,
+                33.04
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                33.04,
+                33.2
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                33.2,
+                33.36
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                33.36,
+                33.44
+            ]
+        },
+        {
+            "text": "clear",
+            "timestamp": [
+                33.44,
+                33.76
+            ]
+        },
+        {
+            "text": "message.",
+            "timestamp": [
+                33.76,
+                34.160000000000004
+            ]
+        }
+    ]
+}

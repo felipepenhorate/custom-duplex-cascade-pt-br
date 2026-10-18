@@ -1,0 +1,68 @@
+{
+    "text": "Ah, I can understand. Isolation can be tough, no?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                9.200000000000001,
+                9.76
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "Isolation",
+            "timestamp": [
+                11.36,
+                12.0
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "tough,",
+            "timestamp": [
+                12.32,
+                12.64
+            ]
+        },
+        {
+            "text": "no?",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        }
+    ]
+}

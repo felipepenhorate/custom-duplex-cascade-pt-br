@@ -1,0 +1,89 @@
+{
+    "text": "Ah, I can understand. Some people just prefer a more introspective, literary.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                9.120000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "Some",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "prefer",
+            "timestamp": [
+                11.6,
+                11.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "introspective,",
+            "timestamp": [
+                12.24,
+                12.88
+            ]
+        },
+        {
+            "text": "literary.",
+            "timestamp": [
+                12.96,
+                13.36
+            ]
+        }
+    ]
+}

@@ -1,0 +1,313 @@
+{
+    "text": "Certainly. I'll remind you to call the mechanic tomorrow. Just remember, the best way to ensure your car stays in top condition is to follow the maintenance schedule recommended by the manufacturer and to address any issues as soon as they arise. Safe driving",
+    "chunks": [
+        {
+            "text": "Certainly.",
+            "timestamp": [
+                15.783999999999999,
+                16.504
+            ]
+        },
+        {
+            "text": "I'll",
+            "timestamp": [
+                16.744,
+                16.984
+            ]
+        },
+        {
+            "text": "remind",
+            "timestamp": [
+                16.984,
+                17.304
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.304,
+                17.384
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.384,
+                17.544
+            ]
+        },
+        {
+            "text": "call",
+            "timestamp": [
+                17.544,
+                17.704
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                17.704,
+                17.784
+            ]
+        },
+        {
+            "text": "mechanic",
+            "timestamp": [
+                17.784,
+                18.264
+            ]
+        },
+        {
+            "text": "tomorrow.",
+            "timestamp": [
+                18.264,
+                18.744
+            ]
+        },
+        {
+            "text": "Just",
+            "timestamp": [
+                18.984,
+                19.144
+            ]
+        },
+        {
+            "text": "remember,",
+            "timestamp": [
+                19.144,
+                19.544
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                19.704,
+                19.864
+            ]
+        },
+        {
+            "text": "best",
+            "timestamp": [
+                19.864,
+                20.104
+            ]
+        },
+        {
+            "text": "way",
+            "timestamp": [
+                20.104,
+                20.264
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                20.264,
+                20.344
+            ]
+        },
+        {
+            "text": "ensure",
+            "timestamp": [
+                20.344,
+                20.664
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                20.664,
+                20.823999999999998
+            ]
+        },
+        {
+            "text": "car",
+            "timestamp": [
+                20.823999999999998,
+                20.984
+            ]
+        },
+        {
+            "text": "stays",
+            "timestamp": [
+                20.984,
+                21.224
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                21.224,
+                21.384
+            ]
+        },
+        {
+            "text": "top",
+            "timestamp": [
+                21.384,
+                21.624
+            ]
+        },
+        {
+            "text": "condition",
+            "timestamp": [
+                21.624,
+                21.944
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                21.944,
+                22.104
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                22.104,
+                22.184
+            ]
+        },
+        {
+            "text": "follow",
+            "timestamp": [
+                22.184,
+                22.424
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                22.424,
+                22.503999999999998
+            ]
+        },
+        {
+            "text": "maintenance",
+            "timestamp": [
+                22.503999999999998,
+                22.984
+            ]
+        },
+        {
+            "text": "schedule",
+            "timestamp": [
+                22.984,
+                23.304000000000002
+            ]
+        },
+        {
+            "text": "recommended",
+            "timestamp": [
+                23.304000000000002,
+                23.784
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                23.784,
+                23.864
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                23.864,
+                23.944000000000003
+            ]
+        },
+        {
+            "text": "manufacturer",
+            "timestamp": [
+                23.944000000000003,
+                24.823999999999998
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                24.904,
+                25.064
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                25.064,
+                25.224
+            ]
+        },
+        {
+            "text": "address",
+            "timestamp": [
+                25.224,
+                25.544
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                25.544,
+                25.784
+            ]
+        },
+        {
+            "text": "issues",
+            "timestamp": [
+                25.784,
+                26.264
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                26.264,
+                26.424
+            ]
+        },
+        {
+            "text": "soon",
+            "timestamp": [
+                26.424,
+                26.823999999999998
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                26.823999999999998,
+                27.064
+            ]
+        },
+        {
+            "text": "they",
+            "timestamp": [
+                27.064,
+                27.224
+            ]
+        },
+        {
+            "text": "arise.",
+            "timestamp": [
+                27.224,
+                27.704
+            ]
+        },
+        {
+            "text": "Safe",
+            "timestamp": [
+                28.024,
+                28.424
+            ]
+        },
+        {
+            "text": "driving",
+            "timestamp": [
+                28.503999999999998,
+                29.064
+            ]
+        }
+    ]
+}

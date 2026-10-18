@@ -1,0 +1,390 @@
+{
+    "text": "Certainly, planning a road trip involves several steps to ensure a smooth and enjoyable journey. Here's a guide to help you plan your road trip. Define your route, destination. Decide where you want to go and return from. Consider the distance, driving time, and any must-see attractions along the way. Map your route, use online.",
+    "chunks": [
+        {
+            "text": "Certainly,",
+            "timestamp": [
+                14.536000000000001,
+                15.336
+            ]
+        },
+        {
+            "text": "planning",
+            "timestamp": [
+                15.496,
+                15.976
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.976,
+                16.056
+            ]
+        },
+        {
+            "text": "road",
+            "timestamp": [
+                16.056,
+                16.296
+            ]
+        },
+        {
+            "text": "trip",
+            "timestamp": [
+                16.296,
+                16.536
+            ]
+        },
+        {
+            "text": "involves",
+            "timestamp": [
+                16.536,
+                16.936
+            ]
+        },
+        {
+            "text": "several",
+            "timestamp": [
+                16.936,
+                17.256
+            ]
+        },
+        {
+            "text": "steps",
+            "timestamp": [
+                17.256,
+                17.576
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.576,
+                17.736
+            ]
+        },
+        {
+            "text": "ensure",
+            "timestamp": [
+                17.736,
+                17.976
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.976,
+                18.136000000000003
+            ]
+        },
+        {
+            "text": "smooth",
+            "timestamp": [
+                18.136000000000003,
+                18.456
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                18.456,
+                18.616
+            ]
+        },
+        {
+            "text": "enjoyable",
+            "timestamp": [
+                18.616,
+                19.096
+            ]
+        },
+        {
+            "text": "journey.",
+            "timestamp": [
+                19.096,
+                19.416
+            ]
+        },
+        {
+            "text": "Here's",
+            "timestamp": [
+                19.656,
+                19.976
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.976,
+                20.056
+            ]
+        },
+        {
+            "text": "guide",
+            "timestamp": [
+                20.056,
+                20.456
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                20.456,
+                20.616
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                20.616,
+                20.776
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                20.776,
+                20.936
+            ]
+        },
+        {
+            "text": "plan",
+            "timestamp": [
+                20.936,
+                21.256
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                21.256,
+                21.416
+            ]
+        },
+        {
+            "text": "road",
+            "timestamp": [
+                21.416,
+                21.656
+            ]
+        },
+        {
+            "text": "trip.",
+            "timestamp": [
+                21.656,
+                21.976
+            ]
+        },
+        {
+            "text": "Define",
+            "timestamp": [
+                22.296,
+                22.696
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                22.696,
+                22.856
+            ]
+        },
+        {
+            "text": "route,",
+            "timestamp": [
+                22.856,
+                23.256
+            ]
+        },
+        {
+            "text": "destination.",
+            "timestamp": [
+                23.416,
+                24.216
+            ]
+        },
+        {
+            "text": "Decide",
+            "timestamp": [
+                24.536,
+                24.936
+            ]
+        },
+        {
+            "text": "where",
+            "timestamp": [
+                24.936,
+                25.176000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                25.176000000000002,
+                25.256
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                25.256,
+                25.416
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                25.416,
+                25.496000000000002
+            ]
+        },
+        {
+            "text": "go",
+            "timestamp": [
+                25.496000000000002,
+                25.656
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                25.656,
+                25.816000000000003
+            ]
+        },
+        {
+            "text": "return",
+            "timestamp": [
+                25.816000000000003,
+                26.136000000000003
+            ]
+        },
+        {
+            "text": "from.",
+            "timestamp": [
+                26.136000000000003,
+                26.376
+            ]
+        },
+        {
+            "text": "Consider",
+            "timestamp": [
+                26.696,
+                27.096
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                27.096,
+                27.256
+            ]
+        },
+        {
+            "text": "distance,",
+            "timestamp": [
+                27.256,
+                27.656
+            ]
+        },
+        {
+            "text": "driving",
+            "timestamp": [
+                27.816000000000003,
+                28.376
+            ]
+        },
+        {
+            "text": "time,",
+            "timestamp": [
+                28.376,
+                28.536
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                28.696,
+                28.856
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                28.856,
+                29.096
+            ]
+        },
+        {
+            "text": "must-see",
+            "timestamp": [
+                29.096,
+                29.576
+            ]
+        },
+        {
+            "text": "attractions",
+            "timestamp": [
+                29.576,
+                30.055999999999997
+            ]
+        },
+        {
+            "text": "along",
+            "timestamp": [
+                30.055999999999997,
+                30.296
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                30.296,
+                30.456000000000003
+            ]
+        },
+        {
+            "text": "way.",
+            "timestamp": [
+                30.456000000000003,
+                30.616
+            ]
+        },
+        {
+            "text": "Map",
+            "timestamp": [
+                30.856,
+                31.176000000000002
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                31.176000000000002,
+                31.336
+            ]
+        },
+        {
+            "text": "route,",
+            "timestamp": [
+                31.336,
+                31.576
+            ]
+        },
+        {
+            "text": "use",
+            "timestamp": [
+                31.816000000000003,
+                31.896
+            ]
+        },
+        {
+            "text": "online.",
+            "timestamp": [
+                32.056000000000004,
+                32.456
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "text": "Demographics I can",
+    "chunks": [
+        {
+            "text": "Demographics",
+            "timestamp": [
+                5.92,
+                6.8
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        }
+    ]
+}

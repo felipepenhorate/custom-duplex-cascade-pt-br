@@ -1,0 +1,110 @@
+{
+    "text": "Five hundred manino, five million dollars. That's a ah f. You're probably referring to the.",
+    "chunks": [
+        {
+            "text": "Five",
+            "timestamp": [
+                6.24,
+                6.72
+            ]
+        },
+        {
+            "text": "hundred",
+            "timestamp": [
+                6.72,
+                7.12
+            ]
+        },
+        {
+            "text": "manino,",
+            "timestamp": [
+                7.28,
+                8.24
+            ]
+        },
+        {
+            "text": "five",
+            "timestamp": [
+                8.56,
+                8.88
+            ]
+        },
+        {
+            "text": "million",
+            "timestamp": [
+                8.88,
+                9.28
+            ]
+        },
+        {
+            "text": "dollars.",
+            "timestamp": [
+                9.28,
+                9.68
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "ah",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "f.",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                12.8,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "the.",
+            "timestamp": [
+                13.200000000000001,
+                13.280000000000001
+            ]
+        }
+    ]
+}

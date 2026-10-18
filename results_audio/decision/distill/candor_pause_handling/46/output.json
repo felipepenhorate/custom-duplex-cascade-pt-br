@@ -1,0 +1,33 @@
+{
+    "text": "Thank you for clarifying.",
+    "chunks": [
+        {
+            "text": "Thank",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "clarifying.",
+            "timestamp": [
+                13.040000000000001,
+                13.44
+            ]
+        }
+    ]
+}

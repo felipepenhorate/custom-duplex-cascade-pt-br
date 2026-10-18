@@ -1,0 +1,89 @@
+{
+    "text": "Is there a particular time or event in particular that you miss?",
+    "chunks": [
+        {
+            "text": "Is",
+            "timestamp": [
+                24.64,
+                24.88
+            ]
+        },
+        {
+            "text": "there",
+            "timestamp": [
+                24.88,
+                25.04
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.04,
+                25.2
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                25.2,
+                25.68
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                25.68,
+                25.92
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                25.92,
+                26.16
+            ]
+        },
+        {
+            "text": "event",
+            "timestamp": [
+                26.16,
+                26.48
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                26.48,
+                26.560000000000002
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                26.560000000000002,
+                26.88
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                26.96,
+                27.12
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                27.12,
+                27.28
+            ]
+        },
+        {
+            "text": "miss?",
+            "timestamp": [
+                27.28,
+                27.76
+            ]
+        }
+    ]
+}

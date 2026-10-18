@@ -1,0 +1,187 @@
+{
+    "text": "Mm tsu, you're baking your first cake and you're already noticing the details, which is ah, you're saying the batter seems to be. You're absolutely right.",
+    "chunks": [
+        {
+            "text": "Mm",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "tsu,",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "baking",
+            "timestamp": [
+                9.84,
+                10.16
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "first",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "cake",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "already",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "noticing",
+            "timestamp": [
+                11.6,
+                12.08
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.08,
+                12.16
+            ]
+        },
+        {
+            "text": "details,",
+            "timestamp": [
+                12.16,
+                12.56
+            ]
+        },
+        {
+            "text": "which",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                13.200000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                13.68,
+                14.0
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                14.0,
+                14.16
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                14.4,
+                14.64
+            ]
+        },
+        {
+            "text": "batter",
+            "timestamp": [
+                14.64,
+                14.96
+            ]
+        },
+        {
+            "text": "seems",
+            "timestamp": [
+                14.96,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.280000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "be.",
+            "timestamp": [
+                15.6,
+                15.6
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                15.76,
+                15.92
+            ]
+        },
+        {
+            "text": "absolutely",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                16.16,
+                16.32
+            ]
+        }
+    ]
+}

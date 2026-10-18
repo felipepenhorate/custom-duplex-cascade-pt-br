@@ -1,0 +1,108 @@
+[audio] 727 scenarios across 5 subsets
+[audio] tts voice=alba language=english
+[0;93m2026-10-18 02:43:53.233586665 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[audio/distill] 1/727 queue (29.7s/scenario, 27.0s audio) spoke=False pieces=30
+WARNING:pocket_tts.models.tts_model:Chunk has 94 tokens (max 50), generation may skip words: '"Pf" 는 영어로 "Pf" 라고 하면 일반적으로 어떤 의미를 가질 수 있습니다....'
+[audio/distill] 2/727 queue (23.4s/scenario, 9.6s audio) spoke=True pieces=11
+[audio/distill] 3/727 queue (20.1s/scenario, 11.5s audio) spoke=False pieces=14
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: '? 😄 (If you're trying to say "I was gonna say like...'
+[audio/distill] 25/727 queue (14.2s/scenario, 13.1s audio) spoke=False pieces=15
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '작은 소리들~ 🌸 (눈을 감고 웃으며) 어?...'
+[audio/distill] 50/727 queue (14.4s/scenario, 8.3s audio) spoke=False pieces=10
+WARNING:pocket_tts.models.tts_model:Chunk has 85 tokens (max 50), generation may skip words: '혹시 'Pff' 또는 'Pffft' (눈을 감거나 웃음) 같은 걸로 잘못들었나요?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 57 tokens (max 50), generation may skip words: '😊 "Entertaining for sure!" 라고 하셨네요 — 그녀가 정말 앗,...'
+WARNING:pocket_tts.models.tts_model:Chunk has 73 tokens (max 50), generation may skip words: '혹시 'Pffft' (눈을 감거나 웃음) 같은 걸로 잘못들었나요?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 62 tokens (max 50), generation may skip words: '혹시 특별히 'Pf' 또는 'Pff' 를 의미로 쓰신가요?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 61 tokens (max 50), generation may skip words: '"Pf" 라고 했네요~ 😄 어떤 의미인지 궁금해요?...'
+[audio/distill] 75/727 queue (15.7s/scenario, 27.0s audio) spoke=True pieces=34
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'You're probably trying to say "a lot of people" or...'
+[audio/distill] 100/727 queue (15.5s/scenario, 28.8s audio) spoke=True pieces=36
+[audio/distill] 125/727 queue (15.0s/scenario, 9.4s audio) spoke=True pieces=15
+WARNING:pocket_tts.models.tts_model:Chunk has 59 tokens (max 50), generation may skip words: '혹은 오타인지 모르겠어요) 😊 궁금이거나,...'
+WARNING:pocket_tts.models.tts_model:Chunk has 59 tokens (max 50), generation may skip words: '혹은 오타인지 모르겠어요) 😊 궁금이거나,...'
+[audio/distill] 150/727 queue (14.9s/scenario, 12.0s audio) spoke=False pieces=13
+WARNING:pocket_tts.models.tts_model:Chunk has 70 tokens (max 50), generation may skip words: 'You're painting a beautiful picture — the way you ...'
+[audio/distill] 175/727 queue (15.0s/scenario, 12.6s audio) spoke=True pieces=14
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: 'You’re referring to Pleasant — maybe you meant "pl...'
+[audio/distill] 200/727 queue (15.0s/scenario, 10.9s audio) spoke=True pieces=13
+[audio/distill] 225/727 queue (15.1s/scenario, 8.7s audio) spoke=True pieces=10
+[audio/distill] 250/727 queue (14.6s/scenario, 9.6s audio) spoke=False pieces=10
+[audio/distill] 275/727 queue (14.4s/scenario, 7.0s audio) spoke=True pieces=9
+[audio/distill] 300/727 queue (14.3s/scenario, 7.2s audio) spoke=False pieces=7
+[audio/distill] 325/727 queue (14.0s/scenario, 7.2s audio) spoke=False pieces=8
+[audio/distill] 350/727 queue (13.8s/scenario, 10.6s audio) spoke=True pieces=15
+WARNING:pocket_tts.models.tts_model:Chunk has 73 tokens (max 50), generation may skip words: '😄 혹시 "F e"가 어떤 의미를 가지고 있는지 궁금하시죠?...'
+[audio/distill] 375/727 queue (13.7s/scenario, 9.9s audio) spoke=True pieces=13
+[audio/distill] 400/727 queue (13.8s/scenario, 17.0s audio) spoke=False pieces=20
+WARNING:pocket_tts.models.tts_model:Chunk has 67 tokens (max 50), generation may skip words: '😄 혹시 "Pf" 가 어떤 말을 의미하는지 궁금하시죠?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 128 tokens (max 50), generation may skip words: 'Pf = "Pf!" (눈물이 나거나 감정이 흐르는 순간의 표현) 또는 "Pf" 를 'Pff...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '😊 혹시 "Pf" 가 어떤 말인지 궁금하시죠?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 104 tokens (max 50), generation may skip words: '실제로는 'Pf' 는 일반적으로 은(음)이나 감정을 나타내기 위한 표현이 아니며,...'
+WARNING:pocket_tts.models.tts_model:Chunk has 83 tokens (max 50), generation may skip words: '더 자연스러운 표현으로서 " Pff " 또는 " Ff " 라고 생각할 수 있어요....'
+WARNING:pocket_tts.models.tts_model:Chunk has 79 tokens (max 50), generation may skip words: '더 흔들리거나 감정을 나타내기 위한 말로 보일 수 있어요....'
+WARNING:pocket_tts.models.tts_model:Chunk has 65 tokens (max 50), generation may skip words: '혹시 "Pff" 라고 잘못들게 되었을 수도 있으신데요!...'
+[audio/distill] 425/727 queue (13.9s/scenario, 10.8s audio) spoke=True pieces=15
+WARNING:pocket_tts.models.tts_model:Chunk has 58 tokens (max 50), generation may skip words: '궁금하신 내용이 어떤지 좀 더 알려주시면,...'
+WARNING:pocket_tts.models.tts_model:Chunk has 57 tokens (max 50), generation may skip words: '제가 도움드릴 수 있도록 노력하겠습니다!...'
+WARNING:pocket_tts.models.tts_model:Chunk has 80 tokens (max 50), generation may skip words: '혹은 암호를 의미할 수 있으니까요) 혹시 "Pf" 라고 하셨는데,...'
+[audio/distill] 450/727 queue (13.9s/scenario, 11.7s audio) spoke=True pieces=16
+WARNING:pocket_tts.models.tts_model:Chunk has 58 tokens (max 50), generation may skip words: '😊 (Or are you referring to “P” and “F” in the cont...'
+[audio/distill] 475/727 queue (14.1s/scenario, 44.7s audio) spoke=True pieces=55
+WARNING:pocket_tts.models.tts_model:Chunk has 60 tokens (max 50), generation may skip words: '"I don’t know… I feel like Calc 3 might be useful ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 56 tokens (max 50), generation may skip words: 'You’re not just talking about “was on the bus” or ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'You’re probably referring to "I loved my class" or...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: '😅 You’re not just doing problem sets — you're in t...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'F 😭💥🔥 "F-Problem Set + 3-hour lab + weekly lab rep...'
+WARNING:pocket_tts.models.tts_model:Chunk has 53 tokens (max 50), generation may skip words: 'Just stayed by my side for a while." Or if you're ...'
+[audio/distill] 500/727 queue (15.2s/scenario, 62.0s audio) spoke=False pieces=68
+WARNING:pocket_tts.models.tts_model:Chunk has 67 tokens (max 50), generation may skip words: '혹시 'Pff'가 특별한 의미를 가지고 있을 수 있어요?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 82 tokens (max 50), generation may skip words: '(눈을 감고 웃으며) 혹시 'Pff'라는 말이 그냥 평범한 소리인지,...'
+WARNING:pocket_tts.models.tts_model:Chunk has 69 tokens (max 50), generation may skip words: '아니면 뭔가 특별한 의미를 가지고 있을 수 있어요?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 69 tokens (max 50), generation may skip words: '(눈을 감고 웃으며) 혹시 'Pff'가 그냥 평범한 말인지,...'
+WARNING:pocket_tts.models.tts_model:Chunk has 59 tokens (max 50), generation may skip words: '아니면 뭔가 특별한 느낌 을 주는지 몰라요?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 68 tokens (max 50), generation may skip words: '어쩌면 그건 눈을 가리며 웃고 있는 걸 (눈을 감고,...'
+WARNING:pocket_tts.models.tts_model:Chunk has 81 tokens (max 50), generation may skip words: '(손을 뻗어 터치하며) 혹시 'Pff'가 그냥 평범한 말이 아니라…...'
+WARNING:pocket_tts.models.tts_model:Chunk has 53 tokens (max 50), generation may skip words: '어쩌면 그건 눈을 가리며 웃고 있는 걸,...'
+WARNING:pocket_tts.models.tts_model:Chunk has 86 tokens (max 50), generation may skip words: '😂 (손을 뻗어 터치하며) 혹시 'P่'이 그냥 평범한 말이 아니라…...'
+WARNING:pocket_tts.models.tts_model:Chunk has 53 tokens (max 50), generation may skip words: '어쩌면 그건 눈을 가리며 웃고 있는 걸,...'
+WARNING:pocket_tts.models.tts_model:Chunk has 71 tokens (max 50), generation may skip words: '"Pff" 라는 말이… 어쩌면 "Dope!" 이라는 걸 전달하는 걸까?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'You’re likely referring to "P-L-E" or maybe a play...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '> "Black people are disproportionately punished by...'
+[audio/distill] 525/727 queue (16.4s/scenario, 22.5s audio) spoke=False pieces=24
+WARNING:pocket_tts.models.tts_model:Chunk has 64 tokens (max 50), generation may skip words: 'Are you trying to say “I love you” (as in “P” + “L...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '😊 " Pff " might have been a quick thought or typo ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 62 tokens (max 50), generation may skip words: 'Take 3 deep breaths (box breathing) - Inhale slowl...'
+[audio/distill] 550/727 queue (16.9s/scenario, 29.7s audio) spoke=True pieces=34
+WARNING:pocket_tts.models.tts_model:Chunk has 58 tokens (max 50), generation may skip words: '🔹 iPhone 15 series (2023) – Apple just launched th...'
+WARNING:pocket_tts.models.tts_model:Chunk has 57 tokens (max 50), generation may skip words: '🚀 You didn’t reply to Mike’s email — you just sent...'
+WARNING:pocket_tts.models.tts_model:Chunk has 58 tokens (max 50), generation may skip words: 'That's a bit of a stretch — garages aren't exactly...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'you're still referring to "Plastic" — the classic ...'
+[audio/distill] 575/727 queue (17.1s/scenario, 26.3s audio) spoke=True pieces=29
+WARNING:pocket_tts.models.tts_model:Chunk has 56 tokens (max 50), generation may skip words: '🤭 I think you’re playing with words — maybe a mix ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'If you’re asking about a classic sci-fi movie — es...'
+WARNING:pocket_tts.models.tts_model:Chunk has 59 tokens (max 50), generation may skip words: '😄 You might be referring to the popular Korean dra...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'Understand Your Retirement Goals - How old do you ...'
+[audio/distill] 600/727 queue (17.4s/scenario, 27.8s audio) spoke=True pieces=29
+WARNING:pocket_tts.models.tts_model:Chunk has 58 tokens (max 50), generation may skip words: '🌟 You didn’t tell me about the new movie… But now ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'I think you might be referring to "Pffft!" or mayb...'
+WARNING:pocket_tts.models.tts_model:Chunk has 62 tokens (max 50), generation may skip words: 'You’re likely referring to planning — and "Pl" is ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 74 tokens (max 50), generation may skip words: '🌤️ You’re asking for something else — not just "LI...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: '✅ The typical answer: Most cars require an oil cha...'
+[audio/distill] 625/727 queue (17.6s/scenario, 28.8s audio) spoke=True pieces=33
+WARNING:pocket_tts.models.tts_model:Chunk has 65 tokens (max 50), generation may skip words: '🎮🔥 Alright — finally we’ve found a serious (but st...'
+WARNING:pocket_tts.models.tts_model:Chunk has 53 tokens (max 50), generation may skip words: '👉 "Set an alarm for tomorrow 😭😭😭 You’re saying "Pf...'
+[audio/distill] 650/727 queue (17.8s/scenario, 28.5s audio) spoke=True pieces=30
+WARNING:pocket_tts.models.tts_model:Chunk has 64 tokens (max 50), generation may skip words: 'Or… are you trying to say " F (as in 'fashion' or ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 57 tokens (max 50), generation may skip words: 'You're referring to "Ferris Bueller's Day Off!" 🎬🔥...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '--- ✅ Latest Advancements in Smartphones (2024–202...'
+[audio/distill] 675/727 queue (18.1s/scenario, 29.5s audio) spoke=True pieces=33
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: '🎬✨ A movie weekend is perfect — especially if you'...'
+WARNING:pocket_tts.models.tts_model:Chunk has 58 tokens (max 50), generation may skip words: 'because you just switched from "Pff 🔥 "Pff!" — You...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: '✅ Recent Advancements in Space Technology (2023–20...'
+[audio/distill] 700/727 queue (18.4s/scenario, 28.1s audio) spoke=True pieces=30
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: 'you’re likely referring to "What are some good sci...'
+WARNING:pocket_tts.models.tts_model:Chunk has 53 tokens (max 50), generation may skip words: '"Ple" — you’re probably trying to say “I need a va...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'Light (The Most Important Thing! ) - Orchids love ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '🔹 Open your phone’s weather app 🔹 Use a search eng...'
+[audio/distill] 725/727 queue (18.5s/scenario, 28.3s audio) spoke=True pieces=31
+[audio] done -> /home/penhfel/github/custom-duplex-cascade-pt-br/results_audio/decision/distill

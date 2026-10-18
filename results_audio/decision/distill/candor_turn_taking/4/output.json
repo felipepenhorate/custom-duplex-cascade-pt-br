@@ -1,0 +1,82 @@
+{
+    "text": "The twenty-seventh of December. That's a beautiful date. Christmas Eve. Ah.",
+    "chunks": [
+        {
+            "text": "The",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "twenty-seventh",
+            "timestamp": [
+                12.4,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                13.200000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "December.",
+            "timestamp": [
+                13.280000000000001,
+                14.0
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                14.32,
+                14.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "beautiful",
+            "timestamp": [
+                14.72,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "date.",
+            "timestamp": [
+                15.120000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "Christmas",
+            "timestamp": [
+                15.68,
+                16.16
+            ]
+        },
+        {
+            "text": "Eve.",
+            "timestamp": [
+                16.16,
+                16.48
+            ]
+        },
+        {
+            "text": "Ah.",
+            "timestamp": [
+                16.72,
+                16.96
+            ]
+        }
+    ]
+}

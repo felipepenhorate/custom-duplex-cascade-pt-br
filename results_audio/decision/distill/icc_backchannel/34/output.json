@@ -1,0 +1,159 @@
+{
+    "text": "You really capturing that feeling, the quiet magic. You're saying, I'm not you're saying, it takes forty-five minutes to get back. Ah.",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                22.16,
+                22.400000000000002
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                22.56,
+                22.8
+            ]
+        },
+        {
+            "text": "capturing",
+            "timestamp": [
+                22.8,
+                23.36
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                23.36,
+                23.6
+            ]
+        },
+        {
+            "text": "feeling,",
+            "timestamp": [
+                23.6,
+                23.92
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                24.16,
+                24.32
+            ]
+        },
+        {
+            "text": "quiet",
+            "timestamp": [
+                24.32,
+                24.72
+            ]
+        },
+        {
+            "text": "magic.",
+            "timestamp": [
+                24.72,
+                25.12
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                26.16,
+                26.400000000000002
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                26.400000000000002,
+                26.560000000000002
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                26.72,
+                26.88
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                26.88,
+                26.96
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                29.84,
+                30.16
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                30.16,
+                30.400000000000002
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                30.560000000000002,
+                30.72
+            ]
+        },
+        {
+            "text": "takes",
+            "timestamp": [
+                30.72,
+                30.96
+            ]
+        },
+        {
+            "text": "forty-five",
+            "timestamp": [
+                30.96,
+                31.52
+            ]
+        },
+        {
+            "text": "minutes",
+            "timestamp": [
+                31.52,
+                31.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                31.84,
+                32.0
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                32.0,
+                32.160000000000004
+            ]
+        },
+        {
+            "text": "back.",
+            "timestamp": [
+                32.160000000000004,
+                32.4
+            ]
+        },
+        {
+            "text": "Ah.",
+            "timestamp": [
+                32.72,
+                33.04
+            ]
+        }
+    ]
+}

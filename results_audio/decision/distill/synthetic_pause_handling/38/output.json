@@ -1,0 +1,96 @@
+{
+    "text": "You're asking a great question. Yeah, yes. We all can take meaningful action.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                5.04,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                5.5200000000000005,
+                5.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.84,
+                6.08
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                6.08,
+                6.4
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                6.96,
+                7.04
+            ]
+        },
+        {
+            "text": "yes.",
+            "timestamp": [
+                7.68,
+                8.0
+            ]
+        },
+        {
+            "text": "We",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "take",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "meaningful",
+            "timestamp": [
+                9.040000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "action.",
+            "timestamp": [
+                9.52,
+                10.0
+            ]
+        }
+    ]
+}

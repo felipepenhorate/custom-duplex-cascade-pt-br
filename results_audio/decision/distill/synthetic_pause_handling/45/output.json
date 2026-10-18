@@ -1,0 +1,152 @@
+{
+    "text": "I'm really sorry you're feeling that way. Being over, you were trying to say, I need to manage my time better.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                5.12,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                5.6000000000000005,
+                5.84
+            ]
+        },
+        {
+            "text": "sorry",
+            "timestamp": [
+                5.84,
+                6.24
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                6.24,
+                6.48
+            ]
+        },
+        {
+            "text": "feeling",
+            "timestamp": [
+                6.48,
+                6.96
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                6.96,
+                7.28
+            ]
+        },
+        {
+            "text": "way.",
+            "timestamp": [
+                7.28,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "Being",
+            "timestamp": [
+                7.84,
+                8.16
+            ]
+        },
+        {
+            "text": "over,",
+            "timestamp": [
+                8.16,
+                8.4
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "say,",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "need",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "manage",
+            "timestamp": [
+                10.72,
+                11.28
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                11.28,
+                11.6
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                11.6,
+                11.92
+            ]
+        },
+        {
+            "text": "better.",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        }
+    ]
+}

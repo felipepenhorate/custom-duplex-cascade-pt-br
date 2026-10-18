@@ -1,0 +1,61 @@
+{
+    "text": "Ah seem to be. I can't, I can't.",
+    "chunks": [
+        {
+            "text": "Ah",
+            "timestamp": [
+                16.56,
+                17.12
+            ]
+        },
+        {
+            "text": "seem",
+            "timestamp": [
+                22.48,
+                22.64
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                22.8,
+                22.96
+            ]
+        },
+        {
+            "text": "be.",
+            "timestamp": [
+                22.96,
+                23.2
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                23.76,
+                23.92
+            ]
+        },
+        {
+            "text": "can't,",
+            "timestamp": [
+                23.92,
+                24.48
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                24.8,
+                24.96
+            ]
+        },
+        {
+            "text": "can't.",
+            "timestamp": [
+                24.96,
+                25.6
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "text": "Here talking about a twenty-five minute visit.",
+    "chunks": [
+        {
+            "text": "Here",
+            "timestamp": [
+                13.36,
+                13.68
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                14.16,
+                14.48
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                14.48,
+                14.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.72,
+                14.88
+            ]
+        },
+        {
+            "text": "twenty-five",
+            "timestamp": [
+                14.88,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "minute",
+            "timestamp": [
+                15.36,
+                15.52
+            ]
+        },
+        {
+            "text": "visit.",
+            "timestamp": [
+                15.52,
+                15.6
+            ]
+        }
+    ]
+}

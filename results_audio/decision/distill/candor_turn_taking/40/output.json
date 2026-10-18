@@ -1,0 +1,103 @@
+{
+    "text": "Uh, you're clearly in the middle of a playful, maybe even a little k.",
+    "chunks": [
+        {
+            "text": "Uh,",
+            "timestamp": [
+                9.84,
+                10.16
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                10.48,
+                10.8
+            ]
+        },
+        {
+            "text": "clearly",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.36,
+                11.44
+            ]
+        },
+        {
+            "text": "middle",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "playful,",
+            "timestamp": [
+                11.84,
+                12.32
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.040000000000001,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                13.120000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "k.",
+            "timestamp": [
+                13.36,
+                13.44
+            ]
+        }
+    ]
+}

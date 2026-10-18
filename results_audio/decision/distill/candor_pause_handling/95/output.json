@@ -1,0 +1,61 @@
+{
+    "text": "You're asking about blocking camera and microphone access?",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                9.040000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                9.52,
+                9.84
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "blocking",
+            "timestamp": [
+                10.08,
+                10.64
+            ]
+        },
+        {
+            "text": "camera",
+            "timestamp": [
+                10.64,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "microphone",
+            "timestamp": [
+                11.200000000000001,
+                11.76
+            ]
+        },
+        {
+            "text": "access?",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        }
+    ]
+}

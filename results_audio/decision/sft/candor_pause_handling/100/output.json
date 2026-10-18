@@ -1,0 +1,96 @@
+{
+    "text": "Ah No, I can imagine. Is that a good or bad long-term plan?",
+    "chunks": [
+        {
+            "text": "Ah",
+            "timestamp": [
+                5.36,
+                5.92
+            ]
+        },
+        {
+            "text": "No,",
+            "timestamp": [
+                15.68,
+                16.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.080000000000002,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                16.240000000000002,
+                16.48
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                16.48,
+                17.12
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                28.8,
+                29.12
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                29.12,
+                29.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                29.44,
+                29.68
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                29.68,
+                29.92
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                29.92,
+                30.080000000000002
+            ]
+        },
+        {
+            "text": "bad",
+            "timestamp": [
+                30.080000000000002,
+                30.400000000000002
+            ]
+        },
+        {
+            "text": "long-term",
+            "timestamp": [
+                30.400000000000002,
+                31.12
+            ]
+        },
+        {
+            "text": "plan?",
+            "timestamp": [
+                31.12,
+                31.52
+            ]
+        }
+    ]
+}

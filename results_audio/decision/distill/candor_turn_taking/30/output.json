@@ -1,0 +1,166 @@
+{
+    "text": "I see you're talking about a friend who isn't really into their current governor. That's actually a ah. You referring to the pineapple.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                6.640000000000001,
+                6.88
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.2,
+                7.28
+            ]
+        },
+        {
+            "text": "friend",
+            "timestamp": [
+                7.28,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "who",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "isn't",
+            "timestamp": [
+                7.76,
+                8.08
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "into",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "their",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "current",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "governor.",
+            "timestamp": [
+                8.88,
+                9.36
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "actually",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "ah.",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                11.200000000000001,
+                11.76
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "pineapple.",
+            "timestamp": [
+                12.0,
+                12.88
+            ]
+        }
+    ]
+}

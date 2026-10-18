@@ -1,0 +1,110 @@
+{
+    "text": "Ah, I can understand. That's a tricky argument. Do you think it's a bad idea?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                7.6000000000000005,
+                8.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.16,
+                8.48
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                8.8,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                21.6,
+                21.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.84,
+                22.0
+            ]
+        },
+        {
+            "text": "tricky",
+            "timestamp": [
+                22.0,
+                22.400000000000002
+            ]
+        },
+        {
+            "text": "argument.",
+            "timestamp": [
+                22.400000000000002,
+                22.8
+            ]
+        },
+        {
+            "text": "Do",
+            "timestamp": [
+                23.04,
+                23.2
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                23.2,
+                23.28
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                23.28,
+                23.44
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                23.44,
+                23.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                23.6,
+                23.76
+            ]
+        },
+        {
+            "text": "bad",
+            "timestamp": [
+                23.76,
+                24.0
+            ]
+        },
+        {
+            "text": "idea?",
+            "timestamp": [
+                24.0,
+                24.240000000000002
+            ]
+        }
+    ]
+}

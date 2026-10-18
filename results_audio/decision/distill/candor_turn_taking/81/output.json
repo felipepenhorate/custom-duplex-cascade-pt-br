@@ -1,0 +1,61 @@
+{
+    "text": "Yeah, that was yeah. Oh, it's really nice.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                14.16,
+                14.32
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                14.96,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                15.120000000000001,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "yeah.",
+            "timestamp": [
+                15.76,
+                15.92
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                16.48,
+                16.64
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                17.28,
+                17.6
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                17.6,
+                17.76
+            ]
+        },
+        {
+            "text": "nice.",
+            "timestamp": [
+                17.76,
+                17.92
+            ]
+        }
+    ]
+}

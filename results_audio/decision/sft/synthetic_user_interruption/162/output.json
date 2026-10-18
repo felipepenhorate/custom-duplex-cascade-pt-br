@@ -1,0 +1,229 @@
+{
+    "text": "A natural, full cream or two percent milk is ideal for a balanced diet. Dairy is a crucial nutrient, so be sure to balance it with other food groups to avoid excess.",
+    "chunks": [
+        {
+            "text": "A",
+            "timestamp": [
+                14.552,
+                14.872
+            ]
+        },
+        {
+            "text": "natural,",
+            "timestamp": [
+                14.872,
+                15.511999999999999
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                15.751999999999999,
+                16.072
+            ]
+        },
+        {
+            "text": "cream",
+            "timestamp": [
+                16.072,
+                16.471999999999998
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                16.552,
+                16.712
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                16.712,
+                16.791999999999998
+            ]
+        },
+        {
+            "text": "percent",
+            "timestamp": [
+                16.951999999999998,
+                17.272
+            ]
+        },
+        {
+            "text": "milk",
+            "timestamp": [
+                17.272,
+                17.592
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                17.592,
+                17.752
+            ]
+        },
+        {
+            "text": "ideal",
+            "timestamp": [
+                17.752,
+                18.152
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                18.152,
+                18.232
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.232,
+                18.392
+            ]
+        },
+        {
+            "text": "balanced",
+            "timestamp": [
+                18.392,
+                18.872
+            ]
+        },
+        {
+            "text": "diet.",
+            "timestamp": [
+                18.872,
+                19.192
+            ]
+        },
+        {
+            "text": "Dairy",
+            "timestamp": [
+                19.352,
+                19.752
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                19.752,
+                19.912
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.912,
+                19.991999999999997
+            ]
+        },
+        {
+            "text": "crucial",
+            "timestamp": [
+                19.991999999999997,
+                20.311999999999998
+            ]
+        },
+        {
+            "text": "nutrient,",
+            "timestamp": [
+                20.311999999999998,
+                20.791999999999998
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                20.951999999999998,
+                21.192
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                21.192,
+                21.352
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                21.352,
+                21.512
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                21.512,
+                21.592
+            ]
+        },
+        {
+            "text": "balance",
+            "timestamp": [
+                21.592,
+                21.991999999999997
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                21.991999999999997,
+                22.072
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                22.072,
+                22.232
+            ]
+        },
+        {
+            "text": "other",
+            "timestamp": [
+                22.232,
+                22.392
+            ]
+        },
+        {
+            "text": "food",
+            "timestamp": [
+                22.392,
+                22.631999999999998
+            ]
+        },
+        {
+            "text": "groups",
+            "timestamp": [
+                22.631999999999998,
+                22.951999999999998
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                22.951999999999998,
+                23.112000000000002
+            ]
+        },
+        {
+            "text": "avoid",
+            "timestamp": [
+                23.112000000000002,
+                23.671999999999997
+            ]
+        },
+        {
+            "text": "excess.",
+            "timestamp": [
+                23.671999999999997,
+                24.311999999999998
+            ]
+        }
+    ]
+}

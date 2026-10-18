@@ -1,0 +1,103 @@
+{
+    "text": "Like, really, you owe you mean peff, or maybe you're trying to say something.",
+    "chunks": [
+        {
+            "text": "Like,",
+            "timestamp": [
+                7.84,
+                8.16
+            ]
+        },
+        {
+            "text": "really,",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "owe",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "peff,",
+            "timestamp": [
+                10.96,
+                11.36
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                12.96,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "something.",
+            "timestamp": [
+                13.280000000000001,
+                13.6
+            ]
+        }
+    ]
+}

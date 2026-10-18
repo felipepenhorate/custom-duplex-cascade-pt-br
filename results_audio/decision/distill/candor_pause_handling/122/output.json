@@ -1,0 +1,89 @@
+{
+    "text": "You are saying, Everyone knows who you are and what you're doing.",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                12.72,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                13.52,
+                13.84
+            ]
+        },
+        {
+            "text": "Everyone",
+            "timestamp": [
+                14.16,
+                14.64
+            ]
+        },
+        {
+            "text": "knows",
+            "timestamp": [
+                14.64,
+                14.88
+            ]
+        },
+        {
+            "text": "who",
+            "timestamp": [
+                14.88,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.120000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                15.280000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                15.44,
+                15.6
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                15.6,
+                15.76
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                15.76,
+                16.0
+            ]
+        },
+        {
+            "text": "doing.",
+            "timestamp": [
+                16.0,
+                16.16
+            ]
+        }
+    ]
+}

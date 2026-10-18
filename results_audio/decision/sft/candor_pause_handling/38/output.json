@@ -1,0 +1,159 @@
+{
+    "text": "Ah, so it's a break, a respite, a chance to regroup. Nah, I can't. I can't. Unsolved. Is that a real show?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                13.280000000000001,
+                13.76
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                14.08,
+                14.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.32,
+                14.4
+            ]
+        },
+        {
+            "text": "break,",
+            "timestamp": [
+                14.4,
+                14.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.88,
+                14.96
+            ]
+        },
+        {
+            "text": "respite,",
+            "timestamp": [
+                14.96,
+                15.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.6,
+                15.68
+            ]
+        },
+        {
+            "text": "chance",
+            "timestamp": [
+                15.68,
+                15.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.84,
+                15.92
+            ]
+        },
+        {
+            "text": "regroup.",
+            "timestamp": [
+                15.92,
+                16.32
+            ]
+        },
+        {
+            "text": "Nah,",
+            "timestamp": [
+                16.64,
+                16.96
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                17.12,
+                17.28
+            ]
+        },
+        {
+            "text": "can't.",
+            "timestamp": [
+                17.28,
+                17.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.0,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "can't.",
+            "timestamp": [
+                18.240000000000002,
+                19.2
+            ]
+        },
+        {
+            "text": "Unsolved.",
+            "timestamp": [
+                19.92,
+                20.88
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                21.12,
+                21.28
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                21.28,
+                21.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.44,
+                21.68
+            ]
+        },
+        {
+            "text": "real",
+            "timestamp": [
+                21.68,
+                22.0
+            ]
+        },
+        {
+            "text": "show?",
+            "timestamp": [
+                22.0,
+                22.32
+            ]
+        }
+    ]
+}

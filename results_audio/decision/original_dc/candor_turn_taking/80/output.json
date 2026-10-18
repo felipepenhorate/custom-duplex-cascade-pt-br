@@ -1,0 +1,173 @@
+{
+    "text": "It seems like there might be some confusion in your request. Starbucks and McDonald's are both places where you can purchase food and on.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                8.64,
+                8.96
+            ]
+        },
+        {
+            "text": "seems",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "there",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "confusion",
+            "timestamp": [
+                10.16,
+                10.56
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "request.",
+            "timestamp": [
+                10.88,
+                11.28
+            ]
+        },
+        {
+            "text": "Starbucks",
+            "timestamp": [
+                11.6,
+                12.24
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.24,
+                12.32
+            ]
+        },
+        {
+            "text": "McDonald's",
+            "timestamp": [
+                12.32,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "both",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "places",
+            "timestamp": [
+                13.36,
+                13.68
+            ]
+        },
+        {
+            "text": "where",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                13.84,
+                13.92
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        },
+        {
+            "text": "purchase",
+            "timestamp": [
+                14.08,
+                14.48
+            ]
+        },
+        {
+            "text": "food",
+            "timestamp": [
+                14.48,
+                14.88
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                14.88,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "on.",
+            "timestamp": [
+                15.44,
+                15.52
+            ]
+        }
+    ]
+}

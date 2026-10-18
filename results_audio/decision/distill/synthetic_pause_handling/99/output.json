@@ -1,0 +1,124 @@
+{
+    "text": "It seems like you're trying to say something about making a decision, maybe when choosing a place.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                8.56,
+                8.88
+            ]
+        },
+        {
+            "text": "seems",
+            "timestamp": [
+                8.88,
+                9.28
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "making",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "decision,",
+            "timestamp": [
+                11.040000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                11.68,
+                12.0
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "choosing",
+            "timestamp": [
+                12.16,
+                12.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.72,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "place.",
+            "timestamp": [
+                13.040000000000001,
+                13.36
+            ]
+        }
+    ]
+}

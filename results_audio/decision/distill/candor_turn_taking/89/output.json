@@ -1,0 +1,61 @@
+{
+    "text": "I'm really glad we got to talk to.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                10.88,
+                11.28
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "glad",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "to.",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        }
+    ]
+}

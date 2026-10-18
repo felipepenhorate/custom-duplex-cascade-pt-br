@@ -1,0 +1,26 @@
+{
+    "text": "Opa, Ceila, Qualolance",
+    "chunks": [
+        {
+            "text": "Opa,",
+            "timestamp": [
+                1.76,
+                2.48
+            ]
+        },
+        {
+            "text": "Ceila,",
+            "timestamp": [
+                2.64,
+                3.36
+            ]
+        },
+        {
+            "text": "Qualolance",
+            "timestamp": [
+                3.44,
+                4.4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,320 @@
+{
+    "text": "You're probably asking, can you remind me to call the someone something ah? I think you're trying to say, Can you remind me to call my mechanic? Or maybe can you remind me to check my oil? If so, here's a helpful reminder for you.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                18.584,
+                19.144
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                19.144,
+                19.384
+            ]
+        },
+        {
+            "text": "asking,",
+            "timestamp": [
+                19.384,
+                19.864
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                20.984,
+                21.144
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                21.144,
+                21.304000000000002
+            ]
+        },
+        {
+            "text": "remind",
+            "timestamp": [
+                21.304000000000002,
+                21.624
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                21.624,
+                21.784
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                21.784,
+                21.944
+            ]
+        },
+        {
+            "text": "call",
+            "timestamp": [
+                21.944,
+                22.104
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                22.104,
+                22.264
+            ]
+        },
+        {
+            "text": "someone",
+            "timestamp": [
+                22.264,
+                22.503999999999998
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                22.664,
+                22.823999999999998
+            ]
+        },
+        {
+            "text": "ah?",
+            "timestamp": [
+                22.984,
+                23.384
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                23.784,
+                23.944000000000003
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                23.944000000000003,
+                24.104
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                24.104,
+                24.344
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                24.344,
+                24.503999999999998
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                24.503999999999998,
+                24.664
+            ]
+        },
+        {
+            "text": "say,",
+            "timestamp": [
+                24.664,
+                24.904
+            ]
+        },
+        {
+            "text": "Can",
+            "timestamp": [
+                25.944000000000003,
+                26.104
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                26.104,
+                26.264
+            ]
+        },
+        {
+            "text": "remind",
+            "timestamp": [
+                26.264,
+                26.584
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                26.584,
+                26.744
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                26.744,
+                26.823999999999998
+            ]
+        },
+        {
+            "text": "call",
+            "timestamp": [
+                26.823999999999998,
+                26.984
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                26.984,
+                27.224
+            ]
+        },
+        {
+            "text": "mechanic?",
+            "timestamp": [
+                27.224,
+                27.704
+            ]
+        },
+        {
+            "text": "Or",
+            "timestamp": [
+                27.944000000000003,
+                28.183999999999997
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                28.183999999999997,
+                28.344
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                28.503999999999998,
+                28.744
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                28.744,
+                28.823999999999998
+            ]
+        },
+        {
+            "text": "remind",
+            "timestamp": [
+                28.823999999999998,
+                29.144
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                29.144,
+                29.224
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                29.224,
+                29.304000000000002
+            ]
+        },
+        {
+            "text": "check",
+            "timestamp": [
+                29.304000000000002,
+                29.544
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                29.544,
+                29.704
+            ]
+        },
+        {
+            "text": "oil?",
+            "timestamp": [
+                29.704,
+                30.104
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                30.424,
+                30.584
+            ]
+        },
+        {
+            "text": "so,",
+            "timestamp": [
+                30.584,
+                30.744
+            ]
+        },
+        {
+            "text": "here's",
+            "timestamp": [
+                30.904,
+                31.144
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                31.144,
+                31.224
+            ]
+        },
+        {
+            "text": "helpful",
+            "timestamp": [
+                31.224,
+                31.624
+            ]
+        },
+        {
+            "text": "reminder",
+            "timestamp": [
+                31.624,
+                32.104
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                32.104,
+                32.344
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                32.344,
+                32.584
+            ]
+        }
+    ]
+}

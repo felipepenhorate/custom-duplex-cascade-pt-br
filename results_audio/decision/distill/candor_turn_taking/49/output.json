@@ -1,0 +1,47 @@
+{
+    "text": "You were doing a lot of",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "doing",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                13.040000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        }
+    ]
+}

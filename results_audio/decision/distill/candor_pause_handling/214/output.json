@@ -1,0 +1,47 @@
+{
+    "text": "Ah, you are asking a very",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                16.080000000000002,
+                16.56
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                16.8,
+                16.96
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                16.96,
+                17.12
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                17.12,
+                17.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.36,
+                17.44
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                17.44,
+                17.52
+            ]
+        }
+    ]
+}

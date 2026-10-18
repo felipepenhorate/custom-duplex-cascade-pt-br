@@ -1,0 +1,117 @@
+{
+    "text": "You didn't just say, you didn't just say it was nice. You said I took O.",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                15.68,
+                15.92
+            ]
+        },
+        {
+            "text": "didn't",
+            "timestamp": [
+                15.92,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                16.240000000000002,
+                16.56
+            ]
+        },
+        {
+            "text": "say,",
+            "timestamp": [
+                16.56,
+                16.88
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.2,
+                17.36
+            ]
+        },
+        {
+            "text": "didn't",
+            "timestamp": [
+                17.36,
+                17.6
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                17.6,
+                17.92
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                17.92,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                18.32,
+                18.48
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                18.48,
+                18.72
+            ]
+        },
+        {
+            "text": "nice.",
+            "timestamp": [
+                18.72,
+                19.12
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                19.44,
+                19.6
+            ]
+        },
+        {
+            "text": "said",
+            "timestamp": [
+                19.6,
+                19.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                19.84,
+                19.92
+            ]
+        },
+        {
+            "text": "took",
+            "timestamp": [
+                19.92,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "O.",
+            "timestamp": [
+                20.16,
+                20.400000000000002
+            ]
+        }
+    ]
+}

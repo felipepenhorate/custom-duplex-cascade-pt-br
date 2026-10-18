@@ -1,0 +1,117 @@
+{
+    "text": "You're saying something is both good and bad? That's you're saying you have people like me.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                8.72,
+                9.28
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                9.52,
+                9.84
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "both",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "bad?",
+            "timestamp": [
+                10.96,
+                11.44
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                13.68,
+                14.08
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                14.08,
+                14.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                14.72,
+                14.96
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                14.96,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                15.200000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "me.",
+            "timestamp": [
+                15.44,
+                15.6
+            ]
+        }
+    ]
+}

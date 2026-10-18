@@ -1,0 +1,26 @@
+{
+    "text": "No, I think.",
+    "chunks": [
+        {
+            "text": "No,",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "think.",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        }
+    ]
+}

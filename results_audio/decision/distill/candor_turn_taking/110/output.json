@@ -1,0 +1,152 @@
+{
+    "text": "I think you're trying to describe a storm, likely Hurricane Ida or another major hurricane, that ah, thanks for the clarification.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                18.48,
+                18.64
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                18.64,
+                18.88
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                18.88,
+                19.12
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                19.12,
+                19.28
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                19.28,
+                19.44
+            ]
+        },
+        {
+            "text": "describe",
+            "timestamp": [
+                19.44,
+                19.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.84,
+                20.0
+            ]
+        },
+        {
+            "text": "storm,",
+            "timestamp": [
+                20.0,
+                20.32
+            ]
+        },
+        {
+            "text": "likely",
+            "timestamp": [
+                20.48,
+                20.88
+            ]
+        },
+        {
+            "text": "Hurricane",
+            "timestamp": [
+                20.88,
+                21.36
+            ]
+        },
+        {
+            "text": "Ida",
+            "timestamp": [
+                21.36,
+                21.84
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                21.84,
+                22.0
+            ]
+        },
+        {
+            "text": "another",
+            "timestamp": [
+                22.0,
+                22.240000000000002
+            ]
+        },
+        {
+            "text": "major",
+            "timestamp": [
+                22.240000000000002,
+                22.56
+            ]
+        },
+        {
+            "text": "hurricane,",
+            "timestamp": [
+                22.56,
+                23.2
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                23.52,
+                23.68
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                23.84,
+                24.16
+            ]
+        },
+        {
+            "text": "thanks",
+            "timestamp": [
+                24.32,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                24.560000000000002,
+                24.72
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                24.72,
+                24.8
+            ]
+        },
+        {
+            "text": "clarification.",
+            "timestamp": [
+                24.8,
+                25.44
+            ]
+        }
+    ]
+}

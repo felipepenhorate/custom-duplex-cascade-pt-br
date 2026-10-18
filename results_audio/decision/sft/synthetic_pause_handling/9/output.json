@@ -1,0 +1,152 @@
+{
+    "text": "I can. Or do you prefer a particular airline? I'll look for a time of day, not a precise time. Is",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.4,
+                2.72
+            ]
+        },
+        {
+            "text": "can.",
+            "timestamp": [
+                2.72,
+                3.04
+            ]
+        },
+        {
+            "text": "Or",
+            "timestamp": [
+                3.36,
+                3.6
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                3.6,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                3.7600000000000002,
+                3.84
+            ]
+        },
+        {
+            "text": "prefer",
+            "timestamp": [
+                3.84,
+                4.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.16,
+                4.32
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                4.32,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "airline?",
+            "timestamp": [
+                4.5600000000000005,
+                4.96
+            ]
+        },
+        {
+            "text": "I'll",
+            "timestamp": [
+                8.8,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "look",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.44,
+                9.52
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "day,",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "precise",
+            "timestamp": [
+                10.32,
+                10.8
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        }
+    ]
+}

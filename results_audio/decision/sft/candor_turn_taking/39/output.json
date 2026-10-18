@@ -1,0 +1,159 @@
+{
+    "text": "Seven dust? Is that a regional term or a mix-up? I can see. Is seven dust a pesticide or a natural fertilizer?",
+    "chunks": [
+        {
+            "text": "Seven",
+            "timestamp": [
+                15.120000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "dust?",
+            "timestamp": [
+                15.6,
+                16.0
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                16.240000000000002,
+                16.4
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                16.4,
+                16.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.56,
+                16.72
+            ]
+        },
+        {
+            "text": "regional",
+            "timestamp": [
+                16.72,
+                17.12
+            ]
+        },
+        {
+            "text": "term",
+            "timestamp": [
+                17.12,
+                17.36
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                17.36,
+                17.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.52,
+                17.6
+            ]
+        },
+        {
+            "text": "mix-up?",
+            "timestamp": [
+                17.6,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                25.68,
+                26.0
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                26.0,
+                26.32
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                26.32,
+                26.64
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                26.96,
+                27.12
+            ]
+        },
+        {
+            "text": "seven",
+            "timestamp": [
+                27.76,
+                28.240000000000002
+            ]
+        },
+        {
+            "text": "dust",
+            "timestamp": [
+                28.32,
+                28.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                28.8,
+                29.04
+            ]
+        },
+        {
+            "text": "pesticide",
+            "timestamp": [
+                29.04,
+                29.76
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                29.76,
+                29.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                29.92,
+                30.0
+            ]
+        },
+        {
+            "text": "natural",
+            "timestamp": [
+                30.0,
+                30.32
+            ]
+        },
+        {
+            "text": "fertilizer?",
+            "timestamp": [
+                30.32,
+                31.44
+            ]
+        }
+    ]
+}

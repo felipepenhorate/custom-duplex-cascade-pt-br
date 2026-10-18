@@ -1,0 +1,82 @@
+{
+    "text": "Nah, he's Heh, I can't even. I just I just can't.",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                5.92,
+                6.24
+            ]
+        },
+        {
+            "text": "he's",
+            "timestamp": [
+                6.4,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "Heh,",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                12.96,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "even.",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.84,
+                14.0
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                14.0,
+                14.24
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                14.48,
+                14.64
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "can't.",
+            "timestamp": [
+                14.8,
+                15.36
+            ]
+        }
+    ]
+}

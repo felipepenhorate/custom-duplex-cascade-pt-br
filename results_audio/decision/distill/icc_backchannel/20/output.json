@@ -1,0 +1,124 @@
+{
+    "text": "I think you're trying to say something really interesting. Maybe a mix of frustration and curiosity about",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                24.240000000000002,
+                24.48
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                25.2,
+                25.44
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                25.44,
+                25.6
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                25.6,
+                25.76
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                25.76,
+                25.84
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                25.84,
+                26.080000000000002
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                26.080000000000002,
+                26.32
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                26.32,
+                26.48
+            ]
+        },
+        {
+            "text": "interesting.",
+            "timestamp": [
+                26.48,
+                26.8
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                27.04,
+                27.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                27.28,
+                27.36
+            ]
+        },
+        {
+            "text": "mix",
+            "timestamp": [
+                27.36,
+                27.6
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                27.6,
+                27.76
+            ]
+        },
+        {
+            "text": "frustration",
+            "timestamp": [
+                27.76,
+                28.240000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                28.240000000000002,
+                28.400000000000002
+            ]
+        },
+        {
+            "text": "curiosity",
+            "timestamp": [
+                28.400000000000002,
+                28.96
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                28.96,
+                29.2
+            ]
+        }
+    ]
+}

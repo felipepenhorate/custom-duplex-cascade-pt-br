@@ -1,0 +1,103 @@
+{
+    "text": "Nah, I just can't wrap my head around some of the absurdity of it.",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                8.48,
+                8.96
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "wrap",
+            "timestamp": [
+                9.84,
+                10.16
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "head",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "around",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "absurdity",
+            "timestamp": [
+                11.040000000000001,
+                11.84
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.84,
+                12.16
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                12.16,
+                12.48
+            ]
+        }
+    ]
+}

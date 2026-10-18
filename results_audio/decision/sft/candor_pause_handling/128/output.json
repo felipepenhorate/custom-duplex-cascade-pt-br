@@ -1,0 +1,243 @@
+{
+    "text": "Ah, so it's a long-term issue, not a recent blip. Is it just a regular, consistent performance, or are there some irregulars? Ouch. Selling a home at a loss is a bummer to be.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                5.28,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                6.0,
+                6.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "long-term",
+            "timestamp": [
+                6.32,
+                6.8
+            ]
+        },
+        {
+            "text": "issue,",
+            "timestamp": [
+                6.8,
+                7.04
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                7.12,
+                7.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.2,
+                7.28
+            ]
+        },
+        {
+            "text": "recent",
+            "timestamp": [
+                7.28,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "blip.",
+            "timestamp": [
+                7.5200000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        },
+        {
+            "text": "regular,",
+            "timestamp": [
+                8.56,
+                8.96
+            ]
+        },
+        {
+            "text": "consistent",
+            "timestamp": [
+                9.040000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "performance,",
+            "timestamp": [
+                9.52,
+                9.92
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "there",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                10.4,
+                10.48
+            ]
+        },
+        {
+            "text": "irregulars?",
+            "timestamp": [
+                10.48,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "Ouch.",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "Selling",
+            "timestamp": [
+                11.92,
+                12.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.32,
+                12.4
+            ]
+        },
+        {
+            "text": "home",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.8,
+                12.88
+            ]
+        },
+        {
+            "text": "loss",
+            "timestamp": [
+                12.88,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "bummer",
+            "timestamp": [
+                13.36,
+                13.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.84,
+                14.0
+            ]
+        },
+        {
+            "text": "be.",
+            "timestamp": [
+                14.0,
+                14.24
+            ]
+        }
+    ]
+}

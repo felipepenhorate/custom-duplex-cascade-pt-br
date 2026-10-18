@@ -1,0 +1,152 @@
+{
+    "text": "It sounds like you've recently discovered a show on HBO and found it to be quite enjoyable. It's always exciting too.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                11.44,
+                11.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        },
+        {
+            "text": "recently",
+            "timestamp": [
+                12.4,
+                12.72
+            ]
+        },
+        {
+            "text": "discovered",
+            "timestamp": [
+                12.72,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "show",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        },
+        {
+            "text": "HBO",
+            "timestamp": [
+                13.68,
+                14.4
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                14.48,
+                14.72
+            ]
+        },
+        {
+            "text": "found",
+            "timestamp": [
+                14.72,
+                14.96
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                14.96,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.120000000000001,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                15.200000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "quite",
+            "timestamp": [
+                15.36,
+                15.6
+            ]
+        },
+        {
+            "text": "enjoyable.",
+            "timestamp": [
+                15.6,
+                16.16
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                16.4,
+                16.64
+            ]
+        },
+        {
+            "text": "always",
+            "timestamp": [
+                16.64,
+                16.88
+            ]
+        },
+        {
+            "text": "exciting",
+            "timestamp": [
+                16.88,
+                17.28
+            ]
+        },
+        {
+            "text": "too.",
+            "timestamp": [
+                17.44,
+                17.68
+            ]
+        }
+    ]
+}

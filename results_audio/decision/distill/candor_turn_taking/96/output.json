@@ -1,0 +1,152 @@
+{
+    "text": "You were getting there? Sounds like you're trying to talk about availability time zones. Ah, P, I don't know, minimum plan.",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                11.36,
+                11.44
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "getting",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "there?",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "availability",
+            "timestamp": [
+                13.68,
+                14.24
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                14.72,
+                14.8
+            ]
+        },
+        {
+            "text": "zones.",
+            "timestamp": [
+                14.8,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                15.200000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "P,",
+            "timestamp": [
+                15.68,
+                15.84
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.16,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                16.240000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "know,",
+            "timestamp": [
+                16.32,
+                16.4
+            ]
+        },
+        {
+            "text": "minimum",
+            "timestamp": [
+                17.36,
+                17.68
+            ]
+        },
+        {
+            "text": "plan.",
+            "timestamp": [
+                17.84,
+                18.0
+            ]
+        }
+    ]
+}

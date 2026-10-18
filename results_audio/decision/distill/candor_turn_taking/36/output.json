@@ -1,0 +1,138 @@
+{
+    "text": "I think you're saying I was taking the course because I wanted to find ah. I think you meant.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                17.52,
+                17.68
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                17.68,
+                17.92
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                17.92,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                18.400000000000002,
+                18.72
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                19.04,
+                19.36
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                19.36,
+                19.6
+            ]
+        },
+        {
+            "text": "taking",
+            "timestamp": [
+                19.6,
+                20.16
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                20.16,
+                20.48
+            ]
+        },
+        {
+            "text": "course",
+            "timestamp": [
+                20.48,
+                20.72
+            ]
+        },
+        {
+            "text": "because",
+            "timestamp": [
+                20.8,
+                21.04
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                21.04,
+                21.2
+            ]
+        },
+        {
+            "text": "wanted",
+            "timestamp": [
+                21.2,
+                21.44
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                21.44,
+                21.68
+            ]
+        },
+        {
+            "text": "find",
+            "timestamp": [
+                21.68,
+                21.92
+            ]
+        },
+        {
+            "text": "ah.",
+            "timestamp": [
+                21.92,
+                22.240000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                22.48,
+                22.56
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                22.56,
+                22.72
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                22.72,
+                22.88
+            ]
+        },
+        {
+            "text": "meant.",
+            "timestamp": [
+                22.88,
+                23.04
+            ]
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "text": "That's a wonderful goal. Learning to play an instrument is not only.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                7.2,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "wonderful",
+            "timestamp": [
+                7.76,
+                8.24
+            ]
+        },
+        {
+            "text": "goal.",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "Learning",
+            "timestamp": [
+                8.8,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "play",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "instrument",
+            "timestamp": [
+                9.6,
+                10.08
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "only.",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        }
+    ]
+}

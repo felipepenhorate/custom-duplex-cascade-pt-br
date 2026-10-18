@@ -1,0 +1,110 @@
+{
+    "text": "My yoga saying, S I don't do any work in my room, but I but",
+    "chunks": [
+        {
+            "text": "My",
+            "timestamp": [
+                33.04,
+                33.2
+            ]
+        },
+        {
+            "text": "yoga",
+            "timestamp": [
+                33.36,
+                33.68
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                33.92,
+                34.0
+            ]
+        },
+        {
+            "text": "S",
+            "timestamp": [
+                34.480000000000004,
+                34.56
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                35.28,
+                35.44
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                35.44,
+                35.68
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                35.68,
+                35.92
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                35.92,
+                36.160000000000004
+            ]
+        },
+        {
+            "text": "work",
+            "timestamp": [
+                36.160000000000004,
+                36.32
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                36.32,
+                36.480000000000004
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                36.480000000000004,
+                36.64
+            ]
+        },
+        {
+            "text": "room,",
+            "timestamp": [
+                36.64,
+                37.12
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                37.44,
+                37.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                37.68,
+                38.0
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                38.32,
+                38.4
+            ]
+        }
+    ]
+}

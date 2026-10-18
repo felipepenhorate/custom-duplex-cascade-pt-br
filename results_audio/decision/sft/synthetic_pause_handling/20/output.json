@@ -1,0 +1,96 @@
+{
+    "text": "C for me si vo segosta de um clima mazepico y profundo. Oh.",
+    "chunks": [
+        {
+            "text": "C",
+            "timestamp": [
+                5.12,
+                5.2
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                5.68,
+                5.76
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                5.92,
+                6.0
+            ]
+        },
+        {
+            "text": "si",
+            "timestamp": [
+                7.28,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "vo",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "segosta",
+            "timestamp": [
+                7.76,
+                8.32
+            ]
+        },
+        {
+            "text": "de",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "um",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        },
+        {
+            "text": "clima",
+            "timestamp": [
+                8.64,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "mazepico",
+            "timestamp": [
+                9.040000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "y",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "profundo.",
+            "timestamp": [
+                9.84,
+                10.32
+            ]
+        },
+        {
+            "text": "Oh.",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        }
+    ]
+}

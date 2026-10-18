@@ -1,0 +1,229 @@
+{
+    "text": "You're trying to add milk to your shopping list and you probably meant, I ah, I think you're asking, yeah, can I add milk to my shopping list? Or should I add?",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                20.552,
+                21.032
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                21.032,
+                21.272
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                21.272,
+                21.592
+            ]
+        },
+        {
+            "text": "add",
+            "timestamp": [
+                21.592,
+                21.912
+            ]
+        },
+        {
+            "text": "milk",
+            "timestamp": [
+                21.912,
+                22.311999999999998
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                22.311999999999998,
+                22.472
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                22.472,
+                22.631999999999998
+            ]
+        },
+        {
+            "text": "shopping",
+            "timestamp": [
+                22.631999999999998,
+                23.032
+            ]
+        },
+        {
+            "text": "list",
+            "timestamp": [
+                23.032,
+                23.272
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                23.432,
+                23.592
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                23.592,
+                23.912
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                23.912,
+                24.232
+            ]
+        },
+        {
+            "text": "meant,",
+            "timestamp": [
+                24.232,
+                24.792
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                25.112000000000002,
+                25.272
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                25.512,
+                25.832
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                25.991999999999997,
+                26.152
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                26.152,
+                26.311999999999998
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                26.311999999999998,
+                26.631999999999998
+            ]
+        },
+        {
+            "text": "asking,",
+            "timestamp": [
+                26.631999999999998,
+                27.032
+            ]
+        },
+        {
+            "text": "yeah,",
+            "timestamp": [
+                27.351999999999997,
+                27.592
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                28.152,
+                28.311999999999998
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                28.472,
+                28.712
+            ]
+        },
+        {
+            "text": "add",
+            "timestamp": [
+                28.712,
+                28.951999999999998
+            ]
+        },
+        {
+            "text": "milk",
+            "timestamp": [
+                28.951999999999998,
+                29.432
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                29.432,
+                29.592
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                29.592,
+                29.752
+            ]
+        },
+        {
+            "text": "shopping",
+            "timestamp": [
+                29.752,
+                30.392
+            ]
+        },
+        {
+            "text": "list?",
+            "timestamp": [
+                30.392,
+                30.951999999999998
+            ]
+        },
+        {
+            "text": "Or",
+            "timestamp": [
+                31.272,
+                31.592
+            ]
+        },
+        {
+            "text": "should",
+            "timestamp": [
+                31.912,
+                32.152
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                32.152,
+                32.312
+            ]
+        },
+        {
+            "text": "add?",
+            "timestamp": [
+                32.312,
+                32.471999999999994
+            ]
+        }
+    ]
+}

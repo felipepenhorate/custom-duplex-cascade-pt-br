@@ -1,0 +1,173 @@
+{
+    "text": "Penn State University Corvallis is a city located in the Uemqua Valley region of Oregon, United States. It is the seat of Benton County.",
+    "chunks": [
+        {
+            "text": "Penn",
+            "timestamp": [
+                8.56,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "State",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "University",
+            "timestamp": [
+                9.36,
+                10.32
+            ]
+        },
+        {
+            "text": "Corvallis",
+            "timestamp": [
+                13.76,
+                14.72
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                14.72,
+                14.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.88,
+                14.96
+            ]
+        },
+        {
+            "text": "city",
+            "timestamp": [
+                14.96,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "located",
+            "timestamp": [
+                15.280000000000001,
+                15.6
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                15.6,
+                15.68
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                15.68,
+                15.84
+            ]
+        },
+        {
+            "text": "Uemqua",
+            "timestamp": [
+                15.84,
+                16.48
+            ]
+        },
+        {
+            "text": "Valley",
+            "timestamp": [
+                16.56,
+                16.88
+            ]
+        },
+        {
+            "text": "region",
+            "timestamp": [
+                16.88,
+                17.12
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                17.12,
+                17.2
+            ]
+        },
+        {
+            "text": "Oregon,",
+            "timestamp": [
+                17.2,
+                17.68
+            ]
+        },
+        {
+            "text": "United",
+            "timestamp": [
+                17.92,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "States.",
+            "timestamp": [
+                18.400000000000002,
+                18.72
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                19.04,
+                19.12
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                19.12,
+                19.28
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                19.28,
+                19.36
+            ]
+        },
+        {
+            "text": "seat",
+            "timestamp": [
+                19.36,
+                19.6
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                19.6,
+                19.68
+            ]
+        },
+        {
+            "text": "Benton",
+            "timestamp": [
+                19.68,
+                20.240000000000002
+            ]
+        },
+        {
+            "text": "County.",
+            "timestamp": [
+                20.240000000000002,
+                20.48
+            ]
+        }
+    ]
+}

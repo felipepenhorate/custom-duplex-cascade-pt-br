@@ -1,0 +1,131 @@
+{
+    "text": "You're saying something like, it's a bit like McDonald's, not great, but still, uh, you were probably trying.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                12.16,
+                12.56
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "like,",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.6,
+                13.68
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                13.84,
+                14.0
+            ]
+        },
+        {
+            "text": "McDonald's,",
+            "timestamp": [
+                14.0,
+                14.8
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                15.040000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "great,",
+            "timestamp": [
+                15.280000000000001,
+                15.52
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                15.68,
+                15.84
+            ]
+        },
+        {
+            "text": "still,",
+            "timestamp": [
+                15.84,
+                16.0
+            ]
+        },
+        {
+            "text": "uh,",
+            "timestamp": [
+                16.080000000000002,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                16.56,
+                16.72
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                16.72,
+                16.88
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                16.88,
+                17.12
+            ]
+        },
+        {
+            "text": "trying.",
+            "timestamp": [
+                17.12,
+                17.28
+            ]
+        }
+    ]
+}

@@ -1,0 +1,341 @@
+{
+    "text": "I think you may have meant smart home devices. A common mix-up in typing iping uh-ah. It looks like you might have typed L or P by accident. Perhaps you were trying to say smart home devices. Let me help with the latest advancements in smart home devices.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                16.056,
+                16.376
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                16.376,
+                16.616
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                16.616,
+                16.776
+            ]
+        },
+        {
+            "text": "may",
+            "timestamp": [
+                16.776,
+                16.936
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                16.936,
+                17.096
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                17.096,
+                17.416
+            ]
+        },
+        {
+            "text": "smart",
+            "timestamp": [
+                17.416,
+                17.816000000000003
+            ]
+        },
+        {
+            "text": "home",
+            "timestamp": [
+                17.816000000000003,
+                18.056
+            ]
+        },
+        {
+            "text": "devices.",
+            "timestamp": [
+                18.056,
+                18.616
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                18.936,
+                19.096
+            ]
+        },
+        {
+            "text": "common",
+            "timestamp": [
+                19.096,
+                19.416
+            ]
+        },
+        {
+            "text": "mix-up",
+            "timestamp": [
+                19.416,
+                19.976
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                19.976,
+                20.136
+            ]
+        },
+        {
+            "text": "typing",
+            "timestamp": [
+                20.136,
+                20.616
+            ]
+        },
+        {
+            "text": "iping",
+            "timestamp": [
+                20.936,
+                21.576
+            ]
+        },
+        {
+            "text": "uh-ah.",
+            "timestamp": [
+                22.136000000000003,
+                22.776
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                22.936,
+                23.016
+            ]
+        },
+        {
+            "text": "looks",
+            "timestamp": [
+                23.016,
+                23.176000000000002
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                23.176000000000002,
+                23.336
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                23.336,
+                23.496000000000002
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                23.496000000000002,
+                23.656
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                23.656,
+                23.736
+            ]
+        },
+        {
+            "text": "typed",
+            "timestamp": [
+                23.736,
+                24.376
+            ]
+        },
+        {
+            "text": "L",
+            "timestamp": [
+                24.376,
+                24.695999999999998
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                25.176000000000002,
+                25.496000000000002
+            ]
+        },
+        {
+            "text": "P",
+            "timestamp": [
+                25.816000000000003,
+                26.056
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                26.376,
+                26.616
+            ]
+        },
+        {
+            "text": "accident.",
+            "timestamp": [
+                26.616,
+                27.016
+            ]
+        },
+        {
+            "text": "Perhaps",
+            "timestamp": [
+                27.336,
+                27.736
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                27.736,
+                27.816000000000003
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                27.816000000000003,
+                27.976
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                27.976,
+                28.216
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                28.216,
+                28.376
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                28.376,
+                28.616
+            ]
+        },
+        {
+            "text": "smart",
+            "timestamp": [
+                28.616,
+                29.016
+            ]
+        },
+        {
+            "text": "home",
+            "timestamp": [
+                29.016,
+                29.256
+            ]
+        },
+        {
+            "text": "devices.",
+            "timestamp": [
+                29.256,
+                29.735999999999997
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                29.976,
+                30.136000000000003
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                30.136000000000003,
+                30.296
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                30.296,
+                30.456000000000003
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                30.456000000000003,
+                30.616
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                30.616,
+                30.695999999999998
+            ]
+        },
+        {
+            "text": "latest",
+            "timestamp": [
+                30.695999999999998,
+                31.016
+            ]
+        },
+        {
+            "text": "advancements",
+            "timestamp": [
+                31.016,
+                31.416000000000004
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                31.416000000000004,
+                31.576
+            ]
+        },
+        {
+            "text": "smart",
+            "timestamp": [
+                31.576,
+                31.816000000000003
+            ]
+        },
+        {
+            "text": "home",
+            "timestamp": [
+                31.816000000000003,
+                32.056
+            ]
+        },
+        {
+            "text": "devices.",
+            "timestamp": [
+                32.056,
+                32.216
+            ]
+        }
+    ]
+}

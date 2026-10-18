@@ -1,0 +1,75 @@
+{
+    "text": "It sounds like you've experienced a common issue where book.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "experienced",
+            "timestamp": [
+                11.6,
+                12.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "common",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "issue",
+            "timestamp": [
+                12.56,
+                12.88
+            ]
+        },
+        {
+            "text": "where",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "book.",
+            "timestamp": [
+                13.280000000000001,
+                13.36
+            ]
+        }
+    ]
+}

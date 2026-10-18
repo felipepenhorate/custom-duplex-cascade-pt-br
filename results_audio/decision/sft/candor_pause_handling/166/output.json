@@ -1,0 +1,82 @@
+{
+    "text": "Ah, I can understand. KKK. Is it a lot of me?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                8.32,
+                8.64
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.120000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                9.44,
+                9.76
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        },
+        {
+            "text": "KKK.",
+            "timestamp": [
+                10.4,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                11.36,
+                11.44
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "me?",
+            "timestamp": [
+                11.84,
+                11.92
+            ]
+        }
+    ]
+}

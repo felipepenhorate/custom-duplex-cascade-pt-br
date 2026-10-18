@@ -1,0 +1,89 @@
+{
+    "text": "Ah, I know of it. A lot of people do. Is that?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                8.64,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "do.",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "that?",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        }
+    ]
+}

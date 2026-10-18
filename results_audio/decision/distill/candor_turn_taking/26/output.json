@@ -1,0 +1,61 @@
+{
+    "text": "Yah, you're saying you didn't know the rules.",
+    "chunks": [
+        {
+            "text": "Yah,",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "didn't",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.4,
+                12.48
+            ]
+        },
+        {
+            "text": "rules.",
+            "timestamp": [
+                12.48,
+                12.88
+            ]
+        }
+    ]
+}

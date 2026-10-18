@@ -1,0 +1,124 @@
+{
+    "text": "Opa, qua role, au quis celema, ah, um show tranquilo, mi contamaise de pois, beleisa. Show, e.",
+    "chunks": [
+        {
+            "text": "Opa,",
+            "timestamp": [
+                2.48,
+                3.04
+            ]
+        },
+        {
+            "text": "qua",
+            "timestamp": [
+                3.2,
+                3.52
+            ]
+        },
+        {
+            "text": "role,",
+            "timestamp": [
+                3.6,
+                3.84
+            ]
+        },
+        {
+            "text": "au",
+            "timestamp": [
+                4.4,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "quis",
+            "timestamp": [
+                4.64,
+                4.88
+            ]
+        },
+        {
+            "text": "celema,",
+            "timestamp": [
+                4.96,
+                5.44
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                5.5200000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "um",
+            "timestamp": [
+                5.84,
+                5.92
+            ]
+        },
+        {
+            "text": "show",
+            "timestamp": [
+                6.08,
+                6.16
+            ]
+        },
+        {
+            "text": "tranquilo,",
+            "timestamp": [
+                6.5600000000000005,
+                7.28
+            ]
+        },
+        {
+            "text": "mi",
+            "timestamp": [
+                7.68,
+                7.92
+            ]
+        },
+        {
+            "text": "contamaise",
+            "timestamp": [
+                8.0,
+                8.64
+            ]
+        },
+        {
+            "text": "de",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "pois,",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "beleisa.",
+            "timestamp": [
+                9.200000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "Show,",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "e.",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        }
+    ]
+}

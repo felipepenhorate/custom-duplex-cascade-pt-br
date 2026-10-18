@@ -1,0 +1,152 @@
+{
+    "text": "I'm glad you're having a great day. Wishing you all the best for Ah F. You might be referring to an.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                5.68,
+                6.16
+            ]
+        },
+        {
+            "text": "glad",
+            "timestamp": [
+                6.16,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "having",
+            "timestamp": [
+                6.8,
+                7.04
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                7.2,
+                7.44
+            ]
+        },
+        {
+            "text": "day.",
+            "timestamp": [
+                7.44,
+                7.68
+            ]
+        },
+        {
+            "text": "Wishing",
+            "timestamp": [
+                8.56,
+                8.8
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.120000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "best",
+            "timestamp": [
+                9.200000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "Ah",
+            "timestamp": [
+                9.6,
+                10.0
+            ]
+        },
+        {
+            "text": "F.",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                11.52,
+                11.92
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "an.",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        }
+    ]
+}

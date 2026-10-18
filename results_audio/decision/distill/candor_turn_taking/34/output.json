@@ -1,0 +1,61 @@
+{
+    "text": "Eh for twenty-five sief twenty-five dollar da da.",
+    "chunks": [
+        {
+            "text": "Eh",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "twenty-five",
+            "timestamp": [
+                11.92,
+                12.56
+            ]
+        },
+        {
+            "text": "sief",
+            "timestamp": [
+                12.96,
+                14.96
+            ]
+        },
+        {
+            "text": "twenty-five",
+            "timestamp": [
+                15.200000000000001,
+                15.76
+            ]
+        },
+        {
+            "text": "dollar",
+            "timestamp": [
+                16.240000000000002,
+                16.64
+            ]
+        },
+        {
+            "text": "da",
+            "timestamp": [
+                16.88,
+                17.12
+            ]
+        },
+        {
+            "text": "da.",
+            "timestamp": [
+                17.36,
+                17.52
+            ]
+        }
+    ]
+}

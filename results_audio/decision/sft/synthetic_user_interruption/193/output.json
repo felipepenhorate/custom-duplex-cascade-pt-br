@@ -1,0 +1,159 @@
+{
+    "text": "Ah, a classic. An umbrella is a crucial item to pack, especially in a region with a mix of rain and sunshine.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                13.448,
+                13.927999999999999
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.168,
+                14.408
+            ]
+        },
+        {
+            "text": "classic.",
+            "timestamp": [
+                14.408,
+                15.048
+            ]
+        },
+        {
+            "text": "An",
+            "timestamp": [
+                15.368,
+                15.527999999999999
+            ]
+        },
+        {
+            "text": "umbrella",
+            "timestamp": [
+                15.527999999999999,
+                16.088
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                16.088,
+                16.168
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.168,
+                16.328
+            ]
+        },
+        {
+            "text": "crucial",
+            "timestamp": [
+                16.328,
+                16.648
+            ]
+        },
+        {
+            "text": "item",
+            "timestamp": [
+                16.648,
+                16.887999999999998
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                16.887999999999998,
+                17.048000000000002
+            ]
+        },
+        {
+            "text": "pack,",
+            "timestamp": [
+                17.048000000000002,
+                17.368
+            ]
+        },
+        {
+            "text": "especially",
+            "timestamp": [
+                17.608,
+                18.008
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                18.008,
+                18.168
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.168,
+                18.247999999999998
+            ]
+        },
+        {
+            "text": "region",
+            "timestamp": [
+                18.247999999999998,
+                18.567999999999998
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                18.567999999999998,
+                18.728
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.728,
+                18.808
+            ]
+        },
+        {
+            "text": "mix",
+            "timestamp": [
+                18.808,
+                19.048000000000002
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                19.048000000000002,
+                19.128
+            ]
+        },
+        {
+            "text": "rain",
+            "timestamp": [
+                19.128,
+                19.528
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                19.528,
+                19.688
+            ]
+        },
+        {
+            "text": "sunshine.",
+            "timestamp": [
+                19.688,
+                20.887999999999998
+            ]
+        }
+    ]
+}

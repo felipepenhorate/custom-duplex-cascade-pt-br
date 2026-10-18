@@ -1,0 +1,306 @@
+{
+    "text": "You are asking if we can talk about something else. And you've been using ah, I see now. F and L might be a typo or shorthand for lifestyle or personal grooming, but it's not clear. You are asking if we can talk.",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                15.672,
+                15.832
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                15.832,
+                15.992
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                15.992,
+                16.312
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                16.312,
+                16.472
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                16.472,
+                16.632
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                16.632,
+                16.792
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                16.792,
+                17.032
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                17.032,
+                17.272
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                17.272,
+                17.512
+            ]
+        },
+        {
+            "text": "else.",
+            "timestamp": [
+                17.512,
+                17.912
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                18.232,
+                18.392
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                18.392,
+                18.632
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                18.632,
+                18.792
+            ]
+        },
+        {
+            "text": "using",
+            "timestamp": [
+                18.792,
+                19.112000000000002
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                19.272,
+                19.672
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                19.912,
+                20.152
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                20.152,
+                20.392000000000003
+            ]
+        },
+        {
+            "text": "now.",
+            "timestamp": [
+                20.392000000000003,
+                20.712
+            ]
+        },
+        {
+            "text": "F",
+            "timestamp": [
+                21.032,
+                21.272
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                21.672,
+                21.992
+            ]
+        },
+        {
+            "text": "L",
+            "timestamp": [
+                22.631999999999998,
+                22.872
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                23.032,
+                23.192
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                23.192,
+                23.272
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                23.272,
+                23.432000000000002
+            ]
+        },
+        {
+            "text": "typo",
+            "timestamp": [
+                23.432000000000002,
+                23.992
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                23.992,
+                24.152
+            ]
+        },
+        {
+            "text": "shorthand",
+            "timestamp": [
+                24.152,
+                24.712
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                24.712,
+                24.951999999999998
+            ]
+        },
+        {
+            "text": "lifestyle",
+            "timestamp": [
+                24.951999999999998,
+                25.752000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                25.752000000000002,
+                26.072000000000003
+            ]
+        },
+        {
+            "text": "personal",
+            "timestamp": [
+                26.072000000000003,
+                26.392000000000003
+            ]
+        },
+        {
+            "text": "grooming,",
+            "timestamp": [
+                26.392000000000003,
+                26.951999999999998
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                27.272,
+                27.432000000000002
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                27.432000000000002,
+                27.672
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                27.672,
+                27.832
+            ]
+        },
+        {
+            "text": "clear.",
+            "timestamp": [
+                27.832,
+                28.232
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                28.552,
+                28.872
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                28.872,
+                29.192
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                29.192,
+                29.592000000000002
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                29.592000000000002,
+                29.752000000000002
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                29.752000000000002,
+                29.832
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                29.832,
+                29.912
+            ]
+        },
+        {
+            "text": "talk.",
+            "timestamp": [
+                29.912,
+                29.992
+            ]
+        }
+    ]
+}

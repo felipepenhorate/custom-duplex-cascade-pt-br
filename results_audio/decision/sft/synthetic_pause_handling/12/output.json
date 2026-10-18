@@ -1,0 +1,152 @@
+{
+    "text": "Opa, qui legal. Si voce quer algo super animodo. Acho a intendi. Se voce curt muto a synthetizadors. Dao oma alga.",
+    "chunks": [
+        {
+            "text": "Opa,",
+            "timestamp": [
+                2.4,
+                3.04
+            ]
+        },
+        {
+            "text": "qui",
+            "timestamp": [
+                3.2800000000000002,
+                3.6
+            ]
+        },
+        {
+            "text": "legal.",
+            "timestamp": [
+                3.7600000000000002,
+                4.08
+            ]
+        },
+        {
+            "text": "Si",
+            "timestamp": [
+                4.32,
+                4.48
+            ]
+        },
+        {
+            "text": "voce",
+            "timestamp": [
+                4.5600000000000005,
+                4.8
+            ]
+        },
+        {
+            "text": "quer",
+            "timestamp": [
+                4.96,
+                5.12
+            ]
+        },
+        {
+            "text": "algo",
+            "timestamp": [
+                5.2,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "super",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "animodo.",
+            "timestamp": [
+                5.84,
+                6.24
+            ]
+        },
+        {
+            "text": "Acho",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "intendi.",
+            "timestamp": [
+                7.44,
+                8.08
+            ]
+        },
+        {
+            "text": "Se",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "voce",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "curt",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "muto",
+            "timestamp": [
+                9.44,
+                9.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "synthetizadors.",
+            "timestamp": [
+                9.92,
+                10.72
+            ]
+        },
+        {
+            "text": "Dao",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "oma",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "alga.",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        }
+    ]
+}

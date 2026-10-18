@@ -1,0 +1,89 @@
+{
+    "text": "Ah, I can imagine. Bringing up a lot of stories, I suppose.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                15.280000000000001,
+                15.76
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                16.16,
+                16.32
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                16.32,
+                16.8
+            ]
+        },
+        {
+            "text": "Bringing",
+            "timestamp": [
+                17.12,
+                17.6
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                17.6,
+                17.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.76,
+                17.84
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                17.84,
+                17.92
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                17.92,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "stories,",
+            "timestamp": [
+                18.080000000000002,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.56,
+                18.8
+            ]
+        },
+        {
+            "text": "suppose.",
+            "timestamp": [
+                18.8,
+                19.36
+            ]
+        }
+    ]
+}

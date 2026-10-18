@@ -1,0 +1,117 @@
+{
+    "text": "Ah, you are absolutely right. Don't touch your face. Cheat, oh, it, oh, you're saying play.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                11.92,
+                12.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "absolutely",
+            "timestamp": [
+                13.6,
+                14.32
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                14.32,
+                14.56
+            ]
+        },
+        {
+            "text": "Don't",
+            "timestamp": [
+                14.88,
+                15.36
+            ]
+        },
+        {
+            "text": "touch",
+            "timestamp": [
+                15.36,
+                15.6
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                15.6,
+                15.76
+            ]
+        },
+        {
+            "text": "face.",
+            "timestamp": [
+                15.76,
+                16.0
+            ]
+        },
+        {
+            "text": "Cheat,",
+            "timestamp": [
+                16.240000000000002,
+                16.56
+            ]
+        },
+        {
+            "text": "oh,",
+            "timestamp": [
+                16.72,
+                16.96
+            ]
+        },
+        {
+            "text": "it,",
+            "timestamp": [
+                17.04,
+                17.28
+            ]
+        },
+        {
+            "text": "oh,",
+            "timestamp": [
+                17.36,
+                17.6
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                17.76,
+                18.0
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                18.0,
+                18.16
+            ]
+        },
+        {
+            "text": "play.",
+            "timestamp": [
+                18.240000000000002,
+                18.32
+            ]
+        }
+    ]
+}

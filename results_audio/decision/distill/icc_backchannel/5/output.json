@@ -1,0 +1,40 @@
+{
+    "text": "You were saying infinite series.",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                31.44,
+                31.76
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                31.92,
+                32.24
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                32.24,
+                32.56
+            ]
+        },
+        {
+            "text": "infinite",
+            "timestamp": [
+                32.88,
+                33.44
+            ]
+        },
+        {
+            "text": "series.",
+            "timestamp": [
+                33.44,
+                33.92
+            ]
+        }
+    ]
+}

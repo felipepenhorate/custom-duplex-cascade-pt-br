@@ -1,0 +1,40 @@
+{
+    "text": "You're really getting into it.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                11.68,
+                12.08
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "getting",
+            "timestamp": [
+                12.32,
+                12.64
+            ]
+        },
+        {
+            "text": "into",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        }
+    ]
+}

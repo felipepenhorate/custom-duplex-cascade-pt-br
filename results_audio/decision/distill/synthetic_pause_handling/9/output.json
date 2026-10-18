@@ -1,0 +1,173 @@
+{
+    "text": "I'd be happy to help you with that. However, I notice you're m you're ask I think you're saying Thank you for the clarification.",
+    "chunks": [
+        {
+            "text": "I'd",
+            "timestamp": [
+                3.2,
+                3.68
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                3.68,
+                3.92
+            ]
+        },
+        {
+            "text": "happy",
+            "timestamp": [
+                3.92,
+                4.16
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                4.16,
+                4.32
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                4.32,
+                4.48
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "However,",
+            "timestamp": [
+                5.36,
+                5.76
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "notice",
+            "timestamp": [
+                6.08,
+                6.4
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                6.4,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "m",
+            "timestamp": [
+                6.640000000000001,
+                6.72
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "ask",
+            "timestamp": [
+                7.12,
+                7.2
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                8.56,
+                8.96
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "Thank",
+            "timestamp": [
+                10.88,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.36,
+                11.44
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "clarification.",
+            "timestamp": [
+                11.6,
+                12.32
+            ]
+        }
+    ]
+}

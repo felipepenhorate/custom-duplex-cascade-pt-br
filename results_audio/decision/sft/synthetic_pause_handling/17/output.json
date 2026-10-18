@@ -1,0 +1,117 @@
+{
+    "text": "Depends on the region, I can check. As for indoor, a lot of cities host indoor.",
+    "chunks": [
+        {
+            "text": "Depends",
+            "timestamp": [
+                5.12,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                5.76,
+                5.84
+            ]
+        },
+        {
+            "text": "region,",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.32,
+                6.4
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "check.",
+            "timestamp": [
+                6.5600000000000005,
+                6.88
+            ]
+        },
+        {
+            "text": "As",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                7.36,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "indoor,",
+            "timestamp": [
+                7.6000000000000005,
+                8.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.16,
+                8.24
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "cities",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "host",
+            "timestamp": [
+                8.8,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "indoor.",
+            "timestamp": [
+                9.120000000000001,
+                9.68
+            ]
+        }
+    ]
+}

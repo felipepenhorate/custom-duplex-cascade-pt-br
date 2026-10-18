@@ -1,0 +1,47 @@
+{
+    "text": "Exatamente is vezas ampuco de para.",
+    "chunks": [
+        {
+            "text": "Exatamente",
+            "timestamp": [
+                8.64,
+                9.68
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "vezas",
+            "timestamp": [
+                10.64,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "ampuco",
+            "timestamp": [
+                11.6,
+                12.08
+            ]
+        },
+        {
+            "text": "de",
+            "timestamp": [
+                12.16,
+                12.24
+            ]
+        },
+        {
+            "text": "para.",
+            "timestamp": [
+                12.24,
+                12.32
+            ]
+        }
+    ]
+}

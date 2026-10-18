@@ -1,0 +1,68 @@
+{
+    "text": "You're not alone. That why am I so tired?",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                10.72,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "alone.",
+            "timestamp": [
+                11.44,
+                12.0
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                12.32,
+                12.64
+            ]
+        },
+        {
+            "text": "why",
+            "timestamp": [
+                13.280000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "am",
+            "timestamp": [
+                13.6,
+                13.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                13.84,
+                14.0
+            ]
+        },
+        {
+            "text": "tired?",
+            "timestamp": [
+                14.0,
+                14.32
+            ]
+        }
+    ]
+}

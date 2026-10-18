@@ -1,0 +1,47 @@
+{
+    "text": "Bahie saying that seems very fair.",
+    "chunks": [
+        {
+            "text": "Bahie",
+            "timestamp": [
+                14.24,
+                14.88
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                15.92,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                16.48,
+                16.8
+            ]
+        },
+        {
+            "text": "seems",
+            "timestamp": [
+                16.8,
+                17.2
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                17.2,
+                17.44
+            ]
+        },
+        {
+            "text": "fair.",
+            "timestamp": [
+                17.44,
+                17.84
+            ]
+        }
+    ]
+}

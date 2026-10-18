@@ -1,0 +1,75 @@
+{
+    "text": "It seems like your message is a bit unclear or",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "seems",
+            "timestamp": [
+                9.92,
+                10.32
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "message",
+            "timestamp": [
+                10.64,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "unclear",
+            "timestamp": [
+                11.44,
+                12.0
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        }
+    ]
+}

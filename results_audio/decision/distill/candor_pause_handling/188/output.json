@@ -1,0 +1,82 @@
+{
+    "text": "You are asking if the whole thing like your original idea.",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                12.56,
+                12.88
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "whole",
+            "timestamp": [
+                13.36,
+                13.68
+            ]
+        },
+        {
+            "text": "thing",
+            "timestamp": [
+                13.68,
+                13.92
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                14.48,
+                14.64
+            ]
+        },
+        {
+            "text": "original",
+            "timestamp": [
+                14.64,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "idea.",
+            "timestamp": [
+                15.120000000000001,
+                15.44
+            ]
+        }
+    ]
+}

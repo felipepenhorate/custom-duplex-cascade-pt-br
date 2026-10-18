@@ -1,0 +1,131 @@
+{
+    "text": "Uh, you're saying something about schools. Are you talking about how schools you were saying? Goa, I'm gonna.",
+    "chunks": [
+        {
+            "text": "Uh,",
+            "timestamp": [
+                7.84,
+                8.24
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                8.56,
+                8.88
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                9.36,
+                9.68
+            ]
+        },
+        {
+            "text": "schools.",
+            "timestamp": [
+                9.68,
+                10.4
+            ]
+        },
+        {
+            "text": "Are",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "schools",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.96,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                13.280000000000001,
+                13.6
+            ]
+        },
+        {
+            "text": "saying?",
+            "timestamp": [
+                13.6,
+                13.92
+            ]
+        },
+        {
+            "text": "Goa,",
+            "timestamp": [
+                14.56,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                15.44,
+                15.76
+            ]
+        },
+        {
+            "text": "gonna.",
+            "timestamp": [
+                15.76,
+                15.92
+            ]
+        }
+    ]
+}

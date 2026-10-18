@@ -1,0 +1,54 @@
+{
+    "text": "I'm I'm really happy to hear that.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                10.64,
+                11.36
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                11.36,
+                11.84
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "happy",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "hear",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        }
+    ]
+}

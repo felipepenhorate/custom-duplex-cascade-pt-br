@@ -1,0 +1,348 @@
+{
+    "text": "Sh, you're asking, do we have any? And I think you might be ah, L, or F. And it looks like you may have meant chocolate cake, as in the recipe we started, but your message has a bit of a mix-up. Let me help clear this up. Sh.",
+    "chunks": [
+        {
+            "text": "Sh,",
+            "timestamp": [
+                14.680000000000001,
+                14.920000000000002
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                15.32,
+                15.72
+            ]
+        },
+        {
+            "text": "asking,",
+            "timestamp": [
+                15.72,
+                16.36
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                16.68,
+                16.84
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                17.080000000000002,
+                17.400000000000002
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                17.400000000000002,
+                17.720000000000002
+            ]
+        },
+        {
+            "text": "any?",
+            "timestamp": [
+                17.720000000000002,
+                18.04
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                18.68,
+                18.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.92,
+                19.080000000000002
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                19.080000000000002,
+                19.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                19.32,
+                19.400000000000002
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                19.400000000000002,
+                19.64
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                19.64,
+                19.880000000000003
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                19.880000000000003,
+                20.36
+            ]
+        },
+        {
+            "text": "L,",
+            "timestamp": [
+                20.68,
+                21.0
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                21.32,
+                21.64
+            ]
+        },
+        {
+            "text": "F.",
+            "timestamp": [
+                21.64,
+                21.880000000000003
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                22.12,
+                22.28
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                22.28,
+                22.36
+            ]
+        },
+        {
+            "text": "looks",
+            "timestamp": [
+                22.36,
+                22.6
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                22.6,
+                22.76
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                22.76,
+                22.840000000000003
+            ]
+        },
+        {
+            "text": "may",
+            "timestamp": [
+                22.840000000000003,
+                23.0
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                23.0,
+                23.160000000000004
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                23.160000000000004,
+                23.72
+            ]
+        },
+        {
+            "text": "chocolate",
+            "timestamp": [
+                23.72,
+                24.36
+            ]
+        },
+        {
+            "text": "cake,",
+            "timestamp": [
+                24.36,
+                24.840000000000003
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                25.160000000000004,
+                25.32
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                25.32,
+                25.48
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                25.48,
+                25.64
+            ]
+        },
+        {
+            "text": "recipe",
+            "timestamp": [
+                25.64,
+                26.12
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                26.12,
+                26.28
+            ]
+        },
+        {
+            "text": "started,",
+            "timestamp": [
+                26.28,
+                26.520000000000003
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                26.76,
+                26.92
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                26.92,
+                27.080000000000002
+            ]
+        },
+        {
+            "text": "message",
+            "timestamp": [
+                27.080000000000002,
+                27.48
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                27.48,
+                27.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                27.64,
+                27.72
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                27.72,
+                27.8
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                27.8,
+                27.880000000000003
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                27.880000000000003,
+                27.96
+            ]
+        },
+        {
+            "text": "mix-up.",
+            "timestamp": [
+                27.96,
+                28.44
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                28.6,
+                28.76
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                28.76,
+                28.84
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                28.84,
+                29.080000000000002
+            ]
+        },
+        {
+            "text": "clear",
+            "timestamp": [
+                29.080000000000002,
+                29.400000000000002
+            ]
+        },
+        {
+            "text": "this",
+            "timestamp": [
+                29.400000000000002,
+                29.64
+            ]
+        },
+        {
+            "text": "up.",
+            "timestamp": [
+                29.64,
+                29.8
+            ]
+        },
+        {
+            "text": "Sh.",
+            "timestamp": [
+                30.44,
+                30.68
+            ]
+        }
+    ]
+}

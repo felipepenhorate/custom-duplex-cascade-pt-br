@@ -1,0 +1,82 @@
+{
+    "text": "You're saying you don't have anything to worry about. Like, no.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                9.52,
+                10.08
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                10.72,
+                10.96
+            ]
+        },
+        {
+            "text": "anything",
+            "timestamp": [
+                10.96,
+                11.28
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "worry",
+            "timestamp": [
+                11.44,
+                11.76
+            ]
+        },
+        {
+            "text": "about.",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "Like,",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "no.",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        }
+    ]
+}

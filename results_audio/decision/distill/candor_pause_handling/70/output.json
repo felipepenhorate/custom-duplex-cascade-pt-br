@@ -1,0 +1,61 @@
+{
+    "text": "Uh you're asking about the hurt in wearing.",
+    "chunks": [
+        {
+            "text": "Uh",
+            "timestamp": [
+                15.44,
+                15.92
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                16.16,
+                16.4
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                16.4,
+                16.64
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                16.64,
+                16.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.8,
+                16.96
+            ]
+        },
+        {
+            "text": "hurt",
+            "timestamp": [
+                16.96,
+                17.28
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                17.28,
+                17.44
+            ]
+        },
+        {
+            "text": "wearing.",
+            "timestamp": [
+                17.44,
+                17.76
+            ]
+        }
+    ]
+}

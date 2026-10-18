@@ -1,0 +1,54 @@
+{
+    "text": "Ah, a bumpy start, I can imagine.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.640000000000001,
+                7.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "bumpy",
+            "timestamp": [
+                7.5200000000000005,
+                8.08
+            ]
+        },
+        {
+            "text": "start,",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                8.72,
+                9.52
+            ]
+        }
+    ]
+}

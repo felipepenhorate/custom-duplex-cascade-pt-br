@@ -1,0 +1,124 @@
+{
+    "text": "Ah, I can imagine. Is it a long process? No, not super long, I think. Depends on.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                7.36,
+                7.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                8.48,
+                8.96
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "process?",
+            "timestamp": [
+                10.08,
+                10.56
+            ]
+        },
+        {
+            "text": "No,",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "super",
+            "timestamp": [
+                11.36,
+                11.76
+            ]
+        },
+        {
+            "text": "long,",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "think.",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "Depends",
+            "timestamp": [
+                12.72,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "on.",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        }
+    ]
+}

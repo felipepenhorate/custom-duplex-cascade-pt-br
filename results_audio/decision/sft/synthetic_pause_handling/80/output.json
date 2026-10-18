@@ -1,0 +1,33 @@
+{
+    "text": "Ah, a tricky question.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.16,
+                6.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "tricky",
+            "timestamp": [
+                7.04,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        }
+    ]
+}

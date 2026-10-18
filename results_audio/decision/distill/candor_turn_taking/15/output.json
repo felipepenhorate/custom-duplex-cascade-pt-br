@@ -1,0 +1,117 @@
+{
+    "text": "Yushu here is saying, I'm assuming you and I eat insane amounts of food. Ah, PFA.",
+    "chunks": [
+        {
+            "text": "Yushu",
+            "timestamp": [
+                10.24,
+                10.88
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                11.040000000000001,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                11.84,
+                12.16
+            ]
+        },
+        {
+            "text": "assuming",
+            "timestamp": [
+                12.16,
+                12.72
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.040000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "eat",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "insane",
+            "timestamp": [
+                13.52,
+                14.0
+            ]
+        },
+        {
+            "text": "amounts",
+            "timestamp": [
+                14.0,
+                14.24
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        },
+        {
+            "text": "food.",
+            "timestamp": [
+                14.4,
+                14.64
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                14.8,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "PFA.",
+            "timestamp": [
+                15.52,
+                16.0
+            ]
+        }
+    ]
+}

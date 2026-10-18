@@ -1,0 +1,26 @@
+{
+    "text": "Hmm. Let's make",
+    "chunks": [
+        {
+            "text": "Hmm.",
+            "timestamp": [
+                5.68,
+                6.24
+            ]
+        },
+        {
+            "text": "Let's",
+            "timestamp": [
+                6.48,
+                6.8
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                6.8,
+                7.04
+            ]
+        }
+    ]
+}

@@ -1,0 +1,229 @@
+{
+    "text": "Ah, I can imagine. No, not at all. For me, it's a game changer. I can do a lot of my homework and I can do some of it at a cafe.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                1.6,
+                2.08
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                2.56,
+                2.72
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                2.72,
+                2.96
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                2.96,
+                3.68
+            ]
+        },
+        {
+            "text": "No,",
+            "timestamp": [
+                4.5600000000000005,
+                4.88
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                5.2,
+                5.44
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "all.",
+            "timestamp": [
+                5.6000000000000005,
+                5.84
+            ]
+        },
+        {
+            "text": "For",
+            "timestamp": [
+                6.08,
+                6.32
+            ]
+        },
+        {
+            "text": "me,",
+            "timestamp": [
+                6.32,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                6.72,
+                6.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "game",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "changer.",
+            "timestamp": [
+                7.44,
+                7.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                8.96,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                9.040000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "homework",
+            "timestamp": [
+                9.28,
+                9.76
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.120000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "cafe.",
+            "timestamp": [
+                11.200000000000001,
+                11.68
+            ]
+        }
+    ]
+}

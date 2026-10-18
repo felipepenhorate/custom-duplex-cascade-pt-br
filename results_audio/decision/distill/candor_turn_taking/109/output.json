@@ -1,0 +1,61 @@
+{
+    "text": "I think you're expressing a deep feeling, something.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                16.240000000000002,
+                16.56
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                16.56,
+                16.8
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                16.8,
+                17.04
+            ]
+        },
+        {
+            "text": "expressing",
+            "timestamp": [
+                17.04,
+                17.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.52,
+                17.6
+            ]
+        },
+        {
+            "text": "deep",
+            "timestamp": [
+                17.6,
+                17.92
+            ]
+        },
+        {
+            "text": "feeling,",
+            "timestamp": [
+                17.92,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "something.",
+            "timestamp": [
+                18.72,
+                18.88
+            ]
+        }
+    ]
+}

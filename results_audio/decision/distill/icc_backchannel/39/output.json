@@ -1,0 +1,180 @@
+{
+    "text": "You're talking about a concussion. That's a serious. You're probably trying to say she fell over and just felt tired. Not palf, but something more.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                14.4,
+                14.72
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                14.72,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                15.040000000000001,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.200000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "concussion.",
+            "timestamp": [
+                15.36,
+                16.0
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                16.240000000000002,
+                16.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.48,
+                16.72
+            ]
+        },
+        {
+            "text": "serious.",
+            "timestamp": [
+                16.72,
+                17.12
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                18.0,
+                18.32
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                18.32,
+                18.56
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                18.56,
+                18.8
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                18.8,
+                18.96
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                18.96,
+                19.12
+            ]
+        },
+        {
+            "text": "she",
+            "timestamp": [
+                19.2,
+                19.44
+            ]
+        },
+        {
+            "text": "fell",
+            "timestamp": [
+                19.44,
+                19.84
+            ]
+        },
+        {
+            "text": "over",
+            "timestamp": [
+                19.84,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                20.080000000000002,
+                20.32
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                20.32,
+                20.56
+            ]
+        },
+        {
+            "text": "felt",
+            "timestamp": [
+                20.56,
+                20.88
+            ]
+        },
+        {
+            "text": "tired.",
+            "timestamp": [
+                20.88,
+                21.36
+            ]
+        },
+        {
+            "text": "Not",
+            "timestamp": [
+                21.6,
+                21.84
+            ]
+        },
+        {
+            "text": "palf,",
+            "timestamp": [
+                21.84,
+                22.400000000000002
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                22.48,
+                22.8
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                22.8,
+                23.12
+            ]
+        },
+        {
+            "text": "more.",
+            "timestamp": [
+                23.12,
+                23.44
+            ]
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "text": "I see you're considering a big shift, changing your career path and leaving your current job. That's ah, thanks for the reply.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                6.0,
+                6.32
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                6.48,
+                6.8
+            ]
+        },
+        {
+            "text": "considering",
+            "timestamp": [
+                6.8,
+                7.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "shift,",
+            "timestamp": [
+                7.5200000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "changing",
+            "timestamp": [
+                8.24,
+                8.64
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "career",
+            "timestamp": [
+                8.8,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "path",
+            "timestamp": [
+                9.120000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "leaving",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "current",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "job.",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "thanks",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "reply.",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        }
+    ]
+}

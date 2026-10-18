@@ -1,0 +1,61 @@
+{
+    "text": "Nosa Com Sertiza, O objectivo e quicada pequina.",
+    "chunks": [
+        {
+            "text": "Nosa",
+            "timestamp": [
+                5.04,
+                5.84
+            ]
+        },
+        {
+            "text": "Com",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "Sertiza,",
+            "timestamp": [
+                10.0,
+                10.8
+            ]
+        },
+        {
+            "text": "O",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "objectivo",
+            "timestamp": [
+                11.200000000000001,
+                11.92
+            ]
+        },
+        {
+            "text": "e",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "quicada",
+            "timestamp": [
+                12.16,
+                12.64
+            ]
+        },
+        {
+            "text": "pequina.",
+            "timestamp": [
+                12.72,
+                13.120000000000001
+            ]
+        }
+    ]
+}

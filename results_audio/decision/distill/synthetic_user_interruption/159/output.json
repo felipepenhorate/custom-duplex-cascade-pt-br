@@ -1,0 +1,306 @@
+{
+    "text": "You're now saying, I turn off the oven. That's a great ah. You likely meant Pisa. Or maybe you were still trying to say Pisa in another language. A great place to visit in Europe is Pisa, Italy, home of the famous leaning.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                16.088,
+                16.408
+            ]
+        },
+        {
+            "text": "now",
+            "timestamp": [
+                16.408,
+                16.648
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                16.648,
+                16.887999999999998
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                17.128,
+                17.288
+            ]
+        },
+        {
+            "text": "turn",
+            "timestamp": [
+                17.288,
+                17.608
+            ]
+        },
+        {
+            "text": "off",
+            "timestamp": [
+                17.608,
+                17.768
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                17.768,
+                17.848
+            ]
+        },
+        {
+            "text": "oven.",
+            "timestamp": [
+                17.848,
+                18.247999999999998
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                18.408,
+                18.728
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.728,
+                18.887999999999998
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                18.887999999999998,
+                19.048000000000002
+            ]
+        },
+        {
+            "text": "ah.",
+            "timestamp": [
+                19.208,
+                19.608
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                19.848,
+                20.008
+            ]
+        },
+        {
+            "text": "likely",
+            "timestamp": [
+                20.008,
+                20.247999999999998
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                20.247999999999998,
+                20.567999999999998
+            ]
+        },
+        {
+            "text": "Pisa.",
+            "timestamp": [
+                20.567999999999998,
+                21.128
+            ]
+        },
+        {
+            "text": "Or",
+            "timestamp": [
+                22.088,
+                22.328
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                22.328,
+                22.648
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                22.648,
+                22.887999999999998
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                22.887999999999998,
+                23.048000000000002
+            ]
+        },
+        {
+            "text": "still",
+            "timestamp": [
+                23.048000000000002,
+                23.288
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                23.288,
+                23.448
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                23.448,
+                23.608
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                23.608,
+                23.848
+            ]
+        },
+        {
+            "text": "Pisa",
+            "timestamp": [
+                23.848,
+                24.567999999999998
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                24.567999999999998,
+                24.808
+            ]
+        },
+        {
+            "text": "another",
+            "timestamp": [
+                24.808,
+                25.048000000000002
+            ]
+        },
+        {
+            "text": "language.",
+            "timestamp": [
+                25.048000000000002,
+                25.448
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                26.488,
+                26.648
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                26.648,
+                26.887999999999998
+            ]
+        },
+        {
+            "text": "place",
+            "timestamp": [
+                26.887999999999998,
+                27.208
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                27.208,
+                27.368000000000002
+            ]
+        },
+        {
+            "text": "visit",
+            "timestamp": [
+                27.368000000000002,
+                27.688000000000002
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                27.688000000000002,
+                27.848
+            ]
+        },
+        {
+            "text": "Europe",
+            "timestamp": [
+                27.848,
+                28.168
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                28.168,
+                28.328
+            ]
+        },
+        {
+            "text": "Pisa,",
+            "timestamp": [
+                28.328,
+                28.967999999999996
+            ]
+        },
+        {
+            "text": "Italy,",
+            "timestamp": [
+                29.287999999999997,
+                29.927999999999997
+            ]
+        },
+        {
+            "text": "home",
+            "timestamp": [
+                30.247999999999998,
+                30.488
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                30.488,
+                30.648000000000003
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                30.648000000000003,
+                30.728
+            ]
+        },
+        {
+            "text": "famous",
+            "timestamp": [
+                30.728,
+                31.128
+            ]
+        },
+        {
+            "text": "leaning.",
+            "timestamp": [
+                31.128,
+                31.448
+            ]
+        }
+    ]
+}

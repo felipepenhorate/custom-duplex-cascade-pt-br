@@ -1,0 +1,26 @@
+{
+    "text": "Relax, no drama.",
+    "chunks": [
+        {
+            "text": "Relax,",
+            "timestamp": [
+                7.92,
+                8.48
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "drama.",
+            "timestamp": [
+                8.8,
+                9.76
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "Nosa Qui Pra Mim Achoki Kamakar Kamumas Five Minutes.",
+    "chunks": [
+        {
+            "text": "Nosa",
+            "timestamp": [
+                2.88,
+                3.6
+            ]
+        },
+        {
+            "text": "Qui",
+            "timestamp": [
+                3.7600000000000002,
+                4.32
+            ]
+        },
+        {
+            "text": "Pra",
+            "timestamp": [
+                7.5200000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "Mim",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "Achoki",
+            "timestamp": [
+                8.64,
+                9.36
+            ]
+        },
+        {
+            "text": "Kamakar",
+            "timestamp": [
+                9.44,
+                10.0
+            ]
+        },
+        {
+            "text": "Kamumas",
+            "timestamp": [
+                10.08,
+                10.56
+            ]
+        },
+        {
+            "text": "Five",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "Minutes.",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        }
+    ]
+}

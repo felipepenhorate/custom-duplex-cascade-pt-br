@@ -1,0 +1,19 @@
+{
+    "text": "Ah, tech",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                4.5600000000000005,
+                4.88
+            ]
+        },
+        {
+            "text": "tech",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        }
+    ]
+}

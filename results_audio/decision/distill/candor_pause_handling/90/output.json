@@ -1,0 +1,33 @@
+{
+    "text": "Sabina, Tigri, Ursa Army.",
+    "chunks": [
+        {
+            "text": "Sabina,",
+            "timestamp": [
+                17.2,
+                17.84
+            ]
+        },
+        {
+            "text": "Tigri,",
+            "timestamp": [
+                17.92,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "Ursa",
+            "timestamp": [
+                18.400000000000002,
+                18.64
+            ]
+        },
+        {
+            "text": "Army.",
+            "timestamp": [
+                18.64,
+                18.72
+            ]
+        }
+    ]
+}

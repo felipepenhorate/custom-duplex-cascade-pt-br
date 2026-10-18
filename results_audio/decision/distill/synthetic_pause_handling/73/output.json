@@ -1,0 +1,54 @@
+{
+    "text": "Hmm. You were probably trying to say.",
+    "chunks": [
+        {
+            "text": "Hmm.",
+            "timestamp": [
+                10.72,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        },
+        {
+            "text": "say.",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        }
+    ]
+}

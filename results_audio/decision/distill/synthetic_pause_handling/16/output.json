@@ -1,0 +1,19 @@
+{
+    "text": "Great question.",
+    "chunks": [
+        {
+            "text": "Great",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                8.32,
+                8.64
+            ]
+        }
+    ]
+}

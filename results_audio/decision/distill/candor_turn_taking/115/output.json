@@ -1,0 +1,110 @@
+{
+    "text": "E You're absolutely right. There's something magical about the long days, warm sun, and ah.",
+    "chunks": [
+        {
+            "text": "E",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "absolutely",
+            "timestamp": [
+                10.16,
+                10.72
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "There's",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "magical",
+            "timestamp": [
+                11.68,
+                12.24
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "days,",
+            "timestamp": [
+                12.88,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "warm",
+            "timestamp": [
+                13.44,
+                13.84
+            ]
+        },
+        {
+            "text": "sun,",
+            "timestamp": [
+                13.84,
+                14.08
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        },
+        {
+            "text": "ah.",
+            "timestamp": [
+                14.48,
+                14.72
+            ]
+        }
+    ]
+}

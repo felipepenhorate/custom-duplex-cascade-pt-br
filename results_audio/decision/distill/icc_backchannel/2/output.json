@@ -1,0 +1,61 @@
+{
+    "text": "You're saying you were saying, I will see.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                13.040000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                13.68,
+                14.0
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                46.160000000000004,
+                46.32
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                46.32,
+                46.56
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                46.56,
+                46.88
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                47.44,
+                47.76
+            ]
+        },
+        {
+            "text": "will",
+            "timestamp": [
+                48.08,
+                48.24
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                48.32,
+                48.4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "text": "You're talking about large-scale",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                5.12,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                5.5200000000000005,
+                5.84
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                5.84,
+                6.08
+            ]
+        },
+        {
+            "text": "large-scale",
+            "timestamp": [
+                6.08,
+                6.88
+            ]
+        }
+    ]
+}

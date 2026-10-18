@@ -1,0 +1,89 @@
+{
+    "text": "Ah, uh, Butterfoglio. I've never heard of that. Is it a region?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                8.88,
+                9.36
+            ]
+        },
+        {
+            "text": "uh,",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "Butterfoglio.",
+            "timestamp": [
+                9.84,
+                10.88
+            ]
+        },
+        {
+            "text": "I've",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "never",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "heard",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                12.24,
+                12.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.32,
+                12.4
+            ]
+        },
+        {
+            "text": "region?",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        }
+    ]
+}

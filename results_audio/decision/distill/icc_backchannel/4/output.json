@@ -1,0 +1,33 @@
+{
+    "text": "I hear you. It's",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                19.6,
+                19.76
+            ]
+        },
+        {
+            "text": "hear",
+            "timestamp": [
+                19.76,
+                20.0
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                20.0,
+                20.240000000000002
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                20.400000000000002,
+                20.72
+            ]
+        }
+    ]
+}

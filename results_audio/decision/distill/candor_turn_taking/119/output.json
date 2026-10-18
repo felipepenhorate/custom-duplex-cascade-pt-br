@@ -1,0 +1,68 @@
+{
+    "text": "You're talking about forgetting to set a timer. That's.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                11.200000000000001,
+                11.68
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                11.68,
+                12.0
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "forgetting",
+            "timestamp": [
+                12.16,
+                12.56
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.56,
+                12.64
+            ]
+        },
+        {
+            "text": "set",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "timer.",
+            "timestamp": [
+                12.96,
+                13.52
+            ]
+        },
+        {
+            "text": "That's.",
+            "timestamp": [
+                13.84,
+                14.32
+            ]
+        }
+    ]
+}

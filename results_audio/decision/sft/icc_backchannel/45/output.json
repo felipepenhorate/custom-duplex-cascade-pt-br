@@ -1,0 +1,89 @@
+{
+    "text": "Ah, I can understand. No, I don't think so. Nah, I can't.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                5.68,
+                6.16
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                6.72,
+                7.04
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                7.04,
+                7.28
+            ]
+        },
+        {
+            "text": "No,",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "so.",
+            "timestamp": [
+                13.200000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "Nah,",
+            "timestamp": [
+                24.16,
+                24.64
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                24.88,
+                25.12
+            ]
+        },
+        {
+            "text": "can't.",
+            "timestamp": [
+                25.12,
+                25.84
+            ]
+        }
+    ]
+}

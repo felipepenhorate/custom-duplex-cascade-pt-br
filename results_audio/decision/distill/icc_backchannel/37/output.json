@@ -1,0 +1,124 @@
+{
+    "text": "I see you're going through a really emotional moment. It sounds like there's a lot of feeling.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                23.36,
+                23.68
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                23.68,
+                23.92
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                23.92,
+                24.16
+            ]
+        },
+        {
+            "text": "going",
+            "timestamp": [
+                24.16,
+                24.32
+            ]
+        },
+        {
+            "text": "through",
+            "timestamp": [
+                24.32,
+                24.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.48,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                24.560000000000002,
+                24.72
+            ]
+        },
+        {
+            "text": "emotional",
+            "timestamp": [
+                24.72,
+                25.28
+            ]
+        },
+        {
+            "text": "moment.",
+            "timestamp": [
+                25.28,
+                25.76
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                26.080000000000002,
+                26.240000000000002
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                26.240000000000002,
+                26.48
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                26.48,
+                26.64
+            ]
+        },
+        {
+            "text": "there's",
+            "timestamp": [
+                26.64,
+                26.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.88,
+                26.96
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                26.96,
+                27.12
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                27.12,
+                27.36
+            ]
+        },
+        {
+            "text": "feeling.",
+            "timestamp": [
+                27.36,
+                28.0
+            ]
+        }
+    ]
+}

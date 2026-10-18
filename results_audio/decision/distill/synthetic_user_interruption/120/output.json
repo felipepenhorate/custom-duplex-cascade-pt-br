@@ -1,0 +1,271 @@
+{
+    "text": "Uh chad hands. You're asking about tomorrow's weather. Great question. You were clearly having a fun little chat. Might be a playful typo of pells, please. Or maybe just trying to say lol. You asked about tomorrow's weather",
+    "chunks": [
+        {
+            "text": "Uh",
+            "timestamp": [
+                13.4,
+                13.64
+            ]
+        },
+        {
+            "text": "chad",
+            "timestamp": [
+                13.96,
+                14.2
+            ]
+        },
+        {
+            "text": "hands.",
+            "timestamp": [
+                14.280000000000001,
+                14.52
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                14.92,
+                15.16
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                15.16,
+                15.4
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                15.4,
+                15.64
+            ]
+        },
+        {
+            "text": "tomorrow's",
+            "timestamp": [
+                15.64,
+                16.12
+            ]
+        },
+        {
+            "text": "weather.",
+            "timestamp": [
+                16.12,
+                16.44
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                16.68,
+                17.0
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                17.0,
+                17.08
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                19.32,
+                19.64
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                19.64,
+                19.8
+            ]
+        },
+        {
+            "text": "clearly",
+            "timestamp": [
+                19.96,
+                20.439999999999998
+            ]
+        },
+        {
+            "text": "having",
+            "timestamp": [
+                20.439999999999998,
+                20.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.68,
+                20.84
+            ]
+        },
+        {
+            "text": "fun",
+            "timestamp": [
+                20.84,
+                21.08
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                21.08,
+                21.32
+            ]
+        },
+        {
+            "text": "chat.",
+            "timestamp": [
+                21.32,
+                21.880000000000003
+            ]
+        },
+        {
+            "text": "Might",
+            "timestamp": [
+                22.200000000000003,
+                22.68
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                22.68,
+                22.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                22.84,
+                23.08
+            ]
+        },
+        {
+            "text": "playful",
+            "timestamp": [
+                23.08,
+                23.48
+            ]
+        },
+        {
+            "text": "typo",
+            "timestamp": [
+                23.48,
+                24.04
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                24.04,
+                24.200000000000003
+            ]
+        },
+        {
+            "text": "pells,",
+            "timestamp": [
+                24.200000000000003,
+                24.84
+            ]
+        },
+        {
+            "text": "please.",
+            "timestamp": [
+                25.16,
+                25.64
+            ]
+        },
+        {
+            "text": "Or",
+            "timestamp": [
+                25.880000000000003,
+                26.12
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                26.12,
+                26.200000000000003
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                26.44,
+                26.68
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                26.68,
+                26.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                26.84,
+                26.92
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                26.92,
+                27.08
+            ]
+        },
+        {
+            "text": "lol.",
+            "timestamp": [
+                27.16,
+                27.48
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                28.28,
+                28.52
+            ]
+        },
+        {
+            "text": "asked",
+            "timestamp": [
+                28.52,
+                28.84
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                28.84,
+                29.080000000000002
+            ]
+        },
+        {
+            "text": "tomorrow's",
+            "timestamp": [
+                29.080000000000002,
+                29.560000000000002
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                29.560000000000002,
+                29.8
+            ]
+        }
+    ]
+}

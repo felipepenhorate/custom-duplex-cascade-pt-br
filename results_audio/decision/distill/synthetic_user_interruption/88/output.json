@@ -1,0 +1,369 @@
+{
+    "text": "Uh, you're asking if we can talk about something else. And you might have meant a you're still saying pels or plaus. I think you meant please. And yes, I'm here to help. If you'd like, we can talk about something else, like food, tech, dreams, nature, learning, or even just chat.",
+    "chunks": [
+        {
+            "text": "Uh,",
+            "timestamp": [
+                13.896,
+                14.056000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                14.216000000000001,
+                14.456000000000001
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                14.456000000000001,
+                14.776
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                14.776,
+                14.856
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                14.856,
+                15.016
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                15.016,
+                15.176
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                15.176,
+                15.336
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                15.336,
+                15.576
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                15.576,
+                15.816
+            ]
+        },
+        {
+            "text": "else.",
+            "timestamp": [
+                15.816,
+                16.216
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                16.536,
+                16.696
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                16.696,
+                16.856
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                16.856,
+                17.016000000000002
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                17.016000000000002,
+                17.096
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                17.096,
+                17.336000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.416,
+                17.576
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                18.216,
+                18.536
+            ]
+        },
+        {
+            "text": "still",
+            "timestamp": [
+                18.536,
+                18.776
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                18.776,
+                19.016000000000002
+            ]
+        },
+        {
+            "text": "pels",
+            "timestamp": [
+                19.176000000000002,
+                19.736
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                19.816000000000003,
+                19.976
+            ]
+        },
+        {
+            "text": "plaus.",
+            "timestamp": [
+                19.976,
+                20.376
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                20.616,
+                20.696
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                20.696,
+                20.856
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                20.856,
+                21.096
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                21.096,
+                21.496000000000002
+            ]
+        },
+        {
+            "text": "please.",
+            "timestamp": [
+                21.816000000000003,
+                22.456000000000003
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                23.096,
+                23.336
+            ]
+        },
+        {
+            "text": "yes,",
+            "timestamp": [
+                23.336,
+                23.736
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                24.056,
+                24.376
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                24.376,
+                24.536
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                24.536,
+                24.776000000000003
+            ]
+        },
+        {
+            "text": "help.",
+            "timestamp": [
+                24.776000000000003,
+                25.016
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                25.256,
+                25.416
+            ]
+        },
+        {
+            "text": "you'd",
+            "timestamp": [
+                25.416,
+                25.736
+            ]
+        },
+        {
+            "text": "like,",
+            "timestamp": [
+                25.736,
+                25.896
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                26.056,
+                26.216
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                26.216,
+                26.376
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                26.376,
+                26.616
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                26.616,
+                26.856
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                26.856,
+                27.096
+            ]
+        },
+        {
+            "text": "else,",
+            "timestamp": [
+                27.096,
+                27.416
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                27.656,
+                27.896
+            ]
+        },
+        {
+            "text": "food,",
+            "timestamp": [
+                27.896,
+                28.296
+            ]
+        },
+        {
+            "text": "tech,",
+            "timestamp": [
+                28.536,
+                28.936
+            ]
+        },
+        {
+            "text": "dreams,",
+            "timestamp": [
+                29.176000000000002,
+                29.736000000000004
+            ]
+        },
+        {
+            "text": "nature,",
+            "timestamp": [
+                30.055999999999997,
+                30.616
+            ]
+        },
+        {
+            "text": "learning,",
+            "timestamp": [
+                30.936,
+                31.416000000000004
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                31.656,
+                31.816000000000003
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                31.816000000000003,
+                32.056000000000004
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                32.056000000000004,
+                32.216
+            ]
+        },
+        {
+            "text": "chat.",
+            "timestamp": [
+                32.216,
+                32.456
+            ]
+        }
+    ]
+}

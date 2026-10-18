@@ -1,0 +1,285 @@
+{
+    "text": "Just calm and a gentle bee in the air. Maybe you're feeling a little stuck? Let's take a deep breath together. If you'd like, I can help you. Unwind with quiet thoughts or nature imagery. Try a short mindfulness moment.",
+    "chunks": [
+        {
+            "text": "Just",
+            "timestamp": [
+                13.128,
+                13.368
+            ]
+        },
+        {
+            "text": "calm",
+            "timestamp": [
+                13.368,
+                13.847999999999999
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                14.008,
+                14.328
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.648,
+                14.888
+            ]
+        },
+        {
+            "text": "gentle",
+            "timestamp": [
+                14.888,
+                15.368
+            ]
+        },
+        {
+            "text": "bee",
+            "timestamp": [
+                15.368,
+                15.768
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                15.768,
+                16.008
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.008,
+                16.168
+            ]
+        },
+        {
+            "text": "air.",
+            "timestamp": [
+                16.168,
+                16.488
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                16.808,
+                17.128
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                17.128,
+                17.288
+            ]
+        },
+        {
+            "text": "feeling",
+            "timestamp": [
+                17.288,
+                17.608
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.608,
+                17.688
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                17.688,
+                17.848
+            ]
+        },
+        {
+            "text": "stuck?",
+            "timestamp": [
+                17.848,
+                18.168
+            ]
+        },
+        {
+            "text": "Let's",
+            "timestamp": [
+                18.328,
+                18.568
+            ]
+        },
+        {
+            "text": "take",
+            "timestamp": [
+                18.568,
+                18.728
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.728,
+                18.887999999999998
+            ]
+        },
+        {
+            "text": "deep",
+            "timestamp": [
+                18.887999999999998,
+                19.128
+            ]
+        },
+        {
+            "text": "breath",
+            "timestamp": [
+                19.128,
+                19.448
+            ]
+        },
+        {
+            "text": "together.",
+            "timestamp": [
+                19.448,
+                19.768
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                19.928,
+                20.088
+            ]
+        },
+        {
+            "text": "you'd",
+            "timestamp": [
+                20.088,
+                20.328
+            ]
+        },
+        {
+            "text": "like,",
+            "timestamp": [
+                20.328,
+                20.567999999999998
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                20.728,
+                20.887999999999998
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                20.887999999999998,
+                21.048000000000002
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                21.048000000000002,
+                21.208
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                21.208,
+                21.368000000000002
+            ]
+        },
+        {
+            "text": "Unwind",
+            "timestamp": [
+                21.688000000000002,
+                22.328
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                22.328,
+                22.488
+            ]
+        },
+        {
+            "text": "quiet",
+            "timestamp": [
+                22.488,
+                22.808
+            ]
+        },
+        {
+            "text": "thoughts",
+            "timestamp": [
+                22.808,
+                23.128
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                23.128,
+                23.288
+            ]
+        },
+        {
+            "text": "nature",
+            "timestamp": [
+                23.288,
+                23.608
+            ]
+        },
+        {
+            "text": "imagery.",
+            "timestamp": [
+                23.608,
+                24.088
+            ]
+        },
+        {
+            "text": "Try",
+            "timestamp": [
+                24.248,
+                24.488
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.488,
+                24.567999999999998
+            ]
+        },
+        {
+            "text": "short",
+            "timestamp": [
+                24.567999999999998,
+                24.808
+            ]
+        },
+        {
+            "text": "mindfulness",
+            "timestamp": [
+                24.808,
+                25.448
+            ]
+        },
+        {
+            "text": "moment.",
+            "timestamp": [
+                25.448,
+                26.168
+            ]
+        }
+    ]
+}

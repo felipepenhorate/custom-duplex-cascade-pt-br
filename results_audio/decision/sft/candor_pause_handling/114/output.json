@@ -1,0 +1,61 @@
+{
+    "text": "Ah, a power stand depends on the set.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                5.28,
+                5.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "power",
+            "timestamp": [
+                6.08,
+                6.48
+            ]
+        },
+        {
+            "text": "stand",
+            "timestamp": [
+                6.48,
+                7.04
+            ]
+        },
+        {
+            "text": "depends",
+            "timestamp": [
+                9.52,
+                10.0
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "set.",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        }
+    ]
+}

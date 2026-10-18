@@ -1,0 +1,250 @@
+{
+    "text": "Ugh. You're asking for a movie recommendation, and you've been saying, pla ah, I see the confusion now. You were likely trying to say, The Secret Life of Pets, or maybe even Fast and Furious.",
+    "chunks": [
+        {
+            "text": "Ugh.",
+            "timestamp": [
+                20.375999999999998,
+                20.855999999999998
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                21.176,
+                21.496
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                21.496,
+                21.735999999999997
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                21.735999999999997,
+                21.896
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.896,
+                21.976
+            ]
+        },
+        {
+            "text": "movie",
+            "timestamp": [
+                21.976,
+                22.296
+            ]
+        },
+        {
+            "text": "recommendation,",
+            "timestamp": [
+                22.296,
+                23.016
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                23.176,
+                23.336
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                23.336,
+                23.496
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                23.496,
+                23.656
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                23.656,
+                23.816
+            ]
+        },
+        {
+            "text": "pla",
+            "timestamp": [
+                23.976,
+                24.375999999999998
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                24.456,
+                24.775999999999996
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                24.936,
+                25.016
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                25.016,
+                25.176
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                25.176,
+                25.336
+            ]
+        },
+        {
+            "text": "confusion",
+            "timestamp": [
+                25.336,
+                25.896
+            ]
+        },
+        {
+            "text": "now.",
+            "timestamp": [
+                25.896,
+                26.136
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                26.456,
+                26.616
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                26.616,
+                26.936
+            ]
+        },
+        {
+            "text": "likely",
+            "timestamp": [
+                26.936,
+                27.496
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                27.496,
+                27.735999999999997
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                27.735999999999997,
+                27.976
+            ]
+        },
+        {
+            "text": "say,",
+            "timestamp": [
+                27.976,
+                28.216
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                28.536,
+                28.695999999999998
+            ]
+        },
+        {
+            "text": "Secret",
+            "timestamp": [
+                28.695999999999998,
+                29.095999999999997
+            ]
+        },
+        {
+            "text": "Life",
+            "timestamp": [
+                29.095999999999997,
+                29.336
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                29.336,
+                29.496
+            ]
+        },
+        {
+            "text": "Pets,",
+            "timestamp": [
+                29.496,
+                29.976
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                30.215999999999998,
+                30.535999999999998
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                30.535999999999998,
+                30.855999999999998
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                30.855999999999998,
+                31.096
+            ]
+        },
+        {
+            "text": "Fast",
+            "timestamp": [
+                31.256,
+                31.656
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                31.656,
+                31.895999999999997
+            ]
+        },
+        {
+            "text": "Furious.",
+            "timestamp": [
+                31.895999999999997,
+                32.215999999999994
+            ]
+        }
+    ]
+}

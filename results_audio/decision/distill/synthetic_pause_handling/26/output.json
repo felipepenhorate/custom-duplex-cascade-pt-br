@@ -1,0 +1,40 @@
+{
+    "text": "You're looking for a moment.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "looking",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "moment.",
+            "timestamp": [
+                11.84,
+                11.84
+            ]
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "text": "Nah, it's not just a fad, it's a fundamental shift in how.",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                7.6000000000000005,
+                8.08
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "fad,",
+            "timestamp": [
+                8.88,
+                9.28
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "fundamental",
+            "timestamp": [
+                9.76,
+                10.32
+            ]
+        },
+        {
+            "text": "shift",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "how.",
+            "timestamp": [
+                10.88,
+                11.200000000000001
+            ]
+        }
+    ]
+}

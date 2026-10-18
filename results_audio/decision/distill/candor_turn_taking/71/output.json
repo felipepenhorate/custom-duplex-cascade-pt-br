@@ -1,0 +1,131 @@
+{
+    "text": "Uh that's a pretty honest and relatable moment. Getting groceries is probably the most official reason you are.",
+    "chunks": [
+        {
+            "text": "Uh",
+            "timestamp": [
+                11.200000000000001,
+                11.68
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                11.84,
+                12.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "pretty",
+            "timestamp": [
+                12.56,
+                12.88
+            ]
+        },
+        {
+            "text": "honest",
+            "timestamp": [
+                12.88,
+                13.36
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "relatable",
+            "timestamp": [
+                13.6,
+                14.16
+            ]
+        },
+        {
+            "text": "moment.",
+            "timestamp": [
+                14.16,
+                14.56
+            ]
+        },
+        {
+            "text": "Getting",
+            "timestamp": [
+                14.88,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "groceries",
+            "timestamp": [
+                15.200000000000001,
+                15.92
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                16.16,
+                16.4
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.4,
+                16.56
+            ]
+        },
+        {
+            "text": "most",
+            "timestamp": [
+                16.56,
+                16.8
+            ]
+        },
+        {
+            "text": "official",
+            "timestamp": [
+                16.8,
+                17.2
+            ]
+        },
+        {
+            "text": "reason",
+            "timestamp": [
+                17.2,
+                17.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.44,
+                17.6
+            ]
+        },
+        {
+            "text": "are.",
+            "timestamp": [
+                17.6,
+                17.68
+            ]
+        }
+    ]
+}

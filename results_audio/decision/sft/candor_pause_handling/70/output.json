@@ -1,0 +1,54 @@
+{
+    "text": "Nah, I just can't. I just can't.",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                10.96,
+                11.44
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.76,
+                12.08
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        },
+        {
+            "text": "can't.",
+            "timestamp": [
+                12.4,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                14.08,
+                14.4
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                14.4,
+                14.72
+            ]
+        },
+        {
+            "text": "can't.",
+            "timestamp": [
+                14.72,
+                15.52
+            ]
+        }
+    ]
+}

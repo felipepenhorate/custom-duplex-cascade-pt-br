@@ -1,0 +1,54 @@
+{
+    "text": "Turnos, you are asking for the material.",
+    "chunks": [
+        {
+            "text": "Turnos,",
+            "timestamp": [
+                12.88,
+                13.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.0,
+                14.16
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                14.16,
+                14.32
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                14.32,
+                14.48
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                14.64,
+                14.64
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                14.64,
+                14.64
+            ]
+        },
+        {
+            "text": "material.",
+            "timestamp": [
+                14.64,
+                14.64
+            ]
+        }
+    ]
+}

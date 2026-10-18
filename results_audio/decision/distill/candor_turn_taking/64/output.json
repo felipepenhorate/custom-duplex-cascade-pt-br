@@ -1,0 +1,96 @@
+{
+    "text": "It sounds like you're exploring interests or trying to get a single picture.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                11.68,
+                12.0
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "exploring",
+            "timestamp": [
+                12.4,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "interests",
+            "timestamp": [
+                13.040000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                13.68,
+                13.76
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.84,
+                13.92
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                14.0,
+                14.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.0,
+                14.0
+            ]
+        },
+        {
+            "text": "single",
+            "timestamp": [
+                14.0,
+                14.0
+            ]
+        },
+        {
+            "text": "picture.",
+            "timestamp": [
+                14.0,
+                14.0
+            ]
+        }
+    ]
+}

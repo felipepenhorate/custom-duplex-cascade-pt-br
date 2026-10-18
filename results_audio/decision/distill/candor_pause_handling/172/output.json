@@ -1,0 +1,47 @@
+{
+    "text": "You're talking about redistribution of money.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                13.36,
+                13.76
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                13.76,
+                14.0
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                14.0,
+                14.24
+            ]
+        },
+        {
+            "text": "redistribution",
+            "timestamp": [
+                14.24,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                15.040000000000001,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "money.",
+            "timestamp": [
+                15.200000000000001,
+                15.44
+            ]
+        }
+    ]
+}

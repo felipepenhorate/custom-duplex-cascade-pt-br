@@ -1,0 +1,61 @@
+{
+    "text": "You're asking about retrieve their birds for us.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                10.08,
+                10.48
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                10.48,
+                10.96
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "retrieve",
+            "timestamp": [
+                11.36,
+                11.92
+            ]
+        },
+        {
+            "text": "their",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "birds",
+            "timestamp": [
+                12.16,
+                12.64
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "us.",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "text": "You're saying, you're saying.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                11.28,
+                11.6
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "saying.",
+            "timestamp": [
+                12.16,
+                12.24
+            ]
+        }
+    ]
+}

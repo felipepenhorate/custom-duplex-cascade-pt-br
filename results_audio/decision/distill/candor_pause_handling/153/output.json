@@ -1,0 +1,82 @@
+{
+    "text": "You're asking a great question, and it's clear you were trying.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                8.64,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                9.200000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        },
+        {
+            "text": "question,",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "clear",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "trying.",
+            "timestamp": [
+                11.84,
+                12.16
+            ]
+        }
+    ]
+}

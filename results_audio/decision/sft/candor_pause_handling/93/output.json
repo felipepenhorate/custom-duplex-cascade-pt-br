@@ -1,0 +1,68 @@
+{
+    "text": "Ah, farewell Earning a living in a free form",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                10.96,
+                11.52
+            ]
+        },
+        {
+            "text": "farewell",
+            "timestamp": [
+                11.84,
+                12.72
+            ]
+        },
+        {
+            "text": "Earning",
+            "timestamp": [
+                34.64,
+                35.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                35.12,
+                35.2
+            ]
+        },
+        {
+            "text": "living",
+            "timestamp": [
+                35.2,
+                35.36
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                35.52,
+                35.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                35.68,
+                35.76
+            ]
+        },
+        {
+            "text": "free",
+            "timestamp": [
+                35.76,
+                36.08
+            ]
+        },
+        {
+            "text": "form",
+            "timestamp": [
+                36.08,
+                36.24
+            ]
+        }
+    ]
+}

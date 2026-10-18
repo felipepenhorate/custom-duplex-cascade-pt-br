@@ -1,0 +1,75 @@
+{
+    "text": "It sounds like you're trying to say something about transferring.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                12.32,
+                12.64
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                13.120000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                13.280000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.44,
+                13.52
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                13.68,
+                13.92
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                13.92,
+                14.16
+            ]
+        },
+        {
+            "text": "transferring.",
+            "timestamp": [
+                14.16,
+                14.8
+            ]
+        }
+    ]
+}

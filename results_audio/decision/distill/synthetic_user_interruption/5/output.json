@@ -1,0 +1,320 @@
+{
+    "text": "You're asking for a new topic. Great idea. Let me know what you'd like. Ah, it looks like PEL or L might be a typo. Maybe you meant fruit? If so, I'm ready to talk about the health benefits of eating more fruit or we.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                17.32,
+                17.72
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                17.72,
+                17.96
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                17.96,
+                18.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.12,
+                18.28
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                18.28,
+                18.44
+            ]
+        },
+        {
+            "text": "topic.",
+            "timestamp": [
+                18.44,
+                19.16
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                19.48,
+                19.8
+            ]
+        },
+        {
+            "text": "idea.",
+            "timestamp": [
+                19.8,
+                20.28
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                20.520000000000003,
+                20.76
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                20.76,
+                20.840000000000003
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                20.840000000000003,
+                21.0
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                21.0,
+                21.08
+            ]
+        },
+        {
+            "text": "you'd",
+            "timestamp": [
+                21.08,
+                21.32
+            ]
+        },
+        {
+            "text": "like.",
+            "timestamp": [
+                21.32,
+                21.48
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                21.560000000000002,
+                21.8
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                21.96,
+                22.04
+            ]
+        },
+        {
+            "text": "looks",
+            "timestamp": [
+                22.04,
+                22.200000000000003
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                22.200000000000003,
+                22.520000000000003
+            ]
+        },
+        {
+            "text": "PEL",
+            "timestamp": [
+                22.520000000000003,
+                22.92
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                23.240000000000002,
+                23.48
+            ]
+        },
+        {
+            "text": "L",
+            "timestamp": [
+                23.48,
+                23.64
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                23.96,
+                24.12
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                24.12,
+                24.200000000000003
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.200000000000003,
+                24.28
+            ]
+        },
+        {
+            "text": "typo.",
+            "timestamp": [
+                24.28,
+                24.92
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                25.16,
+                25.4
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                25.4,
+                25.560000000000002
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                25.560000000000002,
+                25.8
+            ]
+        },
+        {
+            "text": "fruit?",
+            "timestamp": [
+                25.8,
+                26.12
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                26.28,
+                26.44
+            ]
+        },
+        {
+            "text": "so,",
+            "timestamp": [
+                26.44,
+                26.68
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                26.840000000000003,
+                27.16
+            ]
+        },
+        {
+            "text": "ready",
+            "timestamp": [
+                27.16,
+                27.32
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                27.32,
+                27.48
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                27.48,
+                27.64
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                27.64,
+                27.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                27.8,
+                27.96
+            ]
+        },
+        {
+            "text": "health",
+            "timestamp": [
+                27.96,
+                28.2
+            ]
+        },
+        {
+            "text": "benefits",
+            "timestamp": [
+                28.2,
+                28.6
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                28.6,
+                28.76
+            ]
+        },
+        {
+            "text": "eating",
+            "timestamp": [
+                28.76,
+                29.080000000000002
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                29.080000000000002,
+                29.32
+            ]
+        },
+        {
+            "text": "fruit",
+            "timestamp": [
+                29.32,
+                29.720000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                29.880000000000003,
+                30.12
+            ]
+        },
+        {
+            "text": "we.",
+            "timestamp": [
+                30.12,
+                30.200000000000003
+            ]
+        }
+    ]
+}

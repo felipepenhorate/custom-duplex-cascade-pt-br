@@ -1,0 +1,47 @@
+{
+    "text": "You're saying saying, My summer will.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                13.120000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                13.68,
+                14.0
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                14.8,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "My",
+            "timestamp": [
+                15.68,
+                15.92
+            ]
+        },
+        {
+            "text": "summer",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "will.",
+            "timestamp": [
+                16.240000000000002,
+                16.32
+            ]
+        }
+    ]
+}

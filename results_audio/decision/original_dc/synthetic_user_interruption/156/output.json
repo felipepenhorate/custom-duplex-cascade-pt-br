@@ -1,0 +1,432 @@
+{
+    "text": "That's a great idea. Watching a movie can be a relaxing and enjoyable way to spend your weekend. Here are a few ways you can make your movie night even more special. 1. Choose your gun ray. Decide if you want to watch a comedy, drama, action, horror, or something else. You could also pick a theme: lights, light some candles.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                14.856,
+                15.336
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.336,
+                15.576
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                15.576,
+                15.736
+            ]
+        },
+        {
+            "text": "idea.",
+            "timestamp": [
+                15.736,
+                16.136
+            ]
+        },
+        {
+            "text": "Watching",
+            "timestamp": [
+                16.376,
+                16.776
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.776,
+                16.856
+            ]
+        },
+        {
+            "text": "movie",
+            "timestamp": [
+                16.856,
+                17.176000000000002
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                17.176000000000002,
+                17.336
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                17.336,
+                17.416
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.416,
+                17.576
+            ]
+        },
+        {
+            "text": "relaxing",
+            "timestamp": [
+                17.576,
+                18.056
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                18.056,
+                18.216
+            ]
+        },
+        {
+            "text": "enjoyable",
+            "timestamp": [
+                18.216,
+                18.776
+            ]
+        },
+        {
+            "text": "way",
+            "timestamp": [
+                18.776,
+                18.936
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                18.936,
+                19.016
+            ]
+        },
+        {
+            "text": "spend",
+            "timestamp": [
+                19.016,
+                19.336
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                19.336,
+                19.496000000000002
+            ]
+        },
+        {
+            "text": "weekend.",
+            "timestamp": [
+                19.496000000000002,
+                19.896
+            ]
+        },
+        {
+            "text": "Here",
+            "timestamp": [
+                20.136,
+                20.296
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                20.296,
+                20.456
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.456,
+                20.616
+            ]
+        },
+        {
+            "text": "few",
+            "timestamp": [
+                20.616,
+                20.776
+            ]
+        },
+        {
+            "text": "ways",
+            "timestamp": [
+                20.776,
+                21.016
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                21.016,
+                21.176000000000002
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                21.176000000000002,
+                21.256
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                21.256,
+                21.416
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                21.416,
+                21.496000000000002
+            ]
+        },
+        {
+            "text": "movie",
+            "timestamp": [
+                21.496000000000002,
+                21.816000000000003
+            ]
+        },
+        {
+            "text": "night",
+            "timestamp": [
+                21.816000000000003,
+                22.056
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                22.056,
+                22.296
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                22.296,
+                22.456
+            ]
+        },
+        {
+            "text": "special.",
+            "timestamp": [
+                22.456,
+                22.936
+            ]
+        },
+        {
+            "text": "1.",
+            "timestamp": [
+                23.256,
+                23.576
+            ]
+        },
+        {
+            "text": "Choose",
+            "timestamp": [
+                23.736,
+                23.976
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                23.976,
+                24.136000000000003
+            ]
+        },
+        {
+            "text": "gun",
+            "timestamp": [
+                24.136000000000003,
+                24.375999999999998
+            ]
+        },
+        {
+            "text": "ray.",
+            "timestamp": [
+                24.536,
+                24.856
+            ]
+        },
+        {
+            "text": "Decide",
+            "timestamp": [
+                25.016,
+                25.336
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                25.336,
+                25.496000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                25.496000000000002,
+                25.576
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                25.576,
+                25.656
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                25.656,
+                25.736
+            ]
+        },
+        {
+            "text": "watch",
+            "timestamp": [
+                25.736,
+                25.976
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.976,
+                26.136000000000003
+            ]
+        },
+        {
+            "text": "comedy,",
+            "timestamp": [
+                26.136000000000003,
+                26.456
+            ]
+        },
+        {
+            "text": "drama,",
+            "timestamp": [
+                26.536,
+                26.856
+            ]
+        },
+        {
+            "text": "action,",
+            "timestamp": [
+                27.016,
+                27.256
+            ]
+        },
+        {
+            "text": "horror,",
+            "timestamp": [
+                27.336,
+                27.656
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                27.816000000000003,
+                28.056
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                28.056,
+                28.296
+            ]
+        },
+        {
+            "text": "else.",
+            "timestamp": [
+                28.296,
+                28.616
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                28.936,
+                29.096000000000004
+            ]
+        },
+        {
+            "text": "could",
+            "timestamp": [
+                29.096000000000004,
+                29.256
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                29.256,
+                29.496000000000002
+            ]
+        },
+        {
+            "text": "pick",
+            "timestamp": [
+                29.496000000000002,
+                29.735999999999997
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                29.735999999999997,
+                29.896
+            ]
+        },
+        {
+            "text": "theme:",
+            "timestamp": [
+                29.896,
+                30.216
+            ]
+        },
+        {
+            "text": "lights,",
+            "timestamp": [
+                30.456000000000003,
+                30.936
+            ]
+        },
+        {
+            "text": "light",
+            "timestamp": [
+                31.176000000000002,
+                31.496000000000002
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                31.496000000000002,
+                31.656
+            ]
+        },
+        {
+            "text": "candles.",
+            "timestamp": [
+                31.656,
+                31.816000000000003
+            ]
+        }
+    ]
+}

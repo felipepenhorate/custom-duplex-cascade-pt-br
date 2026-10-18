@@ -1,0 +1,131 @@
+{
+    "text": "I'm here for you, and so are the hopes and dreams of everyone staying. Let ah, let ah",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                11.040000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "you,",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.8,
+                12.88
+            ]
+        },
+        {
+            "text": "hopes",
+            "timestamp": [
+                12.88,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "dreams",
+            "timestamp": [
+                13.36,
+                13.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "everyone",
+            "timestamp": [
+                13.84,
+                14.24
+            ]
+        },
+        {
+            "text": "staying.",
+            "timestamp": [
+                14.24,
+                14.56
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                14.88,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                15.200000000000001,
+                15.52
+            ]
+        },
+        {
+            "text": "let",
+            "timestamp": [
+                15.76,
+                15.84
+            ]
+        },
+        {
+            "text": "ah",
+            "timestamp": [
+                16.080000000000002,
+                16.4
+            ]
+        }
+    ]
+}

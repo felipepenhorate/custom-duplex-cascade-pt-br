@@ -1,0 +1,26 @@
+{
+    "text": "You're asking a",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                12.8,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                13.120000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        }
+    ]
+}

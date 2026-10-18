@@ -1,0 +1,26 @@
+{
+    "text": "Uh a relaxing.",
+    "chunks": [
+        {
+            "text": "Uh",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "relaxing.",
+            "timestamp": [
+                10.88,
+                11.28
+            ]
+        }
+    ]
+}

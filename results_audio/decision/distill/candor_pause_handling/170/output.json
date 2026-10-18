@@ -1,0 +1,61 @@
+{
+    "text": "You're asking you're asking, what do you think?",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                12.32,
+                12.64
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                17.76,
+                18.16
+            ]
+        },
+        {
+            "text": "asking,",
+            "timestamp": [
+                18.16,
+                18.64
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                18.96,
+                19.12
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                19.12,
+                19.28
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                19.28,
+                19.36
+            ]
+        },
+        {
+            "text": "think?",
+            "timestamp": [
+                19.36,
+                19.52
+            ]
+        }
+    ]
+}

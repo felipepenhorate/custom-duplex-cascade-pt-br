@@ -1,0 +1,103 @@
+{
+    "text": "I think you might be referring to something unclear, or maybe a mix-up in.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                10.64,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "unclear,",
+            "timestamp": [
+                11.36,
+                11.84
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.32,
+                12.4
+            ]
+        },
+        {
+            "text": "mix-up",
+            "timestamp": [
+                12.4,
+                12.96
+            ]
+        },
+        {
+            "text": "in.",
+            "timestamp": [
+                12.96,
+                13.280000000000001
+            ]
+        }
+    ]
+}

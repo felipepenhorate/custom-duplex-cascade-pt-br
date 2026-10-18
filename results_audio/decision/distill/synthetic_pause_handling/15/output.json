@@ -1,0 +1,145 @@
+{
+    "text": "I'm glad you're interested in improving your Spanish. That's a great goal. Here are our. Ah, sorry about the mix-up.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                5.12,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "glad",
+            "timestamp": [
+                5.5200000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "interested",
+            "timestamp": [
+                5.92,
+                6.24
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "improving",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "Spanish.",
+            "timestamp": [
+                6.88,
+                7.28
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                7.44,
+                7.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "goal.",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "Here",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                8.72,
+                8.88
+            ]
+        },
+        {
+            "text": "our.",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                9.28,
+                9.6
+            ]
+        },
+        {
+            "text": "sorry",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "mix-up.",
+            "timestamp": [
+                10.24,
+                10.96
+            ]
+        }
+    ]
+}

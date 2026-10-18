@@ -1,0 +1,208 @@
+{
+    "text": "She, you've been reading. What's the book you're most excited about? Or maybe you uh, I think you might be referring to The Bear by J.K. Rolling? Wait. No.",
+    "chunks": [
+        {
+            "text": "She,",
+            "timestamp": [
+                9.120000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "reading.",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "book",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "most",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "excited",
+            "timestamp": [
+                11.92,
+                12.32
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "Or",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "uh,",
+            "timestamp": [
+                13.44,
+                13.6
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                14.0,
+                14.08
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                14.08,
+                14.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.32,
+                14.4
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                14.4,
+                14.56
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                14.56,
+                14.64
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                14.64,
+                14.96
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.96,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                15.040000000000001,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "Bear",
+            "timestamp": [
+                15.200000000000001,
+                15.52
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                15.52,
+                15.68
+            ]
+        },
+        {
+            "text": "J.K.",
+            "timestamp": [
+                15.68,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "Rolling?",
+            "timestamp": [
+                16.48,
+                17.04
+            ]
+        },
+        {
+            "text": "Wait.",
+            "timestamp": [
+                17.36,
+                17.84
+            ]
+        },
+        {
+            "text": "No.",
+            "timestamp": [
+                18.080000000000002,
+                18.400000000000002
+            ]
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "text": "I think you might be asking about the current situation with COVID-19, and yes.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                8.64,
+                8.96
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "current",
+            "timestamp": [
+                10.32,
+                10.72
+            ]
+        },
+        {
+            "text": "situation",
+            "timestamp": [
+                10.72,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "COVID-19,",
+            "timestamp": [
+                11.36,
+                12.32
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "yes.",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "text": "You're talking.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "talking.",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        }
+    ]
+}

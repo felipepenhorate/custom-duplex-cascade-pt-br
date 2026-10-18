@@ -1,0 +1,54 @@
+{
+    "text": "Uh, you're talking about age-based alcohol guidelines.",
+    "chunks": [
+        {
+            "text": "Uh,",
+            "timestamp": [
+                6.4,
+                6.8
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                22.400000000000002,
+                22.72
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                22.72,
+                23.04
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                23.04,
+                23.28
+            ]
+        },
+        {
+            "text": "age-based",
+            "timestamp": [
+                23.28,
+                23.92
+            ]
+        },
+        {
+            "text": "alcohol",
+            "timestamp": [
+                23.92,
+                24.32
+            ]
+        },
+        {
+            "text": "guidelines.",
+            "timestamp": [
+                24.32,
+                24.64
+            ]
+        }
+    ]
+}

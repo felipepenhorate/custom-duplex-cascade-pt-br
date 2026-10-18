@@ -1,0 +1,180 @@
+{
+    "text": "Ah, so it's a regular checkup? Beers or a car, depending on what he wants. Seems a lot of people are doing that, I guess.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                3.84,
+                4.32
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.8,
+                4.96
+            ]
+        },
+        {
+            "text": "regular",
+            "timestamp": [
+                4.96,
+                5.28
+            ]
+        },
+        {
+            "text": "checkup?",
+            "timestamp": [
+                5.28,
+                6.16
+            ]
+        },
+        {
+            "text": "Beers",
+            "timestamp": [
+                8.64,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "car,",
+            "timestamp": [
+                9.92,
+                10.24
+            ]
+        },
+        {
+            "text": "depending",
+            "timestamp": [
+                10.48,
+                10.96
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "wants.",
+            "timestamp": [
+                11.36,
+                11.92
+            ]
+        },
+        {
+            "text": "Seems",
+            "timestamp": [
+                18.72,
+                19.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.12,
+                19.2
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                19.2,
+                19.36
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                19.36,
+                19.44
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                19.44,
+                19.6
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                19.6,
+                19.76
+            ]
+        },
+        {
+            "text": "doing",
+            "timestamp": [
+                19.76,
+                20.0
+            ]
+        },
+        {
+            "text": "that,",
+            "timestamp": [
+                20.0,
+                20.16
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                20.240000000000002,
+                20.56
+            ]
+        },
+        {
+            "text": "guess.",
+            "timestamp": [
+                20.56,
+                21.12
+            ]
+        }
+    ]
+}

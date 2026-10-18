@@ -1,0 +1,68 @@
+{
+    "text": "O'Kala, I remember. Relax. I can do a tour.",
+    "chunks": [
+        {
+            "text": "O'Kala,",
+            "timestamp": [
+                8.4,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "remember.",
+            "timestamp": [
+                9.44,
+                9.84
+            ]
+        },
+        {
+            "text": "Relax.",
+            "timestamp": [
+                10.08,
+                10.72
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "tour.",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        }
+    ]
+}

@@ -1,0 +1,320 @@
+{
+    "text": "Shinai think you might have meant, what will the weather be like tomorrow? Ah, I think you may have typed phi by accident, but you probably meant plants or maybe even weather? Yeah, let me help. Uh-huh. If you're asking about the weather, I can.",
+    "chunks": [
+        {
+            "text": "Shinai",
+            "timestamp": [
+                16.168,
+                16.728
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                16.808,
+                16.968
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                16.968,
+                17.048000000000002
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                17.048000000000002,
+                17.208
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                17.208,
+                17.288
+            ]
+        },
+        {
+            "text": "meant,",
+            "timestamp": [
+                17.288,
+                17.608
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                17.768,
+                18.008
+            ]
+        },
+        {
+            "text": "will",
+            "timestamp": [
+                18.008,
+                18.168
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                18.168,
+                18.248
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                18.248,
+                18.488
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                18.488,
+                18.648
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                18.648,
+                18.887999999999998
+            ]
+        },
+        {
+            "text": "tomorrow?",
+            "timestamp": [
+                18.887999999999998,
+                19.368000000000002
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                19.608,
+                19.928
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                20.088,
+                20.328
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                20.328,
+                20.488
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                20.488,
+                20.648
+            ]
+        },
+        {
+            "text": "may",
+            "timestamp": [
+                20.648,
+                20.808
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                20.808,
+                20.968
+            ]
+        },
+        {
+            "text": "typed",
+            "timestamp": [
+                20.968,
+                21.288
+            ]
+        },
+        {
+            "text": "phi",
+            "timestamp": [
+                21.448,
+                21.848
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                22.088,
+                22.328
+            ]
+        },
+        {
+            "text": "accident,",
+            "timestamp": [
+                22.328,
+                23.048000000000002
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                23.368000000000002,
+                23.528
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                23.528,
+                23.768
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                23.768,
+                24.088
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                24.088,
+                24.728
+            ]
+        },
+        {
+            "text": "plants",
+            "timestamp": [
+                24.728,
+                25.368000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                25.608,
+                25.768
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                25.928,
+                26.247999999999998
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                26.247999999999998,
+                26.567999999999998
+            ]
+        },
+        {
+            "text": "weather?",
+            "timestamp": [
+                26.567999999999998,
+                26.968
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                27.208,
+                27.368000000000002
+            ]
+        },
+        {
+            "text": "let",
+            "timestamp": [
+                28.088,
+                28.328
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                28.328,
+                28.648
+            ]
+        },
+        {
+            "text": "help.",
+            "timestamp": [
+                28.648,
+                28.968000000000004
+            ]
+        },
+        {
+            "text": "Uh-huh.",
+            "timestamp": [
+                29.287999999999997,
+                29.848
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                30.247999999999998,
+                30.408
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                30.408,
+                30.648000000000003
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                30.648000000000003,
+                30.887999999999998
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                30.887999999999998,
+                31.048000000000002
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                31.048000000000002,
+                31.208
+            ]
+        },
+        {
+            "text": "weather,",
+            "timestamp": [
+                31.208,
+                31.448
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                31.528,
+                31.607999999999997
+            ]
+        },
+        {
+            "text": "can.",
+            "timestamp": [
+                31.607999999999997,
+                31.688000000000002
+            ]
+        }
+    ]
+}

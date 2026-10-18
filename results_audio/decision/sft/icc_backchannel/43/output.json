@@ -1,0 +1,96 @@
+{
+    "text": "Ah Is there a particular deadline or a time of day that is?",
+    "chunks": [
+        {
+            "text": "Ah",
+            "timestamp": [
+                19.52,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                25.2,
+                25.44
+            ]
+        },
+        {
+            "text": "there",
+            "timestamp": [
+                25.44,
+                25.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.68,
+                25.76
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                25.76,
+                26.16
+            ]
+        },
+        {
+            "text": "deadline",
+            "timestamp": [
+                26.16,
+                26.64
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                26.72,
+                26.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.8,
+                26.96
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                26.96,
+                27.12
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                27.12,
+                27.2
+            ]
+        },
+        {
+            "text": "day",
+            "timestamp": [
+                27.2,
+                27.44
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                27.44,
+                27.68
+            ]
+        },
+        {
+            "text": "is?",
+            "timestamp": [
+                27.68,
+                28.0
+            ]
+        }
+    ]
+}

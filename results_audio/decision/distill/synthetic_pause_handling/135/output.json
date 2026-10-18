@@ -1,0 +1,47 @@
+{
+    "text": "You're not alone. Moving it Yeah.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                5.84,
+                6.08
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                6.08,
+                6.16
+            ]
+        },
+        {
+            "text": "alone.",
+            "timestamp": [
+                6.32,
+                6.72
+            ]
+        },
+        {
+            "text": "Moving",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                7.36,
+                7.44
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        }
+    ]
+}

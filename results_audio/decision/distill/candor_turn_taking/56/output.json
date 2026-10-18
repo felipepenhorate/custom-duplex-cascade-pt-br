@@ -1,0 +1,61 @@
+{
+    "text": "It sounds like you're feeling really overwhelmed or",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "feeling",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "overwhelmed",
+            "timestamp": [
+                12.08,
+                12.72
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        }
+    ]
+}

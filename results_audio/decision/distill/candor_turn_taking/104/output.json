@@ -1,0 +1,68 @@
+{
+    "text": "Uh, you're asking a great question. I'm not exactly.",
+    "chunks": [
+        {
+            "text": "Uh,",
+            "timestamp": [
+                9.76,
+                10.32
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                10.96,
+                11.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                11.84,
+                12.16
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "exactly.",
+            "timestamp": [
+                12.88,
+                13.200000000000001
+            ]
+        }
+    ]
+}

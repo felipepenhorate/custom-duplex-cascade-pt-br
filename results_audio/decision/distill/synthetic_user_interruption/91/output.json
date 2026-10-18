@@ -1,0 +1,215 @@
+{
+    "text": "A she asking for something else, not just life, or rain, a sai, or rain a se. You're still trying to say life, but now you are drowning in sound.",
+    "chunks": [
+        {
+            "text": "A",
+            "timestamp": [
+                19.08,
+                19.24
+            ]
+        },
+        {
+            "text": "she",
+            "timestamp": [
+                19.4,
+                19.479999999999997
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                20.28,
+                20.759999999999998
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                20.759999999999998,
+                21.0
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                21.0,
+                21.32
+            ]
+        },
+        {
+            "text": "else,",
+            "timestamp": [
+                21.32,
+                21.799999999999997
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                22.119999999999997,
+                22.36
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                22.36,
+                22.68
+            ]
+        },
+        {
+            "text": "life,",
+            "timestamp": [
+                22.68,
+                23.0
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                23.159999999999997,
+                23.24
+            ]
+        },
+        {
+            "text": "rain,",
+            "timestamp": [
+                23.4,
+                23.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.04,
+                24.2
+            ]
+        },
+        {
+            "text": "sai,",
+            "timestamp": [
+                24.28,
+                24.759999999999998
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                25.159999999999997,
+                25.32
+            ]
+        },
+        {
+            "text": "rain",
+            "timestamp": [
+                25.4,
+                25.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.72,
+                25.799999999999997
+            ]
+        },
+        {
+            "text": "se.",
+            "timestamp": [
+                25.88,
+                25.96
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                26.84,
+                27.159999999999997
+            ]
+        },
+        {
+            "text": "still",
+            "timestamp": [
+                27.159999999999997,
+                27.4
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                27.4,
+                27.64
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                27.64,
+                27.96
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                27.96,
+                28.04
+            ]
+        },
+        {
+            "text": "life,",
+            "timestamp": [
+                28.36,
+                28.6
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                29.4,
+                29.560000000000002
+            ]
+        },
+        {
+            "text": "now",
+            "timestamp": [
+                29.560000000000002,
+                29.799999999999997
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                29.799999999999997,
+                29.880000000000003
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                29.880000000000003,
+                30.04
+            ]
+        },
+        {
+            "text": "drowning",
+            "timestamp": [
+                30.04,
+                30.36
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                30.36,
+                30.439999999999998
+            ]
+        },
+        {
+            "text": "sound.",
+            "timestamp": [
+                30.439999999999998,
+                30.6
+            ]
+        }
+    ]
+}

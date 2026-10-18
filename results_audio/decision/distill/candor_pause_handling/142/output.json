@@ -1,0 +1,117 @@
+{
+    "text": "Uh I'm here to help, but I don't have access to your personal information like email.",
+    "chunks": [
+        {
+            "text": "Uh",
+            "timestamp": [
+                8.16,
+                8.64
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "help,",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "access",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "personal",
+            "timestamp": [
+                11.92,
+                12.32
+            ]
+        },
+        {
+            "text": "information",
+            "timestamp": [
+                12.32,
+                12.72
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "email.",
+            "timestamp": [
+                13.040000000000001,
+                13.280000000000001
+            ]
+        }
+    ]
+}

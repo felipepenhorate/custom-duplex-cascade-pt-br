@@ -1,0 +1,61 @@
+{
+    "text": "Two thousand six. That's a long time ago.",
+    "chunks": [
+        {
+            "text": "Two",
+            "timestamp": [
+                14.08,
+                14.48
+            ]
+        },
+        {
+            "text": "thousand",
+            "timestamp": [
+                14.48,
+                14.8
+            ]
+        },
+        {
+            "text": "six.",
+            "timestamp": [
+                15.040000000000001,
+                15.68
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                16.0,
+                16.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.32,
+                16.56
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                16.56,
+                16.8
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                16.8,
+                17.04
+            ]
+        },
+        {
+            "text": "ago.",
+            "timestamp": [
+                17.04,
+                17.36
+            ]
+        }
+    ]
+}

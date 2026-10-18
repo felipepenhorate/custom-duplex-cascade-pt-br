@@ -1,0 +1,201 @@
+{
+    "text": "You're right. I'm not just an algorithm. I'm a large-scale language model independently developed by Hello. It seems like you might be referring to Pi or another name.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                4.08,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                4.5600000000000005,
+                4.8
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                5.04,
+                5.36
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                5.5200000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "algorithm.",
+            "timestamp": [
+                5.84,
+                6.4
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.8,
+                6.88
+            ]
+        },
+        {
+            "text": "large-scale",
+            "timestamp": [
+                6.88,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "language",
+            "timestamp": [
+                7.6000000000000005,
+                8.0
+            ]
+        },
+        {
+            "text": "model",
+            "timestamp": [
+                8.0,
+                8.4
+            ]
+        },
+        {
+            "text": "independently",
+            "timestamp": [
+                8.56,
+                9.28
+            ]
+        },
+        {
+            "text": "developed",
+            "timestamp": [
+                9.28,
+                9.68
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "Hello.",
+            "timestamp": [
+                9.84,
+                10.48
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "seems",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                11.68,
+                12.16
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "Pi",
+            "timestamp": [
+                12.4,
+                12.8
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                13.040000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "another",
+            "timestamp": [
+                13.280000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "name.",
+            "timestamp": [
+                13.44,
+                13.68
+            ]
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "text": "Oh, a cinema, filmmaking, a hobby, or a recent blockbuster. I can recommend a lot of hits or a cult favorite or a recent indie film.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                14.904,
+                15.224
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.383999999999999,
+                15.543999999999999
+            ]
+        },
+        {
+            "text": "cinema,",
+            "timestamp": [
+                15.543999999999999,
+                16.024
+            ]
+        },
+        {
+            "text": "filmmaking,",
+            "timestamp": [
+                16.183999999999997,
+                16.823999999999998
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.983999999999998,
+                17.144
+            ]
+        },
+        {
+            "text": "hobby,",
+            "timestamp": [
+                17.144,
+                17.464
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                17.544,
+                17.704
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.704,
+                17.864
+            ]
+        },
+        {
+            "text": "recent",
+            "timestamp": [
+                17.864,
+                18.104
+            ]
+        },
+        {
+            "text": "blockbuster.",
+            "timestamp": [
+                18.104,
+                18.823999999999998
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                19.064,
+                19.144
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                19.144,
+                19.304
+            ]
+        },
+        {
+            "text": "recommend",
+            "timestamp": [
+                19.304,
+                19.704
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.704,
+                19.784
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                19.784,
+                19.944
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                19.944,
+                20.024
+            ]
+        },
+        {
+            "text": "hits",
+            "timestamp": [
+                20.024,
+                20.424
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                20.424,
+                20.584
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.584,
+                20.664
+            ]
+        },
+        {
+            "text": "cult",
+            "timestamp": [
+                20.664,
+                20.904
+            ]
+        },
+        {
+            "text": "favorite",
+            "timestamp": [
+                20.904,
+                21.224
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                21.304,
+                21.464
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.464,
+                21.544
+            ]
+        },
+        {
+            "text": "recent",
+            "timestamp": [
+                21.544,
+                21.863999999999997
+            ]
+        },
+        {
+            "text": "indie",
+            "timestamp": [
+                21.863999999999997,
+                22.264
+            ]
+        },
+        {
+            "text": "film.",
+            "timestamp": [
+                22.264,
+                23.224
+            ]
+        }
+    ]
+}

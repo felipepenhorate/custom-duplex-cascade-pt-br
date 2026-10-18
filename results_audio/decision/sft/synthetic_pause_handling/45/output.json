@@ -1,0 +1,180 @@
+{
+    "text": "Ah, that's a lot. Is it a lot of work? Or are you just Pomodoro or time blocking? Sugest. Opa. A sugest to a sugest.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                3.2800000000000002,
+                3.68
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                3.7600000000000002,
+                4.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.08,
+                4.32
+            ]
+        },
+        {
+            "text": "lot.",
+            "timestamp": [
+                4.32,
+                4.48
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                4.8,
+                4.96
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                4.96,
+                5.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.12,
+                5.2
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                5.36,
+                5.44
+            ]
+        },
+        {
+            "text": "work?",
+            "timestamp": [
+                5.5200000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "Or",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                6.08,
+                6.16
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                6.32,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "Pomodoro",
+            "timestamp": [
+                6.640000000000001,
+                7.44
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                7.5200000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                7.68,
+                7.76
+            ]
+        },
+        {
+            "text": "blocking?",
+            "timestamp": [
+                7.92,
+                8.4
+            ]
+        },
+        {
+            "text": "Sugest.",
+            "timestamp": [
+                8.64,
+                9.28
+            ]
+        },
+        {
+            "text": "Opa.",
+            "timestamp": [
+                9.6,
+                10.16
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "sugest",
+            "timestamp": [
+                10.64,
+                11.36
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "sugest.",
+            "timestamp": [
+                11.84,
+                12.48
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "text": "I think you're trying to.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.76,
+                12.16
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "to.",
+            "timestamp": [
+                12.32,
+                12.64
+            ]
+        }
+    ]
+}

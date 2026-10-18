@@ -1,0 +1,75 @@
+{
+    "text": "I can't believe I just said bless to a man.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                10.24,
+                10.64
+            ]
+        },
+        {
+            "text": "believe",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "said",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "bless",
+            "timestamp": [
+                11.68,
+                12.16
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.4,
+                12.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "man.",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "text": "Kesha, you're suggesting Philippa can marry Marcus. That sounds like a good idea.",
+    "chunks": [
+        {
+            "text": "Kesha,",
+            "timestamp": [
+                18.240000000000002,
+                18.88
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                18.96,
+                19.2
+            ]
+        },
+        {
+            "text": "suggesting",
+            "timestamp": [
+                19.2,
+                19.68
+            ]
+        },
+        {
+            "text": "Philippa",
+            "timestamp": [
+                20.56,
+                21.28
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                21.28,
+                21.36
+            ]
+        },
+        {
+            "text": "marry",
+            "timestamp": [
+                21.52,
+                21.76
+            ]
+        },
+        {
+            "text": "Marcus.",
+            "timestamp": [
+                21.76,
+                22.240000000000002
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                22.72,
+                22.88
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                22.88,
+                23.04
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                23.2,
+                23.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                23.2,
+                23.2
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                23.2,
+                23.2
+            ]
+        },
+        {
+            "text": "idea.",
+            "timestamp": [
+                23.2,
+                23.2
+            ]
+        }
+    ]
+}

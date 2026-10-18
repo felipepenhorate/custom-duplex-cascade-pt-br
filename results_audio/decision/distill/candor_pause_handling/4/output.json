@@ -1,0 +1,110 @@
+{
+    "text": "Ah, you're saying he was, he was, he was, he was, he was, he was.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.24,
+                6.8
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                7.28,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "was,",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "was,",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "was,",
+            "timestamp": [
+                9.040000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "was,",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "was,",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "was.",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        }
+    ]
+}

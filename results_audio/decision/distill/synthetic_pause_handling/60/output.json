@@ -1,0 +1,82 @@
+{
+    "text": "Uh, I totally get that. Bah, you're you're trying to say.",
+    "chunks": [
+        {
+            "text": "Uh,",
+            "timestamp": [
+                7.2,
+                7.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                8.08,
+                8.72
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                8.72,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "Bah,",
+            "timestamp": [
+                11.6,
+                12.0
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "say.",
+            "timestamp": [
+                13.200000000000001,
+                13.280000000000001
+            ]
+        }
+    ]
+}

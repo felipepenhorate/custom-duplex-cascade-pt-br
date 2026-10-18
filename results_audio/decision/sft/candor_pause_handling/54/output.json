@@ -1,0 +1,33 @@
+{
+    "text": "Ah, I remember bingo.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "remember",
+            "timestamp": [
+                9.76,
+                10.32
+            ]
+        },
+        {
+            "text": "bingo.",
+            "timestamp": [
+                10.56,
+                11.200000000000001
+            ]
+        }
+    ]
+}

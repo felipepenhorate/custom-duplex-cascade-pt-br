@@ -1,0 +1,138 @@
+{
+    "text": "It's completely understandable to have differing opinions on political matters, including governors. If your friend doesn't like their governor,",
+    "chunks": [
+        {
+            "text": "It's",
+            "timestamp": [
+                6.5600000000000005,
+                6.96
+            ]
+        },
+        {
+            "text": "completely",
+            "timestamp": [
+                6.96,
+                7.76
+            ]
+        },
+        {
+            "text": "understandable",
+            "timestamp": [
+                7.76,
+                8.24
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "differing",
+            "timestamp": [
+                8.56,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "opinions",
+            "timestamp": [
+                9.040000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "political",
+            "timestamp": [
+                9.68,
+                10.16
+            ]
+        },
+        {
+            "text": "matters,",
+            "timestamp": [
+                10.16,
+                10.56
+            ]
+        },
+        {
+            "text": "including",
+            "timestamp": [
+                10.88,
+                11.28
+            ]
+        },
+        {
+            "text": "governors.",
+            "timestamp": [
+                11.28,
+                11.92
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "friend",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "doesn't",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "their",
+            "timestamp": [
+                13.200000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "governor,",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        }
+    ]
+}

@@ -1,0 +1,327 @@
+{
+    "text": "You're saying, you're saying new movies are out, and you're likely asking about, ah, I think we've got it now. You are referring to The Secret Life of Bees, a great book, and there's also a movie adaptation. So, so, The Secret Life of Bees is.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                15.975999999999999,
+                16.296
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                16.296,
+                16.536
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                16.856,
+                17.256
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                17.256,
+                17.496000000000002
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                17.736,
+                17.976
+            ]
+        },
+        {
+            "text": "movies",
+            "timestamp": [
+                17.976,
+                18.536
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                18.536,
+                18.776
+            ]
+        },
+        {
+            "text": "out,",
+            "timestamp": [
+                18.776,
+                19.016
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                19.336,
+                19.576
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                19.576,
+                20.056
+            ]
+        },
+        {
+            "text": "likely",
+            "timestamp": [
+                20.056,
+                20.456
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                20.456,
+                20.776
+            ]
+        },
+        {
+            "text": "about,",
+            "timestamp": [
+                20.776,
+                20.936
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                21.096,
+                21.416
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                21.496000000000002,
+                21.656
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                21.656,
+                21.816000000000003
+            ]
+        },
+        {
+            "text": "we've",
+            "timestamp": [
+                21.816000000000003,
+                22.056
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                22.056,
+                22.216
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                22.216,
+                22.375999999999998
+            ]
+        },
+        {
+            "text": "now.",
+            "timestamp": [
+                22.375999999999998,
+                22.536
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                22.856,
+                23.096
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                23.096,
+                23.256
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                23.256,
+                23.656
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                23.656,
+                23.896
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                23.896,
+                24.056
+            ]
+        },
+        {
+            "text": "Secret",
+            "timestamp": [
+                24.056,
+                24.456
+            ]
+        },
+        {
+            "text": "Life",
+            "timestamp": [
+                24.456,
+                24.695999999999998
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                24.695999999999998,
+                24.856
+            ]
+        },
+        {
+            "text": "Bees,",
+            "timestamp": [
+                24.856,
+                25.336
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.656,
+                25.816000000000003
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                25.816000000000003,
+                26.056
+            ]
+        },
+        {
+            "text": "book,",
+            "timestamp": [
+                26.056,
+                26.375999999999998
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                26.695999999999998,
+                26.856
+            ]
+        },
+        {
+            "text": "there's",
+            "timestamp": [
+                26.856,
+                27.096
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                27.096,
+                27.336
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                27.336,
+                27.416
+            ]
+        },
+        {
+            "text": "movie",
+            "timestamp": [
+                27.416,
+                27.816000000000003
+            ]
+        },
+        {
+            "text": "adaptation.",
+            "timestamp": [
+                27.816000000000003,
+                28.375999999999998
+            ]
+        },
+        {
+            "text": "So,",
+            "timestamp": [
+                29.096000000000004,
+                29.256
+            ]
+        },
+        {
+            "text": "so,",
+            "timestamp": [
+                29.896,
+                30.216
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                30.536,
+                30.695999999999998
+            ]
+        },
+        {
+            "text": "Secret",
+            "timestamp": [
+                30.695999999999998,
+                31.096000000000004
+            ]
+        },
+        {
+            "text": "Life",
+            "timestamp": [
+                31.096000000000004,
+                31.256
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                31.256,
+                31.416000000000004
+            ]
+        },
+        {
+            "text": "Bees",
+            "timestamp": [
+                31.416000000000004,
+                31.735999999999997
+            ]
+        },
+        {
+            "text": "is.",
+            "timestamp": [
+                31.735999999999997,
+                31.816000000000003
+            ]
+        }
+    ]
+}

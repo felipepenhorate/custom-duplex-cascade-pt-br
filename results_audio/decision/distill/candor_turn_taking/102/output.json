@@ -1,0 +1,124 @@
+{
+    "text": "Uh, you're asking about a political statement. Maybe something like he said that, you know, if it.",
+    "chunks": [
+        {
+            "text": "Uh,",
+            "timestamp": [
+                10.24,
+                10.64
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.84,
+                11.92
+            ]
+        },
+        {
+            "text": "political",
+            "timestamp": [
+                11.92,
+                12.4
+            ]
+        },
+        {
+            "text": "statement.",
+            "timestamp": [
+                12.4,
+                12.96
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                13.280000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                13.68,
+                13.92
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        },
+        {
+            "text": "said",
+            "timestamp": [
+                14.4,
+                14.56
+            ]
+        },
+        {
+            "text": "that,",
+            "timestamp": [
+                14.56,
+                14.8
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.88,
+                14.96
+            ]
+        },
+        {
+            "text": "know,",
+            "timestamp": [
+                14.96,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                15.36,
+                15.52
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                15.52,
+                15.68
+            ]
+        }
+    ]
+}

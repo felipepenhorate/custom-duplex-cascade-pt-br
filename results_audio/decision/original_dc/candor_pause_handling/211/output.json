@@ -1,0 +1,75 @@
+{
+    "text": "It sounds like you're expressing concern about the current state.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                8.4,
+                8.8
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "expressing",
+            "timestamp": [
+                9.200000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "concern",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "current",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "state.",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        }
+    ]
+}

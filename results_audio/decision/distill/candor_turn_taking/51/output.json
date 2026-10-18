@@ -1,0 +1,68 @@
+{
+    "text": "You're really feeling it now. The mask, the silence.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                13.76,
+                14.16
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                14.16,
+                14.4
+            ]
+        },
+        {
+            "text": "feeling",
+            "timestamp": [
+                14.4,
+                14.72
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                14.72,
+                14.88
+            ]
+        },
+        {
+            "text": "now.",
+            "timestamp": [
+                14.88,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                15.44,
+                15.6
+            ]
+        },
+        {
+            "text": "mask,",
+            "timestamp": [
+                15.6,
+                16.16
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.4,
+                16.56
+            ]
+        },
+        {
+            "text": "silence.",
+            "timestamp": [
+                16.56,
+                16.88
+            ]
+        }
+    ]
+}

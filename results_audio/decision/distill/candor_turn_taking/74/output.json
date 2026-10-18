@@ -1,0 +1,96 @@
+{
+    "text": "Uh you're saying something is unpleasant, like a feeling of discomfort or unease.",
+    "chunks": [
+        {
+            "text": "Uh",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.36,
+                9.76
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "unpleasant,",
+            "timestamp": [
+                10.4,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        },
+        {
+            "text": "feeling",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "discomfort",
+            "timestamp": [
+                12.08,
+                12.72
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "unease.",
+            "timestamp": [
+                12.88,
+                13.6
+            ]
+        }
+    ]
+}

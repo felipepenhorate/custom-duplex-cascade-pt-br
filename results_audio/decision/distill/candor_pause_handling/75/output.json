@@ -1,0 +1,33 @@
+{
+    "text": "Yeah, I see now.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                19.92,
+                20.16
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                20.72,
+                21.04
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                21.04,
+                21.36
+            ]
+        },
+        {
+            "text": "now.",
+            "timestamp": [
+                21.36,
+                21.68
+            ]
+        }
+    ]
+}

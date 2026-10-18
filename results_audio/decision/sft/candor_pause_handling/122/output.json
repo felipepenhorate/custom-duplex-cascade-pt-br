@@ -1,0 +1,40 @@
+{
+    "text": "Nah, I can't is it",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                6.88,
+                7.2
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.5200000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                7.76,
+                8.4
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        }
+    ]
+}

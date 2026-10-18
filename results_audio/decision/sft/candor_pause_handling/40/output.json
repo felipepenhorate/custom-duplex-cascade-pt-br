@@ -1,0 +1,110 @@
+{
+    "text": "Nah, not at all. I can't stand it. Ah, I can relate to the menu.",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                3.2800000000000002,
+                3.6
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                3.84,
+                4.08
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                4.08,
+                4.24
+            ]
+        },
+        {
+            "text": "all.",
+            "timestamp": [
+                4.24,
+                4.4
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.64,
+                4.72
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                4.72,
+                5.12
+            ]
+        },
+        {
+            "text": "stand",
+            "timestamp": [
+                5.12,
+                5.68
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                5.68,
+                6.0
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                7.28,
+                7.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "relate",
+            "timestamp": [
+                8.4,
+                11.92
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.92,
+                11.92
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.92,
+                11.92
+            ]
+        },
+        {
+            "text": "menu.",
+            "timestamp": [
+                11.92,
+                11.92
+            ]
+        }
+    ]
+}

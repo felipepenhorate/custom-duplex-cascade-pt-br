@@ -1,0 +1,166 @@
+{
+    "text": "Yes, we did plan to start dinner tomorrow at around seven thirty PM. I'll make sure everything is prepared and ready by then.",
+    "chunks": [
+        {
+            "text": "Yes,",
+            "timestamp": [
+                16.12,
+                16.6
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                16.919999999999998,
+                17.16
+            ]
+        },
+        {
+            "text": "did",
+            "timestamp": [
+                17.16,
+                17.4
+            ]
+        },
+        {
+            "text": "plan",
+            "timestamp": [
+                17.4,
+                17.72
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.72,
+                17.8
+            ]
+        },
+        {
+            "text": "start",
+            "timestamp": [
+                17.8,
+                18.04
+            ]
+        },
+        {
+            "text": "dinner",
+            "timestamp": [
+                18.04,
+                18.36
+            ]
+        },
+        {
+            "text": "tomorrow",
+            "timestamp": [
+                18.36,
+                18.759999999999998
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                18.759999999999998,
+                18.92
+            ]
+        },
+        {
+            "text": "around",
+            "timestamp": [
+                18.92,
+                19.16
+            ]
+        },
+        {
+            "text": "seven",
+            "timestamp": [
+                19.16,
+                19.4
+            ]
+        },
+        {
+            "text": "thirty",
+            "timestamp": [
+                19.48,
+                19.72
+            ]
+        },
+        {
+            "text": "PM.",
+            "timestamp": [
+                19.96,
+                20.28
+            ]
+        },
+        {
+            "text": "I'll",
+            "timestamp": [
+                20.52,
+                20.84
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                20.84,
+                21.0
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                21.0,
+                21.24
+            ]
+        },
+        {
+            "text": "everything",
+            "timestamp": [
+                21.24,
+                21.56
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                21.56,
+                21.72
+            ]
+        },
+        {
+            "text": "prepared",
+            "timestamp": [
+                21.72,
+                22.119999999999997
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                22.119999999999997,
+                22.28
+            ]
+        },
+        {
+            "text": "ready",
+            "timestamp": [
+                22.28,
+                22.68
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                22.68,
+                23.0
+            ]
+        },
+        {
+            "text": "then.",
+            "timestamp": [
+                23.0,
+                23.32
+            ]
+        }
+    ]
+}

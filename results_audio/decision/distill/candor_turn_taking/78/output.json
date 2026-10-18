@@ -1,0 +1,54 @@
+{
+    "text": "You're saying you think he was in.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                11.6,
+                12.24
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                13.040000000000001,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "in.",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        }
+    ]
+}

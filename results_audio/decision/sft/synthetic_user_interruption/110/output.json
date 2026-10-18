@@ -1,0 +1,215 @@
+{
+    "text": "Grooming is super personal, so I can't give a one size fits all answer, ha ha But regular brushing, a clean, and a checkup to prevent issues is a must.",
+    "chunks": [
+        {
+            "text": "Grooming",
+            "timestamp": [
+                14.856,
+                15.416
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                15.416,
+                15.496
+            ]
+        },
+        {
+            "text": "super",
+            "timestamp": [
+                15.496,
+                15.815999999999999
+            ]
+        },
+        {
+            "text": "personal,",
+            "timestamp": [
+                15.815999999999999,
+                16.136
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                16.296,
+                16.456
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.456,
+                16.536
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                16.536,
+                16.776
+            ]
+        },
+        {
+            "text": "give",
+            "timestamp": [
+                16.776,
+                16.936
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.936,
+                17.096
+            ]
+        },
+        {
+            "text": "one",
+            "timestamp": [
+                17.096,
+                17.256
+            ]
+        },
+        {
+            "text": "size",
+            "timestamp": [
+                17.336,
+                17.656
+            ]
+        },
+        {
+            "text": "fits",
+            "timestamp": [
+                17.736,
+                17.976
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                18.056,
+                18.296
+            ]
+        },
+        {
+            "text": "answer,",
+            "timestamp": [
+                18.296,
+                18.536
+            ]
+        },
+        {
+            "text": "ha",
+            "timestamp": [
+                18.616,
+                18.695999999999998
+            ]
+        },
+        {
+            "text": "ha",
+            "timestamp": [
+                18.856,
+                18.936
+            ]
+        },
+        {
+            "text": "But",
+            "timestamp": [
+                19.336,
+                19.496
+            ]
+        },
+        {
+            "text": "regular",
+            "timestamp": [
+                19.736,
+                20.216
+            ]
+        },
+        {
+            "text": "brushing,",
+            "timestamp": [
+                20.216,
+                20.695999999999998
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.776,
+                20.936
+            ]
+        },
+        {
+            "text": "clean,",
+            "timestamp": [
+                20.936,
+                21.336
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                21.416,
+                21.576
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.576,
+                21.656
+            ]
+        },
+        {
+            "text": "checkup",
+            "timestamp": [
+                21.656,
+                22.136
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                22.136,
+                22.296
+            ]
+        },
+        {
+            "text": "prevent",
+            "timestamp": [
+                22.296,
+                22.616
+            ]
+        },
+        {
+            "text": "issues",
+            "timestamp": [
+                22.616,
+                23.016
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                23.016,
+                23.176000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                23.176000000000002,
+                23.416
+            ]
+        },
+        {
+            "text": "must.",
+            "timestamp": [
+                23.416,
+                24.055999999999997
+            ]
+        }
+    ]
+}

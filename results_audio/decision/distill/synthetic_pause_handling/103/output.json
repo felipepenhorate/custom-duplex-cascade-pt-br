@@ -1,0 +1,26 @@
+{
+    "text": "I see yourself.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "yourself.",
+            "timestamp": [
+                13.68,
+                13.92
+            ]
+        }
+    ]
+}

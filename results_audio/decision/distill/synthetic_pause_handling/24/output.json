@@ -1,0 +1,131 @@
+{
+    "text": "He, I see you're looking to buy a thoughtful birthday gift for your tech-loving brother. Great choice. Here.",
+    "chunks": [
+        {
+            "text": "He,",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                7.92,
+                8.16
+            ]
+        },
+        {
+            "text": "looking",
+            "timestamp": [
+                8.16,
+                8.4
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                8.4,
+                8.48
+            ]
+        },
+        {
+            "text": "buy",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "thoughtful",
+            "timestamp": [
+                8.8,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "birthday",
+            "timestamp": [
+                9.120000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "gift",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "tech-loving",
+            "timestamp": [
+                10.0,
+                10.64
+            ]
+        },
+        {
+            "text": "brother.",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                11.36,
+                11.76
+            ]
+        },
+        {
+            "text": "Here.",
+            "timestamp": [
+                12.0,
+                12.32
+            ]
+        }
+    ]
+}

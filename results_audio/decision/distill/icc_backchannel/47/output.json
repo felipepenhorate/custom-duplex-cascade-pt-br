@@ -1,0 +1,194 @@
+{
+    "text": "So you're saying it's been about a year and a half. Thank you. Thank you. You were saying I didn't do sports in high school, but I.",
+    "chunks": [
+        {
+            "text": "So",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                14.8,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                15.280000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                15.6,
+                15.92
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                15.92,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                16.080000000000002,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.240000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "year",
+            "timestamp": [
+                16.32,
+                16.48
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                16.48,
+                16.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.64,
+                16.72
+            ]
+        },
+        {
+            "text": "half.",
+            "timestamp": [
+                16.72,
+                17.44
+            ]
+        },
+        {
+            "text": "Thank",
+            "timestamp": [
+                29.84,
+                30.240000000000002
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                30.240000000000002,
+                30.400000000000002
+            ]
+        },
+        {
+            "text": "Thank",
+            "timestamp": [
+                30.72,
+                31.28
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                31.28,
+                31.6
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                39.28,
+                39.6
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                39.6,
+                39.84
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                39.84,
+                40.08
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                40.4,
+                40.56
+            ]
+        },
+        {
+            "text": "didn't",
+            "timestamp": [
+                40.56,
+                40.800000000000004
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                41.04,
+                41.2
+            ]
+        },
+        {
+            "text": "sports",
+            "timestamp": [
+                41.2,
+                41.52
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                41.52,
+                41.68
+            ]
+        },
+        {
+            "text": "high",
+            "timestamp": [
+                41.68,
+                41.84
+            ]
+        },
+        {
+            "text": "school,",
+            "timestamp": [
+                41.84,
+                42.08
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                42.24,
+                42.4
+            ]
+        },
+        {
+            "text": "I.",
+            "timestamp": [
+                42.4,
+                42.72
+            ]
+        }
+    ]
+}

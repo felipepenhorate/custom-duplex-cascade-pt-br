@@ -1,0 +1,110 @@
+{
+    "text": "Chew, you were saying, I gotta get better still, and it sounds like you ought.",
+    "chunks": [
+        {
+            "text": "Chew,",
+            "timestamp": [
+                15.92,
+                16.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                16.88,
+                17.12
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                17.12,
+                17.28
+            ]
+        },
+        {
+            "text": "saying,",
+            "timestamp": [
+                17.44,
+                17.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.0,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "gotta",
+            "timestamp": [
+                18.240000000000002,
+                18.56
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                18.56,
+                18.8
+            ]
+        },
+        {
+            "text": "better",
+            "timestamp": [
+                18.8,
+                19.04
+            ]
+        },
+        {
+            "text": "still,",
+            "timestamp": [
+                19.04,
+                19.28
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                19.6,
+                19.68
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                19.68,
+                19.84
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                19.84,
+                20.0
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                20.0,
+                20.16
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                20.16,
+                20.240000000000002
+            ]
+        },
+        {
+            "text": "ought.",
+            "timestamp": [
+                20.240000000000002,
+                20.400000000000002
+            ]
+        }
+    ]
+}

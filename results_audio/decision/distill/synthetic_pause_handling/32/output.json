@@ -1,0 +1,33 @@
+{
+    "text": "You're describing something very",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                15.120000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "describing",
+            "timestamp": [
+                15.44,
+                15.92
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                16.16,
+                16.32
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "You're absolutely right. I do have a bit of.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                9.68,
+                10.08
+            ]
+        },
+        {
+            "text": "absolutely",
+            "timestamp": [
+                10.08,
+                10.88
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "of.",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        }
+    ]
+}

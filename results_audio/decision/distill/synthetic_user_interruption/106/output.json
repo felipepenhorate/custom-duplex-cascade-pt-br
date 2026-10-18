@@ -1,0 +1,334 @@
+{
+    "text": "Ah, you're asking about a quick dinner. Great question. You probably meant Pia. I think you might have meant puppy, not pref. Yeah. Let me help with your quick dinner idea. Here's a fast, easy, and healthy recipe perfect for a busy night. Yuan pan baked chicken.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                17.112000000000002,
+                17.672
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                17.992,
+                18.232
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                18.232,
+                18.552
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                18.552,
+                18.712
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.712,
+                18.792
+            ]
+        },
+        {
+            "text": "quick",
+            "timestamp": [
+                18.792,
+                19.032
+            ]
+        },
+        {
+            "text": "dinner.",
+            "timestamp": [
+                19.032,
+                19.432000000000002
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                19.592,
+                19.912
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                19.912,
+                20.232
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                21.112000000000002,
+                21.352
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                21.352,
+                21.592
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                21.592,
+                21.912
+            ]
+        },
+        {
+            "text": "Pia.",
+            "timestamp": [
+                21.912,
+                22.232
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                22.872,
+                22.951999999999998
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                22.951999999999998,
+                23.112000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                23.112000000000002,
+                23.272
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                23.272,
+                23.432000000000002
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                23.432000000000002,
+                23.512
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                23.512,
+                23.752000000000002
+            ]
+        },
+        {
+            "text": "puppy,",
+            "timestamp": [
+                23.752000000000002,
+                24.392
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                24.712,
+                25.032
+            ]
+        },
+        {
+            "text": "pref.",
+            "timestamp": [
+                25.032,
+                25.592
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                25.832,
+                25.992
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                26.631999999999998,
+                26.792
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                26.792,
+                26.951999999999998
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                26.951999999999998,
+                27.112000000000002
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                27.112000000000002,
+                27.272
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                27.272,
+                27.432000000000002
+            ]
+        },
+        {
+            "text": "quick",
+            "timestamp": [
+                27.432000000000002,
+                27.672
+            ]
+        },
+        {
+            "text": "dinner",
+            "timestamp": [
+                27.672,
+                27.992
+            ]
+        },
+        {
+            "text": "idea.",
+            "timestamp": [
+                27.992,
+                28.392
+            ]
+        },
+        {
+            "text": "Here's",
+            "timestamp": [
+                28.712,
+                29.032
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                29.032,
+                29.192
+            ]
+        },
+        {
+            "text": "fast,",
+            "timestamp": [
+                29.192,
+                29.512
+            ]
+        },
+        {
+            "text": "easy,",
+            "timestamp": [
+                29.672,
+                30.072000000000003
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                30.152,
+                30.392
+            ]
+        },
+        {
+            "text": "healthy",
+            "timestamp": [
+                30.392,
+                30.792
+            ]
+        },
+        {
+            "text": "recipe",
+            "timestamp": [
+                30.792,
+                31.272
+            ]
+        },
+        {
+            "text": "perfect",
+            "timestamp": [
+                31.352,
+                31.752
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                31.752,
+                31.912
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                31.912,
+                31.992
+            ]
+        },
+        {
+            "text": "busy",
+            "timestamp": [
+                31.992,
+                32.312
+            ]
+        },
+        {
+            "text": "night.",
+            "timestamp": [
+                32.312,
+                32.472
+            ]
+        },
+        {
+            "text": "Yuan",
+            "timestamp": [
+                32.712,
+                33.112
+            ]
+        },
+        {
+            "text": "pan",
+            "timestamp": [
+                33.192,
+                33.352000000000004
+            ]
+        },
+        {
+            "text": "baked",
+            "timestamp": [
+                33.432,
+                33.592
+            ]
+        },
+        {
+            "text": "chicken.",
+            "timestamp": [
+                33.592,
+                33.751999999999995
+            ]
+        }
+    ]
+}

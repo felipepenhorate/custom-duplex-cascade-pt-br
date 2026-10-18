@@ -1,0 +1,425 @@
+{
+    "text": "It sounds like you're preparing a meal and need to turn off the oven. Here's how you can do it. 1. Check the oven. Make sure the food is done or close to being done. If it's not ready, you might want to leave it on for a few more minutes. 2. Turn. Press a button labeled off or cancel.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                14.808,
+                15.048
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                15.048,
+                15.448
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                15.448,
+                15.527999999999999
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                15.527999999999999,
+                15.768
+            ]
+        },
+        {
+            "text": "preparing",
+            "timestamp": [
+                15.768,
+                16.168
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.168,
+                16.248
+            ]
+        },
+        {
+            "text": "meal",
+            "timestamp": [
+                16.248,
+                16.648
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                16.648,
+                16.887999999999998
+            ]
+        },
+        {
+            "text": "need",
+            "timestamp": [
+                16.887999999999998,
+                17.048000000000002
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.048000000000002,
+                17.128
+            ]
+        },
+        {
+            "text": "turn",
+            "timestamp": [
+                17.128,
+                17.368
+            ]
+        },
+        {
+            "text": "off",
+            "timestamp": [
+                17.368,
+                17.608
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                17.608,
+                17.688
+            ]
+        },
+        {
+            "text": "oven.",
+            "timestamp": [
+                17.688,
+                18.168
+            ]
+        },
+        {
+            "text": "Here's",
+            "timestamp": [
+                18.488,
+                18.728
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                18.728,
+                18.968
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                18.968,
+                19.048000000000002
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                19.048000000000002,
+                19.208
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                19.208,
+                19.368
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                19.368,
+                19.608
+            ]
+        },
+        {
+            "text": "1.",
+            "timestamp": [
+                19.928,
+                20.247999999999998
+            ]
+        },
+        {
+            "text": "Check",
+            "timestamp": [
+                20.408,
+                20.648
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                20.648,
+                20.808
+            ]
+        },
+        {
+            "text": "oven.",
+            "timestamp": [
+                20.808,
+                21.288
+            ]
+        },
+        {
+            "text": "Make",
+            "timestamp": [
+                21.448,
+                21.608
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                21.608,
+                21.768
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                21.768,
+                21.927999999999997
+            ]
+        },
+        {
+            "text": "food",
+            "timestamp": [
+                21.927999999999997,
+                22.168
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                22.168,
+                22.328
+            ]
+        },
+        {
+            "text": "done",
+            "timestamp": [
+                22.328,
+                22.567999999999998
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                22.567999999999998,
+                22.808
+            ]
+        },
+        {
+            "text": "close",
+            "timestamp": [
+                22.808,
+                23.048000000000002
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                23.048000000000002,
+                23.208
+            ]
+        },
+        {
+            "text": "being",
+            "timestamp": [
+                23.208,
+                23.448
+            ]
+        },
+        {
+            "text": "done.",
+            "timestamp": [
+                23.448,
+                23.608
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                23.848,
+                24.008
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                24.008,
+                24.247999999999998
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                24.247999999999998,
+                24.408
+            ]
+        },
+        {
+            "text": "ready,",
+            "timestamp": [
+                24.408,
+                24.728
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                24.968,
+                25.128
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                25.128,
+                25.288
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                25.288,
+                25.448
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                25.448,
+                25.528
+            ]
+        },
+        {
+            "text": "leave",
+            "timestamp": [
+                25.528,
+                25.688000000000002
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                25.688000000000002,
+                25.848
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                25.848,
+                26.008
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                26.008,
+                26.168
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.168,
+                26.247999999999998
+            ]
+        },
+        {
+            "text": "few",
+            "timestamp": [
+                26.247999999999998,
+                26.408
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                26.408,
+                26.567999999999998
+            ]
+        },
+        {
+            "text": "minutes.",
+            "timestamp": [
+                26.567999999999998,
+                26.887999999999998
+            ]
+        },
+        {
+            "text": "2.",
+            "timestamp": [
+                27.208,
+                27.608
+            ]
+        },
+        {
+            "text": "Turn.",
+            "timestamp": [
+                27.848,
+                28.328
+            ]
+        },
+        {
+            "text": "Press",
+            "timestamp": [
+                28.488,
+                28.808
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                28.808,
+                28.967999999999996
+            ]
+        },
+        {
+            "text": "button",
+            "timestamp": [
+                28.967999999999996,
+                29.368000000000002
+            ]
+        },
+        {
+            "text": "labeled",
+            "timestamp": [
+                29.368000000000002,
+                29.848
+            ]
+        },
+        {
+            "text": "off",
+            "timestamp": [
+                30.008000000000003,
+                30.168
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                30.648000000000003,
+                30.887999999999998
+            ]
+        },
+        {
+            "text": "cancel.",
+            "timestamp": [
+                30.887999999999998,
+                31.368000000000002
+            ]
+        }
+    ]
+}

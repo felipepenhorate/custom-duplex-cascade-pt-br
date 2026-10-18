@@ -1,0 +1,19 @@
+{
+    "text": "It sounds",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                13.52,
+                13.6
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                13.84,
+                14.24
+            ]
+        }
+    ]
+}

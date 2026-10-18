@@ -1,0 +1,61 @@
+{
+    "text": "And seems like we're having a bit of",
+    "chunks": [
+        {
+            "text": "And",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "seems",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "we're",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "having",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                13.200000000000001,
+                13.52
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "text": "Pieu vieux. I'm not in Arizona.",
+    "chunks": [
+        {
+            "text": "Pieu",
+            "timestamp": [
+                12.48,
+                12.96
+            ]
+        },
+        {
+            "text": "vieux.",
+            "timestamp": [
+                12.96,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                13.44,
+                13.6
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                13.6,
+                13.76
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                13.76,
+                13.92
+            ]
+        },
+        {
+            "text": "Arizona.",
+            "timestamp": [
+                13.92,
+                14.4
+            ]
+        }
+    ]
+}

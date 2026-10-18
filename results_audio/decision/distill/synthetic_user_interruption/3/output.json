@@ -1,0 +1,299 @@
+{
+    "text": "You're asking about a meeting scheduled today, and you might have meant liftoff ah. I think you're referring to the word liftoff in the context of a meeting or event. But if you're asking, is there a meeting scheduled today? Then yes.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                14.440000000000001,
+                14.840000000000002
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                14.840000000000002,
+                15.16
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                15.16,
+                15.400000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.400000000000002,
+                15.48
+            ]
+        },
+        {
+            "text": "meeting",
+            "timestamp": [
+                15.48,
+                15.88
+            ]
+        },
+        {
+            "text": "scheduled",
+            "timestamp": [
+                15.88,
+                16.36
+            ]
+        },
+        {
+            "text": "today,",
+            "timestamp": [
+                16.36,
+                16.6
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                16.84,
+                17.0
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.0,
+                17.080000000000002
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                17.080000000000002,
+                17.240000000000002
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                17.240000000000002,
+                17.400000000000002
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                17.400000000000002,
+                17.64
+            ]
+        },
+        {
+            "text": "liftoff",
+            "timestamp": [
+                17.8,
+                18.36
+            ]
+        },
+        {
+            "text": "ah.",
+            "timestamp": [
+                18.44,
+                18.76
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.92,
+                19.080000000000002
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                19.080000000000002,
+                19.240000000000002
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                19.240000000000002,
+                19.560000000000002
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                19.560000000000002,
+                19.96
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                19.96,
+                20.12
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                20.12,
+                20.200000000000003
+            ]
+        },
+        {
+            "text": "word",
+            "timestamp": [
+                20.200000000000003,
+                20.44
+            ]
+        },
+        {
+            "text": "liftoff",
+            "timestamp": [
+                20.44,
+                21.32
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                21.32,
+                21.48
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                21.48,
+                21.64
+            ]
+        },
+        {
+            "text": "context",
+            "timestamp": [
+                21.64,
+                22.04
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                22.04,
+                22.200000000000003
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                22.200000000000003,
+                22.28
+            ]
+        },
+        {
+            "text": "meeting",
+            "timestamp": [
+                22.28,
+                22.76
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                22.76,
+                23.0
+            ]
+        },
+        {
+            "text": "event.",
+            "timestamp": [
+                23.0,
+                23.48
+            ]
+        },
+        {
+            "text": "But",
+            "timestamp": [
+                23.8,
+                23.96
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                23.96,
+                24.12
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                24.12,
+                24.44
+            ]
+        },
+        {
+            "text": "asking,",
+            "timestamp": [
+                24.44,
+                24.840000000000003
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                26.44,
+                26.68
+            ]
+        },
+        {
+            "text": "there",
+            "timestamp": [
+                26.68,
+                26.840000000000003
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.840000000000003,
+                27.0
+            ]
+        },
+        {
+            "text": "meeting",
+            "timestamp": [
+                27.0,
+                27.400000000000002
+            ]
+        },
+        {
+            "text": "scheduled",
+            "timestamp": [
+                27.400000000000002,
+                28.28
+            ]
+        },
+        {
+            "text": "today?",
+            "timestamp": [
+                28.28,
+                28.6
+            ]
+        },
+        {
+            "text": "Then",
+            "timestamp": [
+                29.240000000000002,
+                29.48
+            ]
+        },
+        {
+            "text": "yes.",
+            "timestamp": [
+                29.560000000000002,
+                29.880000000000003
+            ]
+        }
+    ]
+}

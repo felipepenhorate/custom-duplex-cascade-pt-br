@@ -1,0 +1,40 @@
+{
+    "text": "I really appreciate you sharing.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                8.88,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "appreciate",
+            "timestamp": [
+                9.6,
+                10.16
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "sharing.",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        }
+    ]
+}

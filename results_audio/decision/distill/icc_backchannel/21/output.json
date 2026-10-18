@@ -1,0 +1,61 @@
+{
+    "text": "I understand you're trying to express something important.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                16.88,
+                17.04
+            ]
+        },
+        {
+            "text": "understand",
+            "timestamp": [
+                17.04,
+                17.36
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                17.36,
+                17.52
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                17.52,
+                17.68
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.68,
+                17.76
+            ]
+        },
+        {
+            "text": "express",
+            "timestamp": [
+                17.76,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                18.080000000000002,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "important.",
+            "timestamp": [
+                18.32,
+                18.48
+            ]
+        }
+    ]
+}

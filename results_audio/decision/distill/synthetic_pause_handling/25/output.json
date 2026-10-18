@@ -1,0 +1,68 @@
+{
+    "text": "Michael, this weekend is the perfect time to cook.",
+    "chunks": [
+        {
+            "text": "Michael,",
+            "timestamp": [
+                4.88,
+                5.44
+            ]
+        },
+        {
+            "text": "this",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "weekend",
+            "timestamp": [
+                5.76,
+                6.16
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                6.32,
+                6.4
+            ]
+        },
+        {
+            "text": "perfect",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "cook.",
+            "timestamp": [
+                7.04,
+                7.44
+            ]
+        }
+    ]
+}

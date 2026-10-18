@@ -1,0 +1,40 @@
+{
+    "text": "I'm really glad you're considering.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "glad",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                10.72,
+                10.96
+            ]
+        },
+        {
+            "text": "considering.",
+            "timestamp": [
+                10.96,
+                11.28
+            ]
+        }
+    ]
+}

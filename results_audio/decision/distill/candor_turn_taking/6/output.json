@@ -1,0 +1,26 @@
+{
+    "text": "You're still trying.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                16.16,
+                16.56
+            ]
+        },
+        {
+            "text": "still",
+            "timestamp": [
+                16.56,
+                16.88
+            ]
+        },
+        {
+            "text": "trying.",
+            "timestamp": [
+                16.88,
+                17.2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "text": "Hum, is that a plan? Ah, a video. Is it a long one?",
+    "chunks": [
+        {
+            "text": "Hum,",
+            "timestamp": [
+                9.120000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "plan?",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                10.8,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "video.",
+            "timestamp": [
+                11.52,
+                12.0
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "one?",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        }
+    ]
+}

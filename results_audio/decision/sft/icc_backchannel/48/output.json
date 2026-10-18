@@ -1,0 +1,285 @@
+{
+    "text": "Ah no, I don't know. I just know I wasn't listening. I can imagine. Especially at Oof, that's a lot of pressure. Totally. Mosses are full of stories, I suppose. Hum, I can sense a mix of fondness and exasperation.",
+    "chunks": [
+        {
+            "text": "Ah",
+            "timestamp": [
+                8.4,
+                8.88
+            ]
+        },
+        {
+            "text": "no,",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.56,
+                12.64
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "know.",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.280000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                13.6,
+                13.76
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.76,
+                13.92
+            ]
+        },
+        {
+            "text": "wasn't",
+            "timestamp": [
+                13.92,
+                14.24
+            ]
+        },
+        {
+            "text": "listening.",
+            "timestamp": [
+                14.24,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.240000000000002,
+                18.48
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                18.48,
+                18.72
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                18.72,
+                19.44
+            ]
+        },
+        {
+            "text": "Especially",
+            "timestamp": [
+                19.76,
+                20.32
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                20.32,
+                20.56
+            ]
+        },
+        {
+            "text": "Oof,",
+            "timestamp": [
+                22.400000000000002,
+                22.88
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                23.12,
+                23.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                23.36,
+                23.52
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                23.52,
+                23.6
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                23.6,
+                23.76
+            ]
+        },
+        {
+            "text": "pressure.",
+            "timestamp": [
+                23.76,
+                24.64
+            ]
+        },
+        {
+            "text": "Totally.",
+            "timestamp": [
+                26.88,
+                27.44
+            ]
+        },
+        {
+            "text": "Mosses",
+            "timestamp": [
+                27.76,
+                28.240000000000002
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                28.240000000000002,
+                28.32
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                28.32,
+                28.48
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                28.48,
+                28.64
+            ]
+        },
+        {
+            "text": "stories,",
+            "timestamp": [
+                28.64,
+                28.96
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                29.04,
+                29.28
+            ]
+        },
+        {
+            "text": "suppose.",
+            "timestamp": [
+                29.28,
+                29.92
+            ]
+        },
+        {
+            "text": "Hum,",
+            "timestamp": [
+                31.12,
+                31.6
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                31.76,
+                31.92
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                31.92,
+                32.08
+            ]
+        },
+        {
+            "text": "sense",
+            "timestamp": [
+                32.08,
+                32.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                32.32,
+                32.4
+            ]
+        },
+        {
+            "text": "mix",
+            "timestamp": [
+                32.4,
+                32.72
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                32.72,
+                32.88
+            ]
+        },
+        {
+            "text": "fondness",
+            "timestamp": [
+                32.88,
+                33.44
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                33.44,
+                33.6
+            ]
+        },
+        {
+            "text": "exasperation.",
+            "timestamp": [
+                33.6,
+                34.480000000000004
+            ]
+        }
+    ]
+}

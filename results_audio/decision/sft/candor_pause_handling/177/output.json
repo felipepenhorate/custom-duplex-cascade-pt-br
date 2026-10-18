@@ -1,0 +1,103 @@
+{
+    "text": "Ah, I can imagine. Is it hard to break into a more personal vibe?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                10.08,
+                10.48
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                11.120000000000001,
+                11.68
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "hard",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.56,
+                12.64
+            ]
+        },
+        {
+            "text": "break",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        },
+        {
+            "text": "into",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.280000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "personal",
+            "timestamp": [
+                13.6,
+                14.0
+            ]
+        },
+        {
+            "text": "vibe?",
+            "timestamp": [
+                14.0,
+                14.4
+            ]
+        }
+    ]
+}

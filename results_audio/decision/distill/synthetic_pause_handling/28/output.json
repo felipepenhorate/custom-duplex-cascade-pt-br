@@ -1,0 +1,96 @@
+{
+    "text": "I'm here ready to chat. You're not saying much, but I feel it.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "ready",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "chat.",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                10.16,
+                10.48
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "much,",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                11.6,
+                11.92
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        }
+    ]
+}

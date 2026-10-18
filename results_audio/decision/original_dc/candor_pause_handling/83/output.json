@@ -1,0 +1,145 @@
+{
+    "text": "If you're patients, be aware of potential weather changes, especially if you're traveling during winter months when snow and ice.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                7.76,
+                8.08
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "patients,",
+            "timestamp": [
+                8.48,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "aware",
+            "timestamp": [
+                9.44,
+                9.76
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "potential",
+            "timestamp": [
+                9.92,
+                10.4
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "changes,",
+            "timestamp": [
+                10.72,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "especially",
+            "timestamp": [
+                11.52,
+                12.0
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.16,
+                12.56
+            ]
+        },
+        {
+            "text": "traveling",
+            "timestamp": [
+                12.56,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "during",
+            "timestamp": [
+                13.120000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "winter",
+            "timestamp": [
+                13.36,
+                13.68
+            ]
+        },
+        {
+            "text": "months",
+            "timestamp": [
+                13.68,
+                14.0
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                14.0,
+                14.16
+            ]
+        },
+        {
+            "text": "snow",
+            "timestamp": [
+                14.16,
+                14.24
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                14.32,
+                14.4
+            ]
+        },
+        {
+            "text": "ice.",
+            "timestamp": [
+                14.4,
+                14.56
+            ]
+        }
+    ]
+}

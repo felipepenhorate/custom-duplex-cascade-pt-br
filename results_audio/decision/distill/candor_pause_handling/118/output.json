@@ -1,0 +1,40 @@
+{
+    "text": "Thank you for sharing this.",
+    "chunks": [
+        {
+            "text": "Thank",
+            "timestamp": [
+                19.76,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                20.080000000000002,
+                20.240000000000002
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                20.240000000000002,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "sharing",
+            "timestamp": [
+                20.400000000000002,
+                20.8
+            ]
+        },
+        {
+            "text": "this.",
+            "timestamp": [
+                20.8,
+                20.96
+            ]
+        }
+    ]
+}

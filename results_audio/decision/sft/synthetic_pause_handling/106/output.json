@@ -1,0 +1,61 @@
+{
+    "text": "Oh no, I ha okay, be right back.",
+    "chunks": [
+        {
+            "text": "Oh",
+            "timestamp": [
+                2.8000000000000003,
+                3.12
+            ]
+        },
+        {
+            "text": "no,",
+            "timestamp": [
+                3.2,
+                3.44
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                3.52,
+                3.6
+            ]
+        },
+        {
+            "text": "ha",
+            "timestamp": [
+                3.6,
+                3.84
+            ]
+        },
+        {
+            "text": "okay,",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "right",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "back.",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        }
+    ]
+}

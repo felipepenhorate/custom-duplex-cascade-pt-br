@@ -1,0 +1,82 @@
+{
+    "text": "You are clearly on a deep poetic journey, and back down.",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                13.68,
+                13.76
+            ]
+        },
+        {
+            "text": "clearly",
+            "timestamp": [
+                13.92,
+                14.24
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.4,
+                14.48
+            ]
+        },
+        {
+            "text": "deep",
+            "timestamp": [
+                14.48,
+                14.8
+            ]
+        },
+        {
+            "text": "poetic",
+            "timestamp": [
+                14.88,
+                15.36
+            ]
+        },
+        {
+            "text": "journey,",
+            "timestamp": [
+                15.36,
+                15.84
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                16.16,
+                16.4
+            ]
+        },
+        {
+            "text": "back",
+            "timestamp": [
+                16.72,
+                16.88
+            ]
+        },
+        {
+            "text": "down.",
+            "timestamp": [
+                17.04,
+                17.12
+            ]
+        }
+    ]
+}
