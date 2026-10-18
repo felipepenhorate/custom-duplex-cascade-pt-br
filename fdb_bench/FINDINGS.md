@@ -346,6 +346,17 @@ audio (0.519) — but once it does speak its behaviour is the best of the four
 0.612 s, backchannel frequency 0.111 and JSD 0.722 against the published 0.009 /
 0.949).
 
+**Reply language, which the text run could not see the cost of.** The audio
+scorer's ASR is English-only, so a Portuguese reply reaches the relevance judge as
+a pseudo-English transcript. Measured with `output_language.py` (discriminative
+function words plus diacritics): SFT answers in Portuguese for **25.3%** of its
+turns and **33.3%** on the interruption subset, while distillation and the
+companion answer entirely in English (0.000) and the upstream model at 0.004. So
+SFT's interruption relevance of 3.11 against the companion's 4.40 is partly a
+language mismatch rather than a content failure. The split is systematic: SFT is
+trained only on pt-BR duplex data, distillation is anchored to the base model
+everywhere except the tags, and the companion's content comes from the stock model.
+
 Pipeline timing, over 727 scenarios per model: STT 0.08-0.35 s (whisper on short
 utterance buffers is not the bottleneck), pocket-tts 1.1-12 s, the LLM 0.7-8.9 s.
 The ASR cadence still gates everything: the deployed 0.6 s partial interval plus

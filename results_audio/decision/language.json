@@ -1,0 +1,114 @@
+{
+  "audio": {
+    "distill": {
+      "n_turns": 1058,
+      "n_words": 37351,
+      "pt_turns": 0,
+      "en_turns": 903,
+      "unclear_turns": 155,
+      "pt_word_share": 0.0,
+      "pt_turn_share": 0.0,
+      "scenarios_with_pt_share": 0.0,
+      "n_scenarios": 649,
+      "by_subset": {
+        "candor_pause_handling": 0.0,
+        "candor_turn_taking": 0.0,
+        "icc_backchannel": 0.0,
+        "synthetic_pause_handling": 0.0,
+        "synthetic_user_interruption": 0.0
+      }
+    },
+    "mtp_like": {
+      "n_turns": 1633,
+      "n_words": 34319,
+      "pt_turns": 0,
+      "en_turns": 1541,
+      "unclear_turns": 92,
+      "pt_word_share": 0.0,
+      "pt_turn_share": 0.0,
+      "scenarios_with_pt_share": 0.0,
+      "n_scenarios": 693,
+      "by_subset": {
+        "candor_pause_handling": 0.0,
+        "candor_turn_taking": 0.0,
+        "icc_backchannel": 0.0,
+        "synthetic_pause_handling": 0.0,
+        "synthetic_user_interruption": 0.0
+      }
+    },
+    "original_dc": {
+      "n_turns": 798,
+      "n_words": 30027,
+      "pt_turns": 3,
+      "en_turns": 714,
+      "unclear_turns": 81,
+      "pt_word_share": 0.0006,
+      "pt_turn_share": 0.0042,
+      "scenarios_with_pt_share": 0.0076,
+      "n_scenarios": 393,
+      "by_subset": {
+        "candor_pause_handling": 0.009,
+        "candor_turn_taking": 0.0183,
+        "icc_backchannel": 0.0,
+        "synthetic_pause_handling": 0.0,
+        "synthetic_user_interruption": 0.0
+      }
+    },
+    "sft": {
+      "n_turns": 1462,
+      "n_words": 24642,
+      "pt_turns": 324,
+      "en_turns": 955,
+      "unclear_turns": 183,
+      "pt_word_share": 0.2851,
+      "pt_turn_share": 0.2533,
+      "scenarios_with_pt_share": 0.2094,
+      "n_scenarios": 683,
+      "by_subset": {
+        "candor_pause_handling": 0.1763,
+        "candor_turn_taking": 0.2013,
+        "icc_backchannel": 0.1617,
+        "synthetic_pause_handling": 0.3233,
+        "synthetic_user_interruption": 0.3333
+      }
+    }
+  },
+  "text_en": {
+    "distill": {
+      "n_turns": 723,
+      "n_words": 202153,
+      "pt_turns": 203,
+      "en_turns": 518,
+      "unclear_turns": 2,
+      "pt_word_share": 0.1883,
+      "pt_turn_share": 0.2816
+    },
+    "mtp_like": {
+      "n_turns": 727,
+      "n_words": 22171,
+      "pt_turns": 0,
+      "en_turns": 714,
+      "unclear_turns": 13,
+      "pt_word_share": 0.0,
+      "pt_turn_share": 0.0
+    },
+    "original_dc": {
+      "n_turns": 676,
+      "n_words": 57415,
+      "pt_turns": 0,
+      "en_turns": 674,
+      "unclear_turns": 2,
+      "pt_word_share": 0.0,
+      "pt_turn_share": 0.0
+    },
+    "sft": {
+      "n_turns": 683,
+      "n_words": 16233,
+      "pt_turns": 210,
+      "en_turns": 441,
+      "unclear_turns": 32,
+      "pt_word_share": 0.3887,
+      "pt_turn_share": 0.3226
+    }
+  }
+}

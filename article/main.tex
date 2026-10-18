@@ -894,6 +894,179 @@ at full budget for $\lambda{=}1.0$; it does not measure a $\lambda$ sweep at ful
 budget, which is the experiment that would rule out a small-$\lambda$ degradation
 appearing only with longer training.
 
+\section{Real-audio evaluation}
+\label{sec:audio}
+
+Everything up to here measures turn-taking in text: the stimuli are generated
+dialogues and a word rate turns a reply into seconds. Both approximations can be
+removed, so we remove them, and replay the benchmark's own 727 WAVs (3.6\,h of
+real speech) through the deployed speech stack, scoring the audio that comes out
+with the benchmark's own evaluators (\texttt{fdb\_bench/audio/}; design, code and
+caveats in its README).
+
+\paragraph{What the audio path replaces.} The user's speech is the benchmark's
+audio; what the model reads is \texttt{faster-whisper medium} output delivered at
+the deployed service's own cadence (a 0.6\,s partial interval, one beam-5 pass
+when 0.6\,s of silence ends the utterance, \texttt{Eos} at the end of the stream);
+the turn-end invitation comes from silero VAD---the detector the benchmark's own
+scripts run on model output---instead of from an annotation; the reply is
+pocket-tts audio, so every duration gate is measured rather than estimated;
+barge-in truncates real playback; and scoring is upstream's \texttt{eval\_*.py}
+reading \texttt{output.json} from \texttt{parakeet-tdt-0.6b-v2}, upstream's own
+recipe. The only substitution left is the interruption judge, as before.
+
+\paragraph{Three things the real data forced}, each by measurement rather than
+assumption. The protocol's \texttt{<|no voice|>} ticks are load-bearing: with text
+pieces only, the upstream checkpoint never takes the floor at all, answering
+``wait'' at every decision including after turn ends. The deployed 2.0\,s commit
+window is a user-interface setting---it stops the browser's partial-text bubble
+revising a word, and the bridge never feeds partials to the LLM---and it starves a
+duplex loop: partial lag 2.41\,s instead of 1.04\,s, and utterances shorter than
+the window deliver nothing before the turn ends. And the deployed silence gate
+(\texttt{rms} $\ge 0.002$) is calibrated for a microphone whose idle state is
+digital silence, so on real conversation---RMS $0.006$--$0.24$---it calls 94\% of
+a file speech and never fires a turn end; the gate is therefore silero.
+
+\paragraph{The reference model reproduces its published row.}
+Table~\ref{tab:audio_ref} puts the upstream release's published numbers beside the
+same model measured here on real audio with upstream's evaluators. Ten of eleven
+columns land in range, and the reference's ATA is within $0.034$ of its published
+value. That is a much stronger statement than the text-domain check in
+\S\ref{sec:fdb_setup} could make, because the audio path also exercises upstream's
+own ASR, its own duration gates and its own silence handling rather than a port of
+their rules.
+
+\begin{table}[t]
+\centering
+\caption{The upstream release on real FDB v1.0 audio, scored by upstream's own
+evaluators, against its published Table~1 row. Arrows give the good direction.}
+\label{tab:audio_ref}
+\footnotesize
+\begin{tabular}{lcc}
+\toprule
+Metric & Published & This run \\
+\midrule
+Pause TOR\textsubscript{syn} $\downarrow$    & 0.058 & 0.088 \\
+Pause TOR\textsubscript{cand} $\downarrow$   & 0.222 & 0.190 \\
+Backchannel TOR $\downarrow$                 & 0.218 & 0.182 \\
+Backchannel frequency $\uparrow$             & 0.009 & 0.007 \\
+Backchannel JSD $\downarrow$                 & 0.949 & 0.964 \\
+Smooth turn-taking TOR $\uparrow$            & 0.832 & 0.630 \\
+Smooth floor latency (s) $\downarrow$        & 1.724 & 1.483 \\
+Interruption TOR $\uparrow$                  & 0.955 & 0.945 \\
+Interruption relevance $\uparrow$            & 4.016 & 3.667 \\
+Interruption latency (s) $\downarrow$        & 1.225 & 1.457 \\
+\textbf{ATA} $\uparrow$                      & \textbf{0.858} & \textbf{0.824} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Two honest qualifications. The relevance column is judged by the local 9B model
+answering upstream's rubric, not by GPT-4o, so it ranks models rather than
+reproducing an absolute. And smooth turn-taking TOR is the column that does
+\emph{not} reproduce (0.630 against 0.832): it is not a missing invitation---all
+119 scenarios received a turn end---but a failure mode, in all 43 failures the
+model answering ``user is speaking'' at every one of up to twelve silence ticks.
+It locks into a wait pattern on fragmentary real conversation, which the synthetic
+dialogues of \S\ref{sec:fdb_setup} never presented.
+
+\begin{table*}[t]
+\centering
+\caption{The four models on real FDB v1.0 audio (727 scenarios each), scored by
+upstream's evaluators. ``Paper conv.'' is the paper's ATA reconstructed as the
+mean of five oriented TOR columns, backchannel included---it reproduces both
+published rows exactly; ours is the project's four-term convention with its two
+guards (\S\ref{sec:fdb_setup}).}
+\label{tab:audio_ours}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccccc}
+\toprule
+Model & Pause TOR\textsubscript{syn} $\downarrow$ & Pause TOR\textsubscript{cand} $\downarrow$ & BC TOR $\downarrow$ & Smooth TOR $\uparrow$ & Floor lat.\,(s) $\downarrow$ & Intr.\ TOR $\uparrow$ & Intr.\ relevance $\uparrow$ & Intr.\ lat.\,(s) $\downarrow$ & \textbf{ATA} $\uparrow$ \\
+\midrule
+\emph{published DuplexCascade}    & \emph{0.058} & \emph{0.222} & \emph{0.218} & \emph{0.832} & \emph{1.72} & \emph{0.955} & \emph{4.02} & \emph{1.23} & \emph{0.858} \\
+\midrule
+Original DuplexCascade (upstream) & 0.088 & 0.190 & 0.182 & 0.630 & 1.48 & 0.945 & 3.67 & 1.46 & \textbf{0.824} \\
+Self-distillation                 & 0.226 & 0.269 & 0.345 & 0.706 & 3.82 & 0.605 & 1.49 & 2.70 & 0.704 \\
+SFT (original recipe)             & 0.825 & 0.713 & 0.673 & \textbf{0.866} & \textbf{0.33} & 0.930 & 3.11 & \textbf{0.65} & 0.564 \\
+Companion (MTP-style)             & 0.920 & 0.829 & 0.782 & 0.891 & 0.61 & 0.935 & \textbf{4.40} & 1.05 & 0.519 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+
+\paragraph{The text-domain ranking does not survive real audio.} In text all three
+pt-BR variants beat the upstream model (ATA 0.986/0.984/0.924 against 0.951); on
+audio all three lose to it, and the text-domain winner---the companion---is the
+worst of the four (Table~\ref{tab:audio_ours}). The cause is the invitation, and
+it is visible only once the two harnesses are compared per invitation rather than
+per scenario (Table~\ref{tab:audio_inv}). In text an invitation is the annotated
+turn end of a clean transcript; in audio it is silero firing on a real
+conversation gap, 3.7 per scenario and mostly mid-turn, where the user's last
+words are fragments. The upstream English model reads those as incomplete and
+waits---it takes the floor at 7.9\% of audio invitations and 11.9\% of text
+ones---while the pt-BR models jump from about 8.6\% in text to 29--44\% in audio.
+In a language they were never tuned for, they cannot tell an unfinished turn from
+a finished one, so they claim the floor at every second or third gap. Their
+scenario-level pause numbers are therefore not the same quantity as the
+text-domain ones, and the audio numbers are the trustworthy ones.
+
+\paragraph{The companion inverts.} It is the most eager at English
+conversation gaps (pause TOR 0.920/0.829) and simultaneously the best at what it
+says once it takes the floor: interruption relevance 4.40 against the published
+4.016, floor latency 0.61\,s against the published 1.72\,s, and the only model
+whose backchannel behaviour the metric rewards (frequency 0.111, JSD 0.722,
+against 0.009/0.949 published). That is the architecture's claim showing up in the
+audio---a dedicated timing head, an untouched content model---with the timing head
+transferring badly to English and the content model not having to.
+
+\paragraph{Language of the reply.} The audio run adds a constraint the text run did
+not have: the scorer's ASR is English-only, so a Portuguese reply reaches the
+relevance judge as a pseudo-English transcript. Measuring it
+(\texttt{output\_language.py}: discriminative function words plus diacritics)
+explains a column that would otherwise look like a content failure. SFT answers in
+Portuguese for 25\% of its turns, and for 33\% on the interruption subset, while
+distillation and the companion answer entirely in English
+(Table~\ref{tab:audio_lang}). SFT's interruption relevance of 3.11 against the
+companion's 4.40 is partly that: a third of its replies are in the wrong language
+for the judge. The split is systematic rather than accidental---SFT is trained only
+on pt-BR duplex data, whereas distillation is anchored to the base model
+everywhere except the tags, and the companion's content comes from the stock model.
+
+\begin{table}[t]
+\centering
+\caption{Invitations and reply language on real audio. ``P(floor)'' is the
+probability of taking the floor given an invitation---the per-scenario TOR of
+Tables~\ref{tab:fdb2} and~\ref{tab:audio_ours} is that rate times the number of
+invitations, which is why the two harnesses cannot be compared on the scenario
+figure alone. The language columns are the share of assistant turns classified as
+Portuguese.}
+\label{tab:audio_inv}
+\footnotesize
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+Model & P(floor) text & P(floor) audio & PT turns & PT turns (intr.) \\
+\midrule
+Original DuplexCascade (upstream) & 0.119 & \textbf{0.079} & 0.004 & 0.000 \\
+Self-distillation                 & 0.081 & 0.294 & 0.000 & 0.000 \\
+SFT (original recipe)             & 0.086 & 0.397 & 0.253 & 0.333 \\
+Companion (MTP-style)             & 0.086 & 0.441 & 0.000 & 0.000 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\paragraph{Caveats.} These rows are a pipeline measurement, not a live session:
+response latency excludes network jitter and audio-device buffering, one seed per
+configuration, and the audio run is English-only because the benchmark is, so the
+pt-BR models are measured cross-lingually. Replies that begin after the input ends
+are audible here only because the render carries a 4\,s tail---upstream's own
+outputs are exactly input-length---and the trace keeps both readings
+(\texttt{spoke} versus \texttt{audible\_within\_input}); 2.8\% of the upstream's
+replies and 5.9--16.8\% of the pt-BR models' fall into that class, which is the
+deployed cadence's cost rather than the models'.
+
 \section{Discussion and Limitations}
 \label{sec:discussion}
 
