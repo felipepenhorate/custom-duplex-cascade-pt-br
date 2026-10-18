@@ -48,14 +48,37 @@ most.
 
 ### A note on `ATA`
 
-FDB's released code does not implement "Averaged Turn-Taking Accuracy" — the
-paper defines no such function. Both the published ATA and ours are therefore
-conventions, not a shared estimator. Ours averages the four headline TORs
-oriented so higher is better, with two guards (see
-`metrics.averaged_turn_taking_accuracy`): an unmeasured interruption scores 0
-rather than being dropped, and pause credit is only granted when the model
-demonstrably takes the floor elsewhere — otherwise a model that never speaks
-would score 0.667 while being useless.
+FDB's released code does not implement "Averaged Turn-Taking Accuracy" and the
+paper defines no such function, so the column is only knowable by
+reconstruction. It is the **mean of five oriented TOR columns, backchannel
+included**:
+
+    ATA_paper = mean(1 - pause_synth, 1 - pause_candor, 1 - bc_tor,
+                     smooth_tor, intr_tor)
+
+That reproduces both published rows to three decimals: DuplexCascade 0.8578
+against a published 0.858, DuplexCascade-β 0.7478 against 0.748. Two independent
+rows matching is what makes the reconstruction conclusive rather than plausible.
+
+**What this project's ATA does differently** (`metrics.averaged_turn_taking_accuracy`):
+
+1. **Backchannel is excluded** — four terms, not five. In the text-domain bench
+   the column is uninformative (the models were never trained to backchannel:
+   `system_backchannel` occurs 0 times in 10,249 training sequences), so folding
+   it into a headline number would add noise to a ranking it cannot inform. On
+   the audio rows the column *is* measurable and the difference is small:
+   original 0.824 (4-term) vs 0.823 (5-term), distill 0.704 vs 0.694, SFT 0.564
+   vs 0.517. Applying the paper's convention to the published row under *our*
+   convention's terms gives 0.8768, so the two conventions sit ~0.02 apart on
+   that row.
+2. **Two guards, which are not a convention question but a scoring hole.** Under
+   either mean, a model that never speaks scores well for free: the 4-term mean
+   gives it 0.667 and the 5-term one 0.600, because staying silent is *correct*
+   on the two pause columns and on backchannel. Ours therefore scores an
+   unmeasured interruption as 0 rather than dropping it, and grants pause credit
+   only when `smooth_tor >= 0.5` — below that the score collapses to `smooth_tor`.
+   The untrained control lands at 0.000 under this convention, which is the
+   point of it.
 
 ## 2. The upstream checkpoint (downloadable, gated)
 

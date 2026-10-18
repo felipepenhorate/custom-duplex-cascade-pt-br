@@ -99,6 +99,23 @@ def ata_audio(off: dict) -> float:
         return float("nan")
 
 
+def ata_paper(off: dict) -> float:
+    """ATA as reconstructed from the published rows (five terms, backchannel in).
+
+    ``REFERENCE.md`` ("A note on ATA") shows this reproduces both published rows
+    to three decimals; it is reported next to our own convention so the two are
+    never confused.
+    """
+    try:
+        return round(((1 - off["synthetic_pause_handling"]["tor"])
+                      + (1 - off["candor_pause_handling"]["tor"])
+                      + (1 - off["icc_backchannel"]["tor"])
+                      + off["candor_turn_taking"]["tor"]
+                      + off["synthetic_user_interruption"]["tor"]) / 5, 3)
+    except Exception:  # noqa: BLE001
+        return float("nan")
+
+
 def text_rows(path: Path) -> dict[str, dict]:
     """Rows from the text-domain bench (results/<lang>/summary.json)."""
     if not path.is_file():
@@ -125,23 +142,23 @@ def tor_section(rows: dict[str, dict], text: dict[str, dict],
          "The same five columns the benchmark reports TOR for. Arrow = the good "
          "direction; pause and backchannel rate a model that speaks too eagerly, "
          "smooth turn-taking and interruption rate a model that answers.\n",
-         "| run | model | pause_synth ↓ | pause_candor ↓ | bc_tor ↓ | smooth_tor ↑ | intr_tor ↑ | ATA ↑ |",
-         "|---|---|---|---|---|---|---|---|",
-         "| *published* | *DuplexCascade (EN audio, GPT-4o)* | *0.058* | *0.222* | *0.218* | *0.832* | *0.955* | *0.858* |"]
+         "| run | model | pause_synth ↓ | pause_candor ↓ | bc_tor ↓ | smooth_tor ↑ | intr_tor ↑ | ATA ↑ (ours) | ATA (paper conv.) |",
+         "|---|---|---|---|---|---|---|---|---|",
+         "| *published* | *DuplexCascade (EN audio, GPT-4o)* | *0.058* | *0.222* | *0.218* | *0.832* | *0.955* | *0.858* | *0.858* (0.877 ours)* |"]
     for m, r in rows.items():
         off = r.get("_official") or {}
         ata_v = ata_audio(off) if off else None
         L.append(f"| audio (real WAVs, official evaluators) | {LABELS.get(m, m)} | "
                  + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS)
-                 + f" | {fmt(ata_v)} |")
+                 + f" | {fmt(ata_v)} | {fmt(ata_paper(off)) if off else '—'} |")
     for m, r in partials.items():
         L.append(f"| audio (in progress, audio-truth reading) | {LABELS.get(m, m)} "
                  f"({r['n']}/727 scenarios) | "
-                 + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS) + " | — |")
+                 + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS) + " | — | — |")
     for m, r in text.items():
         L.append(f"| text (synthetic stimuli, en) | {LABELS.get(m, m)} | "
                  + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS)
-                 + f" | {fmt(r.get('ata'))} |")
+                 + f" | {fmt(r.get('ata'))} | — |")
     L.append("")
     L.append("Reading the two runs side by side: the text bench feeds clean "
              "transcripts and knows where turns end, so it flatters every model; "
