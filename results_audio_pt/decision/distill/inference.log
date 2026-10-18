@@ -44,3 +44,31 @@ WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EO
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
 WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "o"s — ...'
 WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'it looks like you've sent a very long string of "o...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: ', até a próxima! 😊✨ (Se quiser continuar a convers...'
+WARNING:pocket_tts.models.tts_model:Chunk has 57 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "e" cha...'
+[audio/distill] 125/727 queue (15.6s/scenario, 9.4s audio) spoke=False pieces=14
+WARNING:pocket_tts.models.tts_model:Chunk has 76 tokens (max 50), generation may skip words: '혹시 질문이나 도움이 필요하시면 언제든지 알려주세요!...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '🤗 You might be referring to something playful or c...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "o"s — ...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 60 tokens (max 50), generation may skip words: 'It looks like you've sent a long string of "o"s — ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 64 tokens (max 50), generation may skip words: '💫 You're absolutely right — there should be a "fai...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "o"s — ...'
+[audio/distill] 150/727 queue (16.1s/scenario, 12.0s audio) spoke=True pieces=5
+WARNING:pocket_tts.models.tts_model:Chunk has 79 tokens (max 50), generation may skip words: '당신의 메시지가 너무 길어서 읽기 어렵습니다 😊 혹시 Hello!...'
+WARNING:pocket_tts.models.tts_model:Chunk has 63 tokens (max 50), generation may skip words: '혹시 질문이나 도움이 필요하시면 알려주세요!...'
+WARNING:pocket_tts.models.tts_model:Chunk has 63 tokens (max 50), generation may skip words: '😊 (혹시 'Pf' 가 특정한 의미를 가지고 있거나,...'
+WARNING:pocket_tts.models.tts_model:Chunk has 196 tokens (max 50), generation may skip words: '당신 چه گفتید؟ 😊 (متن شما بسیار ط " F " — یا "P"؟ 😄 ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '😄 혹시 'P' 또는 'L'을 말씀하신 건가요?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 90 tokens (max 50), generation may skip words: '그때에 함께했던 학교가 만약 우리가 있었으면… 어떤 모습이었을....'
+WARNING:pocket_tts.models.tts_model:Chunk has 78 tokens (max 50), generation may skip words: '너무 많이 입력하셨네요 😄 필요하시면 조금 조정하거나,...'
+[audio/distill] 175/727 queue (17.9s/scenario, 12.6s audio) spoke=False pieces=10
+WARNING:pocket_tts.models.tts_model:Chunk has 111 tokens (max 50), generation may skip words: '(혹시 질문이 있으면 "Peace" 라고 하셨네요 🌍✨ 지금 어떤 마음을 느끼고 계신가요?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 84 tokens (max 50), generation may skip words: '편안함 등) 혹시 'Peace' 에 대해 더 깊이 이야기하고 싶으신가요?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "o"s — ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: '! 🌟 "Tchau! " — you’re saying goodbye in a fun, en...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "o"s — ...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/distill] 200/727 queue (19.1s/scenario, 10.9s audio) spoke=False pieces=14
+WARNING:pocket_tts.models.tts_model:Chunk has 120 tokens (max 50), generation may skip words: ') (혹시 "FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII...'

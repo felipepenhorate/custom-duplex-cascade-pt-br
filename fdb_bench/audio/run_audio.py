@@ -164,6 +164,10 @@ def main() -> None:
     ap.add_argument("--big-api-base", default=None)
     ap.add_argument("--judge-api-base", default="http://127.0.0.1:8099/v1")
     ap.add_argument("--prompt-candidate", default=None)
+    ap.add_argument("--system-override", default=None,
+                    help="replace the model's system prompt entirely (used to "
+                         "measure whether pinning the reply language fixes a "
+                         "model that code-switches)")
     ap.add_argument("--device", default="cuda")
     # STT / VAD
     ap.add_argument("--whisper-model", default="medium")
@@ -208,6 +212,7 @@ def main() -> None:
             args.model, api_base=args.api_base, big_api_base=args.big_api_base,
             device=args.device, prime_mode=args.mode, lang=args.lang,
             prompt_candidate=args.prompt_candidate,
+            system_override=args.system_override,
         )
         from faster_whisper import WhisperModel
 

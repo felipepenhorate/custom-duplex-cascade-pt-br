@@ -346,6 +346,29 @@ audio (0.519) — but once it does speak its behaviour is the best of the four
 0.612 s, backchannel frequency 0.111 and JSD 0.722 against the published 0.009 /
 0.949).
 
+**Why distillation code-switches, and why a system prompt is not the fix.**
+Dictated by a user question: could an English system prompt be making the
+distilled model answer in English? No. Verified directly -- with the primary
+prompt candidate ("none") *every* model in the audio runs saw a system prompt of
+zero characters, in both languages, which is the training distribution
+(`data/duplex_train*.jsonl` carries no system message). Under that byte-identical
+condition SFT answers 100% Portuguese on pt-BR audio while distillation answers
+41%, so the difference is the models' own decoding language, not the prompt: the
+distillation objective is anchored to the English-dominant base at every non-tag
+position, so it inherits the base's language bias, while plain SFT has no anchor
+and stays pt-BR.
+
+Adding a language instruction is not a viable remedy either, and the attempt is
+worth recording as a negative result. Running distillation on 20 interruption
+scenarios with `--system-override "Responda sempre em portugues brasileiro..."`:
+it produced **one** assistant turn across all 20, where it normally takes the
+floor in 95% of them. A system prompt is out of distribution for models trained
+without one, so pinning the language that way costs the protocol itself. The
+practical options are therefore to use SFT (100% Portuguese) or the companion
+where reply language matters, to treat distillation's drift as intrinsic to its
+anchoring objective, or to constrain the language downstream of the model rather
+than in its prompt.
+
 **Reply language, which the text run could not see the cost of.** The audio
 scorer's ASR is English-only, so a Portuguese reply reaches the relevance judge as
 a pseudo-English transcript. Measured with `output_language.py` (discriminative

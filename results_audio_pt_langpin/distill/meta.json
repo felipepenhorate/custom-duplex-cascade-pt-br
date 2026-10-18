@@ -1,0 +1,9 @@
+{
+  "model": "distill",
+  "mode": "decision",
+  "n_scenarios": 20,
+  "limit": 20,
+  "tasks": [
+    "synthetic_user_interruption"
+  ]
+}
