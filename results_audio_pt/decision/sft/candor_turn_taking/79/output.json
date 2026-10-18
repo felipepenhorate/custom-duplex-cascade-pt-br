@@ -1,0 +1,201 @@
+{
+    "text": "Ah, so far, I can't find a lot of real data. Or at least, not in a format I can use. Is it just a lot of text?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                5.36,
+                5.76
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "far,",
+            "timestamp": [
+                6.08,
+                6.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                6.640000000000001,
+                6.96
+            ]
+        },
+        {
+            "text": "find",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                7.28,
+                7.36
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "real",
+            "timestamp": [
+                7.5200000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "data.",
+            "timestamp": [
+                7.76,
+                8.08
+            ]
+        },
+        {
+            "text": "Or",
+            "timestamp": [
+                8.4,
+                8.48
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "least,",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "format",
+            "timestamp": [
+                9.6,
+                9.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "use.",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "text?",
+            "timestamp": [
+                11.84,
+                12.4
+            ]
+        }
+    ]
+}

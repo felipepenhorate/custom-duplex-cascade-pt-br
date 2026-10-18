@@ -1,0 +1,96 @@
+{
+    "text": "Em, I've heard of it, but I don't know much. Is it safe?",
+    "chunks": [
+        {
+            "text": "Em,",
+            "timestamp": [
+                9.120000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "I've",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "heard",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "it,",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "much.",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "safe?",
+            "timestamp": [
+                12.16,
+                12.64
+            ]
+        }
+    ]
+}

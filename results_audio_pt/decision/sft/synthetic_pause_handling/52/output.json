@@ -1,0 +1,82 @@
+{
+    "text": "Is that a recent Olympic or casual? Depends on my mood.",
+    "chunks": [
+        {
+            "text": "Is",
+            "timestamp": [
+                2.96,
+                3.2
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                3.2,
+                3.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                3.36,
+                3.52
+            ]
+        },
+        {
+            "text": "recent",
+            "timestamp": [
+                3.52,
+                3.84
+            ]
+        },
+        {
+            "text": "Olympic",
+            "timestamp": [
+                9.52,
+                10.32
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "casual?",
+            "timestamp": [
+                10.64,
+                11.28
+            ]
+        },
+        {
+            "text": "Depends",
+            "timestamp": [
+                11.76,
+                12.32
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "mood.",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        }
+    ]
+}

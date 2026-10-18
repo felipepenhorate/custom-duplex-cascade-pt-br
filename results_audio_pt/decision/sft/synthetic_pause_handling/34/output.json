@@ -1,0 +1,33 @@
+{
+    "text": "Temporo sim temporo sim",
+    "chunks": [
+        {
+            "text": "Temporo",
+            "timestamp": [
+                9.68,
+                10.24
+            ]
+        },
+        {
+            "text": "sim",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "temporo",
+            "timestamp": [
+                11.040000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "sim",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        }
+    ]
+}

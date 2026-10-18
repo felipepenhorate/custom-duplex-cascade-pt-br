@@ -1,12 +1,28 @@
 [audio] 727 scenarios across 5 subsets
 [audio] tts voice=rafael language=portuguese
-[0;93m2026-10-18 12:48:18.585282883 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
-[audio/sft] 1/727 queue (14.5s/scenario, 27.0s audio) spoke=True pieces=29
-[audio/sft] 2/727 queue (10.1s/scenario, 9.6s audio) spoke=True pieces=13
-[audio/sft] 3/727 queue (7.8s/scenario, 11.5s audio) spoke=True pieces=18
-[audio/sft] 25/727 queue (10.9s/scenario, 13.1s audio) spoke=False pieces=14
-[audio/sft] 50/727 queue (11.6s/scenario, 8.3s audio) spoke=False pieces=16
-[audio/sft] 75/727 queue (10.2s/scenario, 27.0s audio) spoke=True pieces=15
-[audio/sft] 100/727 queue (10.5s/scenario, 28.8s audio) spoke=False pieces=16
-[audio/sft] 125/727 queue (10.5s/scenario, 9.4s audio) spoke=False pieces=14
-[audio/sft] 150/727 queue (10.1s/scenario, 12.0s audio) spoke=False pieces=5
+[0;93m2026-10-18 17:18:33.915704611 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[audio/sft] 175/727 queue (0.7s/scenario, 12.6s audio) spoke=True pieces=10
+[audio/sft] 200/727 queue (1.9s/scenario, 10.9s audio) spoke=True pieces=14
+[audio/sft] 225/727 queue (2.8s/scenario, 8.7s audio) spoke=False pieces=25
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/sft] 250/727 queue (3.6s/scenario, 9.6s audio) spoke=False pieces=11
+[audio/sft] 275/727 queue (4.3s/scenario, 7.0s audio) spoke=True pieces=7
+[audio/sft] 300/727 queue (4.7s/scenario, 7.2s audio) spoke=False pieces=5
+[audio/sft] 325/727 queue (4.9s/scenario, 7.2s audio) spoke=True pieces=7
+[audio/sft] 350/727 queue (5.3s/scenario, 10.6s audio) spoke=True pieces=13
+[audio/sft] 375/727 queue (5.3s/scenario, 9.9s audio) spoke=False pieces=14
+[audio/sft] 400/727 queue (5.9s/scenario, 17.0s audio) spoke=False pieces=11
+[audio/sft] 425/727 queue (5.9s/scenario, 10.8s audio) spoke=False pieces=14
+[audio/sft] 450/727 queue (6.2s/scenario, 11.7s audio) spoke=False pieces=14
+[audio/sft] 475/727 queue (6.5s/scenario, 44.7s audio) spoke=True pieces=65
+[audio/sft] 500/727 queue (7.9s/scenario, 62.0s audio) spoke=False pieces=31
+[audio/sft] 525/727 queue (9.0s/scenario, 22.5s audio) spoke=False pieces=15
+[audio/sft] 550/727 queue (9.5s/scenario, 29.7s audio) spoke=False pieces=27
+[audio/sft] 575/727 queue (9.6s/scenario, 26.3s audio) spoke=False pieces=27
+[audio/sft] 600/727 queue (9.9s/scenario, 27.8s audio) spoke=False pieces=15
+[audio/sft] 625/727 queue (10.0s/scenario, 28.8s audio) spoke=False pieces=14
+[audio/sft] 650/727 queue (10.2s/scenario, 28.5s audio) spoke=False pieces=14
+[audio/sft] 675/727 queue (10.4s/scenario, 29.5s audio) spoke=False pieces=27
+[audio/sft] 700/727 queue (10.3s/scenario, 28.1s audio) spoke=True pieces=14
+[audio/sft] 725/727 queue (10.5s/scenario, 28.3s audio) spoke=False pieces=28
+[audio] done -> /home/penhfel/github/custom-duplex-cascade-pt-br/results_audio_pt/decision/sft

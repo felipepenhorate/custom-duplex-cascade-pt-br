@@ -1,0 +1,82 @@
+{
+    "text": "Ah, I can see. Is it just a lot of rep",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                5.04,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.76,
+                6.0
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                6.0,
+                6.24
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.2,
+                7.28
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                7.44,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "rep",
+            "timestamp": [
+                7.5200000000000005,
+                7.6000000000000005
+            ]
+        }
+    ]
+}

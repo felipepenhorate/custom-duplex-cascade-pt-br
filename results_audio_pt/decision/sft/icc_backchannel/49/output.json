@@ -1,0 +1,159 @@
+{
+    "text": "Ah, delivery. I can imagine. Is it a long time? So it's a long delivery or a long time to be awake?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                16.56,
+                17.04
+            ]
+        },
+        {
+            "text": "delivery.",
+            "timestamp": [
+                17.2,
+                17.76
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.0,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                18.080000000000002,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                18.240000000000002,
+                18.72
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                18.96,
+                19.12
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                19.12,
+                19.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.28,
+                19.52
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                19.52,
+                19.84
+            ]
+        },
+        {
+            "text": "time?",
+            "timestamp": [
+                19.84,
+                20.0
+            ]
+        },
+        {
+            "text": "So",
+            "timestamp": [
+                21.28,
+                21.36
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                21.44,
+                21.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.6,
+                21.68
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                21.68,
+                21.92
+            ]
+        },
+        {
+            "text": "delivery",
+            "timestamp": [
+                21.92,
+                22.32
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                22.400000000000002,
+                22.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                22.56,
+                22.64
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                22.64,
+                22.8
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                22.8,
+                22.96
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                22.96,
+                23.12
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                23.12,
+                23.2
+            ]
+        },
+        {
+            "text": "awake?",
+            "timestamp": [
+                23.2,
+                23.92
+            ]
+        }
+    ]
+}

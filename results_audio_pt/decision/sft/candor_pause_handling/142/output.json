@@ -1,0 +1,103 @@
+{
+    "text": "No, I just got to it. Uh, I can use that. Is it free?",
+    "chunks": [
+        {
+            "text": "No,",
+            "timestamp": [
+                2.64,
+                2.88
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                3.04,
+                3.12
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                3.12,
+                3.36
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                3.36,
+                3.68
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                3.68,
+                4.0
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                4.0,
+                4.24
+            ]
+        },
+        {
+            "text": "Uh,",
+            "timestamp": [
+                12.72,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "use",
+            "timestamp": [
+                13.6,
+                13.84
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                13.84,
+                14.08
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                14.4,
+                14.56
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                14.56,
+                14.8
+            ]
+        },
+        {
+            "text": "free?",
+            "timestamp": [
+                14.8,
+                15.280000000000001
+            ]
+        }
+    ]
+}

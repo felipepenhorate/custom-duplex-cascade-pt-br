@@ -1,0 +1,46 @@
+[audio] 727 scenarios across 5 subsets
+[audio] tts voice=rafael language=portuguese
+[0;93m2026-10-18 19:33:22.447780997 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+WARNING:pocket_tts.models.tts_model:Chunk has 127 tokens (max 50), generation may skip words: '😄 혹시 'Pf'가 어떤 맥락에서 사용되신지 모르겠어요 예를 들어서 말씀해 주실 수 있으신...'
+WARNING:pocket_tts.models.tts_model:Chunk has 94 tokens (max 50), generation may skip words: '어떤 상황에서 비꼬거나 흥미로움을 표현할 때 사용되는 말이에요 예:...'
+[audio/distill] 1/727 queue (21.6s/scenario, 27.0s audio) spoke=True pieces=29
+[audio/distill] 2/727 queue (17.2s/scenario, 9.6s audio) spoke=False pieces=13
+[audio/distill] 3/727 queue (13.3s/scenario, 11.5s audio) spoke=False pieces=18
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "o"s — ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 53 tokens (max 50), generation may skip words: '😊 It looks like you're using a lot of "á" characte...'
+WARNING:pocket_tts.models.tts_model:Chunk has 196 tokens (max 50), generation may skip words: '당신 چه گفتید؟ 😊 (متن شما بسیار ط " F " — یا "P"؟ 😄 ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 63 tokens (max 50), generation may skip words: 'یا "P" بوده، ولی این یه موقع خوب است!...'
+WARNING:pocket_tts.models.tts_model:Chunk has 101 tokens (max 50), generation may skip words: 'می‌تونه یه سوال ی " P " — چه گفتید؟ 😊 فکر می‌کنم ک...'
+WARNING:pocket_tts.models.tts_model:Chunk has 91 tokens (max 50), generation may skip words: '당신 چه گفتید؟ 😊 (متن شما بسیار ط " F " — چه گفتید؟ ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 114 tokens (max 50), generation may skip words: 'فکر می‌کنم که "P" یا "F" دقیق و واضح باشد، ولی این...'
+WARNING:pocket_tts.models.tts_model:Chunk has 97 tokens (max 50), generation may skip words: 'می‌تونه یه سوال یا گفتگو داشته باشید (پس چه گفتید؟...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "o"s — ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 70 tokens (max 50), generation may skip words: 'playful farewell ❤️💛 You’re not just saying “Love”...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 90 tokens (max 50), generation may skip words: '" — you’ve left with warmth 💖 You’re still whisper...'
+[audio/distill] 25/727 queue (16.4s/scenario, 13.1s audio) spoke=True pieces=14
+WARNING:pocket_tts.models.tts_model:Chunk has 79 tokens (max 50), generation may skip words: '당신의 메시지가 너무 길어서 읽기 어렵습니다 😊 혹시 Hello!...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "o"s — ...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 93 tokens (max 50), generation may skip words: '당신 چه گفتید؟ 😊 (متن شما بسیار ط " F " — یا "P"؟ 😄 ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 87 tokens (max 50), generation may skip words: '당신 چه گفتید؟ 😊 متن شما بسیار طول " P " — چطور؟ 😊...'
+WARNING:pocket_tts.models.tts_model:Chunk has 56 tokens (max 50), generation may skip words: '당신 چه گفتید؟ 😊 متن شما بسیار....'
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: '😄 It looks like you've pasted a long string of "e"...'
+WARNING:pocket_tts.models.tts_model:Chunk has 61 tokens (max 50), generation may skip words: '이건 "E"가 7개 나열된 걸 보여주신데요 � 앗!...'
+WARNING:pocket_tts.models.tts_model:Chunk has 75 tokens (max 50), generation may skip words: '😊 혹시 'P'로 시작하는 문장이나 이야기를 원하시나요?...'
+[audio/distill] 50/727 queue (16.6s/scenario, 8.3s audio) spoke=False pieces=16
+WARNING:pocket_tts.models.tts_model:Chunk has 62 tokens (max 50), generation may skip words: '당신의 메시지가 너무 길어요 😊 혹시 "Nééé Hello!...'
+WARNING:pocket_tts.models.tts_model:Chunk has 57 tokens (max 50), generation may skip words: 'it looks like you've pasted a long string of "e" c...'
+WARNING:pocket_tts.models.tts_model:Chunk has 56 tokens (max 50), generation may skip words: '🎉 You've sent a long string of e's — it's like a d...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "o"s — ...'
+[audio/distill] 75/727 queue (15.0s/scenario, 27.0s audio) spoke=False pieces=15
+WARNING:pocket_tts.models.tts_model:Chunk has 57 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "e" cha...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '😄 It looks like you've sent a long string of "e" c...'
+WARNING:pocket_tts.models.tts_model:Chunk has 96 tokens (max 50), generation may skip words: '"Amara"는 한국어로 "아마라(아마라)"를 의미할 수 🫠 (눈물이 흐르며 웃음)...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: '😄 It looks like you've sent a long string of "e" —...'
+[audio/distill] 100/727 queue (15.3s/scenario, 28.8s audio) spoke=False pieces=16
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'it looks like you've sent a long string of "o"s — ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'it looks like you've sent a very long string of "o...'

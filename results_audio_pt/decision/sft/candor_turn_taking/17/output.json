@@ -1,0 +1,96 @@
+{
+    "text": "I just got to a hotel. I think I'll chill out a bit.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                6.16,
+                6.4
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                6.4,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                6.640000000000001,
+                6.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.8,
+                6.88
+            ]
+        },
+        {
+            "text": "hotel.",
+            "timestamp": [
+                6.88,
+                7.36
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "I'll",
+            "timestamp": [
+                7.92,
+                8.16
+            ]
+        },
+        {
+            "text": "chill",
+            "timestamp": [
+                8.16,
+                8.48
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "bit.",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        }
+    ]
+}

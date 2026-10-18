@@ -1,0 +1,75 @@
+{
+    "text": "Nah, not at all. I just tried to be honest.",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                8.32,
+                8.72
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "all.",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "tried",
+            "timestamp": [
+                10.32,
+                10.72
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "honest.",
+            "timestamp": [
+                11.040000000000001,
+                12.0
+            ]
+        }
+    ]
+}

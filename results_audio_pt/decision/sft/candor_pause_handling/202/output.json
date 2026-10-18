@@ -1,0 +1,173 @@
+{
+    "text": "Ouch, that must seem like a lot to manage. I can imagine it's a tricky process. For mental health, sometimes a break is crucial.",
+    "chunks": [
+        {
+            "text": "Ouch,",
+            "timestamp": [
+                20.64,
+                21.12
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                21.44,
+                21.68
+            ]
+        },
+        {
+            "text": "must",
+            "timestamp": [
+                21.68,
+                22.0
+            ]
+        },
+        {
+            "text": "seem",
+            "timestamp": [
+                27.12,
+                27.44
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                27.6,
+                27.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                27.76,
+                28.0
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                28.0,
+                28.32
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                28.32,
+                28.64
+            ]
+        },
+        {
+            "text": "manage.",
+            "timestamp": [
+                28.64,
+                29.28
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                37.6,
+                37.84
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                37.84,
+                38.08
+            ]
+        },
+        {
+            "text": "imagine",
+            "timestamp": [
+                38.08,
+                38.56
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                38.64,
+                38.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                38.96,
+                39.12
+            ]
+        },
+        {
+            "text": "tricky",
+            "timestamp": [
+                39.12,
+                39.92
+            ]
+        },
+        {
+            "text": "process.",
+            "timestamp": [
+                39.92,
+                40.56
+            ]
+        },
+        {
+            "text": "For",
+            "timestamp": [
+                42.4,
+                42.72
+            ]
+        },
+        {
+            "text": "mental",
+            "timestamp": [
+                42.72,
+                43.12
+            ]
+        },
+        {
+            "text": "health,",
+            "timestamp": [
+                43.12,
+                43.52
+            ]
+        },
+        {
+            "text": "sometimes",
+            "timestamp": [
+                43.76,
+                44.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                44.24,
+                44.32
+            ]
+        },
+        {
+            "text": "break",
+            "timestamp": [
+                44.32,
+                44.64
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                44.64,
+                44.800000000000004
+            ]
+        },
+        {
+            "text": "crucial.",
+            "timestamp": [
+                44.800000000000004,
+                45.44
+            ]
+        }
+    ]
+}

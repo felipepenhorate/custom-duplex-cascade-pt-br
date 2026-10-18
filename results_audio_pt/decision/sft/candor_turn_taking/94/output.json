@@ -1,0 +1,131 @@
+{
+    "text": "Oh, I can do that. Is it a long journey? No, not at all. I'll be in touch.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                4.0,
+                4.24
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.64,
+                4.88
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                4.88,
+                5.04
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                5.04,
+                5.28
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                5.28,
+                5.44
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                5.76,
+                6.0
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                6.0,
+                6.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                6.32,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "journey?",
+            "timestamp": [
+                6.5600000000000005,
+                7.44
+            ]
+        },
+        {
+            "text": "No,",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "all.",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "I'll",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "touch.",
+            "timestamp": [
+                11.84,
+                12.64
+            ]
+        }
+    ]
+}

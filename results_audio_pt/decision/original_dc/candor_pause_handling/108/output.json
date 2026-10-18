@@ -1,0 +1,145 @@
+{
+    "text": "It sounds like you're experiencing a lot of stress and uncertainty in your life right now. It's completely understandable that.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                13.280000000000001,
+                13.6
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                13.6,
+                14.0
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                14.0,
+                14.16
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                14.16,
+                14.4
+            ]
+        },
+        {
+            "text": "experiencing",
+            "timestamp": [
+                14.4,
+                14.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.96,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                15.040000000000001,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                15.120000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "stress",
+            "timestamp": [
+                15.280000000000001,
+                15.6
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                15.6,
+                15.76
+            ]
+        },
+        {
+            "text": "uncertainty",
+            "timestamp": [
+                15.76,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                16.240000000000002,
+                16.4
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                16.4,
+                16.56
+            ]
+        },
+        {
+            "text": "life",
+            "timestamp": [
+                16.56,
+                16.72
+            ]
+        },
+        {
+            "text": "right",
+            "timestamp": [
+                16.72,
+                16.88
+            ]
+        },
+        {
+            "text": "now.",
+            "timestamp": [
+                16.88,
+                17.04
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                17.36,
+                17.6
+            ]
+        },
+        {
+            "text": "completely",
+            "timestamp": [
+                17.6,
+                18.16
+            ]
+        },
+        {
+            "text": "understandable",
+            "timestamp": [
+                18.16,
+                18.72
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                18.72,
+                19.04
+            ]
+        }
+    ]
+}

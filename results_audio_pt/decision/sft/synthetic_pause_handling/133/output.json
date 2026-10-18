@@ -1,0 +1,152 @@
+{
+    "text": "A. Not I can't believe it, either. Seem to be a lot of surprises. Demands a lot of rethinking for sure.",
+    "chunks": [
+        {
+            "text": "A.",
+            "timestamp": [
+                4.48,
+                4.72
+            ]
+        },
+        {
+            "text": "Not",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                6.88,
+                7.2
+            ]
+        },
+        {
+            "text": "believe",
+            "timestamp": [
+                7.2,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "it,",
+            "timestamp": [
+                7.5200000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "either.",
+            "timestamp": [
+                7.84,
+                8.16
+            ]
+        },
+        {
+            "text": "Seem",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                8.72,
+                8.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.88,
+                8.96
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                8.96,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.040000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "surprises.",
+            "timestamp": [
+                9.200000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "Demands",
+            "timestamp": [
+                9.92,
+                10.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.4,
+                10.48
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "rethinking",
+            "timestamp": [
+                10.72,
+                11.28
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "sure.",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        }
+    ]
+}

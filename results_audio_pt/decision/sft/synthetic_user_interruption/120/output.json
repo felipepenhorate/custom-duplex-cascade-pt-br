@@ -1,0 +1,194 @@
+{
+    "text": "Of course, I can look up tomorrow's forecast as well. Is there a particular time of day or a region of S\u00e3o Paulo you're most interested in?",
+    "chunks": [
+        {
+            "text": "Of",
+            "timestamp": [
+                11.72,
+                12.040000000000001
+            ]
+        },
+        {
+            "text": "course,",
+            "timestamp": [
+                12.040000000000001,
+                12.36
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.6,
+                12.76
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                12.76,
+                12.92
+            ]
+        },
+        {
+            "text": "look",
+            "timestamp": [
+                12.92,
+                13.08
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                13.08,
+                13.24
+            ]
+        },
+        {
+            "text": "tomorrow's",
+            "timestamp": [
+                13.24,
+                13.72
+            ]
+        },
+        {
+            "text": "forecast",
+            "timestamp": [
+                13.72,
+                14.280000000000001
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                14.280000000000001,
+                14.36
+            ]
+        },
+        {
+            "text": "well.",
+            "timestamp": [
+                14.36,
+                14.52
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                14.76,
+                14.92
+            ]
+        },
+        {
+            "text": "there",
+            "timestamp": [
+                14.92,
+                15.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.08,
+                15.16
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                15.16,
+                15.56
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                15.56,
+                15.72
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                15.72,
+                15.879999999999999
+            ]
+        },
+        {
+            "text": "day",
+            "timestamp": [
+                15.879999999999999,
+                16.04
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                16.04,
+                16.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.2,
+                16.36
+            ]
+        },
+        {
+            "text": "region",
+            "timestamp": [
+                16.36,
+                16.6
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                16.6,
+                16.68
+            ]
+        },
+        {
+            "text": "S\u00e3o",
+            "timestamp": [
+                16.68,
+                16.92
+            ]
+        },
+        {
+            "text": "Paulo",
+            "timestamp": [
+                17.0,
+                17.48
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                17.48,
+                17.64
+            ]
+        },
+        {
+            "text": "most",
+            "timestamp": [
+                17.64,
+                17.88
+            ]
+        },
+        {
+            "text": "interested",
+            "timestamp": [
+                17.88,
+                18.52
+            ]
+        },
+        {
+            "text": "in?",
+            "timestamp": [
+                18.52,
+                18.84
+            ]
+        }
+    ]
+}

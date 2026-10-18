@@ -1,0 +1,131 @@
+{
+    "text": "I can assist with that. Do you prefer a time, or are you open to a particular date?",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                5.44,
+                5.76
+            ]
+        },
+        {
+            "text": "assist",
+            "timestamp": [
+                5.76,
+                6.08
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                6.08,
+                6.32
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "Do",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "prefer",
+            "timestamp": [
+                7.12,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.5200000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "time,",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                7.92,
+                8.08
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "open",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                8.88,
+                9.36
+            ]
+        },
+        {
+            "text": "date?",
+            "timestamp": [
+                9.36,
+                10.0
+            ]
+        }
+    ]
+}

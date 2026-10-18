@@ -1,0 +1,159 @@
+{
+    "text": "Ah, I can understand. Is opa queerly intended. Focar no estudo a superimportained, no comco, ne boa, sort ai. Qualker quaza, michama.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                7.92,
+                8.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.88,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "opa",
+            "timestamp": [
+                10.72,
+                11.36
+            ]
+        },
+        {
+            "text": "queerly",
+            "timestamp": [
+                11.52,
+                12.32
+            ]
+        },
+        {
+            "text": "intended.",
+            "timestamp": [
+                18.88,
+                19.6
+            ]
+        },
+        {
+            "text": "Focar",
+            "timestamp": [
+                19.76,
+                20.240000000000002
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                20.32,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "estudo",
+            "timestamp": [
+                20.48,
+                21.04
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.12,
+                21.2
+            ]
+        },
+        {
+            "text": "superimportained,",
+            "timestamp": [
+                21.36,
+                22.32
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                22.48,
+                22.72
+            ]
+        },
+        {
+            "text": "comco,",
+            "timestamp": [
+                22.72,
+                23.04
+            ]
+        },
+        {
+            "text": "ne",
+            "timestamp": [
+                23.28,
+                23.36
+            ]
+        },
+        {
+            "text": "boa,",
+            "timestamp": [
+                24.72,
+                25.28
+            ]
+        },
+        {
+            "text": "sort",
+            "timestamp": [
+                25.36,
+                25.52
+            ]
+        },
+        {
+            "text": "ai.",
+            "timestamp": [
+                25.84,
+                26.16
+            ]
+        },
+        {
+            "text": "Qualker",
+            "timestamp": [
+                26.72,
+                27.36
+            ]
+        },
+        {
+            "text": "quaza,",
+            "timestamp": [
+                27.44,
+                27.92
+            ]
+        },
+        {
+            "text": "michama.",
+            "timestamp": [
+                28.0,
+                28.64
+            ]
+        }
+    ]
+}

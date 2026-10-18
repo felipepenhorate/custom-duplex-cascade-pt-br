@@ -1,0 +1,75 @@
+{
+    "text": "Ah, I can relate. Fam is a solid base. I",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                4.5600000000000005,
+                4.96
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                5.36,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "relate.",
+            "timestamp": [
+                5.6000000000000005,
+                6.16
+            ]
+        },
+        {
+            "text": "Fam",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "solid",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "base.",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "The process of developing a new drug involves several.",
+    "chunks": [
+        {
+            "text": "The",
+            "timestamp": [
+                13.040000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "process",
+            "timestamp": [
+                13.36,
+                13.76
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                13.76,
+                13.92
+            ]
+        },
+        {
+            "text": "developing",
+            "timestamp": [
+                13.92,
+                14.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.4,
+                14.56
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "drug",
+            "timestamp": [
+                14.72,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "involves",
+            "timestamp": [
+                15.040000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "several.",
+            "timestamp": [
+                15.44,
+                15.68
+            ]
+        }
+    ]
+}

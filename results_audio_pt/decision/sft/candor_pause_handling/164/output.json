@@ -1,0 +1,61 @@
+{
+    "text": "Ah, I can Nah, not at first Relax.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                5.36,
+                5.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.84,
+                5.92
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "Nah,",
+            "timestamp": [
+                6.640000000000001,
+                6.96
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                7.12,
+                7.44
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                7.44,
+                7.76
+            ]
+        },
+        {
+            "text": "first",
+            "timestamp": [
+                7.76,
+                8.08
+            ]
+        },
+        {
+            "text": "Relax.",
+            "timestamp": [
+                15.44,
+                16.240000000000002
+            ]
+        }
+    ]
+}

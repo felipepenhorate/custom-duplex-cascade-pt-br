@@ -1,0 +1,278 @@
+{
+    "text": "Ah, so it's a later time. Do you remember a particular class or event? Ouch, that sounds bad. A lot of us can relate to some aches, right? Painful, I can imagine. Rest is crucial, I know, isn't it?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                7.2,
+                7.68
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "later",
+            "timestamp": [
+                8.32,
+                8.64
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "Do",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.28,
+                9.36
+            ]
+        },
+        {
+            "text": "remember",
+            "timestamp": [
+                9.36,
+                9.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        },
+        {
+            "text": "class",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "event?",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "Ouch,",
+            "timestamp": [
+                10.96,
+                11.36
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                11.6,
+                12.0
+            ]
+        },
+        {
+            "text": "bad.",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                12.8,
+                12.88
+            ]
+        },
+        {
+            "text": "us",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "relate",
+            "timestamp": [
+                13.200000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.52,
+                13.6
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                13.6,
+                13.76
+            ]
+        },
+        {
+            "text": "aches,",
+            "timestamp": [
+                13.76,
+                14.16
+            ]
+        },
+        {
+            "text": "right?",
+            "timestamp": [
+                14.32,
+                14.64
+            ]
+        },
+        {
+            "text": "Painful,",
+            "timestamp": [
+                15.280000000000001,
+                15.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.16,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                16.240000000000002,
+                16.4
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                16.4,
+                17.12
+            ]
+        },
+        {
+            "text": "Rest",
+            "timestamp": [
+                21.28,
+                21.68
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                21.68,
+                21.84
+            ]
+        },
+        {
+            "text": "crucial,",
+            "timestamp": [
+                21.84,
+                22.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                22.48,
+                22.64
+            ]
+        },
+        {
+            "text": "know,",
+            "timestamp": [
+                22.64,
+                22.8
+            ]
+        },
+        {
+            "text": "isn't",
+            "timestamp": [
+                23.12,
+                23.76
+            ]
+        },
+        {
+            "text": "it?",
+            "timestamp": [
+                23.76,
+                24.080000000000002
+            ]
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "text": "Opa, Dependendo do Segosto, Tem Umas Bose, C Ah, Dark Streets, Qui Film, L.A.A. Bemar.",
+    "chunks": [
+        {
+            "text": "Opa,",
+            "timestamp": [
+                2.8000000000000003,
+                3.36
+            ]
+        },
+        {
+            "text": "Dependendo",
+            "timestamp": [
+                3.44,
+                4.16
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                4.16,
+                4.24
+            ]
+        },
+        {
+            "text": "Segosto,",
+            "timestamp": [
+                4.32,
+                5.12
+            ]
+        },
+        {
+            "text": "Tem",
+            "timestamp": [
+                5.28,
+                5.44
+            ]
+        },
+        {
+            "text": "Umas",
+            "timestamp": [
+                5.68,
+                6.0
+            ]
+        },
+        {
+            "text": "Bose,",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "C",
+            "timestamp": [
+                6.640000000000001,
+                6.72
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                8.08,
+                8.48
+            ]
+        },
+        {
+            "text": "Dark",
+            "timestamp": [
+                8.8,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "Streets,",
+            "timestamp": [
+                9.200000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "Qui",
+            "timestamp": [
+                9.76,
+                10.16
+            ]
+        },
+        {
+            "text": "Film,",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "L.A.A.",
+            "timestamp": [
+                10.88,
+                11.28
+            ]
+        },
+        {
+            "text": "Bemar.",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "text": "Eh, no, no, I just meant I can Ah, I can Eh, I can, eh, I can",
+    "chunks": [
+        {
+            "text": "Eh,",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "no,",
+            "timestamp": [
+                8.0,
+                8.08
+            ]
+        },
+        {
+            "text": "no,",
+            "timestamp": [
+                8.16,
+                8.4
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                8.88,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.36,
+                9.68
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                11.84,
+                12.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "Eh,",
+            "timestamp": [
+                22.72,
+                23.12
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                23.44,
+                23.76
+            ]
+        },
+        {
+            "text": "can,",
+            "timestamp": [
+                23.76,
+                24.080000000000002
+            ]
+        },
+        {
+            "text": "eh,",
+            "timestamp": [
+                24.400000000000002,
+                24.72
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                24.96,
+                25.2
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                25.2,
+                25.52
+            ]
+        }
+    ]
+}

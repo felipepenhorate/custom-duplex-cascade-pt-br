@@ -1,0 +1,103 @@
+{
+    "text": "Ah, print jammers. Frustrating, I know. Do you print in color or just in?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.88,
+                7.44
+            ]
+        },
+        {
+            "text": "print",
+            "timestamp": [
+                7.68,
+                8.08
+            ]
+        },
+        {
+            "text": "jammers.",
+            "timestamp": [
+                8.08,
+                8.72
+            ]
+        },
+        {
+            "text": "Frustrating,",
+            "timestamp": [
+                9.040000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "know.",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "Do",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "print",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                11.040000000000001,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "color",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.44,
+                11.52
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "in?",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        }
+    ]
+}

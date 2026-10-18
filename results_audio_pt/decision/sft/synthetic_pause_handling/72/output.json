@@ -1,0 +1,110 @@
+{
+    "text": "Opa, qui illegal, se voce gast\u00fa comida e semper um ponto alto, voce ja exposed.",
+    "chunks": [
+        {
+            "text": "Opa,",
+            "timestamp": [
+                6.24,
+                6.8
+            ]
+        },
+        {
+            "text": "qui",
+            "timestamp": [
+                7.04,
+                7.28
+            ]
+        },
+        {
+            "text": "illegal,",
+            "timestamp": [
+                7.44,
+                7.84
+            ]
+        },
+        {
+            "text": "se",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "voce",
+            "timestamp": [
+                8.56,
+                8.88
+            ]
+        },
+        {
+            "text": "gast\u00fa",
+            "timestamp": [
+                9.040000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "comida",
+            "timestamp": [
+                10.72,
+                11.28
+            ]
+        },
+        {
+            "text": "e",
+            "timestamp": [
+                11.36,
+                11.44
+            ]
+        },
+        {
+            "text": "semper",
+            "timestamp": [
+                11.6,
+                11.92
+            ]
+        },
+        {
+            "text": "um",
+            "timestamp": [
+                12.08,
+                12.16
+            ]
+        },
+        {
+            "text": "ponto",
+            "timestamp": [
+                12.32,
+                12.8
+            ]
+        },
+        {
+            "text": "alto,",
+            "timestamp": [
+                12.8,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "voce",
+            "timestamp": [
+                13.52,
+                13.84
+            ]
+        },
+        {
+            "text": "ja",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        },
+        {
+            "text": "exposed.",
+            "timestamp": [
+                14.16,
+                14.32
+            ]
+        }
+    ]
+}

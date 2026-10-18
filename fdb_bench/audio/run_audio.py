@@ -268,8 +268,16 @@ def main() -> None:
         # annotations (tiny) and the parakeet transcript (kept in the repo as
         # evidence). The evaluators themselves see an ordinary directory.
         annotations = ("pause.json", "turn_taking.json", "interrupt.json")
+        # Keyed by dataset as well as mode+model: without the data root, a second
+        # run over a *different* audio set reused the first run's score tree, and
+        # since `output.json` is only regenerated when it is missing, the
+        # evaluators scored the previous set's transcripts against the new
+        # annotations. Measured on the pt-BR set: every output.json was a leftover
+        # from the English run, and only the one column the evaluator derives from
+        # the audio itself (backchannel) came out different. Costs a re-ASR pass,
+        # which is the point.
         score_root = (args.score_tmp or Path("/tmp/opencode/audio_score")) \
-            / f"{args.mode}_{args.model}"
+            / f"{Path(args.data_root).name}_{args.mode}_{args.model}"
         for subset in tasks:
             audio_dir = args.audio_root / args.mode / args.model / subset
             # published layout is <root>/<subset>/<subset>/; the pt-BR

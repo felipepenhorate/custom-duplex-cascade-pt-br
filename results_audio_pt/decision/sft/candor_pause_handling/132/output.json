@@ -1,0 +1,54 @@
+{
+    "text": "I can't just stop. I can't just.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                9.92,
+                10.32
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "stop.",
+            "timestamp": [
+                10.56,
+                10.88
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "just.",
+            "timestamp": [
+                11.68,
+                12.0
+            ]
+        }
+    ]
+}

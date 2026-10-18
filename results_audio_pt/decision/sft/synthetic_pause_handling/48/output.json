@@ -1,0 +1,40 @@
+{
+    "text": "Pizza or salad pasta pasta",
+    "chunks": [
+        {
+            "text": "Pizza",
+            "timestamp": [
+                2.64,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                3.36,
+                3.52
+            ]
+        },
+        {
+            "text": "salad",
+            "timestamp": [
+                5.92,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "pasta",
+            "timestamp": [
+                8.24,
+                8.88
+            ]
+        },
+        {
+            "text": "pasta",
+            "timestamp": [
+                9.200000000000001,
+                10.0
+            ]
+        }
+    ]
+}

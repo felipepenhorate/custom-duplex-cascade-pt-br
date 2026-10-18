@@ -1,0 +1,201 @@
+{
+    "text": "Ah, I can fix that. Do you prefer a particular time, or are you flexible? No, I can confirm. I'll set up a time that works for us.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                3.84,
+                4.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "fix",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                5.04,
+                5.28
+            ]
+        },
+        {
+            "text": "Do",
+            "timestamp": [
+                5.5200000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.76,
+                5.84
+            ]
+        },
+        {
+            "text": "prefer",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                6.32,
+                6.72
+            ]
+        },
+        {
+            "text": "time,",
+            "timestamp": [
+                6.72,
+                6.96
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                7.2,
+                7.28
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "flexible?",
+            "timestamp": [
+                7.44,
+                7.84
+            ]
+        },
+        {
+            "text": "No,",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "confirm.",
+            "timestamp": [
+                8.8,
+                9.28
+            ]
+        },
+        {
+            "text": "I'll",
+            "timestamp": [
+                9.44,
+                9.76
+            ]
+        },
+        {
+            "text": "set",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.08,
+                10.16
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "works",
+            "timestamp": [
+                10.56,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "us.",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        }
+    ]
+}

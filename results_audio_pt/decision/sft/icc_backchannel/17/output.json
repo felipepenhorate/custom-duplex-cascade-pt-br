@@ -1,0 +1,159 @@
+{
+    "text": "Ah, I can taste that. Lab hours and weekly reports. It's a full-time job, I think. I can I can taste that.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                8.56,
+                8.96
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                14.56,
+                14.8
+            ]
+        },
+        {
+            "text": "taste",
+            "timestamp": [
+                14.8,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                15.200000000000001,
+                15.52
+            ]
+        },
+        {
+            "text": "Lab",
+            "timestamp": [
+                15.84,
+                16.32
+            ]
+        },
+        {
+            "text": "hours",
+            "timestamp": [
+                16.32,
+                16.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                16.72,
+                16.88
+            ]
+        },
+        {
+            "text": "weekly",
+            "timestamp": [
+                16.88,
+                17.28
+            ]
+        },
+        {
+            "text": "reports.",
+            "timestamp": [
+                17.28,
+                17.76
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                17.92,
+                18.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.16,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "full-time",
+            "timestamp": [
+                18.240000000000002,
+                18.72
+            ]
+        },
+        {
+            "text": "job,",
+            "timestamp": [
+                18.72,
+                18.96
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                19.12,
+                19.36
+            ]
+        },
+        {
+            "text": "think.",
+            "timestamp": [
+                19.36,
+                19.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                20.64,
+                20.88
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                20.88,
+                21.04
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                27.68,
+                27.92
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                27.92,
+                28.080000000000002
+            ]
+        },
+        {
+            "text": "taste",
+            "timestamp": [
+                28.080000000000002,
+                28.64
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                28.64,
+                28.96
+            ]
+        }
+    ]
+}

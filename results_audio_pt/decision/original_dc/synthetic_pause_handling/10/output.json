@@ -1,0 +1,75 @@
+{
+    "text": "Certainly. For example, if you need to fast before A,",
+    "chunks": [
+        {
+            "text": "Certainly.",
+            "timestamp": [
+                8.08,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "For",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "example,",
+            "timestamp": [
+                10.0,
+                10.48
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "need",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "fast",
+            "timestamp": [
+                11.36,
+                11.84
+            ]
+        },
+        {
+            "text": "before",
+            "timestamp": [
+                11.84,
+                12.16
+            ]
+        },
+        {
+            "text": "A,",
+            "timestamp": [
+                12.16,
+                12.48
+            ]
+        }
+    ]
+}

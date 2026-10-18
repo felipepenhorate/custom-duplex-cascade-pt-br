@@ -1,0 +1,96 @@
+{
+    "text": "Ah Is that a regular occurrence? Seems a bit of a domino effect.",
+    "chunks": [
+        {
+            "text": "Ah",
+            "timestamp": [
+                4.5600000000000005,
+                5.04
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "regular",
+            "timestamp": [
+                9.28,
+                9.68
+            ]
+        },
+        {
+            "text": "occurrence?",
+            "timestamp": [
+                9.68,
+                10.08
+            ]
+        },
+        {
+            "text": "Seems",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "domino",
+            "timestamp": [
+                11.040000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "effect.",
+            "timestamp": [
+                11.6,
+                12.0
+            ]
+        }
+    ]
+}

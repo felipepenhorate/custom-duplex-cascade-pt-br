@@ -1,0 +1,425 @@
+{
+    "text": "For natural pest control, a lot of us use companion planting, where certain plants are grown together to repel or attract beneficial insects. For example, planting marigolds or dill can deter a lot of common garden pests. Pruning and maintaining plant health are also crucial, as a plant in a robust, stress-free state is far less likely to be attacked.",
+    "chunks": [
+        {
+            "text": "For",
+            "timestamp": [
+                12.888,
+                13.208
+            ]
+        },
+        {
+            "text": "natural",
+            "timestamp": [
+                13.288,
+                13.767999999999999
+            ]
+        },
+        {
+            "text": "pest",
+            "timestamp": [
+                13.767999999999999,
+                14.088
+            ]
+        },
+        {
+            "text": "control,",
+            "timestamp": [
+                14.088,
+                14.488
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.648,
+                14.808
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                14.808,
+                14.968
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                14.968,
+                15.128
+            ]
+        },
+        {
+            "text": "us",
+            "timestamp": [
+                15.128,
+                15.288
+            ]
+        },
+        {
+            "text": "use",
+            "timestamp": [
+                15.288,
+                15.527999999999999
+            ]
+        },
+        {
+            "text": "companion",
+            "timestamp": [
+                15.527999999999999,
+                16.088
+            ]
+        },
+        {
+            "text": "planting,",
+            "timestamp": [
+                16.088,
+                16.488
+            ]
+        },
+        {
+            "text": "where",
+            "timestamp": [
+                16.648,
+                16.808
+            ]
+        },
+        {
+            "text": "certain",
+            "timestamp": [
+                16.808,
+                17.048000000000002
+            ]
+        },
+        {
+            "text": "plants",
+            "timestamp": [
+                17.048000000000002,
+                17.368
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                17.368,
+                17.448
+            ]
+        },
+        {
+            "text": "grown",
+            "timestamp": [
+                17.448,
+                17.768
+            ]
+        },
+        {
+            "text": "together",
+            "timestamp": [
+                17.768,
+                18.088
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                18.088,
+                18.247999999999998
+            ]
+        },
+        {
+            "text": "repel",
+            "timestamp": [
+                18.247999999999998,
+                18.648
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                18.648,
+                18.808
+            ]
+        },
+        {
+            "text": "attract",
+            "timestamp": [
+                18.808,
+                19.128
+            ]
+        },
+        {
+            "text": "beneficial",
+            "timestamp": [
+                19.128,
+                19.688
+            ]
+        },
+        {
+            "text": "insects.",
+            "timestamp": [
+                19.688,
+                20.168
+            ]
+        },
+        {
+            "text": "For",
+            "timestamp": [
+                20.408,
+                20.648
+            ]
+        },
+        {
+            "text": "example,",
+            "timestamp": [
+                20.648,
+                21.048000000000002
+            ]
+        },
+        {
+            "text": "planting",
+            "timestamp": [
+                21.208,
+                21.608
+            ]
+        },
+        {
+            "text": "marigolds",
+            "timestamp": [
+                21.608,
+                22.408
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                22.408,
+                22.488
+            ]
+        },
+        {
+            "text": "dill",
+            "timestamp": [
+                22.488,
+                22.968
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                22.968,
+                23.128
+            ]
+        },
+        {
+            "text": "deter",
+            "timestamp": [
+                23.128,
+                23.528
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                23.528,
+                23.608
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                23.608,
+                23.688000000000002
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                23.688000000000002,
+                23.848
+            ]
+        },
+        {
+            "text": "common",
+            "timestamp": [
+                23.848,
+                24.168
+            ]
+        },
+        {
+            "text": "garden",
+            "timestamp": [
+                24.168,
+                24.488
+            ]
+        },
+        {
+            "text": "pests.",
+            "timestamp": [
+                24.488,
+                24.887999999999998
+            ]
+        },
+        {
+            "text": "Pruning",
+            "timestamp": [
+                25.128,
+                25.608
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                25.608,
+                25.768
+            ]
+        },
+        {
+            "text": "maintaining",
+            "timestamp": [
+                25.768,
+                26.168
+            ]
+        },
+        {
+            "text": "plant",
+            "timestamp": [
+                26.168,
+                26.488
+            ]
+        },
+        {
+            "text": "health",
+            "timestamp": [
+                26.488,
+                26.808
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                26.808,
+                27.048000000000002
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                27.048000000000002,
+                27.208
+            ]
+        },
+        {
+            "text": "crucial,",
+            "timestamp": [
+                27.208,
+                27.688000000000002
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                27.848,
+                28.008
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                28.008,
+                28.088
+            ]
+        },
+        {
+            "text": "plant",
+            "timestamp": [
+                28.088,
+                28.408
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                28.408,
+                28.567999999999998
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                28.567999999999998,
+                28.648000000000003
+            ]
+        },
+        {
+            "text": "robust,",
+            "timestamp": [
+                28.648000000000003,
+                29.048000000000002
+            ]
+        },
+        {
+            "text": "stress-free",
+            "timestamp": [
+                29.287999999999997,
+                29.927999999999997
+            ]
+        },
+        {
+            "text": "state",
+            "timestamp": [
+                29.927999999999997,
+                30.168
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                30.168,
+                30.328000000000003
+            ]
+        },
+        {
+            "text": "far",
+            "timestamp": [
+                30.328000000000003,
+                30.567999999999998
+            ]
+        },
+        {
+            "text": "less",
+            "timestamp": [
+                30.567999999999998,
+                30.728
+            ]
+        },
+        {
+            "text": "likely",
+            "timestamp": [
+                30.728,
+                30.968000000000004
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                30.968000000000004,
+                31.048000000000002
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                31.048000000000002,
+                31.208
+            ]
+        },
+        {
+            "text": "attacked.",
+            "timestamp": [
+                31.208,
+                31.368000000000002
+            ]
+        }
+    ]
+}

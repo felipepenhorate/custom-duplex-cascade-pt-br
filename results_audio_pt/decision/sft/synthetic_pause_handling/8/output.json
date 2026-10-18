@@ -1,0 +1,89 @@
+{
+    "text": "I can look into a replacement or a full refund. Do you?",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                6.640000000000001,
+                6.96
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "look",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "into",
+            "timestamp": [
+                7.36,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.6000000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "replacement",
+            "timestamp": [
+                7.68,
+                8.4
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "refund.",
+            "timestamp": [
+                8.96,
+                9.52
+            ]
+        },
+        {
+            "text": "Do",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "you?",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        }
+    ]
+}

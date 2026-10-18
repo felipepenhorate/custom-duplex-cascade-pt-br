@@ -1,0 +1,166 @@
+{
+    "text": "Qui tal um suspense me liv, tem um film novo quetabo mando, typo, o mecanismo, qu mistera muta technologia camuma historia bem involvente.",
+    "chunks": [
+        {
+            "text": "Qui",
+            "timestamp": [
+                14.456,
+                14.855999999999998
+            ]
+        },
+        {
+            "text": "tal",
+            "timestamp": [
+                14.935999999999998,
+                15.095999999999998
+            ]
+        },
+        {
+            "text": "um",
+            "timestamp": [
+                15.255999999999998,
+                15.415999999999999
+            ]
+        },
+        {
+            "text": "suspense",
+            "timestamp": [
+                15.575999999999999,
+                15.975999999999999
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                16.055999999999997,
+                16.136
+            ]
+        },
+        {
+            "text": "liv,",
+            "timestamp": [
+                16.296,
+                16.535999999999998
+            ]
+        },
+        {
+            "text": "tem",
+            "timestamp": [
+                16.776,
+                16.936
+            ]
+        },
+        {
+            "text": "um",
+            "timestamp": [
+                17.096,
+                17.176
+            ]
+        },
+        {
+            "text": "film",
+            "timestamp": [
+                17.256,
+                17.496
+            ]
+        },
+        {
+            "text": "novo",
+            "timestamp": [
+                17.576,
+                17.896
+            ]
+        },
+        {
+            "text": "quetabo",
+            "timestamp": [
+                17.896,
+                18.456
+            ]
+        },
+        {
+            "text": "mando,",
+            "timestamp": [
+                18.456,
+                18.855999999999998
+            ]
+        },
+        {
+            "text": "typo,",
+            "timestamp": [
+                19.016,
+                19.656
+            ]
+        },
+        {
+            "text": "o",
+            "timestamp": [
+                19.816,
+                19.976
+            ]
+        },
+        {
+            "text": "mecanismo,",
+            "timestamp": [
+                20.136,
+                20.855999999999998
+            ]
+        },
+        {
+            "text": "qu",
+            "timestamp": [
+                21.095999999999997,
+                21.176
+            ]
+        },
+        {
+            "text": "mistera",
+            "timestamp": [
+                21.336,
+                21.816
+            ]
+        },
+        {
+            "text": "muta",
+            "timestamp": [
+                21.816,
+                22.136
+            ]
+        },
+        {
+            "text": "technologia",
+            "timestamp": [
+                22.216,
+                22.695999999999998
+            ]
+        },
+        {
+            "text": "camuma",
+            "timestamp": [
+                22.775999999999996,
+                23.256
+            ]
+        },
+        {
+            "text": "historia",
+            "timestamp": [
+                23.256,
+                23.656
+            ]
+        },
+        {
+            "text": "bem",
+            "timestamp": [
+                23.735999999999997,
+                23.896
+            ]
+        },
+        {
+            "text": "involvente.",
+            "timestamp": [
+                23.976,
+                24.695999999999998
+            ]
+        }
+    ]
+}

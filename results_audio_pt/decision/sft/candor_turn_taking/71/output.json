@@ -1,0 +1,82 @@
+{
+    "text": "Ah, so it's a lot of sitting at home, isn't it?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                8.4,
+                8.72
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                9.28,
+                9.36
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "sitting",
+            "timestamp": [
+                9.52,
+                9.84
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "home,",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "isn't",
+            "timestamp": [
+                10.4,
+                10.88
+            ]
+        },
+        {
+            "text": "it?",
+            "timestamp": [
+                10.88,
+                11.200000000000001
+            ]
+        }
+    ]
+}

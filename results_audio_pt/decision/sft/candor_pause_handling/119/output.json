@@ -1,0 +1,89 @@
+{
+    "text": "Uh I think it's a mix, a lot of subcultures, so too.",
+    "chunks": [
+        {
+            "text": "Uh",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.88,
+                8.96
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.28,
+                9.36
+            ]
+        },
+        {
+            "text": "mix,",
+            "timestamp": [
+                9.36,
+                9.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.84,
+                9.92
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.08,
+                10.16
+            ]
+        },
+        {
+            "text": "subcultures,",
+            "timestamp": [
+                10.16,
+                10.72
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "too.",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        }
+    ]
+}

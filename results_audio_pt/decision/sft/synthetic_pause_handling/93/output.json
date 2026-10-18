@@ -1,0 +1,145 @@
+{
+    "text": "Oof, I can't imagine. Is it a particular issue? Eem, a grinding or a whirring. Car noises can be tricky.",
+    "chunks": [
+        {
+            "text": "Oof,",
+            "timestamp": [
+                3.2,
+                3.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                3.92,
+                4.08
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                4.08,
+                4.32
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                4.32,
+                4.8
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                5.5200000000000005,
+                6.0
+            ]
+        },
+        {
+            "text": "issue?",
+            "timestamp": [
+                6.0,
+                6.88
+            ]
+        },
+        {
+            "text": "Eem,",
+            "timestamp": [
+                7.2,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.0,
+                8.16
+            ]
+        },
+        {
+            "text": "grinding",
+            "timestamp": [
+                8.16,
+                8.64
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "whirring.",
+            "timestamp": [
+                8.96,
+                9.52
+            ]
+        },
+        {
+            "text": "Car",
+            "timestamp": [
+                9.76,
+                10.16
+            ]
+        },
+        {
+            "text": "noises",
+            "timestamp": [
+                10.16,
+                10.48
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "tricky.",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        }
+    ]
+}

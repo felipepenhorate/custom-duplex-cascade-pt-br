@@ -1,0 +1,152 @@
+{
+    "text": "No, I just moved to a new city. Is it a lot of work? I used to, a long time ago.",
+    "chunks": [
+        {
+            "text": "No,",
+            "timestamp": [
+                5.68,
+                6.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "moved",
+            "timestamp": [
+                6.48,
+                6.72
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "city.",
+            "timestamp": [
+                7.2,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                7.92,
+                8.08
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "work?",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "used",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "to,",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "ago.",
+            "timestamp": [
+                10.72,
+                11.28
+            ]
+        }
+    ]
+}

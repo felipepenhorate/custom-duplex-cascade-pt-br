@@ -1,0 +1,180 @@
+{
+    "text": "Ah, I use a base of a extravagant I know. Precisely. I use a mix of red and yellow onions to balance color and nerd.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                2.96,
+                3.52
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                3.7600000000000002,
+                3.92
+            ]
+        },
+        {
+            "text": "use",
+            "timestamp": [
+                3.92,
+                4.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.08,
+                4.24
+            ]
+        },
+        {
+            "text": "base",
+            "timestamp": [
+                4.24,
+                4.64
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.8,
+                4.88
+            ]
+        },
+        {
+            "text": "extravagant",
+            "timestamp": [
+                5.2,
+                6.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "know.",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "Precisely.",
+            "timestamp": [
+                6.88,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.76,
+                7.84
+            ]
+        },
+        {
+            "text": "use",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.0,
+                8.08
+            ]
+        },
+        {
+            "text": "mix",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "red",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                8.72,
+                8.88
+            ]
+        },
+        {
+            "text": "yellow",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "onions",
+            "timestamp": [
+                9.120000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                9.52,
+                9.6
+            ]
+        },
+        {
+            "text": "balance",
+            "timestamp": [
+                9.6,
+                10.0
+            ]
+        },
+        {
+            "text": "color",
+            "timestamp": [
+                10.0,
+                10.4
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "nerd.",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        }
+    ]
+}

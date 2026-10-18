@@ -1,0 +1,96 @@
+{
+    "text": "It seems now It sounds like you're finding your language learning journey quite.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "seems",
+            "timestamp": [
+                13.120000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "now",
+            "timestamp": [
+                13.6,
+                13.84
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                24.32,
+                24.48
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                24.48,
+                24.88
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                24.88,
+                25.04
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                25.04,
+                25.28
+            ]
+        },
+        {
+            "text": "finding",
+            "timestamp": [
+                25.28,
+                25.6
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                25.6,
+                25.76
+            ]
+        },
+        {
+            "text": "language",
+            "timestamp": [
+                25.76,
+                26.16
+            ]
+        },
+        {
+            "text": "learning",
+            "timestamp": [
+                26.16,
+                26.48
+            ]
+        },
+        {
+            "text": "journey",
+            "timestamp": [
+                26.48,
+                26.88
+            ]
+        },
+        {
+            "text": "quite.",
+            "timestamp": [
+                26.88,
+                27.12
+            ]
+        }
+    ]
+}

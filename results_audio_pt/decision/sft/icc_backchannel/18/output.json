@@ -1,0 +1,82 @@
+{
+    "text": "Ah, I can imagine. Pong is a solid start, ha ha.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                28.32,
+                28.8
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                29.12,
+                29.28
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                29.28,
+                29.44
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                29.44,
+                30.080000000000002
+            ]
+        },
+        {
+            "text": "Pong",
+            "timestamp": [
+                30.400000000000002,
+                30.88
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                30.96,
+                31.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                31.12,
+                31.2
+            ]
+        },
+        {
+            "text": "solid",
+            "timestamp": [
+                31.2,
+                31.68
+            ]
+        },
+        {
+            "text": "start,",
+            "timestamp": [
+                31.68,
+                31.92
+            ]
+        },
+        {
+            "text": "ha",
+            "timestamp": [
+                32.08,
+                32.160000000000004
+            ]
+        },
+        {
+            "text": "ha.",
+            "timestamp": [
+                32.32,
+                32.4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "text": "I can imagine. Is mental health a factor in some of these? Demographics and mental health.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                9.6,
+                9.92
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                10.24,
+                10.88
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "mental",
+            "timestamp": [
+                11.36,
+                11.76
+            ]
+        },
+        {
+            "text": "health",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "factor",
+            "timestamp": [
+                12.16,
+                12.48
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                12.48,
+                12.56
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                12.72,
+                12.8
+            ]
+        },
+        {
+            "text": "these?",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "Demographics",
+            "timestamp": [
+                13.200000000000001,
+                13.84
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        },
+        {
+            "text": "mental",
+            "timestamp": [
+                14.08,
+                14.24
+            ]
+        },
+        {
+            "text": "health.",
+            "timestamp": [
+                14.32,
+                14.4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "text": "Ah, I can understand. Is it a lot of time?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                2.56,
+                3.04
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                3.2,
+                3.52
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                3.52,
+                3.84
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                3.84,
+                4.16
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.12,
+                7.2
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                7.36,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "time?",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        }
+    ]
+}

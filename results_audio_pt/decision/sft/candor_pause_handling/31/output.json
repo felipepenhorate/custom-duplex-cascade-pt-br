@@ -1,0 +1,89 @@
+{
+    "text": "Ah, I can imagine. Times were a lot different, to be sure.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                7.5200000000000005,
+                8.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                8.56,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "Times",
+            "timestamp": [
+                9.200000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "different,",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "sure.",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        }
+    ]
+}

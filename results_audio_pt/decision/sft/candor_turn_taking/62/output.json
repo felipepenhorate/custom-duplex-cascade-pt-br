@@ -1,0 +1,635 @@
+{
+    "text": "Nosa, qui legal, e umotimo jaito de cum car a semana camum clima bema conjugant. Com certisa, e um evento bem animoda, commuta gente e muta diversa, se vosa for veil a pena chicar os horarios para perternata. Com certiza, si tempo adjudar. Procure poor shoppings. Ao espasos cobertos comadadas. Asim voce garante um pasio diveradar umtoida au cabello. E um processo rapido i quidexa o cabello me suave i bonito. Uintendo avante de experimentar algo defrent. Se quaiser. Paso indicar algumas recidas m\u00e1s elabradas periquem gosta di umto gourme.",
+    "chunks": [
+        {
+            "text": "Nosa,",
+            "timestamp": [
+                1.44,
+                2.16
+            ]
+        },
+        {
+            "text": "qui",
+            "timestamp": [
+                2.32,
+                2.72
+            ]
+        },
+        {
+            "text": "legal,",
+            "timestamp": [
+                2.8000000000000003,
+                3.2
+            ]
+        },
+        {
+            "text": "e",
+            "timestamp": [
+                3.44,
+                3.52
+            ]
+        },
+        {
+            "text": "umotimo",
+            "timestamp": [
+                3.7600000000000002,
+                4.4
+            ]
+        },
+        {
+            "text": "jaito",
+            "timestamp": [
+                4.48,
+                4.88
+            ]
+        },
+        {
+            "text": "de",
+            "timestamp": [
+                4.96,
+                5.04
+            ]
+        },
+        {
+            "text": "cum",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "car",
+            "timestamp": [
+                5.36,
+                5.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.6000000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "semana",
+            "timestamp": [
+                5.76,
+                6.16
+            ]
+        },
+        {
+            "text": "camum",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "clima",
+            "timestamp": [
+                6.640000000000001,
+                6.96
+            ]
+        },
+        {
+            "text": "bema",
+            "timestamp": [
+                7.04,
+                7.36
+            ]
+        },
+        {
+            "text": "conjugant.",
+            "timestamp": [
+                7.36,
+                8.0
+            ]
+        },
+        {
+            "text": "Com",
+            "timestamp": [
+                60.0,
+                60.24
+            ]
+        },
+        {
+            "text": "certisa,",
+            "timestamp": [
+                60.4,
+                61.2
+            ]
+        },
+        {
+            "text": "e",
+            "timestamp": [
+                61.44,
+                61.52
+            ]
+        },
+        {
+            "text": "um",
+            "timestamp": [
+                61.68,
+                61.76
+            ]
+        },
+        {
+            "text": "evento",
+            "timestamp": [
+                61.92,
+                62.480000000000004
+            ]
+        },
+        {
+            "text": "bem",
+            "timestamp": [
+                62.480000000000004,
+                62.72
+            ]
+        },
+        {
+            "text": "animoda,",
+            "timestamp": [
+                62.72,
+                63.36
+            ]
+        },
+        {
+            "text": "commuta",
+            "timestamp": [
+                63.52,
+                64.08
+            ]
+        },
+        {
+            "text": "gente",
+            "timestamp": [
+                64.08,
+                64.48
+            ]
+        },
+        {
+            "text": "e",
+            "timestamp": [
+                64.48,
+                64.56
+            ]
+        },
+        {
+            "text": "muta",
+            "timestamp": [
+                64.64,
+                64.96000000000001
+            ]
+        },
+        {
+            "text": "diversa,",
+            "timestamp": [
+                64.96000000000001,
+                65.52
+            ]
+        },
+        {
+            "text": "se",
+            "timestamp": [
+                65.68,
+                65.76
+            ]
+        },
+        {
+            "text": "vosa",
+            "timestamp": [
+                65.92,
+                66.4
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                66.64,
+                66.72
+            ]
+        },
+        {
+            "text": "veil",
+            "timestamp": [
+                67.12,
+                67.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                67.52,
+                67.6
+            ]
+        },
+        {
+            "text": "pena",
+            "timestamp": [
+                67.6,
+                67.84
+            ]
+        },
+        {
+            "text": "chicar",
+            "timestamp": [
+                67.92,
+                68.32000000000001
+            ]
+        },
+        {
+            "text": "os",
+            "timestamp": [
+                68.4,
+                68.56
+            ]
+        },
+        {
+            "text": "horarios",
+            "timestamp": [
+                68.64,
+                69.2
+            ]
+        },
+        {
+            "text": "para",
+            "timestamp": [
+                69.28,
+                69.52
+            ]
+        },
+        {
+            "text": "perternata.",
+            "timestamp": [
+                69.52,
+                70.08
+            ]
+        },
+        {
+            "text": "Com",
+            "timestamp": [
+                70.32000000000001,
+                70.48
+            ]
+        },
+        {
+            "text": "certiza,",
+            "timestamp": [
+                70.64,
+                71.36
+            ]
+        },
+        {
+            "text": "si",
+            "timestamp": [
+                71.60000000000001,
+                71.76
+            ]
+        },
+        {
+            "text": "tempo",
+            "timestamp": [
+                72.08,
+                72.48
+            ]
+        },
+        {
+            "text": "adjudar.",
+            "timestamp": [
+                72.48,
+                73.2
+            ]
+        },
+        {
+            "text": "Procure",
+            "timestamp": [
+                73.36,
+                73.92
+            ]
+        },
+        {
+            "text": "poor",
+            "timestamp": [
+                73.92,
+                74.08
+            ]
+        },
+        {
+            "text": "shoppings.",
+            "timestamp": [
+                74.24,
+                74.8
+            ]
+        },
+        {
+            "text": "Ao",
+            "timestamp": [
+                75.12,
+                75.36
+            ]
+        },
+        {
+            "text": "espasos",
+            "timestamp": [
+                75.44,
+                76.0
+            ]
+        },
+        {
+            "text": "cobertos",
+            "timestamp": [
+                76.08,
+                76.56
+            ]
+        },
+        {
+            "text": "comadadas.",
+            "timestamp": [
+                76.64,
+                77.36
+            ]
+        },
+        {
+            "text": "Asim",
+            "timestamp": [
+                78.24,
+                78.64
+            ]
+        },
+        {
+            "text": "voce",
+            "timestamp": [
+                78.96000000000001,
+                79.28
+            ]
+        },
+        {
+            "text": "garante",
+            "timestamp": [
+                79.44,
+                79.84
+            ]
+        },
+        {
+            "text": "um",
+            "timestamp": [
+                79.92,
+                80.0
+            ]
+        },
+        {
+            "text": "pasio",
+            "timestamp": [
+                80.08,
+                80.48
+            ]
+        },
+        {
+            "text": "diveradar",
+            "timestamp": [
+                80.56,
+                81.12
+            ]
+        },
+        {
+            "text": "umtoida",
+            "timestamp": [
+                81.36,
+                82.16
+            ]
+        },
+        {
+            "text": "au",
+            "timestamp": [
+                82.24,
+                82.4
+            ]
+        },
+        {
+            "text": "cabello.",
+            "timestamp": [
+                82.48,
+                82.96000000000001
+            ]
+        },
+        {
+            "text": "E",
+            "timestamp": [
+                83.2,
+                83.28
+            ]
+        },
+        {
+            "text": "um",
+            "timestamp": [
+                83.44,
+                83.52
+            ]
+        },
+        {
+            "text": "processo",
+            "timestamp": [
+                83.68,
+                84.16
+            ]
+        },
+        {
+            "text": "rapido",
+            "timestamp": [
+                84.24,
+                84.72
+            ]
+        },
+        {
+            "text": "i",
+            "timestamp": [
+                84.8,
+                84.88
+            ]
+        },
+        {
+            "text": "quidexa",
+            "timestamp": [
+                84.88,
+                85.52
+            ]
+        },
+        {
+            "text": "o",
+            "timestamp": [
+                85.60000000000001,
+                85.68
+            ]
+        },
+        {
+            "text": "cabello",
+            "timestamp": [
+                85.76,
+                86.24
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                86.32000000000001,
+                86.4
+            ]
+        },
+        {
+            "text": "suave",
+            "timestamp": [
+                86.48,
+                86.8
+            ]
+        },
+        {
+            "text": "i",
+            "timestamp": [
+                86.96000000000001,
+                87.04
+            ]
+        },
+        {
+            "text": "bonito.",
+            "timestamp": [
+                87.12,
+                87.68
+            ]
+        },
+        {
+            "text": "Uintendo",
+            "timestamp": [
+                87.92,
+                88.48
+            ]
+        },
+        {
+            "text": "avante",
+            "timestamp": [
+                88.56,
+                89.12
+            ]
+        },
+        {
+            "text": "de",
+            "timestamp": [
+                89.12,
+                89.2
+            ]
+        },
+        {
+            "text": "experimentar",
+            "timestamp": [
+                89.28,
+                89.76
+            ]
+        },
+        {
+            "text": "algo",
+            "timestamp": [
+                89.84,
+                90.08
+            ]
+        },
+        {
+            "text": "defrent.",
+            "timestamp": [
+                90.16,
+                90.48
+            ]
+        },
+        {
+            "text": "Se",
+            "timestamp": [
+                90.72,
+                90.88
+            ]
+        },
+        {
+            "text": "quaiser.",
+            "timestamp": [
+                90.96000000000001,
+                91.44
+            ]
+        },
+        {
+            "text": "Paso",
+            "timestamp": [
+                91.68,
+                92.16
+            ]
+        },
+        {
+            "text": "indicar",
+            "timestamp": [
+                92.16,
+                92.56
+            ]
+        },
+        {
+            "text": "algumas",
+            "timestamp": [
+                92.64,
+                93.2
+            ]
+        },
+        {
+            "text": "recidas",
+            "timestamp": [
+                93.36,
+                93.84
+            ]
+        },
+        {
+            "text": "m\u00e1s",
+            "timestamp": [
+                93.92,
+                94.08
+            ]
+        },
+        {
+            "text": "elabradas",
+            "timestamp": [
+                94.16,
+                94.8
+            ]
+        },
+        {
+            "text": "periquem",
+            "timestamp": [
+                94.88,
+                95.36
+            ]
+        },
+        {
+            "text": "gosta",
+            "timestamp": [
+                95.52,
+                95.92
+            ]
+        },
+        {
+            "text": "di",
+            "timestamp": [
+                96.0,
+                96.16
+            ]
+        },
+        {
+            "text": "umto",
+            "timestamp": [
+                96.16,
+                96.56
+            ]
+        },
+        {
+            "text": "gourme.",
+            "timestamp": [
+                96.64,
+                97.04
+            ]
+        }
+    ]
+}

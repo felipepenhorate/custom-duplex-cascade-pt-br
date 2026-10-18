@@ -1,0 +1,173 @@
+{
+    "text": "Opa, qui bom, se que complicado, masa gente tem que focar, no que melhor pra todo mundo, eas visas, renuncia e part du Christi.",
+    "chunks": [
+        {
+            "text": "Opa,",
+            "timestamp": [
+                5.44,
+                6.0
+            ]
+        },
+        {
+            "text": "qui",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "bom,",
+            "timestamp": [
+                6.640000000000001,
+                6.88
+            ]
+        },
+        {
+            "text": "se",
+            "timestamp": [
+                7.5200000000000005,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "que",
+            "timestamp": [
+                7.84,
+                8.16
+            ]
+        },
+        {
+            "text": "complicado,",
+            "timestamp": [
+                8.32,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "masa",
+            "timestamp": [
+                9.200000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "gente",
+            "timestamp": [
+                9.68,
+                10.16
+            ]
+        },
+        {
+            "text": "tem",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "que",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "focar,",
+            "timestamp": [
+                10.72,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "que",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "melhor",
+            "timestamp": [
+                12.24,
+                12.72
+            ]
+        },
+        {
+            "text": "pra",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "todo",
+            "timestamp": [
+                13.040000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "mundo,",
+            "timestamp": [
+                13.44,
+                13.84
+            ]
+        },
+        {
+            "text": "eas",
+            "timestamp": [
+                14.0,
+                14.24
+            ]
+        },
+        {
+            "text": "visas,",
+            "timestamp": [
+                14.32,
+                14.88
+            ]
+        },
+        {
+            "text": "renuncia",
+            "timestamp": [
+                15.280000000000001,
+                16.0
+            ]
+        },
+        {
+            "text": "e",
+            "timestamp": [
+                16.080000000000002,
+                16.16
+            ]
+        },
+        {
+            "text": "part",
+            "timestamp": [
+                16.240000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "du",
+            "timestamp": [
+                16.48,
+                16.64
+            ]
+        },
+        {
+            "text": "Christi.",
+            "timestamp": [
+                16.64,
+                16.88
+            ]
+        }
+    ]
+}

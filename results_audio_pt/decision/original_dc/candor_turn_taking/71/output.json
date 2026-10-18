@@ -1,0 +1,152 @@
+{
+    "text": "I understand how you feel. The current situation has indeed limited our ability to engage in many of the activities we're",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "understand",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "feel.",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "current",
+            "timestamp": [
+                13.040000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "situation",
+            "timestamp": [
+                13.44,
+                14.08
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                14.08,
+                14.32
+            ]
+        },
+        {
+            "text": "indeed",
+            "timestamp": [
+                14.32,
+                14.64
+            ]
+        },
+        {
+            "text": "limited",
+            "timestamp": [
+                14.64,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "our",
+            "timestamp": [
+                15.120000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "ability",
+            "timestamp": [
+                15.36,
+                15.68
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.68,
+                15.84
+            ]
+        },
+        {
+            "text": "engage",
+            "timestamp": [
+                15.84,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                16.240000000000002,
+                16.4
+            ]
+        },
+        {
+            "text": "many",
+            "timestamp": [
+                16.4,
+                16.64
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                16.64,
+                16.72
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.72,
+                16.8
+            ]
+        },
+        {
+            "text": "activities",
+            "timestamp": [
+                16.8,
+                17.36
+            ]
+        },
+        {
+            "text": "we're",
+            "timestamp": [
+                17.36,
+                17.6
+            ]
+        }
+    ]
+}

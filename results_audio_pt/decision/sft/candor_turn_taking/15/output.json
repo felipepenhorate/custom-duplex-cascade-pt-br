@@ -1,0 +1,110 @@
+{
+    "text": "Nah, not really. I just I can't resist a chocolate bar. Tends to do that.",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                7.6000000000000005,
+                8.0
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                8.16,
+                8.4
+            ]
+        },
+        {
+            "text": "really.",
+            "timestamp": [
+                8.4,
+                8.72
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                9.040000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "resist",
+            "timestamp": [
+                9.92,
+                10.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "chocolate",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "bar.",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "Tends",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                11.76,
+                12.08
+            ]
+        }
+    ]
+}

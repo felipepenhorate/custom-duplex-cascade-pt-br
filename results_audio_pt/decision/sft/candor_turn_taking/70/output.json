@@ -1,0 +1,201 @@
+{
+    "text": "Nah, nah. I can confirm, fall is a tricky season. Sporadic showers and a mix of light to moderate temperatures are normal, so, delivery performance is usually consistent.",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                1.36,
+                1.76
+            ]
+        },
+        {
+            "text": "nah.",
+            "timestamp": [
+                1.92,
+                2.16
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.72,
+                10.96
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "confirm,",
+            "timestamp": [
+                11.200000000000001,
+                11.84
+            ]
+        },
+        {
+            "text": "fall",
+            "timestamp": [
+                12.08,
+                12.48
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.72,
+                12.8
+            ]
+        },
+        {
+            "text": "tricky",
+            "timestamp": [
+                12.8,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "season.",
+            "timestamp": [
+                13.280000000000001,
+                13.6
+            ]
+        },
+        {
+            "text": "Sporadic",
+            "timestamp": [
+                13.84,
+                14.4
+            ]
+        },
+        {
+            "text": "showers",
+            "timestamp": [
+                14.4,
+                14.8
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                14.8,
+                14.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.96,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "mix",
+            "timestamp": [
+                15.040000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                15.280000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "light",
+            "timestamp": [
+                15.36,
+                15.68
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.68,
+                15.84
+            ]
+        },
+        {
+            "text": "moderate",
+            "timestamp": [
+                15.84,
+                16.16
+            ]
+        },
+        {
+            "text": "temperatures",
+            "timestamp": [
+                16.16,
+                16.72
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                16.72,
+                16.88
+            ]
+        },
+        {
+            "text": "normal,",
+            "timestamp": [
+                16.88,
+                17.2
+            ]
+        },
+        {
+            "text": "so,",
+            "timestamp": [
+                17.36,
+                17.44
+            ]
+        },
+        {
+            "text": "delivery",
+            "timestamp": [
+                17.52,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "performance",
+            "timestamp": [
+                18.080000000000002,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                18.400000000000002,
+                18.56
+            ]
+        },
+        {
+            "text": "usually",
+            "timestamp": [
+                18.56,
+                18.8
+            ]
+        },
+        {
+            "text": "consistent.",
+            "timestamp": [
+                18.8,
+                19.12
+            ]
+        }
+    ]
+}

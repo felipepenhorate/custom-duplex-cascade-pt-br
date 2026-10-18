@@ -1,0 +1,96 @@
+{
+    "text": "Ah, I do. Is it a lot of people, or just a few?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                7.36,
+                7.84
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "do.",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.040000000000001,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.28,
+                9.36
+            ]
+        },
+        {
+            "text": "people,",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "few?",
+            "timestamp": [
+                10.24,
+                10.8
+            ]
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "text": "Ah, two thousand six. Seem long. Is he in a bad spot?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                9.36,
+                9.76
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                10.08,
+                10.16
+            ]
+        },
+        {
+            "text": "thousand",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "six.",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "Seem",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "long.",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        },
+        {
+            "text": "bad",
+            "timestamp": [
+                12.96,
+                13.36
+            ]
+        },
+        {
+            "text": "spot?",
+            "timestamp": [
+                13.36,
+                13.92
+            ]
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "text": "It sounds like you have a positive outlook on the people of North Carolina, despite finding them a bit on the otter.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                10.08,
+                10.48
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.040000000000001,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "positive",
+            "timestamp": [
+                11.120000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "outlook",
+            "timestamp": [
+                11.6,
+                12.0
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.16,
+                12.24
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                12.48,
+                12.56
+            ]
+        },
+        {
+            "text": "North",
+            "timestamp": [
+                12.56,
+                12.88
+            ]
+        },
+        {
+            "text": "Carolina,",
+            "timestamp": [
+                12.88,
+                13.44
+            ]
+        },
+        {
+            "text": "despite",
+            "timestamp": [
+                13.76,
+                14.16
+            ]
+        },
+        {
+            "text": "finding",
+            "timestamp": [
+                14.16,
+                14.48
+            ]
+        },
+        {
+            "text": "them",
+            "timestamp": [
+                14.48,
+                14.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.64,
+                14.72
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                14.72,
+                14.88
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                14.88,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                15.040000000000001,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "otter.",
+            "timestamp": [
+                15.200000000000001,
+                15.84
+            ]
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "text": "Duolingo and Babble are popular. I use Babble.",
+    "chunks": [
+        {
+            "text": "Duolingo",
+            "timestamp": [
+                13.64,
+                14.44
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                14.44,
+                14.52
+            ]
+        },
+        {
+            "text": "Babble",
+            "timestamp": [
+                14.52,
+                15.0
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                15.08,
+                15.24
+            ]
+        },
+        {
+            "text": "popular.",
+            "timestamp": [
+                15.24,
+                15.64
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                15.96,
+                16.12
+            ]
+        },
+        {
+            "text": "use",
+            "timestamp": [
+                16.12,
+                16.36
+            ]
+        },
+        {
+            "text": "Babble.",
+            "timestamp": [
+                16.36,
+                16.92
+            ]
+        }
+    ]
+}

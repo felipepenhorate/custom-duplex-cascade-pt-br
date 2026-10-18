@@ -1,0 +1,124 @@
+{
+    "text": "Depends on a lot of factors. Marketing is a lot of subfields. S. Is there a particular",
+    "chunks": [
+        {
+            "text": "Depends",
+            "timestamp": [
+                4.96,
+                5.68
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                6.0,
+                6.16
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "factors.",
+            "timestamp": [
+                6.32,
+                6.72
+            ]
+        },
+        {
+            "text": "Marketing",
+            "timestamp": [
+                9.040000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "subfields.",
+            "timestamp": [
+                10.0,
+                10.56
+            ]
+        },
+        {
+            "text": "S.",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "there",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "particular",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        }
+    ]
+}

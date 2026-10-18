@@ -1,0 +1,264 @@
+{
+    "text": "OPA A full fledged road trip. Preliminary Define a bend or detour in your map. Do a light check in at a hotel or cafe to rest, or use a car to explore a local nature reserve.",
+    "chunks": [
+        {
+            "text": "OPA",
+            "timestamp": [
+                14.76,
+                15.32
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                15.559999999999999,
+                15.719999999999999
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                15.719999999999999,
+                15.959999999999999
+            ]
+        },
+        {
+            "text": "fledged",
+            "timestamp": [
+                16.04,
+                16.36
+            ]
+        },
+        {
+            "text": "road",
+            "timestamp": [
+                16.36,
+                16.6
+            ]
+        },
+        {
+            "text": "trip.",
+            "timestamp": [
+                16.6,
+                16.919999999999998
+            ]
+        },
+        {
+            "text": "Preliminary",
+            "timestamp": [
+                17.08,
+                17.8
+            ]
+        },
+        {
+            "text": "Define",
+            "timestamp": [
+                18.04,
+                18.439999999999998
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.439999999999998,
+                18.68
+            ]
+        },
+        {
+            "text": "bend",
+            "timestamp": [
+                18.68,
+                19.0
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                19.16,
+                19.48
+            ]
+        },
+        {
+            "text": "detour",
+            "timestamp": [
+                19.48,
+                20.04
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                20.2,
+                20.36
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                20.36,
+                20.52
+            ]
+        },
+        {
+            "text": "map.",
+            "timestamp": [
+                20.52,
+                20.759999999999998
+            ]
+        },
+        {
+            "text": "Do",
+            "timestamp": [
+                20.92,
+                21.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.08,
+                21.16
+            ]
+        },
+        {
+            "text": "light",
+            "timestamp": [
+                21.16,
+                21.48
+            ]
+        },
+        {
+            "text": "check",
+            "timestamp": [
+                21.48,
+                21.72
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                21.8,
+                21.96
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                21.96,
+                22.119999999999997
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                22.119999999999997,
+                22.2
+            ]
+        },
+        {
+            "text": "hotel",
+            "timestamp": [
+                22.2,
+                22.68
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                22.68,
+                22.92
+            ]
+        },
+        {
+            "text": "cafe",
+            "timestamp": [
+                22.92,
+                23.16
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                23.32,
+                23.48
+            ]
+        },
+        {
+            "text": "rest,",
+            "timestamp": [
+                23.48,
+                23.799999999999997
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                24.119999999999997,
+                24.28
+            ]
+        },
+        {
+            "text": "use",
+            "timestamp": [
+                24.28,
+                24.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.52,
+                24.68
+            ]
+        },
+        {
+            "text": "car",
+            "timestamp": [
+                24.68,
+                24.92
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                24.92,
+                25.08
+            ]
+        },
+        {
+            "text": "explore",
+            "timestamp": [
+                25.08,
+                25.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.4,
+                25.560000000000002
+            ]
+        },
+        {
+            "text": "local",
+            "timestamp": [
+                25.560000000000002,
+                25.799999999999997
+            ]
+        },
+        {
+            "text": "nature",
+            "timestamp": [
+                25.799999999999997,
+                26.2
+            ]
+        },
+        {
+            "text": "reserve.",
+            "timestamp": [
+                26.2,
+                27.08
+            ]
+        }
+    ]
+}

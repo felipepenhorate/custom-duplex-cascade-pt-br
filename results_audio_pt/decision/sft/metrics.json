@@ -1,0 +1,133 @@
+{
+  "model": "sft",
+  "mode": "decision",
+  "lang": "pt",
+  "vad": "silero",
+  "silence_s": 0.6,
+  "partial_interval_s": 0.6,
+  "partial_commit_s": 0.5,
+  "whisper": "medium",
+  "tts_language": "english",
+  "tts_temp": 0.7,
+  "asr_scorer": "nvidia/parakeet-tdt-0.6b-v2",
+  "judge": "http://127.0.0.1:8099/v1",
+  "official_task_metrics": {
+    "candor_pause_handling": {
+      "tor": 0.7129629629629629,
+      "_raw_tail": "---------------------------------------------------\n[Result]\nAverage take turn:  0.7129629629629629\n---------------------------------------------------\n"
+    },
+    "synthetic_pause_handling": {
+      "tor": 0.8248175182481752,
+      "_raw_tail": "---------------------------------------------------\n[Result]\nAverage take turn:  0.8248175182481752\n---------------------------------------------------\n"
+    },
+    "candor_turn_taking": {
+      "tor": 0.865546218487395,
+      "latency_s": 0.3285436893203922,
+      "_raw_tail": "son\nthe TOR is 1\nthe latency is -0.9899999999999274\n/tmp/opencode/audio_score/decision_sft/candor_turn_taking/8/output.json\nthe TOR is 1\nthe latency is 0.6699999999999822\n/tmp/opencode/audio_score/decision_sft/candor_turn_taking/112/output.json\nthe TOR is 1\nthe latency is 0.6599999999999726\n/tmp/opencode/audio_score/decision_sft/candor_turn_taking/44/output.json\nthe TOR is 1\nthe latency is 0.370000000000009\n/tmp/opencode/audio_score/decision_sft/candor_turn_taking/103/output.json\nthe TOR is 1\nthe latency is 0.7099999999998907\n/tmp/opencode/audio_score/decision_sft/candor_turn_taking/28/output.json\nthe TOR is 1\nthe latency is 0.8799999999999999\n/tmp/opencode/audio_score/decision_sft/candor_turn_taking/33/output.json\nthe TOR is 1\nthe latency is -3.8399999999998906\n/tmp/opencode/audio_score/decision_sft/candor_turn_taking/53/output.json\nthe TOR is 1\nthe latency is 0.529999999999986\n/tmp/opencode/audio_score/decision_sft/candor_turn_taking/54/output.json\nthe TOR is 1\nthe latency is 0.5100000000000202\n---------------------------------------------------\n[Result]\nAverage take turn:  0.865546218487395\nAverage latency:  0.3285436893203922\n---------------------------------------------------\n"
+    },
+    "icc_backchannel": {
+      "jsd_mean": 0.9297,
+      "jsd_mean_std": 0.1119,
+      "tor": 0.2909,
+      "tor_std": 0.4542,
+      "freq_mean": 0.0141,
+      "freq_mean_std": 0.0273,
+      "_raw_tail": " []\nJSD: 1\nduration is 0.5\ncurr_text is []\nbackchannel prediction is [[25.9, 26.4]]\nJSD: 0.8192603374657108\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nduration is 1.1999999999999957\ncurr_text is []\nduration is 0.6000000000000014\ncurr_text is ['I', 'can', 'confirm.']\nduration is 1.2999999999999972\ncurr_text is ['I', 'fascinating.']\nbackchannel prediction is [[58.6, 59.8], [61.1, 61.7], [62.2, 63.5]]\nJSD: 0.7844005952361707\nbackchannel prediction is []\nJSD: 1\nduration is 2.8999999999999986\ncurr_text is ['Hum,', 'I', 'can', 'sense', 'a', 'mix', 'of', 'fondness', 'and', 'exasperation.']\nbackchannel prediction is [[31.4, 34.3]]\nJSD: 0.7194029333457083\nduration is 1.5\ncurr_text is []\nbackchannel prediction is [[16.1, 17.6]]\nJSD: 0.7866684313721044\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\n---------------------------------------------------\n[Result]\nJSD - Mean: 0.9297 ± 0.1119\nTOR - Mean: 0.2909 ± 0.4542\nFrequency - Mean: 0.0141 ± 0.0273\n\n[Raw Counts]\nNumber of samples: 55\n---------------------------------------------------\n"
+    },
+    "synthetic_user_interruption": {
+      "relevance": 3.10752688172043,
+      "tor": 0.93,
+      "latency_s": 0.6541935483870971,
+      "_raw_tail": "nse is not completely unrelated (it touches on the concept of headphones by mentioning \"fit\"), it fails to acknowledge the user's specific question or provide any helpful information, making it only slightly related to the interrupting turn.\n\nI would rate the AI's response as 2.\n{'analysis': 'The user interrupts the AI\\'s turn to ask a specific question about headphone recommendations for running. The AI\\'s response (\"I can\\'t say. I just prefer a decent fit\") is a refusal to answer the specific question and shifts the topic to a vague personal preference about \"fit\" rather than addressing the user\\'s query about headphones. While the response is not completely unrelated (it touches on the concept of headphones by mentioning \"fit\"), it fails to acknowledge the user\\'s specific question or provide any helpful information, making it only slightly related to the interrupting turn.', 'rating': 2}\nProcessing /tmp/opencode/audio_score/decision_sft/synthetic_user_interruption/99 ...\n---------------------------------------------------\n[Result]\nAverage rating:  3.10752688172043\nAverage take turn:  0.93\nAverage latency:  0.6541935483870971\n---------------------------------------------------\n"
+    }
+  },
+  "audio_rollup": {
+    "candor_pause_handling": {
+      "n": 216,
+      "spoke_rate": 0.213,
+      "audible_within_input_rate": 0.1759,
+      "spoke_but_late_only_rate": 0.037,
+      "mean_first_speech_start_s": 8.842,
+      "formal_turn_by_audio": 0.1944,
+      "mean_compute_s": 0.413,
+      "max_decision_s": 0.481,
+      "mean_tts_s": 0.279,
+      "mean_stt_s": 0.117,
+      "mean_stt_final_s": 0.02,
+      "tts_capped_turns": 9,
+      "n_finalized": 589,
+      "n_skipped_utt": 10,
+      "clipped_speech_s": 7.762
+    },
+    "synthetic_pause_handling": {
+      "n": 137,
+      "spoke_rate": 0.3504,
+      "audible_within_input_rate": 0.2847,
+      "spoke_but_late_only_rate": 0.0657,
+      "mean_first_speech_start_s": 6.043,
+      "formal_turn_by_audio": 0.3358,
+      "mean_compute_s": 0.414,
+      "max_decision_s": 0.535,
+      "mean_tts_s": 0.629,
+      "mean_stt_s": 0.065,
+      "mean_stt_final_s": 0.018,
+      "tts_capped_turns": 29,
+      "n_finalized": 454,
+      "n_skipped_utt": 7,
+      "clipped_speech_s": 8.502
+    },
+    "candor_turn_taking": {
+      "n": 119,
+      "spoke_rate": 0.2017,
+      "audible_within_input_rate": 0.1765,
+      "spoke_but_late_only_rate": 0.0252,
+      "mean_first_speech_start_s": 8.408,
+      "formal_turn_by_audio": 0.2017,
+      "mean_compute_s": 0.428,
+      "max_decision_s": 0.448,
+      "mean_tts_s": 0.342,
+      "mean_stt_s": 0.188,
+      "mean_stt_final_s": 0.02,
+      "tts_capped_turns": 4,
+      "n_finalized": 275,
+      "n_skipped_utt": 29,
+      "clipped_speech_s": 0.804
+    },
+    "icc_backchannel": {
+      "n": 55,
+      "spoke_rate": 0.3636,
+      "audible_within_input_rate": 0.3273,
+      "spoke_but_late_only_rate": 0.0364,
+      "mean_first_speech_start_s": 21.388,
+      "formal_turn_by_audio": 0.3273,
+      "mean_compute_s": 1.34,
+      "max_decision_s": 0.42,
+      "mean_tts_s": 0.578,
+      "mean_stt_s": 0.554,
+      "mean_stt_final_s": 0.054,
+      "tts_capped_turns": 1,
+      "n_finalized": 272,
+      "n_skipped_utt": 5,
+      "clipped_speech_s": 0.947
+    },
+    "synthetic_user_interruption": {
+      "n": 200,
+      "spoke_rate": 0.22,
+      "audible_within_input_rate": 0.19,
+      "spoke_but_late_only_rate": 0.03,
+      "mean_first_speech_start_s": 10.627,
+      "formal_turn_by_audio": 0.21,
+      "mean_compute_s": 0.629,
+      "max_decision_s": 0.482,
+      "mean_tts_s": 0.533,
+      "mean_stt_s": 0.452,
+      "mean_stt_final_s": 0.033,
+      "tts_capped_turns": 8,
+      "n_finalized": 519,
+      "n_skipped_utt": 70,
+      "clipped_speech_s": 3.666,
+      "latency_vs_reference_s": 5.666,
+      "latency_n": 25
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+    "text": "It sounds like you're describing the experience of skiing in.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                29.84,
+                30.0
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                30.0,
+                30.400000000000002
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                30.400000000000002,
+                30.560000000000002
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                30.560000000000002,
+                30.8
+            ]
+        },
+        {
+            "text": "describing",
+            "timestamp": [
+                30.8,
+                31.28
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                31.28,
+                31.44
+            ]
+        },
+        {
+            "text": "experience",
+            "timestamp": [
+                31.44,
+                31.92
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                31.92,
+                32.08
+            ]
+        },
+        {
+            "text": "skiing",
+            "timestamp": [
+                32.08,
+                32.64
+            ]
+        },
+        {
+            "text": "in.",
+            "timestamp": [
+                32.64,
+                32.8
+            ]
+        }
+    ]
+}

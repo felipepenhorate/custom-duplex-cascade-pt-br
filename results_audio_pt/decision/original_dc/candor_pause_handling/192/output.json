@@ -1,0 +1,82 @@
+{
+    "text": "Indeed, it's always a good practice to know your personal limits.",
+    "chunks": [
+        {
+            "text": "Indeed,",
+            "timestamp": [
+                7.6000000000000005,
+                8.16
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "always",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "practice",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "personal",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        },
+        {
+            "text": "limits.",
+            "timestamp": [
+                10.08,
+                10.88
+            ]
+        }
+    ]
+}

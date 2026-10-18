@@ -1,0 +1,145 @@
+{
+    "text": "Absolutely, Canada is a beautiful country with a lot to offer. Once travel restrictions are lifted, you can explore itself.",
+    "chunks": [
+        {
+            "text": "Absolutely,",
+            "timestamp": [
+                8.0,
+                8.96
+            ]
+        },
+        {
+            "text": "Canada",
+            "timestamp": [
+                9.120000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "beautiful",
+            "timestamp": [
+                9.84,
+                10.32
+            ]
+        },
+        {
+            "text": "country",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "offer.",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "Once",
+            "timestamp": [
+                11.92,
+                12.32
+            ]
+        },
+        {
+            "text": "travel",
+            "timestamp": [
+                12.32,
+                12.64
+            ]
+        },
+        {
+            "text": "restrictions",
+            "timestamp": [
+                12.64,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                13.200000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "lifted,",
+            "timestamp": [
+                13.280000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                13.84,
+                13.92
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        },
+        {
+            "text": "explore",
+            "timestamp": [
+                14.08,
+                14.32
+            ]
+        },
+        {
+            "text": "itself.",
+            "timestamp": [
+                14.32,
+                14.56
+            ]
+        }
+    ]
+}

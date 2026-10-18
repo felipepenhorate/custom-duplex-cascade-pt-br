@@ -1,0 +1,68 @@
+{
+    "text": "It seems like you're expressing concern about the direction.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                12.48,
+                12.8
+            ]
+        },
+        {
+            "text": "seems",
+            "timestamp": [
+                12.8,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "expressing",
+            "timestamp": [
+                13.6,
+                14.08
+            ]
+        },
+        {
+            "text": "concern",
+            "timestamp": [
+                14.08,
+                14.56
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                14.56,
+                14.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                14.8,
+                14.88
+            ]
+        },
+        {
+            "text": "direction.",
+            "timestamp": [
+                14.88,
+                15.280000000000001
+            ]
+        }
+    ]
+}

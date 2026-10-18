@@ -1,0 +1,68 @@
+{
+    "text": "Opa qui legal tem alguma dica de on dihar.",
+    "chunks": [
+        {
+            "text": "Opa",
+            "timestamp": [
+                8.24,
+                8.8
+            ]
+        },
+        {
+            "text": "qui",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "legal",
+            "timestamp": [
+                9.36,
+                9.68
+            ]
+        },
+        {
+            "text": "tem",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "alguma",
+            "timestamp": [
+                10.24,
+                10.72
+            ]
+        },
+        {
+            "text": "dica",
+            "timestamp": [
+                10.72,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "de",
+            "timestamp": [
+                11.120000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "dihar.",
+            "timestamp": [
+                11.44,
+                11.84
+            ]
+        }
+    ]
+}

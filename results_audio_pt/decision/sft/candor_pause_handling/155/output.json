@@ -1,0 +1,82 @@
+{
+    "text": "Ah, I understand. Is it a recent or an older injury?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                9.92,
+                10.48
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.8,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "recent",
+            "timestamp": [
+                12.24,
+                12.72
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "older",
+            "timestamp": [
+                13.040000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "injury?",
+            "timestamp": [
+                13.44,
+                14.08
+            ]
+        }
+    ]
+}

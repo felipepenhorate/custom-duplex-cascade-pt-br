@@ -1,0 +1,75 @@
+{
+    "text": "Ah, I can I can I can confirm or deny.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                3.44,
+                3.84
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.08,
+                4.24
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                4.24,
+                4.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.36,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                5.6000000000000005,
+                5.84
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "confirm",
+            "timestamp": [
+                11.040000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "deny.",
+            "timestamp": [
+                11.84,
+                12.64
+            ]
+        }
+    ]
+}

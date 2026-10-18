@@ -1,0 +1,348 @@
+{
+    "text": "Sure, I can help you with that. To get tomorrow's weather forecast, you would typically follow a similar process as checking the current weather. Here are a few steps you can take: 1. Online weather websites. Websites like Weather.com, AccuWeather, or the Weather Channel offer detailed forecasts for various.",
+    "chunks": [
+        {
+            "text": "Sure,",
+            "timestamp": [
+                13.16,
+                13.56
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.72,
+                13.8
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                13.8,
+                13.96
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                13.96,
+                14.120000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.120000000000001,
+                14.280000000000001
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                14.280000000000001,
+                14.52
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                14.52,
+                14.68
+            ]
+        },
+        {
+            "text": "To",
+            "timestamp": [
+                14.92,
+                15.08
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                15.08,
+                15.24
+            ]
+        },
+        {
+            "text": "tomorrow's",
+            "timestamp": [
+                15.24,
+                15.72
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                15.72,
+                15.96
+            ]
+        },
+        {
+            "text": "forecast,",
+            "timestamp": [
+                15.96,
+                16.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                16.6,
+                16.68
+            ]
+        },
+        {
+            "text": "would",
+            "timestamp": [
+                16.68,
+                16.84
+            ]
+        },
+        {
+            "text": "typically",
+            "timestamp": [
+                16.84,
+                17.16
+            ]
+        },
+        {
+            "text": "follow",
+            "timestamp": [
+                17.16,
+                17.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.48,
+                17.64
+            ]
+        },
+        {
+            "text": "similar",
+            "timestamp": [
+                17.64,
+                17.96
+            ]
+        },
+        {
+            "text": "process",
+            "timestamp": [
+                17.96,
+                18.36
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                18.36,
+                18.6
+            ]
+        },
+        {
+            "text": "checking",
+            "timestamp": [
+                18.6,
+                18.92
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                18.92,
+                19.0
+            ]
+        },
+        {
+            "text": "current",
+            "timestamp": [
+                19.0,
+                19.32
+            ]
+        },
+        {
+            "text": "weather.",
+            "timestamp": [
+                19.32,
+                19.560000000000002
+            ]
+        },
+        {
+            "text": "Here",
+            "timestamp": [
+                19.8,
+                19.96
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                19.96,
+                20.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.12,
+                20.200000000000003
+            ]
+        },
+        {
+            "text": "few",
+            "timestamp": [
+                20.200000000000003,
+                20.36
+            ]
+        },
+        {
+            "text": "steps",
+            "timestamp": [
+                20.36,
+                20.759999999999998
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                20.759999999999998,
+                20.84
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                20.84,
+                21.08
+            ]
+        },
+        {
+            "text": "take:",
+            "timestamp": [
+                21.08,
+                21.240000000000002
+            ]
+        },
+        {
+            "text": "1.",
+            "timestamp": [
+                21.560000000000002,
+                21.96
+            ]
+        },
+        {
+            "text": "Online",
+            "timestamp": [
+                22.28,
+                22.68
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                22.68,
+                23.0
+            ]
+        },
+        {
+            "text": "websites.",
+            "timestamp": [
+                23.0,
+                23.64
+            ]
+        },
+        {
+            "text": "Websites",
+            "timestamp": [
+                23.96,
+                24.6
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                24.6,
+                24.759999999999998
+            ]
+        },
+        {
+            "text": "Weather.com,",
+            "timestamp": [
+                24.759999999999998,
+                25.72
+            ]
+        },
+        {
+            "text": "AccuWeather,",
+            "timestamp": [
+                26.04,
+                26.92
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                27.08,
+                27.240000000000002
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                27.240000000000002,
+                27.400000000000002
+            ]
+        },
+        {
+            "text": "Weather",
+            "timestamp": [
+                27.400000000000002,
+                27.72
+            ]
+        },
+        {
+            "text": "Channel",
+            "timestamp": [
+                27.72,
+                28.12
+            ]
+        },
+        {
+            "text": "offer",
+            "timestamp": [
+                28.12,
+                28.44
+            ]
+        },
+        {
+            "text": "detailed",
+            "timestamp": [
+                28.44,
+                28.92
+            ]
+        },
+        {
+            "text": "forecasts",
+            "timestamp": [
+                28.92,
+                29.48
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                29.48,
+                29.560000000000002
+            ]
+        },
+        {
+            "text": "various.",
+            "timestamp": [
+                29.560000000000002,
+                29.8
+            ]
+        }
+    ]
+}

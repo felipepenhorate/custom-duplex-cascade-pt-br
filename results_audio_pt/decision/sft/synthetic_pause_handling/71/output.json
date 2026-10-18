@@ -1,0 +1,82 @@
+{
+    "text": "Oof, Silence of the Lamb. I can't say I've seen it.",
+    "chunks": [
+        {
+            "text": "Oof,",
+            "timestamp": [
+                8.32,
+                8.72
+            ]
+        },
+        {
+            "text": "Silence",
+            "timestamp": [
+                9.040000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "Lamb.",
+            "timestamp": [
+                9.84,
+                10.24
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                10.56,
+                10.88
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "I've",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "seen",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                11.52,
+                11.6
+            ]
+        }
+    ]
+}

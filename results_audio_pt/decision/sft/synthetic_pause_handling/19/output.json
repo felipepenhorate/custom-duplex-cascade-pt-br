@@ -1,0 +1,75 @@
+{
+    "text": "Ooh, a nature or chill vibe depends on the mood.",
+    "chunks": [
+        {
+            "text": "Ooh,",
+            "timestamp": [
+                7.36,
+                7.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "nature",
+            "timestamp": [
+                8.48,
+                8.96
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "chill",
+            "timestamp": [
+                9.200000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "vibe",
+            "timestamp": [
+                9.6,
+                10.08
+            ]
+        },
+        {
+            "text": "depends",
+            "timestamp": [
+                10.32,
+                10.72
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "mood.",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "text": "Ah, I can understand. Pens a respito au equivoce vu ne?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                7.76,
+                8.16
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "Pens",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.08,
+                10.16
+            ]
+        },
+        {
+            "text": "respito",
+            "timestamp": [
+                10.16,
+                10.88
+            ]
+        },
+        {
+            "text": "au",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "equivoce",
+            "timestamp": [
+                11.36,
+                12.0
+            ]
+        },
+        {
+            "text": "vu",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "ne?",
+            "timestamp": [
+                12.56,
+                12.64
+            ]
+        }
+    ]
+}

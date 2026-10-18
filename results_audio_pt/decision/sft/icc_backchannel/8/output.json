@@ -1,0 +1,117 @@
+{
+    "text": "Oof, I can imagine Ah, Malden No, I can understand. Is it a lot of stress?",
+    "chunks": [
+        {
+            "text": "Oof,",
+            "timestamp": [
+                12.24,
+                12.64
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "imagine",
+            "timestamp": [
+                13.200000000000001,
+                13.92
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                24.96,
+                25.28
+            ]
+        },
+        {
+            "text": "Malden",
+            "timestamp": [
+                25.36,
+                26.400000000000002
+            ]
+        },
+        {
+            "text": "No,",
+            "timestamp": [
+                45.68,
+                45.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                46.08,
+                46.24
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                46.24,
+                46.480000000000004
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                46.480000000000004,
+                46.800000000000004
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                47.12,
+                47.28
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                47.28,
+                47.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                47.44,
+                47.6
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                47.6,
+                47.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                47.68,
+                47.92
+            ]
+        },
+        {
+            "text": "stress?",
+            "timestamp": [
+                47.92,
+                48.56
+            ]
+        }
+    ]
+}

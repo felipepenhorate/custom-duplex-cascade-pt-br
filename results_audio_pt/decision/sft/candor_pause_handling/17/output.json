@@ -1,0 +1,54 @@
+{
+    "text": "Opa: A bomb dya or a brigado.",
+    "chunks": [
+        {
+            "text": "Opa:",
+            "timestamp": [
+                7.84,
+                8.48
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "bomb",
+            "timestamp": [
+                8.8,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "dya",
+            "timestamp": [
+                9.200000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "brigado.",
+            "timestamp": [
+                10.08,
+                10.88
+            ]
+        }
+    ]
+}

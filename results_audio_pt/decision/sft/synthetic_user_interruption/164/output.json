@@ -1,0 +1,411 @@
+{
+    "text": "As I mentioned, is a game changer. Rockets can now land vertically, similar to an airplane, and be refueled for a new launch. This vertical landing is a major engineering feat. A smoothie? Ah, a smoothie. For a smoothie, I recommend a base of banana, a scoop of protein, and a mix of berries. Chill it a bit.",
+    "chunks": [
+        {
+            "text": "As",
+            "timestamp": [
+                12.808000000000002,
+                12.968000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.968000000000002,
+                13.048000000000002
+            ]
+        },
+        {
+            "text": "mentioned,",
+            "timestamp": [
+                13.048000000000002,
+                13.368000000000002
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                13.608,
+                13.768
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.768,
+                13.928
+            ]
+        },
+        {
+            "text": "game",
+            "timestamp": [
+                13.928,
+                14.168000000000001
+            ]
+        },
+        {
+            "text": "changer.",
+            "timestamp": [
+                14.168000000000001,
+                14.568000000000001
+            ]
+        },
+        {
+            "text": "Rockets",
+            "timestamp": [
+                14.808000000000002,
+                15.288
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                15.288,
+                15.448
+            ]
+        },
+        {
+            "text": "now",
+            "timestamp": [
+                15.448,
+                15.688
+            ]
+        },
+        {
+            "text": "land",
+            "timestamp": [
+                15.688,
+                15.928
+            ]
+        },
+        {
+            "text": "vertically,",
+            "timestamp": [
+                15.928,
+                16.408
+            ]
+        },
+        {
+            "text": "similar",
+            "timestamp": [
+                16.568,
+                16.888
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                16.888,
+                17.048000000000002
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                17.048000000000002,
+                17.128
+            ]
+        },
+        {
+            "text": "airplane,",
+            "timestamp": [
+                17.128,
+                17.688000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                17.768,
+                17.928
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                17.928,
+                18.088
+            ]
+        },
+        {
+            "text": "refueled",
+            "timestamp": [
+                18.088,
+                18.648000000000003
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                18.648000000000003,
+                18.728
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.728,
+                18.808
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                18.808,
+                18.968
+            ]
+        },
+        {
+            "text": "launch.",
+            "timestamp": [
+                18.968,
+                19.368000000000002
+            ]
+        },
+        {
+            "text": "This",
+            "timestamp": [
+                19.608,
+                19.768
+            ]
+        },
+        {
+            "text": "vertical",
+            "timestamp": [
+                19.768,
+                20.248
+            ]
+        },
+        {
+            "text": "landing",
+            "timestamp": [
+                20.248,
+                20.808
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                20.808,
+                20.968000000000004
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.968000000000004,
+                21.128
+            ]
+        },
+        {
+            "text": "major",
+            "timestamp": [
+                21.128,
+                21.528
+            ]
+        },
+        {
+            "text": "engineering",
+            "timestamp": [
+                21.528,
+                22.088
+            ]
+        },
+        {
+            "text": "feat.",
+            "timestamp": [
+                22.088,
+                22.328000000000003
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                22.568,
+                22.728
+            ]
+        },
+        {
+            "text": "smoothie?",
+            "timestamp": [
+                22.728,
+                23.288000000000004
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                23.528,
+                23.928
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.168,
+                24.408
+            ]
+        },
+        {
+            "text": "smoothie.",
+            "timestamp": [
+                24.408,
+                24.888
+            ]
+        },
+        {
+            "text": "For",
+            "timestamp": [
+                25.128,
+                25.288000000000004
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.288000000000004,
+                25.368000000000002
+            ]
+        },
+        {
+            "text": "smoothie,",
+            "timestamp": [
+                25.368000000000002,
+                25.848
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                26.008000000000003,
+                26.168
+            ]
+        },
+        {
+            "text": "recommend",
+            "timestamp": [
+                26.168,
+                26.568
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.568,
+                26.648000000000003
+            ]
+        },
+        {
+            "text": "base",
+            "timestamp": [
+                26.648000000000003,
+                26.888
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                26.888,
+                26.968000000000004
+            ]
+        },
+        {
+            "text": "banana,",
+            "timestamp": [
+                26.968000000000004,
+                27.448
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                27.528000000000002,
+                27.608
+            ]
+        },
+        {
+            "text": "scoop",
+            "timestamp": [
+                27.608,
+                27.928
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                27.928,
+                28.088
+            ]
+        },
+        {
+            "text": "protein,",
+            "timestamp": [
+                28.088,
+                28.648
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                28.888,
+                29.128
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                29.128,
+                29.288
+            ]
+        },
+        {
+            "text": "mix",
+            "timestamp": [
+                29.288,
+                29.528000000000002
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                29.528000000000002,
+                29.688000000000002
+            ]
+        },
+        {
+            "text": "berries.",
+            "timestamp": [
+                29.688000000000002,
+                30.088
+            ]
+        },
+        {
+            "text": "Chill",
+            "timestamp": [
+                30.248,
+                30.568
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                30.568,
+                30.728
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                30.728,
+                30.808
+            ]
+        },
+        {
+            "text": "bit.",
+            "timestamp": [
+                30.808,
+                30.888
+            ]
+        }
+    ]
+}

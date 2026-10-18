@@ -1,0 +1,40 @@
+{
+    "text": "Omalite, burger, sushi, pasta, pizza?",
+    "chunks": [
+        {
+            "text": "Omalite,",
+            "timestamp": [
+                14.072000000000001,
+                14.872
+            ]
+        },
+        {
+            "text": "burger,",
+            "timestamp": [
+                15.272,
+                15.832
+            ]
+        },
+        {
+            "text": "sushi,",
+            "timestamp": [
+                15.992,
+                16.552
+            ]
+        },
+        {
+            "text": "pasta,",
+            "timestamp": [
+                16.712,
+                17.112000000000002
+            ]
+        },
+        {
+            "text": "pizza?",
+            "timestamp": [
+                17.272,
+                17.912
+            ]
+        }
+    ]
+}

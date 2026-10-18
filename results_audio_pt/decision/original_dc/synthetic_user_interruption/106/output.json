@@ -1,0 +1,355 @@
+{
+    "text": "Kittens typically require more absolute visits to the vet during their first year of life. Delicious dinner recipe simple and flavorful chicken stir-friends. One regular chow every four chickens until they are about cut into thin strips. One tablespoon vegetable oil, two cloves, garlic, minced one teaspoon ginger, grated one.",
+    "chunks": [
+        {
+            "text": "Kittens",
+            "timestamp": [
+                15.112,
+                15.432
+            ]
+        },
+        {
+            "text": "typically",
+            "timestamp": [
+                15.432,
+                15.752
+            ]
+        },
+        {
+            "text": "require",
+            "timestamp": [
+                15.752,
+                16.072
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                16.072,
+                16.152
+            ]
+        },
+        {
+            "text": "absolute",
+            "timestamp": [
+                16.472,
+                16.872
+            ]
+        },
+        {
+            "text": "visits",
+            "timestamp": [
+                16.872,
+                17.192
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.192,
+                17.272
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                17.272,
+                17.352
+            ]
+        },
+        {
+            "text": "vet",
+            "timestamp": [
+                17.352,
+                17.512
+            ]
+        },
+        {
+            "text": "during",
+            "timestamp": [
+                17.672,
+                17.912
+            ]
+        },
+        {
+            "text": "their",
+            "timestamp": [
+                17.912,
+                17.992
+            ]
+        },
+        {
+            "text": "first",
+            "timestamp": [
+                17.992,
+                18.152
+            ]
+        },
+        {
+            "text": "year",
+            "timestamp": [
+                18.152,
+                18.312
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                18.312,
+                18.392
+            ]
+        },
+        {
+            "text": "life.",
+            "timestamp": [
+                18.392,
+                18.472
+            ]
+        },
+        {
+            "text": "Delicious",
+            "timestamp": [
+                18.792,
+                19.112000000000002
+            ]
+        },
+        {
+            "text": "dinner",
+            "timestamp": [
+                19.112000000000002,
+                19.272
+            ]
+        },
+        {
+            "text": "recipe",
+            "timestamp": [
+                19.352,
+                19.672
+            ]
+        },
+        {
+            "text": "simple",
+            "timestamp": [
+                20.712,
+                20.872
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                21.032,
+                21.112000000000002
+            ]
+        },
+        {
+            "text": "flavorful",
+            "timestamp": [
+                21.112000000000002,
+                21.432000000000002
+            ]
+        },
+        {
+            "text": "chicken",
+            "timestamp": [
+                21.592,
+                21.832
+            ]
+        },
+        {
+            "text": "stir-friends.",
+            "timestamp": [
+                21.832,
+                22.152
+            ]
+        },
+        {
+            "text": "One",
+            "timestamp": [
+                23.832,
+                24.072000000000003
+            ]
+        },
+        {
+            "text": "regular",
+            "timestamp": [
+                24.072000000000003,
+                24.472
+            ]
+        },
+        {
+            "text": "chow",
+            "timestamp": [
+                24.472,
+                24.631999999999998
+            ]
+        },
+        {
+            "text": "every",
+            "timestamp": [
+                25.432000000000002,
+                25.592
+            ]
+        },
+        {
+            "text": "four",
+            "timestamp": [
+                25.592,
+                25.672
+            ]
+        },
+        {
+            "text": "chickens",
+            "timestamp": [
+                26.152,
+                26.311999999999998
+            ]
+        },
+        {
+            "text": "until",
+            "timestamp": [
+                26.472,
+                26.631999999999998
+            ]
+        },
+        {
+            "text": "they",
+            "timestamp": [
+                26.631999999999998,
+                26.712
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                26.712,
+                26.792
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                26.792,
+                26.872
+            ]
+        },
+        {
+            "text": "cut",
+            "timestamp": [
+                27.192,
+                27.352
+            ]
+        },
+        {
+            "text": "into",
+            "timestamp": [
+                27.352,
+                27.592
+            ]
+        },
+        {
+            "text": "thin",
+            "timestamp": [
+                27.592,
+                27.832
+            ]
+        },
+        {
+            "text": "strips.",
+            "timestamp": [
+                27.832,
+                28.232
+            ]
+        },
+        {
+            "text": "One",
+            "timestamp": [
+                28.552,
+                28.872
+            ]
+        },
+        {
+            "text": "tablespoon",
+            "timestamp": [
+                28.872,
+                29.352
+            ]
+        },
+        {
+            "text": "vegetable",
+            "timestamp": [
+                29.432000000000002,
+                29.912
+            ]
+        },
+        {
+            "text": "oil,",
+            "timestamp": [
+                29.912,
+                30.152
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                30.392,
+                30.472
+            ]
+        },
+        {
+            "text": "cloves,",
+            "timestamp": [
+                30.552,
+                30.872
+            ]
+        },
+        {
+            "text": "garlic,",
+            "timestamp": [
+                31.032,
+                31.352
+            ]
+        },
+        {
+            "text": "minced",
+            "timestamp": [
+                31.592,
+                31.992
+            ]
+        },
+        {
+            "text": "one",
+            "timestamp": [
+                32.152,
+                32.232
+            ]
+        },
+        {
+            "text": "teaspoon",
+            "timestamp": [
+                32.391999999999996,
+                32.712
+            ]
+        },
+        {
+            "text": "ginger,",
+            "timestamp": [
+                32.792,
+                33.112
+            ]
+        },
+        {
+            "text": "grated",
+            "timestamp": [
+                33.272000000000006,
+                33.432
+            ]
+        },
+        {
+            "text": "one.",
+            "timestamp": [
+                33.512,
+                33.592
+            ]
+        }
+    ]
+}

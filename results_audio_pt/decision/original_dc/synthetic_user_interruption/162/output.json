@@ -1,0 +1,362 @@
+{
+    "text": "Great! Adding milk to your shopping list is a good idea. Milk is a nutritious beverage that provides essential nutrients like calcium, vitamin D, and protein, which are important for bone health, muscle function, and overall wellness. Here are a few things you might want to consider when purchasing milk. 1.",
+    "chunks": [
+        {
+            "text": "Great!",
+            "timestamp": [
+                16.072,
+                16.631999999999998
+            ]
+        },
+        {
+            "text": "Adding",
+            "timestamp": [
+                16.951999999999998,
+                17.272
+            ]
+        },
+        {
+            "text": "milk",
+            "timestamp": [
+                17.272,
+                17.592
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.592,
+                17.672
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                17.672,
+                17.832
+            ]
+        },
+        {
+            "text": "shopping",
+            "timestamp": [
+                17.832,
+                18.232
+            ]
+        },
+        {
+            "text": "list",
+            "timestamp": [
+                18.232,
+                18.472
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                18.472,
+                18.631999999999998
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.631999999999998,
+                18.712
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                18.712,
+                18.872
+            ]
+        },
+        {
+            "text": "idea.",
+            "timestamp": [
+                18.872,
+                19.192
+            ]
+        },
+        {
+            "text": "Milk",
+            "timestamp": [
+                19.432,
+                19.832
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                19.832,
+                19.991999999999997
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.991999999999997,
+                20.072
+            ]
+        },
+        {
+            "text": "nutritious",
+            "timestamp": [
+                20.072,
+                20.712
+            ]
+        },
+        {
+            "text": "beverage",
+            "timestamp": [
+                20.712,
+                21.272
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                21.272,
+                21.512
+            ]
+        },
+        {
+            "text": "provides",
+            "timestamp": [
+                21.512,
+                21.912
+            ]
+        },
+        {
+            "text": "essential",
+            "timestamp": [
+                21.912,
+                22.311999999999998
+            ]
+        },
+        {
+            "text": "nutrients",
+            "timestamp": [
+                22.311999999999998,
+                22.792
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                22.792,
+                22.951999999999998
+            ]
+        },
+        {
+            "text": "calcium,",
+            "timestamp": [
+                22.951999999999998,
+                23.432
+            ]
+        },
+        {
+            "text": "vitamin",
+            "timestamp": [
+                23.592,
+                24.072
+            ]
+        },
+        {
+            "text": "D,",
+            "timestamp": [
+                24.072,
+                24.232
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                24.311999999999998,
+                24.472
+            ]
+        },
+        {
+            "text": "protein,",
+            "timestamp": [
+                24.472,
+                24.951999999999998
+            ]
+        },
+        {
+            "text": "which",
+            "timestamp": [
+                25.272,
+                25.432
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                25.432,
+                25.592
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                25.592,
+                25.832
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                25.832,
+                25.991999999999997
+            ]
+        },
+        {
+            "text": "bone",
+            "timestamp": [
+                25.991999999999997,
+                26.311999999999998
+            ]
+        },
+        {
+            "text": "health,",
+            "timestamp": [
+                26.311999999999998,
+                26.552
+            ]
+        },
+        {
+            "text": "muscle",
+            "timestamp": [
+                26.712,
+                27.112000000000002
+            ]
+        },
+        {
+            "text": "function,",
+            "timestamp": [
+                27.112000000000002,
+                27.512
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                27.752,
+                27.991999999999997
+            ]
+        },
+        {
+            "text": "overall",
+            "timestamp": [
+                27.991999999999997,
+                28.552
+            ]
+        },
+        {
+            "text": "wellness.",
+            "timestamp": [
+                28.552,
+                28.951999999999998
+            ]
+        },
+        {
+            "text": "Here",
+            "timestamp": [
+                29.272,
+                29.432
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                29.432,
+                29.592
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                29.592,
+                29.671999999999997
+            ]
+        },
+        {
+            "text": "few",
+            "timestamp": [
+                29.671999999999997,
+                29.912
+            ]
+        },
+        {
+            "text": "things",
+            "timestamp": [
+                29.912,
+                30.072
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                30.072,
+                30.232
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                30.232,
+                30.392
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                30.392,
+                30.552
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                30.552,
+                30.631999999999998
+            ]
+        },
+        {
+            "text": "consider",
+            "timestamp": [
+                30.631999999999998,
+                30.872
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                30.872,
+                31.032
+            ]
+        },
+        {
+            "text": "purchasing",
+            "timestamp": [
+                31.032,
+                31.432
+            ]
+        },
+        {
+            "text": "milk.",
+            "timestamp": [
+                31.432,
+                31.832
+            ]
+        },
+        {
+            "text": "1.",
+            "timestamp": [
+                32.072,
+                32.312
+            ]
+        }
+    ]
+}

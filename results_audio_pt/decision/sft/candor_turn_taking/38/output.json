@@ -1,0 +1,54 @@
+{
+    "text": "Ah, a delivery? Is it for me?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.48,
+                6.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.04,
+                7.28
+            ]
+        },
+        {
+            "text": "delivery?",
+            "timestamp": [
+                7.28,
+                7.92
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "me?",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        }
+    ]
+}

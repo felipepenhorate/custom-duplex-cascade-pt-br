@@ -1,0 +1,152 @@
+{
+    "text": "Uh no, I just got a text. Sushi, do you know? Sushi? Is sushi a person or a meme? Pardon me.",
+    "chunks": [
+        {
+            "text": "Uh",
+            "timestamp": [
+                5.36,
+                6.0
+            ]
+        },
+        {
+            "text": "no,",
+            "timestamp": [
+                6.16,
+                6.4
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.640000000000001,
+                6.8
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "text.",
+            "timestamp": [
+                7.28,
+                7.68
+            ]
+        },
+        {
+            "text": "Sushi,",
+            "timestamp": [
+                8.0,
+                8.48
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "know?",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "Sushi?",
+            "timestamp": [
+                9.200000000000001,
+                9.76
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "sushi",
+            "timestamp": [
+                10.16,
+                10.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "person",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.36,
+                11.44
+            ]
+        },
+        {
+            "text": "meme?",
+            "timestamp": [
+                11.44,
+                11.84
+            ]
+        },
+        {
+            "text": "Pardon",
+            "timestamp": [
+                12.08,
+                12.64
+            ]
+        },
+        {
+            "text": "me.",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        }
+    ]
+}

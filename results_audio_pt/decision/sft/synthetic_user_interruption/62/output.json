@@ -1,0 +1,264 @@
+{
+    "text": "Espresso is all about control. I recommend a consistent grind, a tamping pressure of thirty four zero pounds, and a water temperature of ninety five to twenty five degrees. Experiment to find what suits your ideal shot.",
+    "chunks": [
+        {
+            "text": "Espresso",
+            "timestamp": [
+                14.136,
+                14.935999999999998
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                15.095999999999998,
+                15.255999999999998
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                15.255999999999998,
+                15.415999999999999
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                15.415999999999999,
+                15.655999999999999
+            ]
+        },
+        {
+            "text": "control.",
+            "timestamp": [
+                15.655999999999999,
+                16.055999999999997
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.296,
+                16.375999999999998
+            ]
+        },
+        {
+            "text": "recommend",
+            "timestamp": [
+                16.375999999999998,
+                16.936
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.936,
+                17.096
+            ]
+        },
+        {
+            "text": "consistent",
+            "timestamp": [
+                17.096,
+                17.656
+            ]
+        },
+        {
+            "text": "grind,",
+            "timestamp": [
+                17.656,
+                18.136
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.296,
+                18.456
+            ]
+        },
+        {
+            "text": "tamping",
+            "timestamp": [
+                18.456,
+                18.936
+            ]
+        },
+        {
+            "text": "pressure",
+            "timestamp": [
+                18.936,
+                19.256
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                19.256,
+                19.415999999999997
+            ]
+        },
+        {
+            "text": "thirty",
+            "timestamp": [
+                19.415999999999997,
+                19.656
+            ]
+        },
+        {
+            "text": "four",
+            "timestamp": [
+                19.735999999999997,
+                19.976
+            ]
+        },
+        {
+            "text": "zero",
+            "timestamp": [
+                19.976,
+                20.375999999999998
+            ]
+        },
+        {
+            "text": "pounds,",
+            "timestamp": [
+                20.375999999999998,
+                20.855999999999998
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                21.096,
+                21.256
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.256,
+                21.336
+            ]
+        },
+        {
+            "text": "water",
+            "timestamp": [
+                21.336,
+                21.656
+            ]
+        },
+        {
+            "text": "temperature",
+            "timestamp": [
+                21.656,
+                22.136
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                22.136,
+                22.296
+            ]
+        },
+        {
+            "text": "ninety",
+            "timestamp": [
+                22.296,
+                22.616
+            ]
+        },
+        {
+            "text": "five",
+            "timestamp": [
+                22.695999999999998,
+                22.936
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                22.936,
+                23.176
+            ]
+        },
+        {
+            "text": "twenty",
+            "timestamp": [
+                23.176,
+                23.336
+            ]
+        },
+        {
+            "text": "five",
+            "timestamp": [
+                23.415999999999997,
+                23.656
+            ]
+        },
+        {
+            "text": "degrees.",
+            "timestamp": [
+                23.656,
+                24.055999999999997
+            ]
+        },
+        {
+            "text": "Experiment",
+            "timestamp": [
+                24.296,
+                24.936
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                24.936,
+                25.095999999999997
+            ]
+        },
+        {
+            "text": "find",
+            "timestamp": [
+                25.095999999999997,
+                25.256
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                25.256,
+                25.496
+            ]
+        },
+        {
+            "text": "suits",
+            "timestamp": [
+                25.496,
+                25.816
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                25.816,
+                25.976
+            ]
+        },
+        {
+            "text": "ideal",
+            "timestamp": [
+                25.976,
+                26.456
+            ]
+        },
+        {
+            "text": "shot.",
+            "timestamp": [
+                26.456,
+                27.016
+            ]
+        }
+    ]
+}

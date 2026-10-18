@@ -1,0 +1,180 @@
+{
+    "text": "I can't do that. I don't monitor calls, schedules, or personal reminders. Suggest you set a timer or use a digital app to alert you.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                14.984,
+                15.224
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                15.224,
+                15.624
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                15.624,
+                15.704
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                15.704,
+                15.864
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.104,
+                16.184
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                16.184,
+                16.424
+            ]
+        },
+        {
+            "text": "monitor",
+            "timestamp": [
+                16.424,
+                16.904
+            ]
+        },
+        {
+            "text": "calls,",
+            "timestamp": [
+                16.904,
+                17.224
+            ]
+        },
+        {
+            "text": "schedules,",
+            "timestamp": [
+                17.464,
+                18.024
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                18.184,
+                18.344
+            ]
+        },
+        {
+            "text": "personal",
+            "timestamp": [
+                18.344,
+                18.744
+            ]
+        },
+        {
+            "text": "reminders.",
+            "timestamp": [
+                18.744,
+                19.304000000000002
+            ]
+        },
+        {
+            "text": "Suggest",
+            "timestamp": [
+                19.544,
+                19.944
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                19.944,
+                20.104
+            ]
+        },
+        {
+            "text": "set",
+            "timestamp": [
+                20.104,
+                20.264
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.264,
+                20.424
+            ]
+        },
+        {
+            "text": "timer",
+            "timestamp": [
+                20.424,
+                20.744
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                20.823999999999998,
+                20.984
+            ]
+        },
+        {
+            "text": "use",
+            "timestamp": [
+                20.984,
+                21.144
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.144,
+                21.304000000000002
+            ]
+        },
+        {
+            "text": "digital",
+            "timestamp": [
+                21.304000000000002,
+                21.704
+            ]
+        },
+        {
+            "text": "app",
+            "timestamp": [
+                21.704,
+                21.944
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                21.944,
+                22.104
+            ]
+        },
+        {
+            "text": "alert",
+            "timestamp": [
+                22.104,
+                22.744
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                22.744,
+                23.064
+            ]
+        }
+    ]
+}

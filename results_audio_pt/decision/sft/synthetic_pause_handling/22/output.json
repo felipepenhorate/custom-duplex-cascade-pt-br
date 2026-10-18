@@ -1,0 +1,75 @@
+{
+    "text": "Opa, qui legal, seque o tempo pode sur in preparation.",
+    "chunks": [
+        {
+            "text": "Opa,",
+            "timestamp": [
+                8.16,
+                8.72
+            ]
+        },
+        {
+            "text": "qui",
+            "timestamp": [
+                8.88,
+                9.36
+            ]
+        },
+        {
+            "text": "legal,",
+            "timestamp": [
+                9.36,
+                9.76
+            ]
+        },
+        {
+            "text": "seque",
+            "timestamp": [
+                9.92,
+                10.48
+            ]
+        },
+        {
+            "text": "o",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "tempo",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "pode",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "sur",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                11.44,
+                11.52
+            ]
+        },
+        {
+            "text": "preparation.",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        }
+    ]
+}

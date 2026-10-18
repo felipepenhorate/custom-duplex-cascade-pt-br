@@ -1,0 +1,26 @@
+{
+    "text": "It's a compression.",
+    "chunks": [
+        {
+            "text": "It's",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "compression.",
+            "timestamp": [
+                11.92,
+                12.56
+            ]
+        }
+    ]
+}

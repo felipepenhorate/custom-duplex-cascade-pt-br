@@ -1,0 +1,82 @@
+{
+    "text": "Ooh, that's a solid start. Is it a lot for you?",
+    "chunks": [
+        {
+            "text": "Ooh,",
+            "timestamp": [
+                6.32,
+                6.8
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "solid",
+            "timestamp": [
+                7.28,
+                7.76
+            ]
+        },
+        {
+            "text": "start.",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "you?",
+            "timestamp": [
+                9.28,
+                9.6
+            ]
+        }
+    ]
+}

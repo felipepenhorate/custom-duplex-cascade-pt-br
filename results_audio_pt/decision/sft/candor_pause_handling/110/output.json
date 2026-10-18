@@ -1,0 +1,264 @@
+{
+    "text": "I can't believe it. I just got to my I can't believe I just got to my car. I can't believe I just got to my car. Ooh, that's a lot of responsibility, I can only imagine.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.4,
+                2.64
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                2.64,
+                3.04
+            ]
+        },
+        {
+            "text": "believe",
+            "timestamp": [
+                3.04,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                3.2800000000000002,
+                3.44
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                3.6,
+                3.68
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                3.68,
+                3.84
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                3.84,
+                3.92
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                3.92,
+                4.0
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                4.0,
+                4.08
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.5600000000000005,
+                4.64
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                4.64,
+                4.88
+            ]
+        },
+        {
+            "text": "believe",
+            "timestamp": [
+                4.88,
+                5.2
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.2,
+                5.28
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                5.28,
+                5.44
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "car.",
+            "timestamp": [
+                5.92,
+                6.16
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.4,
+                6.48
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                6.48,
+                6.72
+            ]
+        },
+        {
+            "text": "believe",
+            "timestamp": [
+                6.72,
+                7.04
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.04,
+                7.12
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "car.",
+            "timestamp": [
+                7.92,
+                8.24
+            ]
+        },
+        {
+            "text": "Ooh,",
+            "timestamp": [
+                9.200000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.08,
+                10.16
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "responsibility,",
+            "timestamp": [
+                10.4,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "only",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "imagine.",
+            "timestamp": [
+                11.68,
+                12.64
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "text": "Hindsight twenty-twenty refers to the ability to see the events of the world.",
+    "chunks": [
+        {
+            "text": "Hindsight",
+            "timestamp": [
+                9.36,
+                10.16
+            ]
+        },
+        {
+            "text": "twenty-twenty",
+            "timestamp": [
+                10.16,
+                10.72
+            ]
+        },
+        {
+            "text": "refers",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "ability",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "events",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.72,
+                12.8
+            ]
+        },
+        {
+            "text": "world.",
+            "timestamp": [
+                12.8,
+                12.8
+            ]
+        }
+    ]
+}

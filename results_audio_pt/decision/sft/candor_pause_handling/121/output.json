@@ -1,0 +1,103 @@
+{
+    "text": "Ah, I can understand. Is it just a time issue, or are there other?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                9.28,
+                9.76
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        },
+        {
+            "text": "issue,",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "there",
+            "timestamp": [
+                13.120000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "other?",
+            "timestamp": [
+                13.280000000000001,
+                13.44
+            ]
+        }
+    ]
+}

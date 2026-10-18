@@ -1,0 +1,96 @@
+{
+    "text": "Opa. Depende du Cuevo Setano Clima, Masevo Securte Algome Entendi perfitamente, Nesicaso, Yusujiro.",
+    "chunks": [
+        {
+            "text": "Opa.",
+            "timestamp": [
+                2.96,
+                3.52
+            ]
+        },
+        {
+            "text": "Depende",
+            "timestamp": [
+                3.7600000000000002,
+                4.32
+            ]
+        },
+        {
+            "text": "du",
+            "timestamp": [
+                4.32,
+                4.48
+            ]
+        },
+        {
+            "text": "Cuevo",
+            "timestamp": [
+                4.48,
+                4.88
+            ]
+        },
+        {
+            "text": "Setano",
+            "timestamp": [
+                4.88,
+                5.36
+            ]
+        },
+        {
+            "text": "Clima,",
+            "timestamp": [
+                5.44,
+                5.92
+            ]
+        },
+        {
+            "text": "Masevo",
+            "timestamp": [
+                6.0,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "Securte",
+            "timestamp": [
+                6.640000000000001,
+                7.04
+            ]
+        },
+        {
+            "text": "Algome",
+            "timestamp": [
+                7.12,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "Entendi",
+            "timestamp": [
+                8.4,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "perfitamente,",
+            "timestamp": [
+                9.120000000000001,
+                9.92
+            ]
+        },
+        {
+            "text": "Nesicaso,",
+            "timestamp": [
+                10.16,
+                10.96
+            ]
+        },
+        {
+            "text": "Yusujiro.",
+            "timestamp": [
+                11.120000000000001,
+                11.68
+            ]
+        }
+    ]
+}

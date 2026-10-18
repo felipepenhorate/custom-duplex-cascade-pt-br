@@ -1,0 +1,89 @@
+{
+    "text": "No, I can understand. Inland can be just as beautiful in a.",
+    "chunks": [
+        {
+            "text": "No,",
+            "timestamp": [
+                7.68,
+                8.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.64,
+                8.96
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "Inland",
+            "timestamp": [
+                9.52,
+                10.16
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                10.4,
+                10.48
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "beautiful",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "a.",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        }
+    ]
+}

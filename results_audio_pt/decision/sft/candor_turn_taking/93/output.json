@@ -1,0 +1,117 @@
+{
+    "text": "Ah, no, I wasn't. I just I got a bit of a chill. Is that normal?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                2.64,
+                3.12
+            ]
+        },
+        {
+            "text": "no,",
+            "timestamp": [
+                3.2,
+                3.44
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                3.6,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "wasn't.",
+            "timestamp": [
+                3.7600000000000002,
+                4.24
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.5600000000000005,
+                4.72
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                4.72,
+                4.88
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.36,
+                5.44
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                5.6000000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "chill.",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "normal?",
+            "timestamp": [
+                6.8,
+                7.44
+            ]
+        }
+    ]
+}

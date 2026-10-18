@@ -1,0 +1,89 @@
+{
+    "text": "Relax. No one is judging. A casual look is just as valid.",
+    "chunks": [
+        {
+            "text": "Relax.",
+            "timestamp": [
+                4.88,
+                5.76
+            ]
+        },
+        {
+            "text": "No",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "one",
+            "timestamp": [
+                6.24,
+                6.48
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "judging.",
+            "timestamp": [
+                6.640000000000001,
+                7.12
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "casual",
+            "timestamp": [
+                7.5200000000000005,
+                8.0
+            ]
+        },
+        {
+            "text": "look",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "valid.",
+            "timestamp": [
+                8.8,
+                9.200000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,362 @@
+{
+    "text": "Choosing the right food for your puppy is crucial for their growth and development. Here are some factors to consider when selecting a puppy food: 1. Nutritional content. Look for foods that are specifically formulated for puppies. These typically contain higher levels of protein, fat, and calories to support rapid growth.",
+    "chunks": [
+        {
+            "text": "Choosing",
+            "timestamp": [
+                15.768000000000002,
+                16.328000000000003
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.328000000000003,
+                16.488000000000003
+            ]
+        },
+        {
+            "text": "right",
+            "timestamp": [
+                16.488000000000003,
+                16.648000000000003
+            ]
+        },
+        {
+            "text": "food",
+            "timestamp": [
+                16.648000000000003,
+                16.888
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                16.888,
+                17.048000000000002
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                17.048000000000002,
+                17.208000000000002
+            ]
+        },
+        {
+            "text": "puppy",
+            "timestamp": [
+                17.208000000000002,
+                17.688000000000002
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                17.688000000000002,
+                17.848000000000003
+            ]
+        },
+        {
+            "text": "crucial",
+            "timestamp": [
+                17.848000000000003,
+                18.328000000000003
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                18.328000000000003,
+                18.408
+            ]
+        },
+        {
+            "text": "their",
+            "timestamp": [
+                18.408,
+                18.568
+            ]
+        },
+        {
+            "text": "growth",
+            "timestamp": [
+                18.568,
+                18.968000000000004
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                18.968000000000004,
+                19.048000000000002
+            ]
+        },
+        {
+            "text": "development.",
+            "timestamp": [
+                19.048000000000002,
+                19.768
+            ]
+        },
+        {
+            "text": "Here",
+            "timestamp": [
+                20.088,
+                20.248
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                20.248,
+                20.488000000000003
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                20.488000000000003,
+                20.648000000000003
+            ]
+        },
+        {
+            "text": "factors",
+            "timestamp": [
+                20.648000000000003,
+                21.048000000000002
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                21.048000000000002,
+                21.208000000000002
+            ]
+        },
+        {
+            "text": "consider",
+            "timestamp": [
+                21.208000000000002,
+                21.528000000000002
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                21.528000000000002,
+                21.688000000000002
+            ]
+        },
+        {
+            "text": "selecting",
+            "timestamp": [
+                21.688000000000002,
+                22.088
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                22.088,
+                22.168000000000003
+            ]
+        },
+        {
+            "text": "puppy",
+            "timestamp": [
+                22.168000000000003,
+                22.568000000000005
+            ]
+        },
+        {
+            "text": "food:",
+            "timestamp": [
+                22.568000000000005,
+                22.808
+            ]
+        },
+        {
+            "text": "1.",
+            "timestamp": [
+                23.048000000000002,
+                23.368000000000002
+            ]
+        },
+        {
+            "text": "Nutritional",
+            "timestamp": [
+                23.528000000000002,
+                24.328000000000003
+            ]
+        },
+        {
+            "text": "content.",
+            "timestamp": [
+                24.328000000000003,
+                24.808
+            ]
+        },
+        {
+            "text": "Look",
+            "timestamp": [
+                25.128,
+                25.368000000000002
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                25.368000000000002,
+                25.528000000000002
+            ]
+        },
+        {
+            "text": "foods",
+            "timestamp": [
+                25.528000000000002,
+                25.848000000000003
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                25.848000000000003,
+                26.008000000000003
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                26.008000000000003,
+                26.168000000000003
+            ]
+        },
+        {
+            "text": "specifically",
+            "timestamp": [
+                26.168000000000003,
+                26.728
+            ]
+        },
+        {
+            "text": "formulated",
+            "timestamp": [
+                26.728,
+                27.208000000000002
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                27.208000000000002,
+                27.368000000000002
+            ]
+        },
+        {
+            "text": "puppies.",
+            "timestamp": [
+                27.368000000000002,
+                27.848000000000003
+            ]
+        },
+        {
+            "text": "These",
+            "timestamp": [
+                28.088,
+                28.328000000000003
+            ]
+        },
+        {
+            "text": "typically",
+            "timestamp": [
+                28.328000000000003,
+                28.728
+            ]
+        },
+        {
+            "text": "contain",
+            "timestamp": [
+                28.728,
+                29.128
+            ]
+        },
+        {
+            "text": "higher",
+            "timestamp": [
+                29.128,
+                29.448
+            ]
+        },
+        {
+            "text": "levels",
+            "timestamp": [
+                29.448,
+                29.768000000000004
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                29.768000000000004,
+                29.928
+            ]
+        },
+        {
+            "text": "protein,",
+            "timestamp": [
+                29.928,
+                30.328000000000003
+            ]
+        },
+        {
+            "text": "fat,",
+            "timestamp": [
+                30.568,
+                30.888
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                30.968000000000004,
+                31.128000000000004
+            ]
+        },
+        {
+            "text": "calories",
+            "timestamp": [
+                31.128000000000004,
+                31.528000000000002
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                31.528000000000002,
+                31.688000000000002
+            ]
+        },
+        {
+            "text": "support",
+            "timestamp": [
+                31.688000000000002,
+                31.928000000000004
+            ]
+        },
+        {
+            "text": "rapid",
+            "timestamp": [
+                31.928000000000004,
+                32.168000000000006
+            ]
+        },
+        {
+            "text": "growth.",
+            "timestamp": [
+                32.168000000000006,
+                32.328
+            ]
+        }
+    ]
+}

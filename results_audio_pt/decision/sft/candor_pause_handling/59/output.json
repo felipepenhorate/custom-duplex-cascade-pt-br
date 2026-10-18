@@ -1,0 +1,138 @@
+{
+    "text": "CS Pan? Is that a T V chan? Ah, I can under No, no, I just meant I can.",
+    "chunks": [
+        {
+            "text": "CS",
+            "timestamp": [
+                6.5600000000000005,
+                7.04
+            ]
+        },
+        {
+            "text": "Pan?",
+            "timestamp": [
+                7.12,
+                7.44
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                7.92,
+                8.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.08,
+                8.16
+            ]
+        },
+        {
+            "text": "T",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "V",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "chan?",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                15.36,
+                15.76
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.0,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                16.080000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "under",
+            "timestamp": [
+                16.32,
+                16.48
+            ]
+        },
+        {
+            "text": "No,",
+            "timestamp": [
+                17.28,
+                17.6
+            ]
+        },
+        {
+            "text": "no,",
+            "timestamp": [
+                17.76,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.240000000000002,
+                18.48
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                18.48,
+                18.8
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                18.8,
+                19.44
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                19.44,
+                19.68
+            ]
+        },
+        {
+            "text": "can.",
+            "timestamp": [
+                19.68,
+                19.92
+            ]
+        }
+    ]
+}

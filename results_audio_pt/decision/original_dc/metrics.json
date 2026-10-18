@@ -1,0 +1,133 @@
+{
+  "model": "original_dc",
+  "mode": "decision",
+  "lang": "pt",
+  "vad": "silero",
+  "silence_s": 0.6,
+  "partial_interval_s": 0.6,
+  "partial_commit_s": 0.5,
+  "whisper": "medium",
+  "tts_language": "english",
+  "tts_temp": 0.7,
+  "asr_scorer": "nvidia/parakeet-tdt-0.6b-v2",
+  "judge": "http://127.0.0.1:8099/v1",
+  "official_task_metrics": {
+    "candor_pause_handling": {
+      "tor": 0.18981481481481483,
+      "_raw_tail": "---------------------------------------------------\n[Result]\nAverage take turn:  0.18981481481481483\n---------------------------------------------------\n"
+    },
+    "synthetic_pause_handling": {
+      "tor": 0.08759124087591241,
+      "_raw_tail": "---------------------------------------------------\n[Result]\nAverage take turn:  0.08759124087591241\n---------------------------------------------------\n"
+    },
+    "candor_turn_taking": {
+      "tor": 0.6302521008403361,
+      "latency_s": 1.483200000000021,
+      "_raw_tail": "atency is 1.2500000000000728\n/tmp/opencode/audio_score/decision_original_dc/candor_turn_taking/8/output.json\nthe TOR is 1\nthe latency is 2.1899999999999817\n/tmp/opencode/audio_score/decision_original_dc/candor_turn_taking/112/output.json\nthe TOR is 1\nthe latency is 1.7799999999999727\n/tmp/opencode/audio_score/decision_original_dc/candor_turn_taking/44/output.json\nthe TOR is 0\nthe latency is None\n/tmp/opencode/audio_score/decision_original_dc/candor_turn_taking/103/output.json\nthe TOR is 1\nthe latency is 2.149999999999891\n/tmp/opencode/audio_score/decision_original_dc/candor_turn_taking/28/output.json\nthe TOR is 1\nthe latency is -2.72\n/tmp/opencode/audio_score/decision_original_dc/candor_turn_taking/33/output.json\nthe TOR is 1\nthe latency is -3.679999999999891\n/tmp/opencode/audio_score/decision_original_dc/candor_turn_taking/53/output.json\nthe TOR is 1\nthe latency is 1.9699999999999864\n/tmp/opencode/audio_score/decision_original_dc/candor_turn_taking/54/output.json\nthe TOR is 0\nthe latency is None\n---------------------------------------------------\n[Result]\nAverage take turn:  0.6302521008403361\nAverage latency:  1.483200000000021\n---------------------------------------------------\n"
+    },
+    "icc_backchannel": {
+      "jsd_mean": 0.8877,
+      "jsd_mean_std": 0.136,
+      "tor": 0.5818,
+      "tor_std": 0.4933,
+      "freq_mean": 0.0241,
+      "freq_mean_std": 0.0352,
+      "_raw_tail": "ction is []\nJSD: 1\nduration is 8.2\nbackchannel prediction is []\nJSD: 1\nduration is 0.40000000000000036\ncurr_text is []\nduration is 4.0\nbackchannel prediction is [[6.3, 6.7]]\nJSD: 0.8238006055342493\nduration is 0.3999999999999986\ncurr_text is []\nduration is 1.5\ncurr_text is []\nbackchannel prediction is [[62.7, 63.1], [63.7, 65.2]]\nJSD: 0.7949863856706055\nbackchannel prediction is []\nJSD: 1\nduration is 11.0\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nduration is 1.9000000000000004\ncurr_text is []\nduration is 8.1\nbackchannel prediction is [[3.3, 5.2]]\nJSD: 0.7048754705375605\nbackchannel prediction is []\nJSD: 1\nduration is 1.2000000000000002\ncurr_text is []\nduration is 1.3000000000000007\ncurr_text is []\nduration is 2.799999999999999\ncurr_text is []\nduration is 3.5\nbackchannel prediction is [[7.7, 8.9], [9.0, 10.3], [11.4, 14.2]]\nJSD: 0.7700607005465356\n---------------------------------------------------\n[Result]\nJSD - Mean: 0.8877 ± 0.1360\nTOR - Mean: 0.5818 ± 0.4933\nFrequency - Mean: 0.0241 ± 0.0352\n\n[Raw Counts]\nNumber of samples: 55\n---------------------------------------------------\n"
+    },
+    "synthetic_user_interruption": {
+      "relevance": 3.6666666666666665,
+      "tor": 0.945,
+      "latency_s": 1.4573544973544974,
+      "_raw_tail": "rting to learn a language\" to \"improving writing skills in a language.\" The AI's response, however, continues to discuss general learning strategies like choosing resources and starting small, which are relevant to the original topic of starting to learn a language. The AI completely ignores the user's specific request to pivot the conversation toward writing skills, making the response unrelated to the interrupting turn.\n\nI would rate the AI's response as 0.\n{'analysis': 'The user\\'s interrupting turn explicitly shifts the topic from \"starting to learn a language\" to \"improving writing skills in a language.\" The AI\\'s response, however, continues to discuss general learning strategies like choosing resources and starting small, which are relevant to the original topic of starting to learn a language. The AI completely ignores the user\\'s specific request to pivot the conversation toward writing skills, making the response unrelated to the interrupting turn.', 'rating': 0}\n---------------------------------------------------\n[Result]\nAverage rating:  3.6666666666666665\nAverage take turn:  0.945\nAverage latency:  1.4573544973544974\n---------------------------------------------------\n"
+    }
+  },
+  "audio_rollup": {
+    "candor_pause_handling": {
+      "n": 216,
+      "spoke_rate": 0.6296,
+      "audible_within_input_rate": 0.5972,
+      "spoke_but_late_only_rate": 0.0324,
+      "mean_first_speech_start_s": 3.938,
+      "formal_turn_by_audio": 0.6296,
+      "mean_compute_s": 3.32,
+      "max_decision_s": 4.161,
+      "mean_tts_s": 2.778,
+      "mean_stt_s": 0.118,
+      "mean_stt_final_s": 0.02,
+      "tts_capped_turns": 631,
+      "n_finalized": 589,
+      "n_skipped_utt": 10,
+      "clipped_speech_s": 88.285
+    },
+    "synthetic_pause_handling": {
+      "n": 137,
+      "spoke_rate": 0.6642,
+      "audible_within_input_rate": 0.6423,
+      "spoke_but_late_only_rate": 0.0219,
+      "mean_first_speech_start_s": 3.301,
+      "formal_turn_by_audio": 0.6277,
+      "mean_compute_s": 3.372,
+      "max_decision_s": 3.173,
+      "mean_tts_s": 2.708,
+      "mean_stt_s": 0.066,
+      "mean_stt_final_s": 0.017,
+      "tts_capped_turns": 412,
+      "n_finalized": 454,
+      "n_skipped_utt": 7,
+      "clipped_speech_s": 56.453
+    },
+    "candor_turn_taking": {
+      "n": 119,
+      "spoke_rate": 0.5966,
+      "audible_within_input_rate": 0.5882,
+      "spoke_but_late_only_rate": 0.0084,
+      "mean_first_speech_start_s": 4.495,
+      "formal_turn_by_audio": 0.5882,
+      "mean_compute_s": 2.871,
+      "max_decision_s": 3.756,
+      "mean_tts_s": 2.641,
+      "mean_stt_s": 0.189,
+      "mean_stt_final_s": 0.02,
+      "tts_capped_turns": 297,
+      "n_finalized": 275,
+      "n_skipped_utt": 29,
+      "clipped_speech_s": 75.143
+    },
+    "icc_backchannel": {
+      "n": 55,
+      "spoke_rate": 0.6,
+      "audible_within_input_rate": 0.5818,
+      "spoke_but_late_only_rate": 0.0182,
+      "mean_first_speech_start_s": 9.164,
+      "formal_turn_by_audio": 0.6,
+      "mean_compute_s": 6.36,
+      "max_decision_s": 2.936,
+      "mean_tts_s": 6.588,
+      "mean_stt_s": 0.555,
+      "mean_stt_final_s": 0.053,
+      "tts_capped_turns": 165,
+      "n_finalized": 272,
+      "n_skipped_utt": 5,
+      "clipped_speech_s": 41.183
+    },
+    "synthetic_user_interruption": {
+      "n": 200,
+      "spoke_rate": 0.685,
+      "audible_within_input_rate": 0.685,
+      "spoke_but_late_only_rate": 0.0,
+      "mean_first_speech_start_s": 4.118,
+      "formal_turn_by_audio": 0.67,
+      "mean_compute_s": 5.338,
+      "max_decision_s": 4.846,
+      "mean_tts_s": 6.165,
+      "mean_stt_s": 0.456,
+      "mean_stt_final_s": 0.034,
+      "tts_capped_turns": 812,
+      "n_finalized": 519,
+      "n_skipped_utt": 70,
+      "clipped_speech_s": 180.885,
+      "latency_vs_reference_s": 6.019,
+      "latency_n": 91
+    }
+  }
+}

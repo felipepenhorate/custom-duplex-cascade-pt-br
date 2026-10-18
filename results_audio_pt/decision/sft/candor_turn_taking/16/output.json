@@ -1,0 +1,180 @@
+{
+    "text": "Ah, I know. Carolina can be a tricky place, to be honest. Is he a chill person or a no nonsense, business as usual type?",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                8.4,
+                8.8
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "know.",
+            "timestamp": [
+                9.200000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "Carolina",
+            "timestamp": [
+                9.68,
+                10.4
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "tricky",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "place,",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "honest.",
+            "timestamp": [
+                11.68,
+                12.08
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.8,
+                12.88
+            ]
+        },
+        {
+            "text": "chill",
+            "timestamp": [
+                12.88,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "person",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                13.6,
+                13.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.76,
+                13.92
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        },
+        {
+            "text": "nonsense,",
+            "timestamp": [
+                14.16,
+                14.72
+            ]
+        },
+        {
+            "text": "business",
+            "timestamp": [
+                15.040000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                15.44,
+                15.68
+            ]
+        },
+        {
+            "text": "usual",
+            "timestamp": [
+                15.68,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "type?",
+            "timestamp": [
+                16.080000000000002,
+                16.32
+            ]
+        }
+    ]
+}

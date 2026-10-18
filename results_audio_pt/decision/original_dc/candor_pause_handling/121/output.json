@@ -1,0 +1,82 @@
+{
+    "text": "It sounds like you're facing a common challenge many people encounter.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "facing",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "common",
+            "timestamp": [
+                11.84,
+                12.16
+            ]
+        },
+        {
+            "text": "challenge",
+            "timestamp": [
+                12.16,
+                12.64
+            ]
+        },
+        {
+            "text": "many",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                12.88,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "encounter.",
+            "timestamp": [
+                13.120000000000001,
+                13.6
+            ]
+        }
+    ]
+}

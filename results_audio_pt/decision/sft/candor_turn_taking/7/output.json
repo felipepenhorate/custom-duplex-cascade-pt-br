@@ -1,0 +1,68 @@
+{
+    "text": "Oof, so far. Is it a lot of work?",
+    "chunks": [
+        {
+            "text": "Oof,",
+            "timestamp": [
+                5.84,
+                6.24
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                6.5600000000000005,
+                6.72
+            ]
+        },
+        {
+            "text": "far.",
+            "timestamp": [
+                6.72,
+                6.96
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.5200000000000005,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "work?",
+            "timestamp": [
+                8.08,
+                8.4
+            ]
+        }
+    ]
+}

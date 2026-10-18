@@ -1,0 +1,152 @@
+{
+    "text": "Nah, I can't say I felt that. I can't say I felt that. No. I can't say I felt that. No.",
+    "chunks": [
+        {
+            "text": "Nah,",
+            "timestamp": [
+                4.8,
+                5.2
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.44,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                5.5200000000000005,
+                5.84
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.0,
+                6.16
+            ]
+        },
+        {
+            "text": "felt",
+            "timestamp": [
+                6.16,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                6.5600000000000005,
+                6.88
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                7.36,
+                7.68
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "felt",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "No.",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                10.48,
+                10.8
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "felt",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "No.",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        }
+    ]
+}

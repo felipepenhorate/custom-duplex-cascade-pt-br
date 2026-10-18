@@ -1,0 +1,96 @@
+{
+    "text": "Ah, a picky or just honest. Honesty is a lot of a lot.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                5.2,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.68,
+                5.76
+            ]
+        },
+        {
+            "text": "picky",
+            "timestamp": [
+                7.68,
+                8.32
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "honest.",
+            "timestamp": [
+                8.88,
+                9.36
+            ]
+        },
+        {
+            "text": "Honesty",
+            "timestamp": [
+                9.68,
+                10.24
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "lot.",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        }
+    ]
+}

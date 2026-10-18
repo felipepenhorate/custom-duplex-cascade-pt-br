@@ -1,0 +1,103 @@
+{
+    "text": "Nostalgia, I guess fascinating. Is it a mental block or a physical block? Seemingly.",
+    "chunks": [
+        {
+            "text": "Nostalgia,",
+            "timestamp": [
+                18.400000000000002,
+                19.36
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                19.6,
+                19.84
+            ]
+        },
+        {
+            "text": "guess",
+            "timestamp": [
+                19.84,
+                20.48
+            ]
+        },
+        {
+            "text": "fascinating.",
+            "timestamp": [
+                24.32,
+                25.12
+            ]
+        },
+        {
+            "text": "Is",
+            "timestamp": [
+                25.28,
+                25.36
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                25.36,
+                25.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.52,
+                25.6
+            ]
+        },
+        {
+            "text": "mental",
+            "timestamp": [
+                25.6,
+                25.92
+            ]
+        },
+        {
+            "text": "block",
+            "timestamp": [
+                25.92,
+                26.240000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                26.240000000000002,
+                26.400000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.400000000000002,
+                26.48
+            ]
+        },
+        {
+            "text": "physical",
+            "timestamp": [
+                26.48,
+                26.88
+            ]
+        },
+        {
+            "text": "block?",
+            "timestamp": [
+                26.88,
+                27.28
+            ]
+        },
+        {
+            "text": "Seemingly.",
+            "timestamp": [
+                29.12,
+                30.080000000000002
+            ]
+        }
+    ]
+}

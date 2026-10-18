@@ -1,0 +1,341 @@
+{
+    "text": "Great choice Making a smoothie is a quick and healthy way to start your day or refuel after a workout. Here's a simple recipe you can follow Ingredients 1 cup of your favorite fruit e.g. banana, berries, mango, 1 half cup of spinach or kale for a green.",
+    "chunks": [
+        {
+            "text": "Great",
+            "timestamp": [
+                14.648000000000001,
+                14.968000000000002
+            ]
+        },
+        {
+            "text": "choice",
+            "timestamp": [
+                15.128,
+                15.608
+            ]
+        },
+        {
+            "text": "Making",
+            "timestamp": [
+                15.848,
+                16.168
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.168,
+                16.328000000000003
+            ]
+        },
+        {
+            "text": "smoothie",
+            "timestamp": [
+                16.328000000000003,
+                16.888
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                16.888,
+                16.968
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.968,
+                17.128
+            ]
+        },
+        {
+            "text": "quick",
+            "timestamp": [
+                17.128,
+                17.368000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                17.368000000000002,
+                17.528000000000002
+            ]
+        },
+        {
+            "text": "healthy",
+            "timestamp": [
+                17.528000000000002,
+                17.928
+            ]
+        },
+        {
+            "text": "way",
+            "timestamp": [
+                17.928,
+                18.088
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                18.088,
+                18.248
+            ]
+        },
+        {
+            "text": "start",
+            "timestamp": [
+                18.248,
+                18.488
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                18.488,
+                18.648000000000003
+            ]
+        },
+        {
+            "text": "day",
+            "timestamp": [
+                18.648000000000003,
+                18.888
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                18.888,
+                19.048000000000002
+            ]
+        },
+        {
+            "text": "refuel",
+            "timestamp": [
+                19.048000000000002,
+                19.688000000000002
+            ]
+        },
+        {
+            "text": "after",
+            "timestamp": [
+                19.688000000000002,
+                19.928
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.928,
+                20.008000000000003
+            ]
+        },
+        {
+            "text": "workout.",
+            "timestamp": [
+                20.008000000000003,
+                20.408
+            ]
+        },
+        {
+            "text": "Here's",
+            "timestamp": [
+                20.728,
+                20.968000000000004
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.968000000000004,
+                21.128
+            ]
+        },
+        {
+            "text": "simple",
+            "timestamp": [
+                21.128,
+                21.448
+            ]
+        },
+        {
+            "text": "recipe",
+            "timestamp": [
+                21.448,
+                22.008000000000003
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                22.008000000000003,
+                22.168
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                22.168,
+                22.328000000000003
+            ]
+        },
+        {
+            "text": "follow",
+            "timestamp": [
+                22.328000000000003,
+                22.728
+            ]
+        },
+        {
+            "text": "Ingredients",
+            "timestamp": [
+                23.048000000000002,
+                23.768
+            ]
+        },
+        {
+            "text": "1",
+            "timestamp": [
+                23.928,
+                24.168
+            ]
+        },
+        {
+            "text": "cup",
+            "timestamp": [
+                24.168,
+                24.408
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                24.408,
+                24.488
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                24.488,
+                24.648000000000003
+            ]
+        },
+        {
+            "text": "favorite",
+            "timestamp": [
+                24.648000000000003,
+                24.968000000000004
+            ]
+        },
+        {
+            "text": "fruit",
+            "timestamp": [
+                24.968000000000004,
+                25.288000000000004
+            ]
+        },
+        {
+            "text": "e.g.",
+            "timestamp": [
+                25.448,
+                25.768
+            ]
+        },
+        {
+            "text": "banana,",
+            "timestamp": [
+                26.008000000000003,
+                26.568
+            ]
+        },
+        {
+            "text": "berries,",
+            "timestamp": [
+                26.728,
+                27.208000000000002
+            ]
+        },
+        {
+            "text": "mango,",
+            "timestamp": [
+                27.368000000000002,
+                27.848
+            ]
+        },
+        {
+            "text": "1",
+            "timestamp": [
+                28.088,
+                28.328000000000003
+            ]
+        },
+        {
+            "text": "half",
+            "timestamp": [
+                28.408,
+                28.728
+            ]
+        },
+        {
+            "text": "cup",
+            "timestamp": [
+                28.728,
+                28.968
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                28.968,
+                29.128
+            ]
+        },
+        {
+            "text": "spinach",
+            "timestamp": [
+                29.128,
+                29.528000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                29.528000000000002,
+                29.688000000000002
+            ]
+        },
+        {
+            "text": "kale",
+            "timestamp": [
+                29.688000000000002,
+                30.168000000000003
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                30.328000000000003,
+                30.568
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                30.568,
+                30.648000000000003
+            ]
+        },
+        {
+            "text": "green.",
+            "timestamp": [
+                30.648000000000003,
+                31.048000000000002
+            ]
+        }
+    ]
+}

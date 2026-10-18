@@ -1,0 +1,103 @@
+{
+    "text": "Ah, so a twentieth Seems a lot, doesn't it? Presto, a mini holiday season.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.0,
+                6.32
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "twentieth",
+            "timestamp": [
+                6.96,
+                7.36
+            ]
+        },
+        {
+            "text": "Seems",
+            "timestamp": [
+                9.200000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "lot,",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "doesn't",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "it?",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "Presto,",
+            "timestamp": [
+                10.72,
+                11.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.44,
+                11.52
+            ]
+        },
+        {
+            "text": "mini",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "holiday",
+            "timestamp": [
+                11.92,
+                12.4
+            ]
+        },
+        {
+            "text": "season.",
+            "timestamp": [
+                12.4,
+                12.96
+            ]
+        }
+    ]
+}
