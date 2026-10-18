@@ -73,10 +73,26 @@ class AudioScenario:
 
 
 def _sample_dirs(subset_root: Path) -> list[Path]:
-    return sorted(
-        [p for p in subset_root.iterdir() if p.is_dir() and p.name.isdigit()],
-        key=lambda p: int(p.name),
-    )
+    """Numeric sample directories that actually hold a readable ``input.wav``.
+
+    The readable check matters when a set is still being built: a scenario being
+    written right now has a directory but a partial (or empty) WAV, and iterating
+    it would fail on a file the builder has not finished. Skipping is logged by
+    the caller's count.
+    """
+    import soundfile as sf
+
+    out: list[Path] = []
+    for p in sorted([q for q in subset_root.iterdir() if q.is_dir() and q.name.isdigit()],
+                    key=lambda q: int(q.name)):
+        if not (p / "input.wav").is_file():
+            continue
+        try:
+            sf.info(str(p / "input.wav"))
+        except Exception:  # noqa: BLE001 - partially written file
+            continue
+        out.append(p)
+    return out
 
 
 def load_scenario(subset: str, sample_dir: Path) -> AudioScenario:
