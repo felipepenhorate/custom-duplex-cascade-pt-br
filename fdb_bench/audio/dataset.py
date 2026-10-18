@@ -116,9 +116,14 @@ def iter_scenarios(
     subsets = tasks or list(TASKS)
     out: list[AudioScenario] = []
     for subset in subsets:
+        # The published zips unpack to <root>/<subset>/<subset>/<id>/, while the
+        # pt-BR re-voicing (build_pt_audio.py) writes <root>/<subset>/<id>/. Accept
+        # both so the same harness runs on either set.
         base = root / subset / subset
         if not base.is_dir():
-            raise FileNotFoundError(f"{base} not found (unpack the v1.0 zips)")
+            base = root / subset
+        if not base.is_dir():
+            raise FileNotFoundError(f"{root / subset} not found (unpack the zips or build the pt set)")
         dirs = _sample_dirs(base)
         if limits and subset in limits:
             dirs = dirs[: limits[subset]]
