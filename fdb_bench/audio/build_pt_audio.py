@@ -79,6 +79,7 @@ class Segment:
     synth_s: float = 0.0
     fitted_s: float = 0.0
     stretch: float = 1.0       # rate applied (synth -> slot); 1.0 = untouched
+    gain: float = 1.0          # level normalisation applied to the synthesis
     clamped: bool = False
     error: str | None = None
 
@@ -176,6 +177,23 @@ def time_fit(audio: np.ndarray, slot_s: float, *, cap: float = 2.0) -> tuple[np.
     from .stretch import fit_to_slot
 
     return fit_to_slot(audio, slot_s, sr=SR, cap=cap)
+
+
+def peak_normalise(audio: np.ndarray, target: float) -> tuple[np.ndarray, float]:
+    """Scale to a target peak, returning the gain applied.
+
+    Cloned voices conditioned on telephone-band conversation audio come out much
+    hotter than the catalog ones (measured: peak 0.93 against 0.31 for the same
+    sentence), and the output is written as PCM16, so without this the rebuilt set
+    clips. The gain is recorded per segment instead of being applied silently.
+    """
+    if audio.size == 0:
+        return audio, 1.0
+    pk = float(np.abs(audio).max())
+    if pk < 1e-6:
+        return audio, 1.0
+    g = float(target / pk)
+    return (audio * g).astype(np.float32), g
 
 
 def derived_transcription(segments: list[Segment]) -> list[dict]:
@@ -280,8 +298,9 @@ def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str
                 b = min(wav24.size, a + int(6 * SR))
                 import tempfile
 
+                prompt, _ = peak_normalise(wav24[a:b], 0.6)
                 with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as t:
-                    sf.write(t.name, wav24[a:b], SR)
+                    sf.write(t.name, prompt, SR)
                     state = voice.model.get_state_for_audio_prompt(t.name)
                 used_voice = f"clone:{sc.sid}"
             except Exception as e:  # noqa: BLE001 - fall back to the catalog voice
@@ -293,7 +312,9 @@ def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str
             if not s.text_pt:
                 continue
             chunk = voice.speak(s.text_pt) if state is None else _speak_with_state(voice, state, s.text_pt)
-            fitted, rate, clamped = time_fit(chunk.audio, s.slot_s)
+            levelled, gain = peak_normalise(chunk.audio, 0.7)
+            s.gain = round(gain, 3)
+            fitted, rate, clamped = time_fit(levelled, s.slot_s)
             s.synth_s = round(chunk.audio.size / SR, 3)
             s.fitted_s = round(fitted.size / SR, 3)
             s.stretch = round(rate, 3)
@@ -326,6 +347,7 @@ def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str
                 "index": s.index, "start": round(s.start, 3), "end": round(s.end, 3),
                 "slot_s": round(s.slot_s, 3), "synth_s": s.synth_s,
                 "fitted_s": s.fitted_s, "stretch": s.stretch, "clamped": s.clamped,
+                "gain": s.gain,
                 "text_en": s.text_en, "text_pt": s.text_pt, "error": s.error,
             } for s in segments],
         }, ensure_ascii=False, indent=1), encoding="utf-8")
