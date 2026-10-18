@@ -41,6 +41,9 @@ def _serialise(res, render_info: dict) -> dict:
         "end_time": round(res.end_time, 3),
         "gt_user_speech_s": round(res.gt_user_speech_s, 3),
         "spoke": res.spoke(), "formal_turn_by_audio": res.formal_turn_by_audio(),
+        "first_speech_start": round(min([t.start for t in res.turns], default=-1), 3),
+        "audible_within_input": bool(render_info["placed_within_input_s"] > 0.0),
+        "speech_beyond_input_s": render_info["speech_beyond_input_s"],
         "speech_intervals": [[round(a, 3), round(b, 3)] for a, b in res.speech_intervals],
         "n_turns": len(res.turns),
         "n_decisions": res.n_decisions,
@@ -87,9 +90,20 @@ def _aggregate(results_dir: Path, data_root: Path) -> dict:
                 for p in sorted(d.glob("*/trace.json"))]
         if not rows:
             continue
+        late_only = [r for r in rows
+                     if r["spoke"] and not r.get("audible_within_input", True)]
         block = {
             "n": len(rows),
+            # the model's decision: did it emit a turn with any audio at all
             "spoke_rate": round(sum(r["spoke"] for r in rows) / len(rows), 4),
+            # what FDB's ASR would see: speech that actually landed in the window
+            "audible_within_input_rate": round(
+                sum(1 for r in rows if r.get("audible_within_input")) / len(rows), 4),
+            # the two differ when a response began after the input ended
+            "spoke_but_late_only_rate": round(len(late_only) / len(rows), 4),
+            "mean_first_speech_start_s": round(
+                sum(r.get("first_speech_start", -1) for r in rows if r["spoke"])
+                / max(1, sum(r["spoke"] for r in rows)), 3),
             "formal_turn_by_audio": round(
                 sum(r["formal_turn_by_audio"] for r in rows) / len(rows), 4),
             "mean_compute_s": round(sum(r["compute_s"] for r in rows) / len(rows), 3),
@@ -129,7 +143,16 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--model", required=True, choices=sorted(P.MODEL_REGISTRY))
-    ap.add_argument("--out", required=True, type=Path)
+    ap.add_argument("--out", required=True, type=Path,
+                    help="repo results dir: traces, transcripts, metrics")
+    ap.add_argument("--audio-root", type=Path,
+                    default=Path("/mnt/f/fdb_audio"),
+                    help="where the rendered output.wav files go. They are the "
+                         "bulk of a run (hundreds of MB) and FDB's evaluators "
+                         "only need them at scoring time, so they live outside "
+                         "the repo and are symlinked into a scratch tree to score.")
+    ap.add_argument("--score-tmp", type=Path, default=None,
+                    help="scratch tree for scoring (default /tmp/opencode/audio_score)")
     ap.add_argument("--data-root", type=Path, default=DEFAULT_ROOT)
     ap.add_argument("--tasks", default="all",
                     help="comma-separated subset names, or 'all'")
@@ -152,6 +175,10 @@ def main() -> None:
     # TTS
     ap.add_argument("--tts-language", default="english")
     ap.add_argument("--tts-temp", type=float, default=0.7)
+    ap.add_argument("--tail-s", type=float, default=4.0,
+                    help="render this many seconds past the end of the input so a "
+                         "late answer still lands (FDB's own outputs are exactly "
+                         "input-length; see render.py)")
     ap.add_argument("--max-speech-s", type=float, default=4.0,
                     help="synthesise at most this much past the end of the input")
     ap.add_argument("--no-tts", action="store_true",
@@ -197,13 +224,14 @@ def main() -> None:
     for sc in scenarios:
         sample_dir = args.out / sc.subset / sc.sid
         trace_path = sample_dir / "trace.json"
-        wav_path = sample_dir / "output.wav"
+        wav_path = args.audio_root / args.mode / args.model / sc.subset / sc.sid / "output.wav"
         if args.score_only:
             continue  # scoring is driven by the folders that exist on disk
         if wav_path.is_file() and trace_path.is_file():
             n += 1
             continue
         sample_dir.mkdir(parents=True, exist_ok=True)
+        wav_path.parent.mkdir(parents=True, exist_ok=True)
         pcm = load_wav_24k(sc.input_wav)
         stream = AudioUserStream(
             whisper, language=args.lang, vad=args.vad, silence_s=args.silence_s,
@@ -213,7 +241,7 @@ def main() -> None:
         session = AudioDuplexSession(adapter, stream, voice, mode=args.mode,
                                      max_speech_s=args.max_speech_s)
         res = session.run(sc, pcm)
-        samples, info = render_output(res, sc.duration_s)
+        samples, info = render_output(res, sc.duration_s, tail_s=args.tail_s)
         write_wav(wav_path, samples)
         trace_path.write_text(
             json.dumps(_serialise(res, info), ensure_ascii=False), encoding="utf-8")
@@ -229,31 +257,50 @@ def main() -> None:
     if not args.skip_score and not args.no_tts:
         from .score import LocalJudgeShim, ParakeetScorer, run_task_eval
 
+        import os
+
         scorer = ParakeetScorer()
         judge = LocalJudgeShim(args.judge_api_base, max_tokens=args.judge_max_tokens)
-        # The upstream evaluators read the model's output *and* the task annotation
-        # from the same folder (`turn_taking.json`, `pause.json`, `interrupt.json`),
-        # so the annotations are copied next to the rendered audio before scoring.
+        # The upstream evaluators insist on one folder per sample holding the
+        # audio, the transcript *and* the task annotation (`turn_taking.json`,
+        # `pause.json`, `interrupt.json`). The audio stays on /mnt/f, so scoring
+        # builds that folder as a symlink farm: nothing is copied except the
+        # annotations (tiny) and the parakeet transcript (kept in the repo as
+        # evidence). The evaluators themselves see an ordinary directory.
         annotations = ("pause.json", "turn_taking.json", "interrupt.json")
+        score_root = (args.score_tmp or Path("/tmp/opencode/audio_score")) \
+            / f"{args.mode}_{args.model}"
         for subset in tasks:
-            root = args.out / subset
+            audio_dir = args.audio_root / args.mode / args.model / subset
             src_root = args.data_root / subset / subset
-            sdirs = sorted([p for p in root.glob("*") if p.is_dir()
+            sdirs = sorted([p for p in audio_dir.glob("*") if p.is_dir()
                             and (p / "output.wav").is_file()],
                            key=lambda p: int(p.name) if p.name.isdigit() else 0)
             if not sdirs:
                 continue
+            root = score_root / subset
             for sd in sdirs:
+                d = root / sd.name
+                d.mkdir(parents=True, exist_ok=True)
                 if src_root.is_dir():
                     for name in annotations:
                         src = src_root / sd.name / name
-                        if src.is_file() and not (sd / name).is_file():
-                            (sd / name).write_text(src.read_text(encoding="utf-8"),
-                                                   encoding="utf-8")
+                        if src.is_file():
+                            (d / name).write_text(src.read_text(encoding="utf-8"),
+                                                  encoding="utf-8")
+                link = d / "output.wav"
+                if link.is_symlink() or link.exists():
+                    link.unlink()
+                os.symlink((sd / "output.wav").resolve(), link)
             print(f"[score] {subset}: {len(sdirs)} samples -> parakeet", flush=True)
             for sd in sdirs:
-                if not (sd / "output.json").is_file() or not args.score_only:
-                    scorer.write_output_json(sd, TASK_OF_SUBSET[subset])
+                d = root / sd.name
+                if not (d / "output.json").is_file() or not args.score_only:
+                    scorer.write_output_json(d, TASK_OF_SUBSET[subset])
+                # keep the transcript in the repo next to the trace
+                (args.out / subset / sd.name).mkdir(parents=True, exist_ok=True)
+                (args.out / subset / sd.name / "output.json").write_text(
+                    (d / "output.json").read_text(encoding="utf-8"), encoding="utf-8")
             res = run_task_eval(root, TASK_OF_SUBSET[subset], judge=judge)
             metrics[subset] = res
             print(f"[score] {subset}: {json.dumps(res, ensure_ascii=False)[:300]}", flush=True)

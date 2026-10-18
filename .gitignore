@@ -41,6 +41,8 @@ results_longturns_buggy/
 results_audio/**/llama-server.log
 results_audio/**/judge-server.log
 results_audio/**/*.log.bak
+# rendered audio lives on /mnt/f (see fdb_bench/audio/README.md); never commit it
+results_audio/**/*.wav
 
 # Runtime logs
 **/logs/*.log

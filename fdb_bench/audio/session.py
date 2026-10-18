@@ -142,7 +142,8 @@ class AudioResult:
         )
 
     def spoke(self) -> bool:
-        return any(t.duration_s > 0.05 for t in self.turns)
+        """Any audible sample at all -- the same test the renderer applies."""
+        return any(t.duration_s > 0.0 for t in self.turns)
 
 
 class AudioDuplexSession:

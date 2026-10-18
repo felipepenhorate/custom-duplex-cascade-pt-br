@@ -104,13 +104,22 @@ NeMo + `nvidia/parakeet-tdt-0.6b-v2`, which live in `/home/penhfel/nemo_uv`
 because NeMo pins `transformers<5`. A llama.cpp server with the judge GGUF must be
 up on `:8099` for the relevance column.
 
-Outputs per model (`results_audio/<mode>/<model>/`):
+## Where the files go
+
+The rendered audio is the bulk of a run (hundreds of MB) and the repo keeps only
+what a reader needs to check a number, so the two are split:
 
 ```
-<subset>/<id>/output.wav    # what the benchmark's evaluators read
-<subset>/<id>/output.json   # parakeet transcript in the benchmark's schema
-<subset>/<id>/trace.json    # the session: pieces, decisions, tags, turns, barge-ins
-<subset>/<id>/<annotation>.json   # copied in: the evaluators read it beside the audio
-metrics.json                # official task metrics + audio roll-up
-meta.json                   # completion marker (resume-safe)
+/mnt/f/fdb_audio/<mode>/<model>/<subset>/<id>/output.wav    # the audio
+results_audio/<mode>/<model>/
+    <subset>/<id>/output.json   # parakeet transcript in the benchmark's schema
+    <subset>/<id>/trace.json    # the session: pieces, decisions, tags, turns, barge-ins
+    metrics.json                # official task metrics + audio roll-up
+    meta.json                   # completion marker (resume-safe)
 ```
+
+Override the audio location with ``--audio-root`` (or ``AUDIO_ROOT=`` for
+``run_audio_all.sh``). Scoring needs `output.wav`, `output.json` and the task
+annotation in one folder, so it builds that folder under ``/tmp/opencode/audio_score``
+with the audio **symlinked** in and copies nothing but the annotations; the
+parakeet transcript is written back into the repo as evidence.

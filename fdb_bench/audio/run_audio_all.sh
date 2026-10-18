@@ -23,6 +23,9 @@ PY_SCORE="${PY_SCORE:-/home/penhfel/nemo_uv/bin/python}"
 LLAMA_SERVER="${LLAMA_SERVER:-/home/penhfel/llama.cpp/build/bin/llama-server}"
 RUNS_ROOT="${RUNS_ROOT:-/mnt/f/duplex_cascade_runs}"
 RESULTS="${RESULTS:-$ROOT/results_audio}"
+# Rendered audio lives outside the repo (hundreds of MB); traces, transcripts
+# and metrics stay in $RESULTS and are what gets committed.
+AUDIO_ROOT="${AUDIO_ROOT:-/mnt/f/fdb_audio}"
 MODELS="${MODELS:-original_dc sft distill mtp_like}"
 MODE="${MODE:-decision}"
 VAD="${VAD:-silero}"
@@ -87,23 +90,34 @@ for model in $MODELS; do
 
   log "=== inference: $model ($MODE) ==="
   serve "$g" "$MODEL_PORT" "$out/llama-server.log" || continue
-  "$PY" -m fdb_bench.audio.run_audio \
-    --model "$model" --mode "$MODE" --out "$out" --vad "$VAD" \
-    --api-base "$MODEL_API" --big-api-base "$MODEL_API" \
-    --judge-api-base "$JUDGE_API" \
-    ${LIMIT:+--limit "$LIMIT"} \
-    --skip-score 2>&1 | tee "$out/inference.log" | tail -6
+  set -o pipefail
+  if ! "$PY" -m fdb_bench.audio.run_audio \
+      --model "$model" --mode "$MODE" --out "$out" --vad "$VAD" \
+      --api-base "$MODEL_API" --big-api-base "$MODEL_API" \
+      --judge-api-base "$JUDGE_API" --audio-root "$AUDIO_ROOT" \
+      ${LIMIT:+--limit "$LIMIT"} \
+      --skip-score > "$out/inference.log" 2>&1; then
+    log "  INFERENCE FAILED for $model — see $out/inference.log"
+    tail -12 "$out/inference.log" | sed 's/^/    /'
+    pkill -f "llama-server -m $g" 2>/dev/null || true
+    continue
+  fi
+  tail -4 "$out/inference.log"
 
   pkill -f "llama-server -m $g" 2>/dev/null || true
   sleep 5
 
   log "=== scoring: $model ==="
   ensure_judge || log "  judge unavailable — interruption relevance will be missing"
-  "$PY_SCORE" -m fdb_bench.audio.run_audio \
-    --model "$model" --mode "$MODE" --out "$out" --vad "$VAD" \
-    --judge-api-base "$JUDGE_API" --score-only \
-    ${LIMIT:+--limit "$LIMIT"} \
-    2>&1 | tee "$out/scoring.log" | tail -12
+  if ! "$PY_SCORE" -m fdb_bench.audio.run_audio \
+      --model "$model" --mode "$MODE" --out "$out" --vad "$VAD" \
+      --judge-api-base "$JUDGE_API" --audio-root "$AUDIO_ROOT" --score-only \
+      ${LIMIT:+--limit "$LIMIT"} > "$out/scoring.log" 2>&1; then
+    log "  SCORING FAILED for $model — see $out/scoring.log"
+    tail -12 "$out/scoring.log" | sed 's/^/    /'
+    continue
+  fi
+  tail -8 "$out/scoring.log"
   log "done $model -> $out"
 done
 log "ALL DONE"

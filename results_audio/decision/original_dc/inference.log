@@ -1,10 +1,8 @@
 [audio] 727 scenarios across 5 subsets
 [audio] tts voice=alba language=english
-[0;93m2026-10-17 22:04:36.677353928 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
-[audio/original_dc] 1/727 queue (25.2s/scenario, 27.0s audio) spoke=False pieces=30
-[audio/original_dc] 2/727 queue (16.8s/scenario, 9.6s audio) spoke=False pieces=11
-[audio/original_dc] 3/727 queue (12.4s/scenario, 11.5s audio) spoke=False pieces=14
-[audio/original_dc] 25/727 queue (6.8s/scenario, 13.1s audio) spoke=False pieces=15
-[audio/original_dc] 50/727 queue (6.5s/scenario, 8.3s audio) spoke=False pieces=10
-[audio/original_dc] 75/727 queue (6.8s/scenario, 27.0s audio) spoke=False pieces=34
-[audio/original_dc] 100/727 queue (6.7s/scenario, 28.8s audio) spoke=False pieces=36
+[0;93m2026-10-17 22:27:40.540960933 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[audio/original_dc] 1/727 queue (25.6s/scenario, 27.0s audio) spoke=False pieces=30
+[audio/original_dc] 2/727 queue (17.0s/scenario, 9.6s audio) spoke=False pieces=11
+[audio/original_dc] 3/727 queue (12.6s/scenario, 11.5s audio) spoke=False pieces=14
+[audio/original_dc] 25/727 queue (7.0s/scenario, 13.1s audio) spoke=False pieces=15
+[audio/original_dc] 50/727 queue (6.6s/scenario, 8.3s audio) spoke=False pieces=10
