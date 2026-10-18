@@ -1,0 +1,5 @@
+[audio] 727 scenarios across 5 subsets
+[audio] tts voice=rafael language=portuguese
+[0;93m2026-10-18 13:18:07.069794200 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+WARNING:pocket_tts.models.tts_model:Chunk has 88 tokens (max 50), generation may skip words: 'your message seems to have been cut off It appears...'
+WARNING:pocket_tts.models.tts_model:Chunk has 62 tokens (max 50), generation may skip words: 'It seems like you've typed a string of "no" repeat...'

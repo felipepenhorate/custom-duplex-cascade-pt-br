@@ -53,6 +53,15 @@ DISTILL_GEN = {**GENERATION, "repeat_penalty": 1.15}
 TAG_MAX_TOKENS = 24
 
 MAX_MICRO_TURNS = 10          # live bridge: max_micro_turns = 10
+# The deployed bridge trims its history to the last 30 messages (`MAX_HISTORY_MSGS`
+# in DuplexServer/handle_connection_impl). An unbounded prompt eventually exceeds
+# the server's context: measured on the pt-BR audio run, the upstream model rambles
+# on Portuguese transcripts, the micro-turn loop appends every pitch, and
+# llama-server starts answering "request (8202 tokens) exceeds the available
+# context size (8192 tokens)". Items here are finer-grained than the bridge's
+# per-turn messages, so the cap is in items and generous: 128 items is roughly the
+# bridge's 30 messages of micro-turn traffic.
+MAX_HISTORY_ITEMS = 128
 
 
 class LlamaServerError(RuntimeError):
@@ -291,7 +300,8 @@ class LlamaDuplexAdapter:
         out: list[dict] = []
         if self.system_prompt:
             out.append({"role": "system", "content": self.system_prompt})
-        for it in items:
+        kept = items[-MAX_HISTORY_ITEMS:] if len(items) > MAX_HISTORY_ITEMS else items
+        for it in kept:
             if it["role"] == "system":
                 continue
             out.append({"role": it["role"], "content": it["text"]})
@@ -429,7 +439,8 @@ class HFDuplexAdapter:
         out: list[dict] = []
         if self.system_prompt:
             out.append({"role": "system", "content": self.system_prompt})
-        for it in items:
+        kept = items[-MAX_HISTORY_ITEMS:] if len(items) > MAX_HISTORY_ITEMS else items
+        for it in kept:
             if it["role"] == "system":
                 continue
             out.append({"role": it["role"], "content": it["text"]})
