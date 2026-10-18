@@ -271,6 +271,58 @@ ablation claim depends on reply relevance). Re-run with
   word-count branch of the rule decides rather than the duration branch. The clock
   is a documented approximation that does not drive any conclusion here.
 
+## The audio run (real FDB v1.0 audio)
+
+The text-domain bench answered the protocol question with synthetic stimuli and a
+calibrated word rate. `fdb_bench/audio/` removes both: the benchmark's own 727 WAVs
+are replayed through the deployed speech stack, and the benchmark's own evaluators
+score the audio that comes out. Design and run instructions are in
+`audio/README.md`; what belongs here is what the audio run *changed*.
+
+**Three substitutions it forced, each measured rather than assumed.**
+
+1. **The `<|no voice|>` silence ticks are load-bearing.** Without them the upstream
+   checkpoint never takes the floor at all — measured, not inferred: replayed
+   through the audio stream with text pieces only, it answered
+   `<|user is talking|>` (wait) at every single decision, including after the turn
+   end. With ticks it takes the floor at the first tick after the turn end. The
+   text-domain bench always emitted them (the `silence` events), so this was
+   invisible there.
+2. **The deployed `partial_commit_s = 2.0` is a UI setting, not a duplex one.** It
+   exists so the browser's partial-text bubble never revises a word, and the
+   deployed bridge never feeds partials to the LLM, so nothing in the product
+   depends on it. Cost measured on the real stream: partial lag 2.41 s versus
+   1.04 s at 0.5 s, and utterances shorter than the window deliver nothing at all
+   before the turn ends (`tests/test_audio_stream.py`).
+3. **The deployed silence gate (`rms >= 0.002`) never closes on real
+   conversation.** It is calibrated for a browser microphone whose idle state is
+   digital silence; CANDOR sit at RMS 0.006-0.24, and the absolute gate calls 94%
+   of one 27 s file speech. The default is therefore silero VAD — the detector the
+   benchmark's own scripts run on the model's output — with `--vad energy`
+   keeping the deployed rule available as an arm.
+
+**Two facts about the shipped product that the audio path exposed.**
+
+* **The bridge is half-duplex in two places, not one.** Besides answering only on
+  the STT's `UtteranceEnd`, it *drops microphone audio while the assistant
+  speaks* (`DuplexCascade/server.py`, "echo gating"). On the product as shipped,
+  FDB's stop-latency dimension cannot be measured at all; the duplex
+  configuration (echo gate open) is what this harness measures, and that choice is
+  recorded rather than silently adopted.
+* **The silence gate is the system's turn-detection threshold, and it interacts
+  with the benchmark's own annotation.** CANDOR pauses are 0.67-1.49 s (median
+  0.88) against a 0.6 s gate, so every annotated pause clears the deployed
+  threshold: the pause-handling TOR on that subset is a *joint* property of the
+  gate and the model, not a property of the model alone. The text bench could not
+  see this because its `ends_turn` came from the annotation.
+
+**Partial validation, in flight at the time of writing.** Over the first 94
+candor_pause_handling scenarios, the upstream checkpoint's speak rate is **0.17**
+against the 0.222 published `pause_candor` TOR — the same order, on 94 of 216
+samples. The stream itself measured: user pieces average **2.92 words** (median 3,
+max 7) against the training distribution's 2.19/3/7, and STT costs 0.12 s per
+scenario — the pipeline's time goes to the LLM and pocket-tts, not to ASR.
+
 ### Anchoring strength vs capability retention
 
 The self-distillation claim is "keeps function calling and instruction following
