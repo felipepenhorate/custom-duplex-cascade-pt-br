@@ -1,0 +1,180 @@
+{
+    "text": "Mm. I'm not sure I understand. Could you clarify what you mean by get paired with? Oh, I see. So something was supposed to happen.",
+    "chunks": [
+        {
+            "text": "Mm.",
+            "timestamp": [
+                4.5600000000000005,
+                4.88
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                5.28,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                5.5200000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                5.68,
+                5.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.92,
+                6.24
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "clarify",
+            "timestamp": [
+                7.2,
+                7.68
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "paired",
+            "timestamp": [
+                8.8,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "with?",
+            "timestamp": [
+                9.200000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "So",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                12.4,
+                12.72
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "supposed",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "happen.",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        }
+    ]
+}

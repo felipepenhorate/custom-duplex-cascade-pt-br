@@ -1,0 +1,159 @@
+{
+    "text": "Sure, what you two? Have a great day. Ah, have a great day. Got it. Let's go with pasta. Maybe a classic.",
+    "chunks": [
+        {
+            "text": "Sure,",
+            "timestamp": [
+                2.88,
+                3.44
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                3.68,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.24,
+                4.4
+            ]
+        },
+        {
+            "text": "two?",
+            "timestamp": [
+                4.4,
+                4.64
+            ]
+        },
+        {
+            "text": "Have",
+            "timestamp": [
+                4.88,
+                5.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                5.28,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "day.",
+            "timestamp": [
+                5.5200000000000005,
+                5.84
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.16,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                7.36,
+                7.68
+            ]
+        },
+        {
+            "text": "day.",
+            "timestamp": [
+                7.68,
+                8.0
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                8.64,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "Let's",
+            "timestamp": [
+                9.68,
+                10.08
+            ]
+        },
+        {
+            "text": "go",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "pasta.",
+            "timestamp": [
+                10.56,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        },
+        {
+            "text": "classic.",
+            "timestamp": [
+                11.68,
+                12.0
+            ]
+        }
+    ]
+}

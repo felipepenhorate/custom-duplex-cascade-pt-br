@@ -1,0 +1,110 @@
+{
+    "text": "Hmm, that sounds a bit confusing. Are you saying you're putting in effort? Got it.",
+    "chunks": [
+        {
+            "text": "Hmm,",
+            "timestamp": [
+                9.28,
+                9.76
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                10.16,
+                10.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "confusing.",
+            "timestamp": [
+                10.72,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "Are",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        },
+        {
+            "text": "putting",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "effort?",
+            "timestamp": [
+                12.56,
+                12.88
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                13.120000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                13.280000000000001,
+                13.36
+            ]
+        }
+    ]
+}

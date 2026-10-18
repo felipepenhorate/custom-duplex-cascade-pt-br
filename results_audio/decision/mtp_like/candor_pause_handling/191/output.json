@@ -1,0 +1,348 @@
+{
+    "text": "Em schools. What's on your mind about them? Yeah, it's hard to say for sure. Every school year brings new changes. What do you think is most important for schools to get back to normal? Em and. Yeah, exactly. It's a lot to think about. Hope things get better.",
+    "chunks": [
+        {
+            "text": "Em",
+            "timestamp": [
+                3.7600000000000002,
+                4.0
+            ]
+        },
+        {
+            "text": "schools.",
+            "timestamp": [
+                4.48,
+                4.96
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                5.2,
+                5.44
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "mind",
+            "timestamp": [
+                5.76,
+                6.0
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                6.0,
+                6.24
+            ]
+        },
+        {
+            "text": "them?",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                10.8,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "hard",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.6,
+                11.92
+            ]
+        },
+        {
+            "text": "sure.",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "Every",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "school",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        },
+        {
+            "text": "year",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "brings",
+            "timestamp": [
+                13.200000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        },
+        {
+            "text": "changes.",
+            "timestamp": [
+                13.68,
+                14.08
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                14.4,
+                14.56
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.72,
+                14.8
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                14.8,
+                14.96
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                14.96,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "most",
+            "timestamp": [
+                15.120000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                15.36,
+                15.6
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                15.6,
+                15.76
+            ]
+        },
+        {
+            "text": "schools",
+            "timestamp": [
+                15.76,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                16.080000000000002,
+                16.16
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                16.16,
+                16.32
+            ]
+        },
+        {
+            "text": "back",
+            "timestamp": [
+                16.32,
+                16.4
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                16.4,
+                16.56
+            ]
+        },
+        {
+            "text": "normal?",
+            "timestamp": [
+                16.56,
+                16.8
+            ]
+        },
+        {
+            "text": "Em",
+            "timestamp": [
+                17.04,
+                17.2
+            ]
+        },
+        {
+            "text": "and.",
+            "timestamp": [
+                17.44,
+                17.52
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                20.48,
+                20.72
+            ]
+        },
+        {
+            "text": "exactly.",
+            "timestamp": [
+                20.88,
+                21.28
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                21.52,
+                21.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.76,
+                21.92
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                21.92,
+                22.080000000000002
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                22.080000000000002,
+                22.16
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                22.16,
+                22.32
+            ]
+        },
+        {
+            "text": "about.",
+            "timestamp": [
+                22.32,
+                22.56
+            ]
+        },
+        {
+            "text": "Hope",
+            "timestamp": [
+                22.72,
+                22.96
+            ]
+        },
+        {
+            "text": "things",
+            "timestamp": [
+                22.96,
+                23.28
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                23.28,
+                23.52
+            ]
+        },
+        {
+            "text": "better.",
+            "timestamp": [
+                23.52,
+                23.68
+            ]
+        }
+    ]
+}

@@ -1,0 +1,215 @@
+{
+    "text": "That's cool. Online classes can give you more flexibility. Hope you're enjoying the change. Oh, summer online too? That's a big shift. Maybe you will get to enjoy some downtime.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                6.48,
+                6.96
+            ]
+        },
+        {
+            "text": "cool.",
+            "timestamp": [
+                6.96,
+                7.2
+            ]
+        },
+        {
+            "text": "Online",
+            "timestamp": [
+                7.44,
+                8.0
+            ]
+        },
+        {
+            "text": "classes",
+            "timestamp": [
+                8.0,
+                8.4
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.4,
+                8.48
+            ]
+        },
+        {
+            "text": "give",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                8.72,
+                8.88
+            ]
+        },
+        {
+            "text": "flexibility.",
+            "timestamp": [
+                8.88,
+                9.52
+            ]
+        },
+        {
+            "text": "Hope",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "enjoying",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.4,
+                10.48
+            ]
+        },
+        {
+            "text": "change.",
+            "timestamp": [
+                10.48,
+                10.88
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "summer",
+            "timestamp": [
+                11.44,
+                11.84
+            ]
+        },
+        {
+            "text": "online",
+            "timestamp": [
+                11.84,
+                12.24
+            ]
+        },
+        {
+            "text": "too?",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                13.040000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.68,
+                14.0
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                14.0,
+                14.24
+            ]
+        },
+        {
+            "text": "shift.",
+            "timestamp": [
+                14.24,
+                14.64
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                14.96,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.280000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "will",
+            "timestamp": [
+                15.44,
+                15.52
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                15.52,
+                15.68
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.68,
+                15.76
+            ]
+        },
+        {
+            "text": "enjoy",
+            "timestamp": [
+                15.76,
+                16.0
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                16.0,
+                16.16
+            ]
+        },
+        {
+            "text": "downtime.",
+            "timestamp": [
+                16.16,
+                16.4
+            ]
+        }
+    ]
+}

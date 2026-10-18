@@ -1,0 +1,124 @@
+{
+    "text": "That sounds amazing. Spain has so much to offer. Great choice. Barcelona is full of historic charm.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                3.52,
+                3.84
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                3.84,
+                4.32
+            ]
+        },
+        {
+            "text": "amazing.",
+            "timestamp": [
+                4.32,
+                4.88
+            ]
+        },
+        {
+            "text": "Spain",
+            "timestamp": [
+                5.12,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "much",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "offer.",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                11.200000000000001,
+                11.68
+            ]
+        },
+        {
+            "text": "Barcelona",
+            "timestamp": [
+                11.92,
+                12.72
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "historic",
+            "timestamp": [
+                13.200000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "charm.",
+            "timestamp": [
+                13.68,
+                14.0
+            ]
+        }
+    ]
+}

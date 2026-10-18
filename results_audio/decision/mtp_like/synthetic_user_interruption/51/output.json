@@ -1,0 +1,292 @@
+{
+    "text": "Sure, cloud storage lets you save and access files online instead of on your local device. Services like Google Drive, Dropbox or OneDrive store your data on remote servers, so you can access it from any device with an Internet connection.",
+    "chunks": [
+        {
+            "text": "Sure,",
+            "timestamp": [
+                13.831999999999999,
+                14.392
+            ]
+        },
+        {
+            "text": "cloud",
+            "timestamp": [
+                14.712,
+                15.112
+            ]
+        },
+        {
+            "text": "storage",
+            "timestamp": [
+                15.112,
+                15.512
+            ]
+        },
+        {
+            "text": "lets",
+            "timestamp": [
+                15.512,
+                15.751999999999999
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.751999999999999,
+                15.911999999999999
+            ]
+        },
+        {
+            "text": "save",
+            "timestamp": [
+                15.911999999999999,
+                16.232
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                16.232,
+                16.392
+            ]
+        },
+        {
+            "text": "access",
+            "timestamp": [
+                16.392,
+                16.712
+            ]
+        },
+        {
+            "text": "files",
+            "timestamp": [
+                16.712,
+                17.112000000000002
+            ]
+        },
+        {
+            "text": "online",
+            "timestamp": [
+                17.112000000000002,
+                17.592
+            ]
+        },
+        {
+            "text": "instead",
+            "timestamp": [
+                17.592,
+                17.832
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                17.832,
+                17.992
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                17.992,
+                18.152
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                18.152,
+                18.311999999999998
+            ]
+        },
+        {
+            "text": "local",
+            "timestamp": [
+                18.311999999999998,
+                18.552
+            ]
+        },
+        {
+            "text": "device.",
+            "timestamp": [
+                18.552,
+                18.951999999999998
+            ]
+        },
+        {
+            "text": "Services",
+            "timestamp": [
+                19.192,
+                19.592
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                19.592,
+                19.752
+            ]
+        },
+        {
+            "text": "Google",
+            "timestamp": [
+                19.752,
+                20.152
+            ]
+        },
+        {
+            "text": "Drive,",
+            "timestamp": [
+                20.152,
+                20.552
+            ]
+        },
+        {
+            "text": "Dropbox",
+            "timestamp": [
+                20.712,
+                21.512
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                21.672,
+                21.912
+            ]
+        },
+        {
+            "text": "OneDrive",
+            "timestamp": [
+                21.912,
+                22.552
+            ]
+        },
+        {
+            "text": "store",
+            "timestamp": [
+                22.552,
+                22.792
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                22.792,
+                22.872
+            ]
+        },
+        {
+            "text": "data",
+            "timestamp": [
+                22.872,
+                23.112000000000002
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                23.112000000000002,
+                23.352
+            ]
+        },
+        {
+            "text": "remote",
+            "timestamp": [
+                23.352,
+                23.672
+            ]
+        },
+        {
+            "text": "servers,",
+            "timestamp": [
+                23.672,
+                24.072
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                24.232,
+                24.392
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                24.392,
+                24.472
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                24.472,
+                24.631999999999998
+            ]
+        },
+        {
+            "text": "access",
+            "timestamp": [
+                24.631999999999998,
+                24.872
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                24.872,
+                25.032
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                25.032,
+                25.192
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                25.192,
+                25.352
+            ]
+        },
+        {
+            "text": "device",
+            "timestamp": [
+                25.352,
+                25.752000000000002
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                25.752000000000002,
+                25.912
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                25.912,
+                25.991999999999997
+            ]
+        },
+        {
+            "text": "Internet",
+            "timestamp": [
+                25.991999999999997,
+                26.392
+            ]
+        },
+        {
+            "text": "connection.",
+            "timestamp": [
+                26.392,
+                27.512
+            ]
+        }
+    ]
+}

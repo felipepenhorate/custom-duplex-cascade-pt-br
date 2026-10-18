@@ -1,0 +1,96 @@
+{
+    "text": "That's great. Good question. A strong salary is important, but culture and growth.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                2.88,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                3.7600000000000002,
+                4.08
+            ]
+        },
+        {
+            "text": "Good",
+            "timestamp": [
+                9.76,
+                10.24
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "strong",
+            "timestamp": [
+                10.96,
+                11.28
+            ]
+        },
+        {
+            "text": "salary",
+            "timestamp": [
+                11.28,
+                11.76
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "important,",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "culture",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "growth.",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        }
+    ]
+}

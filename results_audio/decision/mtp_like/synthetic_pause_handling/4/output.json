@@ -1,0 +1,61 @@
+{
+    "text": "That's really common. Sometimes meditation can feel overwhelming.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                7.36,
+                8.0
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "common.",
+            "timestamp": [
+                8.24,
+                8.64
+            ]
+        },
+        {
+            "text": "Sometimes",
+            "timestamp": [
+                8.88,
+                9.36
+            ]
+        },
+        {
+            "text": "meditation",
+            "timestamp": [
+                9.36,
+                10.0
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "overwhelming.",
+            "timestamp": [
+                10.32,
+                10.8
+            ]
+        }
+    ]
+}

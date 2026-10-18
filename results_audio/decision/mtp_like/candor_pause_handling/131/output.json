@@ -1,0 +1,96 @@
+{
+    "text": "Yeah. That's true. Some things just fade, like memories or promises. It's wild.",
+    "chunks": [
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                3.36,
+                3.6
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                9.28,
+                9.76
+            ]
+        },
+        {
+            "text": "true.",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "Some",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "things",
+            "timestamp": [
+                10.72,
+                10.96
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "fade,",
+            "timestamp": [
+                11.200000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "memories",
+            "timestamp": [
+                11.92,
+                12.4
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "promises.",
+            "timestamp": [
+                12.56,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                13.44,
+                13.84
+            ]
+        },
+        {
+            "text": "wild.",
+            "timestamp": [
+                13.84,
+                14.16
+            ]
+        }
+    ]
+}

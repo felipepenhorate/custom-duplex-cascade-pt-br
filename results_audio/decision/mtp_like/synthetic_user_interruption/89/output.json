@@ -1,0 +1,208 @@
+{
+    "text": "The pot. Once it's. No, we didn't decide. Just you and me talking. You were in charge of dinner time tomorrow. What time works best for you? Im and",
+    "chunks": [
+        {
+            "text": "The",
+            "timestamp": [
+                14.68,
+                14.76
+            ]
+        },
+        {
+            "text": "pot.",
+            "timestamp": [
+                14.76,
+                15.0
+            ]
+        },
+        {
+            "text": "Once",
+            "timestamp": [
+                15.16,
+                15.48
+            ]
+        },
+        {
+            "text": "it's.",
+            "timestamp": [
+                15.559999999999999,
+                15.719999999999999
+            ]
+        },
+        {
+            "text": "No,",
+            "timestamp": [
+                16.12,
+                16.28
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                16.439999999999998,
+                16.6
+            ]
+        },
+        {
+            "text": "didn't",
+            "timestamp": [
+                16.6,
+                16.759999999999998
+            ]
+        },
+        {
+            "text": "decide.",
+            "timestamp": [
+                17.08,
+                17.56
+            ]
+        },
+        {
+            "text": "Just",
+            "timestamp": [
+                17.8,
+                18.12
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                18.12,
+                18.28
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                18.28,
+                18.52
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                18.52,
+                18.759999999999998
+            ]
+        },
+        {
+            "text": "talking.",
+            "timestamp": [
+                18.759999999999998,
+                19.32
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                19.88,
+                20.119999999999997
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                20.119999999999997,
+                20.36
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                20.36,
+                20.439999999999998
+            ]
+        },
+        {
+            "text": "charge",
+            "timestamp": [
+                20.439999999999998,
+                20.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                20.68,
+                20.759999999999998
+            ]
+        },
+        {
+            "text": "dinner",
+            "timestamp": [
+                20.759999999999998,
+                21.08
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                21.08,
+                21.32
+            ]
+        },
+        {
+            "text": "tomorrow.",
+            "timestamp": [
+                21.32,
+                21.8
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                21.96,
+                22.2
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                22.2,
+                22.439999999999998
+            ]
+        },
+        {
+            "text": "works",
+            "timestamp": [
+                22.439999999999998,
+                22.759999999999998
+            ]
+        },
+        {
+            "text": "best",
+            "timestamp": [
+                22.759999999999998,
+                23.0
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                23.0,
+                23.08
+            ]
+        },
+        {
+            "text": "you?",
+            "timestamp": [
+                23.08,
+                23.240000000000002
+            ]
+        },
+        {
+            "text": "Im",
+            "timestamp": [
+                23.560000000000002,
+                23.88
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                24.2,
+                24.439999999999998
+            ]
+        }
+    ]
+}

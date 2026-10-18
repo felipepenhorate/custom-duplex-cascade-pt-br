@@ -1,0 +1,61 @@
+{
+    "text": "Got it. Monday, two o'clock. I am then.",
+    "chunks": [
+        {
+            "text": "Got",
+            "timestamp": [
+                1.92,
+                2.32
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                2.32,
+                2.48
+            ]
+        },
+        {
+            "text": "Monday,",
+            "timestamp": [
+                2.72,
+                3.2
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                3.36,
+                3.44
+            ]
+        },
+        {
+            "text": "o'clock.",
+            "timestamp": [
+                3.6,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.2,
+                5.44
+            ]
+        },
+        {
+            "text": "am",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "then.",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        }
+    ]
+}

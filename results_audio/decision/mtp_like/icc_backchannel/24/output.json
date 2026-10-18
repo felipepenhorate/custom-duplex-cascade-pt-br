@@ -1,0 +1,82 @@
+{
+    "text": "Good to hear. Charge got it. Early DTD, so make it",
+    "chunks": [
+        {
+            "text": "Good",
+            "timestamp": [
+                4.72,
+                5.04
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                5.04,
+                5.28
+            ]
+        },
+        {
+            "text": "hear.",
+            "timestamp": [
+                5.28,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "Charge",
+            "timestamp": [
+                5.84,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                16.48,
+                16.64
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                16.8,
+                16.96
+            ]
+        },
+        {
+            "text": "Early",
+            "timestamp": [
+                17.2,
+                17.6
+            ]
+        },
+        {
+            "text": "DTD,",
+            "timestamp": [
+                17.6,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                18.16,
+                18.32
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                18.32,
+                18.64
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                20.88,
+                21.2
+            ]
+        }
+    ]
+}

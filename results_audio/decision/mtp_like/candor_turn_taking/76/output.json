@@ -1,0 +1,201 @@
+{
+    "text": "You're welcome. German? I don't have an original place like humans do. I'm a language model developed by Alibaba Cloud. I exist in the digital world, not tied.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                3.44,
+                3.92
+            ]
+        },
+        {
+            "text": "welcome.",
+            "timestamp": [
+                3.92,
+                4.88
+            ]
+        },
+        {
+            "text": "German?",
+            "timestamp": [
+                5.84,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                7.2,
+                7.44
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                7.44,
+                7.68
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "original",
+            "timestamp": [
+                7.84,
+                8.32
+            ]
+        },
+        {
+            "text": "place",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "humans",
+            "timestamp": [
+                8.72,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "do.",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "language",
+            "timestamp": [
+                9.84,
+                10.24
+            ]
+        },
+        {
+            "text": "model",
+            "timestamp": [
+                10.24,
+                10.64
+            ]
+        },
+        {
+            "text": "developed",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "Alibaba",
+            "timestamp": [
+                11.120000000000001,
+                11.92
+            ]
+        },
+        {
+            "text": "Cloud.",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "exist",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "digital",
+            "timestamp": [
+                13.040000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "world,",
+            "timestamp": [
+                13.44,
+                13.68
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                13.84,
+                13.92
+            ]
+        },
+        {
+            "text": "tied.",
+            "timestamp": [
+                13.92,
+                14.16
+            ]
+        }
+    ]
+}

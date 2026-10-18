@@ -1,0 +1,103 @@
+{
+    "text": "That's wonderful. Adopting a dog. Great. Apartment-friendly dogs are a great choice. Breeds like",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.2800000000000002,
+                3.84
+            ]
+        },
+        {
+            "text": "wonderful.",
+            "timestamp": [
+                3.84,
+                4.48
+            ]
+        },
+        {
+            "text": "Adopting",
+            "timestamp": [
+                4.8,
+                5.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.28,
+                5.36
+            ]
+        },
+        {
+            "text": "dog.",
+            "timestamp": [
+                5.36,
+                5.68
+            ]
+        },
+        {
+            "text": "Great.",
+            "timestamp": [
+                8.88,
+                9.36
+            ]
+        },
+        {
+            "text": "Apartment-friendly",
+            "timestamp": [
+                9.6,
+                10.48
+            ]
+        },
+        {
+            "text": "dogs",
+            "timestamp": [
+                10.48,
+                10.8
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "Breeds",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        }
+    ]
+}

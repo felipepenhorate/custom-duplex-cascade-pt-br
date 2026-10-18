@@ -1,0 +1,306 @@
+{
+    "text": "What would you like to talk about? I love comedy. It's all about timing, relatability, and making people laugh while often highlighting the absurdity of life. Great comedy can make you feel seen, relaxed, and even inspired, whether it's a sharp one or.",
+    "chunks": [
+        {
+            "text": "What",
+            "timestamp": [
+                13.624,
+                13.864
+            ]
+        },
+        {
+            "text": "would",
+            "timestamp": [
+                13.864,
+                14.024000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.024000000000001,
+                14.104
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                14.104,
+                14.264
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.264,
+                14.424
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                14.424,
+                14.664
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                14.664,
+                14.824
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                15.864,
+                16.024
+            ]
+        },
+        {
+            "text": "love",
+            "timestamp": [
+                16.024,
+                16.264
+            ]
+        },
+        {
+            "text": "comedy.",
+            "timestamp": [
+                16.264,
+                16.824
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                17.144,
+                17.384
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                17.384,
+                17.704
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                17.704,
+                17.944
+            ]
+        },
+        {
+            "text": "timing,",
+            "timestamp": [
+                17.944,
+                18.344
+            ]
+        },
+        {
+            "text": "relatability,",
+            "timestamp": [
+                18.584,
+                19.224
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                19.384,
+                19.544
+            ]
+        },
+        {
+            "text": "making",
+            "timestamp": [
+                19.544,
+                19.784
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                19.784,
+                20.024
+            ]
+        },
+        {
+            "text": "laugh",
+            "timestamp": [
+                20.024,
+                20.424
+            ]
+        },
+        {
+            "text": "while",
+            "timestamp": [
+                20.504,
+                20.823999999999998
+            ]
+        },
+        {
+            "text": "often",
+            "timestamp": [
+                20.823999999999998,
+                21.064
+            ]
+        },
+        {
+            "text": "highlighting",
+            "timestamp": [
+                21.064,
+                21.544
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                21.544,
+                21.704
+            ]
+        },
+        {
+            "text": "absurdity",
+            "timestamp": [
+                21.704,
+                22.264000000000003
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                22.264000000000003,
+                22.424
+            ]
+        },
+        {
+            "text": "life.",
+            "timestamp": [
+                22.424,
+                22.664
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                22.904,
+                23.224
+            ]
+        },
+        {
+            "text": "comedy",
+            "timestamp": [
+                23.224,
+                23.704
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                23.704,
+                23.864
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                23.864,
+                24.024
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                24.024,
+                24.104
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                24.104,
+                24.344
+            ]
+        },
+        {
+            "text": "seen,",
+            "timestamp": [
+                24.344,
+                24.744
+            ]
+        },
+        {
+            "text": "relaxed,",
+            "timestamp": [
+                24.823999999999998,
+                25.304000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                25.384,
+                25.544
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                25.544,
+                25.704
+            ]
+        },
+        {
+            "text": "inspired,",
+            "timestamp": [
+                25.704,
+                26.264000000000003
+            ]
+        },
+        {
+            "text": "whether",
+            "timestamp": [
+                26.503999999999998,
+                26.823999999999998
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                26.823999999999998,
+                26.984
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.984,
+                27.064
+            ]
+        },
+        {
+            "text": "sharp",
+            "timestamp": [
+                27.064,
+                27.384
+            ]
+        },
+        {
+            "text": "one",
+            "timestamp": [
+                27.384,
+                27.464
+            ]
+        },
+        {
+            "text": "or.",
+            "timestamp": [
+                27.624000000000002,
+                27.704
+            ]
+        }
+    ]
+}

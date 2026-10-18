@@ -1,0 +1,117 @@
+{
+    "text": "Em not sure I follow. You mean civil rights tests or something else? Oh, I see.",
+    "chunks": [
+        {
+            "text": "Em",
+            "timestamp": [
+                8.08,
+                8.4
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                8.88,
+                8.96
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "follow.",
+            "timestamp": [
+                9.52,
+                10.0
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "civil",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "rights",
+            "timestamp": [
+                10.96,
+                11.28
+            ]
+        },
+        {
+            "text": "tests",
+            "timestamp": [
+                11.28,
+                11.76
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "else?",
+            "timestamp": [
+                12.56,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                28.240000000000002,
+                28.48
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                28.560000000000002,
+                28.72
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                28.72,
+                28.96
+            ]
+        }
+    ]
+}

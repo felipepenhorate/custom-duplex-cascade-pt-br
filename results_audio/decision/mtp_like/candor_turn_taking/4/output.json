@@ -1,0 +1,236 @@
+{
+    "text": "Oh, so she's born on the 20th and your oldest child on the 27th? That's a nice spread. That's a nice spread. That's a fun twist. Two birthdays and Christmas in one week.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                6.0,
+                6.32
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "she's",
+            "timestamp": [
+                6.640000000000001,
+                6.88
+            ]
+        },
+        {
+            "text": "born",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                7.28,
+                7.36
+            ]
+        },
+        {
+            "text": "20th",
+            "timestamp": [
+                7.36,
+                7.92
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                8.0,
+                8.16
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "oldest",
+            "timestamp": [
+                8.32,
+                8.72
+            ]
+        },
+        {
+            "text": "child",
+            "timestamp": [
+                8.72,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                9.040000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "27th?",
+            "timestamp": [
+                9.36,
+                10.08
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "nice",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "spread.",
+            "timestamp": [
+                11.040000000000001,
+                11.68
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                12.32,
+                12.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.8,
+                12.88
+            ]
+        },
+        {
+            "text": "nice",
+            "timestamp": [
+                12.88,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "spread.",
+            "timestamp": [
+                13.200000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                14.0,
+                14.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        },
+        {
+            "text": "fun",
+            "timestamp": [
+                14.4,
+                14.64
+            ]
+        },
+        {
+            "text": "twist.",
+            "timestamp": [
+                14.64,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "Two",
+            "timestamp": [
+                15.280000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "birthdays",
+            "timestamp": [
+                15.44,
+                15.92
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                15.92,
+                16.0
+            ]
+        },
+        {
+            "text": "Christmas",
+            "timestamp": [
+                16.0,
+                16.4
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                16.4,
+                16.56
+            ]
+        },
+        {
+            "text": "one",
+            "timestamp": [
+                16.56,
+                16.72
+            ]
+        },
+        {
+            "text": "week.",
+            "timestamp": [
+                16.72,
+                16.96
+            ]
+        }
+    ]
+}

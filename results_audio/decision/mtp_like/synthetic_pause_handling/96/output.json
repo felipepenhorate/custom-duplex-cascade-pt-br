@@ -1,0 +1,152 @@
+{
+    "text": "That sounds like a fun project. What's your style goal? Cozy great ideas. Changing curtains and painting walls can totally transform.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                3.04,
+                3.36
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                3.36,
+                3.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                3.84,
+                4.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.0,
+                4.24
+            ]
+        },
+        {
+            "text": "fun",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "project.",
+            "timestamp": [
+                4.48,
+                4.88
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "style",
+            "timestamp": [
+                5.6000000000000005,
+                6.0
+            ]
+        },
+        {
+            "text": "goal?",
+            "timestamp": [
+                6.0,
+                6.24
+            ]
+        },
+        {
+            "text": "Cozy",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "ideas.",
+            "timestamp": [
+                8.0,
+                8.48
+            ]
+        },
+        {
+            "text": "Changing",
+            "timestamp": [
+                8.8,
+                9.28
+            ]
+        },
+        {
+            "text": "curtains",
+            "timestamp": [
+                9.28,
+                9.68
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "painting",
+            "timestamp": [
+                9.84,
+                10.16
+            ]
+        },
+        {
+            "text": "walls",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "transform.",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        }
+    ]
+}

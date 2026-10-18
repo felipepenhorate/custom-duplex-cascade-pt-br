@@ -1,0 +1,82 @@
+{
+    "text": "That sound Oh, I see Hulk as a baby? That's wild.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "sound",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                17.44,
+                17.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                17.76,
+                17.92
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                17.92,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "Hulk",
+            "timestamp": [
+                26.0,
+                26.48
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                26.560000000000002,
+                26.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.72,
+                26.88
+            ]
+        },
+        {
+            "text": "baby?",
+            "timestamp": [
+                26.88,
+                27.28
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                27.6,
+                27.92
+            ]
+        },
+        {
+            "text": "wild.",
+            "timestamp": [
+                27.92,
+                28.48
+            ]
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "text": "Hmm. Sounds like you're in a phase of",
+    "chunks": [
+        {
+            "text": "Hmm.",
+            "timestamp": [
+                8.4,
+                8.96
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                9.200000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "phase",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "text": "Nice. Chicago's a great city, full of energy and opportunities. What did you do there?",
+    "chunks": [
+        {
+            "text": "Nice.",
+            "timestamp": [
+                6.88,
+                7.44
+            ]
+        },
+        {
+            "text": "Chicago's",
+            "timestamp": [
+                7.6000000000000005,
+                8.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "city,",
+            "timestamp": [
+                8.64,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "energy",
+            "timestamp": [
+                9.68,
+                10.08
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "opportunities.",
+            "timestamp": [
+                10.24,
+                10.96
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "did",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "there?",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        }
+    ]
+}

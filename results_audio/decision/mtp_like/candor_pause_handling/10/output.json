@@ -1,0 +1,54 @@
+{
+    "text": "Oh, she froze mid act she said.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                5.28,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "she",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "froze",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "mid",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "act",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "she",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "said.",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        }
+    ]
+}

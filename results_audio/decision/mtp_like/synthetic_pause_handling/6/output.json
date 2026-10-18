@@ -1,0 +1,110 @@
+{
+    "text": "That's awesome. What interests you most? Painting? Great choice. Photography is so rewarding. Start simple.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.04,
+                3.52
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                3.52,
+                4.08
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                4.32,
+                4.64
+            ]
+        },
+        {
+            "text": "interests",
+            "timestamp": [
+                4.64,
+                5.12
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.12,
+                5.36
+            ]
+        },
+        {
+            "text": "most?",
+            "timestamp": [
+                5.36,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "Painting?",
+            "timestamp": [
+                5.84,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                9.120000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                9.52,
+                9.92
+            ]
+        },
+        {
+            "text": "Photography",
+            "timestamp": [
+                10.16,
+                10.88
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "rewarding.",
+            "timestamp": [
+                11.200000000000001,
+                11.76
+            ]
+        },
+        {
+            "text": "Start",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        },
+        {
+            "text": "simple.",
+            "timestamp": [
+                12.16,
+                12.48
+            ]
+        }
+    ]
+}

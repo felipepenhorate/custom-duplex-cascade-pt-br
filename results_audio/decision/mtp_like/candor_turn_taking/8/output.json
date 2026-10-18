@@ -1,0 +1,236 @@
+{
+    "text": "Yeah, I think so too. Item end? That's a bit off. Maybe you meant 2 though, 2 or 2 2 or 2 p.m. Let me know if you'd like help figuring it out.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                2.16,
+                2.48
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                2.72,
+                2.96
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                2.96,
+                3.2
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                3.2,
+                3.36
+            ]
+        },
+        {
+            "text": "too.",
+            "timestamp": [
+                3.52,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "Item",
+            "timestamp": [
+                4.32,
+                4.8
+            ]
+        },
+        {
+            "text": "end?",
+            "timestamp": [
+                4.96,
+                5.12
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "off.",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                8.64,
+                8.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "2",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "though,",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "2",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "2",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "2",
+            "timestamp": [
+                10.8,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "2",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "p.m.",
+            "timestamp": [
+                11.68,
+                12.0
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                12.88,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                13.36,
+                13.44
+            ]
+        },
+        {
+            "text": "you'd",
+            "timestamp": [
+                13.44,
+                13.68
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                13.84,
+                14.08
+            ]
+        },
+        {
+            "text": "figuring",
+            "timestamp": [
+                14.08,
+                14.32
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                14.32,
+                14.48
+            ]
+        },
+        {
+            "text": "out.",
+            "timestamp": [
+                14.48,
+                14.56
+            ]
+        }
+    ]
+}

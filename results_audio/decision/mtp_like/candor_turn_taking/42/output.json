@@ -1,0 +1,180 @@
+{
+    "text": "Yeah, it is simple, solid, like a truth we've always known. Absolutely. It is, reflects a society's quiet acceptance, a kind of shared reality, unchallenged.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                4.16,
+                4.48
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                4.72,
+                4.96
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                4.96,
+                5.2
+            ]
+        },
+        {
+            "text": "simple,",
+            "timestamp": [
+                5.44,
+                5.84
+            ]
+        },
+        {
+            "text": "solid,",
+            "timestamp": [
+                6.0,
+                6.4
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                6.5600000000000005,
+                6.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.72,
+                6.8
+            ]
+        },
+        {
+            "text": "truth",
+            "timestamp": [
+                6.8,
+                7.12
+            ]
+        },
+        {
+            "text": "we've",
+            "timestamp": [
+                7.2,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "always",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "known.",
+            "timestamp": [
+                7.92,
+                8.56
+            ]
+        },
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                10.0,
+                10.8
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "is,",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "reflects",
+            "timestamp": [
+                12.0,
+                12.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "society's",
+            "timestamp": [
+                12.64,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "quiet",
+            "timestamp": [
+                13.280000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "acceptance,",
+            "timestamp": [
+                13.68,
+                14.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.48,
+                14.64
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                14.64,
+                14.88
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                14.88,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "shared",
+            "timestamp": [
+                15.040000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "reality,",
+            "timestamp": [
+                15.44,
+                15.84
+            ]
+        },
+        {
+            "text": "unchallenged.",
+            "timestamp": [
+                16.080000000000002,
+                16.72
+            ]
+        }
+    ]
+}

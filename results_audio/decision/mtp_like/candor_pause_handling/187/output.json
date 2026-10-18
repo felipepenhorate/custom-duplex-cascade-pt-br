@@ -1,0 +1,75 @@
+{
+    "text": "Hmm, that's interesting. Maybe it's about trust or personal connection.",
+    "chunks": [
+        {
+            "text": "Hmm,",
+            "timestamp": [
+                8.16,
+                8.8
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "interesting.",
+            "timestamp": [
+                9.28,
+                9.68
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "trust",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "personal",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "connection.",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        }
+    ]
+}

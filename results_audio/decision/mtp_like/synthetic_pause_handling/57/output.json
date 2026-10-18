@@ -1,0 +1,208 @@
+{
+    "text": "That's great. A longtime user means you know what to look. You're welcome. That sounds like you're thinking of the latest version of a specific laptop. Maybe the MacBook.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.12,
+                3.68
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                3.68,
+                3.92
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                4.24,
+                4.4
+            ]
+        },
+        {
+            "text": "longtime",
+            "timestamp": [
+                4.4,
+                4.88
+            ]
+        },
+        {
+            "text": "user",
+            "timestamp": [
+                4.88,
+                5.2
+            ]
+        },
+        {
+            "text": "means",
+            "timestamp": [
+                5.2,
+                5.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.44,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                5.5200000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                5.68,
+                5.76
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "look.",
+            "timestamp": [
+                5.92,
+                6.0
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                8.56,
+                8.88
+            ]
+        },
+        {
+            "text": "welcome.",
+            "timestamp": [
+                8.88,
+                9.36
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "thinking",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "latest",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "version",
+            "timestamp": [
+                11.68,
+                12.0
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                12.0,
+                12.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "specific",
+            "timestamp": [
+                12.24,
+                12.64
+            ]
+        },
+        {
+            "text": "laptop.",
+            "timestamp": [
+                12.64,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                13.52,
+                13.84
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                13.84,
+                13.92
+            ]
+        },
+        {
+            "text": "MacBook.",
+            "timestamp": [
+                13.92,
+                14.48
+            ]
+        }
+    ]
+}

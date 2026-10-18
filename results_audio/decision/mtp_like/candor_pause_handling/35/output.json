@@ -1,0 +1,89 @@
+{
+    "text": "That's really meaningful. When people reach out late, it often reflects deeper.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                9.92,
+                10.8
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                10.8,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "meaningful.",
+            "timestamp": [
+                11.120000000000001,
+                11.68
+            ]
+        },
+        {
+            "text": "When",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "reach",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "late,",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                13.36,
+                13.44
+            ]
+        },
+        {
+            "text": "often",
+            "timestamp": [
+                13.44,
+                13.68
+            ]
+        },
+        {
+            "text": "reflects",
+            "timestamp": [
+                13.68,
+                14.0
+            ]
+        },
+        {
+            "text": "deeper.",
+            "timestamp": [
+                14.0,
+                14.16
+            ]
+        }
+    ]
+}

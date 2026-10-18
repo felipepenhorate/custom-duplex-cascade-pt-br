@@ -1,0 +1,110 @@
+{
+    "text": "Yeah, bad migraines can be really tough. If you have one, try finding a quiet.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                7.84,
+                8.16
+            ]
+        },
+        {
+            "text": "bad",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "migraines",
+            "timestamp": [
+                8.56,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "tough.",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "one,",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "try",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "finding",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "quiet.",
+            "timestamp": [
+                11.92,
+                12.32
+            ]
+        }
+    ]
+}

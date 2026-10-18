@@ -1,0 +1,75 @@
+{
+    "text": "Belong? That might be a mix-up. There's no well-known destination.",
+    "chunks": [
+        {
+            "text": "Belong?",
+            "timestamp": [
+                8.48,
+                9.28
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "mix-up.",
+            "timestamp": [
+                10.08,
+                10.72
+            ]
+        },
+        {
+            "text": "There's",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "well-known",
+            "timestamp": [
+                11.28,
+                11.68
+            ]
+        },
+        {
+            "text": "destination.",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        }
+    ]
+}

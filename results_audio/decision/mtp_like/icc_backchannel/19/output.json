@@ -1,0 +1,166 @@
+{
+    "text": "Hmm, interesting. So he was FaceTiming her, and she was oh, that's a classic. She was just totally caught off guard. Like, what?",
+    "chunks": [
+        {
+            "text": "Hmm,",
+            "timestamp": [
+                9.92,
+                10.56
+            ]
+        },
+        {
+            "text": "interesting.",
+            "timestamp": [
+                10.72,
+                11.28
+            ]
+        },
+        {
+            "text": "So",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "FaceTiming",
+            "timestamp": [
+                12.08,
+                12.72
+            ]
+        },
+        {
+            "text": "her,",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "she",
+            "timestamp": [
+                13.040000000000001,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                13.120000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "oh,",
+            "timestamp": [
+                27.12,
+                27.36
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                27.52,
+                27.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                27.84,
+                28.0
+            ]
+        },
+        {
+            "text": "classic.",
+            "timestamp": [
+                28.0,
+                28.48
+            ]
+        },
+        {
+            "text": "She",
+            "timestamp": [
+                28.72,
+                28.88
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                28.88,
+                29.04
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                29.04,
+                29.2
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                29.2,
+                29.52
+            ]
+        },
+        {
+            "text": "caught",
+            "timestamp": [
+                29.52,
+                29.76
+            ]
+        },
+        {
+            "text": "off",
+            "timestamp": [
+                29.76,
+                30.0
+            ]
+        },
+        {
+            "text": "guard.",
+            "timestamp": [
+                30.0,
+                30.240000000000002
+            ]
+        },
+        {
+            "text": "Like,",
+            "timestamp": [
+                30.560000000000002,
+                30.8
+            ]
+        },
+        {
+            "text": "what?",
+            "timestamp": [
+                31.12,
+                31.44
+            ]
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "text": "You're not alone. Everyone's navigating this for the first time. It's okay to feel unsure. Thanks for sharing. Absolutely.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                6.8,
+                7.28
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                7.28,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "alone.",
+            "timestamp": [
+                7.5200000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "Everyone's",
+            "timestamp": [
+                8.16,
+                8.72
+            ]
+        },
+        {
+            "text": "navigating",
+            "timestamp": [
+                8.72,
+                9.28
+            ]
+        },
+        {
+            "text": "this",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "first",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "okay",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "unsure.",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "Thanks",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "sharing.",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                15.84,
+                16.4
+            ]
+        }
+    ]
+}

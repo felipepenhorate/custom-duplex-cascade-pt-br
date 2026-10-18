@@ -1,0 +1,124 @@
+{
+    "text": "Not yet, but I'm listening. Hmm, that's a good point. Sometimes the reveal feels rushed or under.",
+    "chunks": [
+        {
+            "text": "Not",
+            "timestamp": [
+                3.7600000000000002,
+                4.16
+            ]
+        },
+        {
+            "text": "yet,",
+            "timestamp": [
+                4.16,
+                4.48
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "listening.",
+            "timestamp": [
+                5.04,
+                6.08
+            ]
+        },
+        {
+            "text": "Hmm,",
+            "timestamp": [
+                8.64,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                9.36,
+                9.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "point.",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "Sometimes",
+            "timestamp": [
+                10.48,
+                10.96
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "reveal",
+            "timestamp": [
+                11.040000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "feels",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "rushed",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.0,
+                12.08
+            ]
+        },
+        {
+            "text": "under.",
+            "timestamp": [
+                12.08,
+                12.16
+            ]
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "text": "I don't have physical items, but I can help you with anything you need. What are you looking for?",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.4,
+                2.72
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                2.72,
+                3.2
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                3.2,
+                3.44
+            ]
+        },
+        {
+            "text": "physical",
+            "timestamp": [
+                3.44,
+                4.0
+            ]
+        },
+        {
+            "text": "items,",
+            "timestamp": [
+                4.0,
+                4.48
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.04,
+                5.12
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                5.12,
+                5.36
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.5200000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "anything",
+            "timestamp": [
+                5.84,
+                6.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.32,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "need.",
+            "timestamp": [
+                6.5600000000000005,
+                6.72
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                7.04,
+                7.28
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "looking",
+            "timestamp": [
+                7.6000000000000005,
+                8.08
+            ]
+        },
+        {
+            "text": "for?",
+            "timestamp": [
+                8.08,
+                8.4
+            ]
+        }
+    ]
+}

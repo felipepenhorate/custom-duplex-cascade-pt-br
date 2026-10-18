@@ -1,0 +1,180 @@
+{
+    "text": "Yeah, a little background can make a big difference, especially when you're dealing with something hands-on. I've been there, so I get it. Him and",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                5.76,
+                6.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                6.48,
+                6.72
+            ]
+        },
+        {
+            "text": "background",
+            "timestamp": [
+                6.72,
+                7.28
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                7.44,
+                7.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.68,
+                7.76
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        },
+        {
+            "text": "difference,",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        },
+        {
+            "text": "especially",
+            "timestamp": [
+                8.64,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                9.040000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.200000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "dealing",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "hands-on.",
+            "timestamp": [
+                10.08,
+                10.64
+            ]
+        },
+        {
+            "text": "I've",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "there,",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                12.0,
+                12.08
+            ]
+        },
+        {
+            "text": "Him",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        }
+    ]
+}

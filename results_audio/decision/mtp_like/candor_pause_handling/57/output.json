@@ -1,0 +1,138 @@
+{
+    "text": "I hope so too. How can I help? Assimon. Hi, Ellie. I'm Quen. Happy to meet you. How's your",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.56,
+                2.88
+            ]
+        },
+        {
+            "text": "hope",
+            "timestamp": [
+                2.88,
+                3.36
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                3.36,
+                3.44
+            ]
+        },
+        {
+            "text": "too.",
+            "timestamp": [
+                3.6,
+                3.84
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                4.16,
+                4.4
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                4.4,
+                4.48
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "help?",
+            "timestamp": [
+                4.64,
+                4.88
+            ]
+        },
+        {
+            "text": "Assimon.",
+            "timestamp": [
+                5.12,
+                6.16
+            ]
+        },
+        {
+            "text": "Hi,",
+            "timestamp": [
+                7.44,
+                7.76
+            ]
+        },
+        {
+            "text": "Ellie.",
+            "timestamp": [
+                7.84,
+                8.32
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "Quen.",
+            "timestamp": [
+                8.72,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "Happy",
+            "timestamp": [
+                9.52,
+                9.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "meet",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "How's",
+            "timestamp": [
+                10.56,
+                10.88
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        }
+    ]
+}

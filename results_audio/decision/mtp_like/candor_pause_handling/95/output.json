@@ -1,0 +1,96 @@
+{
+    "text": "Got it. Just click and enable the Always Block Camera and Microphone option.",
+    "chunks": [
+        {
+            "text": "Got",
+            "timestamp": [
+                6.640000000000001,
+                7.2
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "Just",
+            "timestamp": [
+                7.5200000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "click",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                8.0,
+                8.16
+            ]
+        },
+        {
+            "text": "enable",
+            "timestamp": [
+                8.16,
+                8.48
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "Always",
+            "timestamp": [
+                8.64,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "Block",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "Camera",
+            "timestamp": [
+                9.36,
+                9.76
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "Microphone",
+            "timestamp": [
+                9.92,
+                10.56
+            ]
+        },
+        {
+            "text": "option.",
+            "timestamp": [
+                10.56,
+                11.44
+            ]
+        }
+    ]
+}

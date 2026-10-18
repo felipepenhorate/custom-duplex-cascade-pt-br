@@ -1,0 +1,222 @@
+{
+    "text": "That's totally okay. Summer's got its charm, long days, sunshine, and all that fun. Winter might not be your favorite, but it's a great reminder that we all have different preferences.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                4.96,
+                5.44
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                5.44,
+                6.08
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                6.08,
+                6.32
+            ]
+        },
+        {
+            "text": "Summer's",
+            "timestamp": [
+                6.5600000000000005,
+                7.12
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "its",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "charm,",
+            "timestamp": [
+                7.44,
+                7.76
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "days,",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "sunshine,",
+            "timestamp": [
+                8.72,
+                9.28
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "fun.",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "Winter",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "favorite,",
+            "timestamp": [
+                11.44,
+                12.0
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "reminder",
+            "timestamp": [
+                12.96,
+                13.44
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                13.44,
+                13.6
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                13.6,
+                13.76
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                13.76,
+                14.0
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                14.0,
+                14.16
+            ]
+        },
+        {
+            "text": "different",
+            "timestamp": [
+                14.16,
+                14.32
+            ]
+        },
+        {
+            "text": "preferences.",
+            "timestamp": [
+                14.32,
+                14.8
+            ]
+        }
+    ]
+}

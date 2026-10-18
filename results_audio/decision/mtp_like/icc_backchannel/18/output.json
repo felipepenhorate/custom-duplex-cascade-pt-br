@@ -1,0 +1,173 @@
+{
+    "text": "Oh, I get you. You're saying it's not about how many people are there, but yeah, I get it. It's not just about numbers.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                23.84,
+                24.080000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                24.16,
+                24.400000000000002
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                24.400000000000002,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                24.560000000000002,
+                24.72
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                25.04,
+                25.36
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                25.36,
+                25.6
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                25.6,
+                25.76
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                25.76,
+                25.92
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                25.92,
+                26.16
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                26.16,
+                26.32
+            ]
+        },
+        {
+            "text": "many",
+            "timestamp": [
+                26.32,
+                26.48
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                26.48,
+                26.72
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                26.72,
+                26.88
+            ]
+        },
+        {
+            "text": "there,",
+            "timestamp": [
+                26.88,
+                27.04
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                27.12,
+                27.36
+            ]
+        },
+        {
+            "text": "yeah,",
+            "timestamp": [
+                30.560000000000002,
+                30.8
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                31.04,
+                31.2
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                31.2,
+                31.36
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                31.36,
+                31.52
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                31.76,
+                32.0
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                32.0,
+                32.160000000000004
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                32.160000000000004,
+                32.4
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                32.4,
+                32.64
+            ]
+        },
+        {
+            "text": "numbers.",
+            "timestamp": [
+                32.64,
+                33.2
+            ]
+        }
+    ]
+}

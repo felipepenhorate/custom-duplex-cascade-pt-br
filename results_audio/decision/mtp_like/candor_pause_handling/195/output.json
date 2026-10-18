@@ -1,0 +1,61 @@
+{
+    "text": "Thanks. Hope does carry us through even in.",
+    "chunks": [
+        {
+            "text": "Thanks.",
+            "timestamp": [
+                2.16,
+                2.88
+            ]
+        },
+        {
+            "text": "Hope",
+            "timestamp": [
+                11.6,
+                12.0
+            ]
+        },
+        {
+            "text": "does",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        },
+        {
+            "text": "carry",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "us",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "through",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "in.",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        }
+    ]
+}

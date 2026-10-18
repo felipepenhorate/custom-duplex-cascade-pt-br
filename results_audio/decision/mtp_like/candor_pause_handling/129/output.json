@@ -1,0 +1,187 @@
+{
+    "text": "That's awesome to hear. It sounds like, oh, high school. That's such a big part of growing up. Sounds like you had some great memories there.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                4.96,
+                5.44
+            ]
+        },
+        {
+            "text": "awesome",
+            "timestamp": [
+                5.44,
+                5.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "hear.",
+            "timestamp": [
+                6.0,
+                6.32
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                6.640000000000001,
+                6.8
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                6.8,
+                7.04
+            ]
+        },
+        {
+            "text": "like,",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "oh,",
+            "timestamp": [
+                7.28,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "high",
+            "timestamp": [
+                7.68,
+                7.92
+            ]
+        },
+        {
+            "text": "school.",
+            "timestamp": [
+                7.92,
+                8.24
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                8.56,
+                8.96
+            ]
+        },
+        {
+            "text": "such",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "part",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "growing",
+            "timestamp": [
+                9.84,
+                10.16
+            ]
+        },
+        {
+            "text": "up.",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "had",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "memories",
+            "timestamp": [
+                11.68,
+                12.16
+            ]
+        },
+        {
+            "text": "there.",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "Absolutely. AI is one of the most transformative forces.",
+    "chunks": [
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                7.92,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "AI",
+            "timestamp": [
+                9.44,
+                9.84
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "one",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "most",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "transformative",
+            "timestamp": [
+                10.48,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "forces.",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        }
+    ]
+}

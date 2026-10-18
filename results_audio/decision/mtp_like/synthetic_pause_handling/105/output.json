@@ -1,0 +1,152 @@
+{
+    "text": "It depends on your priorities. Cooking at home is great for health. That sounds great. Pizza is a solid choice. Easy.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                2.88,
+                3.12
+            ]
+        },
+        {
+            "text": "depends",
+            "timestamp": [
+                3.12,
+                3.6
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                3.6,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                3.7600000000000002,
+                3.92
+            ]
+        },
+        {
+            "text": "priorities.",
+            "timestamp": [
+                3.92,
+                4.64
+            ]
+        },
+        {
+            "text": "Cooking",
+            "timestamp": [
+                4.96,
+                5.36
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "home",
+            "timestamp": [
+                5.5200000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                5.92,
+                6.16
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                6.16,
+                6.4
+            ]
+        },
+        {
+            "text": "health.",
+            "timestamp": [
+                6.4,
+                7.2
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                9.68,
+                10.32
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "Pizza",
+            "timestamp": [
+                10.88,
+                11.36
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.52,
+                11.6
+            ]
+        },
+        {
+            "text": "solid",
+            "timestamp": [
+                11.6,
+                11.92
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                11.92,
+                12.32
+            ]
+        },
+        {
+            "text": "Easy.",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        }
+    ]
+}

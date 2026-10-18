@@ -1,0 +1,117 @@
+{
+    "text": "I'm sorry to hear that. That sounds frustrating. Printer jams can happen for a few reasons.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                2.8000000000000003,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "sorry",
+            "timestamp": [
+                3.2800000000000002,
+                3.6
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                3.6,
+                3.84
+            ]
+        },
+        {
+            "text": "hear",
+            "timestamp": [
+                3.84,
+                4.4
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                4.4,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                7.36,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                7.6000000000000005,
+                8.0
+            ]
+        },
+        {
+            "text": "frustrating.",
+            "timestamp": [
+                8.0,
+                8.48
+            ]
+        },
+        {
+            "text": "Printer",
+            "timestamp": [
+                8.72,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "jams",
+            "timestamp": [
+                9.120000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "happen",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "few",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "reasons.",
+            "timestamp": [
+                10.56,
+                10.96
+            ]
+        }
+    ]
+}

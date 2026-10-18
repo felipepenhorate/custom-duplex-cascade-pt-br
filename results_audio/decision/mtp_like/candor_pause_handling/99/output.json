@@ -1,0 +1,215 @@
+{
+    "text": "I'm not sure what you mean by region. Could you clarify your question? Asim en. Im. You mean you can't quite put into words what you're feeling about your friend?",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                1.2,
+                1.6
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                1.6,
+                1.76
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                1.76,
+                2.0
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                2.0,
+                2.16
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                2.16,
+                2.4
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                2.4,
+                2.64
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                2.64,
+                2.96
+            ]
+        },
+        {
+            "text": "region.",
+            "timestamp": [
+                2.96,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                4.08,
+                4.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.32,
+                4.48
+            ]
+        },
+        {
+            "text": "clarify",
+            "timestamp": [
+                4.48,
+                5.12
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                5.12,
+                5.36
+            ]
+        },
+        {
+            "text": "question?",
+            "timestamp": [
+                5.36,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "Asim",
+            "timestamp": [
+                6.16,
+                6.8
+            ]
+        },
+        {
+            "text": "en.",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "Im.",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "quite",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "put",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "into",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "words",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "feeling",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "friend?",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        }
+    ]
+}

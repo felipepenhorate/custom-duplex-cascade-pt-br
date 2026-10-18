@@ -1,0 +1,159 @@
+{
+    "text": "I'm got it. Oh, I see. You're talking about your family, your husband, kids, mom, sisters, and how they're outside the U.S.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                3.12,
+                3.52
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                4.5600000000000005,
+                4.8
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                16.32,
+                16.64
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.96,
+                17.2
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                17.2,
+                17.44
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                17.68,
+                18.0
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                18.0,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                18.240000000000002,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                18.400000000000002,
+                18.56
+            ]
+        },
+        {
+            "text": "family,",
+            "timestamp": [
+                18.56,
+                18.96
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                19.28,
+                19.44
+            ]
+        },
+        {
+            "text": "husband,",
+            "timestamp": [
+                19.44,
+                19.84
+            ]
+        },
+        {
+            "text": "kids,",
+            "timestamp": [
+                20.0,
+                20.32
+            ]
+        },
+        {
+            "text": "mom,",
+            "timestamp": [
+                20.48,
+                20.88
+            ]
+        },
+        {
+            "text": "sisters,",
+            "timestamp": [
+                21.04,
+                21.52
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                21.68,
+                21.84
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                21.84,
+                22.0
+            ]
+        },
+        {
+            "text": "they're",
+            "timestamp": [
+                22.0,
+                22.240000000000002
+            ]
+        },
+        {
+            "text": "outside",
+            "timestamp": [
+                22.240000000000002,
+                22.56
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                22.56,
+                22.72
+            ]
+        },
+        {
+            "text": "U.S.",
+            "timestamp": [
+                22.72,
+                23.04
+            ]
+        }
+    ]
+}

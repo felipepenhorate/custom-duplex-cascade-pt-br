@@ -1,0 +1,124 @@
+{
+    "text": "Yeah, absolutely. Everyone has their own passions and interests. What matters is finding what speaks to you.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                6.0,
+                6.32
+            ]
+        },
+        {
+            "text": "absolutely.",
+            "timestamp": [
+                6.640000000000001,
+                7.44
+            ]
+        },
+        {
+            "text": "Everyone",
+            "timestamp": [
+                7.68,
+                8.08
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "their",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "own",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "passions",
+            "timestamp": [
+                8.64,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "interests.",
+            "timestamp": [
+                9.36,
+                9.76
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "matters",
+            "timestamp": [
+                10.16,
+                10.48
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "finding",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "speaks",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        }
+    ]
+}

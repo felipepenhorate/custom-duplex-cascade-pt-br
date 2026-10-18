@@ -1,0 +1,117 @@
+{
+    "text": "That's cool. Indoor activities can be just as rewarding, whether it's reading, working, or just relaxing.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.92,
+                4.48
+            ]
+        },
+        {
+            "text": "cool.",
+            "timestamp": [
+                4.48,
+                4.8
+            ]
+        },
+        {
+            "text": "Indoor",
+            "timestamp": [
+                5.04,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "activities",
+            "timestamp": [
+                5.5200000000000005,
+                6.08
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                6.24,
+                6.32
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                6.48,
+                6.72
+            ]
+        },
+        {
+            "text": "rewarding,",
+            "timestamp": [
+                6.72,
+                7.2
+            ]
+        },
+        {
+            "text": "whether",
+            "timestamp": [
+                7.44,
+                7.68
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                7.68,
+                7.92
+            ]
+        },
+        {
+            "text": "reading,",
+            "timestamp": [
+                7.92,
+                8.24
+            ]
+        },
+        {
+            "text": "working,",
+            "timestamp": [
+                8.4,
+                8.72
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "relaxing.",
+            "timestamp": [
+                9.200000000000001,
+                10.4
+            ]
+        }
+    ]
+}

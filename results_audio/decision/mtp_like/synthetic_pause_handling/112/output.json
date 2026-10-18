@@ -1,0 +1,82 @@
+{
+    "text": "Orchids love bright, indirect light, and need consistent moisture. Just enough",
+    "chunks": [
+        {
+            "text": "Orchids",
+            "timestamp": [
+                3.36,
+                4.16
+            ]
+        },
+        {
+            "text": "love",
+            "timestamp": [
+                4.16,
+                4.4
+            ]
+        },
+        {
+            "text": "bright,",
+            "timestamp": [
+                4.4,
+                4.72
+            ]
+        },
+        {
+            "text": "indirect",
+            "timestamp": [
+                4.88,
+                5.44
+            ]
+        },
+        {
+            "text": "light,",
+            "timestamp": [
+                5.44,
+                5.76
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "need",
+            "timestamp": [
+                6.0,
+                6.24
+            ]
+        },
+        {
+            "text": "consistent",
+            "timestamp": [
+                6.24,
+                6.72
+            ]
+        },
+        {
+            "text": "moisture.",
+            "timestamp": [
+                6.72,
+                7.28
+            ]
+        },
+        {
+            "text": "Just",
+            "timestamp": [
+                7.5200000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "enough",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        }
+    ]
+}

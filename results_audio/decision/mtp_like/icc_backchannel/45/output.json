@@ -1,0 +1,187 @@
+{
+    "text": "That sounds frustrating. Maybe got it. All right, no worries. Take your time. I'm here whenever you'd like to talk. Wow, that sounds intense. Exams, homecoming.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                6.640000000000001,
+                6.96
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                6.96,
+                7.44
+            ]
+        },
+        {
+            "text": "frustrating.",
+            "timestamp": [
+                7.44,
+                8.08
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                8.32,
+                8.64
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                9.040000000000001,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "All",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "right,",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "worries.",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "Take",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "whenever",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "you'd",
+            "timestamp": [
+                12.48,
+                12.8
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "talk.",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "Wow,",
+            "timestamp": [
+                24.96,
+                25.28
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                25.44,
+                25.68
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                25.68,
+                26.080000000000002
+            ]
+        },
+        {
+            "text": "intense.",
+            "timestamp": [
+                26.080000000000002,
+                26.560000000000002
+            ]
+        },
+        {
+            "text": "Exams,",
+            "timestamp": [
+                26.88,
+                27.28
+            ]
+        },
+        {
+            "text": "homecoming.",
+            "timestamp": [
+                27.44,
+                27.92
+            ]
+        }
+    ]
+}

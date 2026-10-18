@@ -1,0 +1,96 @@
+{
+    "text": "That's a great step. What kind of career shift are you thinking about?",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                2.4,
+                2.8000000000000003
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                2.8000000000000003,
+                2.96
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                2.96,
+                3.2
+            ]
+        },
+        {
+            "text": "step.",
+            "timestamp": [
+                3.2,
+                3.52
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                3.7600000000000002,
+                4.0
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                4.0,
+                4.08
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                4.08,
+                4.24
+            ]
+        },
+        {
+            "text": "career",
+            "timestamp": [
+                4.24,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "shift",
+            "timestamp": [
+                4.5600000000000005,
+                4.88
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                4.88,
+                4.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.96,
+                5.12
+            ]
+        },
+        {
+            "text": "thinking",
+            "timestamp": [
+                5.12,
+                5.36
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        }
+    ]
+}

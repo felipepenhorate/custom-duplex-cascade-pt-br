@@ -1,0 +1,166 @@
+{
+    "text": "I see. What's on your mind? Thasy men? Got it. Oh, I get it. You just want the bike to be ready before",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                3.44,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                3.7600000000000002,
+                4.08
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                4.4,
+                4.64
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                4.8,
+                4.96
+            ]
+        },
+        {
+            "text": "mind?",
+            "timestamp": [
+                4.96,
+                5.28
+            ]
+        },
+        {
+            "text": "Thasy",
+            "timestamp": [
+                5.5200000000000005,
+                6.0
+            ]
+        },
+        {
+            "text": "men?",
+            "timestamp": [
+                6.08,
+                6.32
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                6.5600000000000005,
+                6.88
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                6.88,
+                7.2
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.72,
+                12.8
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                13.280000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                13.44,
+                13.52
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                13.68,
+                13.76
+            ]
+        },
+        {
+            "text": "bike",
+            "timestamp": [
+                13.76,
+                14.08
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.08,
+                14.16
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                14.16,
+                14.32
+            ]
+        },
+        {
+            "text": "ready",
+            "timestamp": [
+                14.32,
+                14.56
+            ]
+        },
+        {
+            "text": "before",
+            "timestamp": [
+                14.56,
+                14.64
+            ]
+        }
+    ]
+}

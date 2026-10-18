@@ -1,0 +1,103 @@
+{
+    "text": "Haha, fair enough. Sometimes the movie version just does match what you felt in.",
+    "chunks": [
+        {
+            "text": "Haha,",
+            "timestamp": [
+                9.120000000000001,
+                9.84
+            ]
+        },
+        {
+            "text": "fair",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "enough.",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "Sometimes",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "movie",
+            "timestamp": [
+                11.44,
+                11.76
+            ]
+        },
+        {
+            "text": "version",
+            "timestamp": [
+                11.76,
+                12.08
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "does",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "match",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        },
+        {
+            "text": "felt",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "in.",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        }
+    ]
+}

@@ -1,0 +1,180 @@
+{
+    "text": "No worries. Sometimes the best thing is just to start now. Set a timer for five minutes and see how long it takes you to.",
+    "chunks": [
+        {
+            "text": "No",
+            "timestamp": [
+                7.28,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "worries.",
+            "timestamp": [
+                7.6000000000000005,
+                8.24
+            ]
+        },
+        {
+            "text": "Sometimes",
+            "timestamp": [
+                8.56,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "best",
+            "timestamp": [
+                9.28,
+                9.6
+            ]
+        },
+        {
+            "text": "thing",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "start",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "now.",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "Set",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "timer",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "five",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        },
+        {
+            "text": "minutes",
+            "timestamp": [
+                12.16,
+                12.48
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                13.120000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "takes",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                13.52,
+                13.76
+            ]
+        },
+        {
+            "text": "to.",
+            "timestamp": [
+                13.76,
+                14.0
+            ]
+        }
+    ]
+}

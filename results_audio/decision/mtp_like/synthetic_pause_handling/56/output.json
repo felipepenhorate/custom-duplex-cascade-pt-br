@@ -1,0 +1,131 @@
+{
+    "text": "No worries. How about trying something? That sounds awesome. Hiking or a road trip both give you fresh.",
+    "chunks": [
+        {
+            "text": "No",
+            "timestamp": [
+                2.88,
+                3.2
+            ]
+        },
+        {
+            "text": "worries.",
+            "timestamp": [
+                3.2,
+                3.68
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                3.92,
+                4.16
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                4.16,
+                4.32
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                4.32,
+                4.64
+            ]
+        },
+        {
+            "text": "something?",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                7.84,
+                8.24
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                8.24,
+                8.72
+            ]
+        },
+        {
+            "text": "Hiking",
+            "timestamp": [
+                9.040000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "road",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "trip",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "both",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "give",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "fresh.",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        }
+    ]
+}

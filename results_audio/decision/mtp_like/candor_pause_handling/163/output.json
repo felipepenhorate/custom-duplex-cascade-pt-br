@@ -1,0 +1,117 @@
+{
+    "text": "Oh, that must have been That sounds exhausting. It's like a loop working when you're drained.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                4.5600000000000005,
+                4.88
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "must",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                5.5200000000000005,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                9.200000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "exhausting.",
+            "timestamp": [
+                9.68,
+                10.32
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "loop",
+            "timestamp": [
+                11.040000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "working",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                11.84,
+                11.92
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        },
+        {
+            "text": "drained.",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        }
+    ]
+}

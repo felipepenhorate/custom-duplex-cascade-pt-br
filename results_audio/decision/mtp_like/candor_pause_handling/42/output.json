@@ -1,0 +1,82 @@
+{
+    "text": "Yeah, the census is done every ten years, but people aren't.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "census",
+            "timestamp": [
+                10.48,
+                10.88
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "done",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "every",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "ten",
+            "timestamp": [
+                11.52,
+                12.0
+            ]
+        },
+        {
+            "text": "years,",
+            "timestamp": [
+                12.0,
+                12.32
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "aren't.",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "text": "Thanks for the kind words. I'm here to help with whatever you need. That means a lot. Thanks for sharing that. I'm glad I could make you feel seen.",
+    "chunks": [
+        {
+            "text": "Thanks",
+            "timestamp": [
+                4.0,
+                4.48
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "words.",
+            "timestamp": [
+                5.04,
+                5.36
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                5.68,
+                5.92
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "whatever",
+            "timestamp": [
+                6.5600000000000005,
+                6.88
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "need.",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "means",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "lot.",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "Thanks",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "sharing",
+            "timestamp": [
+                10.24,
+                10.8
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                10.8,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        },
+        {
+            "text": "glad",
+            "timestamp": [
+                12.4,
+                12.72
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.72,
+                12.8
+            ]
+        },
+        {
+            "text": "could",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "seen.",
+            "timestamp": [
+                13.44,
+                13.68
+            ]
+        }
+    ]
+}

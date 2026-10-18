@@ -1,0 +1,117 @@
+{
+    "text": "That's awesome. Persistence pays off. Keep going, and don't forget to take breaks. You've got this.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                6.08,
+                6.48
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                6.48,
+                6.96
+            ]
+        },
+        {
+            "text": "Persistence",
+            "timestamp": [
+                7.2,
+                7.92
+            ]
+        },
+        {
+            "text": "pays",
+            "timestamp": [
+                7.92,
+                8.24
+            ]
+        },
+        {
+            "text": "off.",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "Keep",
+            "timestamp": [
+                8.72,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "going,",
+            "timestamp": [
+                9.120000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "forget",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.32,
+                10.4
+            ]
+        },
+        {
+            "text": "take",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "breaks.",
+            "timestamp": [
+                10.56,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "You've",
+            "timestamp": [
+                11.36,
+                11.92
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        },
+        {
+            "text": "this.",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "text": "Oh, that sounds delicious. Wow, that sounds amazing. Absolute possible.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                6.640000000000001,
+                6.88
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                6.88,
+                7.2
+            ]
+        },
+        {
+            "text": "delicious.",
+            "timestamp": [
+                7.2,
+                8.16
+            ]
+        },
+        {
+            "text": "Wow,",
+            "timestamp": [
+                8.8,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                9.52,
+                9.92
+            ]
+        },
+        {
+            "text": "amazing.",
+            "timestamp": [
+                9.92,
+                10.72
+            ]
+        },
+        {
+            "text": "Absolute",
+            "timestamp": [
+                11.040000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "possible.",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        }
+    ]
+}

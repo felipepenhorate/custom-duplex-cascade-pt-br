@@ -1,0 +1,159 @@
+{
+    "text": "I'm not sure I understand your question fully. Could you clarify? I don't. Oh, spit headlines. I'm not designed to do that.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                2.96,
+                3.36
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                3.36,
+                3.6
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                3.6,
+                3.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                3.92,
+                4.24
+            ]
+        },
+        {
+            "text": "understand",
+            "timestamp": [
+                4.24,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                4.5600000000000005,
+                4.88
+            ]
+        },
+        {
+            "text": "question",
+            "timestamp": [
+                4.88,
+                5.12
+            ]
+        },
+        {
+            "text": "fully.",
+            "timestamp": [
+                5.12,
+                5.84
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                6.16,
+                6.4
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "clarify?",
+            "timestamp": [
+                6.5600000000000005,
+                7.04
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.040000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "don't.",
+            "timestamp": [
+                9.28,
+                9.68
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "spit",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "headlines.",
+            "timestamp": [
+                10.72,
+                11.28
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "designed",
+            "timestamp": [
+                12.0,
+                12.32
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.32,
+                12.4
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                12.4,
+                12.48
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                12.48,
+                12.56
+            ]
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "text": "That it's really tough. Love and loss go hand in hand, and it's hard to let go.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                7.68,
+                8.0
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                8.4,
+                8.72
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                8.72,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "tough.",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "Love",
+            "timestamp": [
+                9.6,
+                9.92
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "loss",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "go",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "hand",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "hand,",
+            "timestamp": [
+                10.96,
+                11.28
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "hard",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "let",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "go.",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        }
+    ]
+}

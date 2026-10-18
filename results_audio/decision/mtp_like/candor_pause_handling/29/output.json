@@ -1,0 +1,82 @@
+{
+    "text": "Yeah, definitely. Think of it like the Dresden files, a modern",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                8.72,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "definitely.",
+            "timestamp": [
+                9.28,
+                9.84
+            ]
+        },
+        {
+            "text": "Think",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.32,
+                10.4
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "Dresden",
+            "timestamp": [
+                10.8,
+                11.28
+            ]
+        },
+        {
+            "text": "files,",
+            "timestamp": [
+                11.28,
+                11.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "modern",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        }
+    ]
+}

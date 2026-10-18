@@ -1,0 +1,124 @@
+{
+    "text": "Oh, Casablanca. Absolute classic. Perfect for a cozy night with a glass of wine and some quarter.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "Casablanca.",
+            "timestamp": [
+                6.48,
+                7.68
+            ]
+        },
+        {
+            "text": "Absolute",
+            "timestamp": [
+                8.0,
+                8.56
+            ]
+        },
+        {
+            "text": "classic.",
+            "timestamp": [
+                8.56,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "Perfect",
+            "timestamp": [
+                9.36,
+                9.76
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "cozy",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "night",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "glass",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.120000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "wine",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "quarter.",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        }
+    ]
+}

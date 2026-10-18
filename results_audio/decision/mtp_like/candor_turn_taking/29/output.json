@@ -1,0 +1,138 @@
+{
+    "text": "That sounds manageable. Two hundred dollars a month for utilities is pretty reasonable. How's your budget holding up overall?",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                6.32,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                6.640000000000001,
+                7.2
+            ]
+        },
+        {
+            "text": "manageable.",
+            "timestamp": [
+                7.2,
+                7.84
+            ]
+        },
+        {
+            "text": "Two",
+            "timestamp": [
+                8.16,
+                8.4
+            ]
+        },
+        {
+            "text": "hundred",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "dollars",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.040000000000001,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "month",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "utilities",
+            "timestamp": [
+                9.52,
+                10.08
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "pretty",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "reasonable.",
+            "timestamp": [
+                10.48,
+                10.88
+            ]
+        },
+        {
+            "text": "How's",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                11.44,
+                11.52
+            ]
+        },
+        {
+            "text": "budget",
+            "timestamp": [
+                11.52,
+                11.92
+            ]
+        },
+        {
+            "text": "holding",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "overall?",
+            "timestamp": [
+                12.4,
+                12.8
+            ]
+        }
+    ]
+}

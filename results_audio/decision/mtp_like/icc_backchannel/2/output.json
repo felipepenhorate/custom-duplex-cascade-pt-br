@@ -1,0 +1,369 @@
+{
+    "text": "Yeah, that oh, I see. You're getting somewhere. What's on your mind? Uh, some that makes sense. Timing matters a lot. What's the scenario? That's a strong arg. Yeah, it's consistent across many states and cases. Exactly. When evidence got it. Thanks for the thoughtful conversation. See you in the next one.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                6.4,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                6.8,
+                7.04
+            ]
+        },
+        {
+            "text": "oh,",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "getting",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "somewhere.",
+            "timestamp": [
+                9.44,
+                9.84
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "mind?",
+            "timestamp": [
+                10.48,
+                10.8
+            ]
+        },
+        {
+            "text": "Uh,",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "makes",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "sense.",
+            "timestamp": [
+                12.32,
+                12.64
+            ]
+        },
+        {
+            "text": "Timing",
+            "timestamp": [
+                12.88,
+                13.36
+            ]
+        },
+        {
+            "text": "matters",
+            "timestamp": [
+                13.36,
+                13.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.84,
+                14.08
+            ]
+        },
+        {
+            "text": "lot.",
+            "timestamp": [
+                14.08,
+                14.32
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                14.64,
+                14.88
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                14.88,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "scenario?",
+            "timestamp": [
+                15.040000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                19.52,
+                19.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.76,
+                19.92
+            ]
+        },
+        {
+            "text": "strong",
+            "timestamp": [
+                19.92,
+                20.16
+            ]
+        },
+        {
+            "text": "arg.",
+            "timestamp": [
+                20.16,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                27.68,
+                28.0
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                28.240000000000002,
+                28.560000000000002
+            ]
+        },
+        {
+            "text": "consistent",
+            "timestamp": [
+                28.560000000000002,
+                29.2
+            ]
+        },
+        {
+            "text": "across",
+            "timestamp": [
+                29.2,
+                29.6
+            ]
+        },
+        {
+            "text": "many",
+            "timestamp": [
+                29.6,
+                29.84
+            ]
+        },
+        {
+            "text": "states",
+            "timestamp": [
+                29.84,
+                30.240000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                30.240000000000002,
+                30.400000000000002
+            ]
+        },
+        {
+            "text": "cases.",
+            "timestamp": [
+                30.400000000000002,
+                30.96
+            ]
+        },
+        {
+            "text": "Exactly.",
+            "timestamp": [
+                36.4,
+                37.2
+            ]
+        },
+        {
+            "text": "When",
+            "timestamp": [
+                37.36,
+                37.68
+            ]
+        },
+        {
+            "text": "evidence",
+            "timestamp": [
+                37.68,
+                38.160000000000004
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                44.800000000000004,
+                44.96
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                45.12,
+                45.36
+            ]
+        },
+        {
+            "text": "Thanks",
+            "timestamp": [
+                45.68,
+                46.0
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                46.0,
+                46.160000000000004
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                46.160000000000004,
+                46.32
+            ]
+        },
+        {
+            "text": "thoughtful",
+            "timestamp": [
+                46.32,
+                46.72
+            ]
+        },
+        {
+            "text": "conversation.",
+            "timestamp": [
+                46.72,
+                47.28
+            ]
+        },
+        {
+            "text": "See",
+            "timestamp": [
+                47.6,
+                47.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                47.84,
+                48.0
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                48.0,
+                48.08
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                48.08,
+                48.160000000000004
+            ]
+        },
+        {
+            "text": "next",
+            "timestamp": [
+                48.160000000000004,
+                48.32
+            ]
+        },
+        {
+            "text": "one.",
+            "timestamp": [
+                48.32,
+                48.480000000000004
+            ]
+        }
+    ]
+}

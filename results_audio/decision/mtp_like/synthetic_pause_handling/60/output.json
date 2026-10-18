@@ -1,0 +1,110 @@
+{
+    "text": "That's totally normal. Take yeah. Great question. Here's a simple, honest way to explain it.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.92,
+                4.72
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                4.72,
+                5.2
+            ]
+        },
+        {
+            "text": "normal.",
+            "timestamp": [
+                5.2,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "Take",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "yeah.",
+            "timestamp": [
+                6.72,
+                7.04
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                9.92,
+                10.4
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "Here's",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "simple,",
+            "timestamp": [
+                11.6,
+                12.0
+            ]
+        },
+        {
+            "text": "honest",
+            "timestamp": [
+                12.16,
+                12.56
+            ]
+        },
+        {
+            "text": "way",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "explain",
+            "timestamp": [
+                12.88,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                13.200000000000001,
+                13.280000000000001
+            ]
+        }
+    ]
+}

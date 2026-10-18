@@ -1,0 +1,75 @@
+{
+    "text": "Thanks. What's on your mind? Could you tell me more?",
+    "chunks": [
+        {
+            "text": "Thanks.",
+            "timestamp": [
+                1.44,
+                2.08
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                2.32,
+                2.56
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                2.56,
+                2.72
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                2.72,
+                2.88
+            ]
+        },
+        {
+            "text": "mind?",
+            "timestamp": [
+                2.88,
+                3.04
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "tell",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "more?",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        }
+    ]
+}

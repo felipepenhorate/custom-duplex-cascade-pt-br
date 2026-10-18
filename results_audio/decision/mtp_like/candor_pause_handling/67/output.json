@@ -1,0 +1,159 @@
+{
+    "text": "I'm sorry you're going through something tough. How can I help? Emen, I'm not sure I understand what you mean by my",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                2.0,
+                2.48
+            ]
+        },
+        {
+            "text": "sorry",
+            "timestamp": [
+                2.48,
+                2.88
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                2.88,
+                3.12
+            ]
+        },
+        {
+            "text": "going",
+            "timestamp": [
+                3.12,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "through",
+            "timestamp": [
+                3.2800000000000002,
+                3.52
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                3.52,
+                3.84
+            ]
+        },
+        {
+            "text": "tough.",
+            "timestamp": [
+                3.84,
+                4.16
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.8,
+                4.96
+            ]
+        },
+        {
+            "text": "help?",
+            "timestamp": [
+                4.96,
+                5.2
+            ]
+        },
+        {
+            "text": "Emen,",
+            "timestamp": [
+                5.6000000000000005,
+                6.08
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                6.5600000000000005,
+                6.72
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.88,
+                7.2
+            ]
+        },
+        {
+            "text": "understand",
+            "timestamp": [
+                7.2,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                7.5200000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                7.92,
+                8.16
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                8.16,
+                8.48
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        }
+    ]
+}

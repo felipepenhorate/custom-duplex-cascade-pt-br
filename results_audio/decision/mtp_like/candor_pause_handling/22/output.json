@@ -1,0 +1,82 @@
+{
+    "text": "Welcome to college. Sounds like you're noticing a lot going on.",
+    "chunks": [
+        {
+            "text": "Welcome",
+            "timestamp": [
+                7.28,
+                7.92
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                7.92,
+                8.08
+            ]
+        },
+        {
+            "text": "college.",
+            "timestamp": [
+                8.08,
+                8.56
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                8.8,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "noticing",
+            "timestamp": [
+                9.52,
+                9.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "going",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "on.",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        }
+    ]
+}

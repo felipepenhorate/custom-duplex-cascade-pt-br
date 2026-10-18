@@ -1,0 +1,131 @@
+{
+    "text": "That's a clever twist. Maybe you're saying you remembered your name after a coffee-induced moment of clarity. Eamon.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                5.44,
+                5.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "clever",
+            "timestamp": [
+                6.0,
+                6.4
+            ]
+        },
+        {
+            "text": "twist.",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                6.96,
+                7.2
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                7.2,
+                7.44
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                7.44,
+                7.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.68,
+                7.76
+            ]
+        },
+        {
+            "text": "remembered",
+            "timestamp": [
+                7.76,
+                8.16
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "name",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "after",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.72,
+                8.88
+            ]
+        },
+        {
+            "text": "coffee-induced",
+            "timestamp": [
+                8.88,
+                9.68
+            ]
+        },
+        {
+            "text": "moment",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "clarity.",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "Eamon.",
+            "timestamp": [
+                10.56,
+                10.96
+            ]
+        }
+    ]
+}

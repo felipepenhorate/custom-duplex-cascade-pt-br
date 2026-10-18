@@ -1,0 +1,159 @@
+{
+    "text": "That sounds awesome. It's cool that you guys create so much Got it. Everyone has their own vibe, and that's totally fine.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                15.6,
+                15.92
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                15.92,
+                16.48
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                16.48,
+                16.96
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                17.28,
+                17.52
+            ]
+        },
+        {
+            "text": "cool",
+            "timestamp": [
+                17.52,
+                17.84
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                17.84,
+                18.0
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                18.0,
+                18.16
+            ]
+        },
+        {
+            "text": "guys",
+            "timestamp": [
+                18.16,
+                18.32
+            ]
+        },
+        {
+            "text": "create",
+            "timestamp": [
+                18.32,
+                18.72
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                18.72,
+                18.88
+            ]
+        },
+        {
+            "text": "much",
+            "timestamp": [
+                18.88,
+                19.04
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                22.72,
+                23.04
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                23.04,
+                23.2
+            ]
+        },
+        {
+            "text": "Everyone",
+            "timestamp": [
+                23.44,
+                23.84
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                23.84,
+                24.0
+            ]
+        },
+        {
+            "text": "their",
+            "timestamp": [
+                24.0,
+                24.16
+            ]
+        },
+        {
+            "text": "own",
+            "timestamp": [
+                24.16,
+                24.400000000000002
+            ]
+        },
+        {
+            "text": "vibe,",
+            "timestamp": [
+                24.400000000000002,
+                24.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                24.88,
+                25.04
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                25.04,
+                25.36
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                25.36,
+                25.68
+            ]
+        },
+        {
+            "text": "fine.",
+            "timestamp": [
+                25.68,
+                25.84
+            ]
+        }
+    ]
+}

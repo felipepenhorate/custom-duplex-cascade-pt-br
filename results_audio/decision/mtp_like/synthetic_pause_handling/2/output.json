@@ -1,0 +1,152 @@
+{
+    "text": "How about the Midnight Library by Matt Haig? It's a thoughtful, upgrade choice. Love that. Tridune by Frank Herbert. A epic.",
+    "chunks": [
+        {
+            "text": "How",
+            "timestamp": [
+                2.56,
+                2.88
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                2.88,
+                2.96
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                3.12,
+                3.2
+            ]
+        },
+        {
+            "text": "Midnight",
+            "timestamp": [
+                3.2,
+                3.6
+            ]
+        },
+        {
+            "text": "Library",
+            "timestamp": [
+                3.6,
+                4.0
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                4.0,
+                4.08
+            ]
+        },
+        {
+            "text": "Matt",
+            "timestamp": [
+                4.08,
+                4.32
+            ]
+        },
+        {
+            "text": "Haig?",
+            "timestamp": [
+                4.32,
+                4.72
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                4.96,
+                5.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "thoughtful,",
+            "timestamp": [
+                5.28,
+                5.68
+            ]
+        },
+        {
+            "text": "upgrade",
+            "timestamp": [
+                5.84,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                6.5600000000000005,
+                7.36
+            ]
+        },
+        {
+            "text": "Love",
+            "timestamp": [
+                9.200000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                9.6,
+                9.92
+            ]
+        },
+        {
+            "text": "Tridune",
+            "timestamp": [
+                10.08,
+                10.8
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "Frank",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "Herbert.",
+            "timestamp": [
+                11.120000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "epic.",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        }
+    ]
+}

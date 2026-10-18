@@ -1,0 +1,110 @@
+{
+    "text": "That's great to hear. That sounds fun. Maybe they he'll have some fall games too.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                5.92,
+                6.48
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                6.48,
+                6.8
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                6.8,
+                7.12
+            ]
+        },
+        {
+            "text": "hear.",
+            "timestamp": [
+                7.12,
+                7.76
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                10.24,
+                10.8
+            ]
+        },
+        {
+            "text": "fun.",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                11.36,
+                11.76
+            ]
+        },
+        {
+            "text": "they",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "he'll",
+            "timestamp": [
+                12.0,
+                12.32
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "fall",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "games",
+            "timestamp": [
+                12.88,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "too.",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "That sounds ins absolutely by sharing authentic, positive stories.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                5.44,
+                5.92
+            ]
+        },
+        {
+            "text": "ins",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "absolutely",
+            "timestamp": [
+                9.6,
+                10.56
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "sharing",
+            "timestamp": [
+                11.120000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "authentic,",
+            "timestamp": [
+                11.6,
+                12.16
+            ]
+        },
+        {
+            "text": "positive",
+            "timestamp": [
+                12.32,
+                12.8
+            ]
+        },
+        {
+            "text": "stories.",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        }
+    ]
+}

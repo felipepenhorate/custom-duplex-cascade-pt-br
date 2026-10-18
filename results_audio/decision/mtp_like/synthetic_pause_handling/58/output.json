@@ -1,0 +1,96 @@
+{
+    "text": "Great question. For most dogs, great follow-up. For puppies or young dogs, yes.",
+    "chunks": [
+        {
+            "text": "Great",
+            "timestamp": [
+                6.5600000000000005,
+                7.2
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                7.2,
+                7.44
+            ]
+        },
+        {
+            "text": "For",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        },
+        {
+            "text": "most",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "dogs,",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "follow-up.",
+            "timestamp": [
+                9.120000000000001,
+                9.76
+            ]
+        },
+        {
+            "text": "For",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "puppies",
+            "timestamp": [
+                10.16,
+                10.72
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "young",
+            "timestamp": [
+                10.88,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "dogs,",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "yes.",
+            "timestamp": [
+                11.68,
+                12.0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,264 @@
+{
+    "text": "Treats, praise, great session short. The best food for puppies is a high-quality, puppy-specific diet that's formulated to meet their growing needs. Look for food with animal proteins like chicken, beef, or fish, or fish, adequate fat.",
+    "chunks": [
+        {
+            "text": "Treats,",
+            "timestamp": [
+                14.248000000000003,
+                14.648000000000003
+            ]
+        },
+        {
+            "text": "praise,",
+            "timestamp": [
+                14.728000000000002,
+                14.968000000000002
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                15.288000000000002,
+                15.368000000000002
+            ]
+        },
+        {
+            "text": "session",
+            "timestamp": [
+                16.008000000000003,
+                16.248
+            ]
+        },
+        {
+            "text": "short.",
+            "timestamp": [
+                16.328000000000003,
+                16.408
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                16.728,
+                16.808000000000003
+            ]
+        },
+        {
+            "text": "best",
+            "timestamp": [
+                16.808000000000003,
+                16.968000000000004
+            ]
+        },
+        {
+            "text": "food",
+            "timestamp": [
+                16.968000000000004,
+                17.128000000000004
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                17.128000000000004,
+                17.208000000000002
+            ]
+        },
+        {
+            "text": "puppies",
+            "timestamp": [
+                17.208000000000002,
+                17.688000000000002
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                17.688000000000002,
+                17.848000000000003
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.848000000000003,
+                17.928000000000004
+            ]
+        },
+        {
+            "text": "high-quality,",
+            "timestamp": [
+                17.928000000000004,
+                18.488000000000003
+            ]
+        },
+        {
+            "text": "puppy-specific",
+            "timestamp": [
+                18.648000000000003,
+                19.528000000000002
+            ]
+        },
+        {
+            "text": "diet",
+            "timestamp": [
+                19.528000000000002,
+                19.848000000000003
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                19.848000000000003,
+                20.088
+            ]
+        },
+        {
+            "text": "formulated",
+            "timestamp": [
+                20.088,
+                20.648000000000003
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                20.648000000000003,
+                20.728
+            ]
+        },
+        {
+            "text": "meet",
+            "timestamp": [
+                20.728,
+                20.968000000000004
+            ]
+        },
+        {
+            "text": "their",
+            "timestamp": [
+                20.968000000000004,
+                21.128000000000004
+            ]
+        },
+        {
+            "text": "growing",
+            "timestamp": [
+                21.128000000000004,
+                21.448
+            ]
+        },
+        {
+            "text": "needs.",
+            "timestamp": [
+                21.448,
+                21.848000000000003
+            ]
+        },
+        {
+            "text": "Look",
+            "timestamp": [
+                22.168000000000003,
+                22.408
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                22.408,
+                22.568000000000005
+            ]
+        },
+        {
+            "text": "food",
+            "timestamp": [
+                22.568000000000005,
+                22.968000000000004
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                22.968000000000004,
+                23.128
+            ]
+        },
+        {
+            "text": "animal",
+            "timestamp": [
+                23.928000000000004,
+                24.408
+            ]
+        },
+        {
+            "text": "proteins",
+            "timestamp": [
+                24.408,
+                24.968000000000004
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                25.128,
+                25.368000000000002
+            ]
+        },
+        {
+            "text": "chicken,",
+            "timestamp": [
+                25.368000000000002,
+                25.688000000000002
+            ]
+        },
+        {
+            "text": "beef,",
+            "timestamp": [
+                25.848000000000003,
+                26.168000000000003
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                26.328000000000003,
+                26.488000000000003
+            ]
+        },
+        {
+            "text": "fish,",
+            "timestamp": [
+                26.488000000000003,
+                26.808000000000003
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                27.128,
+                27.448
+            ]
+        },
+        {
+            "text": "fish,",
+            "timestamp": [
+                27.448,
+                27.848000000000003
+            ]
+        },
+        {
+            "text": "adequate",
+            "timestamp": [
+                28.408,
+                29.128
+            ]
+        },
+        {
+            "text": "fat.",
+            "timestamp": [
+                29.128,
+                29.688000000000002
+            ]
+        }
+    ]
+}

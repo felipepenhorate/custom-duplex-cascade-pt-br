@@ -1,0 +1,117 @@
+{
+    "text": "That's a great question. It's okay to feel unsure. That's a great choice. Both psychology and",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                2.96,
+                3.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                3.44,
+                3.68
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                3.68,
+                3.92
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                3.92,
+                4.16
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                4.48,
+                5.12
+            ]
+        },
+        {
+            "text": "okay",
+            "timestamp": [
+                5.12,
+                5.36
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                5.36,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                5.6000000000000005,
+                5.84
+            ]
+        },
+        {
+            "text": "unsure.",
+            "timestamp": [
+                5.84,
+                6.8
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                7.12,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.92,
+                8.16
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                8.16,
+                8.4
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                8.4,
+                8.88
+            ]
+        },
+        {
+            "text": "Both",
+            "timestamp": [
+                9.200000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "psychology",
+            "timestamp": [
+                9.52,
+                10.16
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        }
+    ]
+}

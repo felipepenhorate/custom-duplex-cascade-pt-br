@@ -1,0 +1,145 @@
+{
+    "text": "That's a big decision. Good to hear you're thinking about it. What's on your mind specifically? Awesome, and that's awesome.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.52,
+                4.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.0,
+                4.16
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                4.16,
+                4.32
+            ]
+        },
+        {
+            "text": "decision.",
+            "timestamp": [
+                4.32,
+                4.8
+            ]
+        },
+        {
+            "text": "Good",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "hear",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                5.5200000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "thinking",
+            "timestamp": [
+                5.76,
+                6.16
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                6.8,
+                7.2
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                7.2,
+                7.44
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                7.44,
+                7.68
+            ]
+        },
+        {
+            "text": "mind",
+            "timestamp": [
+                7.68,
+                8.0
+            ]
+        },
+        {
+            "text": "specifically?",
+            "timestamp": [
+                8.0,
+                8.72
+            ]
+        },
+        {
+            "text": "Awesome,",
+            "timestamp": [
+                9.040000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                10.16,
+                10.48
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                10.48,
+                10.96
+            ]
+        }
+    ]
+}

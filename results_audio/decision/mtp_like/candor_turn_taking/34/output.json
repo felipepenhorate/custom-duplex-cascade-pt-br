@@ -1,0 +1,173 @@
+{
+    "text": "I know. I didn't track time, just focused on what you're feeling. But you're right. Twenty-five minutes feels like a long time when you're.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.24,
+                2.56
+            ]
+        },
+        {
+            "text": "know.",
+            "timestamp": [
+                2.8000000000000003,
+                3.12
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "didn't",
+            "timestamp": [
+                10.72,
+                10.96
+            ]
+        },
+        {
+            "text": "track",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "time,",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "focused",
+            "timestamp": [
+                11.84,
+                12.16
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "feeling.",
+            "timestamp": [
+                12.72,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "But",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                13.52,
+                13.76
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                13.76,
+                13.92
+            ]
+        },
+        {
+            "text": "Twenty-five",
+            "timestamp": [
+                14.16,
+                14.64
+            ]
+        },
+        {
+            "text": "minutes",
+            "timestamp": [
+                14.64,
+                14.96
+            ]
+        },
+        {
+            "text": "feels",
+            "timestamp": [
+                14.96,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                15.200000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.36,
+                15.44
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                15.44,
+                15.68
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                15.68,
+                15.92
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                15.92,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "you're.",
+            "timestamp": [
+                16.080000000000002,
+                16.32
+            ]
+        }
+    ]
+}

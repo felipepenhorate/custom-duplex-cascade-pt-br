@@ -1,0 +1,47 @@
+{
+    "text": "That's awesome. Oh, that's really meaningful.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                4.96,
+                5.44
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                5.44,
+                6.4
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                6.72,
+                6.96
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                7.36,
+                7.68
+            ]
+        },
+        {
+            "text": "meaningful.",
+            "timestamp": [
+                7.68,
+                8.4
+            ]
+        }
+    ]
+}

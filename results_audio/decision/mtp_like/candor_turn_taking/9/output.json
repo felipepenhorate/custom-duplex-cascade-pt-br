@@ -1,0 +1,187 @@
+{
+    "text": "Oh, that's a while ago now. San Francisco can be a big place. Maybe they're in the Bay Area or one of the neighborhoods like North.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "while",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "ago",
+            "timestamp": [
+                10.88,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "now.",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "San",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "Francisco",
+            "timestamp": [
+                11.84,
+                12.4
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                12.4,
+                12.48
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                12.48,
+                12.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "place.",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                13.44,
+                13.76
+            ]
+        },
+        {
+            "text": "they're",
+            "timestamp": [
+                13.76,
+                14.0
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                14.0,
+                14.08
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                14.08,
+                14.16
+            ]
+        },
+        {
+            "text": "Bay",
+            "timestamp": [
+                14.16,
+                14.48
+            ]
+        },
+        {
+            "text": "Area",
+            "timestamp": [
+                14.48,
+                14.72
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                14.8,
+                14.96
+            ]
+        },
+        {
+            "text": "one",
+            "timestamp": [
+                14.96,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                15.040000000000001,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                15.120000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "neighborhoods",
+            "timestamp": [
+                15.280000000000001,
+                15.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                15.84,
+                16.0
+            ]
+        },
+        {
+            "text": "North.",
+            "timestamp": [
+                16.0,
+                16.8
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "Yeah, I get it. What did your friend say?",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                5.68,
+                5.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                6.640000000000001,
+                6.88
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "did",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "friend",
+            "timestamp": [
+                7.5200000000000005,
+                8.0
+            ]
+        },
+        {
+            "text": "say?",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        }
+    ]
+}

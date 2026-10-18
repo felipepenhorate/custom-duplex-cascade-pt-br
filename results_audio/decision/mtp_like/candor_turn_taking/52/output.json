@@ -1,0 +1,145 @@
+{
+    "text": "That sounds like a close, friendly vibe, like a cozy chat with a friend. What's on your mind? The hulimen",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                5.36,
+                5.68
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                5.68,
+                6.0
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                6.0,
+                6.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.16,
+                6.24
+            ]
+        },
+        {
+            "text": "close,",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "friendly",
+            "timestamp": [
+                6.640000000000001,
+                7.12
+            ]
+        },
+        {
+            "text": "vibe,",
+            "timestamp": [
+                7.12,
+                7.44
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "cozy",
+            "timestamp": [
+                7.92,
+                8.32
+            ]
+        },
+        {
+            "text": "chat",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "friend.",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                9.36,
+                9.68
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "mind?",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "hulimen",
+            "timestamp": [
+                10.8,
+                11.44
+            ]
+        }
+    ]
+}

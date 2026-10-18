@@ -1,0 +1,138 @@
+{
+    "text": "Nice. North Carolina's got some great spots, like Asheville or the coast. What are you up to in NC?",
+    "chunks": [
+        {
+            "text": "Nice.",
+            "timestamp": [
+                8.0,
+                8.64
+            ]
+        },
+        {
+            "text": "North",
+            "timestamp": [
+                8.96,
+                9.36
+            ]
+        },
+        {
+            "text": "Carolina's",
+            "timestamp": [
+                9.36,
+                9.92
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "spots,",
+            "timestamp": [
+                10.48,
+                10.88
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "Asheville",
+            "timestamp": [
+                11.28,
+                11.92
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "coast.",
+            "timestamp": [
+                12.16,
+                12.48
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                13.040000000000001,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                13.280000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "NC?",
+            "timestamp": [
+                13.44,
+                13.84
+            ]
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "text": "That's awesome. Having your family Absolutely, family support really does make a big difference.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                8.0,
+                8.4
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                8.4,
+                8.96
+            ]
+        },
+        {
+            "text": "Having",
+            "timestamp": [
+                9.200000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                9.52,
+                9.6
+            ]
+        },
+        {
+            "text": "family",
+            "timestamp": [
+                9.6,
+                9.92
+            ]
+        },
+        {
+            "text": "Absolutely,",
+            "timestamp": [
+                10.56,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "family",
+            "timestamp": [
+                11.36,
+                11.76
+            ]
+        },
+        {
+            "text": "support",
+            "timestamp": [
+                11.76,
+                12.24
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "does",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                13.120000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "difference.",
+            "timestamp": [
+                13.36,
+                13.76
+            ]
+        }
+    ]
+}

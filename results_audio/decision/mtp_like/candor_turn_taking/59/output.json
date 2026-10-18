@@ -1,0 +1,117 @@
+{
+    "text": "Sounds good. What's on your mind? A sim. All right. See you in the next one.",
+    "chunks": [
+        {
+            "text": "Sounds",
+            "timestamp": [
+                2.32,
+                2.88
+            ]
+        },
+        {
+            "text": "good.",
+            "timestamp": [
+                2.88,
+                3.04
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                3.2800000000000002,
+                3.52
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                3.52,
+                3.68
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                3.68,
+                3.84
+            ]
+        },
+        {
+            "text": "mind?",
+            "timestamp": [
+                3.84,
+                4.08
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                4.4,
+                4.48
+            ]
+        },
+        {
+            "text": "sim.",
+            "timestamp": [
+                4.5600000000000005,
+                4.64
+            ]
+        },
+        {
+            "text": "All",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "See",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                7.5200000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                7.68,
+                7.76
+            ]
+        },
+        {
+            "text": "next",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        },
+        {
+            "text": "one.",
+            "timestamp": [
+                8.0,
+                8.16
+            ]
+        }
+    ]
+}

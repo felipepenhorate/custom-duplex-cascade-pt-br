@@ -1,0 +1,243 @@
+{
+    "text": "We can help fight climate change by reducing waste, using less energy, driving less, eating more plant-based foods, supporting renewable energy, and spreading awareness. Small changes add up. Absolutely. Supporting policies that promote sustainability.",
+    "chunks": [
+        {
+            "text": "We",
+            "timestamp": [
+                2.88,
+                3.2
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                3.2,
+                3.44
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                3.44,
+                3.6
+            ]
+        },
+        {
+            "text": "fight",
+            "timestamp": [
+                3.6,
+                3.92
+            ]
+        },
+        {
+            "text": "climate",
+            "timestamp": [
+                3.92,
+                4.24
+            ]
+        },
+        {
+            "text": "change",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "reducing",
+            "timestamp": [
+                4.64,
+                5.12
+            ]
+        },
+        {
+            "text": "waste,",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        },
+        {
+            "text": "using",
+            "timestamp": [
+                5.68,
+                5.92
+            ]
+        },
+        {
+            "text": "less",
+            "timestamp": [
+                5.92,
+                6.24
+            ]
+        },
+        {
+            "text": "energy,",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "driving",
+            "timestamp": [
+                6.72,
+                7.12
+            ]
+        },
+        {
+            "text": "less,",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "eating",
+            "timestamp": [
+                7.5200000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        },
+        {
+            "text": "plant-based",
+            "timestamp": [
+                8.0,
+                8.56
+            ]
+        },
+        {
+            "text": "foods,",
+            "timestamp": [
+                8.56,
+                8.8
+            ]
+        },
+        {
+            "text": "supporting",
+            "timestamp": [
+                8.96,
+                9.36
+            ]
+        },
+        {
+            "text": "renewable",
+            "timestamp": [
+                9.36,
+                9.84
+            ]
+        },
+        {
+            "text": "energy,",
+            "timestamp": [
+                9.84,
+                10.16
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "spreading",
+            "timestamp": [
+                10.48,
+                10.8
+            ]
+        },
+        {
+            "text": "awareness.",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "Small",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "changes",
+            "timestamp": [
+                11.84,
+                12.24
+            ]
+        },
+        {
+            "text": "add",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "up.",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                12.88,
+                13.44
+            ]
+        },
+        {
+            "text": "Supporting",
+            "timestamp": [
+                14.0,
+                14.4
+            ]
+        },
+        {
+            "text": "policies",
+            "timestamp": [
+                14.4,
+                14.88
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                14.88,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "promote",
+            "timestamp": [
+                15.040000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "sustainability.",
+            "timestamp": [
+                15.44,
+                16.080000000000002
+            ]
+        }
+    ]
+}

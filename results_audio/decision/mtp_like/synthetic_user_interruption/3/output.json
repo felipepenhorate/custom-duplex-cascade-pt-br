@@ -1,0 +1,257 @@
+{
+    "text": "I don't have access to your calendar or meeting schedules. You might want to check your calendar app or email for the meeting time. Let me know if you'd like help organizing or setting a reminder.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                12.760000000000002,
+                12.840000000000002
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                13.16,
+                13.4
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                13.4,
+                13.56
+            ]
+        },
+        {
+            "text": "access",
+            "timestamp": [
+                13.56,
+                13.8
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.8,
+                13.96
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                13.96,
+                14.120000000000001
+            ]
+        },
+        {
+            "text": "calendar",
+            "timestamp": [
+                14.120000000000001,
+                14.600000000000001
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                14.600000000000001,
+                14.760000000000002
+            ]
+        },
+        {
+            "text": "meeting",
+            "timestamp": [
+                14.760000000000002,
+                15.080000000000002
+            ]
+        },
+        {
+            "text": "schedules.",
+            "timestamp": [
+                15.080000000000002,
+                15.56
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                15.72,
+                15.88
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                15.88,
+                16.04
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                16.04,
+                16.12
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                16.12,
+                16.200000000000003
+            ]
+        },
+        {
+            "text": "check",
+            "timestamp": [
+                16.200000000000003,
+                16.44
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                16.44,
+                16.6
+            ]
+        },
+        {
+            "text": "calendar",
+            "timestamp": [
+                16.6,
+                17.0
+            ]
+        },
+        {
+            "text": "app",
+            "timestamp": [
+                17.0,
+                17.240000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                17.240000000000002,
+                17.400000000000002
+            ]
+        },
+        {
+            "text": "email",
+            "timestamp": [
+                17.400000000000002,
+                17.8
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                17.8,
+                17.96
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                17.96,
+                18.04
+            ]
+        },
+        {
+            "text": "meeting",
+            "timestamp": [
+                18.04,
+                18.36
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                18.36,
+                18.6
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                18.84,
+                19.080000000000002
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                19.080000000000002,
+                19.16
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                19.16,
+                19.32
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                19.32,
+                19.48
+            ]
+        },
+        {
+            "text": "you'd",
+            "timestamp": [
+                19.48,
+                19.720000000000002
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                19.720000000000002,
+                19.880000000000003
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                19.880000000000003,
+                20.12
+            ]
+        },
+        {
+            "text": "organizing",
+            "timestamp": [
+                20.12,
+                20.76
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                20.76,
+                21.0
+            ]
+        },
+        {
+            "text": "setting",
+            "timestamp": [
+                21.0,
+                21.240000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.240000000000002,
+                21.48
+            ]
+        },
+        {
+            "text": "reminder.",
+            "timestamp": [
+                21.48,
+                22.44
+            ]
+        }
+    ]
+}

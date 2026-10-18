@@ -1,0 +1,166 @@
+{
+    "text": "Oh, that's cool. What were you two talking about? That sounds really heavy. That's so touching. Waving at a child during a conference.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                6.16,
+                6.48
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                6.640000000000001,
+                6.96
+            ]
+        },
+        {
+            "text": "cool.",
+            "timestamp": [
+                6.96,
+                7.28
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                7.5200000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                8.32,
+                8.88
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                8.88,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                13.200000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                13.68,
+                13.92
+            ]
+        },
+        {
+            "text": "heavy.",
+            "timestamp": [
+                13.92,
+                14.88
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                25.6,
+                26.32
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                26.32,
+                26.64
+            ]
+        },
+        {
+            "text": "touching.",
+            "timestamp": [
+                26.64,
+                27.2
+            ]
+        },
+        {
+            "text": "Waving",
+            "timestamp": [
+                27.44,
+                27.92
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                27.92,
+                28.080000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                28.080000000000002,
+                28.16
+            ]
+        },
+        {
+            "text": "child",
+            "timestamp": [
+                28.16,
+                28.400000000000002
+            ]
+        },
+        {
+            "text": "during",
+            "timestamp": [
+                28.400000000000002,
+                28.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                28.64,
+                28.72
+            ]
+        },
+        {
+            "text": "conference.",
+            "timestamp": [
+                28.72,
+                28.96
+            ]
+        }
+    ]
+}

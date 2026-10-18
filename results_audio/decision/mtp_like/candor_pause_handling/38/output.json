@@ -1,0 +1,201 @@
+{
+    "text": "That's awesome. Finals week is over. Nice. Welcome to the Summer Pro Life. Best time to get ready and crush it. What's your program about? I mean, haha.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                13.6,
+                14.0
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                14.0,
+                14.56
+            ]
+        },
+        {
+            "text": "Finals",
+            "timestamp": [
+                14.8,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "week",
+            "timestamp": [
+                15.280000000000001,
+                15.68
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                15.68,
+                15.92
+            ]
+        },
+        {
+            "text": "over.",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "Nice.",
+            "timestamp": [
+                16.48,
+                17.12
+            ]
+        },
+        {
+            "text": "Welcome",
+            "timestamp": [
+                17.44,
+                17.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.84,
+                18.0
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                18.0,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "Summer",
+            "timestamp": [
+                18.080000000000002,
+                18.48
+            ]
+        },
+        {
+            "text": "Pro",
+            "timestamp": [
+                18.48,
+                18.72
+            ]
+        },
+        {
+            "text": "Life.",
+            "timestamp": [
+                18.8,
+                19.12
+            ]
+        },
+        {
+            "text": "Best",
+            "timestamp": [
+                19.28,
+                19.6
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                19.6,
+                19.76
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                19.76,
+                19.92
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                19.92,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "ready",
+            "timestamp": [
+                20.080000000000002,
+                20.32
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                20.32,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "crush",
+            "timestamp": [
+                20.400000000000002,
+                20.72
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                20.72,
+                20.88
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                21.12,
+                21.44
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                21.44,
+                21.6
+            ]
+        },
+        {
+            "text": "program",
+            "timestamp": [
+                21.6,
+                22.0
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                22.0,
+                22.240000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                22.48,
+                22.64
+            ]
+        },
+        {
+            "text": "mean,",
+            "timestamp": [
+                22.8,
+                22.88
+            ]
+        },
+        {
+            "text": "haha.",
+            "timestamp": [
+                23.2,
+                23.6
+            ]
+        }
+    ]
+}

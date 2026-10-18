@@ -1,0 +1,117 @@
+{
+    "text": "Oh, July. Got it. So you arrived around that time and didn't know then? Makes sense.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                7.68,
+                8.0
+            ]
+        },
+        {
+            "text": "July.",
+            "timestamp": [
+                8.16,
+                8.64
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "So",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "arrived",
+            "timestamp": [
+                10.0,
+                10.48
+            ]
+        },
+        {
+            "text": "around",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                10.72,
+                10.96
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "didn't",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "then?",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "Makes",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "sense.",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        }
+    ]
+}

@@ -1,0 +1,292 @@
+{
+    "text": "Oh, cool. What did you do there? Nice. Grabbing a beer at a gas station. Aha, that's actually kind of funny and smart. You noticed the mask and thought, oh shoot, but then realized it was just a worker helping someone.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                3.84,
+                4.16
+            ]
+        },
+        {
+            "text": "cool.",
+            "timestamp": [
+                4.4,
+                4.8
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "did",
+            "timestamp": [
+                5.2,
+                5.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.44,
+                5.76
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                5.76,
+                6.08
+            ]
+        },
+        {
+            "text": "there?",
+            "timestamp": [
+                6.08,
+                6.4
+            ]
+        },
+        {
+            "text": "Nice.",
+            "timestamp": [
+                8.96,
+                9.6
+            ]
+        },
+        {
+            "text": "Grabbing",
+            "timestamp": [
+                9.84,
+                10.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "beer",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "gas",
+            "timestamp": [
+                10.8,
+                11.36
+            ]
+        },
+        {
+            "text": "station.",
+            "timestamp": [
+                11.36,
+                12.0
+            ]
+        },
+        {
+            "text": "Aha,",
+            "timestamp": [
+                19.04,
+                19.6
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                19.84,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "actually",
+            "timestamp": [
+                20.400000000000002,
+                20.72
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                20.72,
+                20.88
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                20.88,
+                20.96
+            ]
+        },
+        {
+            "text": "funny",
+            "timestamp": [
+                20.96,
+                21.28
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                21.28,
+                21.36
+            ]
+        },
+        {
+            "text": "smart.",
+            "timestamp": [
+                21.36,
+                21.6
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                21.84,
+                21.92
+            ]
+        },
+        {
+            "text": "noticed",
+            "timestamp": [
+                21.92,
+                22.240000000000002
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                22.240000000000002,
+                22.32
+            ]
+        },
+        {
+            "text": "mask",
+            "timestamp": [
+                22.32,
+                22.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                22.72,
+                23.04
+            ]
+        },
+        {
+            "text": "thought,",
+            "timestamp": [
+                23.04,
+                23.36
+            ]
+        },
+        {
+            "text": "oh",
+            "timestamp": [
+                23.68,
+                23.92
+            ]
+        },
+        {
+            "text": "shoot,",
+            "timestamp": [
+                24.080000000000002,
+                24.64
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                24.96,
+                25.12
+            ]
+        },
+        {
+            "text": "then",
+            "timestamp": [
+                25.12,
+                25.28
+            ]
+        },
+        {
+            "text": "realized",
+            "timestamp": [
+                25.28,
+                25.76
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                25.76,
+                25.92
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                25.92,
+                26.080000000000002
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                26.080000000000002,
+                26.240000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.240000000000002,
+                26.32
+            ]
+        },
+        {
+            "text": "worker",
+            "timestamp": [
+                26.32,
+                26.64
+            ]
+        },
+        {
+            "text": "helping",
+            "timestamp": [
+                26.64,
+                26.88
+            ]
+        },
+        {
+            "text": "someone.",
+            "timestamp": [
+                26.88,
+                27.04
+            ]
+        }
+    ]
+}

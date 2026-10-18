@@ -1,0 +1,75 @@
+{
+    "text": "That's absolutely magical moments like that stay with you forever.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                7.84,
+                8.48
+            ]
+        },
+        {
+            "text": "absolutely",
+            "timestamp": [
+                9.44,
+                10.4
+            ]
+        },
+        {
+            "text": "magical",
+            "timestamp": [
+                10.72,
+                11.36
+            ]
+        },
+        {
+            "text": "moments",
+            "timestamp": [
+                11.36,
+                11.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        },
+        {
+            "text": "stay",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "forever.",
+            "timestamp": [
+                12.8,
+                13.120000000000001
+            ]
+        }
+    ]
+}

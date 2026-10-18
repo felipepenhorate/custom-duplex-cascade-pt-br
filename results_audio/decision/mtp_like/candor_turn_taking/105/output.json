@@ -1,0 +1,159 @@
+{
+    "text": "Yeah, that's a fair point. Consistent, if not exciting. Like McDonald's, it's reliable, which can be comforting, even if it's not grounded.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                9.6,
+                9.92
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.4,
+                10.48
+            ]
+        },
+        {
+            "text": "fair",
+            "timestamp": [
+                10.48,
+                10.8
+            ]
+        },
+        {
+            "text": "point.",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "Consistent,",
+            "timestamp": [
+                11.28,
+                11.92
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "exciting.",
+            "timestamp": [
+                12.48,
+                12.88
+            ]
+        },
+        {
+            "text": "Like",
+            "timestamp": [
+                13.120000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "McDonald's,",
+            "timestamp": [
+                13.36,
+                14.16
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                14.32,
+                14.56
+            ]
+        },
+        {
+            "text": "reliable,",
+            "timestamp": [
+                14.56,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "which",
+            "timestamp": [
+                15.36,
+                15.52
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                15.52,
+                15.68
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                15.68,
+                15.84
+            ]
+        },
+        {
+            "text": "comforting,",
+            "timestamp": [
+                15.84,
+                16.32
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                16.4,
+                16.56
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                16.56,
+                16.64
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                16.64,
+                16.8
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                16.8,
+                16.88
+            ]
+        },
+        {
+            "text": "grounded.",
+            "timestamp": [
+                16.88,
+                17.28
+            ]
+        }
+    ]
+}

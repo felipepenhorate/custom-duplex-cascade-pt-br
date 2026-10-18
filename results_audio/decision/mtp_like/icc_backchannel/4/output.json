@@ -1,0 +1,110 @@
+{
+    "text": "That sounds tough. Language classes can be Wow, that's a big shift. Harder than Orgo.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                18.400000000000002,
+                18.64
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                18.64,
+                19.04
+            ]
+        },
+        {
+            "text": "tough.",
+            "timestamp": [
+                19.04,
+                19.36
+            ]
+        },
+        {
+            "text": "Language",
+            "timestamp": [
+                19.6,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "classes",
+            "timestamp": [
+                20.080000000000002,
+                20.48
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                20.48,
+                20.64
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                20.64,
+                20.96
+            ]
+        },
+        {
+            "text": "Wow,",
+            "timestamp": [
+                23.2,
+                23.68
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                24.0,
+                24.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.72,
+                24.96
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                24.96,
+                25.28
+            ]
+        },
+        {
+            "text": "shift.",
+            "timestamp": [
+                25.28,
+                25.68
+            ]
+        },
+        {
+            "text": "Harder",
+            "timestamp": [
+                26.0,
+                26.32
+            ]
+        },
+        {
+            "text": "than",
+            "timestamp": [
+                26.32,
+                26.48
+            ]
+        },
+        {
+            "text": "Orgo.",
+            "timestamp": [
+                26.48,
+                27.04
+            ]
+        }
+    ]
+}

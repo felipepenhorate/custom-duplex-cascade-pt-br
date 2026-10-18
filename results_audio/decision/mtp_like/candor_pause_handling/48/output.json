@@ -1,0 +1,194 @@
+{
+    "text": "Yeah, this season has been wild. Unexpected twists, crazy. Oh, I true. When most of the action is just a few teams playing a handful of games.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                6.0,
+                6.24
+            ]
+        },
+        {
+            "text": "this",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "season",
+            "timestamp": [
+                6.5600000000000005,
+                6.96
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "wild.",
+            "timestamp": [
+                7.28,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "Unexpected",
+            "timestamp": [
+                7.84,
+                8.48
+            ]
+        },
+        {
+            "text": "twists,",
+            "timestamp": [
+                8.48,
+                8.88
+            ]
+        },
+        {
+            "text": "crazy.",
+            "timestamp": [
+                8.96,
+                9.6
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                13.120000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.44,
+                13.76
+            ]
+        },
+        {
+            "text": "true.",
+            "timestamp": [
+                25.92,
+                26.400000000000002
+            ]
+        },
+        {
+            "text": "When",
+            "timestamp": [
+                26.72,
+                27.04
+            ]
+        },
+        {
+            "text": "most",
+            "timestamp": [
+                27.04,
+                27.28
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                27.28,
+                27.44
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                27.44,
+                27.68
+            ]
+        },
+        {
+            "text": "action",
+            "timestamp": [
+                27.68,
+                28.080000000000002
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                28.080000000000002,
+                28.32
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                28.32,
+                28.560000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                28.560000000000002,
+                28.72
+            ]
+        },
+        {
+            "text": "few",
+            "timestamp": [
+                28.72,
+                28.96
+            ]
+        },
+        {
+            "text": "teams",
+            "timestamp": [
+                28.96,
+                29.36
+            ]
+        },
+        {
+            "text": "playing",
+            "timestamp": [
+                29.36,
+                29.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                29.6,
+                29.76
+            ]
+        },
+        {
+            "text": "handful",
+            "timestamp": [
+                29.76,
+                30.080000000000002
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                30.080000000000002,
+                30.16
+            ]
+        },
+        {
+            "text": "games.",
+            "timestamp": [
+                30.16,
+                30.400000000000002
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "text": "You're right. There are so many.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                8.32,
+                8.8
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "There",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "many.",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        }
+    ]
+}

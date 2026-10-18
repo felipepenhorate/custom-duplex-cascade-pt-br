@@ -1,0 +1,96 @@
+{
+    "text": "If needed, of course, use a. What would you like to talk about?",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                11.992,
+                12.152000000000001
+            ]
+        },
+        {
+            "text": "needed,",
+            "timestamp": [
+                12.152000000000001,
+                12.392
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                12.712,
+                12.792
+            ]
+        },
+        {
+            "text": "course,",
+            "timestamp": [
+                12.792,
+                12.872
+            ]
+        },
+        {
+            "text": "use",
+            "timestamp": [
+                13.112,
+                13.192
+            ]
+        },
+        {
+            "text": "a.",
+            "timestamp": [
+                13.352,
+                13.432
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                13.752,
+                13.912
+            ]
+        },
+        {
+            "text": "would",
+            "timestamp": [
+                13.912,
+                14.072000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.072000000000001,
+                14.152000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                14.152000000000001,
+                14.312000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.312000000000001,
+                14.632000000000001
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                14.632000000000001,
+                14.952
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                14.952,
+                15.272
+            ]
+        }
+    ]
+}

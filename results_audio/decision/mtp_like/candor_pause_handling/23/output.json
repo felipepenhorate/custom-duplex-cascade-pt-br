@@ -1,0 +1,131 @@
+{
+    "text": "Yeah, those old logging companies played a big role in shaping the landscape, and some of them did.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                5.76,
+                6.0
+            ]
+        },
+        {
+            "text": "those",
+            "timestamp": [
+                6.4,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "old",
+            "timestamp": [
+                6.640000000000001,
+                7.04
+            ]
+        },
+        {
+            "text": "logging",
+            "timestamp": [
+                7.04,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "companies",
+            "timestamp": [
+                7.6000000000000005,
+                8.08
+            ]
+        },
+        {
+            "text": "played",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "role",
+            "timestamp": [
+                8.56,
+                8.8
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "shaping",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "landscape,",
+            "timestamp": [
+                9.44,
+                9.92
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "them",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "did.",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        }
+    ]
+}

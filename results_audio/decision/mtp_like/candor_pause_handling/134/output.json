@@ -1,0 +1,180 @@
+{
+    "text": "All right, I'm all Huh, that's fair. Thanks. That means a lot. You're not alone in it. Um Yeah, it's a tough balance. Parenting is.",
+    "chunks": [
+        {
+            "text": "All",
+            "timestamp": [
+                2.64,
+                2.88
+            ]
+        },
+        {
+            "text": "right,",
+            "timestamp": [
+                2.88,
+                3.04
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                3.2,
+                3.52
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                3.52,
+                3.68
+            ]
+        },
+        {
+            "text": "Huh,",
+            "timestamp": [
+                5.76,
+                6.16
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                6.32,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "fair.",
+            "timestamp": [
+                6.640000000000001,
+                7.12
+            ]
+        },
+        {
+            "text": "Thanks.",
+            "timestamp": [
+                7.44,
+                8.0
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "means",
+            "timestamp": [
+                8.56,
+                8.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "lot.",
+            "timestamp": [
+                9.040000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "alone",
+            "timestamp": [
+                9.92,
+                10.32
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "Um",
+            "timestamp": [
+                10.96,
+                11.28
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.4,
+                12.48
+            ]
+        },
+        {
+            "text": "tough",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "balance.",
+            "timestamp": [
+                12.72,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "Parenting",
+            "timestamp": [
+                13.36,
+                13.92
+            ]
+        },
+        {
+            "text": "is.",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        }
+    ]
+}

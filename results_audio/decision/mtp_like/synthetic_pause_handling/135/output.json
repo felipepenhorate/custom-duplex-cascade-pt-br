@@ -1,0 +1,166 @@
+{
+    "text": "How about a thriller or a comedy? Great choice. How about the something? What kind of something are we looking for? A classic?",
+    "chunks": [
+        {
+            "text": "How",
+            "timestamp": [
+                2.8000000000000003,
+                3.2
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                3.2,
+                3.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                3.36,
+                3.52
+            ]
+        },
+        {
+            "text": "thriller",
+            "timestamp": [
+                3.52,
+                4.0
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                4.0,
+                4.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.16,
+                4.24
+            ]
+        },
+        {
+            "text": "comedy?",
+            "timestamp": [
+                4.24,
+                4.72
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                4.88,
+                5.12
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                5.12,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "something?",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                9.92,
+                10.24
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "looking",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "for?",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "classic?",
+            "timestamp": [
+                11.84,
+                12.32
+            ]
+        }
+    ]
+}

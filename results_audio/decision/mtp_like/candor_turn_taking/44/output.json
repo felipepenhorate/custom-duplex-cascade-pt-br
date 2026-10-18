@@ -1,0 +1,145 @@
+{
+    "text": "You're right. Austin is definitely in the south. Even if it feels a little different from the typical southern vibe.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                5.12,
+                5.68
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                5.68,
+                5.92
+            ]
+        },
+        {
+            "text": "Austin",
+            "timestamp": [
+                6.16,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                6.640000000000001,
+                6.8
+            ]
+        },
+        {
+            "text": "definitely",
+            "timestamp": [
+                6.8,
+                7.2
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "south.",
+            "timestamp": [
+                7.5200000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "Even",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "feels",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.040000000000001,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "different",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "typical",
+            "timestamp": [
+                9.84,
+                10.16
+            ]
+        },
+        {
+            "text": "southern",
+            "timestamp": [
+                10.16,
+                10.56
+            ]
+        },
+        {
+            "text": "vibe.",
+            "timestamp": [
+                10.56,
+                10.88
+            ]
+        }
+    ]
+}

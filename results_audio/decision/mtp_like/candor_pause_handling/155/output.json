@@ -1,0 +1,187 @@
+{
+    "text": "That's great to hear. How can I help you today? Got it. Sounds like you're working with something simple or early stage. If you'd like, I'll.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                2.08,
+                2.64
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                2.64,
+                2.88
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                2.88,
+                3.12
+            ]
+        },
+        {
+            "text": "hear.",
+            "timestamp": [
+                3.12,
+                3.44
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                3.7600000000000002,
+                4.0
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                4.0,
+                4.16
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.16,
+                4.4
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                4.4,
+                4.64
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.64,
+                4.88
+            ]
+        },
+        {
+            "text": "today?",
+            "timestamp": [
+                4.88,
+                5.2
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                10.24,
+                10.64
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "working",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "simple",
+            "timestamp": [
+                12.64,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                13.040000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "early",
+            "timestamp": [
+                13.280000000000001,
+                13.6
+            ]
+        },
+        {
+            "text": "stage.",
+            "timestamp": [
+                13.6,
+                14.0
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        },
+        {
+            "text": "you'd",
+            "timestamp": [
+                14.4,
+                14.64
+            ]
+        },
+        {
+            "text": "like,",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "I'll.",
+            "timestamp": [
+                14.96,
+                15.120000000000001
+            ]
+        }
+    ]
+}

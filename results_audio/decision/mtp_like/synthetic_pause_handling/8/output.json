@@ -1,0 +1,117 @@
+{
+    "text": "I'm sorry to hear that. Sure, you can choose either a full refund or a replacement.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                2.8000000000000003,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "sorry",
+            "timestamp": [
+                3.2800000000000002,
+                3.6
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                3.6,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "hear",
+            "timestamp": [
+                3.7600000000000002,
+                4.24
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                4.24,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "Sure,",
+            "timestamp": [
+                7.04,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                7.92,
+                8.0
+            ]
+        },
+        {
+            "text": "choose",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        },
+        {
+            "text": "either",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "refund",
+            "timestamp": [
+                8.96,
+                9.44
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "replacement.",
+            "timestamp": [
+                9.76,
+                10.32
+            ]
+        }
+    ]
+}

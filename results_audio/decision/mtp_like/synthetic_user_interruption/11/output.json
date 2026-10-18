@@ -1,0 +1,397 @@
+{
+    "text": "Sure. What kind of cooking are you interested in? E.g., quick meals, baking, healthy recipes, or something specific like vegan or vegetarian? Got it. Do you mean Instagram or instant cooking? If you're talking about cooking, I can give you some quick, easy tips for instant meals or meal prep, like using one-pot recipes or meal.",
+    "chunks": [
+        {
+            "text": "Sure.",
+            "timestamp": [
+                13.032000000000002,
+                13.592000000000002
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                13.832,
+                14.072000000000001
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                14.072000000000001,
+                14.232000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                14.232000000000001,
+                14.312000000000001
+            ]
+        },
+        {
+            "text": "cooking",
+            "timestamp": [
+                14.312000000000001,
+                14.712000000000002
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                14.712000000000002,
+                14.872000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.872000000000002,
+                15.032000000000002
+            ]
+        },
+        {
+            "text": "interested",
+            "timestamp": [
+                15.032000000000002,
+                15.432000000000002
+            ]
+        },
+        {
+            "text": "in?",
+            "timestamp": [
+                15.432000000000002,
+                15.592000000000002
+            ]
+        },
+        {
+            "text": "E.g.,",
+            "timestamp": [
+                15.912000000000003,
+                16.232000000000003
+            ]
+        },
+        {
+            "text": "quick",
+            "timestamp": [
+                16.472,
+                16.712000000000003
+            ]
+        },
+        {
+            "text": "meals,",
+            "timestamp": [
+                16.712000000000003,
+                17.032000000000004
+            ]
+        },
+        {
+            "text": "baking,",
+            "timestamp": [
+                17.112000000000002,
+                17.512
+            ]
+        },
+        {
+            "text": "healthy",
+            "timestamp": [
+                17.592000000000002,
+                17.992
+            ]
+        },
+        {
+            "text": "recipes,",
+            "timestamp": [
+                17.992,
+                18.392000000000003
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                18.472,
+                18.632
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                18.632,
+                18.872
+            ]
+        },
+        {
+            "text": "specific",
+            "timestamp": [
+                18.872,
+                19.352
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                19.352,
+                19.512
+            ]
+        },
+        {
+            "text": "vegan",
+            "timestamp": [
+                19.512,
+                19.912000000000003
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                19.912000000000003,
+                19.992
+            ]
+        },
+        {
+            "text": "vegetarian?",
+            "timestamp": [
+                19.992,
+                20.632
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                21.592000000000002,
+                21.912
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                21.912,
+                22.072000000000003
+            ]
+        },
+        {
+            "text": "Do",
+            "timestamp": [
+                22.392000000000003,
+                22.552
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                22.552,
+                22.792
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                22.792,
+                23.032000000000004
+            ]
+        },
+        {
+            "text": "Instagram",
+            "timestamp": [
+                23.032000000000004,
+                23.912
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                23.912,
+                24.232
+            ]
+        },
+        {
+            "text": "instant",
+            "timestamp": [
+                24.232,
+                24.712000000000003
+            ]
+        },
+        {
+            "text": "cooking?",
+            "timestamp": [
+                24.712000000000003,
+                25.032000000000004
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                25.272000000000002,
+                25.352000000000004
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                25.352000000000004,
+                25.512
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                25.512,
+                25.752000000000002
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                25.752000000000002,
+                25.912000000000003
+            ]
+        },
+        {
+            "text": "cooking,",
+            "timestamp": [
+                25.912000000000003,
+                26.312
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                26.552,
+                26.632
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                26.632,
+                26.792
+            ]
+        },
+        {
+            "text": "give",
+            "timestamp": [
+                26.792,
+                26.872
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                26.872,
+                27.032000000000004
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                27.032000000000004,
+                27.192
+            ]
+        },
+        {
+            "text": "quick,",
+            "timestamp": [
+                27.192,
+                27.432000000000002
+            ]
+        },
+        {
+            "text": "easy",
+            "timestamp": [
+                27.512,
+                27.832
+            ]
+        },
+        {
+            "text": "tips",
+            "timestamp": [
+                27.832,
+                28.152
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                28.152,
+                28.312
+            ]
+        },
+        {
+            "text": "instant",
+            "timestamp": [
+                28.312,
+                28.712000000000003
+            ]
+        },
+        {
+            "text": "meals",
+            "timestamp": [
+                28.712000000000003,
+                28.952
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                28.952,
+                29.112000000000002
+            ]
+        },
+        {
+            "text": "meal",
+            "timestamp": [
+                29.112000000000002,
+                29.432000000000002
+            ]
+        },
+        {
+            "text": "prep,",
+            "timestamp": [
+                29.432000000000002,
+                29.752000000000002
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                29.912000000000003,
+                30.152
+            ]
+        },
+        {
+            "text": "using",
+            "timestamp": [
+                30.152,
+                30.392000000000003
+            ]
+        },
+        {
+            "text": "one-pot",
+            "timestamp": [
+                30.392000000000003,
+                30.872000000000003
+            ]
+        },
+        {
+            "text": "recipes",
+            "timestamp": [
+                30.872000000000003,
+                31.192
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                31.192,
+                31.272000000000002
+            ]
+        },
+        {
+            "text": "meal.",
+            "timestamp": [
+                31.272000000000002,
+                31.432000000000002
+            ]
+        }
+    ]
+}

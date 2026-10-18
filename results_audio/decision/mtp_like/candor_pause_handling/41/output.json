@@ -1,0 +1,82 @@
+{
+    "text": "Haha, you're right. Definitely East Coast vibes. Hushman. Oh, October. Perfect.",
+    "chunks": [
+        {
+            "text": "Haha,",
+            "timestamp": [
+                4.96,
+                5.76
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                6.0,
+                6.4
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "Definitely",
+            "timestamp": [
+                6.8,
+                7.36
+            ]
+        },
+        {
+            "text": "East",
+            "timestamp": [
+                7.36,
+                7.68
+            ]
+        },
+        {
+            "text": "Coast",
+            "timestamp": [
+                7.68,
+                8.0
+            ]
+        },
+        {
+            "text": "vibes.",
+            "timestamp": [
+                8.0,
+                8.48
+            ]
+        },
+        {
+            "text": "Hushman.",
+            "timestamp": [
+                8.72,
+                9.52
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "October.",
+            "timestamp": [
+                10.0,
+                10.48
+            ]
+        },
+        {
+            "text": "Perfect.",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        }
+    ]
+}

@@ -1,0 +1,215 @@
+{
+    "text": "I'm sorry, but I can't provide real-time or future weather forecasts. You'll want to check a weather service like Weather.com, BBC Weather, or your phone's weather app for tomorrow's forecast.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                12.120000000000001,
+                12.68
+            ]
+        },
+        {
+            "text": "sorry,",
+            "timestamp": [
+                12.68,
+                13.08
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                13.32,
+                13.56
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.56,
+                13.72
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                13.72,
+                14.04
+            ]
+        },
+        {
+            "text": "provide",
+            "timestamp": [
+                14.04,
+                14.36
+            ]
+        },
+        {
+            "text": "real-time",
+            "timestamp": [
+                14.36,
+                14.92
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                14.92,
+                15.08
+            ]
+        },
+        {
+            "text": "future",
+            "timestamp": [
+                15.08,
+                15.48
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                15.48,
+                15.8
+            ]
+        },
+        {
+            "text": "forecasts.",
+            "timestamp": [
+                15.8,
+                16.52
+            ]
+        },
+        {
+            "text": "You'll",
+            "timestamp": [
+                16.84,
+                17.16
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                17.16,
+                17.32
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.32,
+                17.4
+            ]
+        },
+        {
+            "text": "check",
+            "timestamp": [
+                17.4,
+                17.560000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.560000000000002,
+                17.72
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                17.72,
+                17.96
+            ]
+        },
+        {
+            "text": "service",
+            "timestamp": [
+                17.96,
+                18.28
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                18.28,
+                18.52
+            ]
+        },
+        {
+            "text": "Weather.com,",
+            "timestamp": [
+                18.52,
+                19.48
+            ]
+        },
+        {
+            "text": "BBC",
+            "timestamp": [
+                19.560000000000002,
+                20.200000000000003
+            ]
+        },
+        {
+            "text": "Weather,",
+            "timestamp": [
+                20.200000000000003,
+                20.439999999999998
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                20.84,
+                21.0
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                21.0,
+                21.16
+            ]
+        },
+        {
+            "text": "phone's",
+            "timestamp": [
+                21.16,
+                21.48
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                21.48,
+                21.72
+            ]
+        },
+        {
+            "text": "app",
+            "timestamp": [
+                21.72,
+                21.96
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                21.96,
+                22.12
+            ]
+        },
+        {
+            "text": "tomorrow's",
+            "timestamp": [
+                22.12,
+                22.6
+            ]
+        },
+        {
+            "text": "forecast.",
+            "timestamp": [
+                22.6,
+                23.16
+            ]
+        }
+    ]
+}

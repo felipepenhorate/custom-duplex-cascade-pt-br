@@ -1,0 +1,278 @@
+{
+    "text": "I don't have access to your emails or personal data, so I can't see or receive your messages. If you're asking whether I'm seeing your email, the answer is no, I don't monitor or read emails, but feel free.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.72,
+                3.04
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                3.04,
+                3.36
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                3.36,
+                3.6
+            ]
+        },
+        {
+            "text": "access",
+            "timestamp": [
+                3.6,
+                4.0
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                4.0,
+                4.24
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "emails",
+            "timestamp": [
+                4.48,
+                5.12
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                5.12,
+                5.36
+            ]
+        },
+        {
+            "text": "personal",
+            "timestamp": [
+                5.36,
+                5.76
+            ]
+        },
+        {
+            "text": "data,",
+            "timestamp": [
+                5.76,
+                6.08
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                6.640000000000001,
+                6.96
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                6.96,
+                7.2
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "receive",
+            "timestamp": [
+                7.36,
+                7.68
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "messages.",
+            "timestamp": [
+                7.84,
+                8.24
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                8.8,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "whether",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "seeing",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "email,",
+            "timestamp": [
+                9.92,
+                10.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "answer",
+            "timestamp": [
+                10.56,
+                10.96
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "no,",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        },
+        {
+            "text": "monitor",
+            "timestamp": [
+                12.4,
+                12.96
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "read",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "emails,",
+            "timestamp": [
+                13.44,
+                14.16
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                14.48,
+                14.8
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                14.8,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "free.",
+            "timestamp": [
+                15.120000000000001,
+                15.6
+            ]
+        }
+    ]
+}

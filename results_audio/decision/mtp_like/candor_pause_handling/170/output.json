@@ -1,0 +1,124 @@
+{
+    "text": "Hi there. Yeah. Em. Sounds like you're wondering if something will happen randomly or if there's a",
+    "chunks": [
+        {
+            "text": "Hi",
+            "timestamp": [
+                2.16,
+                2.56
+            ]
+        },
+        {
+            "text": "there.",
+            "timestamp": [
+                2.72,
+                3.04
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                3.6,
+                3.84
+            ]
+        },
+        {
+            "text": "Em.",
+            "timestamp": [
+                8.64,
+                8.96
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                9.44,
+                9.76
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "wondering",
+            "timestamp": [
+                10.08,
+                10.48
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "will",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "happen",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "randomly",
+            "timestamp": [
+                11.36,
+                11.84
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                12.08,
+                12.16
+            ]
+        },
+        {
+            "text": "there's",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        }
+    ]
+}

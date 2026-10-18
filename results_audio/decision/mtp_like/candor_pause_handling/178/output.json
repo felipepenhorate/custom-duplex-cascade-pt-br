@@ -1,0 +1,229 @@
+{
+    "text": "That sounds cool. Did you see any great live bands in Manhattan? Nice. Walking around and seeing people dance is that such a powerful feeling, like you were living in the moment.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                3.7600000000000002,
+                4.08
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                4.08,
+                4.48
+            ]
+        },
+        {
+            "text": "cool.",
+            "timestamp": [
+                4.48,
+                4.8
+            ]
+        },
+        {
+            "text": "Did",
+            "timestamp": [
+                5.04,
+                5.28
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.28,
+                5.36
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                5.5200000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                5.68,
+                5.92
+            ]
+        },
+        {
+            "text": "live",
+            "timestamp": [
+                5.92,
+                6.16
+            ]
+        },
+        {
+            "text": "bands",
+            "timestamp": [
+                6.16,
+                6.48
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "Manhattan?",
+            "timestamp": [
+                6.640000000000001,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "Nice.",
+            "timestamp": [
+                8.24,
+                8.72
+            ]
+        },
+        {
+            "text": "Walking",
+            "timestamp": [
+                8.96,
+                9.44
+            ]
+        },
+        {
+            "text": "around",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "seeing",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "dance",
+            "timestamp": [
+                10.32,
+                10.8
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.8,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                13.36,
+                13.68
+            ]
+        },
+        {
+            "text": "such",
+            "timestamp": [
+                14.16,
+                14.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.4,
+                14.56
+            ]
+        },
+        {
+            "text": "powerful",
+            "timestamp": [
+                14.56,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "feeling,",
+            "timestamp": [
+                15.120000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                15.6,
+                15.76
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.76,
+                15.92
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                15.92,
+                16.0
+            ]
+        },
+        {
+            "text": "living",
+            "timestamp": [
+                16.0,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                16.240000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.32,
+                16.4
+            ]
+        },
+        {
+            "text": "moment.",
+            "timestamp": [
+                16.4,
+                16.56
+            ]
+        }
+    ]
+}

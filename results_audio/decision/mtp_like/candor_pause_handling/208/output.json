@@ -1,0 +1,173 @@
+{
+    "text": "That's totally fine. Many happy marriages happen without kids. Got it. What's your life like that? Thanks for sharing. How have things been lately?",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.52,
+                4.0
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                4.0,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "fine.",
+            "timestamp": [
+                4.5600000000000005,
+                4.88
+            ]
+        },
+        {
+            "text": "Many",
+            "timestamp": [
+                5.2,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "happy",
+            "timestamp": [
+                5.5200000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "marriages",
+            "timestamp": [
+                5.76,
+                6.32
+            ]
+        },
+        {
+            "text": "happen",
+            "timestamp": [
+                6.32,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "without",
+            "timestamp": [
+                6.5600000000000005,
+                6.88
+            ]
+        },
+        {
+            "text": "kids.",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                7.44,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                7.84,
+                7.92
+            ]
+        },
+        {
+            "text": "life",
+            "timestamp": [
+                7.92,
+                8.0
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                8.08,
+                8.16
+            ]
+        },
+        {
+            "text": "that?",
+            "timestamp": [
+                8.24,
+                8.24
+            ]
+        },
+        {
+            "text": "Thanks",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "sharing.",
+            "timestamp": [
+                8.8,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "things",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "lately?",
+            "timestamp": [
+                10.32,
+                11.040000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "text": "Yeah, Columbia is in New York.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "Columbia",
+            "timestamp": [
+                6.96,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                7.5200000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                7.68,
+                7.76
+            ]
+        },
+        {
+            "text": "New",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "York.",
+            "timestamp": [
+                7.92,
+                8.32
+            ]
+        }
+    ]
+}

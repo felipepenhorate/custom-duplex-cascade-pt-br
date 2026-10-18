@@ -1,0 +1,173 @@
+{
+    "text": "Wow, that's oh wow, fifteen times? You're right. Such a small space, and yet something's so loud and off. It feels like a moment.",
+    "chunks": [
+        {
+            "text": "Wow,",
+            "timestamp": [
+                33.2,
+                33.84
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                34.160000000000004,
+                34.88
+            ]
+        },
+        {
+            "text": "oh",
+            "timestamp": [
+                35.2,
+                35.44
+            ]
+        },
+        {
+            "text": "wow,",
+            "timestamp": [
+                35.52,
+                35.84
+            ]
+        },
+        {
+            "text": "fifteen",
+            "timestamp": [
+                36.0,
+                36.64
+            ]
+        },
+        {
+            "text": "times?",
+            "timestamp": [
+                36.64,
+                37.2
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                40.08,
+                40.480000000000004
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                40.480000000000004,
+                40.64
+            ]
+        },
+        {
+            "text": "Such",
+            "timestamp": [
+                40.88,
+                41.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                41.12,
+                41.28
+            ]
+        },
+        {
+            "text": "small",
+            "timestamp": [
+                41.28,
+                41.52
+            ]
+        },
+        {
+            "text": "space,",
+            "timestamp": [
+                41.52,
+                41.84
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                42.08,
+                42.24
+            ]
+        },
+        {
+            "text": "yet",
+            "timestamp": [
+                42.24,
+                42.4
+            ]
+        },
+        {
+            "text": "something's",
+            "timestamp": [
+                42.480000000000004,
+                42.800000000000004
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                42.800000000000004,
+                43.04
+            ]
+        },
+        {
+            "text": "loud",
+            "timestamp": [
+                43.04,
+                43.36
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                43.36,
+                43.52
+            ]
+        },
+        {
+            "text": "off.",
+            "timestamp": [
+                43.52,
+                43.84
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                44.0,
+                44.160000000000004
+            ]
+        },
+        {
+            "text": "feels",
+            "timestamp": [
+                44.160000000000004,
+                44.32
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                44.32,
+                44.480000000000004
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                44.480000000000004,
+                44.56
+            ]
+        },
+        {
+            "text": "moment.",
+            "timestamp": [
+                44.56,
+                44.800000000000004
+            ]
+        }
+    ]
+}

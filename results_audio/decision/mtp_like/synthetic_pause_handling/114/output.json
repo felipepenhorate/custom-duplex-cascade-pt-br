@@ -1,0 +1,103 @@
+{
+    "text": "That's awesome. Aha, that sounds like a fun cooking sketch. Maybe you're describing it.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.12,
+                3.6
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                3.6,
+                4.72
+            ]
+        },
+        {
+            "text": "Aha,",
+            "timestamp": [
+                9.200000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "fun",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "cooking",
+            "timestamp": [
+                11.120000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "sketch.",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "describing",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                12.64,
+                12.64
+            ]
+        }
+    ]
+}

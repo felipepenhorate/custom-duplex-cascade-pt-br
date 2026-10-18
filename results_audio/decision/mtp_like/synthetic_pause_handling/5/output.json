@@ -1,0 +1,61 @@
+{
+    "text": "Hike. Fresh air, nature, and great views. Perfect.",
+    "chunks": [
+        {
+            "text": "Hike.",
+            "timestamp": [
+                9.200000000000001,
+                9.76
+            ]
+        },
+        {
+            "text": "Fresh",
+            "timestamp": [
+                10.0,
+                10.4
+            ]
+        },
+        {
+            "text": "air,",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "nature,",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "views.",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "Perfect.",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        }
+    ]
+}

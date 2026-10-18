@@ -1,0 +1,33 @@
+{
+    "text": "Yeah, that makes sense.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                9.28,
+                9.6
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "makes",
+            "timestamp": [
+                10.0,
+                10.4
+            ]
+        },
+        {
+            "text": "sense.",
+            "timestamp": [
+                10.4,
+                11.040000000000001
+            ]
+        }
+    ]
+}

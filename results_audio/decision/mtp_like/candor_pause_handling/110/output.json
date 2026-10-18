@@ -1,0 +1,54 @@
+{
+    "text": "Yeah, sometimes things don't. Wow, that's incredible.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                2.64,
+                2.88
+            ]
+        },
+        {
+            "text": "sometimes",
+            "timestamp": [
+                3.12,
+                3.6
+            ]
+        },
+        {
+            "text": "things",
+            "timestamp": [
+                3.6,
+                3.84
+            ]
+        },
+        {
+            "text": "don't.",
+            "timestamp": [
+                3.84,
+                4.16
+            ]
+        },
+        {
+            "text": "Wow,",
+            "timestamp": [
+                9.52,
+                9.92
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "incredible.",
+            "timestamp": [
+                10.4,
+                11.040000000000001
+            ]
+        }
+    ]
+}

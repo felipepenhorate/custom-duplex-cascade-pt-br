@@ -1,0 +1,138 @@
+{
+    "text": "Hmm, that's an interesting observation. I don't actually have a robotic voice, my audio is just a simple voice.",
+    "chunks": [
+        {
+            "text": "Hmm,",
+            "timestamp": [
+                6.96,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                8.0,
+                8.16
+            ]
+        },
+        {
+            "text": "interesting",
+            "timestamp": [
+                8.16,
+                8.56
+            ]
+        },
+        {
+            "text": "observation.",
+            "timestamp": [
+                8.56,
+                9.36
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                9.84,
+                10.16
+            ]
+        },
+        {
+            "text": "actually",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "robotic",
+            "timestamp": [
+                10.8,
+                11.36
+            ]
+        },
+        {
+            "text": "voice,",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "audio",
+            "timestamp": [
+                12.08,
+                12.48
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                12.48,
+                12.56
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.72,
+                12.8
+            ]
+        },
+        {
+            "text": "simple",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "voice.",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        }
+    ]
+}

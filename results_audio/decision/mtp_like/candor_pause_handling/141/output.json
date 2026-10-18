@@ -1,0 +1,82 @@
+{
+    "text": "That's a really important point. Many people don't see the full.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                11.200000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        },
+        {
+            "text": "point.",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "Many",
+            "timestamp": [
+                12.88,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                13.44,
+                13.6
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                13.6,
+                13.76
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                13.76,
+                14.0
+            ]
+        },
+        {
+            "text": "full.",
+            "timestamp": [
+                14.0,
+                14.32
+            ]
+        }
+    ]
+}

@@ -1,0 +1,257 @@
+{
+    "text": "Em. I don't know if you left your umbrella here. Maybe you did, maybe you didn't. But I'm not actually in a place where you could leave things. If you're wondering about your umbrella, just check.",
+    "chunks": [
+        {
+            "text": "Em.",
+            "timestamp": [
+                14.248,
+                14.568
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                15.048,
+                15.208
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                15.208,
+                15.368
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                15.368,
+                15.527999999999999
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                15.527999999999999,
+                15.608
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.608,
+                15.687999999999999
+            ]
+        },
+        {
+            "text": "left",
+            "timestamp": [
+                15.687999999999999,
+                15.847999999999999
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                15.847999999999999,
+                16.008
+            ]
+        },
+        {
+            "text": "umbrella",
+            "timestamp": [
+                16.008,
+                16.728
+            ]
+        },
+        {
+            "text": "here.",
+            "timestamp": [
+                16.728,
+                17.048000000000002
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                17.368,
+                17.768
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.768,
+                17.928
+            ]
+        },
+        {
+            "text": "did,",
+            "timestamp": [
+                17.928,
+                18.088
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                18.247999999999998,
+                18.488
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                18.488,
+                18.648
+            ]
+        },
+        {
+            "text": "didn't.",
+            "timestamp": [
+                18.648,
+                19.048000000000002
+            ]
+        },
+        {
+            "text": "But",
+            "timestamp": [
+                19.368,
+                19.528
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                19.528,
+                19.768
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                19.768,
+                19.928
+            ]
+        },
+        {
+            "text": "actually",
+            "timestamp": [
+                19.928,
+                20.168
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                20.168,
+                20.328
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.328,
+                20.488
+            ]
+        },
+        {
+            "text": "place",
+            "timestamp": [
+                20.488,
+                20.648
+            ]
+        },
+        {
+            "text": "where",
+            "timestamp": [
+                20.648,
+                20.808
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                20.808,
+                20.968
+            ]
+        },
+        {
+            "text": "could",
+            "timestamp": [
+                20.968,
+                21.128
+            ]
+        },
+        {
+            "text": "leave",
+            "timestamp": [
+                21.128,
+                21.368000000000002
+            ]
+        },
+        {
+            "text": "things.",
+            "timestamp": [
+                21.368000000000002,
+                21.528
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                21.768,
+                21.927999999999997
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                21.927999999999997,
+                22.088
+            ]
+        },
+        {
+            "text": "wondering",
+            "timestamp": [
+                22.088,
+                22.408
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                22.408,
+                22.567999999999998
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                22.567999999999998,
+                22.728
+            ]
+        },
+        {
+            "text": "umbrella,",
+            "timestamp": [
+                22.728,
+                23.288
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                23.448,
+                23.688000000000002
+            ]
+        },
+        {
+            "text": "check.",
+            "timestamp": [
+                23.688000000000002,
+                24.567999999999998
+            ]
+        }
+    ]
+}

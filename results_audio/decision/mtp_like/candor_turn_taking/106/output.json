@@ -1,0 +1,131 @@
+{
+    "text": "I'm not sure I follow the conversation. Could you clarify or rephrase your question? I'm here to help.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                9.120000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "follow",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "conversation.",
+            "timestamp": [
+                10.64,
+                11.44
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                11.76,
+                12.08
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "clarify",
+            "timestamp": [
+                12.24,
+                12.88
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "rephrase",
+            "timestamp": [
+                13.040000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                13.68,
+                13.92
+            ]
+        },
+        {
+            "text": "question?",
+            "timestamp": [
+                13.92,
+                14.16
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                14.4,
+                14.64
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.8,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "help.",
+            "timestamp": [
+                15.040000000000001,
+                15.280000000000001
+            ]
+        }
+    ]
+}

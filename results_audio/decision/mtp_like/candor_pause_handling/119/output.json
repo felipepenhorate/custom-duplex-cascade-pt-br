@@ -1,0 +1,89 @@
+{
+    "text": "Good point. Sometimes it's just overlap, other times there's a clearer overlap.",
+    "chunks": [
+        {
+            "text": "Good",
+            "timestamp": [
+                8.64,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "point.",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "Sometimes",
+            "timestamp": [
+                9.6,
+                10.0
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "overlap,",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "other",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "times",
+            "timestamp": [
+                11.120000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "there's",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.44,
+                11.52
+            ]
+        },
+        {
+            "text": "clearer",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "overlap.",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        }
+    ]
+}

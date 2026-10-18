@@ -1,0 +1,145 @@
+{
+    "text": "That's totally fine. I don't need your number at all. Got it. Fair enough. I completely respect that. No numbers?",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.92,
+                4.4
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                4.4,
+                4.88
+            ]
+        },
+        {
+            "text": "fine.",
+            "timestamp": [
+                4.88,
+                5.28
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                5.76,
+                6.0
+            ]
+        },
+        {
+            "text": "need",
+            "timestamp": [
+                6.0,
+                6.16
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                6.16,
+                6.4
+            ]
+        },
+        {
+            "text": "number",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "all.",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                7.44,
+                7.68
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "Fair",
+            "timestamp": [
+                10.72,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "enough.",
+            "timestamp": [
+                11.120000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "completely",
+            "timestamp": [
+                12.08,
+                12.72
+            ]
+        },
+        {
+            "text": "respect",
+            "timestamp": [
+                12.72,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "No",
+            "timestamp": [
+                13.76,
+                14.0
+            ]
+        },
+        {
+            "text": "numbers?",
+            "timestamp": [
+                14.0,
+                14.32
+            ]
+        }
+    ]
+}

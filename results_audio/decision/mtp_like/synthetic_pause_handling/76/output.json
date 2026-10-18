@@ -1,0 +1,89 @@
+{
+    "text": "Sounds like a busy day. Good luck with the meeting and presentation.",
+    "chunks": [
+        {
+            "text": "Sounds",
+            "timestamp": [
+                6.640000000000001,
+                7.2
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.36,
+                7.44
+            ]
+        },
+        {
+            "text": "busy",
+            "timestamp": [
+                7.44,
+                8.16
+            ]
+        },
+        {
+            "text": "day.",
+            "timestamp": [
+                8.16,
+                8.48
+            ]
+        },
+        {
+            "text": "Good",
+            "timestamp": [
+                9.44,
+                9.76
+            ]
+        },
+        {
+            "text": "luck",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "meeting",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "presentation.",
+            "timestamp": [
+                10.72,
+                11.28
+            ]
+        }
+    ]
+}

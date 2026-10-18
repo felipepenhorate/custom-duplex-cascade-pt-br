@@ -1,0 +1,152 @@
+{
+    "text": "Haha, you're right. Alaska is full of people, especially when it is interesting. It does seem like younger generations in Alaska.",
+    "chunks": [
+        {
+            "text": "Haha,",
+            "timestamp": [
+                5.44,
+                6.08
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                6.24,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                6.640000000000001,
+                6.88
+            ]
+        },
+        {
+            "text": "Alaska",
+            "timestamp": [
+                7.12,
+                7.76
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                7.92,
+                8.24
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "people,",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "especially",
+            "timestamp": [
+                8.96,
+                9.44
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                14.32,
+                14.64
+            ]
+        },
+        {
+            "text": "interesting.",
+            "timestamp": [
+                14.64,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                15.44,
+                15.6
+            ]
+        },
+        {
+            "text": "does",
+            "timestamp": [
+                15.6,
+                15.84
+            ]
+        },
+        {
+            "text": "seem",
+            "timestamp": [
+                15.84,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                16.080000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "younger",
+            "timestamp": [
+                16.32,
+                16.64
+            ]
+        },
+        {
+            "text": "generations",
+            "timestamp": [
+                16.64,
+                16.96
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                16.96,
+                17.04
+            ]
+        },
+        {
+            "text": "Alaska.",
+            "timestamp": [
+                17.04,
+                17.36
+            ]
+        }
+    ]
+}

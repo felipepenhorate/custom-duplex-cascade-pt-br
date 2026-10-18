@@ -316,12 +316,42 @@ score the audio that comes out. Design and run instructions are in
   gate and the model, not a property of the model alone. The text bench could not
   see this because its `ends_turn` came from the annotation.
 
-**Partial validation, in flight at the time of writing.** Over the first 94
-candor_pause_handling scenarios, the upstream checkpoint's speak rate is **0.17**
-against the 0.222 published `pause_candor` TOR — the same order, on 94 of 216
-samples. The stream itself measured: user pieces average **2.92 words** (median 3,
-max 7) against the training distribution's 2.19/3/7, and STT costs 0.12 s per
-scenario — the pipeline's time goes to the LLM and pocket-tts, not to ASR.
+**The result (all four models, 727 scenarios each, complete).** The upstream
+checkpoint reproduces its published row through the real audio path and the
+benchmark's own evaluators: pause 0.088/0.190 against 0.058/0.222 published,
+backchannel TOR 0.182 / frequency 0.007 / JSD 0.964 against 0.218 / 0.009 /
+0.949, smooth-turn latency 1.48 against 1.72, interruption TOR 0.945 against
+0.955, relevance 3.67 against 4.016 (local judge), interruption latency 1.46
+against 1.23. Ten of eleven columns land in range. The exception is smooth
+turn-taking TOR 0.630 against 0.832, and it is not a missing invitation: in all
+43 failures the model answered "user is speaking" at every one of up to 12
+silence ticks. It locks into a wait pattern on fragmentary real conversation,
+which the synthetic dialogues of the text bench never presented (there it scored
+1.000).
+
+ATA (the project's convention, `metrics.averaged_turn_taking_accuracy`):
+**Original 0.824, Distill 0.704, SFT 0.564, companion 0.519** — against the
+upstream's own published 0.858. The text-domain ordering does not survive real
+audio at all: in text the three pt-BR variants beat the upstream model (0.986 /
+0.984 / 0.924 against 0.951) and on audio all three lose to it. The cause is the
+invitation, measured per invitation rather than per scenario: the upstream model
+takes the floor at 7.9% of turn-end invitations in audio and 11.9% in text, while
+the pt-BR models jump from ~8.6% in text to 29-44% in audio. On fragmentary
+English audio they cannot tell an unfinished turn from a finished one, so they
+claim the floor at every second or third gap.
+
+The companion shows the inversion most sharply: best in text (0.984), worst in
+audio (0.519) — but once it does speak its behaviour is the best of the four
+(interruption relevance 4.396 against the published 4.016, smooth-turn latency
+0.612 s, backchannel frequency 0.111 and JSD 0.722 against the published 0.009 /
+0.949).
+
+Pipeline timing, over 727 scenarios per model: STT 0.08-0.35 s (whisper on short
+utterance buffers is not the bottleneck), pocket-tts 1.1-12 s, the LLM 0.7-8.9 s.
+The ASR cadence still gates everything: the deployed 0.6 s partial interval plus
+the 0.6 s silence gate mean a reply cannot start sooner than ~1.2 s after the
+user stops, which is why 2.8-16.8% of replies in the pt-BR runs begin after the
+input ends.
 
 ### Anchoring strength vs capability retention
 

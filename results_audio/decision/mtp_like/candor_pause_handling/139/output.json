@@ -1,0 +1,131 @@
+{
+    "text": "Nice to hear. That's cool. Wow, that's such a great service. Fifteen bucks for daily cat care every.",
+    "chunks": [
+        {
+            "text": "Nice",
+            "timestamp": [
+                3.92,
+                4.32
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                4.32,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "hear.",
+            "timestamp": [
+                4.5600000000000005,
+                4.88
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                9.28,
+                9.68
+            ]
+        },
+        {
+            "text": "cool.",
+            "timestamp": [
+                9.68,
+                10.16
+            ]
+        },
+        {
+            "text": "Wow,",
+            "timestamp": [
+                15.6,
+                16.0
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                16.16,
+                16.56
+            ]
+        },
+        {
+            "text": "such",
+            "timestamp": [
+                16.56,
+                16.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.72,
+                16.88
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                16.88,
+                17.12
+            ]
+        },
+        {
+            "text": "service.",
+            "timestamp": [
+                17.12,
+                17.52
+            ]
+        },
+        {
+            "text": "Fifteen",
+            "timestamp": [
+                17.84,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "bucks",
+            "timestamp": [
+                18.240000000000002,
+                18.48
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                18.48,
+                18.64
+            ]
+        },
+        {
+            "text": "daily",
+            "timestamp": [
+                18.64,
+                18.88
+            ]
+        },
+        {
+            "text": "cat",
+            "timestamp": [
+                18.88,
+                19.12
+            ]
+        },
+        {
+            "text": "care",
+            "timestamp": [
+                19.12,
+                19.44
+            ]
+        },
+        {
+            "text": "every.",
+            "timestamp": [
+                19.44,
+                19.52
+            ]
+        }
+    ]
+}

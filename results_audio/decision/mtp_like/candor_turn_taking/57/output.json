@@ -1,0 +1,201 @@
+{
+    "text": "That's nice. South Alabama has a great vibe. Warm weather, friendly people, and lots of outdoor activities. What part of South Alabama are you in? Oh, that's cool.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.12,
+                3.6
+            ]
+        },
+        {
+            "text": "nice.",
+            "timestamp": [
+                3.6,
+                4.0
+            ]
+        },
+        {
+            "text": "South",
+            "timestamp": [
+                4.24,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "Alabama",
+            "timestamp": [
+                4.5600000000000005,
+                5.12
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.28,
+                5.44
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                5.44,
+                5.68
+            ]
+        },
+        {
+            "text": "vibe.",
+            "timestamp": [
+                5.68,
+                6.08
+            ]
+        },
+        {
+            "text": "Warm",
+            "timestamp": [
+                6.32,
+                6.72
+            ]
+        },
+        {
+            "text": "weather,",
+            "timestamp": [
+                6.72,
+                7.04
+            ]
+        },
+        {
+            "text": "friendly",
+            "timestamp": [
+                7.2,
+                7.76
+            ]
+        },
+        {
+            "text": "people,",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "lots",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "outdoor",
+            "timestamp": [
+                8.72,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "activities.",
+            "timestamp": [
+                9.200000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "part",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "South",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "Alabama",
+            "timestamp": [
+                10.72,
+                11.28
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "in?",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                12.56,
+                12.64
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "cool.",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        }
+    ]
+}

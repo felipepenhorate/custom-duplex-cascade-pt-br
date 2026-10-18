@@ -1,0 +1,82 @@
+{
+    "text": "That sounds fun. Comedy for a good laugh or drama for.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                6.08,
+                6.4
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                6.5600000000000005,
+                6.96
+            ]
+        },
+        {
+            "text": "fun.",
+            "timestamp": [
+                6.96,
+                7.2
+            ]
+        },
+        {
+            "text": "Comedy",
+            "timestamp": [
+                7.36,
+                7.84
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.0,
+                8.08
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                8.08,
+                8.16
+            ]
+        },
+        {
+            "text": "laugh",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "drama",
+            "timestamp": [
+                8.64,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "for.",
+            "timestamp": [
+                9.040000000000001,
+                9.200000000000001
+            ]
+        }
+    ]
+}

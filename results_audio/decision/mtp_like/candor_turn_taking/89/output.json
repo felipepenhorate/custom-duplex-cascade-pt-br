@@ -1,0 +1,68 @@
+{
+    "text": "Thanks for the chat. Have a great day. Chumend.",
+    "chunks": [
+        {
+            "text": "Thanks",
+            "timestamp": [
+                6.0,
+                6.4
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "chat.",
+            "timestamp": [
+                6.8,
+                7.12
+            ]
+        },
+        {
+            "text": "Have",
+            "timestamp": [
+                7.44,
+                7.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.68,
+                7.92
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                7.92,
+                8.24
+            ]
+        },
+        {
+            "text": "day.",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "Chumend.",
+            "timestamp": [
+                9.200000000000001,
+                10.0
+            ]
+        }
+    ]
+}

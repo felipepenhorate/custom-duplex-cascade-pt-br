@@ -1,0 +1,82 @@
+{
+    "text": "Got it. I'll make the conclusion sharper and more memorable. Thanks.",
+    "chunks": [
+        {
+            "text": "Got",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "I'll",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "conclusion",
+            "timestamp": [
+                9.84,
+                10.4
+            ]
+        },
+        {
+            "text": "sharper",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "memorable.",
+            "timestamp": [
+                11.120000000000001,
+                11.68
+            ]
+        },
+        {
+            "text": "Thanks.",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        }
+    ]
+}

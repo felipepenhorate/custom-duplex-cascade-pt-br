@@ -1,0 +1,47 @@
+{
+    "text": "That's really unfair, showing up consistently.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                11.84,
+                12.64
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        },
+        {
+            "text": "unfair,",
+            "timestamp": [
+                12.96,
+                13.68
+            ]
+        },
+        {
+            "text": "showing",
+            "timestamp": [
+                13.92,
+                14.24
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                14.24,
+                14.48
+            ]
+        },
+        {
+            "text": "consistently.",
+            "timestamp": [
+                14.48,
+                14.96
+            ]
+        }
+    ]
+}

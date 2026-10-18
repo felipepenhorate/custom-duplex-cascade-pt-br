@@ -1,0 +1,187 @@
+{
+    "text": "I'm sorry you're That sounds really intense. Oh, that's heavy. When everyone knows your every move, it can feel like you're constantly on display. No privacy.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                1.44,
+                1.76
+            ]
+        },
+        {
+            "text": "sorry",
+            "timestamp": [
+                1.76,
+                1.92
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                2.0,
+                2.24
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                6.96,
+                7.2
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                7.2,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                7.5200000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "intense.",
+            "timestamp": [
+                7.84,
+                8.4
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                10.8,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "heavy.",
+            "timestamp": [
+                11.44,
+                11.84
+            ]
+        },
+        {
+            "text": "When",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "everyone",
+            "timestamp": [
+                12.16,
+                12.48
+            ]
+        },
+        {
+            "text": "knows",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "every",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "move,",
+            "timestamp": [
+                13.040000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                13.44,
+                13.52
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                13.84,
+                14.0
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                14.0,
+                14.24
+            ]
+        },
+        {
+            "text": "constantly",
+            "timestamp": [
+                14.24,
+                14.72
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                14.72,
+                14.88
+            ]
+        },
+        {
+            "text": "display.",
+            "timestamp": [
+                14.88,
+                15.36
+            ]
+        },
+        {
+            "text": "No",
+            "timestamp": [
+                15.6,
+                15.84
+            ]
+        },
+        {
+            "text": "privacy.",
+            "timestamp": [
+                15.84,
+                16.32
+            ]
+        }
+    ]
+}

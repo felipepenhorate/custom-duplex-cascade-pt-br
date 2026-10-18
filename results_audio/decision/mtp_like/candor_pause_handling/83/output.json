@@ -1,0 +1,124 @@
+{
+    "text": "Got it. We'll drive through Idaho. Got it. We'll drive through Utah, then on to Idaho. And",
+    "chunks": [
+        {
+            "text": "Got",
+            "timestamp": [
+                5.28,
+                5.76
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "We'll",
+            "timestamp": [
+                6.24,
+                6.48
+            ]
+        },
+        {
+            "text": "drive",
+            "timestamp": [
+                6.48,
+                6.8
+            ]
+        },
+        {
+            "text": "through",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "Idaho.",
+            "timestamp": [
+                6.96,
+                7.36
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "We'll",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "drive",
+            "timestamp": [
+                8.56,
+                8.8
+            ]
+        },
+        {
+            "text": "through",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "Utah,",
+            "timestamp": [
+                9.040000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "then",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "Idaho.",
+            "timestamp": [
+                10.32,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                14.24,
+                14.32
+            ]
+        }
+    ]
+}

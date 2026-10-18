@@ -1,0 +1,89 @@
+{
+    "text": "Congrats on your masters. That's a big achievement. How's your new journey?",
+    "chunks": [
+        {
+            "text": "Congrats",
+            "timestamp": [
+                3.7600000000000002,
+                4.48
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "masters.",
+            "timestamp": [
+                4.8,
+                5.44
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                5.76,
+                6.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.0,
+                6.16
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                6.16,
+                6.4
+            ]
+        },
+        {
+            "text": "achievement.",
+            "timestamp": [
+                6.4,
+                6.88
+            ]
+        },
+        {
+            "text": "How's",
+            "timestamp": [
+                7.2,
+                7.44
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "journey?",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        }
+    ]
+}

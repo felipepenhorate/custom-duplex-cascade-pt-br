@@ -1,0 +1,33 @@
+{
+    "text": "Yeah, that sounds impressive.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                5.04,
+                5.28
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                5.6000000000000005,
+                5.92
+            ]
+        },
+        {
+            "text": "impressive.",
+            "timestamp": [
+                6.0,
+                6.640000000000001
+            ]
+        }
+    ]
+}

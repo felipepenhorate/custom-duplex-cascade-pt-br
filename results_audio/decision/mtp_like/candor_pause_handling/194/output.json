@@ -1,0 +1,82 @@
+{
+    "text": "Got it. Playing games during free time is a perfect balance.",
+    "chunks": [
+        {
+            "text": "Got",
+            "timestamp": [
+                12.8,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "Playing",
+            "timestamp": [
+                13.84,
+                14.24
+            ]
+        },
+        {
+            "text": "games",
+            "timestamp": [
+                14.24,
+                14.56
+            ]
+        },
+        {
+            "text": "during",
+            "timestamp": [
+                14.56,
+                14.8
+            ]
+        },
+        {
+            "text": "free",
+            "timestamp": [
+                14.8,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                15.120000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                15.36,
+                15.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.52,
+                15.68
+            ]
+        },
+        {
+            "text": "perfect",
+            "timestamp": [
+                15.68,
+                16.0
+            ]
+        },
+        {
+            "text": "balance.",
+            "timestamp": [
+                16.0,
+                16.4
+            ]
+        }
+    ]
+}

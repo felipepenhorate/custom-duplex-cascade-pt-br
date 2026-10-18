@@ -1,0 +1,257 @@
+{
+    "text": "Not tonight. Your coffee is already on the table. Yeshua. But if you're feeling extra caffeinated, I can suggest a cozy, coffee-themed dinner, too. Like coffee-infused chocolate cake with a side of warm cinnamon rolls? Just.",
+    "chunks": [
+        {
+            "text": "Not",
+            "timestamp": [
+                14.679999999999998,
+                15.079999999999998
+            ]
+        },
+        {
+            "text": "tonight.",
+            "timestamp": [
+                15.079999999999998,
+                15.559999999999999
+            ]
+        },
+        {
+            "text": "Your",
+            "timestamp": [
+                15.719999999999999,
+                15.959999999999997
+            ]
+        },
+        {
+            "text": "coffee",
+            "timestamp": [
+                15.959999999999997,
+                16.36
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                16.36,
+                16.52
+            ]
+        },
+        {
+            "text": "already",
+            "timestamp": [
+                16.52,
+                16.759999999999998
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                16.759999999999998,
+                16.919999999999998
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.919999999999998,
+                17.0
+            ]
+        },
+        {
+            "text": "table.",
+            "timestamp": [
+                17.0,
+                17.32
+            ]
+        },
+        {
+            "text": "Yeshua.",
+            "timestamp": [
+                17.479999999999997,
+                18.119999999999997
+            ]
+        },
+        {
+            "text": "But",
+            "timestamp": [
+                18.36,
+                18.52
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                18.52,
+                18.599999999999998
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                18.599999999999998,
+                18.839999999999996
+            ]
+        },
+        {
+            "text": "feeling",
+            "timestamp": [
+                18.839999999999996,
+                19.08
+            ]
+        },
+        {
+            "text": "extra",
+            "timestamp": [
+                19.08,
+                19.32
+            ]
+        },
+        {
+            "text": "caffeinated,",
+            "timestamp": [
+                19.32,
+                20.04
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                20.2,
+                20.279999999999998
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                20.279999999999998,
+                20.439999999999998
+            ]
+        },
+        {
+            "text": "suggest",
+            "timestamp": [
+                20.439999999999998,
+                20.759999999999998
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.759999999999998,
+                20.839999999999996
+            ]
+        },
+        {
+            "text": "cozy,",
+            "timestamp": [
+                20.839999999999996,
+                21.24
+            ]
+        },
+        {
+            "text": "coffee-themed",
+            "timestamp": [
+                21.32,
+                22.04
+            ]
+        },
+        {
+            "text": "dinner,",
+            "timestamp": [
+                22.04,
+                22.2
+            ]
+        },
+        {
+            "text": "too.",
+            "timestamp": [
+                22.28,
+                22.439999999999998
+            ]
+        },
+        {
+            "text": "Like",
+            "timestamp": [
+                22.68,
+                22.919999999999998
+            ]
+        },
+        {
+            "text": "coffee-infused",
+            "timestamp": [
+                22.919999999999998,
+                23.72
+            ]
+        },
+        {
+            "text": "chocolate",
+            "timestamp": [
+                23.72,
+                24.119999999999997
+            ]
+        },
+        {
+            "text": "cake",
+            "timestamp": [
+                24.119999999999997,
+                24.36
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                24.36,
+                24.519999999999996
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.519999999999996,
+                24.599999999999998
+            ]
+        },
+        {
+            "text": "side",
+            "timestamp": [
+                24.599999999999998,
+                24.759999999999998
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                24.759999999999998,
+                24.839999999999996
+            ]
+        },
+        {
+            "text": "warm",
+            "timestamp": [
+                24.839999999999996,
+                25.159999999999997
+            ]
+        },
+        {
+            "text": "cinnamon",
+            "timestamp": [
+                25.159999999999997,
+                25.64
+            ]
+        },
+        {
+            "text": "rolls?",
+            "timestamp": [
+                25.64,
+                25.96
+            ]
+        },
+        {
+            "text": "Just.",
+            "timestamp": [
+                26.2,
+                26.439999999999998
+            ]
+        }
+    ]
+}

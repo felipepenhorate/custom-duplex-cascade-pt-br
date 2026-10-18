@@ -1,0 +1,180 @@
+{
+    "text": "Thanks for clarifying. I'm not from Illinois, neither am I from any specific place, since I'm in AI. I exist across the world helping people.",
+    "chunks": [
+        {
+            "text": "Thanks",
+            "timestamp": [
+                5.6000000000000005,
+                6.08
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "clarifying.",
+            "timestamp": [
+                6.24,
+                6.8
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                6.96,
+                7.2
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                7.2,
+                7.28
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "Illinois,",
+            "timestamp": [
+                7.44,
+                7.92
+            ]
+        },
+        {
+            "text": "neither",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "am",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "specific",
+            "timestamp": [
+                9.040000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "place,",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "since",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "AI.",
+            "timestamp": [
+                10.48,
+                10.8
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "exist",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "across",
+            "timestamp": [
+                11.44,
+                11.76
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "world",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "helping",
+            "timestamp": [
+                12.16,
+                12.56
+            ]
+        },
+        {
+            "text": "people.",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        }
+    ]
+}

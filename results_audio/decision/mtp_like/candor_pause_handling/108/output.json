@@ -1,0 +1,47 @@
+{
+    "text": "I'm here, just breathing with you.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "here,",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "breathing",
+            "timestamp": [
+                12.48,
+                12.96
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                13.120000000000001,
+                13.36
+            ]
+        }
+    ]
+}

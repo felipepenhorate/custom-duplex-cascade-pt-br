@@ -1,0 +1,82 @@
+{
+    "text": "That sounds like a great idea. Hiking is so much fun.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                8.56,
+                8.96
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "idea.",
+            "timestamp": [
+                9.6,
+                9.92
+            ]
+        },
+        {
+            "text": "Hiking",
+            "timestamp": [
+                10.24,
+                10.72
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "much",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "fun.",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        }
+    ]
+}

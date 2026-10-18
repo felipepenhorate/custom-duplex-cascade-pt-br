@@ -1,0 +1,75 @@
+{
+    "text": "Oh, that's interesting. That sounds nice. Looking forward to it.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                14.08,
+                14.4
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                14.56,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "interesting.",
+            "timestamp": [
+                15.120000000000001,
+                15.68
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                17.52,
+                17.76
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                17.76,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "nice.",
+            "timestamp": [
+                18.240000000000002,
+                18.56
+            ]
+        },
+        {
+            "text": "Looking",
+            "timestamp": [
+                18.88,
+                19.2
+            ]
+        },
+        {
+            "text": "forward",
+            "timestamp": [
+                19.2,
+                19.52
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                19.52,
+                19.76
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                19.76,
+                20.0
+            ]
+        }
+    ]
+}

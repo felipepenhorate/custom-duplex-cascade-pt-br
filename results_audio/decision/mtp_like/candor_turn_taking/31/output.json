@@ -1,0 +1,208 @@
+{
+    "text": "That's cool. What was it you saw? Oh, that's awesome. What show or movie are you talking about? You mean to, like, to the original or to the source?",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                2.88,
+                3.36
+            ]
+        },
+        {
+            "text": "cool.",
+            "timestamp": [
+                3.36,
+                3.68
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                3.92,
+                4.08
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                4.08,
+                4.24
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "saw?",
+            "timestamp": [
+                4.64,
+                4.88
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                10.16,
+                10.48
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                10.48,
+                10.96
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "show",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "movie",
+            "timestamp": [
+                11.84,
+                12.16
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                12.48,
+                12.88
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                14.56,
+                14.8
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                14.8,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "to,",
+            "timestamp": [
+                15.44,
+                15.76
+            ]
+        },
+        {
+            "text": "like,",
+            "timestamp": [
+                16.0,
+                16.32
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                16.56,
+                16.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.8,
+                16.96
+            ]
+        },
+        {
+            "text": "original",
+            "timestamp": [
+                16.96,
+                17.36
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                17.44,
+                17.6
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.6,
+                17.76
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                17.76,
+                17.84
+            ]
+        },
+        {
+            "text": "source?",
+            "timestamp": [
+                17.84,
+                18.080000000000002
+            ]
+        }
+    ]
+}

@@ -1,0 +1,222 @@
+{
+    "text": "That's totally okay. Sometimes it's just about being present, not rushing. You're not behind, just in your own rhythm. School doesn't have to be hard. Just a little step at A.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                11.200000000000001,
+                11.76
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                11.76,
+                12.32
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "Sometimes",
+            "timestamp": [
+                12.8,
+                13.36
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                13.6,
+                13.84
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                13.84,
+                14.16
+            ]
+        },
+        {
+            "text": "being",
+            "timestamp": [
+                14.16,
+                14.48
+            ]
+        },
+        {
+            "text": "present,",
+            "timestamp": [
+                14.48,
+                14.88
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                15.120000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "rushing.",
+            "timestamp": [
+                15.36,
+                15.84
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                16.080000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                16.32,
+                16.56
+            ]
+        },
+        {
+            "text": "behind,",
+            "timestamp": [
+                16.56,
+                16.96
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                17.28,
+                17.44
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                17.44,
+                17.6
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                17.6,
+                17.76
+            ]
+        },
+        {
+            "text": "own",
+            "timestamp": [
+                17.76,
+                17.92
+            ]
+        },
+        {
+            "text": "rhythm.",
+            "timestamp": [
+                17.92,
+                18.32
+            ]
+        },
+        {
+            "text": "School",
+            "timestamp": [
+                25.44,
+                25.92
+            ]
+        },
+        {
+            "text": "doesn't",
+            "timestamp": [
+                25.92,
+                26.240000000000002
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                26.240000000000002,
+                26.400000000000002
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                26.400000000000002,
+                26.48
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                26.48,
+                26.72
+            ]
+        },
+        {
+            "text": "hard.",
+            "timestamp": [
+                26.72,
+                27.12
+            ]
+        },
+        {
+            "text": "Just",
+            "timestamp": [
+                27.44,
+                27.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                27.68,
+                27.84
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                27.84,
+                28.0
+            ]
+        },
+        {
+            "text": "step",
+            "timestamp": [
+                28.0,
+                28.16
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                28.240000000000002,
+                28.400000000000002
+            ]
+        },
+        {
+            "text": "A.",
+            "timestamp": [
+                28.48,
+                28.560000000000002
+            ]
+        }
+    ]
+}

@@ -1,0 +1,362 @@
+{
+    "text": "I think that's a great point. That's awesome. Boston is such a vibrant city. Great for culture, internships, and campus life. And BU has a strong community vibe, especially in the city. You're really lucky to have that option. If I get oh, that makes sense. Tufts is great for A.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                14.8,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                23.28,
+                23.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                23.68,
+                23.92
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                23.92,
+                24.240000000000002
+            ]
+        },
+        {
+            "text": "point.",
+            "timestamp": [
+                24.240000000000002,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                28.72,
+                29.2
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                29.2,
+                29.84
+            ]
+        },
+        {
+            "text": "Boston",
+            "timestamp": [
+                30.16,
+                30.88
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                30.88,
+                31.04
+            ]
+        },
+        {
+            "text": "such",
+            "timestamp": [
+                31.04,
+                31.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                31.28,
+                31.36
+            ]
+        },
+        {
+            "text": "vibrant",
+            "timestamp": [
+                31.36,
+                32.0
+            ]
+        },
+        {
+            "text": "city.",
+            "timestamp": [
+                32.0,
+                32.480000000000004
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                32.8,
+                33.12
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                33.12,
+                33.28
+            ]
+        },
+        {
+            "text": "culture,",
+            "timestamp": [
+                33.28,
+                33.76
+            ]
+        },
+        {
+            "text": "internships,",
+            "timestamp": [
+                34.0,
+                34.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                34.800000000000004,
+                34.96
+            ]
+        },
+        {
+            "text": "campus",
+            "timestamp": [
+                34.96,
+                35.44
+            ]
+        },
+        {
+            "text": "life.",
+            "timestamp": [
+                35.44,
+                35.6
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                35.92,
+                36.160000000000004
+            ]
+        },
+        {
+            "text": "BU",
+            "timestamp": [
+                36.160000000000004,
+                36.72
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                36.72,
+                36.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                36.88,
+                37.04
+            ]
+        },
+        {
+            "text": "strong",
+            "timestamp": [
+                37.04,
+                37.36
+            ]
+        },
+        {
+            "text": "community",
+            "timestamp": [
+                37.36,
+                37.84
+            ]
+        },
+        {
+            "text": "vibe,",
+            "timestamp": [
+                37.84,
+                38.160000000000004
+            ]
+        },
+        {
+            "text": "especially",
+            "timestamp": [
+                38.24,
+                38.56
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                38.56,
+                38.72
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                38.72,
+                38.800000000000004
+            ]
+        },
+        {
+            "text": "city.",
+            "timestamp": [
+                38.800000000000004,
+                39.04
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                39.36,
+                39.76
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                39.76,
+                40.0
+            ]
+        },
+        {
+            "text": "lucky",
+            "timestamp": [
+                40.0,
+                40.32
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                40.32,
+                40.480000000000004
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                40.480000000000004,
+                40.64
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                40.64,
+                40.800000000000004
+            ]
+        },
+        {
+            "text": "option.",
+            "timestamp": [
+                40.800000000000004,
+                41.28
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                42.480000000000004,
+                42.800000000000004
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                43.36,
+                43.52
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                43.52,
+                43.68
+            ]
+        },
+        {
+            "text": "oh,",
+            "timestamp": [
+                53.2,
+                53.44
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                53.52,
+                53.76
+            ]
+        },
+        {
+            "text": "makes",
+            "timestamp": [
+                53.76,
+                54.0
+            ]
+        },
+        {
+            "text": "sense.",
+            "timestamp": [
+                54.0,
+                54.32
+            ]
+        },
+        {
+            "text": "Tufts",
+            "timestamp": [
+                54.64,
+                55.28
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                55.28,
+                55.44
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                55.44,
+                55.52
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                55.52,
+                55.68
+            ]
+        },
+        {
+            "text": "A.",
+            "timestamp": [
+                55.68,
+                55.92
+            ]
+        }
+    ]
+}

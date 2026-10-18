@@ -1,0 +1,82 @@
+{
+    "text": "Sounds like you're trying to follow up on a link or",
+    "chunks": [
+        {
+            "text": "Sounds",
+            "timestamp": [
+                9.28,
+                9.6
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "follow",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "link",
+            "timestamp": [
+                10.88,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "Awesome. A restaurant or an event hall works great.",
+    "chunks": [
+        {
+            "text": "Awesome.",
+            "timestamp": [
+                9.92,
+                10.48
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "restaurant",
+            "timestamp": [
+                10.88,
+                11.52
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "event",
+            "timestamp": [
+                11.84,
+                12.16
+            ]
+        },
+        {
+            "text": "hall",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "works",
+            "timestamp": [
+                12.4,
+                12.8
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        }
+    ]
+}

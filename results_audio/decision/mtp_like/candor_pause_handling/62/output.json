@@ -1,0 +1,82 @@
+{
+    "text": "Yeah, I get that. It's frustrating when safety measures feel like",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "frustrating",
+            "timestamp": [
+                11.92,
+                12.4
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "safety",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        },
+        {
+            "text": "measures",
+            "timestamp": [
+                12.96,
+                13.36
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                13.6,
+                13.76
+            ]
+        }
+    ]
+}

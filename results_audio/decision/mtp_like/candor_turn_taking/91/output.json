@@ -1,0 +1,54 @@
+{
+    "text": "No problem. I'm here whenever you're ready.",
+    "chunks": [
+        {
+            "text": "No",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "problem.",
+            "timestamp": [
+                6.8,
+                7.12
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                7.36,
+                7.68
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "whenever",
+            "timestamp": [
+                7.84,
+                8.24
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "ready.",
+            "timestamp": [
+                8.48,
+                8.96
+            ]
+        }
+    ]
+}

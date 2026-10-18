@@ -1,0 +1,243 @@
+{
+    "text": "Sounds great. What kind of fun stuff? That's awesome. Making the most of opportunities is such a smart move. Florida sounds like a great place to grow and enjoy life. She-men. True. Peikin B.",
+    "chunks": [
+        {
+            "text": "Sounds",
+            "timestamp": [
+                2.8000000000000003,
+                3.36
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                3.36,
+                3.52
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                3.7600000000000002,
+                4.0
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                4.0,
+                4.16
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                4.16,
+                4.32
+            ]
+        },
+        {
+            "text": "fun",
+            "timestamp": [
+                4.32,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "stuff?",
+            "timestamp": [
+                4.5600000000000005,
+                4.8
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                10.32,
+                10.8
+            ]
+        },
+        {
+            "text": "Making",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "most",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "opportunities",
+            "timestamp": [
+                11.84,
+                12.4
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "such",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "smart",
+            "timestamp": [
+                12.88,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "move.",
+            "timestamp": [
+                13.200000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "Florida",
+            "timestamp": [
+                13.76,
+                14.24
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                14.24,
+                14.56
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.72,
+                14.8
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                14.8,
+                14.96
+            ]
+        },
+        {
+            "text": "place",
+            "timestamp": [
+                14.96,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.200000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "grow",
+            "timestamp": [
+                15.280000000000001,
+                15.6
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                15.6,
+                15.76
+            ]
+        },
+        {
+            "text": "enjoy",
+            "timestamp": [
+                15.76,
+                16.56
+            ]
+        },
+        {
+            "text": "life.",
+            "timestamp": [
+                16.56,
+                16.88
+            ]
+        },
+        {
+            "text": "She-men.",
+            "timestamp": [
+                18.48,
+                19.28
+            ]
+        },
+        {
+            "text": "True.",
+            "timestamp": [
+                19.44,
+                19.84
+            ]
+        },
+        {
+            "text": "Peikin",
+            "timestamp": [
+                20.0,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "B.",
+            "timestamp": [
+                20.48,
+                20.56
+            ]
+        }
+    ]
+}

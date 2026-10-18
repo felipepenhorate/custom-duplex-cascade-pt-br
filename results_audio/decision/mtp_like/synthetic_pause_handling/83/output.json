@@ -1,0 +1,194 @@
+{
+    "text": "That's all. You're welcome. Enjoy your meal. No problem. Take your. I'm sorry, but I can't help with writing papers. I'm here to chat and share. Absolutely.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                4.32,
+                4.72
+            ]
+        },
+        {
+            "text": "all.",
+            "timestamp": [
+                4.72,
+                4.88
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                6.88,
+                7.2
+            ]
+        },
+        {
+            "text": "welcome.",
+            "timestamp": [
+                7.2,
+                7.68
+            ]
+        },
+        {
+            "text": "Enjoy",
+            "timestamp": [
+                7.92,
+                8.16
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "meal.",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "No",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "problem.",
+            "timestamp": [
+                9.040000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "Take",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "your.",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "sorry,",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.84,
+                11.92
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "writing",
+            "timestamp": [
+                12.56,
+                12.96
+            ]
+        },
+        {
+            "text": "papers.",
+            "timestamp": [
+                12.96,
+                13.36
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                13.6,
+                13.84
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                13.84,
+                13.92
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        },
+        {
+            "text": "chat",
+            "timestamp": [
+                14.08,
+                14.4
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                14.4,
+                14.64
+            ]
+        },
+        {
+            "text": "share.",
+            "timestamp": [
+                14.64,
+                14.88
+            ]
+        },
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                15.120000000000001,
+                15.52
+            ]
+        }
+    ]
+}

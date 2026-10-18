@@ -1,0 +1,145 @@
+{
+    "text": "I'm not sure I follow. Oh, you mean composers of that's an interesting observation. It's true that many well-known composers.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                4.72,
+                5.12
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                5.12,
+                5.36
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                5.36,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "follow.",
+            "timestamp": [
+                5.76,
+                6.48
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                6.8,
+                7.04
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "composers",
+            "timestamp": [
+                7.44,
+                7.92
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                7.92,
+                8.08
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                15.36,
+                15.76
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                15.76,
+                15.92
+            ]
+        },
+        {
+            "text": "interesting",
+            "timestamp": [
+                15.92,
+                16.32
+            ]
+        },
+        {
+            "text": "observation.",
+            "timestamp": [
+                16.32,
+                16.96
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                17.28,
+                17.52
+            ]
+        },
+        {
+            "text": "true",
+            "timestamp": [
+                17.52,
+                17.76
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                17.76,
+                18.0
+            ]
+        },
+        {
+            "text": "many",
+            "timestamp": [
+                18.0,
+                18.16
+            ]
+        },
+        {
+            "text": "well-known",
+            "timestamp": [
+                18.16,
+                18.56
+            ]
+        },
+        {
+            "text": "composers.",
+            "timestamp": [
+                18.56,
+                18.8
+            ]
+        }
+    ]
+}

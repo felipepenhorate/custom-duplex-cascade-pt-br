@@ -1,0 +1,187 @@
+{
+    "text": "That's a great goal. Start by swapping sugary drinks for water, eating more fruits and veggies, and choosing whole grains over processed ones. What's one small?",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                2.88,
+                3.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                3.36,
+                3.52
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                3.52,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "goal.",
+            "timestamp": [
+                3.7600000000000002,
+                4.0
+            ]
+        },
+        {
+            "text": "Start",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "swapping",
+            "timestamp": [
+                4.64,
+                5.04
+            ]
+        },
+        {
+            "text": "sugary",
+            "timestamp": [
+                5.04,
+                5.36
+            ]
+        },
+        {
+            "text": "drinks",
+            "timestamp": [
+                5.44,
+                5.76
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "water,",
+            "timestamp": [
+                5.92,
+                6.16
+            ]
+        },
+        {
+            "text": "eating",
+            "timestamp": [
+                6.4,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                6.640000000000001,
+                6.8
+            ]
+        },
+        {
+            "text": "fruits",
+            "timestamp": [
+                6.8,
+                7.12
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                7.12,
+                7.2
+            ]
+        },
+        {
+            "text": "veggies,",
+            "timestamp": [
+                7.2,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "choosing",
+            "timestamp": [
+                7.84,
+                8.16
+            ]
+        },
+        {
+            "text": "whole",
+            "timestamp": [
+                8.16,
+                8.4
+            ]
+        },
+        {
+            "text": "grains",
+            "timestamp": [
+                8.4,
+                8.72
+            ]
+        },
+        {
+            "text": "over",
+            "timestamp": [
+                8.72,
+                8.88
+            ]
+        },
+        {
+            "text": "processed",
+            "timestamp": [
+                8.88,
+                9.36
+            ]
+        },
+        {
+            "text": "ones.",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        },
+        {
+            "text": "one",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "small?",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        }
+    ]
+}

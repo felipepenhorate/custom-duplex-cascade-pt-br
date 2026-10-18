@@ -1,0 +1,152 @@
+{
+    "text": "I can help you find flights to New York. Could you got it? You want a Friday morning departure. Arriving in?",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.72,
+                3.04
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                3.04,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                3.2800000000000002,
+                3.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                3.44,
+                3.6
+            ]
+        },
+        {
+            "text": "find",
+            "timestamp": [
+                3.6,
+                3.84
+            ]
+        },
+        {
+            "text": "flights",
+            "timestamp": [
+                3.84,
+                4.24
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                4.24,
+                4.32
+            ]
+        },
+        {
+            "text": "New",
+            "timestamp": [
+                4.32,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "York.",
+            "timestamp": [
+                4.5600000000000005,
+                4.8
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                4.96,
+                5.12
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "it?",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "Friday",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "morning",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "departure.",
+            "timestamp": [
+                10.96,
+                11.36
+            ]
+        },
+        {
+            "text": "Arriving",
+            "timestamp": [
+                11.52,
+                12.0
+            ]
+        },
+        {
+            "text": "in?",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        }
+    ]
+}

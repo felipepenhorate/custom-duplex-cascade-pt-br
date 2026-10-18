@@ -1,0 +1,82 @@
+{
+    "text": "That's a nice off. You're welcome. Thanks for the kind words.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.16,
+                6.24
+            ]
+        },
+        {
+            "text": "nice",
+            "timestamp": [
+                6.24,
+                6.48
+            ]
+        },
+        {
+            "text": "off.",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        },
+        {
+            "text": "welcome.",
+            "timestamp": [
+                8.32,
+                8.8
+            ]
+        },
+        {
+            "text": "Thanks",
+            "timestamp": [
+                9.120000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "words.",
+            "timestamp": [
+                10.0,
+                10.56
+            ]
+        }
+    ]
+}

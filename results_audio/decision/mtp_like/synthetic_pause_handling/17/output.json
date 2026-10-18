@@ -1,0 +1,82 @@
+{
+    "text": "That's a great question. Absolutely. Here are some fun and kid-friendly.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                5.12,
+                5.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                6.16,
+                6.48
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                6.48,
+                6.72
+            ]
+        },
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                7.28,
+                8.32
+            ]
+        },
+        {
+            "text": "Here",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "fun",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "kid-friendly.",
+            "timestamp": [
+                9.52,
+                9.92
+            ]
+        }
+    ]
+}

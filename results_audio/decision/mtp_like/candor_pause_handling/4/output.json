@@ -1,0 +1,159 @@
+{
+    "text": "Em. That sounds like a repeating thought. Are you trying to express something about a person or a situation? Maybe you'd like.",
+    "chunks": [
+        {
+            "text": "Em.",
+            "timestamp": [
+                4.4,
+                4.72
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                5.2,
+                5.44
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                5.44,
+                5.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.0,
+                6.08
+            ]
+        },
+        {
+            "text": "repeating",
+            "timestamp": [
+                6.08,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "thought.",
+            "timestamp": [
+                6.640000000000001,
+                6.8
+            ]
+        },
+        {
+            "text": "Are",
+            "timestamp": [
+                7.04,
+                7.28
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.28,
+                7.36
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                7.36,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                7.6000000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "express",
+            "timestamp": [
+                7.68,
+                8.08
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "person",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "situation?",
+            "timestamp": [
+                9.28,
+                10.16
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                10.48,
+                10.8
+            ]
+        },
+        {
+            "text": "you'd",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "like.",
+            "timestamp": [
+                11.040000000000001,
+                11.120000000000001
+            ]
+        }
+    ]
+}

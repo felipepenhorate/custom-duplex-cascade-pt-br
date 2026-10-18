@@ -1,0 +1,110 @@
+{
+    "text": "I'm not sure I understand your message. If you have any questions, oh, that's interesting.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                7.04,
+                7.44
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "understand",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "message.",
+            "timestamp": [
+                8.48,
+                8.88
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "questions,",
+            "timestamp": [
+                9.84,
+                10.24
+            ]
+        },
+        {
+            "text": "oh,",
+            "timestamp": [
+                20.72,
+                20.96
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                21.04,
+                21.36
+            ]
+        },
+        {
+            "text": "interesting.",
+            "timestamp": [
+                21.36,
+                21.92
+            ]
+        }
+    ]
+}

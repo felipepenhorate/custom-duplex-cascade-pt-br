@@ -1,0 +1,54 @@
+{
+    "text": "Totally agree. Well-developed characters make a story.",
+    "chunks": [
+        {
+            "text": "Totally",
+            "timestamp": [
+                8.4,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "agree.",
+            "timestamp": [
+                9.120000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "Well-developed",
+            "timestamp": [
+                10.0,
+                10.8
+            ]
+        },
+        {
+            "text": "characters",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.36,
+                11.44
+            ]
+        },
+        {
+            "text": "story.",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        }
+    ]
+}

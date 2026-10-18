@@ -1,0 +1,460 @@
+{
+    "text": "Em half and half. Sounds like we're both in the middle of something. What's on your mind? Kesham and that's nice. Through the tough times, you've both stayed strong. Oh, Friday. So you're covering every day of the week. Great consistency. She's got steady care, and you're all on the same page. Solid setup. Got it. Every other week, you're both covering the full week.",
+    "chunks": [
+        {
+            "text": "Em",
+            "timestamp": [
+                4.08,
+                4.4
+            ]
+        },
+        {
+            "text": "half",
+            "timestamp": [
+                4.8,
+                5.12
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "half.",
+            "timestamp": [
+                5.28,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "we're",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "both",
+            "timestamp": [
+                6.48,
+                6.72
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                6.72,
+                6.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                6.8,
+                6.88
+            ]
+        },
+        {
+            "text": "middle",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "something.",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "mind?",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "Kesham",
+            "timestamp": [
+                8.88,
+                9.36
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.44,
+                9.52
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "nice.",
+            "timestamp": [
+                10.16,
+                10.48
+            ]
+        },
+        {
+            "text": "Through",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "tough",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "times,",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "both",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        },
+        {
+            "text": "stayed",
+            "timestamp": [
+                12.24,
+                12.96
+            ]
+        },
+        {
+            "text": "strong.",
+            "timestamp": [
+                12.96,
+                13.6
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                20.16,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "Friday.",
+            "timestamp": [
+                20.48,
+                20.88
+            ]
+        },
+        {
+            "text": "So",
+            "timestamp": [
+                21.04,
+                21.2
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                21.2,
+                21.36
+            ]
+        },
+        {
+            "text": "covering",
+            "timestamp": [
+                21.36,
+                21.68
+            ]
+        },
+        {
+            "text": "every",
+            "timestamp": [
+                21.68,
+                21.92
+            ]
+        },
+        {
+            "text": "day",
+            "timestamp": [
+                21.92,
+                22.080000000000002
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                22.080000000000002,
+                22.240000000000002
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                22.240000000000002,
+                22.32
+            ]
+        },
+        {
+            "text": "week.",
+            "timestamp": [
+                22.32,
+                22.64
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                22.88,
+                23.2
+            ]
+        },
+        {
+            "text": "consistency.",
+            "timestamp": [
+                23.2,
+                23.76
+            ]
+        },
+        {
+            "text": "She's",
+            "timestamp": [
+                24.0,
+                24.240000000000002
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                24.240000000000002,
+                24.400000000000002
+            ]
+        },
+        {
+            "text": "steady",
+            "timestamp": [
+                24.400000000000002,
+                24.72
+            ]
+        },
+        {
+            "text": "care,",
+            "timestamp": [
+                24.72,
+                24.96
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                25.12,
+                25.28
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                25.28,
+                25.44
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                25.44,
+                25.6
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                25.6,
+                25.68
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                25.68,
+                25.84
+            ]
+        },
+        {
+            "text": "same",
+            "timestamp": [
+                25.84,
+                26.0
+            ]
+        },
+        {
+            "text": "page.",
+            "timestamp": [
+                26.0,
+                26.240000000000002
+            ]
+        },
+        {
+            "text": "Solid",
+            "timestamp": [
+                26.560000000000002,
+                26.88
+            ]
+        },
+        {
+            "text": "setup.",
+            "timestamp": [
+                26.88,
+                27.28
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                28.080000000000002,
+                28.32
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                28.32,
+                28.560000000000002
+            ]
+        },
+        {
+            "text": "Every",
+            "timestamp": [
+                28.88,
+                29.12
+            ]
+        },
+        {
+            "text": "other",
+            "timestamp": [
+                29.12,
+                29.28
+            ]
+        },
+        {
+            "text": "week,",
+            "timestamp": [
+                29.28,
+                29.52
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                29.68,
+                29.84
+            ]
+        },
+        {
+            "text": "both",
+            "timestamp": [
+                29.84,
+                30.080000000000002
+            ]
+        },
+        {
+            "text": "covering",
+            "timestamp": [
+                30.080000000000002,
+                30.48
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                30.48,
+                30.560000000000002
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                30.560000000000002,
+                30.72
+            ]
+        },
+        {
+            "text": "week.",
+            "timestamp": [
+                30.72,
+                30.96
+            ]
+        }
+    ]
+}

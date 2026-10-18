@@ -1,0 +1,68 @@
+{
+    "text": "Um, I'm not a dog. I'm a voice assistant.",
+    "chunks": [
+        {
+            "text": "Um,",
+            "timestamp": [
+                8.88,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "dog.",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "voice",
+            "timestamp": [
+                10.96,
+                11.36
+            ]
+        },
+        {
+            "text": "assistant.",
+            "timestamp": [
+                11.36,
+                12.0
+            ]
+        }
+    ]
+}

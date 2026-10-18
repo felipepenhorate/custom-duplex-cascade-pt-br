@@ -1,0 +1,208 @@
+{
+    "text": "Oh, near the ocean? That's nice. The sea breeze must be lovely. Do you enjoy walking by the shore? Imend. Ah, city life. Even with the ocean nearby, city.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                5.5200000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "near",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                6.5600000000000005,
+                6.72
+            ]
+        },
+        {
+            "text": "ocean?",
+            "timestamp": [
+                6.72,
+                7.2
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                7.44,
+                7.84
+            ]
+        },
+        {
+            "text": "nice.",
+            "timestamp": [
+                7.84,
+                8.16
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "sea",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "breeze",
+            "timestamp": [
+                8.88,
+                9.28
+            ]
+        },
+        {
+            "text": "must",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "lovely.",
+            "timestamp": [
+                9.76,
+                10.24
+            ]
+        },
+        {
+            "text": "Do",
+            "timestamp": [
+                10.56,
+                10.88
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "enjoy",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "walking",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.84,
+                11.92
+            ]
+        },
+        {
+            "text": "shore?",
+            "timestamp": [
+                11.92,
+                12.4
+            ]
+        },
+        {
+            "text": "Imend.",
+            "timestamp": [
+                12.72,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                13.52,
+                13.76
+            ]
+        },
+        {
+            "text": "city",
+            "timestamp": [
+                13.92,
+                14.4
+            ]
+        },
+        {
+            "text": "life.",
+            "timestamp": [
+                14.4,
+                14.72
+            ]
+        },
+        {
+            "text": "Even",
+            "timestamp": [
+                15.040000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                15.280000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                15.44,
+                15.6
+            ]
+        },
+        {
+            "text": "ocean",
+            "timestamp": [
+                15.6,
+                15.92
+            ]
+        },
+        {
+            "text": "nearby,",
+            "timestamp": [
+                15.92,
+                16.32
+            ]
+        },
+        {
+            "text": "city.",
+            "timestamp": [
+                16.48,
+                16.64
+            ]
+        }
+    ]
+}

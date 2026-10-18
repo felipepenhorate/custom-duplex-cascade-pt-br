@@ -1,0 +1,117 @@
+{
+    "text": "That's great. Working from home can be really convenient. What kind of work do you do?",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                5.6000000000000005,
+                6.24
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "Working",
+            "timestamp": [
+                6.72,
+                7.2
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "home",
+            "timestamp": [
+                7.36,
+                7.68
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                7.68,
+                7.92
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                7.92,
+                8.08
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "convenient.",
+            "timestamp": [
+                8.32,
+                8.96
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "work",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "do?",
+            "timestamp": [
+                10.72,
+                10.96
+            ]
+        }
+    ]
+}

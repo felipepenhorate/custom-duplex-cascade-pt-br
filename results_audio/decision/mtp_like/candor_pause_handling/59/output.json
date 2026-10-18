@@ -1,0 +1,131 @@
+{
+    "text": "You're right. C-SPAN brings a lot of people. Thanks for sharing that. It's important to acknowledge the experiences.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                6.72,
+                7.2
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                7.2,
+                7.44
+            ]
+        },
+        {
+            "text": "C-SPAN",
+            "timestamp": [
+                7.68,
+                8.32
+            ]
+        },
+        {
+            "text": "brings",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.2,
+                17.2
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                17.2,
+                17.2
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                17.2,
+                17.2
+            ]
+        },
+        {
+            "text": "people.",
+            "timestamp": [
+                17.2,
+                17.2
+            ]
+        },
+        {
+            "text": "Thanks",
+            "timestamp": [
+                17.44,
+                17.84
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                17.84,
+                18.0
+            ]
+        },
+        {
+            "text": "sharing",
+            "timestamp": [
+                18.0,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                18.400000000000002,
+                18.64
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                18.96,
+                19.28
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                19.28,
+                19.52
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                19.52,
+                19.68
+            ]
+        },
+        {
+            "text": "acknowledge",
+            "timestamp": [
+                19.68,
+                20.16
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                20.16,
+                20.32
+            ]
+        },
+        {
+            "text": "experiences.",
+            "timestamp": [
+                20.32,
+                20.72
+            ]
+        }
+    ]
+}

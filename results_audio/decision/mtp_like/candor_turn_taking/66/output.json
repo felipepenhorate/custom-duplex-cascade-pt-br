@@ -1,0 +1,152 @@
+{
+    "text": "Yeah, I get what you mean. Public transportation in Europe is really well developed, clean, efficient, and often integrated across cities.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "mean.",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "Public",
+            "timestamp": [
+                11.76,
+                12.16
+            ]
+        },
+        {
+            "text": "transportation",
+            "timestamp": [
+                12.16,
+                12.72
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "Europe",
+            "timestamp": [
+                12.88,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        },
+        {
+            "text": "well",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        },
+        {
+            "text": "developed,",
+            "timestamp": [
+                13.76,
+                14.24
+            ]
+        },
+        {
+            "text": "clean,",
+            "timestamp": [
+                14.48,
+                14.88
+            ]
+        },
+        {
+            "text": "efficient,",
+            "timestamp": [
+                15.200000000000001,
+                15.76
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                15.92,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "often",
+            "timestamp": [
+                16.080000000000002,
+                16.4
+            ]
+        },
+        {
+            "text": "integrated",
+            "timestamp": [
+                16.4,
+                16.88
+            ]
+        },
+        {
+            "text": "across",
+            "timestamp": [
+                16.88,
+                17.2
+            ]
+        },
+        {
+            "text": "cities.",
+            "timestamp": [
+                17.2,
+                17.44
+            ]
+        }
+    ]
+}

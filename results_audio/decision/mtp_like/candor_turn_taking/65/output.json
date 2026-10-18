@@ -1,0 +1,236 @@
+{
+    "text": "Hmm, sounds like there's some tension going on. Maybe it's worth talking it through calmly to see what's really happening. Maybe it's time to stay more aware or ask for more info. Amen.",
+    "chunks": [
+        {
+            "text": "Hmm,",
+            "timestamp": [
+                5.84,
+                6.32
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                6.48,
+                6.8
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "there's",
+            "timestamp": [
+                6.96,
+                7.2
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "tension",
+            "timestamp": [
+                7.36,
+                7.84
+            ]
+        },
+        {
+            "text": "going",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "on.",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                8.56,
+                8.88
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "worth",
+            "timestamp": [
+                9.040000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                9.28,
+                9.6
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "through",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "calmly",
+            "timestamp": [
+                10.16,
+                10.56
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "what's",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "happening.",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                13.6,
+                13.84
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                13.84,
+                14.08
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                14.08,
+                14.24
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        },
+        {
+            "text": "stay",
+            "timestamp": [
+                14.4,
+                14.64
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "aware",
+            "timestamp": [
+                14.8,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                15.280000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "ask",
+            "timestamp": [
+                15.44,
+                15.76
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                15.76,
+                15.92
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "info.",
+            "timestamp": [
+                16.16,
+                16.64
+            ]
+        },
+        {
+            "text": "Amen.",
+            "timestamp": [
+                16.96,
+                17.6
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "text": "That's awesome. Thrillers are oh, Inception, absolute classic, a brilliant blend.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                6.8,
+                7.2
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                7.2,
+                7.76
+            ]
+        },
+        {
+            "text": "Thrillers",
+            "timestamp": [
+                8.0,
+                8.48
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "oh,",
+            "timestamp": [
+                11.68,
+                12.08
+            ]
+        },
+        {
+            "text": "Inception,",
+            "timestamp": [
+                12.24,
+                12.96
+            ]
+        },
+        {
+            "text": "absolute",
+            "timestamp": [
+                13.200000000000001,
+                13.84
+            ]
+        },
+        {
+            "text": "classic,",
+            "timestamp": [
+                13.84,
+                14.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "brilliant",
+            "timestamp": [
+                14.72,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "blend.",
+            "timestamp": [
+                15.040000000000001,
+                15.280000000000001
+            ]
+        }
+    ]
+}

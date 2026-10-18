@@ -1,0 +1,103 @@
+{
+    "text": "Sure. How about got it? Here's a quick checklist to see what you have.",
+    "chunks": [
+        {
+            "text": "Sure.",
+            "timestamp": [
+                5.84,
+                6.32
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                6.5600000000000005,
+                6.72
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                9.040000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "it?",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "Here's",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "quick",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "checklist",
+            "timestamp": [
+                10.64,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "have.",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        }
+    ]
+}

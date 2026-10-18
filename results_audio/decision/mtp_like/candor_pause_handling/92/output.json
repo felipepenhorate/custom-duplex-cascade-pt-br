@@ -1,0 +1,110 @@
+{
+    "text": "Not sure yet, but if they do, I let you know. Sure, go ahead. Just.",
+    "chunks": [
+        {
+            "text": "Not",
+            "timestamp": [
+                5.76,
+                6.0
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                6.0,
+                6.24
+            ]
+        },
+        {
+            "text": "yet,",
+            "timestamp": [
+                6.24,
+                6.48
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                6.640000000000001,
+                6.88
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "they",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "do,",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.84,
+                8.16
+            ]
+        },
+        {
+            "text": "let",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "know.",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "Sure,",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "go",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "ahead.",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "Just.",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        }
+    ]
+}

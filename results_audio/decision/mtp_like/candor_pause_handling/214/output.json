@@ -1,0 +1,82 @@
+{
+    "text": "Hmm, that's a pretty personal question. I don't have a mom.",
+    "chunks": [
+        {
+            "text": "Hmm,",
+            "timestamp": [
+                14.32,
+                14.96
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                15.200000000000001,
+                15.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.52,
+                15.68
+            ]
+        },
+        {
+            "text": "pretty",
+            "timestamp": [
+                15.68,
+                16.0
+            ]
+        },
+        {
+            "text": "personal",
+            "timestamp": [
+                16.0,
+                16.4
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                16.4,
+                16.72
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                17.04,
+                17.12
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                17.12,
+                17.36
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                17.36,
+                17.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.44,
+                17.52
+            ]
+        },
+        {
+            "text": "mom.",
+            "timestamp": [
+                17.52,
+                17.68
+            ]
+        }
+    ]
+}

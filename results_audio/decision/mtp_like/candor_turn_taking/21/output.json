@@ -1,0 +1,194 @@
+{
+    "text": "Thanks. I'm doing great. And I'm glad you're doing well, too. School's been a bit busy, but I'm keeping it positive. Hope you're having a great time.",
+    "chunks": [
+        {
+            "text": "Thanks.",
+            "timestamp": [
+                4.8,
+                5.44
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                5.6000000000000005,
+                5.92
+            ]
+        },
+        {
+            "text": "doing",
+            "timestamp": [
+                5.92,
+                6.24
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "glad",
+            "timestamp": [
+                7.36,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "doing",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "well,",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "too.",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "School's",
+            "timestamp": [
+                8.72,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.28,
+                9.36
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "busy,",
+            "timestamp": [
+                9.52,
+                9.84
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "keeping",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "positive.",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "Hope",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "having",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        }
+    ]
+}

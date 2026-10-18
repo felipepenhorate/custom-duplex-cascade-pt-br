@@ -1,0 +1,68 @@
+{
+    "text": "Thanks for the kind words. I'm happy to help.",
+    "chunks": [
+        {
+            "text": "Thanks",
+            "timestamp": [
+                4.72,
+                5.12
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                5.28,
+                5.44
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                5.44,
+                5.68
+            ]
+        },
+        {
+            "text": "words.",
+            "timestamp": [
+                5.68,
+                6.24
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                6.5600000000000005,
+                6.88
+            ]
+        },
+        {
+            "text": "happy",
+            "timestamp": [
+                6.88,
+                7.28
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                7.28,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "help.",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        }
+    ]
+}

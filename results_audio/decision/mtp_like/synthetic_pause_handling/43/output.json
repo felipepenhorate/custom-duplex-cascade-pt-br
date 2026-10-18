@@ -1,0 +1,215 @@
+{
+    "text": "That's a great start. Flying can be convenient. What's your destination and travel dates? That way I can help you find out. Thursday night works great. Just let me know.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.92,
+                4.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.32,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                4.5600000000000005,
+                4.8
+            ]
+        },
+        {
+            "text": "start.",
+            "timestamp": [
+                4.8,
+                4.96
+            ]
+        },
+        {
+            "text": "Flying",
+            "timestamp": [
+                5.2,
+                5.68
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                5.84,
+                5.92
+            ]
+        },
+        {
+            "text": "convenient.",
+            "timestamp": [
+                5.92,
+                6.4
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                6.72,
+                6.96
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                6.96,
+                7.04
+            ]
+        },
+        {
+            "text": "destination",
+            "timestamp": [
+                7.04,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "travel",
+            "timestamp": [
+                7.76,
+                8.08
+            ]
+        },
+        {
+            "text": "dates?",
+            "timestamp": [
+                8.08,
+                8.4
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                8.72,
+                8.88
+            ]
+        },
+        {
+            "text": "way",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.120000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.44,
+                9.52
+            ]
+        },
+        {
+            "text": "find",
+            "timestamp": [
+                9.52,
+                9.6
+            ]
+        },
+        {
+            "text": "out.",
+            "timestamp": [
+                9.76,
+                9.76
+            ]
+        },
+        {
+            "text": "Thursday",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "night",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "works",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "Just",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "let",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "know.",
+            "timestamp": [
+                11.84,
+                11.92
+            ]
+        }
+    ]
+}

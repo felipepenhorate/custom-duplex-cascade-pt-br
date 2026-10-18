@@ -1,0 +1,89 @@
+{
+    "text": "That's great. How can I assist you with your tech work today?",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.68,
+                4.24
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                4.72,
+                4.88
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                4.88,
+                5.04
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "assist",
+            "timestamp": [
+                5.2,
+                5.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                5.76,
+                5.84
+            ]
+        },
+        {
+            "text": "tech",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "work",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "today?",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "text": "I'm not sure I fully I'm here and Thanks. I'm just a voice assistant so I don't own things.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                4.5600000000000005,
+                4.88
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                4.88,
+                5.04
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                5.04,
+                5.28
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.28,
+                5.36
+            ]
+        },
+        {
+            "text": "fully",
+            "timestamp": [
+                5.36,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                11.36,
+                11.84
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.16,
+                12.48
+            ]
+        },
+        {
+            "text": "Thanks.",
+            "timestamp": [
+                14.4,
+                14.96
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                15.280000000000001,
+                15.52
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                15.52,
+                15.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.68,
+                15.76
+            ]
+        },
+        {
+            "text": "voice",
+            "timestamp": [
+                15.76,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "assistant",
+            "timestamp": [
+                16.080000000000002,
+                16.56
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                16.64,
+                16.8
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.8,
+                16.96
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                16.96,
+                17.2
+            ]
+        },
+        {
+            "text": "own",
+            "timestamp": [
+                17.2,
+                17.44
+            ]
+        },
+        {
+            "text": "things.",
+            "timestamp": [
+                17.44,
+                17.68
+            ]
+        }
+    ]
+}

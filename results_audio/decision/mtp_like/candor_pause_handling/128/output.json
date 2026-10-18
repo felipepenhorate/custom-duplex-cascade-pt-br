@@ -1,0 +1,131 @@
+{
+    "text": "Em ten years ago, yeah, that's a long time. Back then, things were totally different. What changed? Imend",
+    "chunks": [
+        {
+            "text": "Em",
+            "timestamp": [
+                5.36,
+                5.76
+            ]
+        },
+        {
+            "text": "ten",
+            "timestamp": [
+                6.16,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "years",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "ago,",
+            "timestamp": [
+                6.8,
+                7.12
+            ]
+        },
+        {
+            "text": "yeah,",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                7.76,
+                8.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "long",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "Back",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "then,",
+            "timestamp": [
+                9.36,
+                9.68
+            ]
+        },
+        {
+            "text": "things",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                10.4,
+                10.88
+            ]
+        },
+        {
+            "text": "different.",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                11.44,
+                11.76
+            ]
+        },
+        {
+            "text": "changed?",
+            "timestamp": [
+                11.76,
+                12.4
+            ]
+        },
+        {
+            "text": "Imend",
+            "timestamp": [
+                12.72,
+                13.280000000000001
+            ]
+        }
+    ]
+}

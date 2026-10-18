@@ -1,0 +1,61 @@
+{
+    "text": "Five days. That's tight. Hope it goes through.",
+    "chunks": [
+        {
+            "text": "Five",
+            "timestamp": [
+                9.68,
+                10.24
+            ]
+        },
+        {
+            "text": "days.",
+            "timestamp": [
+                10.24,
+                10.8
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                11.120000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "tight.",
+            "timestamp": [
+                11.6,
+                11.92
+            ]
+        },
+        {
+            "text": "Hope",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "goes",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "through.",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        }
+    ]
+}

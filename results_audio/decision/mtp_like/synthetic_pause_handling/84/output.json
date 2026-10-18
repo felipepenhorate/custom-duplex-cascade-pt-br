@@ -1,0 +1,208 @@
+{
+    "text": "That sounds like a great idea. What kind of place are you thinking of? Great. A scenic spot for a warm trip or something adventurous. Sardinia, Italy, sunny coast.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                2.48,
+                2.72
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                2.72,
+                3.04
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                3.04,
+                3.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                3.2,
+                3.36
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                3.36,
+                3.6
+            ]
+        },
+        {
+            "text": "idea.",
+            "timestamp": [
+                3.6,
+                3.92
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                4.48,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                4.5600000000000005,
+                4.72
+            ]
+        },
+        {
+            "text": "place",
+            "timestamp": [
+                4.72,
+                4.96
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                4.96,
+                5.04
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "thinking",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "of?",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "Great.",
+            "timestamp": [
+                5.68,
+                5.76
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                6.0,
+                6.08
+            ]
+        },
+        {
+            "text": "scenic",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "spot",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                6.640000000000001,
+                6.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.72,
+                6.8
+            ]
+        },
+        {
+            "text": "warm",
+            "timestamp": [
+                6.8,
+                7.12
+            ]
+        },
+        {
+            "text": "trip",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "adventurous.",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "Sardinia,",
+            "timestamp": [
+                9.040000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "Italy,",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "sunny",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "coast.",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        }
+    ]
+}

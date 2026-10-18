@@ -1,0 +1,124 @@
+{
+    "text": "Hiking sounds amazing. Nature is the perfect backdrop for a weekend escape. Any favorite trails or areas?",
+    "chunks": [
+        {
+            "text": "Hiking",
+            "timestamp": [
+                7.5200000000000005,
+                8.24
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "amazing.",
+            "timestamp": [
+                8.56,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "Nature",
+            "timestamp": [
+                9.28,
+                9.68
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "perfect",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "backdrop",
+            "timestamp": [
+                10.32,
+                10.8
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "weekend",
+            "timestamp": [
+                10.96,
+                11.36
+            ]
+        },
+        {
+            "text": "escape.",
+            "timestamp": [
+                11.36,
+                11.76
+            ]
+        },
+        {
+            "text": "Any",
+            "timestamp": [
+                12.0,
+                12.24
+            ]
+        },
+        {
+            "text": "favorite",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "trails",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.8,
+                12.88
+            ]
+        },
+        {
+            "text": "areas?",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        }
+    ]
+}

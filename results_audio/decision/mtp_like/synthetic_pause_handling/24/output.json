@@ -1,0 +1,40 @@
+{
+    "text": "Great. Here are the two.",
+    "chunks": [
+        {
+            "text": "Great.",
+            "timestamp": [
+                4.88,
+                5.36
+            ]
+        },
+        {
+            "text": "Here",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                7.12,
+                7.2
+            ]
+        },
+        {
+            "text": "two.",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        }
+    ]
+}

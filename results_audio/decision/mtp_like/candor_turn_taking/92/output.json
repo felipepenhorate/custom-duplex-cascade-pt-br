@@ -1,0 +1,103 @@
+{
+    "text": "That's great to hear. Congratulations on your son's graduation. That's such a proud milestone.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                5.5200000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                5.76,
+                5.84
+            ]
+        },
+        {
+            "text": "hear.",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "Congratulations",
+            "timestamp": [
+                6.24,
+                6.96
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "son's",
+            "timestamp": [
+                7.28,
+                7.68
+            ]
+        },
+        {
+            "text": "graduation.",
+            "timestamp": [
+                7.68,
+                8.48
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                8.8,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "such",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "proud",
+            "timestamp": [
+                9.52,
+                9.84
+            ]
+        },
+        {
+            "text": "milestone.",
+            "timestamp": [
+                9.84,
+                10.96
+            ]
+        }
+    ]
+}

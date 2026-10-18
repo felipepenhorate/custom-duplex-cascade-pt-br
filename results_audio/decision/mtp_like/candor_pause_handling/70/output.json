@@ -1,0 +1,103 @@
+{
+    "text": "Yeah the hurt isn't in wearing them, more in the disappointment when they don't.",
+    "chunks": [
+        {
+            "text": "Yeah",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                14.4,
+                14.56
+            ]
+        },
+        {
+            "text": "hurt",
+            "timestamp": [
+                14.56,
+                14.96
+            ]
+        },
+        {
+            "text": "isn't",
+            "timestamp": [
+                14.96,
+                15.36
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                15.36,
+                15.6
+            ]
+        },
+        {
+            "text": "wearing",
+            "timestamp": [
+                15.6,
+                15.92
+            ]
+        },
+        {
+            "text": "them,",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                16.4,
+                16.64
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                16.64,
+                16.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.8,
+                16.88
+            ]
+        },
+        {
+            "text": "disappointment",
+            "timestamp": [
+                16.88,
+                17.44
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                17.44,
+                17.6
+            ]
+        },
+        {
+            "text": "they",
+            "timestamp": [
+                17.6,
+                17.68
+            ]
+        },
+        {
+            "text": "don't.",
+            "timestamp": [
+                17.68,
+                17.84
+            ]
+        }
+    ]
+}

@@ -1,0 +1,334 @@
+{
+    "text": "That sounds like a really unique layout. Like a maze of hallways with branches. I'm not sure if you're describing a specific place in Houston or just imagining it. If it's a neighborhood or building, it might actually. Totally get that. Remodeling can bring new life to.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                21.44,
+                21.68
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                21.68,
+                22.080000000000002
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                22.080000000000002,
+                22.240000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                22.240000000000002,
+                22.400000000000002
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                22.400000000000002,
+                22.64
+            ]
+        },
+        {
+            "text": "unique",
+            "timestamp": [
+                22.64,
+                23.04
+            ]
+        },
+        {
+            "text": "layout.",
+            "timestamp": [
+                23.04,
+                23.52
+            ]
+        },
+        {
+            "text": "Like",
+            "timestamp": [
+                23.76,
+                24.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.0,
+                24.080000000000002
+            ]
+        },
+        {
+            "text": "maze",
+            "timestamp": [
+                24.080000000000002,
+                24.400000000000002
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                24.400000000000002,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "hallways",
+            "timestamp": [
+                24.560000000000002,
+                25.04
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                25.04,
+                25.2
+            ]
+        },
+        {
+            "text": "branches.",
+            "timestamp": [
+                25.2,
+                25.68
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                25.92,
+                26.080000000000002
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                26.080000000000002,
+                26.240000000000002
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                26.240000000000002,
+                26.400000000000002
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                26.400000000000002,
+                26.48
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                26.48,
+                26.64
+            ]
+        },
+        {
+            "text": "describing",
+            "timestamp": [
+                26.64,
+                27.04
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                27.04,
+                27.2
+            ]
+        },
+        {
+            "text": "specific",
+            "timestamp": [
+                27.2,
+                27.52
+            ]
+        },
+        {
+            "text": "place",
+            "timestamp": [
+                27.52,
+                27.76
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                27.76,
+                27.92
+            ]
+        },
+        {
+            "text": "Houston",
+            "timestamp": [
+                27.92,
+                28.400000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                28.400000000000002,
+                28.48
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                28.48,
+                28.64
+            ]
+        },
+        {
+            "text": "imagining",
+            "timestamp": [
+                28.64,
+                29.12
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                29.12,
+                29.2
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                29.44,
+                29.52
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                29.52,
+                29.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                29.68,
+                29.76
+            ]
+        },
+        {
+            "text": "neighborhood",
+            "timestamp": [
+                29.76,
+                30.240000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                30.240000000000002,
+                30.400000000000002
+            ]
+        },
+        {
+            "text": "building,",
+            "timestamp": [
+                30.400000000000002,
+                30.72
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                30.96,
+                31.2
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                31.2,
+                31.52
+            ]
+        },
+        {
+            "text": "actually.",
+            "timestamp": [
+                31.52,
+                31.84
+            ]
+        },
+        {
+            "text": "Totally",
+            "timestamp": [
+                42.96,
+                43.44
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                43.44,
+                43.68
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                43.68,
+                43.92
+            ]
+        },
+        {
+            "text": "Remodeling",
+            "timestamp": [
+                44.24,
+                45.04
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                45.04,
+                45.2
+            ]
+        },
+        {
+            "text": "bring",
+            "timestamp": [
+                45.2,
+                45.36
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                45.36,
+                45.52
+            ]
+        },
+        {
+            "text": "life",
+            "timestamp": [
+                45.52,
+                45.68
+            ]
+        },
+        {
+            "text": "to.",
+            "timestamp": [
+                45.68,
+                45.84
+            ]
+        }
+    ]
+}

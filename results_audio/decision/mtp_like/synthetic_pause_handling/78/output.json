@@ -1,0 +1,47 @@
+{
+    "text": "That's a great move. No worry.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                4.24,
+                4.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.72,
+                4.88
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                4.88,
+                5.2
+            ]
+        },
+        {
+            "text": "move.",
+            "timestamp": [
+                5.2,
+                5.84
+            ]
+        },
+        {
+            "text": "No",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "worry.",
+            "timestamp": [
+                6.48,
+                6.96
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "text": "You mean reg quartermill? That doesn't sound right. Maybe you meant",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                2.88,
+                3.12
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                3.12,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "reg",
+            "timestamp": [
+                3.44,
+                3.6
+            ]
+        },
+        {
+            "text": "quartermill?",
+            "timestamp": [
+                9.36,
+                10.08
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "doesn't",
+            "timestamp": [
+                10.8,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "sound",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                11.36,
+                11.44
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        }
+    ]
+}

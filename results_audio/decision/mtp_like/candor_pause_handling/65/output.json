@@ -1,0 +1,103 @@
+{
+    "text": "That's a good point. You're right to question that. Thank you. While charter schools",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                6.96,
+                7.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "point.",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                10.64,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "right",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "question",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                11.68,
+                12.0
+            ]
+        },
+        {
+            "text": "Thank",
+            "timestamp": [
+                12.32,
+                12.64
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "While",
+            "timestamp": [
+                13.120000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "charter",
+            "timestamp": [
+                13.44,
+                13.76
+            ]
+        },
+        {
+            "text": "schools",
+            "timestamp": [
+                13.76,
+                14.24
+            ]
+        }
+    ]
+}

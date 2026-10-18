@@ -1,0 +1,229 @@
+{
+    "text": "Yeah, sometimes thoughts just come out weirdly, like they're not quite words, but still mean something. Ah, got it. Totally normal. Yeah, that one. Got it. Weekend ahead. What's on your mind?",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                5.36,
+                5.68
+            ]
+        },
+        {
+            "text": "sometimes",
+            "timestamp": [
+                5.92,
+                6.32
+            ]
+        },
+        {
+            "text": "thoughts",
+            "timestamp": [
+                6.32,
+                6.72
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "come",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "weirdly,",
+            "timestamp": [
+                7.2,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "they're",
+            "timestamp": [
+                8.0,
+                8.16
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "quite",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "words,",
+            "timestamp": [
+                8.56,
+                8.88
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "still",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "something.",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                10.4,
+                10.48
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "Totally",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "normal.",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "one.",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "Weekend",
+            "timestamp": [
+                14.0,
+                14.48
+            ]
+        },
+        {
+            "text": "ahead.",
+            "timestamp": [
+                14.48,
+                14.88
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                15.120000000000001,
+                15.52
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                15.52,
+                15.76
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                15.76,
+                16.0
+            ]
+        },
+        {
+            "text": "mind?",
+            "timestamp": [
+                16.0,
+                16.64
+            ]
+        }
+    ]
+}

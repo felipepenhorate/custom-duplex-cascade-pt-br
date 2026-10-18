@@ -1,0 +1,425 @@
+{
+    "text": "Not right now, but I can help you find a store or suggest a substitute if needed. Would you like me to suggest an alternative? MN. Got it. Eggs are in the fridge. That's perfect. Just make sure they're room temperature when you use them for the cake. Let me know if you'd like the full recipe with the rest.",
+    "chunks": [
+        {
+            "text": "Not",
+            "timestamp": [
+                12.360000000000001,
+                12.600000000000001
+            ]
+        },
+        {
+            "text": "right",
+            "timestamp": [
+                12.600000000000001,
+                12.840000000000002
+            ]
+        },
+        {
+            "text": "now,",
+            "timestamp": [
+                12.840000000000002,
+                13.080000000000002
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                13.4,
+                13.56
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.56,
+                13.72
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                13.72,
+                13.88
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                13.88,
+                14.040000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.040000000000001,
+                14.200000000000001
+            ]
+        },
+        {
+            "text": "find",
+            "timestamp": [
+                14.200000000000001,
+                14.360000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.360000000000001,
+                14.520000000000001
+            ]
+        },
+        {
+            "text": "store",
+            "timestamp": [
+                14.520000000000001,
+                15.0
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                15.080000000000002,
+                15.32
+            ]
+        },
+        {
+            "text": "suggest",
+            "timestamp": [
+                15.32,
+                15.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.8,
+                15.96
+            ]
+        },
+        {
+            "text": "substitute",
+            "timestamp": [
+                15.96,
+                16.520000000000003
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                16.520000000000003,
+                16.68
+            ]
+        },
+        {
+            "text": "needed.",
+            "timestamp": [
+                16.68,
+                17.0
+            ]
+        },
+        {
+            "text": "Would",
+            "timestamp": [
+                17.32,
+                17.48
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.48,
+                17.64
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                17.64,
+                17.8
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                17.8,
+                17.880000000000003
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.880000000000003,
+                18.04
+            ]
+        },
+        {
+            "text": "suggest",
+            "timestamp": [
+                18.04,
+                18.36
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                18.36,
+                18.520000000000003
+            ]
+        },
+        {
+            "text": "alternative?",
+            "timestamp": [
+                18.520000000000003,
+                19.400000000000002
+            ]
+        },
+        {
+            "text": "MN.",
+            "timestamp": [
+                19.720000000000002,
+                20.28
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                20.520000000000003,
+                20.76
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                20.76,
+                20.92
+            ]
+        },
+        {
+            "text": "Eggs",
+            "timestamp": [
+                21.160000000000004,
+                21.48
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                21.48,
+                21.560000000000002
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                21.560000000000002,
+                21.72
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                21.72,
+                21.8
+            ]
+        },
+        {
+            "text": "fridge.",
+            "timestamp": [
+                21.8,
+                22.200000000000003
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                22.44,
+                22.76
+            ]
+        },
+        {
+            "text": "perfect.",
+            "timestamp": [
+                22.76,
+                23.160000000000004
+            ]
+        },
+        {
+            "text": "Just",
+            "timestamp": [
+                23.4,
+                23.560000000000002
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                23.560000000000002,
+                23.72
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                23.72,
+                23.880000000000003
+            ]
+        },
+        {
+            "text": "they're",
+            "timestamp": [
+                23.880000000000003,
+                24.04
+            ]
+        },
+        {
+            "text": "room",
+            "timestamp": [
+                24.200000000000003,
+                24.44
+            ]
+        },
+        {
+            "text": "temperature",
+            "timestamp": [
+                24.44,
+                24.840000000000003
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                24.840000000000003,
+                24.92
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                24.92,
+                25.080000000000002
+            ]
+        },
+        {
+            "text": "use",
+            "timestamp": [
+                25.080000000000002,
+                25.160000000000004
+            ]
+        },
+        {
+            "text": "them",
+            "timestamp": [
+                25.160000000000004,
+                25.32
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                25.32,
+                25.400000000000002
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                25.400000000000002,
+                25.560000000000002
+            ]
+        },
+        {
+            "text": "cake.",
+            "timestamp": [
+                25.560000000000002,
+                25.8
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                25.96,
+                26.12
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                26.12,
+                26.200000000000003
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                26.200000000000003,
+                26.36
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                26.36,
+                26.44
+            ]
+        },
+        {
+            "text": "you'd",
+            "timestamp": [
+                26.44,
+                26.76
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                26.76,
+                26.840000000000003
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                26.840000000000003,
+                26.92
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                26.92,
+                27.160000000000004
+            ]
+        },
+        {
+            "text": "recipe",
+            "timestamp": [
+                27.160000000000004,
+                27.64
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                27.64,
+                27.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                27.8,
+                28.04
+            ]
+        },
+        {
+            "text": "rest.",
+            "timestamp": [
+                28.04,
+                28.6
+            ]
+        }
+    ]
+}

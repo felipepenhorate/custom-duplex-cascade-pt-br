@@ -1,0 +1,103 @@
+{
+    "text": "Oh, cool, John Tylers? That's a fun place. What kind of workouts or experiences?",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                8.32,
+                8.64
+            ]
+        },
+        {
+            "text": "cool,",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "John",
+            "timestamp": [
+                9.200000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "Tylers?",
+            "timestamp": [
+                9.52,
+                10.0
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "fun",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "place.",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "workouts",
+            "timestamp": [
+                12.0,
+                12.4
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "experiences?",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        }
+    ]
+}

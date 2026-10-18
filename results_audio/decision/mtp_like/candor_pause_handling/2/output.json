@@ -1,0 +1,299 @@
+{
+    "text": "That sounds a bit confusing. Do you mean you're going to school from home? Or are you trying to say something else? Let me know, and I'll help. Emund. Got it. So you're working from school, working management from home might help.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                1.92,
+                2.24
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                2.24,
+                2.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                2.64,
+                2.72
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                2.72,
+                2.88
+            ]
+        },
+        {
+            "text": "confusing.",
+            "timestamp": [
+                2.88,
+                3.44
+            ]
+        },
+        {
+            "text": "Do",
+            "timestamp": [
+                3.68,
+                3.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                3.84,
+                4.0
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                4.0,
+                4.16
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                4.16,
+                4.32
+            ]
+        },
+        {
+            "text": "going",
+            "timestamp": [
+                4.32,
+                4.48
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                4.48,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "school",
+            "timestamp": [
+                4.5600000000000005,
+                4.8
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                4.8,
+                4.96
+            ]
+        },
+        {
+            "text": "home?",
+            "timestamp": [
+                4.96,
+                5.2
+            ]
+        },
+        {
+            "text": "Or",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                5.6000000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                6.0,
+                6.08
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                6.24,
+                6.48
+            ]
+        },
+        {
+            "text": "else?",
+            "timestamp": [
+                6.48,
+                6.72
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "know,",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                7.6000000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "I'll",
+            "timestamp": [
+                7.68,
+                8.0
+            ]
+        },
+        {
+            "text": "help.",
+            "timestamp": [
+                8.0,
+                8.16
+            ]
+        },
+        {
+            "text": "Emund.",
+            "timestamp": [
+                8.4,
+                8.96
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "So",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "working",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "school,",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "working",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "management",
+            "timestamp": [
+                12.48,
+                12.8
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "home",
+            "timestamp": [
+                13.040000000000001,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                13.200000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "help.",
+            "timestamp": [
+                13.36,
+                13.44
+            ]
+        }
+    ]
+}

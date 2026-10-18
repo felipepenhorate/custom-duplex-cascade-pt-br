@@ -1,0 +1,215 @@
+{
+    "text": "Mm. That's a wild one. Hope you're winning big. Maybe next time we can plan a trip to Utah? M? Got it. Utah's got that magic, no doubt. Next time.",
+    "chunks": [
+        {
+            "text": "Mm.",
+            "timestamp": [
+                3.44,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                4.32,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.5600000000000005,
+                4.72
+            ]
+        },
+        {
+            "text": "wild",
+            "timestamp": [
+                4.72,
+                5.04
+            ]
+        },
+        {
+            "text": "one.",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "Hope",
+            "timestamp": [
+                5.44,
+                5.68
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "winning",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "big.",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                6.8,
+                7.2
+            ]
+        },
+        {
+            "text": "next",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                7.36,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                7.6000000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                7.68,
+                7.76
+            ]
+        },
+        {
+            "text": "plan",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.0,
+                8.08
+            ]
+        },
+        {
+            "text": "trip",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "Utah?",
+            "timestamp": [
+                8.32,
+                8.64
+            ]
+        },
+        {
+            "text": "M?",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                10.88,
+                11.28
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "Utah's",
+            "timestamp": [
+                11.84,
+                12.48
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                12.64,
+                12.72
+            ]
+        },
+        {
+            "text": "magic,",
+            "timestamp": [
+                12.72,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "doubt.",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "Next",
+            "timestamp": [
+                13.84,
+                14.08
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                14.08,
+                14.24
+            ]
+        }
+    ]
+}

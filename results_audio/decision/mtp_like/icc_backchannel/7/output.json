@@ -1,0 +1,292 @@
+{
+    "text": "That sounds interesting. Oh, semester. What a great time to be taking classes. Hope you're enjoying it. Honey, got it. Just a class, then. Sounds like a solid start. Have fun. I'm That sounds really tough. Internal struggles with required classes.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                6.88,
+                7.2
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                7.2,
+                7.76
+            ]
+        },
+        {
+            "text": "interesting.",
+            "timestamp": [
+                7.76,
+                8.24
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                8.56,
+                8.8
+            ]
+        },
+        {
+            "text": "semester.",
+            "timestamp": [
+                8.96,
+                9.76
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "taking",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "classes.",
+            "timestamp": [
+                11.52,
+                12.0
+            ]
+        },
+        {
+            "text": "Hope",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "enjoying",
+            "timestamp": [
+                12.8,
+                13.68
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                13.68,
+                14.0
+            ]
+        },
+        {
+            "text": "Honey,",
+            "timestamp": [
+                16.240000000000002,
+                16.56
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                17.12,
+                17.36
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                17.36,
+                17.52
+            ]
+        },
+        {
+            "text": "Just",
+            "timestamp": [
+                17.68,
+                17.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.92,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "class,",
+            "timestamp": [
+                18.080000000000002,
+                18.32
+            ]
+        },
+        {
+            "text": "then.",
+            "timestamp": [
+                18.400000000000002,
+                18.56
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                18.8,
+                19.04
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                19.28,
+                19.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.44,
+                19.52
+            ]
+        },
+        {
+            "text": "solid",
+            "timestamp": [
+                19.52,
+                19.84
+            ]
+        },
+        {
+            "text": "start.",
+            "timestamp": [
+                19.84,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "Have",
+            "timestamp": [
+                20.32,
+                20.72
+            ]
+        },
+        {
+            "text": "fun.",
+            "timestamp": [
+                20.72,
+                21.04
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                21.6,
+                22.080000000000002
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                23.6,
+                23.84
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                23.84,
+                24.32
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                24.32,
+                24.48
+            ]
+        },
+        {
+            "text": "tough.",
+            "timestamp": [
+                24.48,
+                24.8
+            ]
+        },
+        {
+            "text": "Internal",
+            "timestamp": [
+                25.04,
+                25.44
+            ]
+        },
+        {
+            "text": "struggles",
+            "timestamp": [
+                25.44,
+                25.84
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                25.84,
+                26.0
+            ]
+        },
+        {
+            "text": "required",
+            "timestamp": [
+                26.0,
+                26.32
+            ]
+        },
+        {
+            "text": "classes.",
+            "timestamp": [
+                26.32,
+                26.64
+            ]
+        }
+    ]
+}

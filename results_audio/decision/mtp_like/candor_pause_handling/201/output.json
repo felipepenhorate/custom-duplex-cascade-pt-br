@@ -1,0 +1,187 @@
+{
+    "text": "You mean the last one you did that was similar? I'm listening. What were you thinking about? Jim and Oh, really? That's interesting. Who were they?",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                4.16,
+                4.32
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                4.32,
+                4.48
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                4.48,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "last",
+            "timestamp": [
+                4.5600000000000005,
+                4.8
+            ]
+        },
+        {
+            "text": "one",
+            "timestamp": [
+                4.8,
+                4.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.96,
+                5.04
+            ]
+        },
+        {
+            "text": "did",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "similar?",
+            "timestamp": [
+                5.5200000000000005,
+                5.92
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                6.16,
+                6.4
+            ]
+        },
+        {
+            "text": "listening.",
+            "timestamp": [
+                6.4,
+                6.88
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "thinking",
+            "timestamp": [
+                7.6000000000000005,
+                8.0
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        },
+        {
+            "text": "Jim",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.120000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "really?",
+            "timestamp": [
+                9.84,
+                10.16
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                10.48,
+                10.8
+            ]
+        },
+        {
+            "text": "interesting.",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "Who",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "they?",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        }
+    ]
+}

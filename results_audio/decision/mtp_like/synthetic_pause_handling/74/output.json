@@ -1,0 +1,89 @@
+{
+    "text": "Sure, how about Tritoria Da Enzo? Absolutely. Tritoria da Enzo serves classic",
+    "chunks": [
+        {
+            "text": "Sure,",
+            "timestamp": [
+                3.52,
+                4.08
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                4.32,
+                4.48
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                4.48,
+                4.72
+            ]
+        },
+        {
+            "text": "Tritoria",
+            "timestamp": [
+                4.72,
+                5.36
+            ]
+        },
+        {
+            "text": "Da",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "Enzo?",
+            "timestamp": [
+                5.6000000000000005,
+                6.16
+            ]
+        },
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                9.52,
+                10.48
+            ]
+        },
+        {
+            "text": "Tritoria",
+            "timestamp": [
+                10.8,
+                11.36
+            ]
+        },
+        {
+            "text": "da",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "Enzo",
+            "timestamp": [
+                11.68,
+                12.24
+            ]
+        },
+        {
+            "text": "serves",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "classic",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        }
+    ]
+}

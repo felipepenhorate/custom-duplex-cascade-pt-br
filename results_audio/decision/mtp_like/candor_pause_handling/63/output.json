@@ -1,0 +1,110 @@
+{
+    "text": "Sure. Bye. Sounds im. I'm here if you have any questions or need help with.",
+    "chunks": [
+        {
+            "text": "Sure.",
+            "timestamp": [
+                8.56,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "Bye.",
+            "timestamp": [
+                10.72,
+                11.44
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                12.88,
+                13.36
+            ]
+        },
+        {
+            "text": "im.",
+            "timestamp": [
+                13.76,
+                13.92
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                14.32,
+                14.64
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                14.88,
+                14.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.96,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                15.040000000000001,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                15.200000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "questions",
+            "timestamp": [
+                15.36,
+                15.76
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                15.76,
+                15.92
+            ]
+        },
+        {
+            "text": "need",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                16.16,
+                16.4
+            ]
+        },
+        {
+            "text": "with.",
+            "timestamp": [
+                16.4,
+                16.64
+            ]
+        }
+    ]
+}

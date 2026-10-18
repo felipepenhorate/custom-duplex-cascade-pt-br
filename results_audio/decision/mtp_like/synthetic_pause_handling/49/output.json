@@ -1,0 +1,61 @@
+{
+    "text": "That sounds awesome. Mountains are by the sea.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                9.76,
+                10.0
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                10.0,
+                10.48
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                10.48,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "Mountains",
+            "timestamp": [
+                11.36,
+                12.0
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "sea.",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        }
+    ]
+}

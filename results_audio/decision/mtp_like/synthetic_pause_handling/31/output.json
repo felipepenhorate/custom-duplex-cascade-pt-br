@@ -1,0 +1,187 @@
+{
+    "text": "Sure. How about? Haha, you're making me laugh. I'll take that as a perfect compliment. Maybe. Oh, life upside down. That sounds like a delightful mix.",
+    "chunks": [
+        {
+            "text": "Sure.",
+            "timestamp": [
+                2.96,
+                3.6
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                3.92,
+                4.24
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "Haha,",
+            "timestamp": [
+                5.12,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                6.0,
+                6.24
+            ]
+        },
+        {
+            "text": "making",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                6.5600000000000005,
+                6.72
+            ]
+        },
+        {
+            "text": "laugh.",
+            "timestamp": [
+                6.72,
+                7.2
+            ]
+        },
+        {
+            "text": "I'll",
+            "timestamp": [
+                7.5200000000000005,
+                8.24
+            ]
+        },
+        {
+            "text": "take",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.72,
+                8.88
+            ]
+        },
+        {
+            "text": "perfect",
+            "timestamp": [
+                8.88,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "compliment.",
+            "timestamp": [
+                9.200000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "Maybe.",
+            "timestamp": [
+                9.92,
+                10.24
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "life",
+            "timestamp": [
+                11.76,
+                12.08
+            ]
+        },
+        {
+            "text": "upside",
+            "timestamp": [
+                12.08,
+                12.64
+            ]
+        },
+        {
+            "text": "down.",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                13.44,
+                13.68
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                13.68,
+                13.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.76,
+                13.84
+            ]
+        },
+        {
+            "text": "delightful",
+            "timestamp": [
+                13.84,
+                14.24
+            ]
+        },
+        {
+            "text": "mix.",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        }
+    ]
+}

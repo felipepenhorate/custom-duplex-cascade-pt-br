@@ -1,0 +1,89 @@
+{
+    "text": "Oh M. Completely different level. You mean the vibe, the pace, or",
+    "chunks": [
+        {
+            "text": "Oh",
+            "timestamp": [
+                4.5600000000000005,
+                4.88
+            ]
+        },
+        {
+            "text": "M.",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "Completely",
+            "timestamp": [
+                7.68,
+                8.24
+            ]
+        },
+        {
+            "text": "different",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "level.",
+            "timestamp": [
+                8.48,
+                8.88
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "vibe,",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "pace,",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        }
+    ]
+}

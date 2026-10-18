@@ -1,0 +1,369 @@
+{
+    "text": "You're right. Growing up means more than just being a kid. It's about learning responsibility, facing challenges, and understanding the world beyond medicine and fun. Like healing people, saving lives, or just being kind. Either way, it's powerful both in the world and in how we care for each other. Beyond that.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                2.24,
+                2.72
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                2.72,
+                2.96
+            ]
+        },
+        {
+            "text": "Growing",
+            "timestamp": [
+                3.2,
+                3.68
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                3.68,
+                3.92
+            ]
+        },
+        {
+            "text": "means",
+            "timestamp": [
+                3.92,
+                4.24
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "than",
+            "timestamp": [
+                4.48,
+                4.72
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                4.72,
+                4.96
+            ]
+        },
+        {
+            "text": "being",
+            "timestamp": [
+                4.96,
+                5.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "kid.",
+            "timestamp": [
+                5.28,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                5.92,
+                6.16
+            ]
+        },
+        {
+            "text": "learning",
+            "timestamp": [
+                6.16,
+                6.48
+            ]
+        },
+        {
+            "text": "responsibility,",
+            "timestamp": [
+                6.48,
+                7.2
+            ]
+        },
+        {
+            "text": "facing",
+            "timestamp": [
+                7.36,
+                7.68
+            ]
+        },
+        {
+            "text": "challenges,",
+            "timestamp": [
+                7.68,
+                8.16
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "understanding",
+            "timestamp": [
+                8.72,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "world",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "beyond",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "medicine",
+            "timestamp": [
+                10.08,
+                10.64
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "fun.",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "Like",
+            "timestamp": [
+                11.040000000000001,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "healing",
+            "timestamp": [
+                11.84,
+                12.16
+            ]
+        },
+        {
+            "text": "people,",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "saving",
+            "timestamp": [
+                12.64,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "lives,",
+            "timestamp": [
+                13.120000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                13.6,
+                13.84
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                13.84,
+                14.16
+            ]
+        },
+        {
+            "text": "being",
+            "timestamp": [
+                14.16,
+                14.48
+            ]
+        },
+        {
+            "text": "kind.",
+            "timestamp": [
+                14.48,
+                14.72
+            ]
+        },
+        {
+            "text": "Either",
+            "timestamp": [
+                15.040000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "way,",
+            "timestamp": [
+                15.44,
+                15.52
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                15.68,
+                16.0
+            ]
+        },
+        {
+            "text": "powerful",
+            "timestamp": [
+                16.0,
+                16.56
+            ]
+        },
+        {
+            "text": "both",
+            "timestamp": [
+                16.8,
+                17.04
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                17.04,
+                17.2
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                17.2,
+                17.36
+            ]
+        },
+        {
+            "text": "world",
+            "timestamp": [
+                17.36,
+                17.6
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                17.6,
+                17.84
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                17.84,
+                18.0
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                18.0,
+                18.16
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                18.16,
+                18.32
+            ]
+        },
+        {
+            "text": "care",
+            "timestamp": [
+                18.32,
+                18.48
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                18.48,
+                18.64
+            ]
+        },
+        {
+            "text": "each",
+            "timestamp": [
+                18.64,
+                18.88
+            ]
+        },
+        {
+            "text": "other.",
+            "timestamp": [
+                18.88,
+                19.04
+            ]
+        },
+        {
+            "text": "Beyond",
+            "timestamp": [
+                19.36,
+                19.76
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                19.76,
+                19.92
+            ]
+        }
+    ]
+}

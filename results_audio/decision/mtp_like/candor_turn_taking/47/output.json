@@ -1,0 +1,243 @@
+{
+    "text": "I'm not sure I understate University. Oh, you mean people from Corvallis? That's in Oregon, home of Oregon State University. If you're comparing Penn State to Oregon State, or talking about someone from Corvallis.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                2.72,
+                3.12
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                3.12,
+                3.36
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                3.36,
+                3.6
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                3.6,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "understate",
+            "timestamp": [
+                3.7600000000000002,
+                8.72
+            ]
+        },
+        {
+            "text": "University.",
+            "timestamp": [
+                8.72,
+                9.84
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        },
+        {
+            "text": "Corvallis?",
+            "timestamp": [
+                13.68,
+                14.48
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                14.8,
+                14.96
+            ]
+        },
+        {
+            "text": "Oregon,",
+            "timestamp": [
+                14.96,
+                15.36
+            ]
+        },
+        {
+            "text": "home",
+            "timestamp": [
+                15.52,
+                15.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                15.68,
+                15.84
+            ]
+        },
+        {
+            "text": "Oregon",
+            "timestamp": [
+                15.84,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "State",
+            "timestamp": [
+                16.240000000000002,
+                16.56
+            ]
+        },
+        {
+            "text": "University.",
+            "timestamp": [
+                16.56,
+                16.96
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                17.28,
+                17.36
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                17.36,
+                17.6
+            ]
+        },
+        {
+            "text": "comparing",
+            "timestamp": [
+                17.6,
+                17.92
+            ]
+        },
+        {
+            "text": "Penn",
+            "timestamp": [
+                17.92,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "State",
+            "timestamp": [
+                18.240000000000002,
+                18.48
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                18.48,
+                18.64
+            ]
+        },
+        {
+            "text": "Oregon",
+            "timestamp": [
+                18.64,
+                19.04
+            ]
+        },
+        {
+            "text": "State,",
+            "timestamp": [
+                19.04,
+                19.28
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                19.36,
+                19.6
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                19.6,
+                19.84
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                19.84,
+                20.0
+            ]
+        },
+        {
+            "text": "someone",
+            "timestamp": [
+                20.0,
+                20.240000000000002
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                20.240000000000002,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "Corvallis.",
+            "timestamp": [
+                20.400000000000002,
+                20.88
+            ]
+        }
+    ]
+}

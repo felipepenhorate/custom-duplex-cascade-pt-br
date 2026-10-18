@@ -1,0 +1,26 @@
+{
+    "text": "Yeah, being interested",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "being",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "interested",
+            "timestamp": [
+                7.44,
+                7.92
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "text": "That sounds really tough. It's easy to feel discouraged when you.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                13.36,
+                13.68
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                13.68,
+                14.08
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                14.08,
+                14.32
+            ]
+        },
+        {
+            "text": "tough.",
+            "timestamp": [
+                14.32,
+                14.72
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                15.040000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "easy",
+            "timestamp": [
+                15.44,
+                15.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.84,
+                15.92
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                15.92,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "discouraged",
+            "timestamp": [
+                16.080000000000002,
+                16.56
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                16.56,
+                16.64
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                16.64,
+                16.72
+            ]
+        }
+    ]
+}

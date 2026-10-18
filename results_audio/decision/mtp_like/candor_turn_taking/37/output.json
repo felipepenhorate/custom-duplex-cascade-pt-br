@@ -1,0 +1,250 @@
+{
+    "text": "All right. That's awesome. Which author are you talking about? Absolutely. That's so cool. First books often leave a deep impression. What genre or theme was it? Ashem and. Oh, The Shining. That's a classic.",
+    "chunks": [
+        {
+            "text": "All",
+            "timestamp": [
+                1.6,
+                1.92
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                1.92,
+                2.24
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                3.44,
+                3.68
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                3.68,
+                4.08
+            ]
+        },
+        {
+            "text": "Which",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "author",
+            "timestamp": [
+                4.48,
+                4.88
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                4.88,
+                4.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.96,
+                5.12
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                5.44,
+                5.68
+            ]
+        },
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                6.5600000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                8.32,
+                8.64
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "cool.",
+            "timestamp": [
+                8.88,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "First",
+            "timestamp": [
+                9.44,
+                9.76
+            ]
+        },
+        {
+            "text": "books",
+            "timestamp": [
+                9.76,
+                10.16
+            ]
+        },
+        {
+            "text": "often",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "leave",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "deep",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "impression.",
+            "timestamp": [
+                11.040000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        },
+        {
+            "text": "genre",
+            "timestamp": [
+                12.16,
+                12.64
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "theme",
+            "timestamp": [
+                12.88,
+                13.36
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "it?",
+            "timestamp": [
+                13.6,
+                13.92
+            ]
+        },
+        {
+            "text": "Ashem",
+            "timestamp": [
+                14.8,
+                15.84
+            ]
+        },
+        {
+            "text": "and.",
+            "timestamp": [
+                16.0,
+                16.16
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                16.56,
+                16.72
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                16.8,
+                16.96
+            ]
+        },
+        {
+            "text": "Shining.",
+            "timestamp": [
+                16.96,
+                17.44
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                17.68,
+                17.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.92,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "classic.",
+            "timestamp": [
+                18.080000000000002,
+                18.48
+            ]
+        }
+    ]
+}

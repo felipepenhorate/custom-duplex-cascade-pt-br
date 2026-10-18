@@ -1,0 +1,82 @@
+{
+    "text": "You're right? Absolutely. The Silence of the Lambs is a masterpiece.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                4.72,
+                5.36
+            ]
+        },
+        {
+            "text": "right?",
+            "timestamp": [
+                5.36,
+                5.68
+            ]
+        },
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                8.24,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "Silence",
+            "timestamp": [
+                9.6,
+                10.0
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "Lambs",
+            "timestamp": [
+                10.24,
+                10.64
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "masterpiece.",
+            "timestamp": [
+                10.8,
+                11.36
+            ]
+        }
+    ]
+}

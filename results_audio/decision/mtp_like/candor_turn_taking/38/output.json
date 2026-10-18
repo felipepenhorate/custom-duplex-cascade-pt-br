@@ -1,0 +1,47 @@
+{
+    "text": "Hello, how can I help you?",
+    "chunks": [
+        {
+            "text": "Hello,",
+            "timestamp": [
+                4.5600000000000005,
+                5.12
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                5.5200000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.68,
+                6.0
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                6.0,
+                6.32
+            ]
+        },
+        {
+            "text": "you?",
+            "timestamp": [
+                6.32,
+                6.640000000000001
+            ]
+        }
+    ]
+}

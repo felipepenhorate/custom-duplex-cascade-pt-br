@@ -1,0 +1,355 @@
+{
+    "text": "Of course. Here are a few quick tips. Be punctual. Show up on time, even for virtual meetings. Ask smart questions. Show curiosity and genuine interest in your work. 3. Great question. Here's how to shine in public speaking at work. 1. Practice your delivery. Rehearse key points out loud.",
+    "chunks": [
+        {
+            "text": "Of",
+            "timestamp": [
+                13.08,
+                13.4
+            ]
+        },
+        {
+            "text": "course.",
+            "timestamp": [
+                13.4,
+                13.72
+            ]
+        },
+        {
+            "text": "Here",
+            "timestamp": [
+                13.96,
+                14.120000000000001
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                14.120000000000001,
+                14.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.28,
+                14.44
+            ]
+        },
+        {
+            "text": "few",
+            "timestamp": [
+                14.44,
+                14.6
+            ]
+        },
+        {
+            "text": "quick",
+            "timestamp": [
+                14.6,
+                14.84
+            ]
+        },
+        {
+            "text": "tips.",
+            "timestamp": [
+                14.84,
+                15.32
+            ]
+        },
+        {
+            "text": "Be",
+            "timestamp": [
+                15.64,
+                15.88
+            ]
+        },
+        {
+            "text": "punctual.",
+            "timestamp": [
+                15.88,
+                16.44
+            ]
+        },
+        {
+            "text": "Show",
+            "timestamp": [
+                16.68,
+                16.84
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                16.92,
+                17.08
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                17.08,
+                17.32
+            ]
+        },
+        {
+            "text": "time,",
+            "timestamp": [
+                17.32,
+                17.48
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                17.72,
+                17.88
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                17.88,
+                18.04
+            ]
+        },
+        {
+            "text": "virtual",
+            "timestamp": [
+                18.04,
+                18.44
+            ]
+        },
+        {
+            "text": "meetings.",
+            "timestamp": [
+                18.44,
+                18.92
+            ]
+        },
+        {
+            "text": "Ask",
+            "timestamp": [
+                19.16,
+                19.48
+            ]
+        },
+        {
+            "text": "smart",
+            "timestamp": [
+                19.48,
+                19.96
+            ]
+        },
+        {
+            "text": "questions.",
+            "timestamp": [
+                19.96,
+                20.44
+            ]
+        },
+        {
+            "text": "Show",
+            "timestamp": [
+                20.68,
+                21.0
+            ]
+        },
+        {
+            "text": "curiosity",
+            "timestamp": [
+                21.0,
+                21.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                21.72,
+                21.96
+            ]
+        },
+        {
+            "text": "genuine",
+            "timestamp": [
+                21.96,
+                22.6
+            ]
+        },
+        {
+            "text": "interest",
+            "timestamp": [
+                22.6,
+                22.92
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                22.92,
+                23.240000000000002
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                23.240000000000002,
+                23.560000000000002
+            ]
+        },
+        {
+            "text": "work.",
+            "timestamp": [
+                23.560000000000002,
+                23.880000000000003
+            ]
+        },
+        {
+            "text": "3.",
+            "timestamp": [
+                24.439999999999998,
+                24.84
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                25.08,
+                25.4
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                25.4,
+                25.560000000000002
+            ]
+        },
+        {
+            "text": "Here's",
+            "timestamp": [
+                26.12,
+                26.439999999999998
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                26.439999999999998,
+                26.6
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                26.6,
+                26.759999999999998
+            ]
+        },
+        {
+            "text": "shine",
+            "timestamp": [
+                26.759999999999998,
+                27.0
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                27.0,
+                27.16
+            ]
+        },
+        {
+            "text": "public",
+            "timestamp": [
+                27.16,
+                27.4
+            ]
+        },
+        {
+            "text": "speaking",
+            "timestamp": [
+                27.4,
+                27.8
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                27.8,
+                27.96
+            ]
+        },
+        {
+            "text": "work.",
+            "timestamp": [
+                27.96,
+                28.04
+            ]
+        },
+        {
+            "text": "1.",
+            "timestamp": [
+                28.52,
+                28.92
+            ]
+        },
+        {
+            "text": "Practice",
+            "timestamp": [
+                29.08,
+                29.560000000000002
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                29.560000000000002,
+                29.72
+            ]
+        },
+        {
+            "text": "delivery.",
+            "timestamp": [
+                29.72,
+                30.200000000000003
+            ]
+        },
+        {
+            "text": "Rehearse",
+            "timestamp": [
+                30.36,
+                30.840000000000003
+            ]
+        },
+        {
+            "text": "key",
+            "timestamp": [
+                30.840000000000003,
+                31.08
+            ]
+        },
+        {
+            "text": "points",
+            "timestamp": [
+                31.08,
+                31.4
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                31.4,
+                31.560000000000002
+            ]
+        },
+        {
+            "text": "loud.",
+            "timestamp": [
+                31.560000000000002,
+                31.799999999999997
+            ]
+        }
+    ]
+}

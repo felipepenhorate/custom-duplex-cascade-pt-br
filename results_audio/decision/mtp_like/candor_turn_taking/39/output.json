@@ -1,0 +1,327 @@
+{
+    "text": "Oh, that sounds like a traditional landmark or ritual, maybe a seven dust ceremony to mark or protect the land? Wait, so they're using a poison, like a chemical, to douse the tomatoes when they're growing? That sounds intense. Are you saying it's a protective ritual?",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                14.56,
+                14.88
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                14.96,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                15.120000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                15.44,
+                15.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.6,
+                15.68
+            ]
+        },
+        {
+            "text": "traditional",
+            "timestamp": [
+                15.68,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "landmark",
+            "timestamp": [
+                16.240000000000002,
+                16.8
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                16.8,
+                16.96
+            ]
+        },
+        {
+            "text": "ritual,",
+            "timestamp": [
+                16.96,
+                17.44
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                17.68,
+                17.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.0,
+                18.240000000000002
+            ]
+        },
+        {
+            "text": "seven",
+            "timestamp": [
+                18.240000000000002,
+                18.64
+            ]
+        },
+        {
+            "text": "dust",
+            "timestamp": [
+                18.64,
+                19.04
+            ]
+        },
+        {
+            "text": "ceremony",
+            "timestamp": [
+                19.04,
+                19.6
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                19.6,
+                19.76
+            ]
+        },
+        {
+            "text": "mark",
+            "timestamp": [
+                19.76,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                20.080000000000002,
+                20.240000000000002
+            ]
+        },
+        {
+            "text": "protect",
+            "timestamp": [
+                20.240000000000002,
+                20.72
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                20.72,
+                20.96
+            ]
+        },
+        {
+            "text": "land?",
+            "timestamp": [
+                20.96,
+                21.6
+            ]
+        },
+        {
+            "text": "Wait,",
+            "timestamp": [
+                26.32,
+                26.8
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                27.04,
+                27.2
+            ]
+        },
+        {
+            "text": "they're",
+            "timestamp": [
+                27.2,
+                27.44
+            ]
+        },
+        {
+            "text": "using",
+            "timestamp": [
+                27.44,
+                27.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                27.68,
+                27.84
+            ]
+        },
+        {
+            "text": "poison,",
+            "timestamp": [
+                27.84,
+                28.240000000000002
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                28.32,
+                28.560000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                28.560000000000002,
+                28.64
+            ]
+        },
+        {
+            "text": "chemical,",
+            "timestamp": [
+                28.64,
+                29.04
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                29.28,
+                29.36
+            ]
+        },
+        {
+            "text": "douse",
+            "timestamp": [
+                29.36,
+                29.84
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                29.84,
+                29.92
+            ]
+        },
+        {
+            "text": "tomatoes",
+            "timestamp": [
+                29.92,
+                30.400000000000002
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                30.400000000000002,
+                30.48
+            ]
+        },
+        {
+            "text": "they're",
+            "timestamp": [
+                30.48,
+                30.64
+            ]
+        },
+        {
+            "text": "growing?",
+            "timestamp": [
+                30.64,
+                31.04
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                31.28,
+                31.52
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                31.52,
+                31.84
+            ]
+        },
+        {
+            "text": "intense.",
+            "timestamp": [
+                31.84,
+                32.24
+            ]
+        },
+        {
+            "text": "Are",
+            "timestamp": [
+                32.480000000000004,
+                32.64
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                32.64,
+                32.72
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                32.72,
+                32.96
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                32.96,
+                33.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                33.12,
+                33.2
+            ]
+        },
+        {
+            "text": "protective",
+            "timestamp": [
+                33.2,
+                33.52
+            ]
+        },
+        {
+            "text": "ritual?",
+            "timestamp": [
+                33.52,
+                33.84
+            ]
+        }
+    ]
+}

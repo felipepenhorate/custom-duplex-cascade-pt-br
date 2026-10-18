@@ -1,0 +1,236 @@
+{
+    "text": "Absolutely. Try deep breathing. Inhale for four counts, hold for four, exhale for six. It calms your mind quickly. You can also try progressive muscle relaxation, tense, and release each muscle group. Just.",
+    "chunks": [
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                15.511999999999999,
+                16.631999999999998
+            ]
+        },
+        {
+            "text": "Try",
+            "timestamp": [
+                16.951999999999998,
+                17.272
+            ]
+        },
+        {
+            "text": "deep",
+            "timestamp": [
+                17.272,
+                17.592
+            ]
+        },
+        {
+            "text": "breathing.",
+            "timestamp": [
+                17.592,
+                17.991999999999997
+            ]
+        },
+        {
+            "text": "Inhale",
+            "timestamp": [
+                18.232,
+                18.712
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                18.712,
+                18.872
+            ]
+        },
+        {
+            "text": "four",
+            "timestamp": [
+                18.872,
+                19.032
+            ]
+        },
+        {
+            "text": "counts,",
+            "timestamp": [
+                19.032,
+                19.432
+            ]
+        },
+        {
+            "text": "hold",
+            "timestamp": [
+                19.592,
+                19.832
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                19.832,
+                20.072
+            ]
+        },
+        {
+            "text": "four,",
+            "timestamp": [
+                20.072,
+                20.311999999999998
+            ]
+        },
+        {
+            "text": "exhale",
+            "timestamp": [
+                20.471999999999998,
+                21.032
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                21.032,
+                21.192
+            ]
+        },
+        {
+            "text": "six.",
+            "timestamp": [
+                21.192,
+                21.512
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                21.752,
+                21.912
+            ]
+        },
+        {
+            "text": "calms",
+            "timestamp": [
+                21.912,
+                22.311999999999998
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                22.311999999999998,
+                22.392
+            ]
+        },
+        {
+            "text": "mind",
+            "timestamp": [
+                22.392,
+                22.712
+            ]
+        },
+        {
+            "text": "quickly.",
+            "timestamp": [
+                22.712,
+                22.951999999999998
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                23.272,
+                23.432
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                23.432,
+                23.592
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                23.592,
+                23.832
+            ]
+        },
+        {
+            "text": "try",
+            "timestamp": [
+                23.832,
+                24.072
+            ]
+        },
+        {
+            "text": "progressive",
+            "timestamp": [
+                24.072,
+                24.552
+            ]
+        },
+        {
+            "text": "muscle",
+            "timestamp": [
+                24.552,
+                25.031999999999996
+            ]
+        },
+        {
+            "text": "relaxation,",
+            "timestamp": [
+                25.031999999999996,
+                25.671999999999997
+            ]
+        },
+        {
+            "text": "tense,",
+            "timestamp": [
+                25.912,
+                26.392
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                26.552,
+                26.792
+            ]
+        },
+        {
+            "text": "release",
+            "timestamp": [
+                26.792,
+                27.112
+            ]
+        },
+        {
+            "text": "each",
+            "timestamp": [
+                27.112,
+                27.351999999999997
+            ]
+        },
+        {
+            "text": "muscle",
+            "timestamp": [
+                27.351999999999997,
+                27.752
+            ]
+        },
+        {
+            "text": "group.",
+            "timestamp": [
+                27.752,
+                28.311999999999998
+            ]
+        },
+        {
+            "text": "Just.",
+            "timestamp": [
+                28.631999999999998,
+                29.112
+            ]
+        }
+    ]
+}

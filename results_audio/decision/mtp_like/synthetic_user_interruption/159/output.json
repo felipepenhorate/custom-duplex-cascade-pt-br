@@ -1,0 +1,117 @@
+{
+    "text": "Got it. Stay safe and keep that oven off. Don't forget to check the timer. And",
+    "chunks": [
+        {
+            "text": "Got",
+            "timestamp": [
+                13.927999999999999,
+                14.328
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                14.328,
+                14.568
+            ]
+        },
+        {
+            "text": "Stay",
+            "timestamp": [
+                14.808,
+                15.048
+            ]
+        },
+        {
+            "text": "safe",
+            "timestamp": [
+                15.048,
+                15.368
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                15.368,
+                15.527999999999999
+            ]
+        },
+        {
+            "text": "keep",
+            "timestamp": [
+                15.527999999999999,
+                15.687999999999999
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                15.687999999999999,
+                15.847999999999999
+            ]
+        },
+        {
+            "text": "oven",
+            "timestamp": [
+                15.847999999999999,
+                16.168
+            ]
+        },
+        {
+            "text": "off.",
+            "timestamp": [
+                16.168,
+                16.408
+            ]
+        },
+        {
+            "text": "Don't",
+            "timestamp": [
+                16.648,
+                16.968
+            ]
+        },
+        {
+            "text": "forget",
+            "timestamp": [
+                16.968,
+                17.208
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.208,
+                17.288
+            ]
+        },
+        {
+            "text": "check",
+            "timestamp": [
+                17.288,
+                17.448
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                17.448,
+                17.608
+            ]
+        },
+        {
+            "text": "timer.",
+            "timestamp": [
+                17.608,
+                17.848
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                19.688,
+                20.008
+            ]
+        }
+    ]
+}

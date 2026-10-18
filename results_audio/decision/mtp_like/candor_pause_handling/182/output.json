@@ -1,0 +1,152 @@
+{
+    "text": "Yeah, time flies when you're having fun. Wow, that's cool. What kind of Haha, that sounds like a wild undergrad experience.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                2.64,
+                2.88
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                3.12,
+                3.36
+            ]
+        },
+        {
+            "text": "flies",
+            "timestamp": [
+                3.36,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                3.7600000000000002,
+                3.92
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                3.92,
+                4.08
+            ]
+        },
+        {
+            "text": "having",
+            "timestamp": [
+                4.08,
+                4.32
+            ]
+        },
+        {
+            "text": "fun.",
+            "timestamp": [
+                4.32,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "Wow,",
+            "timestamp": [
+                4.8,
+                5.12
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                5.28,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "cool.",
+            "timestamp": [
+                5.6000000000000005,
+                5.92
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                6.5600000000000005,
+                6.72
+            ]
+        },
+        {
+            "text": "Haha,",
+            "timestamp": [
+                10.88,
+                11.6
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "wild",
+            "timestamp": [
+                12.8,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "undergrad",
+            "timestamp": [
+                13.200000000000001,
+                13.76
+            ]
+        },
+        {
+            "text": "experience.",
+            "timestamp": [
+                13.76,
+                14.4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "text": "I'm not aware of any official record stating that 775 pounds.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                8.4,
+                8.8
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "aware",
+            "timestamp": [
+                8.96,
+                9.36
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "official",
+            "timestamp": [
+                9.84,
+                10.24
+            ]
+        },
+        {
+            "text": "record",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "stating",
+            "timestamp": [
+                10.56,
+                10.88
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "775",
+            "timestamp": [
+                11.040000000000001,
+                11.84
+            ]
+        },
+        {
+            "text": "pounds.",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        }
+    ]
+}

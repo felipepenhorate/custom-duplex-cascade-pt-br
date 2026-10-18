@@ -1,0 +1,131 @@
+{
+    "text": "That's awesome. Great to hear. Keep showing up. Nice. Yoga and rides are perfect for balance and energy.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.2,
+                3.68
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                3.68,
+                4.08
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                4.32,
+                4.64
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "hear.",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "Keep",
+            "timestamp": [
+                5.28,
+                5.68
+            ]
+        },
+        {
+            "text": "showing",
+            "timestamp": [
+                5.68,
+                6.24
+            ]
+        },
+        {
+            "text": "up.",
+            "timestamp": [
+                6.24,
+                6.48
+            ]
+        },
+        {
+            "text": "Nice.",
+            "timestamp": [
+                9.92,
+                10.48
+            ]
+        },
+        {
+            "text": "Yoga",
+            "timestamp": [
+                10.8,
+                11.28
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "rides",
+            "timestamp": [
+                11.36,
+                11.76
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "perfect",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "balance",
+            "timestamp": [
+                12.32,
+                12.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "energy.",
+            "timestamp": [
+                12.88,
+                13.280000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "text": "Cool. What were your early bird gets the worm? Probably the best coffee, too. How's it going for you? Imend?",
+    "chunks": [
+        {
+            "text": "Cool.",
+            "timestamp": [
+                3.2,
+                3.84
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                4.08,
+                4.24
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                4.24,
+                4.4
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                4.4,
+                4.48
+            ]
+        },
+        {
+            "text": "early",
+            "timestamp": [
+                6.4,
+                6.88
+            ]
+        },
+        {
+            "text": "bird",
+            "timestamp": [
+                6.88,
+                7.28
+            ]
+        },
+        {
+            "text": "gets",
+            "timestamp": [
+                7.28,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                7.5200000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "worm?",
+            "timestamp": [
+                7.76,
+                8.08
+            ]
+        },
+        {
+            "text": "Probably",
+            "timestamp": [
+                8.4,
+                8.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "best",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "coffee,",
+            "timestamp": [
+                9.200000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "too.",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        },
+        {
+            "text": "How's",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "going",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "you?",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "Imend?",
+            "timestamp": [
+                12.16,
+                12.88
+            ]
+        }
+    ]
+}

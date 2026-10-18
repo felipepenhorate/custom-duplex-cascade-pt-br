@@ -1,0 +1,68 @@
+{
+    "text": "You're welcome. Diamond. That sounds like a great setup.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                1.2,
+                1.68
+            ]
+        },
+        {
+            "text": "welcome.",
+            "timestamp": [
+                1.68,
+                2.32
+            ]
+        },
+        {
+            "text": "Diamond.",
+            "timestamp": [
+                2.96,
+                4.16
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                5.44,
+                5.68
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                5.68,
+                6.16
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.32,
+                6.48
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                6.48,
+                6.8
+            ]
+        },
+        {
+            "text": "setup.",
+            "timestamp": [
+                6.8,
+                7.68
+            ]
+        }
+    ]
+}

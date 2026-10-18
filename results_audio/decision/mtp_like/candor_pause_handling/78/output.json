@@ -1,0 +1,96 @@
+{
+    "text": "Yeah, some citizenship by investment programs do involve significant investments, sometimes around $250,000.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                11.84,
+                12.16
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "citizenship",
+            "timestamp": [
+                12.56,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                13.280000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "investment",
+            "timestamp": [
+                13.52,
+                13.92
+            ]
+        },
+        {
+            "text": "programs",
+            "timestamp": [
+                13.92,
+                14.32
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                14.32,
+                14.48
+            ]
+        },
+        {
+            "text": "involve",
+            "timestamp": [
+                14.48,
+                14.8
+            ]
+        },
+        {
+            "text": "significant",
+            "timestamp": [
+                14.8,
+                15.36
+            ]
+        },
+        {
+            "text": "investments,",
+            "timestamp": [
+                15.36,
+                15.84
+            ]
+        },
+        {
+            "text": "sometimes",
+            "timestamp": [
+                16.16,
+                16.64
+            ]
+        },
+        {
+            "text": "around",
+            "timestamp": [
+                16.64,
+                16.88
+            ]
+        },
+        {
+            "text": "$250,000.",
+            "timestamp": [
+                16.88,
+                17.76
+            ]
+        }
+    ]
+}

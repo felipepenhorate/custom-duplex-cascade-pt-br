@@ -1,0 +1,124 @@
+{
+    "text": "That's a great step. What interests you most? That's a solid choice. Both paths have great potential.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                4.0,
+                4.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.4,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                4.5600000000000005,
+                4.8
+            ]
+        },
+        {
+            "text": "step.",
+            "timestamp": [
+                4.8,
+                5.12
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                5.36,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "interests",
+            "timestamp": [
+                5.6000000000000005,
+                6.16
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.16,
+                6.48
+            ]
+        },
+        {
+            "text": "most?",
+            "timestamp": [
+                6.48,
+                6.8
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                10.88,
+                11.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "solid",
+            "timestamp": [
+                11.76,
+                12.16
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                12.16,
+                12.56
+            ]
+        },
+        {
+            "text": "Both",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "paths",
+            "timestamp": [
+                13.040000000000001,
+                13.6
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                13.6,
+                13.76
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                13.76,
+                14.0
+            ]
+        },
+        {
+            "text": "potential.",
+            "timestamp": [
+                14.0,
+                14.48
+            ]
+        }
+    ]
+}

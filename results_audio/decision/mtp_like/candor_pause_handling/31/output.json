@@ -1,0 +1,89 @@
+{
+    "text": "Movie theaters are pretty much gone in the medieval times. Back then,",
+    "chunks": [
+        {
+            "text": "Movie",
+            "timestamp": [
+                7.6000000000000005,
+                8.24
+            ]
+        },
+        {
+            "text": "theaters",
+            "timestamp": [
+                8.24,
+                8.64
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "pretty",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "much",
+            "timestamp": [
+                9.040000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "gone",
+            "timestamp": [
+                9.200000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "medieval",
+            "timestamp": [
+                9.68,
+                10.24
+            ]
+        },
+        {
+            "text": "times.",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "Back",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "then,",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        }
+    ]
+}

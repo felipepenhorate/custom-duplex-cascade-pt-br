@@ -1,0 +1,222 @@
+{
+    "text": "That's the only thing that's like a bad thing. Yeah, that's kind of bitter. Yeah, it's like life just moves on. No warning, no explanation. But hey, you made your mark.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                4.72,
+                5.12
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                25.84,
+                25.84
+            ]
+        },
+        {
+            "text": "only",
+            "timestamp": [
+                25.84,
+                25.84
+            ]
+        },
+        {
+            "text": "thing",
+            "timestamp": [
+                25.84,
+                25.84
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                25.84,
+                25.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                25.84,
+                25.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.84,
+                25.84
+            ]
+        },
+        {
+            "text": "bad",
+            "timestamp": [
+                25.84,
+                25.84
+            ]
+        },
+        {
+            "text": "thing.",
+            "timestamp": [
+                25.92,
+                25.92
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                26.080000000000002,
+                26.32
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                26.400000000000002,
+                26.64
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                26.64,
+                26.72
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                26.72,
+                26.8
+            ]
+        },
+        {
+            "text": "bitter.",
+            "timestamp": [
+                26.88,
+                27.12
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                28.560000000000002,
+                28.88
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                29.12,
+                29.52
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                29.52,
+                29.84
+            ]
+        },
+        {
+            "text": "life",
+            "timestamp": [
+                29.84,
+                30.080000000000002
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                30.080000000000002,
+                30.32
+            ]
+        },
+        {
+            "text": "moves",
+            "timestamp": [
+                30.32,
+                30.64
+            ]
+        },
+        {
+            "text": "on.",
+            "timestamp": [
+                30.64,
+                30.8
+            ]
+        },
+        {
+            "text": "No",
+            "timestamp": [
+                31.12,
+                31.28
+            ]
+        },
+        {
+            "text": "warning,",
+            "timestamp": [
+                31.28,
+                31.68
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                31.76,
+                32.0
+            ]
+        },
+        {
+            "text": "explanation.",
+            "timestamp": [
+                32.0,
+                32.72
+            ]
+        },
+        {
+            "text": "But",
+            "timestamp": [
+                33.04,
+                33.28
+            ]
+        },
+        {
+            "text": "hey,",
+            "timestamp": [
+                33.28,
+                33.52
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                33.6,
+                33.76
+            ]
+        },
+        {
+            "text": "made",
+            "timestamp": [
+                33.76,
+                33.92
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                33.92,
+                34.08
+            ]
+        },
+        {
+            "text": "mark.",
+            "timestamp": [
+                34.08,
+                34.32
+            ]
+        }
+    ]
+}

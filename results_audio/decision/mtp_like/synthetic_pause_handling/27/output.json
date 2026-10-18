@@ -1,0 +1,159 @@
+{
+    "text": "That's a great question. Got it. If you're still unsure, maybe reflect on what you enjoy most, like working with people, solving.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                6.72,
+                7.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                7.36,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                8.08,
+                8.4
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.040000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "still",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "unsure,",
+            "timestamp": [
+                9.52,
+                9.92
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "reflect",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.120000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "enjoy",
+            "timestamp": [
+                11.200000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "most,",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "working",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "people,",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "solving.",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        }
+    ]
+}

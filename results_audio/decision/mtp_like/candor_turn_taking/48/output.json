@@ -1,0 +1,124 @@
+{
+    "text": "I'm glad you're thinking about the positive. Wishing you a smooth and hopeful journey back to normal.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                9.200000000000001,
+                9.68
+            ]
+        },
+        {
+            "text": "glad",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                9.92,
+                10.16
+            ]
+        },
+        {
+            "text": "thinking",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "positive.",
+            "timestamp": [
+                10.8,
+                11.28
+            ]
+        },
+        {
+            "text": "Wishing",
+            "timestamp": [
+                11.6,
+                12.0
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.16,
+                12.24
+            ]
+        },
+        {
+            "text": "smooth",
+            "timestamp": [
+                12.24,
+                12.64
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "hopeful",
+            "timestamp": [
+                12.8,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "journey",
+            "timestamp": [
+                13.200000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "back",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "normal.",
+            "timestamp": [
+                13.84,
+                14.24
+            ]
+        }
+    ]
+}

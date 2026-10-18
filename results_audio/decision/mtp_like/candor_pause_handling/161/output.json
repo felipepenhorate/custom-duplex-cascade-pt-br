@@ -1,0 +1,82 @@
+{
+    "text": "Not sure I follow. Could you clarify what you're asking about?",
+    "chunks": [
+        {
+            "text": "Not",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                5.84,
+                6.08
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "follow.",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "clarify",
+            "timestamp": [
+                7.12,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        },
+        {
+            "text": "asking",
+            "timestamp": [
+                8.0,
+                8.56
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                8.56,
+                8.88
+            ]
+        }
+    ]
+}

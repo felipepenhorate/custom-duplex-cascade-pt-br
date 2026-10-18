@@ -1,0 +1,96 @@
+{
+    "text": "That's yeah, that's true. New Jersey has a pretty diverse population and Muslims.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                8.48,
+                8.88
+            ]
+        },
+        {
+            "text": "yeah,",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                11.76,
+                12.08
+            ]
+        },
+        {
+            "text": "true.",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "New",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "Jersey",
+            "timestamp": [
+                12.72,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.200000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "pretty",
+            "timestamp": [
+                13.280000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "diverse",
+            "timestamp": [
+                13.44,
+                13.84
+            ]
+        },
+        {
+            "text": "population",
+            "timestamp": [
+                13.84,
+                14.32
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                14.48,
+                14.64
+            ]
+        },
+        {
+            "text": "Muslims.",
+            "timestamp": [
+                14.64,
+                15.040000000000001
+            ]
+        }
+    ]
+}

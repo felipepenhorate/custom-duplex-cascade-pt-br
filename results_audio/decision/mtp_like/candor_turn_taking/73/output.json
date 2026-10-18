@@ -1,0 +1,110 @@
+{
+    "text": "Em, not quite. Let's see. We're just past 24 minutes. How about we keep going?",
+    "chunks": [
+        {
+            "text": "Em,",
+            "timestamp": [
+                8.72,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "quite.",
+            "timestamp": [
+                9.84,
+                10.16
+            ]
+        },
+        {
+            "text": "Let's",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                10.8,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "We're",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "past",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "24",
+            "timestamp": [
+                12.0,
+                12.4
+            ]
+        },
+        {
+            "text": "minutes.",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "keep",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "going?",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        }
+    ]
+}

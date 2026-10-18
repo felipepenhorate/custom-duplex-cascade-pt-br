@@ -1,0 +1,82 @@
+{
+    "text": "I see what you mean. You're saying it's not a lie.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                4.8,
+                5.12
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                5.44,
+                5.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.68,
+                5.92
+            ]
+        },
+        {
+            "text": "mean.",
+            "timestamp": [
+                5.92,
+                6.16
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                6.48,
+                6.72
+            ]
+        },
+        {
+            "text": "saying",
+            "timestamp": [
+                6.72,
+                6.96
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                6.96,
+                7.2
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "lie.",
+            "timestamp": [
+                7.5200000000000005,
+                7.84
+            ]
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "text": "Absolutely. Weather can greatly affect outdoor activities, so choosing a location based on current and expected conditions makes sense.",
+    "chunks": [
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                3.36,
+                4.4
+            ]
+        },
+        {
+            "text": "Weather",
+            "timestamp": [
+                4.64,
+                5.04
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                5.04,
+                5.28
+            ]
+        },
+        {
+            "text": "greatly",
+            "timestamp": [
+                5.28,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "affect",
+            "timestamp": [
+                5.6000000000000005,
+                6.0
+            ]
+        },
+        {
+            "text": "outdoor",
+            "timestamp": [
+                6.0,
+                6.48
+            ]
+        },
+        {
+            "text": "activities,",
+            "timestamp": [
+                6.48,
+                6.96
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "choosing",
+            "timestamp": [
+                7.36,
+                7.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.68,
+                7.76
+            ]
+        },
+        {
+            "text": "location",
+            "timestamp": [
+                7.76,
+                8.32
+            ]
+        },
+        {
+            "text": "based",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "current",
+            "timestamp": [
+                8.72,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.200000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "expected",
+            "timestamp": [
+                9.44,
+                10.0
+            ]
+        },
+        {
+            "text": "conditions",
+            "timestamp": [
+                10.0,
+                10.56
+            ]
+        },
+        {
+            "text": "makes",
+            "timestamp": [
+                10.56,
+                10.88
+            ]
+        },
+        {
+            "text": "sense.",
+            "timestamp": [
+                10.88,
+                11.28
+            ]
+        }
+    ]
+}

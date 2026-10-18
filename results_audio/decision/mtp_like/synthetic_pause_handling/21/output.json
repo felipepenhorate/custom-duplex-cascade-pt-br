@@ -1,0 +1,54 @@
+{
+    "text": "That's a big step. Great. That's awesome.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                2.96,
+                3.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                3.36,
+                3.52
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                3.52,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "step.",
+            "timestamp": [
+                3.7600000000000002,
+                4.08
+            ]
+        },
+        {
+            "text": "Great.",
+            "timestamp": [
+                4.32,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                6.16,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                6.5600000000000005,
+                7.12
+            ]
+        }
+    ]
+}

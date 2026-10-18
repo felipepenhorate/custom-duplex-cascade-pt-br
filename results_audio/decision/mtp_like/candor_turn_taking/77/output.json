@@ -1,0 +1,215 @@
+{
+    "text": "Wow, that's a big number. $5 million is a significant amount. Enough to buy a house, start a business, or fund a lot of dreams. What's on your mind with?",
+    "chunks": [
+        {
+            "text": "Wow,",
+            "timestamp": [
+                4.08,
+                4.48
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                4.5600000000000005,
+                4.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.8,
+                4.88
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                4.88,
+                5.12
+            ]
+        },
+        {
+            "text": "number.",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        },
+        {
+            "text": "$5",
+            "timestamp": [
+                5.68,
+                6.0
+            ]
+        },
+        {
+            "text": "million",
+            "timestamp": [
+                6.0,
+                6.48
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "significant",
+            "timestamp": [
+                7.12,
+                7.68
+            ]
+        },
+        {
+            "text": "amount.",
+            "timestamp": [
+                7.68,
+                8.0
+            ]
+        },
+        {
+            "text": "Enough",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "buy",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "house,",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "start",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "business,",
+            "timestamp": [
+                10.0,
+                10.48
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                10.72,
+                10.96
+            ]
+        },
+        {
+            "text": "fund",
+            "timestamp": [
+                10.96,
+                11.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.52,
+                11.6
+            ]
+        },
+        {
+            "text": "dreams.",
+            "timestamp": [
+                11.6,
+                12.0
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        },
+        {
+            "text": "mind",
+            "timestamp": [
+                12.88,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "with?",
+            "timestamp": [
+                13.120000000000001,
+                13.280000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "All right, mashed potatoes. Green beans, then. Sounds good.",
+    "chunks": [
+        {
+            "text": "All",
+            "timestamp": [
+                5.28,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "right,",
+            "timestamp": [
+                5.5200000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "mashed",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "potatoes.",
+            "timestamp": [
+                6.16,
+                6.88
+            ]
+        },
+        {
+            "text": "Green",
+            "timestamp": [
+                7.5200000000000005,
+                8.0
+            ]
+        },
+        {
+            "text": "beans,",
+            "timestamp": [
+                8.0,
+                8.4
+            ]
+        },
+        {
+            "text": "then.",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                8.96,
+                9.76
+            ]
+        },
+        {
+            "text": "good.",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        }
+    ]
+}

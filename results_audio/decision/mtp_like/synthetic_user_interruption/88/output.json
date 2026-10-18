@@ -1,0 +1,313 @@
+{
+    "text": "What would you like to talk about? Great question. Here's a simple way to plan a road trip. Set a destination and route. Pick your start and end points. Then plan a scenic or practical route. Use maps or apps like Google Maps. 2.",
+    "chunks": [
+        {
+            "text": "What",
+            "timestamp": [
+                13.656,
+                13.896
+            ]
+        },
+        {
+            "text": "would",
+            "timestamp": [
+                13.896,
+                14.056000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.056000000000001,
+                14.216000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                14.216000000000001,
+                14.376000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.376000000000001,
+                14.696000000000002
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                14.696000000000002,
+                14.856
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                14.856,
+                15.096
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                17.256,
+                17.656
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                17.656,
+                17.976
+            ]
+        },
+        {
+            "text": "Here's",
+            "timestamp": [
+                18.296,
+                18.616
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.616,
+                18.776
+            ]
+        },
+        {
+            "text": "simple",
+            "timestamp": [
+                18.776,
+                19.016000000000002
+            ]
+        },
+        {
+            "text": "way",
+            "timestamp": [
+                19.016000000000002,
+                19.176000000000002
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                19.176000000000002,
+                19.256
+            ]
+        },
+        {
+            "text": "plan",
+            "timestamp": [
+                19.256,
+                19.496000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.496000000000002,
+                19.576
+            ]
+        },
+        {
+            "text": "road",
+            "timestamp": [
+                19.576,
+                19.816000000000003
+            ]
+        },
+        {
+            "text": "trip.",
+            "timestamp": [
+                19.816000000000003,
+                20.136000000000003
+            ]
+        },
+        {
+            "text": "Set",
+            "timestamp": [
+                20.376,
+                20.616
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.616,
+                20.696
+            ]
+        },
+        {
+            "text": "destination",
+            "timestamp": [
+                20.696,
+                21.336
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                21.336,
+                21.576
+            ]
+        },
+        {
+            "text": "route.",
+            "timestamp": [
+                21.576,
+                21.976
+            ]
+        },
+        {
+            "text": "Pick",
+            "timestamp": [
+                22.216,
+                22.456000000000003
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                22.456000000000003,
+                22.696
+            ]
+        },
+        {
+            "text": "start",
+            "timestamp": [
+                22.696,
+                22.936
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                22.936,
+                23.096
+            ]
+        },
+        {
+            "text": "end",
+            "timestamp": [
+                23.096,
+                23.336
+            ]
+        },
+        {
+            "text": "points.",
+            "timestamp": [
+                23.336,
+                23.736
+            ]
+        },
+        {
+            "text": "Then",
+            "timestamp": [
+                24.056,
+                24.216
+            ]
+        },
+        {
+            "text": "plan",
+            "timestamp": [
+                24.296,
+                24.536
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.536,
+                24.616
+            ]
+        },
+        {
+            "text": "scenic",
+            "timestamp": [
+                24.616,
+                25.096
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                25.096,
+                25.256
+            ]
+        },
+        {
+            "text": "practical",
+            "timestamp": [
+                25.256,
+                25.656
+            ]
+        },
+        {
+            "text": "route.",
+            "timestamp": [
+                25.656,
+                26.056
+            ]
+        },
+        {
+            "text": "Use",
+            "timestamp": [
+                26.296,
+                26.536
+            ]
+        },
+        {
+            "text": "maps",
+            "timestamp": [
+                26.536,
+                26.856
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                26.856,
+                27.016
+            ]
+        },
+        {
+            "text": "apps",
+            "timestamp": [
+                27.016,
+                27.336
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                27.336,
+                27.496000000000002
+            ]
+        },
+        {
+            "text": "Google",
+            "timestamp": [
+                27.496000000000002,
+                27.816000000000003
+            ]
+        },
+        {
+            "text": "Maps.",
+            "timestamp": [
+                27.816000000000003,
+                28.456000000000003
+            ]
+        },
+        {
+            "text": "2.",
+            "timestamp": [
+                28.776000000000003,
+                29.176000000000002
+            ]
+        }
+    ]
+}

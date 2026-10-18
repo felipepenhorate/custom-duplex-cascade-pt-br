@@ -1,0 +1,82 @@
+{
+    "text": "Got it. Chop the veggies first, then saute them on medium.",
+    "chunks": [
+        {
+            "text": "Got",
+            "timestamp": [
+                11.76,
+                12.24
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "Chop",
+            "timestamp": [
+                12.8,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "veggies",
+            "timestamp": [
+                13.200000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "first,",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "then",
+            "timestamp": [
+                14.0,
+                14.16
+            ]
+        },
+        {
+            "text": "saute",
+            "timestamp": [
+                14.16,
+                14.4
+            ]
+        },
+        {
+            "text": "them",
+            "timestamp": [
+                14.64,
+                14.72
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                14.72,
+                14.88
+            ]
+        },
+        {
+            "text": "medium.",
+            "timestamp": [
+                14.88,
+                15.040000000000001
+            ]
+        }
+    ]
+}

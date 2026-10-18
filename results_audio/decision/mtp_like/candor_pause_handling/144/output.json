@@ -1,0 +1,89 @@
+{
+    "text": "Yeah, that makes sense. Having someone to talk to can really help.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "makes",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "sense.",
+            "timestamp": [
+                9.92,
+                10.24
+            ]
+        },
+        {
+            "text": "Having",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "someone",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "help.",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        }
+    ]
+}

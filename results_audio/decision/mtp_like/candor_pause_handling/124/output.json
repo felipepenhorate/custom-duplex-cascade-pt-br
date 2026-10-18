@@ -1,0 +1,68 @@
+{
+    "text": "Got it, I'm in the middle of the morning.",
+    "chunks": [
+        {
+            "text": "Got",
+            "timestamp": [
+                2.16,
+                2.48
+            ]
+        },
+        {
+            "text": "it,",
+            "timestamp": [
+                2.48,
+                2.72
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                3.04,
+                3.44
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                3.44,
+                3.6
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                4.16,
+                4.16
+            ]
+        },
+        {
+            "text": "middle",
+            "timestamp": [
+                4.16,
+                4.16
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                4.16,
+                4.16
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                4.16,
+                4.16
+            ]
+        },
+        {
+            "text": "morning.",
+            "timestamp": [
+                4.16,
+                4.16
+            ]
+        }
+    ]
+}

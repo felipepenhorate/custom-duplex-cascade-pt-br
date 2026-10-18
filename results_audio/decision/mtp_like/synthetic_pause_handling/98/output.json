@@ -1,0 +1,75 @@
+{
+    "text": "Crick says groundbreaking, so that means it's not just action-packed.",
+    "chunks": [
+        {
+            "text": "Crick",
+            "timestamp": [
+                8.32,
+                8.88
+            ]
+        },
+        {
+            "text": "says",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "groundbreaking,",
+            "timestamp": [
+                9.36,
+                10.0
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "means",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "action-packed.",
+            "timestamp": [
+                11.44,
+                12.0
+            ]
+        }
+    ]
+}

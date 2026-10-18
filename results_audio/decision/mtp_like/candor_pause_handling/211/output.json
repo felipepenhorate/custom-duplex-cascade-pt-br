@@ -1,0 +1,110 @@
+{
+    "text": "Yeah, I get that. A lot of people feel that way, like the industry's going.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                7.04,
+                7.36
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.5200000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                9.040000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "way,",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                9.6,
+                9.76
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "industry's",
+            "timestamp": [
+                9.84,
+                10.56
+            ]
+        },
+        {
+            "text": "going.",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        }
+    ]
+}

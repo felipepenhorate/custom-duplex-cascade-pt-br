@@ -1,0 +1,75 @@
+{
+    "text": "Sure. What word are you seeing? That's a great point.",
+    "chunks": [
+        {
+            "text": "Sure.",
+            "timestamp": [
+                2.0,
+                2.56
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                2.88,
+                3.04
+            ]
+        },
+        {
+            "text": "word",
+            "timestamp": [
+                3.04,
+                3.36
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                3.36,
+                3.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                3.44,
+                3.68
+            ]
+        },
+        {
+            "text": "seeing?",
+            "timestamp": [
+                3.68,
+                4.32
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                8.48,
+                8.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.88,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                9.200000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "point.",
+            "timestamp": [
+                9.44,
+                9.76
+            ]
+        }
+    ]
+}

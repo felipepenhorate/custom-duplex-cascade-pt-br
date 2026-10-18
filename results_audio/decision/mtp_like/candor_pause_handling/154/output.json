@@ -1,0 +1,131 @@
+{
+    "text": "That's great. Did they have a specific program? Oh, Spanish would be awesome. It's such a useful language.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                6.5600000000000005,
+                7.2
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                7.2,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "Did",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "they",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "specific",
+            "timestamp": [
+                8.56,
+                8.96
+            ]
+        },
+        {
+            "text": "program?",
+            "timestamp": [
+                8.96,
+                9.36
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "Spanish",
+            "timestamp": [
+                10.72,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "would",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                11.36,
+                11.76
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "such",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.56,
+                12.64
+            ]
+        },
+        {
+            "text": "useful",
+            "timestamp": [
+                12.64,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "language.",
+            "timestamp": [
+                13.040000000000001,
+                13.44
+            ]
+        }
+    ]
+}

@@ -1,0 +1,348 @@
+{
+    "text": "You're welcome. Sounds like you're making great progress. Great to hear you placed out of those courses. Let me know if you need help with anything else. That I think you might have meant Calc 3 or Calculus. It sounds like you were thinking about Calculus, especially Calc 3.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                11.68,
+                12.08
+            ]
+        },
+        {
+            "text": "welcome.",
+            "timestamp": [
+                12.08,
+                12.56
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                12.8,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                13.120000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "making",
+            "timestamp": [
+                13.52,
+                13.84
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                13.84,
+                14.0
+            ]
+        },
+        {
+            "text": "progress.",
+            "timestamp": [
+                14.0,
+                14.56
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                14.88,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.200000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "hear",
+            "timestamp": [
+                15.280000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.44,
+                15.68
+            ]
+        },
+        {
+            "text": "placed",
+            "timestamp": [
+                15.68,
+                16.0
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                16.0,
+                16.16
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                16.16,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "those",
+            "timestamp": [
+                16.240000000000002,
+                16.48
+            ]
+        },
+        {
+            "text": "courses.",
+            "timestamp": [
+                16.48,
+                16.96
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                17.28,
+                17.52
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                17.52,
+                17.68
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                17.68,
+                17.84
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                17.84,
+                18.0
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                18.0,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "need",
+            "timestamp": [
+                18.080000000000002,
+                18.32
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                18.32,
+                18.56
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                18.56,
+                18.72
+            ]
+        },
+        {
+            "text": "anything",
+            "timestamp": [
+                18.72,
+                19.04
+            ]
+        },
+        {
+            "text": "else.",
+            "timestamp": [
+                19.04,
+                19.36
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                23.28,
+                23.6
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                27.52,
+                27.68
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                27.68,
+                27.92
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                27.92,
+                28.080000000000002
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                28.080000000000002,
+                28.240000000000002
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                28.240000000000002,
+                28.400000000000002
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                28.400000000000002,
+                28.96
+            ]
+        },
+        {
+            "text": "Calc",
+            "timestamp": [
+                28.96,
+                29.52
+            ]
+        },
+        {
+            "text": "3",
+            "timestamp": [
+                29.6,
+                30.0
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                30.0,
+                30.240000000000002
+            ]
+        },
+        {
+            "text": "Calculus.",
+            "timestamp": [
+                30.240000000000002,
+                31.04
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                31.28,
+                31.36
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                31.36,
+                31.6
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                31.6,
+                31.76
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                31.76,
+                31.92
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                31.92,
+                32.08
+            ]
+        },
+        {
+            "text": "thinking",
+            "timestamp": [
+                32.08,
+                32.32
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                32.32,
+                32.480000000000004
+            ]
+        },
+        {
+            "text": "Calculus,",
+            "timestamp": [
+                32.480000000000004,
+                33.12
+            ]
+        },
+        {
+            "text": "especially",
+            "timestamp": [
+                33.44,
+                33.76
+            ]
+        },
+        {
+            "text": "Calc",
+            "timestamp": [
+                33.76,
+                34.160000000000004
+            ]
+        },
+        {
+            "text": "3.",
+            "timestamp": [
+                34.24,
+                34.32
+            ]
+        }
+    ]
+}

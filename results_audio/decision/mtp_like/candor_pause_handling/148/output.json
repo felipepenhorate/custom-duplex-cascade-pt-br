@@ -1,0 +1,166 @@
+{
+    "text": "Got it. Let me know when you're ready. I see. Thanks for sharing. Yeah, that's a great point. A gradual, age-appropriate transition could.",
+    "chunks": [
+        {
+            "text": "Got",
+            "timestamp": [
+                4.8,
+                5.28
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                5.28,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                6.24,
+                6.32
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                6.32,
+                6.72
+            ]
+        },
+        {
+            "text": "ready.",
+            "timestamp": [
+                6.72,
+                7.28
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                7.92,
+                8.24
+            ]
+        },
+        {
+            "text": "Thanks",
+            "timestamp": [
+                8.56,
+                8.96
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "sharing.",
+            "timestamp": [
+                9.200000000000001,
+                10.0
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                21.12,
+                21.36
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                21.6,
+                22.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                22.0,
+                22.240000000000002
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                22.240000000000002,
+                22.48
+            ]
+        },
+        {
+            "text": "point.",
+            "timestamp": [
+                22.48,
+                22.64
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                22.88,
+                22.96
+            ]
+        },
+        {
+            "text": "gradual,",
+            "timestamp": [
+                22.96,
+                23.36
+            ]
+        },
+        {
+            "text": "age-appropriate",
+            "timestamp": [
+                23.44,
+                24.080000000000002
+            ]
+        },
+        {
+            "text": "transition",
+            "timestamp": [
+                24.080000000000002,
+                24.400000000000002
+            ]
+        },
+        {
+            "text": "could.",
+            "timestamp": [
+                24.400000000000002,
+                24.48
+            ]
+        }
+    ]
+}

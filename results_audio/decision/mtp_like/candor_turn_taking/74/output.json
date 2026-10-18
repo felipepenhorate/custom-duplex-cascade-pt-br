@@ -1,0 +1,68 @@
+{
+    "text": "Yeah, I get that. Being starved feels awful, but",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                12.24,
+                12.56
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.72,
+                12.8
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "Being",
+            "timestamp": [
+                13.44,
+                13.76
+            ]
+        },
+        {
+            "text": "starved",
+            "timestamp": [
+                13.76,
+                14.24
+            ]
+        },
+        {
+            "text": "feels",
+            "timestamp": [
+                14.24,
+                14.48
+            ]
+        },
+        {
+            "text": "awful,",
+            "timestamp": [
+                14.48,
+                14.8
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                14.88,
+                14.96
+            ]
+        }
+    ]
+}

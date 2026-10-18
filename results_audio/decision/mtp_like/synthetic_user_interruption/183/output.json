@@ -1,0 +1,208 @@
+{
+    "text": "You mean relax? Try deep breathing. Inhale for four counts. Hold for four. Exhale for six. Repeat for two to three minutes. It's simple and helps calm your mind.",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                12.568,
+                12.888
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                12.888,
+                13.128
+            ]
+        },
+        {
+            "text": "relax?",
+            "timestamp": [
+                13.288,
+                14.248000000000001
+            ]
+        },
+        {
+            "text": "Try",
+            "timestamp": [
+                14.888,
+                15.128
+            ]
+        },
+        {
+            "text": "deep",
+            "timestamp": [
+                15.128,
+                15.448
+            ]
+        },
+        {
+            "text": "breathing.",
+            "timestamp": [
+                15.448,
+                15.847999999999999
+            ]
+        },
+        {
+            "text": "Inhale",
+            "timestamp": [
+                16.088,
+                16.568
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                16.568,
+                16.808
+            ]
+        },
+        {
+            "text": "four",
+            "timestamp": [
+                16.808,
+                17.048000000000002
+            ]
+        },
+        {
+            "text": "counts.",
+            "timestamp": [
+                17.048000000000002,
+                17.448
+            ]
+        },
+        {
+            "text": "Hold",
+            "timestamp": [
+                17.608,
+                17.928
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                17.928,
+                18.088
+            ]
+        },
+        {
+            "text": "four.",
+            "timestamp": [
+                18.088,
+                18.168
+            ]
+        },
+        {
+            "text": "Exhale",
+            "timestamp": [
+                18.568,
+                19.048000000000002
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                19.048000000000002,
+                19.208
+            ]
+        },
+        {
+            "text": "six.",
+            "timestamp": [
+                19.208,
+                19.528
+            ]
+        },
+        {
+            "text": "Repeat",
+            "timestamp": [
+                19.768,
+                20.168
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                20.168,
+                20.408
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                20.408,
+                20.648
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                20.648,
+                20.808
+            ]
+        },
+        {
+            "text": "three",
+            "timestamp": [
+                20.808,
+                21.048000000000002
+            ]
+        },
+        {
+            "text": "minutes.",
+            "timestamp": [
+                21.048000000000002,
+                21.608
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                21.928,
+                22.328
+            ]
+        },
+        {
+            "text": "simple",
+            "timestamp": [
+                22.328,
+                22.808
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                22.808,
+                23.048000000000002
+            ]
+        },
+        {
+            "text": "helps",
+            "timestamp": [
+                23.048000000000002,
+                23.368000000000002
+            ]
+        },
+        {
+            "text": "calm",
+            "timestamp": [
+                23.368000000000002,
+                23.848
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                23.848,
+                24.088
+            ]
+        },
+        {
+            "text": "mind.",
+            "timestamp": [
+                24.088,
+                24.648
+            ]
+        }
+    ]
+}

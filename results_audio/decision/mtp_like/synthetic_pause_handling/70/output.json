@@ -1,0 +1,82 @@
+{
+    "text": "You're absolutely right. Small changes add up. Recycling, turn it up.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                10.08,
+                10.56
+            ]
+        },
+        {
+            "text": "absolutely",
+            "timestamp": [
+                10.56,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "Small",
+            "timestamp": [
+                11.6,
+                11.92
+            ]
+        },
+        {
+            "text": "changes",
+            "timestamp": [
+                11.92,
+                12.4
+            ]
+        },
+        {
+            "text": "add",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "up.",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "Recycling,",
+            "timestamp": [
+                12.96,
+                13.52
+            ]
+        },
+        {
+            "text": "turn",
+            "timestamp": [
+                13.6,
+                13.68
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                13.76,
+                13.76
+            ]
+        },
+        {
+            "text": "up.",
+            "timestamp": [
+                13.76,
+                13.76
+            ]
+        }
+    ]
+}

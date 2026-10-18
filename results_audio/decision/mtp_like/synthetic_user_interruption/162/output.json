@@ -1,0 +1,89 @@
+{
+    "text": "Got it. Milk is on your list. Don't forget the dairy. Anamen.",
+    "chunks": [
+        {
+            "text": "Got",
+            "timestamp": [
+                15.111999999999998,
+                15.591999999999999
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                15.591999999999999,
+                15.911999999999999
+            ]
+        },
+        {
+            "text": "Milk",
+            "timestamp": [
+                16.232,
+                16.631999999999998
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                16.631999999999998,
+                16.791999999999998
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                16.791999999999998,
+                16.951999999999998
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                16.951999999999998,
+                17.192
+            ]
+        },
+        {
+            "text": "list.",
+            "timestamp": [
+                17.192,
+                17.512
+            ]
+        },
+        {
+            "text": "Don't",
+            "timestamp": [
+                17.832,
+                18.152
+            ]
+        },
+        {
+            "text": "forget",
+            "timestamp": [
+                18.152,
+                18.472
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                18.472,
+                18.631999999999998
+            ]
+        },
+        {
+            "text": "dairy.",
+            "timestamp": [
+                18.631999999999998,
+                19.112
+            ]
+        },
+        {
+            "text": "Anamen.",
+            "timestamp": [
+                19.432,
+                20.152
+            ]
+        }
+    ]
+}

@@ -1,0 +1,264 @@
+{
+    "text": "No problem. To make a smoothie, just grab your favorite fruits, a spoon, and a blender. Add a handful of berries, banana, spinach, or any mix you like, plus a splash of milk or yogurt. Blend until.",
+    "chunks": [
+        {
+            "text": "No",
+            "timestamp": [
+                13.848,
+                14.168000000000001
+            ]
+        },
+        {
+            "text": "problem.",
+            "timestamp": [
+                14.408000000000001,
+                14.728000000000002
+            ]
+        },
+        {
+            "text": "To",
+            "timestamp": [
+                14.968000000000002,
+                15.208000000000002
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                15.208000000000002,
+                15.368000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.368000000000002,
+                15.448
+            ]
+        },
+        {
+            "text": "smoothie,",
+            "timestamp": [
+                15.448,
+                15.928
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                16.008000000000003,
+                16.168
+            ]
+        },
+        {
+            "text": "grab",
+            "timestamp": [
+                16.168,
+                16.408
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                16.408,
+                16.488
+            ]
+        },
+        {
+            "text": "favorite",
+            "timestamp": [
+                16.488,
+                16.808
+            ]
+        },
+        {
+            "text": "fruits,",
+            "timestamp": [
+                16.808,
+                17.128
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.288,
+                17.368000000000002
+            ]
+        },
+        {
+            "text": "spoon,",
+            "timestamp": [
+                17.368000000000002,
+                17.608
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                17.688000000000002,
+                17.768
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.768,
+                17.848000000000003
+            ]
+        },
+        {
+            "text": "blender.",
+            "timestamp": [
+                17.848000000000003,
+                18.248
+            ]
+        },
+        {
+            "text": "Add",
+            "timestamp": [
+                18.488,
+                18.728
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.728,
+                18.888
+            ]
+        },
+        {
+            "text": "handful",
+            "timestamp": [
+                18.888,
+                19.208000000000002
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                19.208000000000002,
+                19.368000000000002
+            ]
+        },
+        {
+            "text": "berries,",
+            "timestamp": [
+                19.368000000000002,
+                19.848000000000003
+            ]
+        },
+        {
+            "text": "banana,",
+            "timestamp": [
+                20.088,
+                20.648000000000003
+            ]
+        },
+        {
+            "text": "spinach,",
+            "timestamp": [
+                20.808,
+                21.288000000000004
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                21.448,
+                21.688000000000002
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                21.688000000000002,
+                21.848
+            ]
+        },
+        {
+            "text": "mix",
+            "timestamp": [
+                21.848,
+                22.168
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                22.168,
+                22.328000000000003
+            ]
+        },
+        {
+            "text": "like,",
+            "timestamp": [
+                22.328000000000003,
+                22.488
+            ]
+        },
+        {
+            "text": "plus",
+            "timestamp": [
+                22.808,
+                23.128
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                23.128,
+                23.208000000000002
+            ]
+        },
+        {
+            "text": "splash",
+            "timestamp": [
+                23.208000000000002,
+                23.528
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                23.528,
+                23.608
+            ]
+        },
+        {
+            "text": "milk",
+            "timestamp": [
+                23.608,
+                23.928
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                23.928,
+                24.088
+            ]
+        },
+        {
+            "text": "yogurt.",
+            "timestamp": [
+                24.088,
+                24.648000000000003
+            ]
+        },
+        {
+            "text": "Blend",
+            "timestamp": [
+                24.888,
+                25.368000000000002
+            ]
+        },
+        {
+            "text": "until.",
+            "timestamp": [
+                25.368000000000002,
+                25.928
+            ]
+        }
+    ]
+}

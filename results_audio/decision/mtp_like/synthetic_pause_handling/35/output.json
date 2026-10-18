@@ -1,0 +1,68 @@
+{
+    "text": "Great point. Combining cardio and strength training boosts endurance.",
+    "chunks": [
+        {
+            "text": "Great",
+            "timestamp": [
+                10.08,
+                10.56
+            ]
+        },
+        {
+            "text": "point.",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "Combining",
+            "timestamp": [
+                11.36,
+                11.84
+            ]
+        },
+        {
+            "text": "cardio",
+            "timestamp": [
+                11.84,
+                12.24
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "strength",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "training",
+            "timestamp": [
+                12.72,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "boosts",
+            "timestamp": [
+                13.040000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "endurance.",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        }
+    ]
+}

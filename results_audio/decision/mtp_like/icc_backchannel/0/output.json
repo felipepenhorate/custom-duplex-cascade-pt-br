@@ -1,0 +1,110 @@
+{
+    "text": "Yeah, I get that. Yeah, really I get that. Sometimes plans just don't work out.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                18.0,
+                18.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.48,
+                18.64
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                18.64,
+                18.8
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                18.8,
+                19.04
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                19.36,
+                19.6
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                19.84,
+                20.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                22.72,
+                22.96
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                22.96,
+                23.12
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                23.12,
+                23.36
+            ]
+        },
+        {
+            "text": "Sometimes",
+            "timestamp": [
+                23.6,
+                24.16
+            ]
+        },
+        {
+            "text": "plans",
+            "timestamp": [
+                24.16,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                24.560000000000002,
+                24.8
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                24.8,
+                25.04
+            ]
+        },
+        {
+            "text": "work",
+            "timestamp": [
+                25.04,
+                25.2
+            ]
+        },
+        {
+            "text": "out.",
+            "timestamp": [
+                25.2,
+                25.36
+            ]
+        }
+    ]
+}

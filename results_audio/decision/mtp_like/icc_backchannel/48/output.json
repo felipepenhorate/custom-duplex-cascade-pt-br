@@ -1,0 +1,418 @@
+{
+    "text": "Not sure what you mean. Could you clarify or rephrase? I'm here to help. That's so nice to hear. Sweet. Wow, that's a sweet moment. Grandma answering a call on the bus. Yeah, being on the bus is such a simple, everyday moment, full of little joys. Sounds like you're enjoying the ride, even in the small. Totally get.",
+    "chunks": [
+        {
+            "text": "Not",
+            "timestamp": [
+                12.48,
+                12.8
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "mean.",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                13.76,
+                13.92
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        },
+        {
+            "text": "clarify",
+            "timestamp": [
+                14.08,
+                14.64
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "rephrase?",
+            "timestamp": [
+                14.8,
+                15.52
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                15.76,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                16.080000000000002,
+                16.4
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                16.4,
+                16.72
+            ]
+        },
+        {
+            "text": "help.",
+            "timestamp": [
+                16.72,
+                17.04
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                18.96,
+                19.2
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                19.2,
+                19.36
+            ]
+        },
+        {
+            "text": "nice",
+            "timestamp": [
+                19.36,
+                19.6
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                19.6,
+                19.76
+            ]
+        },
+        {
+            "text": "hear.",
+            "timestamp": [
+                19.76,
+                19.92
+            ]
+        },
+        {
+            "text": "Sweet.",
+            "timestamp": [
+                20.240000000000002,
+                20.48
+            ]
+        },
+        {
+            "text": "Wow,",
+            "timestamp": [
+                23.28,
+                23.76
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                24.080000000000002,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.560000000000002,
+                24.72
+            ]
+        },
+        {
+            "text": "sweet",
+            "timestamp": [
+                24.72,
+                25.04
+            ]
+        },
+        {
+            "text": "moment.",
+            "timestamp": [
+                25.04,
+                25.44
+            ]
+        },
+        {
+            "text": "Grandma",
+            "timestamp": [
+                25.6,
+                26.080000000000002
+            ]
+        },
+        {
+            "text": "answering",
+            "timestamp": [
+                26.080000000000002,
+                26.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.48,
+                26.64
+            ]
+        },
+        {
+            "text": "call",
+            "timestamp": [
+                26.64,
+                26.8
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                26.8,
+                26.96
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                26.96,
+                27.04
+            ]
+        },
+        {
+            "text": "bus.",
+            "timestamp": [
+                27.04,
+                27.44
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                27.76,
+                27.92
+            ]
+        },
+        {
+            "text": "being",
+            "timestamp": [
+                28.080000000000002,
+                28.240000000000002
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                28.240000000000002,
+                28.400000000000002
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                28.400000000000002,
+                28.48
+            ]
+        },
+        {
+            "text": "bus",
+            "timestamp": [
+                28.48,
+                28.8
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                28.8,
+                28.96
+            ]
+        },
+        {
+            "text": "such",
+            "timestamp": [
+                28.96,
+                29.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                29.12,
+                29.2
+            ]
+        },
+        {
+            "text": "simple,",
+            "timestamp": [
+                29.2,
+                29.6
+            ]
+        },
+        {
+            "text": "everyday",
+            "timestamp": [
+                29.76,
+                30.16
+            ]
+        },
+        {
+            "text": "moment,",
+            "timestamp": [
+                30.16,
+                30.48
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                30.72,
+                30.96
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                30.96,
+                31.12
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                31.12,
+                31.36
+            ]
+        },
+        {
+            "text": "joys.",
+            "timestamp": [
+                31.36,
+                31.68
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                31.92,
+                32.160000000000004
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                32.160000000000004,
+                32.32
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                32.32,
+                32.480000000000004
+            ]
+        },
+        {
+            "text": "enjoying",
+            "timestamp": [
+                32.480000000000004,
+                32.88
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                32.88,
+                32.96
+            ]
+        },
+        {
+            "text": "ride,",
+            "timestamp": [
+                32.96,
+                33.2
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                33.36,
+                33.6
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                33.6,
+                33.68
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                33.68,
+                33.84
+            ]
+        },
+        {
+            "text": "small.",
+            "timestamp": [
+                33.84,
+                34.08
+            ]
+        },
+        {
+            "text": "Totally",
+            "timestamp": [
+                34.32,
+                34.72
+            ]
+        },
+        {
+            "text": "get.",
+            "timestamp": [
+                34.72,
+                34.88
+            ]
+        }
+    ]
+}

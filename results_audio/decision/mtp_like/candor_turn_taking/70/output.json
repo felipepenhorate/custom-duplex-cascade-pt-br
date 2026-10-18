@@ -1,0 +1,208 @@
+{
+    "text": "I'm not sure what you mean. Could you clarify your question? Ah, got it. A warm, sunny seventies vibe. Perfect fall weather. Crisp but not too cold. Nice day.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                2.0,
+                2.32
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                2.32,
+                2.56
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                2.56,
+                2.72
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                2.72,
+                2.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                2.96,
+                3.12
+            ]
+        },
+        {
+            "text": "mean.",
+            "timestamp": [
+                3.12,
+                3.36
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                3.6,
+                3.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                3.84,
+                4.0
+            ]
+        },
+        {
+            "text": "clarify",
+            "timestamp": [
+                4.0,
+                4.48
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                4.48,
+                4.72
+            ]
+        },
+        {
+            "text": "question?",
+            "timestamp": [
+                4.72,
+                4.96
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                12.4,
+                12.48
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "warm,",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "sunny",
+            "timestamp": [
+                13.6,
+                13.92
+            ]
+        },
+        {
+            "text": "seventies",
+            "timestamp": [
+                13.92,
+                14.24
+            ]
+        },
+        {
+            "text": "vibe.",
+            "timestamp": [
+                14.4,
+                14.72
+            ]
+        },
+        {
+            "text": "Perfect",
+            "timestamp": [
+                14.88,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "fall",
+            "timestamp": [
+                15.280000000000001,
+                15.6
+            ]
+        },
+        {
+            "text": "weather.",
+            "timestamp": [
+                15.6,
+                15.92
+            ]
+        },
+        {
+            "text": "Crisp",
+            "timestamp": [
+                16.080000000000002,
+                16.48
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                16.56,
+                16.72
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                16.72,
+                16.88
+            ]
+        },
+        {
+            "text": "too",
+            "timestamp": [
+                16.88,
+                17.12
+            ]
+        },
+        {
+            "text": "cold.",
+            "timestamp": [
+                17.12,
+                17.36
+            ]
+        },
+        {
+            "text": "Nice",
+            "timestamp": [
+                17.68,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "day.",
+            "timestamp": [
+                18.080000000000002,
+                18.240000000000002
+            ]
+        }
+    ]
+}

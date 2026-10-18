@@ -1,0 +1,103 @@
+{
+    "text": "Oh, four hundred pounds. Got it. That's a solid number. So you've probably done.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "four",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "hundred",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "pounds.",
+            "timestamp": [
+                11.28,
+                11.6
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.64,
+                12.72
+            ]
+        },
+        {
+            "text": "solid",
+            "timestamp": [
+                12.72,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "number.",
+            "timestamp": [
+                13.040000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "So",
+            "timestamp": [
+                13.44,
+                13.52
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                13.6,
+                13.84
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                13.84,
+                14.0
+            ]
+        },
+        {
+            "text": "done.",
+            "timestamp": [
+                14.0,
+                14.16
+            ]
+        }
+    ]
+}

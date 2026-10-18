@@ -1,0 +1,96 @@
+{
+    "text": "That's okay. Sometimes oh that totally okay. Sometimes the silence speaks louder than.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                6.32,
+                6.8
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                6.8,
+                7.04
+            ]
+        },
+        {
+            "text": "Sometimes",
+            "timestamp": [
+                7.28,
+                7.92
+            ]
+        },
+        {
+            "text": "oh",
+            "timestamp": [
+                14.24,
+                14.8
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                16.080000000000002,
+                16.4
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                16.8,
+                17.44
+            ]
+        },
+        {
+            "text": "okay.",
+            "timestamp": [
+                17.44,
+                17.68
+            ]
+        },
+        {
+            "text": "Sometimes",
+            "timestamp": [
+                18.0,
+                18.48
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                18.48,
+                18.56
+            ]
+        },
+        {
+            "text": "silence",
+            "timestamp": [
+                18.56,
+                18.96
+            ]
+        },
+        {
+            "text": "speaks",
+            "timestamp": [
+                18.96,
+                19.2
+            ]
+        },
+        {
+            "text": "louder",
+            "timestamp": [
+                19.2,
+                19.52
+            ]
+        },
+        {
+            "text": "than.",
+            "timestamp": [
+                19.52,
+                19.6
+            ]
+        }
+    ]
+}

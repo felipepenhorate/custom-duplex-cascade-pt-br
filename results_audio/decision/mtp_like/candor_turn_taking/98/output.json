@@ -1,0 +1,425 @@
+{
+    "text": "Totally. They can be challenging, but you've got this. Got it. Quick and clear. Moved out of? Where to? I meant. Oh, you mean out of the IP address zone? Are you talking about moving out of a place called IP? Maybe you meant out of the city or out of the office. Let me. Nice shift. Moving from co-op.",
+    "chunks": [
+        {
+            "text": "Totally.",
+            "timestamp": [
+                3.7600000000000002,
+                4.4
+            ]
+        },
+        {
+            "text": "They",
+            "timestamp": [
+                4.72,
+                4.88
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                4.88,
+                5.04
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "challenging,",
+            "timestamp": [
+                5.2,
+                5.68
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                5.92,
+                6.24
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                6.24,
+                6.48
+            ]
+        },
+        {
+            "text": "this.",
+            "timestamp": [
+                6.48,
+                6.8
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                18.32,
+                18.56
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                18.56,
+                18.72
+            ]
+        },
+        {
+            "text": "Quick",
+            "timestamp": [
+                18.96,
+                19.2
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                19.2,
+                19.36
+            ]
+        },
+        {
+            "text": "clear.",
+            "timestamp": [
+                19.36,
+                19.68
+            ]
+        },
+        {
+            "text": "Moved",
+            "timestamp": [
+                20.0,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                20.400000000000002,
+                20.56
+            ]
+        },
+        {
+            "text": "of?",
+            "timestamp": [
+                20.56,
+                20.8
+            ]
+        },
+        {
+            "text": "Where",
+            "timestamp": [
+                21.04,
+                21.36
+            ]
+        },
+        {
+            "text": "to?",
+            "timestamp": [
+                21.36,
+                21.6
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                22.400000000000002,
+                22.64
+            ]
+        },
+        {
+            "text": "meant.",
+            "timestamp": [
+                22.64,
+                22.88
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                23.04,
+                23.2
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                23.28,
+                23.36
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                23.36,
+                23.52
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                23.52,
+                23.6
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                23.6,
+                23.68
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                23.68,
+                23.76
+            ]
+        },
+        {
+            "text": "IP",
+            "timestamp": [
+                23.76,
+                24.080000000000002
+            ]
+        },
+        {
+            "text": "address",
+            "timestamp": [
+                24.080000000000002,
+                24.400000000000002
+            ]
+        },
+        {
+            "text": "zone?",
+            "timestamp": [
+                24.400000000000002,
+                24.72
+            ]
+        },
+        {
+            "text": "Are",
+            "timestamp": [
+                24.96,
+                25.12
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                25.2,
+                25.36
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                25.36,
+                25.6
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                25.6,
+                25.76
+            ]
+        },
+        {
+            "text": "moving",
+            "timestamp": [
+                25.76,
+                26.080000000000002
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                26.080000000000002,
+                26.240000000000002
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                26.240000000000002,
+                26.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.32,
+                26.48
+            ]
+        },
+        {
+            "text": "place",
+            "timestamp": [
+                26.48,
+                26.72
+            ]
+        },
+        {
+            "text": "called",
+            "timestamp": [
+                26.72,
+                26.96
+            ]
+        },
+        {
+            "text": "IP?",
+            "timestamp": [
+                26.96,
+                27.52
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                27.76,
+                28.0
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                28.0,
+                28.16
+            ]
+        },
+        {
+            "text": "meant",
+            "timestamp": [
+                28.16,
+                28.64
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                28.64,
+                28.88
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                28.88,
+                29.04
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                29.04,
+                29.2
+            ]
+        },
+        {
+            "text": "city",
+            "timestamp": [
+                29.2,
+                29.6
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                29.92,
+                30.240000000000002
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                30.240000000000002,
+                30.48
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                30.48,
+                30.64
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                30.64,
+                30.88
+            ]
+        },
+        {
+            "text": "office.",
+            "timestamp": [
+                30.88,
+                31.44
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                31.76,
+                32.0
+            ]
+        },
+        {
+            "text": "me.",
+            "timestamp": [
+                32.0,
+                32.160000000000004
+            ]
+        },
+        {
+            "text": "Nice",
+            "timestamp": [
+                32.32,
+                32.56
+            ]
+        },
+        {
+            "text": "shift.",
+            "timestamp": [
+                32.72,
+                33.04
+            ]
+        },
+        {
+            "text": "Moving",
+            "timestamp": [
+                33.2,
+                33.44
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                33.44,
+                33.6
+            ]
+        },
+        {
+            "text": "co-op.",
+            "timestamp": [
+                33.6,
+                33.84
+            ]
+        }
+    ]
+}

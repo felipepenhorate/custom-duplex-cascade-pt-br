@@ -1,0 +1,82 @@
+{
+    "text": "That beautiful. Your journey is unique, just like every other person's.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "beautiful.",
+            "timestamp": [
+                9.36,
+                10.0
+            ]
+        },
+        {
+            "text": "Your",
+            "timestamp": [
+                10.24,
+                10.48
+            ]
+        },
+        {
+            "text": "journey",
+            "timestamp": [
+                10.48,
+                10.88
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "unique,",
+            "timestamp": [
+                11.040000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "every",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "other",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        },
+        {
+            "text": "person's.",
+            "timestamp": [
+                12.8,
+                13.200000000000001
+            ]
+        }
+    ]
+}

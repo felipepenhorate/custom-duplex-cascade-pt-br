@@ -1,0 +1,82 @@
+{
+    "text": "Love that idea. A picnic by the lake is perfect for.",
+    "chunks": [
+        {
+            "text": "Love",
+            "timestamp": [
+                7.92,
+                8.4
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "idea.",
+            "timestamp": [
+                8.64,
+                8.96
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "picnic",
+            "timestamp": [
+                9.36,
+                9.84
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "lake",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "perfect",
+            "timestamp": [
+                10.56,
+                10.96
+            ]
+        },
+        {
+            "text": "for.",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        }
+    ]
+}

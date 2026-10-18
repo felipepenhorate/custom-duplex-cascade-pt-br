@@ -1,0 +1,208 @@
+{
+    "text": "That's awesome. Finally getting through to someone? It means a lot. Keep going, you've got this. Who knows? Either way, you're getting there. And that counts. I am end.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                10.56,
+                10.96
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                10.96,
+                11.36
+            ]
+        },
+        {
+            "text": "Finally",
+            "timestamp": [
+                11.52,
+                11.92
+            ]
+        },
+        {
+            "text": "getting",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "through",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "someone?",
+            "timestamp": [
+                12.4,
+                12.8
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                13.120000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "means",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        },
+        {
+            "text": "lot.",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "Keep",
+            "timestamp": [
+                14.08,
+                14.32
+            ]
+        },
+        {
+            "text": "going,",
+            "timestamp": [
+                14.32,
+                14.56
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                14.72,
+                14.96
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                14.96,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "this.",
+            "timestamp": [
+                15.200000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "Who",
+            "timestamp": [
+                17.04,
+                17.2
+            ]
+        },
+        {
+            "text": "knows?",
+            "timestamp": [
+                17.2,
+                17.52
+            ]
+        },
+        {
+            "text": "Either",
+            "timestamp": [
+                17.68,
+                18.0
+            ]
+        },
+        {
+            "text": "way,",
+            "timestamp": [
+                18.0,
+                18.16
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                18.240000000000002,
+                18.56
+            ]
+        },
+        {
+            "text": "getting",
+            "timestamp": [
+                18.56,
+                18.72
+            ]
+        },
+        {
+            "text": "there.",
+            "timestamp": [
+                18.72,
+                18.96
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                19.2,
+                19.36
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                19.36,
+                19.6
+            ]
+        },
+        {
+            "text": "counts.",
+            "timestamp": [
+                19.6,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                20.32,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "am",
+            "timestamp": [
+                20.64,
+                20.8
+            ]
+        },
+        {
+            "text": "end.",
+            "timestamp": [
+                20.88,
+                20.96
+            ]
+        }
+    ]
+}

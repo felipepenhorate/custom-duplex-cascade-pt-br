@@ -1,0 +1,257 @@
+{
+    "text": "I'm sorry, but I can't provide real-time weather forecasts. You might want to check a trusted weather app or website like Weather.com, AccuWeather, or your local news for tomorrow's forecast. You're very welcome. Basha, happy planting.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                13.608,
+                14.088
+            ]
+        },
+        {
+            "text": "sorry,",
+            "timestamp": [
+                14.088,
+                14.408
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                14.648,
+                14.808
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                14.808,
+                14.968
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                14.968,
+                15.288
+            ]
+        },
+        {
+            "text": "provide",
+            "timestamp": [
+                15.288,
+                15.688
+            ]
+        },
+        {
+            "text": "real-time",
+            "timestamp": [
+                15.688,
+                16.168
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                16.248,
+                16.568
+            ]
+        },
+        {
+            "text": "forecasts.",
+            "timestamp": [
+                16.568,
+                17.208
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                17.528,
+                17.608
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                17.608,
+                17.848
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                17.848,
+                17.928
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.928,
+                18.008
+            ]
+        },
+        {
+            "text": "check",
+            "timestamp": [
+                18.008,
+                18.248
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.248,
+                18.328
+            ]
+        },
+        {
+            "text": "trusted",
+            "timestamp": [
+                18.328,
+                18.648
+            ]
+        },
+        {
+            "text": "weather",
+            "timestamp": [
+                18.648,
+                18.887999999999998
+            ]
+        },
+        {
+            "text": "app",
+            "timestamp": [
+                18.887999999999998,
+                19.128
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                19.128,
+                19.288
+            ]
+        },
+        {
+            "text": "website",
+            "timestamp": [
+                19.288,
+                19.768
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                19.768,
+                19.928
+            ]
+        },
+        {
+            "text": "Weather.com,",
+            "timestamp": [
+                19.928,
+                20.968
+            ]
+        },
+        {
+            "text": "AccuWeather,",
+            "timestamp": [
+                21.128,
+                22.088
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                22.168,
+                22.328
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                22.328,
+                22.488
+            ]
+        },
+        {
+            "text": "local",
+            "timestamp": [
+                22.488,
+                22.808
+            ]
+        },
+        {
+            "text": "news",
+            "timestamp": [
+                22.808,
+                23.128
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                23.128,
+                23.288
+            ]
+        },
+        {
+            "text": "tomorrow's",
+            "timestamp": [
+                23.288,
+                23.848
+            ]
+        },
+        {
+            "text": "forecast.",
+            "timestamp": [
+                23.848,
+                24.488
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                25.368000000000002,
+                25.608
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                25.608,
+                25.848
+            ]
+        },
+        {
+            "text": "welcome.",
+            "timestamp": [
+                25.848,
+                26.648
+            ]
+        },
+        {
+            "text": "Basha,",
+            "timestamp": [
+                26.968,
+                27.768
+            ]
+        },
+        {
+            "text": "happy",
+            "timestamp": [
+                28.008000000000003,
+                28.328
+            ]
+        },
+        {
+            "text": "planting.",
+            "timestamp": [
+                28.328,
+                29.048000000000002
+            ]
+        }
+    ]
+}

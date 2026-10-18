@@ -1,0 +1,173 @@
+{
+    "text": "That sounds wonderful. What kind of dish are you in the mood for? A rich love that. How about a Mediterranean chicken tikka masala?",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                3.12,
+                3.44
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                3.44,
+                3.92
+            ]
+        },
+        {
+            "text": "wonderful.",
+            "timestamp": [
+                3.92,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "dish",
+            "timestamp": [
+                5.36,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                5.92,
+                6.0
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                6.0,
+                6.08
+            ]
+        },
+        {
+            "text": "mood",
+            "timestamp": [
+                6.08,
+                6.32
+            ]
+        },
+        {
+            "text": "for?",
+            "timestamp": [
+                6.32,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "rich",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        },
+        {
+            "text": "love",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "Mediterranean",
+            "timestamp": [
+                10.96,
+                11.68
+            ]
+        },
+        {
+            "text": "chicken",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "tikka",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        },
+        {
+            "text": "masala?",
+            "timestamp": [
+                12.24,
+                12.72
+            ]
+        }
+    ]
+}

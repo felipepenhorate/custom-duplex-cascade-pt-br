@@ -1,0 +1,117 @@
+{
+    "text": "That happens to everyone. I'm sure you're adjusting now. How's it going? How's it going? Oh.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                13.280000000000001,
+                13.6
+            ]
+        },
+        {
+            "text": "happens",
+            "timestamp": [
+                13.6,
+                14.0
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.0,
+                14.24
+            ]
+        },
+        {
+            "text": "everyone.",
+            "timestamp": [
+                14.24,
+                14.56
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                14.88,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                15.040000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                15.280000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "adjusting",
+            "timestamp": [
+                15.68,
+                16.0
+            ]
+        },
+        {
+            "text": "now.",
+            "timestamp": [
+                16.0,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "How's",
+            "timestamp": [
+                16.96,
+                17.12
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                17.12,
+                17.28
+            ]
+        },
+        {
+            "text": "going?",
+            "timestamp": [
+                17.28,
+                17.6
+            ]
+        },
+        {
+            "text": "How's",
+            "timestamp": [
+                18.0,
+                18.32
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                18.32,
+                18.64
+            ]
+        },
+        {
+            "text": "going?",
+            "timestamp": [
+                18.64,
+                18.96
+            ]
+        },
+        {
+            "text": "Oh.",
+            "timestamp": [
+                25.68,
+                26.0
+            ]
+        }
+    ]
+}

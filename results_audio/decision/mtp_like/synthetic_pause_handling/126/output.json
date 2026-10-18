@@ -1,0 +1,173 @@
+{
+    "text": "You're right. Taking care of pets is a big responsibility. They need love. Got it. Exercise is a key part of a dog's well-being.",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                3.44,
+                4.08
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                4.08,
+                4.32
+            ]
+        },
+        {
+            "text": "Taking",
+            "timestamp": [
+                4.64,
+                5.04
+            ]
+        },
+        {
+            "text": "care",
+            "timestamp": [
+                5.04,
+                5.28
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                5.28,
+                5.44
+            ]
+        },
+        {
+            "text": "pets",
+            "timestamp": [
+                5.44,
+                6.08
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                6.4,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "responsibility.",
+            "timestamp": [
+                6.640000000000001,
+                7.44
+            ]
+        },
+        {
+            "text": "They",
+            "timestamp": [
+                7.68,
+                8.0
+            ]
+        },
+        {
+            "text": "need",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        },
+        {
+            "text": "love.",
+            "timestamp": [
+                8.32,
+                8.64
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                9.28,
+                9.68
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "Exercise",
+            "timestamp": [
+                10.32,
+                10.96
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.120000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "key",
+            "timestamp": [
+                11.200000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "part",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "dog's",
+            "timestamp": [
+                11.84,
+                12.24
+            ]
+        },
+        {
+            "text": "well-being.",
+            "timestamp": [
+                12.24,
+                12.64
+            ]
+        }
+    ]
+}

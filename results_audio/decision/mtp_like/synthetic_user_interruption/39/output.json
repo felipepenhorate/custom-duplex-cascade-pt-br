@@ -1,0 +1,194 @@
+{
+    "text": "Sure. What kind of diet tips are you looking for? For example, healthy eating habits, meal planning, weight management, or specific diets like plant-based or keto. Timmin",
+    "chunks": [
+        {
+            "text": "Sure.",
+            "timestamp": [
+                12.856000000000002,
+                13.256
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                13.976,
+                14.216000000000001
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                14.216000000000001,
+                14.376000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                14.376000000000001,
+                14.456000000000001
+            ]
+        },
+        {
+            "text": "diet",
+            "timestamp": [
+                14.456000000000001,
+                14.776
+            ]
+        },
+        {
+            "text": "tips",
+            "timestamp": [
+                14.776,
+                15.016000000000002
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                15.016000000000002,
+                15.096
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.096,
+                15.256
+            ]
+        },
+        {
+            "text": "looking",
+            "timestamp": [
+                15.256,
+                15.416
+            ]
+        },
+        {
+            "text": "for?",
+            "timestamp": [
+                15.416,
+                15.576
+            ]
+        },
+        {
+            "text": "For",
+            "timestamp": [
+                15.816,
+                16.056
+            ]
+        },
+        {
+            "text": "example,",
+            "timestamp": [
+                16.056,
+                16.376
+            ]
+        },
+        {
+            "text": "healthy",
+            "timestamp": [
+                16.536,
+                16.936
+            ]
+        },
+        {
+            "text": "eating",
+            "timestamp": [
+                16.936,
+                17.336000000000002
+            ]
+        },
+        {
+            "text": "habits,",
+            "timestamp": [
+                17.336000000000002,
+                17.736
+            ]
+        },
+        {
+            "text": "meal",
+            "timestamp": [
+                17.896,
+                18.216
+            ]
+        },
+        {
+            "text": "planning,",
+            "timestamp": [
+                18.216,
+                18.616
+            ]
+        },
+        {
+            "text": "weight",
+            "timestamp": [
+                18.776,
+                19.096
+            ]
+        },
+        {
+            "text": "management,",
+            "timestamp": [
+                19.096,
+                19.656
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                19.896,
+                20.136000000000003
+            ]
+        },
+        {
+            "text": "specific",
+            "timestamp": [
+                20.136000000000003,
+                20.616
+            ]
+        },
+        {
+            "text": "diets",
+            "timestamp": [
+                20.616,
+                21.096
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                21.096,
+                21.336
+            ]
+        },
+        {
+            "text": "plant-based",
+            "timestamp": [
+                21.336,
+                21.976
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                21.976,
+                22.136000000000003
+            ]
+        },
+        {
+            "text": "keto.",
+            "timestamp": [
+                22.136000000000003,
+                22.616
+            ]
+        },
+        {
+            "text": "Timmin",
+            "timestamp": [
+                22.856,
+                23.416
+            ]
+        }
+    ]
+}

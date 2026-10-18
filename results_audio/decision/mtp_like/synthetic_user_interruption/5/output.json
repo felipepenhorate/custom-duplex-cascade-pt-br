@@ -1,0 +1,68 @@
+{
+    "text": "Of course. What would you like to talk about?",
+    "chunks": [
+        {
+            "text": "Of",
+            "timestamp": [
+                13.24,
+                13.56
+            ]
+        },
+        {
+            "text": "course.",
+            "timestamp": [
+                13.56,
+                13.88
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                14.280000000000001,
+                14.520000000000001
+            ]
+        },
+        {
+            "text": "would",
+            "timestamp": [
+                14.520000000000001,
+                14.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.68,
+                14.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                14.84,
+                15.0
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.0,
+                15.32
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                15.32,
+                15.64
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                15.64,
+                15.96
+            ]
+        }
+    ]
+}

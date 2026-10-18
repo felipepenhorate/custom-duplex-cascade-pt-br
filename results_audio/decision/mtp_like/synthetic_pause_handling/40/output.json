@@ -1,0 +1,117 @@
+{
+    "text": "That sounds great. Go ahead and share the job ad. I'd love to take a look.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                4.24,
+                4.4
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                4.64,
+                5.2
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                5.2,
+                5.44
+            ]
+        },
+        {
+            "text": "Go",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "ahead",
+            "timestamp": [
+                5.92,
+                6.16
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "share",
+            "timestamp": [
+                6.32,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "job",
+            "timestamp": [
+                6.640000000000001,
+                7.04
+            ]
+        },
+        {
+            "text": "ad.",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "I'd",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "love",
+            "timestamp": [
+                7.92,
+                8.08
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "take",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "look.",
+            "timestamp": [
+                8.56,
+                8.8
+            ]
+        }
+    ]
+}

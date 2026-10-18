@@ -1,0 +1,110 @@
+{
+    "text": "That's awesome. What specific Great job going to the gym three times a week is",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                2.88,
+                3.36
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                3.36,
+                3.92
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                4.24,
+                4.48
+            ]
+        },
+        {
+            "text": "specific",
+            "timestamp": [
+                4.48,
+                4.88
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                6.640000000000001,
+                7.04
+            ]
+        },
+        {
+            "text": "job",
+            "timestamp": [
+                7.04,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "going",
+            "timestamp": [
+                7.92,
+                8.08
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "gym",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "three",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "times",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "week",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        }
+    ]
+}

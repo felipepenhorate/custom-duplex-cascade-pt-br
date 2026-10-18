@@ -1,0 +1,159 @@
+{
+    "text": "That's totally understandable. Many people learn more about public figures during election cycles. That's a fair observation. It's interesting how some politicians.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                6.0,
+                6.48
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                6.48,
+                7.2
+            ]
+        },
+        {
+            "text": "understandable.",
+            "timestamp": [
+                7.2,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "Many",
+            "timestamp": [
+                7.84,
+                8.16
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "learn",
+            "timestamp": [
+                8.32,
+                8.64
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "public",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "figures",
+            "timestamp": [
+                9.28,
+                9.68
+            ]
+        },
+        {
+            "text": "during",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "election",
+            "timestamp": [
+                9.92,
+                10.24
+            ]
+        },
+        {
+            "text": "cycles.",
+            "timestamp": [
+                10.24,
+                10.72
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                13.120000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.44,
+                13.52
+            ]
+        },
+        {
+            "text": "fair",
+            "timestamp": [
+                13.52,
+                13.84
+            ]
+        },
+        {
+            "text": "observation.",
+            "timestamp": [
+                13.84,
+                14.48
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                14.72,
+                14.96
+            ]
+        },
+        {
+            "text": "interesting",
+            "timestamp": [
+                14.96,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                15.280000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                15.44,
+                15.52
+            ]
+        },
+        {
+            "text": "politicians.",
+            "timestamp": [
+                15.52,
+                15.76
+            ]
+        }
+    ]
+}

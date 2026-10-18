@@ -1,0 +1,82 @@
+{
+    "text": "That's great. Awesome. Got it. Plan, progress, and patience. Keep going.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                2.88,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                3.7600000000000002,
+                4.08
+            ]
+        },
+        {
+            "text": "Awesome.",
+            "timestamp": [
+                7.76,
+                8.32
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                10.16,
+                10.56
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "Plan,",
+            "timestamp": [
+                11.040000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "progress,",
+            "timestamp": [
+                11.76,
+                12.32
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "patience.",
+            "timestamp": [
+                12.72,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "Keep",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        },
+        {
+            "text": "going.",
+            "timestamp": [
+                13.52,
+                13.68
+            ]
+        }
+    ]
+}

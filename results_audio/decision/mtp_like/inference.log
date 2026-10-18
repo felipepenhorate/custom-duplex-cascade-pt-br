@@ -22,3 +22,22 @@ WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may
 [audio/mtp_like] 350/727 queue (9.3s/scenario, 10.6s audio) spoke=True pieces=15
 [audio/mtp_like] 375/727 queue (9.2s/scenario, 9.9s audio) spoke=True pieces=13
 [audio/mtp_like] 400/727 queue (9.4s/scenario, 17.0s audio) spoke=True pieces=20
+[audio/mtp_like] 425/727 queue (10.0s/scenario, 10.8s audio) spoke=True pieces=15
+[audio/mtp_like] 450/727 queue (10.3s/scenario, 11.7s audio) spoke=True pieces=16
+[audio/mtp_like] 475/727 queue (10.6s/scenario, 44.7s audio) spoke=True pieces=55
+[audio/mtp_like] 500/727 queue (11.8s/scenario, 62.0s audio) spoke=True pieces=68
+[audio/mtp_like] 525/727 queue (13.3s/scenario, 22.5s audio) spoke=True pieces=24
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'That’s so important — the contrast between what yo...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'Sure! What kind of cooking are you interested in? ...'
+[audio/mtp_like] 550/727 queue (13.6s/scenario, 29.7s audio) spoke=True pieces=34
+[audio/mtp_like] 575/727 queue (13.7s/scenario, 26.3s audio) spoke=True pieces=29
+[audio/mtp_like] 600/727 queue (13.8s/scenario, 27.8s audio) spoke=True pieces=29
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'Popular winter vacation destinations include: Sibe...'
+[audio/mtp_like] 625/727 queue (14.0s/scenario, 28.8s audio) spoke=True pieces=33
+[audio/mtp_like] 650/727 queue (14.1s/scenario, 28.5s audio) spoke=True pieces=30
+WARNING:pocket_tts.models.tts_model:Chunk has 53 tokens (max 50), generation may skip words: 'Most adults should aim for at least 150 minutes of...'
+[audio/mtp_like] 675/727 queue (14.2s/scenario, 29.5s audio) spoke=True pieces=33
+[audio/mtp_like] 700/727 queue (14.4s/scenario, 28.1s audio) spoke=True pieces=30
+WARNING:pocket_tts.models.tts_model:Chunk has 53 tokens (max 50), generation may skip words: 'Check the retailer’s return policy – Visit the web...'
+[audio/mtp_like] 725/727 queue (14.4s/scenario, 28.3s audio) spoke=True pieces=31
+[audio] done -> /home/penhfel/github/custom-duplex-cascade-pt-br/results_audio/decision/mtp_like

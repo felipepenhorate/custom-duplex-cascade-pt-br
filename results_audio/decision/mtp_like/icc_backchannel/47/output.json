@@ -1,0 +1,222 @@
+{
+    "text": "That makes sense. Feeling worried when applying is totally normal. Oh, so it's been about a year and a half. Thanks. I appreciate that. It's that's totally okay not doing sports.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "makes",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "sense.",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "Feeling",
+            "timestamp": [
+                11.200000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "worried",
+            "timestamp": [
+                11.6,
+                12.0
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "applying",
+            "timestamp": [
+                12.16,
+                12.48
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        },
+        {
+            "text": "normal.",
+            "timestamp": [
+                12.96,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                13.52,
+                13.6
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                13.84,
+                14.0
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                14.0,
+                14.16
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                14.16,
+                14.32
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                14.32,
+                14.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.48,
+                14.56
+            ]
+        },
+        {
+            "text": "year",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                14.72,
+                14.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.8,
+                14.88
+            ]
+        },
+        {
+            "text": "half.",
+            "timestamp": [
+                14.88,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "Thanks.",
+            "timestamp": [
+                29.12,
+                29.52
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                29.68,
+                29.76
+            ]
+        },
+        {
+            "text": "appreciate",
+            "timestamp": [
+                29.76,
+                30.400000000000002
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                30.400000000000002,
+                30.64
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                30.96,
+                31.36
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                40.08,
+                40.64
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                40.88,
+                41.52
+            ]
+        },
+        {
+            "text": "okay",
+            "timestamp": [
+                41.52,
+                41.84
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                42.160000000000004,
+                42.4
+            ]
+        },
+        {
+            "text": "doing",
+            "timestamp": [
+                42.4,
+                42.64
+            ]
+        },
+        {
+            "text": "sports.",
+            "timestamp": [
+                42.64,
+                42.96
+            ]
+        }
+    ]
+}

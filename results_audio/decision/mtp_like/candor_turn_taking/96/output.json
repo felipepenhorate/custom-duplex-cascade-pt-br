@@ -1,0 +1,110 @@
+{
+    "text": "Yeah, I'm always available. No time zone issues here. Suh? What's on your mind? MN.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                6.08,
+                6.4
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "always",
+            "timestamp": [
+                6.8,
+                7.04
+            ]
+        },
+        {
+            "text": "available.",
+            "timestamp": [
+                7.04,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "No",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "zone",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "issues",
+            "timestamp": [
+                8.56,
+                8.96
+            ]
+        },
+        {
+            "text": "here.",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "Suh?",
+            "timestamp": [
+                9.36,
+                9.84
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "mind?",
+            "timestamp": [
+                10.88,
+                11.28
+            ]
+        },
+        {
+            "text": "MN.",
+            "timestamp": [
+                11.6,
+                12.16
+            ]
+        }
+    ]
+}

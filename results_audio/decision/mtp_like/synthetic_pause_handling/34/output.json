@@ -1,0 +1,47 @@
+{
+    "text": "Absolutely. Japan's temples are truly magical.",
+    "chunks": [
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                10.0,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "Japan's",
+            "timestamp": [
+                11.52,
+                12.08
+            ]
+        },
+        {
+            "text": "temples",
+            "timestamp": [
+                12.08,
+                12.56
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "truly",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "magical.",
+            "timestamp": [
+                12.96,
+                13.36
+            ]
+        }
+    ]
+}

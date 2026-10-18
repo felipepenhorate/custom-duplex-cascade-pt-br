@@ -1,0 +1,61 @@
+{
+    "text": "That sounds fun. What kind of outdoor activity?",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                2.4,
+                2.72
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                2.72,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "fun.",
+            "timestamp": [
+                3.2800000000000002,
+                3.52
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                3.84,
+                4.08
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                4.08,
+                4.24
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                4.24,
+                4.32
+            ]
+        },
+        {
+            "text": "outdoor",
+            "timestamp": [
+                4.32,
+                4.8
+            ]
+        },
+        {
+            "text": "activity?",
+            "timestamp": [
+                4.8,
+                5.36
+            ]
+        }
+    ]
+}

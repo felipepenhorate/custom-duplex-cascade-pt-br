@@ -1,0 +1,355 @@
+{
+    "text": "Oh, that sounds like a great time. What happened during your sophomore year? I'm sorry you had such a tough time. Injuries like that can be really frustrating. Wishing you a full recovery and lots of comfort. Totally get that. Rest is key, and your body needs time to heal.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                7.92,
+                8.16
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "happened",
+            "timestamp": [
+                10.08,
+                10.56
+            ]
+        },
+        {
+            "text": "during",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "sophomore",
+            "timestamp": [
+                10.96,
+                11.36
+            ]
+        },
+        {
+            "text": "year?",
+            "timestamp": [
+                11.36,
+                11.52
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "sorry",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "had",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "such",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.56,
+                12.64
+            ]
+        },
+        {
+            "text": "tough",
+            "timestamp": [
+                12.64,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "Injuries",
+            "timestamp": [
+                13.52,
+                14.08
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                14.08,
+                14.24
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                14.24,
+                14.48
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                14.48,
+                14.64
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                14.8,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "frustrating.",
+            "timestamp": [
+                15.040000000000001,
+                15.68
+            ]
+        },
+        {
+            "text": "Wishing",
+            "timestamp": [
+                16.0,
+                16.4
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                16.4,
+                16.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.56,
+                16.72
+            ]
+        },
+        {
+            "text": "full",
+            "timestamp": [
+                16.72,
+                16.96
+            ]
+        },
+        {
+            "text": "recovery",
+            "timestamp": [
+                16.96,
+                17.44
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                17.44,
+                17.68
+            ]
+        },
+        {
+            "text": "lots",
+            "timestamp": [
+                17.68,
+                17.92
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                17.92,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "comfort.",
+            "timestamp": [
+                18.080000000000002,
+                18.48
+            ]
+        },
+        {
+            "text": "Totally",
+            "timestamp": [
+                22.0,
+                22.64
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                22.64,
+                22.88
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                22.88,
+                23.12
+            ]
+        },
+        {
+            "text": "Rest",
+            "timestamp": [
+                23.36,
+                23.84
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                23.84,
+                24.080000000000002
+            ]
+        },
+        {
+            "text": "key,",
+            "timestamp": [
+                24.080000000000002,
+                24.400000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                24.560000000000002,
+                24.8
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                24.8,
+                24.96
+            ]
+        },
+        {
+            "text": "body",
+            "timestamp": [
+                24.96,
+                25.28
+            ]
+        },
+        {
+            "text": "needs",
+            "timestamp": [
+                25.28,
+                25.52
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                25.52,
+                25.76
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                25.76,
+                25.92
+            ]
+        },
+        {
+            "text": "heal.",
+            "timestamp": [
+                25.92,
+                26.240000000000002
+            ]
+        }
+    ]
+}

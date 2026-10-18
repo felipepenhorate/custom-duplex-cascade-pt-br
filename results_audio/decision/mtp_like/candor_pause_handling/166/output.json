@@ -1,0 +1,117 @@
+{
+    "text": "Sure. What's on your mind? I'm not sure I quite get what you mean. Could you?",
+    "chunks": [
+        {
+            "text": "Sure.",
+            "timestamp": [
+                1.44,
+                2.0
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                2.32,
+                2.56
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                2.56,
+                2.8000000000000003
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                2.8000000000000003,
+                2.96
+            ]
+        },
+        {
+            "text": "mind?",
+            "timestamp": [
+                2.96,
+                3.36
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "quite",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "mean.",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                11.040000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "you?",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        }
+    ]
+}

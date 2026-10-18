@@ -1,0 +1,103 @@
+{
+    "text": "That sounds delicious. Spaghetti is a great choice. Simple, satisfying, and easy to customize.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                5.92,
+                6.24
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                6.24,
+                6.72
+            ]
+        },
+        {
+            "text": "delicious.",
+            "timestamp": [
+                6.72,
+                7.28
+            ]
+        },
+        {
+            "text": "Spaghetti",
+            "timestamp": [
+                7.5200000000000005,
+                8.16
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                8.16,
+                8.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                8.56,
+                8.88
+            ]
+        },
+        {
+            "text": "Simple,",
+            "timestamp": [
+                9.120000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "satisfying,",
+            "timestamp": [
+                9.68,
+                10.32
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "easy",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "customize.",
+            "timestamp": [
+                10.96,
+                11.36
+            ]
+        }
+    ]
+}

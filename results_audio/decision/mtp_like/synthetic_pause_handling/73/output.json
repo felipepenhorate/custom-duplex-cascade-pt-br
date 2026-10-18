@@ -1,0 +1,131 @@
+{
+    "text": "That sounds great. Strength training is a that's awesome. Pushing through tough workouts builds real strength and confidence.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                6.5600000000000005,
+                6.88
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                6.88,
+                7.44
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                7.44,
+                7.68
+            ]
+        },
+        {
+            "text": "Strength",
+            "timestamp": [
+                7.92,
+                8.32
+            ]
+        },
+        {
+            "text": "training",
+            "timestamp": [
+                8.32,
+                8.64
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                9.6,
+                9.92
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                9.92,
+                10.4
+            ]
+        },
+        {
+            "text": "Pushing",
+            "timestamp": [
+                10.72,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "through",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "tough",
+            "timestamp": [
+                11.28,
+                11.6
+            ]
+        },
+        {
+            "text": "workouts",
+            "timestamp": [
+                11.6,
+                12.08
+            ]
+        },
+        {
+            "text": "builds",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "real",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "strength",
+            "timestamp": [
+                12.48,
+                12.8
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.8,
+                12.88
+            ]
+        },
+        {
+            "text": "confidence.",
+            "timestamp": [
+                12.88,
+                13.120000000000001
+            ]
+        }
+    ]
+}

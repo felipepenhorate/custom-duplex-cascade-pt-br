@@ -1,0 +1,145 @@
+{
+    "text": "Of course. Want to talk about your favorite book, a fun movie, or even a dream vacation? I'm all ears.",
+    "chunks": [
+        {
+            "text": "Of",
+            "timestamp": [
+                12.759999999999998,
+                12.999999999999998
+            ]
+        },
+        {
+            "text": "course.",
+            "timestamp": [
+                13.239999999999998,
+                13.559999999999999
+            ]
+        },
+        {
+            "text": "Want",
+            "timestamp": [
+                13.879999999999999,
+                14.12
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.12,
+                14.2
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                14.2,
+                14.36
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                14.36,
+                14.52
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                14.52,
+                14.68
+            ]
+        },
+        {
+            "text": "favorite",
+            "timestamp": [
+                14.68,
+                15.079999999999998
+            ]
+        },
+        {
+            "text": "book,",
+            "timestamp": [
+                15.079999999999998,
+                15.319999999999999
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.559999999999999,
+                15.719999999999999
+            ]
+        },
+        {
+            "text": "fun",
+            "timestamp": [
+                15.719999999999999,
+                15.959999999999999
+            ]
+        },
+        {
+            "text": "movie,",
+            "timestamp": [
+                15.959999999999999,
+                16.439999999999998
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                16.68,
+                16.84
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                16.84,
+                17.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.08,
+                17.24
+            ]
+        },
+        {
+            "text": "dream",
+            "timestamp": [
+                17.24,
+                17.56
+            ]
+        },
+        {
+            "text": "vacation?",
+            "timestamp": [
+                17.56,
+                18.119999999999997
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                18.439999999999998,
+                18.84
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                18.84,
+                19.08
+            ]
+        },
+        {
+            "text": "ears.",
+            "timestamp": [
+                19.08,
+                19.32
+            ]
+        }
+    ]
+}

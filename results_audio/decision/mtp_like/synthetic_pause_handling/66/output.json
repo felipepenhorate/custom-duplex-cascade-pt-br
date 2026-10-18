@@ -1,0 +1,327 @@
+{
+    "text": "That's awesome. Got it. Timing is key. Make sure to preheat your oven, mix your batter just right, and bake until a toothpick comes out clean. Don't rush it. Good cakes take paste. You're on the right track. Add a little milk, one to two tablespoons.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.36,
+                3.84
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                3.84,
+                4.4
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                4.64,
+                4.96
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                4.96,
+                5.12
+            ]
+        },
+        {
+            "text": "Timing",
+            "timestamp": [
+                5.44,
+                5.84
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "key.",
+            "timestamp": [
+                6.0,
+                6.24
+            ]
+        },
+        {
+            "text": "Make",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                6.640000000000001,
+                6.8
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                6.8,
+                6.88
+            ]
+        },
+        {
+            "text": "preheat",
+            "timestamp": [
+                6.88,
+                7.36
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                7.36,
+                7.44
+            ]
+        },
+        {
+            "text": "oven,",
+            "timestamp": [
+                7.44,
+                7.76
+            ]
+        },
+        {
+            "text": "mix",
+            "timestamp": [
+                7.92,
+                8.16
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                8.16,
+                8.24
+            ]
+        },
+        {
+            "text": "batter",
+            "timestamp": [
+                8.24,
+                8.64
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "right,",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "bake",
+            "timestamp": [
+                9.44,
+                9.76
+            ]
+        },
+        {
+            "text": "until",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "toothpick",
+            "timestamp": [
+                10.08,
+                10.64
+            ]
+        },
+        {
+            "text": "comes",
+            "timestamp": [
+                10.64,
+                10.8
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "clean.",
+            "timestamp": [
+                10.96,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "Don't",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "rush",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "Good",
+            "timestamp": [
+                12.24,
+                12.4
+            ]
+        },
+        {
+            "text": "cakes",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "take",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "paste.",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                13.36,
+                13.44
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                13.44,
+                13.52
+            ]
+        },
+        {
+            "text": "right",
+            "timestamp": [
+                13.52,
+                13.6
+            ]
+        },
+        {
+            "text": "track.",
+            "timestamp": [
+                13.6,
+                13.68
+            ]
+        },
+        {
+            "text": "Add",
+            "timestamp": [
+                14.72,
+                14.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.8,
+                14.88
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                14.88,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "milk,",
+            "timestamp": [
+                15.040000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "one",
+            "timestamp": [
+                15.6,
+                15.68
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.76,
+                15.92
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                15.92,
+                16.0
+            ]
+        },
+        {
+            "text": "tablespoons.",
+            "timestamp": [
+                16.080000000000002,
+                16.4
+            ]
+        }
+    ]
+}

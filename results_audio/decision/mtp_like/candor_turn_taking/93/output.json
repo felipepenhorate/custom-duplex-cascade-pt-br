@@ -1,0 +1,138 @@
+{
+    "text": "Oh, I wasn't drinking, I was just thinking. Yeah, first thing in the morning, perfect time for quiet thoughts.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                3.2800000000000002,
+                3.6
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                3.68,
+                3.84
+            ]
+        },
+        {
+            "text": "wasn't",
+            "timestamp": [
+                3.84,
+                4.08
+            ]
+        },
+        {
+            "text": "drinking,",
+            "timestamp": [
+                4.08,
+                4.48
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "thinking.",
+            "timestamp": [
+                5.68,
+                6.32
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                8.0,
+                8.16
+            ]
+        },
+        {
+            "text": "first",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "thing",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                8.72,
+                8.88
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                8.88,
+                8.96
+            ]
+        },
+        {
+            "text": "morning,",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "perfect",
+            "timestamp": [
+                9.52,
+                9.92
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "quiet",
+            "timestamp": [
+                10.24,
+                10.88
+            ]
+        },
+        {
+            "text": "thoughts.",
+            "timestamp": [
+                10.88,
+                11.36
+            ]
+        }
+    ]
+}

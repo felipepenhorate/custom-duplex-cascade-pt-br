@@ -1,0 +1,159 @@
+{
+    "text": "I don't make sauce. I just got it. Start by. Yes. So you add the onions and tomatoes, saute them together, then.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.88,
+                3.2
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                3.2,
+                3.68
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                3.68,
+                4.0
+            ]
+        },
+        {
+            "text": "sauce.",
+            "timestamp": [
+                4.0,
+                4.48
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.72,
+                4.96
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                4.96,
+                5.28
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                5.28,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "Start",
+            "timestamp": [
+                6.08,
+                6.4
+            ]
+        },
+        {
+            "text": "by.",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "Yes.",
+            "timestamp": [
+                7.12,
+                7.44
+            ]
+        },
+        {
+            "text": "So",
+            "timestamp": [
+                7.68,
+                7.76
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.84,
+                7.92
+            ]
+        },
+        {
+            "text": "add",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "onions",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "tomatoes,",
+            "timestamp": [
+                8.96,
+                9.44
+            ]
+        },
+        {
+            "text": "saute",
+            "timestamp": [
+                9.6,
+                9.92
+            ]
+        },
+        {
+            "text": "them",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "together,",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "then.",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        }
+    ]
+}

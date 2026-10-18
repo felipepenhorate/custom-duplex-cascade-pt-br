@@ -1,0 +1,425 @@
+{
+    "text": "Oh, that sounds scary. If she fell or hit her head, it's important to check for symptoms like tiredness can be a sign of many loss of consciousness. Maybe just raise any concern from my medical attention right away. Let me know. Ah, no worries. I'm just here to help. If you're concerned about her memory or how she's been.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                12.08,
+                12.48
+            ]
+        },
+        {
+            "text": "scary.",
+            "timestamp": [
+                12.48,
+                12.96
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "she",
+            "timestamp": [
+                13.44,
+                13.6
+            ]
+        },
+        {
+            "text": "fell",
+            "timestamp": [
+                13.6,
+                13.92
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                13.92,
+                14.0
+            ]
+        },
+        {
+            "text": "hit",
+            "timestamp": [
+                14.0,
+                14.24
+            ]
+        },
+        {
+            "text": "her",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        },
+        {
+            "text": "head,",
+            "timestamp": [
+                14.4,
+                14.64
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                14.8,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                15.120000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.36,
+                15.44
+            ]
+        },
+        {
+            "text": "check",
+            "timestamp": [
+                15.44,
+                15.68
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                15.68,
+                15.76
+            ]
+        },
+        {
+            "text": "symptoms",
+            "timestamp": [
+                15.76,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                16.16,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "tiredness",
+            "timestamp": [
+                16.56,
+                16.88
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                17.04,
+                17.12
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                17.12,
+                17.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.2,
+                17.28
+            ]
+        },
+        {
+            "text": "sign",
+            "timestamp": [
+                17.28,
+                17.52
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                17.6,
+                17.68
+            ]
+        },
+        {
+            "text": "many",
+            "timestamp": [
+                17.84,
+                17.92
+            ]
+        },
+        {
+            "text": "loss",
+            "timestamp": [
+                18.240000000000002,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                18.400000000000002,
+                18.48
+            ]
+        },
+        {
+            "text": "consciousness.",
+            "timestamp": [
+                18.48,
+                18.72
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                19.04,
+                19.2
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                19.2,
+                19.44
+            ]
+        },
+        {
+            "text": "raise",
+            "timestamp": [
+                19.44,
+                19.68
+            ]
+        },
+        {
+            "text": "any",
+            "timestamp": [
+                19.76,
+                19.92
+            ]
+        },
+        {
+            "text": "concern",
+            "timestamp": [
+                19.92,
+                20.0
+            ]
+        },
+        {
+            "text": "from",
+            "timestamp": [
+                20.64,
+                20.72
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                20.88,
+                20.96
+            ]
+        },
+        {
+            "text": "medical",
+            "timestamp": [
+                21.12,
+                21.44
+            ]
+        },
+        {
+            "text": "attention",
+            "timestamp": [
+                21.44,
+                21.76
+            ]
+        },
+        {
+            "text": "right",
+            "timestamp": [
+                21.76,
+                21.92
+            ]
+        },
+        {
+            "text": "away.",
+            "timestamp": [
+                21.92,
+                22.080000000000002
+            ]
+        },
+        {
+            "text": "Let",
+            "timestamp": [
+                22.8,
+                22.96
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                22.96,
+                23.04
+            ]
+        },
+        {
+            "text": "know.",
+            "timestamp": [
+                23.2,
+                23.52
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                24.8,
+                25.36
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                25.68,
+                25.92
+            ]
+        },
+        {
+            "text": "worries.",
+            "timestamp": [
+                25.92,
+                26.48
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                26.72,
+                27.04
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                27.04,
+                27.2
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                27.2,
+                27.36
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                27.36,
+                27.6
+            ]
+        },
+        {
+            "text": "help.",
+            "timestamp": [
+                27.6,
+                27.84
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                28.16,
+                28.32
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                28.32,
+                28.560000000000002
+            ]
+        },
+        {
+            "text": "concerned",
+            "timestamp": [
+                28.560000000000002,
+                28.88
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                28.88,
+                29.04
+            ]
+        },
+        {
+            "text": "her",
+            "timestamp": [
+                29.04,
+                29.12
+            ]
+        },
+        {
+            "text": "memory",
+            "timestamp": [
+                29.12,
+                29.44
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                29.44,
+                29.6
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                29.6,
+                29.68
+            ]
+        },
+        {
+            "text": "she's",
+            "timestamp": [
+                29.68,
+                29.84
+            ]
+        },
+        {
+            "text": "been.",
+            "timestamp": [
+                29.84,
+                29.84
+            ]
+        }
+    ]
+}

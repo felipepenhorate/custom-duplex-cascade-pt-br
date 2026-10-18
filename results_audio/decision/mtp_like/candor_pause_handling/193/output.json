@@ -1,0 +1,68 @@
+{
+    "text": "Got it. Sounds like you've moved on. Good call.",
+    "chunks": [
+        {
+            "text": "Got",
+            "timestamp": [
+                7.28,
+                7.76
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                7.76,
+                8.0
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "moved",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "on.",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "Good",
+            "timestamp": [
+                9.76,
+                10.24
+            ]
+        },
+        {
+            "text": "call.",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        }
+    ]
+}

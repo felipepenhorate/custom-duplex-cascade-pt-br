@@ -1,0 +1,124 @@
+{
+    "text": "The whole thing was more like a rigorous academic track. Students progressed through levels based on performance.",
+    "chunks": [
+        {
+            "text": "The",
+            "timestamp": [
+                11.040000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "whole",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "thing",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "rigorous",
+            "timestamp": [
+                12.32,
+                12.8
+            ]
+        },
+        {
+            "text": "academic",
+            "timestamp": [
+                12.8,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "track.",
+            "timestamp": [
+                13.200000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "Students",
+            "timestamp": [
+                13.76,
+                14.16
+            ]
+        },
+        {
+            "text": "progressed",
+            "timestamp": [
+                14.16,
+                14.56
+            ]
+        },
+        {
+            "text": "through",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "levels",
+            "timestamp": [
+                14.72,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "based",
+            "timestamp": [
+                15.040000000000001,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                15.200000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "performance.",
+            "timestamp": [
+                15.36,
+                15.6
+            ]
+        }
+    ]
+}

@@ -1,0 +1,222 @@
+{
+    "text": "Great question. As of now, some fresh movie releases you might enjoy include The Batman, twenty twenty two, a thrilling, intense, superhero film with a strong story and great performances. Dune.",
+    "chunks": [
+        {
+            "text": "Great",
+            "timestamp": [
+                14.616,
+                15.096
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                15.096,
+                15.256
+            ]
+        },
+        {
+            "text": "As",
+            "timestamp": [
+                15.975999999999999,
+                16.216
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                16.216,
+                16.456
+            ]
+        },
+        {
+            "text": "now,",
+            "timestamp": [
+                16.456,
+                16.696
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                16.856,
+                17.016
+            ]
+        },
+        {
+            "text": "fresh",
+            "timestamp": [
+                17.016,
+                17.336
+            ]
+        },
+        {
+            "text": "movie",
+            "timestamp": [
+                17.336,
+                17.656
+            ]
+        },
+        {
+            "text": "releases",
+            "timestamp": [
+                17.656,
+                18.136
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                18.136,
+                18.216
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                18.216,
+                18.376
+            ]
+        },
+        {
+            "text": "enjoy",
+            "timestamp": [
+                18.376,
+                18.776
+            ]
+        },
+        {
+            "text": "include",
+            "timestamp": [
+                18.776,
+                19.256
+            ]
+        },
+        {
+            "text": "The",
+            "timestamp": [
+                19.496000000000002,
+                19.736
+            ]
+        },
+        {
+            "text": "Batman,",
+            "timestamp": [
+                19.736,
+                20.536
+            ]
+        },
+        {
+            "text": "twenty",
+            "timestamp": [
+                20.856,
+                21.176000000000002
+            ]
+        },
+        {
+            "text": "twenty",
+            "timestamp": [
+                21.176000000000002,
+                21.416
+            ]
+        },
+        {
+            "text": "two,",
+            "timestamp": [
+                21.496000000000002,
+                21.576
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                22.136000000000003,
+                22.375999999999998
+            ]
+        },
+        {
+            "text": "thrilling,",
+            "timestamp": [
+                22.375999999999998,
+                22.776
+            ]
+        },
+        {
+            "text": "intense,",
+            "timestamp": [
+                23.016,
+                23.656
+            ]
+        },
+        {
+            "text": "superhero",
+            "timestamp": [
+                23.816000000000003,
+                24.616
+            ]
+        },
+        {
+            "text": "film",
+            "timestamp": [
+                24.616,
+                25.016
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                25.016,
+                25.176000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.176000000000002,
+                25.336
+            ]
+        },
+        {
+            "text": "strong",
+            "timestamp": [
+                25.336,
+                25.736
+            ]
+        },
+        {
+            "text": "story",
+            "timestamp": [
+                25.736,
+                26.216
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                26.216,
+                26.456
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                26.456,
+                26.536
+            ]
+        },
+        {
+            "text": "performances.",
+            "timestamp": [
+                26.695999999999998,
+                27.576
+            ]
+        },
+        {
+            "text": "Dune.",
+            "timestamp": [
+                28.136000000000003,
+                28.856
+            ]
+        }
+    ]
+}

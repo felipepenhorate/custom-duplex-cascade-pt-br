@@ -1,0 +1,131 @@
+{
+    "text": "Mm, Costa Rica? That's a great choice. But Wow, out of this world. That's a perfect way to.",
+    "chunks": [
+        {
+            "text": "Mm,",
+            "timestamp": [
+                6.32,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "Costa",
+            "timestamp": [
+                7.04,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "Rica?",
+            "timestamp": [
+                7.5200000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                8.64,
+                8.96
+            ]
+        },
+        {
+            "text": "But",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "Wow,",
+            "timestamp": [
+                10.96,
+                11.44
+            ]
+        },
+        {
+            "text": "out",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        },
+        {
+            "text": "this",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "world.",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                12.96,
+                13.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        },
+        {
+            "text": "perfect",
+            "timestamp": [
+                13.52,
+                13.92
+            ]
+        },
+        {
+            "text": "way",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        },
+        {
+            "text": "to.",
+            "timestamp": [
+                14.08,
+                14.24
+            ]
+        }
+    ]
+}

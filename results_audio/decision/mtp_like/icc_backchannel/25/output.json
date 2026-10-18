@@ -1,0 +1,159 @@
+{
+    "text": "Great That's awesome being that's totally cool intro yeah totally some things just feel fuzzy at first. That's okay sometimes the hardest",
+    "chunks": [
+        {
+            "text": "Great",
+            "timestamp": [
+                5.36,
+                6.0
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                19.2,
+                19.6
+            ]
+        },
+        {
+            "text": "awesome",
+            "timestamp": [
+                19.6,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "being",
+            "timestamp": [
+                20.240000000000002,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                21.12,
+                21.52
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                21.52,
+                22.0
+            ]
+        },
+        {
+            "text": "cool",
+            "timestamp": [
+                22.0,
+                22.32
+            ]
+        },
+        {
+            "text": "intro",
+            "timestamp": [
+                22.48,
+                22.72
+            ]
+        },
+        {
+            "text": "yeah",
+            "timestamp": [
+                23.28,
+                23.36
+            ]
+        },
+        {
+            "text": "totally",
+            "timestamp": [
+                23.92,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                24.88,
+                24.96
+            ]
+        },
+        {
+            "text": "things",
+            "timestamp": [
+                25.12,
+                25.36
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                25.36,
+                25.52
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                25.52,
+                25.76
+            ]
+        },
+        {
+            "text": "fuzzy",
+            "timestamp": [
+                25.76,
+                26.240000000000002
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                26.240000000000002,
+                26.32
+            ]
+        },
+        {
+            "text": "first.",
+            "timestamp": [
+                26.32,
+                26.560000000000002
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                26.8,
+                27.12
+            ]
+        },
+        {
+            "text": "okay",
+            "timestamp": [
+                27.12,
+                27.36
+            ]
+        },
+        {
+            "text": "sometimes",
+            "timestamp": [
+                27.52,
+                27.76
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                27.84,
+                27.92
+            ]
+        },
+        {
+            "text": "hardest",
+            "timestamp": [
+                27.92,
+                28.16
+            ]
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "text": "Yeah, sure. How can I help you today? Blossom and. Oh, Ocala and Marion County, great spot.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                1.44,
+                1.76
+            ]
+        },
+        {
+            "text": "sure.",
+            "timestamp": [
+                2.0,
+                2.24
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                2.48,
+                2.64
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                2.64,
+                2.8000000000000003
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                2.8000000000000003,
+                2.96
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                2.96,
+                3.2
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                3.2,
+                3.44
+            ]
+        },
+        {
+            "text": "today?",
+            "timestamp": [
+                3.44,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "Blossom",
+            "timestamp": [
+                4.64,
+                5.28
+            ]
+        },
+        {
+            "text": "and.",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "Ocala",
+            "timestamp": [
+                9.200000000000001,
+                9.92
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "Marion",
+            "timestamp": [
+                10.0,
+                10.4
+            ]
+        },
+        {
+            "text": "County,",
+            "timestamp": [
+                10.48,
+                10.8
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "spot.",
+            "timestamp": [
+                11.28,
+                11.68
+            ]
+        }
+    ]
+}

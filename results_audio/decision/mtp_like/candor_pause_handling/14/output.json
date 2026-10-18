@@ -1,0 +1,40 @@
+{
+    "text": "Thanks. It's been a pleasure.",
+    "chunks": [
+        {
+            "text": "Thanks.",
+            "timestamp": [
+                2.16,
+                2.72
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                3.04,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                3.2800000000000002,
+                3.44
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                3.44,
+                3.52
+            ]
+        },
+        {
+            "text": "pleasure.",
+            "timestamp": [
+                3.52,
+                3.84
+            ]
+        }
+    ]
+}

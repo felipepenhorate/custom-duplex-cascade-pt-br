@@ -1,0 +1,117 @@
+{
+    "text": "I don't listen to music myself, but I can definitely help that's a fantastic taste. Classic",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.72,
+                3.04
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                3.04,
+                3.36
+            ]
+        },
+        {
+            "text": "listen",
+            "timestamp": [
+                3.36,
+                3.68
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                3.68,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "music",
+            "timestamp": [
+                3.7600000000000002,
+                4.16
+            ]
+        },
+        {
+            "text": "myself,",
+            "timestamp": [
+                4.16,
+                4.64
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                4.96,
+                5.12
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                5.28,
+                5.44
+            ]
+        },
+        {
+            "text": "definitely",
+            "timestamp": [
+                5.44,
+                5.92
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                5.92,
+                6.08
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                6.4,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.640000000000001,
+                6.72
+            ]
+        },
+        {
+            "text": "fantastic",
+            "timestamp": [
+                6.72,
+                7.28
+            ]
+        },
+        {
+            "text": "taste.",
+            "timestamp": [
+                7.28,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "Classic",
+            "timestamp": [
+                7.84,
+                8.24
+            ]
+        }
+    ]
+}

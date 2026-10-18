@@ -1,0 +1,124 @@
+{
+    "text": "Yeah, that makes sense. Having someone to talk to can really help ease the loneliness during isolation.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                10.56,
+                10.8
+            ]
+        },
+        {
+            "text": "makes",
+            "timestamp": [
+                10.8,
+                11.28
+            ]
+        },
+        {
+            "text": "sense.",
+            "timestamp": [
+                11.28,
+                11.68
+            ]
+        },
+        {
+            "text": "Having",
+            "timestamp": [
+                12.0,
+                12.48
+            ]
+        },
+        {
+            "text": "someone",
+            "timestamp": [
+                12.48,
+                12.8
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.120000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                13.36,
+                13.6
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                13.6,
+                13.76
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                13.76,
+                14.0
+            ]
+        },
+        {
+            "text": "ease",
+            "timestamp": [
+                14.0,
+                14.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                14.32,
+                14.4
+            ]
+        },
+        {
+            "text": "loneliness",
+            "timestamp": [
+                14.4,
+                14.96
+            ]
+        },
+        {
+            "text": "during",
+            "timestamp": [
+                14.96,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "isolation.",
+            "timestamp": [
+                15.280000000000001,
+                16.240000000000002
+            ]
+        }
+    ]
+}

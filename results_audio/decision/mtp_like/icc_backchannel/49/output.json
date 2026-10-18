@@ -1,0 +1,82 @@
+{
+    "text": "That sounds really frustrating. Oh, that's wild. Your brain literally stayed.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                17.76,
+                18.080000000000002
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                18.080000000000002,
+                18.88
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                18.88,
+                19.12
+            ]
+        },
+        {
+            "text": "frustrating.",
+            "timestamp": [
+                19.12,
+                20.0
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                24.48,
+                24.8
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                24.96,
+                25.52
+            ]
+        },
+        {
+            "text": "wild.",
+            "timestamp": [
+                25.52,
+                26.0
+            ]
+        },
+        {
+            "text": "Your",
+            "timestamp": [
+                26.32,
+                26.48
+            ]
+        },
+        {
+            "text": "brain",
+            "timestamp": [
+                26.48,
+                26.88
+            ]
+        },
+        {
+            "text": "literally",
+            "timestamp": [
+                26.88,
+                27.2
+            ]
+        },
+        {
+            "text": "stayed.",
+            "timestamp": [
+                27.2,
+                27.44
+            ]
+        }
+    ]
+}

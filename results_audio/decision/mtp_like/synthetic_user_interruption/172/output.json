@@ -1,0 +1,285 @@
+{
+    "text": "Sure, here's a simple cooking tip. Always start with a good quality knife and sharpen it regularly. It makes chopping easier and safer and helps you cook more confidently. Plus, a sharp knife means less frustration and more fun in.",
+    "chunks": [
+        {
+            "text": "Sure,",
+            "timestamp": [
+                14.952,
+                15.512
+            ]
+        },
+        {
+            "text": "here's",
+            "timestamp": [
+                15.832,
+                16.072
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.072,
+                16.232
+            ]
+        },
+        {
+            "text": "simple",
+            "timestamp": [
+                16.232,
+                16.552
+            ]
+        },
+        {
+            "text": "cooking",
+            "timestamp": [
+                16.552,
+                16.872
+            ]
+        },
+        {
+            "text": "tip.",
+            "timestamp": [
+                16.872,
+                17.192
+            ]
+        },
+        {
+            "text": "Always",
+            "timestamp": [
+                17.432000000000002,
+                17.752000000000002
+            ]
+        },
+        {
+            "text": "start",
+            "timestamp": [
+                17.752000000000002,
+                17.912
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                17.912,
+                18.072
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.072,
+                18.152
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                18.152,
+                18.392
+            ]
+        },
+        {
+            "text": "quality",
+            "timestamp": [
+                18.392,
+                18.792
+            ]
+        },
+        {
+            "text": "knife",
+            "timestamp": [
+                18.792,
+                19.112000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                19.112000000000002,
+                19.272
+            ]
+        },
+        {
+            "text": "sharpen",
+            "timestamp": [
+                19.272,
+                19.672
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                19.672,
+                19.832
+            ]
+        },
+        {
+            "text": "regularly.",
+            "timestamp": [
+                19.832,
+                20.312
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                20.552,
+                20.712
+            ]
+        },
+        {
+            "text": "makes",
+            "timestamp": [
+                20.712,
+                20.951999999999998
+            ]
+        },
+        {
+            "text": "chopping",
+            "timestamp": [
+                20.951999999999998,
+                21.432000000000002
+            ]
+        },
+        {
+            "text": "easier",
+            "timestamp": [
+                21.432000000000002,
+                21.752000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                21.752000000000002,
+                21.912
+            ]
+        },
+        {
+            "text": "safer",
+            "timestamp": [
+                21.912,
+                22.312
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                22.312,
+                22.472
+            ]
+        },
+        {
+            "text": "helps",
+            "timestamp": [
+                22.472,
+                22.631999999999998
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                22.631999999999998,
+                22.792
+            ]
+        },
+        {
+            "text": "cook",
+            "timestamp": [
+                22.792,
+                23.032
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                23.032,
+                23.192
+            ]
+        },
+        {
+            "text": "confidently.",
+            "timestamp": [
+                23.192,
+                23.672
+            ]
+        },
+        {
+            "text": "Plus,",
+            "timestamp": [
+                23.992,
+                24.392000000000003
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                24.552,
+                24.712
+            ]
+        },
+        {
+            "text": "sharp",
+            "timestamp": [
+                24.712,
+                25.112000000000002
+            ]
+        },
+        {
+            "text": "knife",
+            "timestamp": [
+                25.112000000000002,
+                25.432000000000002
+            ]
+        },
+        {
+            "text": "means",
+            "timestamp": [
+                25.432000000000002,
+                25.752000000000002
+            ]
+        },
+        {
+            "text": "less",
+            "timestamp": [
+                25.752000000000002,
+                25.992
+            ]
+        },
+        {
+            "text": "frustration",
+            "timestamp": [
+                25.992,
+                26.792
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                26.792,
+                27.032
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                27.032,
+                27.272
+            ]
+        },
+        {
+            "text": "fun",
+            "timestamp": [
+                27.272,
+                27.512
+            ]
+        },
+        {
+            "text": "in.",
+            "timestamp": [
+                27.592,
+                27.912
+            ]
+        }
+    ]
+}

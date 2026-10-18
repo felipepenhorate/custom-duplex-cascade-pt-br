@@ -1,0 +1,208 @@
+{
+    "text": "Yeah, this talking thing. Well, I'm your voice assistant here to chat, help, and answer questions. So, yeah, I'm all about the talking. What's up? Ebim End. Oh, prolific.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                4.16,
+                4.48
+            ]
+        },
+        {
+            "text": "this",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                5.04,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "thing.",
+            "timestamp": [
+                5.6000000000000005,
+                5.92
+            ]
+        },
+        {
+            "text": "Well,",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "voice",
+            "timestamp": [
+                6.96,
+                7.2
+            ]
+        },
+        {
+            "text": "assistant",
+            "timestamp": [
+                7.2,
+                7.68
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                7.68,
+                7.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "chat,",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "help,",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "answer",
+            "timestamp": [
+                8.96,
+                9.36
+            ]
+        },
+        {
+            "text": "questions.",
+            "timestamp": [
+                9.36,
+                9.68
+            ]
+        },
+        {
+            "text": "So,",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "yeah,",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "talking.",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "up?",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "Ebim",
+            "timestamp": [
+                12.08,
+                12.48
+            ]
+        },
+        {
+            "text": "End.",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                13.120000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "prolific.",
+            "timestamp": [
+                13.36,
+                13.76
+            ]
+        }
+    ]
+}

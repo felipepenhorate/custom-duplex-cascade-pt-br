@@ -1,0 +1,54 @@
+{
+    "text": "I see. What kind of repercussions? Imend.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                6.5600000000000005,
+                6.88
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                6.88,
+                7.2
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                7.92,
+                8.08
+            ]
+        },
+        {
+            "text": "repercussions?",
+            "timestamp": [
+                8.08,
+                8.88
+            ]
+        },
+        {
+            "text": "Imend.",
+            "timestamp": [
+                9.120000000000001,
+                9.76
+            ]
+        }
+    ]
+}

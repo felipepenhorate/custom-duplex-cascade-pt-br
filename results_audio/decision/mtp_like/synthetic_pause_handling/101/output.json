@@ -1,0 +1,187 @@
+{
+    "text": "That sounds great. What was your trip like? Oh wow, that sounds like a fun adventure. Nice. Quaint and cozy, perfect spot for a little escape.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                2.72,
+                3.04
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                3.04,
+                3.68
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                3.68,
+                3.84
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                4.16,
+                4.4
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                4.4,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                4.5600000000000005,
+                4.64
+            ]
+        },
+        {
+            "text": "trip",
+            "timestamp": [
+                4.64,
+                5.04
+            ]
+        },
+        {
+            "text": "like?",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "Oh",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "wow,",
+            "timestamp": [
+                5.68,
+                5.92
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                6.0,
+                6.16
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                6.16,
+                6.4
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "fun",
+            "timestamp": [
+                6.640000000000001,
+                6.88
+            ]
+        },
+        {
+            "text": "adventure.",
+            "timestamp": [
+                6.88,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "Nice.",
+            "timestamp": [
+                7.92,
+                8.4
+            ]
+        },
+        {
+            "text": "Quaint",
+            "timestamp": [
+                9.68,
+                10.4
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "cozy,",
+            "timestamp": [
+                10.72,
+                11.36
+            ]
+        },
+        {
+            "text": "perfect",
+            "timestamp": [
+                11.52,
+                11.84
+            ]
+        },
+        {
+            "text": "spot",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                12.08,
+                12.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.24,
+                12.32
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "escape.",
+            "timestamp": [
+                12.48,
+                12.88
+            ]
+        }
+    ]
+}

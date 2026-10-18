@@ -1,0 +1,110 @@
+{
+    "text": "I'm not sure I understand. Could you clarify or rephrase your question? You're welcome. Bye.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                4.64,
+                5.12
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                5.44,
+                5.76
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.76,
+                6.08
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                6.08,
+                6.4
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                7.04,
+                7.36
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "clarify",
+            "timestamp": [
+                7.5200000000000005,
+                8.08
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "rephrase",
+            "timestamp": [
+                8.24,
+                8.96
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "question?",
+            "timestamp": [
+                9.28,
+                9.6
+            ]
+        },
+        {
+            "text": "You're",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "welcome.",
+            "timestamp": [
+                10.56,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "Bye.",
+            "timestamp": [
+                11.36,
+                12.0
+            ]
+        }
+    ]
+}

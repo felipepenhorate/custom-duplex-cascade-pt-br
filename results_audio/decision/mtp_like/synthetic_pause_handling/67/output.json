@@ -1,0 +1,89 @@
+{
+    "text": "That's great. A strong company culture can make a big difference in.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                8.96,
+                9.6
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                10.16,
+                10.32
+            ]
+        },
+        {
+            "text": "strong",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "company",
+            "timestamp": [
+                10.64,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "culture",
+            "timestamp": [
+                11.040000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "difference",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        },
+        {
+            "text": "in.",
+            "timestamp": [
+                12.4,
+                12.48
+            ]
+        }
+    ]
+}

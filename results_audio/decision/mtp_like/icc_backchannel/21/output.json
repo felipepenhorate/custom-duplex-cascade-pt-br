@@ -1,0 +1,362 @@
+{
+    "text": "I get that. Let's talk about something lighter then. How about we chat about a fun movie or a great book you've recently enjoyed? That's a heavy topic. If you're open to it, I'd be happy to discuss it thoughtfully. Without That's a deep and important question. Yes, most people believe.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "Let's",
+            "timestamp": [
+                12.32,
+                12.64
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                12.64,
+                12.8
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                13.040000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "lighter",
+            "timestamp": [
+                13.36,
+                13.84
+            ]
+        },
+        {
+            "text": "then.",
+            "timestamp": [
+                13.84,
+                14.0
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                14.24,
+                14.48
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                14.48,
+                14.64
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                14.64,
+                14.8
+            ]
+        },
+        {
+            "text": "chat",
+            "timestamp": [
+                14.8,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                15.040000000000001,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.200000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "fun",
+            "timestamp": [
+                15.280000000000001,
+                15.52
+            ]
+        },
+        {
+            "text": "movie",
+            "timestamp": [
+                15.52,
+                15.84
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                15.92,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.080000000000002,
+                16.16
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                16.16,
+                16.4
+            ]
+        },
+        {
+            "text": "book",
+            "timestamp": [
+                16.4,
+                16.64
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                16.64,
+                16.8
+            ]
+        },
+        {
+            "text": "recently",
+            "timestamp": [
+                16.8,
+                17.2
+            ]
+        },
+        {
+            "text": "enjoyed?",
+            "timestamp": [
+                17.2,
+                17.6
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                26.16,
+                26.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.48,
+                26.64
+            ]
+        },
+        {
+            "text": "heavy",
+            "timestamp": [
+                26.64,
+                26.96
+            ]
+        },
+        {
+            "text": "topic.",
+            "timestamp": [
+                26.96,
+                27.28
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                27.44,
+                27.6
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                27.6,
+                27.76
+            ]
+        },
+        {
+            "text": "open",
+            "timestamp": [
+                27.76,
+                28.0
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                28.0,
+                28.080000000000002
+            ]
+        },
+        {
+            "text": "it,",
+            "timestamp": [
+                28.080000000000002,
+                28.240000000000002
+            ]
+        },
+        {
+            "text": "I'd",
+            "timestamp": [
+                28.32,
+                28.560000000000002
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                28.560000000000002,
+                28.72
+            ]
+        },
+        {
+            "text": "happy",
+            "timestamp": [
+                28.72,
+                28.88
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                28.88,
+                29.04
+            ]
+        },
+        {
+            "text": "discuss",
+            "timestamp": [
+                29.04,
+                29.36
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                29.36,
+                29.52
+            ]
+        },
+        {
+            "text": "thoughtfully.",
+            "timestamp": [
+                29.52,
+                30.0
+            ]
+        },
+        {
+            "text": "Without",
+            "timestamp": [
+                30.240000000000002,
+                30.48
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                33.92,
+                34.160000000000004
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                34.160000000000004,
+                34.32
+            ]
+        },
+        {
+            "text": "deep",
+            "timestamp": [
+                34.32,
+                34.800000000000004
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                34.800000000000004,
+                35.04
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                35.04,
+                35.36
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                35.36,
+                35.68
+            ]
+        },
+        {
+            "text": "Yes,",
+            "timestamp": [
+                36.0,
+                36.24
+            ]
+        },
+        {
+            "text": "most",
+            "timestamp": [
+                36.4,
+                36.56
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                36.56,
+                36.800000000000004
+            ]
+        },
+        {
+            "text": "believe.",
+            "timestamp": [
+                36.800000000000004,
+                37.04
+            ]
+        }
+    ]
+}

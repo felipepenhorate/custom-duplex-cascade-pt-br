@@ -1,0 +1,173 @@
+{
+    "text": "Not personally, but I can recommend a few great ones. Dune. Part 2. Wow, Dark Street sounds intense. I haven't seen it, but it's.",
+    "chunks": [
+        {
+            "text": "Not",
+            "timestamp": [
+                2.88,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "personally,",
+            "timestamp": [
+                3.2800000000000002,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                3.92,
+                4.08
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.08,
+                4.16
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                4.16,
+                4.32
+            ]
+        },
+        {
+            "text": "recommend",
+            "timestamp": [
+                4.32,
+                4.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.72,
+                4.8
+            ]
+        },
+        {
+            "text": "few",
+            "timestamp": [
+                4.8,
+                5.04
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                5.04,
+                5.2
+            ]
+        },
+        {
+            "text": "ones.",
+            "timestamp": [
+                5.2,
+                5.44
+            ]
+        },
+        {
+            "text": "Dune.",
+            "timestamp": [
+                5.68,
+                6.24
+            ]
+        },
+        {
+            "text": "Part",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "2.",
+            "timestamp": [
+                6.72,
+                7.04
+            ]
+        },
+        {
+            "text": "Wow,",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        },
+        {
+            "text": "Dark",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "Street",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                9.200000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "intense.",
+            "timestamp": [
+                9.52,
+                9.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "haven't",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "seen",
+            "timestamp": [
+                10.72,
+                10.96
+            ]
+        },
+        {
+            "text": "it,",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "it's.",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        }
+    ]
+}

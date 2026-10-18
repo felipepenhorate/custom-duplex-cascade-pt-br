@@ -1,0 +1,117 @@
+{
+    "text": "Sure. Here are a few quick ideas for the Saturday. One, outdoor picnic, grab some food.",
+    "chunks": [
+        {
+            "text": "Sure.",
+            "timestamp": [
+                2.88,
+                3.68
+            ]
+        },
+        {
+            "text": "Here",
+            "timestamp": [
+                4.16,
+                4.4
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                4.4,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.5600000000000005,
+                4.64
+            ]
+        },
+        {
+            "text": "few",
+            "timestamp": [
+                4.64,
+                4.88
+            ]
+        },
+        {
+            "text": "quick",
+            "timestamp": [
+                4.88,
+                5.12
+            ]
+        },
+        {
+            "text": "ideas",
+            "timestamp": [
+                5.12,
+                5.44
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "Saturday.",
+            "timestamp": [
+                5.76,
+                6.48
+            ]
+        },
+        {
+            "text": "One,",
+            "timestamp": [
+                6.8,
+                7.2
+            ]
+        },
+        {
+            "text": "outdoor",
+            "timestamp": [
+                7.44,
+                7.92
+            ]
+        },
+        {
+            "text": "picnic,",
+            "timestamp": [
+                7.92,
+                8.4
+            ]
+        },
+        {
+            "text": "grab",
+            "timestamp": [
+                8.64,
+                8.96
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "food.",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        }
+    ]
+}

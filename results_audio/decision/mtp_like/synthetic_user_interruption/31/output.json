@@ -1,0 +1,369 @@
+{
+    "text": "Absolutely. How about we start with some simple, enjoyable activities you can do at home or outdoors? Amen. Got it. A simple, sustainable routine is key. How about 10-15 minutes of walking daily, or a few body weight exercises like squats and lunges? Easy to start and builds momentum. Want to train.",
+    "chunks": [
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                13.144,
+                14.104
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                14.424,
+                14.664
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                14.664,
+                14.824
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                14.824,
+                14.984
+            ]
+        },
+        {
+            "text": "start",
+            "timestamp": [
+                14.984,
+                15.144
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                15.144,
+                15.384
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                15.384,
+                15.544
+            ]
+        },
+        {
+            "text": "simple,",
+            "timestamp": [
+                15.544,
+                15.864
+            ]
+        },
+        {
+            "text": "enjoyable",
+            "timestamp": [
+                16.024,
+                16.664
+            ]
+        },
+        {
+            "text": "activities",
+            "timestamp": [
+                16.664,
+                17.224
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.224,
+                17.384
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                17.384,
+                17.464
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                17.464,
+                17.624
+            ]
+        },
+        {
+            "text": "at",
+            "timestamp": [
+                17.624,
+                17.784
+            ]
+        },
+        {
+            "text": "home",
+            "timestamp": [
+                17.784,
+                18.024
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                18.024,
+                18.264
+            ]
+        },
+        {
+            "text": "outdoors?",
+            "timestamp": [
+                18.264,
+                19.224
+            ]
+        },
+        {
+            "text": "Amen.",
+            "timestamp": [
+                19.544,
+                20.104
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                20.424,
+                20.664
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                20.664,
+                20.904
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                21.144,
+                21.304000000000002
+            ]
+        },
+        {
+            "text": "simple,",
+            "timestamp": [
+                21.304000000000002,
+                21.624000000000002
+            ]
+        },
+        {
+            "text": "sustainable",
+            "timestamp": [
+                21.784,
+                22.344
+            ]
+        },
+        {
+            "text": "routine",
+            "timestamp": [
+                22.344,
+                22.744
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                22.744,
+                22.904
+            ]
+        },
+        {
+            "text": "key.",
+            "timestamp": [
+                22.904,
+                23.224
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                23.464,
+                23.624000000000002
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                23.624000000000002,
+                23.784
+            ]
+        },
+        {
+            "text": "10-15",
+            "timestamp": [
+                23.784,
+                24.503999999999998
+            ]
+        },
+        {
+            "text": "minutes",
+            "timestamp": [
+                24.503999999999998,
+                24.744
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                24.744,
+                24.823999999999998
+            ]
+        },
+        {
+            "text": "walking",
+            "timestamp": [
+                24.823999999999998,
+                25.224
+            ]
+        },
+        {
+            "text": "daily,",
+            "timestamp": [
+                25.224,
+                25.624000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                25.784,
+                25.944000000000003
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                25.944000000000003,
+                26.024
+            ]
+        },
+        {
+            "text": "few",
+            "timestamp": [
+                26.024,
+                26.264
+            ]
+        },
+        {
+            "text": "body",
+            "timestamp": [
+                26.264,
+                26.584
+            ]
+        },
+        {
+            "text": "weight",
+            "timestamp": [
+                26.584,
+                26.823999999999998
+            ]
+        },
+        {
+            "text": "exercises",
+            "timestamp": [
+                26.823999999999998,
+                27.384
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                27.384,
+                27.624000000000002
+            ]
+        },
+        {
+            "text": "squats",
+            "timestamp": [
+                27.624000000000002,
+                28.024
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                28.024,
+                28.183999999999997
+            ]
+        },
+        {
+            "text": "lunges?",
+            "timestamp": [
+                28.183999999999997,
+                28.823999999999998
+            ]
+        },
+        {
+            "text": "Easy",
+            "timestamp": [
+                29.144,
+                29.543999999999997
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                29.543999999999997,
+                29.704
+            ]
+        },
+        {
+            "text": "start",
+            "timestamp": [
+                29.704,
+                29.944000000000003
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                29.944000000000003,
+                30.104
+            ]
+        },
+        {
+            "text": "builds",
+            "timestamp": [
+                30.104,
+                30.424
+            ]
+        },
+        {
+            "text": "momentum.",
+            "timestamp": [
+                30.424,
+                30.904000000000003
+            ]
+        },
+        {
+            "text": "Want",
+            "timestamp": [
+                31.144,
+                31.384
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                31.384,
+                31.543999999999997
+            ]
+        },
+        {
+            "text": "train.",
+            "timestamp": [
+                31.543999999999997,
+                31.624000000000002
+            ]
+        }
+    ]
+}

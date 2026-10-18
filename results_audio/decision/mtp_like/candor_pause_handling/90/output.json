@@ -1,0 +1,54 @@
+{
+    "text": "Wow, that's incredible. $450 in one day.",
+    "chunks": [
+        {
+            "text": "Wow,",
+            "timestamp": [
+                15.280000000000001,
+                15.76
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                16.0,
+                16.32
+            ]
+        },
+        {
+            "text": "incredible.",
+            "timestamp": [
+                16.32,
+                16.8
+            ]
+        },
+        {
+            "text": "$450",
+            "timestamp": [
+                17.04,
+                17.92
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                18.240000000000002,
+                18.32
+            ]
+        },
+        {
+            "text": "one",
+            "timestamp": [
+                18.32,
+                18.48
+            ]
+        },
+        {
+            "text": "day.",
+            "timestamp": [
+                18.48,
+                18.56
+            ]
+        }
+    ]
+}

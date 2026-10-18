@@ -1,0 +1,103 @@
+{
+    "text": "You're not. Oh, you're so right. Evil dead and army of darkness? That's the",
+    "chunks": [
+        {
+            "text": "You're",
+            "timestamp": [
+                3.7600000000000002,
+                4.16
+            ]
+        },
+        {
+            "text": "not.",
+            "timestamp": [
+                4.16,
+                4.4
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                6.32,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                7.76,
+                8.24
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                8.24,
+                8.48
+            ]
+        },
+        {
+            "text": "right.",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "Evil",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "dead",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "army",
+            "timestamp": [
+                9.92,
+                10.24
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "darkness?",
+            "timestamp": [
+                10.32,
+                10.72
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        }
+    ]
+}

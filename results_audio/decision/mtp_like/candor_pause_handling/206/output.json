@@ -1,0 +1,75 @@
+{
+    "text": "Cool. Got it. Going to check that message right away.",
+    "chunks": [
+        {
+            "text": "Cool.",
+            "timestamp": [
+                3.36,
+                4.24
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                8.4,
+                8.8
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "Going",
+            "timestamp": [
+                9.200000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                9.44,
+                9.52
+            ]
+        },
+        {
+            "text": "check",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "message",
+            "timestamp": [
+                9.84,
+                10.32
+            ]
+        },
+        {
+            "text": "right",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "away.",
+            "timestamp": [
+                10.56,
+                11.120000000000001
+            ]
+        }
+    ]
+}

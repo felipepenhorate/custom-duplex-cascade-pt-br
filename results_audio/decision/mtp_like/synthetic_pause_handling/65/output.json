@@ -1,0 +1,75 @@
+{
+    "text": "Nice. Booking now during off-peak season is a smart move.",
+    "chunks": [
+        {
+            "text": "Nice.",
+            "timestamp": [
+                14.08,
+                14.72
+            ]
+        },
+        {
+            "text": "Booking",
+            "timestamp": [
+                15.040000000000001,
+                15.52
+            ]
+        },
+        {
+            "text": "now",
+            "timestamp": [
+                15.52,
+                15.68
+            ]
+        },
+        {
+            "text": "during",
+            "timestamp": [
+                15.68,
+                15.92
+            ]
+        },
+        {
+            "text": "off-peak",
+            "timestamp": [
+                15.92,
+                16.48
+            ]
+        },
+        {
+            "text": "season",
+            "timestamp": [
+                16.48,
+                16.8
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                16.8,
+                16.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.88,
+                16.96
+            ]
+        },
+        {
+            "text": "smart",
+            "timestamp": [
+                16.96,
+                17.2
+            ]
+        },
+        {
+            "text": "move.",
+            "timestamp": [
+                17.2,
+                17.44
+            ]
+        }
+    ]
+}

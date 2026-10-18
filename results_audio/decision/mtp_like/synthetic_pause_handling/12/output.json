@@ -1,0 +1,194 @@
+{
+    "text": "Absolutely. Let's go with a little sunshine and a big smile. Life's you might be thinking of Sarah Brightman. She's known for beautiful vocals and lush arrangements.",
+    "chunks": [
+        {
+            "text": "Absolutely.",
+            "timestamp": [
+                2.56,
+                3.68
+            ]
+        },
+        {
+            "text": "Let's",
+            "timestamp": [
+                4.0,
+                4.32
+            ]
+        },
+        {
+            "text": "go",
+            "timestamp": [
+                4.32,
+                4.48
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.64,
+                4.72
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                4.72,
+                4.96
+            ]
+        },
+        {
+            "text": "sunshine",
+            "timestamp": [
+                4.96,
+                5.44
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.6000000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "smile.",
+            "timestamp": [
+                5.84,
+                6.24
+            ]
+        },
+        {
+            "text": "Life's",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                7.36,
+                7.44
+            ]
+        },
+        {
+            "text": "thinking",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                7.6000000000000005,
+                7.76
+            ]
+        },
+        {
+            "text": "Sarah",
+            "timestamp": [
+                7.76,
+                8.08
+            ]
+        },
+        {
+            "text": "Brightman.",
+            "timestamp": [
+                8.08,
+                8.72
+            ]
+        },
+        {
+            "text": "She's",
+            "timestamp": [
+                8.88,
+                9.28
+            ]
+        },
+        {
+            "text": "known",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "beautiful",
+            "timestamp": [
+                9.76,
+                10.24
+            ]
+        },
+        {
+            "text": "vocals",
+            "timestamp": [
+                10.24,
+                10.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "lush",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "arrangements.",
+            "timestamp": [
+                11.200000000000001,
+                11.6
+            ]
+        }
+    ]
+}

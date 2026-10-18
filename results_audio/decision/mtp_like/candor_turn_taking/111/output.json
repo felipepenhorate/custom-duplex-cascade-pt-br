@@ -1,0 +1,173 @@
+{
+    "text": "Mm sounds like you're talking about a beach that got too crowded or chaotic. Maybe a popular spot that opened up and then closed.",
+    "chunks": [
+        {
+            "text": "Mm",
+            "timestamp": [
+                9.92,
+                10.32
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                10.64,
+                10.96
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "beach",
+            "timestamp": [
+                11.76,
+                12.16
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "too",
+            "timestamp": [
+                12.48,
+                12.64
+            ]
+        },
+        {
+            "text": "crowded",
+            "timestamp": [
+                12.64,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "chaotic.",
+            "timestamp": [
+                13.200000000000001,
+                13.6
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                13.84,
+                14.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                14.08,
+                14.24
+            ]
+        },
+        {
+            "text": "popular",
+            "timestamp": [
+                14.24,
+                14.56
+            ]
+        },
+        {
+            "text": "spot",
+            "timestamp": [
+                14.56,
+                14.88
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                14.88,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "opened",
+            "timestamp": [
+                15.040000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                15.280000000000001,
+                15.52
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                15.52,
+                15.6
+            ]
+        },
+        {
+            "text": "then",
+            "timestamp": [
+                15.6,
+                15.84
+            ]
+        },
+        {
+            "text": "closed.",
+            "timestamp": [
+                15.84,
+                16.48
+            ]
+        }
+    ]
+}

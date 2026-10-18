@@ -1,0 +1,96 @@
+{
+    "text": "That's awesome. It sounds like you're open to new connections. Great energy. Bashimend.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                5.76,
+                6.24
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                6.24,
+                6.8
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                7.04,
+                7.2
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                7.2,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                7.5200000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                7.68,
+                7.92
+            ]
+        },
+        {
+            "text": "open",
+            "timestamp": [
+                7.92,
+                8.16
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "connections.",
+            "timestamp": [
+                8.56,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "Great",
+            "timestamp": [
+                9.52,
+                9.84
+            ]
+        },
+        {
+            "text": "energy.",
+            "timestamp": [
+                9.84,
+                10.4
+            ]
+        },
+        {
+            "text": "Bashimend.",
+            "timestamp": [
+                10.72,
+                11.6
+            ]
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "text": "How about a cozy cafe in a quiet neighborhood? It's usually nice and not too crowded.",
+    "chunks": [
+        {
+            "text": "How",
+            "timestamp": [
+                2.72,
+                3.12
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                3.12,
+                3.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                3.36,
+                3.44
+            ]
+        },
+        {
+            "text": "cozy",
+            "timestamp": [
+                3.44,
+                3.92
+            ]
+        },
+        {
+            "text": "cafe",
+            "timestamp": [
+                3.92,
+                4.24
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                4.4,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.5600000000000005,
+                4.64
+            ]
+        },
+        {
+            "text": "quiet",
+            "timestamp": [
+                4.64,
+                4.96
+            ]
+        },
+        {
+            "text": "neighborhood?",
+            "timestamp": [
+                4.96,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                5.76,
+                6.0
+            ]
+        },
+        {
+            "text": "usually",
+            "timestamp": [
+                6.0,
+                6.32
+            ]
+        },
+        {
+            "text": "nice",
+            "timestamp": [
+                6.32,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                6.640000000000001,
+                6.88
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "too",
+            "timestamp": [
+                7.04,
+                7.28
+            ]
+        },
+        {
+            "text": "crowded.",
+            "timestamp": [
+                7.28,
+                7.76
+            ]
+        }
+    ]
+}

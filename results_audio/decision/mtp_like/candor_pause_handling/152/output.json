@@ -1,0 +1,229 @@
+{
+    "text": "Okay, I see. Maybe we can check again later or ask someone else. That sounds really upsetting. If you're feeling that might help to talk to someone else, if you're feeling that.",
+    "chunks": [
+        {
+            "text": "Okay,",
+            "timestamp": [
+                4.08,
+                4.4
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.5600000000000005,
+                4.8
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                4.8,
+                4.96
+            ]
+        },
+        {
+            "text": "Maybe",
+            "timestamp": [
+                5.28,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "check",
+            "timestamp": [
+                5.92,
+                6.24
+            ]
+        },
+        {
+            "text": "again",
+            "timestamp": [
+                6.24,
+                6.48
+            ]
+        },
+        {
+            "text": "later",
+            "timestamp": [
+                6.48,
+                6.8
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                6.8,
+                7.04
+            ]
+        },
+        {
+            "text": "ask",
+            "timestamp": [
+                7.04,
+                7.28
+            ]
+        },
+        {
+            "text": "someone",
+            "timestamp": [
+                7.28,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "else.",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "That",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                9.120000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "upsetting.",
+            "timestamp": [
+                9.68,
+                10.24
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "feeling",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "might",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "help",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.32,
+                12.4
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.56,
+                12.64
+            ]
+        },
+        {
+            "text": "someone",
+            "timestamp": [
+                12.64,
+                12.88
+            ]
+        },
+        {
+            "text": "else,",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                14.16,
+                14.24
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                14.24,
+                14.32
+            ]
+        },
+        {
+            "text": "feeling",
+            "timestamp": [
+                14.32,
+                14.48
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                14.48,
+                14.56
+            ]
+        }
+    ]
+}

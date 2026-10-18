@@ -1,0 +1,208 @@
+{
+    "text": "Oh, that's funny. It's like we're all just randomly hitting the road with haha. Exactly. No meetings, no deadline. Ah, that's the beauty of it. No pressure, just pressure.",
+    "chunks": [
+        {
+            "text": "Oh,",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                8.72,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "funny.",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "we're",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "randomly",
+            "timestamp": [
+                10.4,
+                10.88
+            ]
+        },
+        {
+            "text": "hitting",
+            "timestamp": [
+                10.88,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "road",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                11.52,
+                11.76
+            ]
+        },
+        {
+            "text": "haha.",
+            "timestamp": [
+                12.08,
+                12.64
+            ]
+        },
+        {
+            "text": "Exactly.",
+            "timestamp": [
+                18.72,
+                19.52
+            ]
+        },
+        {
+            "text": "No",
+            "timestamp": [
+                19.84,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "meetings,",
+            "timestamp": [
+                20.080000000000002,
+                20.64
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                20.88,
+                21.12
+            ]
+        },
+        {
+            "text": "deadline.",
+            "timestamp": [
+                21.12,
+                21.92
+            ]
+        },
+        {
+            "text": "Ah,",
+            "timestamp": [
+                36.88,
+                37.36
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                37.68,
+                38.08
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                38.08,
+                38.24
+            ]
+        },
+        {
+            "text": "beauty",
+            "timestamp": [
+                38.24,
+                38.64
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                38.64,
+                38.800000000000004
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                38.800000000000004,
+                38.96
+            ]
+        },
+        {
+            "text": "No",
+            "timestamp": [
+                39.28,
+                39.44
+            ]
+        },
+        {
+            "text": "pressure,",
+            "timestamp": [
+                39.44,
+                39.76
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                39.84,
+                39.92
+            ]
+        },
+        {
+            "text": "pressure.",
+            "timestamp": [
+                40.0,
+                40.160000000000004
+            ]
+        }
+    ]
+}

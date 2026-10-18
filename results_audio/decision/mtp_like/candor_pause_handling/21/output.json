@@ -1,0 +1,138 @@
+{
+    "text": "Yeah, middle school was a wild time. What do you remember most? Yeah, responsibility is a big part of",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                2.08,
+                2.4
+            ]
+        },
+        {
+            "text": "middle",
+            "timestamp": [
+                2.72,
+                3.12
+            ]
+        },
+        {
+            "text": "school",
+            "timestamp": [
+                3.12,
+                3.36
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                3.36,
+                3.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                3.52,
+                3.6
+            ]
+        },
+        {
+            "text": "wild",
+            "timestamp": [
+                3.6,
+                4.0
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                4.0,
+                4.16
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                4.4,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                4.5600000000000005,
+                4.64
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.64,
+                4.72
+            ]
+        },
+        {
+            "text": "remember",
+            "timestamp": [
+                4.72,
+                5.12
+            ]
+        },
+        {
+            "text": "most?",
+            "timestamp": [
+                5.12,
+                5.36
+            ]
+        },
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                6.32,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "responsibility",
+            "timestamp": [
+                6.72,
+                7.68
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                7.68,
+                7.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.92,
+                8.16
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                8.16,
+                8.4
+            ]
+        },
+        {
+            "text": "part",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                8.64,
+                8.96
+            ]
+        }
+    ]
+}

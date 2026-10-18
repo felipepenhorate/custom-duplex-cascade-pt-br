@@ -1,0 +1,124 @@
+{
+    "text": "That's great to hear. It sounds fair point. Having your own space is valuable, but it's not.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                19.2,
+                19.68
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                19.68,
+                19.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                19.84,
+                20.0
+            ]
+        },
+        {
+            "text": "hear.",
+            "timestamp": [
+                20.0,
+                20.240000000000002
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                20.48,
+                20.56
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                20.56,
+                20.88
+            ]
+        },
+        {
+            "text": "fair",
+            "timestamp": [
+                25.6,
+                26.0
+            ]
+        },
+        {
+            "text": "point.",
+            "timestamp": [
+                26.0,
+                26.16
+            ]
+        },
+        {
+            "text": "Having",
+            "timestamp": [
+                26.560000000000002,
+                26.8
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                26.8,
+                26.96
+            ]
+        },
+        {
+            "text": "own",
+            "timestamp": [
+                26.96,
+                27.12
+            ]
+        },
+        {
+            "text": "space",
+            "timestamp": [
+                27.12,
+                27.44
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                27.44,
+                27.6
+            ]
+        },
+        {
+            "text": "valuable,",
+            "timestamp": [
+                27.6,
+                28.0
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                28.16,
+                28.32
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                28.32,
+                28.48
+            ]
+        },
+        {
+            "text": "not.",
+            "timestamp": [
+                28.48,
+                28.48
+            ]
+        }
+    ]
+}

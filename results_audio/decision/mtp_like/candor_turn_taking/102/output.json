@@ -1,0 +1,173 @@
+{
+    "text": "I'm not sure I follow. Could you clarify what you mean by he said that? And what specific statement are you referring to? Also.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                8.08,
+                8.48
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.96,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "follow.",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "clarify",
+            "timestamp": [
+                9.84,
+                10.24
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.4,
+                10.48
+            ]
+        },
+        {
+            "text": "mean",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "said",
+            "timestamp": [
+                11.040000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "that?",
+            "timestamp": [
+                11.28,
+                11.44
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "specific",
+            "timestamp": [
+                12.0,
+                12.48
+            ]
+        },
+        {
+            "text": "statement",
+            "timestamp": [
+                12.48,
+                12.88
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                13.040000000000001,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                13.120000000000001,
+                13.6
+            ]
+        },
+        {
+            "text": "to?",
+            "timestamp": [
+                13.6,
+                13.84
+            ]
+        },
+        {
+            "text": "Also.",
+            "timestamp": [
+                14.16,
+                14.56
+            ]
+        }
+    ]
+}

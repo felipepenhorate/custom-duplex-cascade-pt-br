@@ -1,0 +1,96 @@
+{
+    "text": "Sure. Got it. Here are some great body weight exercises perfect for quarantine.",
+    "chunks": [
+        {
+            "text": "Sure.",
+            "timestamp": [
+                2.4,
+                2.96
+            ]
+        },
+        {
+            "text": "Got",
+            "timestamp": [
+                10.56,
+                10.96
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "Here",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                11.92,
+                12.16
+            ]
+        },
+        {
+            "text": "body",
+            "timestamp": [
+                12.16,
+                12.48
+            ]
+        },
+        {
+            "text": "weight",
+            "timestamp": [
+                12.48,
+                12.8
+            ]
+        },
+        {
+            "text": "exercises",
+            "timestamp": [
+                12.8,
+                13.36
+            ]
+        },
+        {
+            "text": "perfect",
+            "timestamp": [
+                13.44,
+                13.76
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                13.76,
+                13.92
+            ]
+        },
+        {
+            "text": "quarantine.",
+            "timestamp": [
+                13.92,
+                14.56
+            ]
+        }
+    ]
+}

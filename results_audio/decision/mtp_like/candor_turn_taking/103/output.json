@@ -1,0 +1,201 @@
+{
+    "text": "Yeah, that happens. Sometimes your body just needs a rest, even if you don't feel it. Ugh, maybe you've been pushing yourself lately? Give yourself a break. Amen.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                5.28,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                5.84,
+                6.16
+            ]
+        },
+        {
+            "text": "happens.",
+            "timestamp": [
+                6.16,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "Sometimes",
+            "timestamp": [
+                6.88,
+                7.36
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                7.36,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "body",
+            "timestamp": [
+                7.5200000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                7.92,
+                8.08
+            ]
+        },
+        {
+            "text": "needs",
+            "timestamp": [
+                8.08,
+                8.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "rest,",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "even",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.28,
+                9.36
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "Ugh,",
+            "timestamp": [
+                10.32,
+                10.64
+            ]
+        },
+        {
+            "text": "maybe",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "you've",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                11.44,
+                11.52
+            ]
+        },
+        {
+            "text": "pushing",
+            "timestamp": [
+                11.52,
+                11.92
+            ]
+        },
+        {
+            "text": "yourself",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        },
+        {
+            "text": "lately?",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "Give",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "yourself",
+            "timestamp": [
+                12.96,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.280000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "break.",
+            "timestamp": [
+                13.36,
+                13.68
+            ]
+        },
+        {
+            "text": "Amen.",
+            "timestamp": [
+                13.92,
+                14.24
+            ]
+        }
+    ]
+}

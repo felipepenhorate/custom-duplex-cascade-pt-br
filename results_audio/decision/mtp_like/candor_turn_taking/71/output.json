@@ -1,0 +1,152 @@
+{
+    "text": "That's pretty common these days. Many people stay close to home, especially with online shopping and delivery options. Uh, sorry. Admin.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                8.96,
+                9.44
+            ]
+        },
+        {
+            "text": "pretty",
+            "timestamp": [
+                9.44,
+                9.68
+            ]
+        },
+        {
+            "text": "common",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "these",
+            "timestamp": [
+                10.0,
+                10.24
+            ]
+        },
+        {
+            "text": "days.",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "Many",
+            "timestamp": [
+                10.8,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "stay",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "close",
+            "timestamp": [
+                11.68,
+                11.92
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "home,",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "especially",
+            "timestamp": [
+                12.56,
+                12.96
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "online",
+            "timestamp": [
+                13.120000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "shopping",
+            "timestamp": [
+                13.52,
+                13.92
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                13.92,
+                14.0
+            ]
+        },
+        {
+            "text": "delivery",
+            "timestamp": [
+                14.0,
+                14.48
+            ]
+        },
+        {
+            "text": "options.",
+            "timestamp": [
+                14.48,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "Uh,",
+            "timestamp": [
+                15.36,
+                15.76
+            ]
+        },
+        {
+            "text": "sorry.",
+            "timestamp": [
+                16.080000000000002,
+                16.8
+            ]
+        },
+        {
+            "text": "Admin.",
+            "timestamp": [
+                17.12,
+                17.6
+            ]
+        }
+    ]
+}

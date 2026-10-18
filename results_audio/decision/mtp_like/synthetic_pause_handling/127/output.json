@@ -1,0 +1,54 @@
+{
+    "text": "Hawaii is a fantastic choice. Warm, sunny.",
+    "chunks": [
+        {
+            "text": "Hawaii",
+            "timestamp": [
+                8.24,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.040000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "fantastic",
+            "timestamp": [
+                9.28,
+                9.92
+            ]
+        },
+        {
+            "text": "choice.",
+            "timestamp": [
+                9.92,
+                10.32
+            ]
+        },
+        {
+            "text": "Warm,",
+            "timestamp": [
+                10.64,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "sunny.",
+            "timestamp": [
+                11.28,
+                11.6
+            ]
+        }
+    ]
+}

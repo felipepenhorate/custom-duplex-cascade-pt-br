@@ -1,0 +1,194 @@
+{
+    "text": "I'm not sure I understand. Could you clarify what you're talking about? Are you referring to a mask, a feeling, or something else? Imend? Oh, I see.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                7.92,
+                8.32
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "sure",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                8.72,
+                8.96
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "Could",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "clarify",
+            "timestamp": [
+                9.84,
+                10.32
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                10.32,
+                10.48
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "talking",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "about?",
+            "timestamp": [
+                11.040000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "Are",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.84,
+                12.08
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "mask,",
+            "timestamp": [
+                12.72,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "feeling,",
+            "timestamp": [
+                13.52,
+                13.92
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                14.08,
+                14.32
+            ]
+        },
+        {
+            "text": "something",
+            "timestamp": [
+                14.32,
+                14.64
+            ]
+        },
+        {
+            "text": "else?",
+            "timestamp": [
+                14.64,
+                14.96
+            ]
+        },
+        {
+            "text": "Imend?",
+            "timestamp": [
+                15.280000000000001,
+                15.84
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                16.080000000000002,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.32,
+                16.56
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                16.56,
+                16.8
+            ]
+        }
+    ]
+}

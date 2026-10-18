@@ -1,0 +1,236 @@
+{
+    "text": "That's awesome. Sounds like you're just being real. What's on your mind? Huh? Oh, 12th grade. What a big year. You've got the experience now, and it's awesome you're still learning. What's next?",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                3.52,
+                3.92
+            ]
+        },
+        {
+            "text": "awesome.",
+            "timestamp": [
+                3.92,
+                4.24
+            ]
+        },
+        {
+            "text": "Sounds",
+            "timestamp": [
+                4.96,
+                5.28
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                5.28,
+                5.44
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "being",
+            "timestamp": [
+                5.76,
+                6.0
+            ]
+        },
+        {
+            "text": "real.",
+            "timestamp": [
+                6.0,
+                6.24
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                6.48,
+                6.8
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                6.96,
+                7.12
+            ]
+        },
+        {
+            "text": "mind?",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "Huh?",
+            "timestamp": [
+                7.68,
+                8.08
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "12th",
+            "timestamp": [
+                8.72,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "grade.",
+            "timestamp": [
+                9.200000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.92,
+                10.08
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "year.",
+            "timestamp": [
+                10.4,
+                10.56
+            ]
+        },
+        {
+            "text": "You've",
+            "timestamp": [
+                10.88,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "got",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "experience",
+            "timestamp": [
+                11.36,
+                11.84
+            ]
+        },
+        {
+            "text": "now,",
+            "timestamp": [
+                11.84,
+                12.0
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        },
+        {
+            "text": "awesome",
+            "timestamp": [
+                12.48,
+                12.8
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                12.88,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "still",
+            "timestamp": [
+                13.120000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "learning.",
+            "timestamp": [
+                13.280000000000001,
+                13.68
+            ]
+        },
+        {
+            "text": "What's",
+            "timestamp": [
+                14.0,
+                14.24
+            ]
+        },
+        {
+            "text": "next?",
+            "timestamp": [
+                14.24,
+                14.48
+            ]
+        }
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "text": "Not exactly. Oh, an environmental policy. That's a big deal. I see what you mean. Balancing progress with environmental impact.",
+    "chunks": [
+        {
+            "text": "Not",
+            "timestamp": [
+                2.96,
+                3.36
+            ]
+        },
+        {
+            "text": "exactly.",
+            "timestamp": [
+                3.36,
+                4.0
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                4.32,
+                4.48
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "environmental",
+            "timestamp": [
+                4.8,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "policy.",
+            "timestamp": [
+                5.5200000000000005,
+                6.16
+            ]
+        },
+        {
+            "text": "That's",
+            "timestamp": [
+                6.48,
+                7.12
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.12,
+                7.44
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                7.44,
+                7.76
+            ]
+        },
+        {
+            "text": "deal.",
+            "timestamp": [
+                7.76,
+                8.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                9.120000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "mean.",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "Balancing",
+            "timestamp": [
+                10.32,
+                10.96
+            ]
+        },
+        {
+            "text": "progress",
+            "timestamp": [
+                10.96,
+                11.28
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "environmental",
+            "timestamp": [
+                11.52,
+                12.08
+            ]
+        },
+        {
+            "text": "impact.",
+            "timestamp": [
+                12.08,
+                12.4
+            ]
+        }
+    ]
+}

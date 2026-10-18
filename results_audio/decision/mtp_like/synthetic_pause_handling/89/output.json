@@ -1,0 +1,75 @@
+{
+    "text": "That's a great question. Software development is a solid in-demand.",
+    "chunks": [
+        {
+            "text": "That's",
+            "timestamp": [
+                8.64,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.040000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "question.",
+            "timestamp": [
+                9.52,
+                9.68
+            ]
+        },
+        {
+            "text": "Software",
+            "timestamp": [
+                10.0,
+                10.48
+            ]
+        },
+        {
+            "text": "development",
+            "timestamp": [
+                10.48,
+                10.96
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.120000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "solid",
+            "timestamp": [
+                11.28,
+                11.68
+            ]
+        },
+        {
+            "text": "in-demand.",
+            "timestamp": [
+                11.68,
+                12.0
+            ]
+        }
+    ]
+}

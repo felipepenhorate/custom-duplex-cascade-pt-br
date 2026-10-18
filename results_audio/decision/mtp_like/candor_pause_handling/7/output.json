@@ -1,0 +1,89 @@
+{
+    "text": "Yeah, it can get a bit overwhelming with all the stations. Yeah.",
+    "chunks": [
+        {
+            "text": "Yeah,",
+            "timestamp": [
+                3.2800000000000002,
+                3.6
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                3.92,
+                4.08
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                4.08,
+                4.24
+            ]
+        },
+        {
+            "text": "get",
+            "timestamp": [
+                4.24,
+                4.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.4,
+                4.48
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                4.48,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "overwhelming",
+            "timestamp": [
+                4.5600000000000005,
+                5.12
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                5.28,
+                5.36
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                5.36,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "stations.",
+            "timestamp": [
+                5.5200000000000005,
+                5.92
+            ]
+        },
+        {
+            "text": "Yeah.",
+            "timestamp": [
+                6.24,
+                6.32
+            ]
+        }
+    ]
+}

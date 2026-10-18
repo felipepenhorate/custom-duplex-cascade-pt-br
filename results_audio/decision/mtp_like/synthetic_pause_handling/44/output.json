@@ -1,0 +1,103 @@
+{
+    "text": "That sounds great. What kind of jobs are they? Oh, interesting. Marketing and sales.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                3.52,
+                3.84
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                3.84,
+                4.4
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                4.4,
+                4.64
+            ]
+        },
+        {
+            "text": "What",
+            "timestamp": [
+                4.88,
+                5.12
+            ]
+        },
+        {
+            "text": "kind",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                5.28,
+                5.36
+            ]
+        },
+        {
+            "text": "jobs",
+            "timestamp": [
+                5.36,
+                5.68
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                5.68,
+                6.0
+            ]
+        },
+        {
+            "text": "they?",
+            "timestamp": [
+                6.0,
+                6.16
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                6.640000000000001,
+                6.88
+            ]
+        },
+        {
+            "text": "interesting.",
+            "timestamp": [
+                7.04,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "Marketing",
+            "timestamp": [
+                7.76,
+                8.24
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "sales.",
+            "timestamp": [
+                8.4,
+                9.28
+            ]
+        }
+    ]
+}

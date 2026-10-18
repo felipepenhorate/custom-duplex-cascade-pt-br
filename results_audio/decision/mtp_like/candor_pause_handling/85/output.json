@@ -1,0 +1,75 @@
+{
+    "text": "I'm sorry, I don't know if I can do it.",
+    "chunks": [
+        {
+            "text": "I'm",
+            "timestamp": [
+                1.36,
+                1.68
+            ]
+        },
+        {
+            "text": "sorry,",
+            "timestamp": [
+                1.68,
+                2.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                2.08,
+                2.16
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                2.16,
+                2.48
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                2.96,
+                3.04
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                3.04,
+                3.04
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                3.04,
+                3.04
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                3.04,
+                3.04
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                3.04,
+                3.04
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                3.04,
+                3.04
+            ]
+        }
+    ]
+}

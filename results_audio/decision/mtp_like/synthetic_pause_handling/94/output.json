@@ -1,0 +1,75 @@
+{
+    "text": "That sounds great. How about we plan a mix? Somehow,",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                8.32,
+                8.88
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "plan",
+            "timestamp": [
+                9.92,
+                10.24
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "mix?",
+            "timestamp": [
+                10.4,
+                10.72
+            ]
+        },
+        {
+            "text": "Somehow,",
+            "timestamp": [
+                10.88,
+                11.28
+            ]
+        }
+    ]
+}

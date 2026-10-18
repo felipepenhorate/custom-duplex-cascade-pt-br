@@ -1,0 +1,89 @@
+{
+    "text": "Great. If it's on Netflix, you can stream it there. Just search.",
+    "chunks": [
+        {
+            "text": "Great.",
+            "timestamp": [
+                7.36,
+                8.08
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "Netflix,",
+            "timestamp": [
+                8.8,
+                9.28
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                9.44,
+                9.52
+            ]
+        },
+        {
+            "text": "stream",
+            "timestamp": [
+                9.52,
+                9.84
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                9.84,
+                10.0
+            ]
+        },
+        {
+            "text": "there.",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "Just",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "search.",
+            "timestamp": [
+                10.56,
+                10.96
+            ]
+        }
+    ]
+}

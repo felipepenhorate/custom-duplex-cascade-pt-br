@@ -1,0 +1,82 @@
+{
+    "text": "That sounds like a great movie. A slow start followed by.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                7.04,
+                7.36
+            ]
+        },
+        {
+            "text": "sounds",
+            "timestamp": [
+                7.44,
+                7.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.0,
+                8.16
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "movie.",
+            "timestamp": [
+                8.32,
+                8.72
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                9.040000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "slow",
+            "timestamp": [
+                9.28,
+                9.6
+            ]
+        },
+        {
+            "text": "start",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "followed",
+            "timestamp": [
+                9.92,
+                10.24
+            ]
+        },
+        {
+            "text": "by.",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        }
+    ]
+}
