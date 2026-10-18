@@ -32,6 +32,12 @@ FIELDS = {
     "candor_turn_taking": ("tor", "smooth_tor"),
     "synthetic_user_interruption": ("tor", "intr_tor"),
 }
+def fmt(v) -> str:
+    if v is None:
+        return "—"
+    return f"{v:.3f}" if isinstance(v, float) else str(v)
+
+
 LABELS = {
     "original_dc": "Original (upstream, EN)",
     "sft": "SFT (pt-BR)",
@@ -39,6 +45,89 @@ LABELS = {
     "mtp_like": "MTP companion (pt-BR)",
     "base": "Base (control)",
 }
+
+
+TOR_COLS = [("pause_synth", "pause_synth"), ("pause_candor", "pause_candor"),
+            ("bc_tor", "bc_tor"), ("smooth_tor", "smooth_tor"),
+            ("intr_tor", "intr_tor")]
+
+SUBSET_OF_TOR = {"pause_synth": "synthetic_pause_handling",
+                 "pause_candor": "candor_pause_handling",
+                 "bc_tor": "icc_backchannel",
+                 "smooth_tor": "candor_turn_taking",
+                 "intr_tor": "synthetic_user_interruption"}
+SUBSET_SIZE = {"synthetic_pause_handling": 137, "candor_pause_handling": 216,
+               "icc_backchannel": 55, "candor_turn_taking": 119,
+               "synthetic_user_interruption": 200}
+
+
+def partial_audio_tor(results_dir: Path, model: str) -> dict:
+    """Audio-truth take-over rate for a model whose run has not finished.
+
+    Reads the traces of the subsets that are complete and reports the formal-turn
+    rate measured from the rendered audio. Labelled as partial in the table: it is
+    the same rule the official evaluator applies, but measured from the rendered
+    audio rather than from parakeet's transcript of it.
+    """
+    out: dict = {"_partial": True}
+    for col, subset in SUBSET_OF_TOR.items():
+        d = results_dir / model / subset
+        traces = sorted(d.glob("*/trace.json")) if d.is_dir() else []
+        if len(traces) < SUBSET_SIZE[subset]:
+            out[col] = None
+            continue
+        rows = [json.loads(t.read_text(encoding="utf-8")) for t in traces]
+        out[col] = round(sum(1 for r in rows if r["formal_turn_by_audio"]) / len(rows), 3)
+        out.setdefault("_done", 0)
+        out["_done"] = out["_done"] + len(rows)
+    out["n"] = out.get("_done", 0)
+    return out
+
+
+def text_rows(path: Path) -> dict[str, dict]:
+    """Rows from the text-domain bench (results/<lang>/summary.json)."""
+    if not path.is_file():
+        return {}
+    doc = json.loads(path.read_text(encoding="utf-8"))
+    out: dict = {}
+    for r in doc.get("rows", []):
+        out[r["model"]] = {
+            "pause_synth": r.get("pause_synthetic_tor"),
+            "pause_candor": r.get("pause_candor_tor"),
+            "bc_tor": r.get("bc_tor"),
+            "smooth_tor": r.get("smooth_tor"),
+            "intr_tor": r.get("intr_tor"),
+            "intr_rel": r.get("intr_rating_all"),
+            "n": r.get("n_scenarios"),
+        }
+    return out
+
+
+def tor_section(rows: dict[str, dict], text: dict[str, dict],
+                partials: dict[str, dict]) -> list[str]:
+    L = ["## Take-over rates, everything tested\n",
+         "The same five columns the benchmark reports TOR for. Arrow = the good "
+         "direction; pause and backchannel rate a model that speaks too eagerly, "
+         "smooth turn-taking and interruption rate a model that answers.\n",
+         "| run | model | pause_synth ↓ | pause_candor ↓ | bc_tor ↓ | smooth_tor ↑ | intr_tor ↑ |",
+         "|---|---|---|---|---|---|---|",
+         "| *published* | *DuplexCascade (EN audio, GPT-4o)* | *0.058* | *0.222* | *0.218* | *0.832* | *0.955* |"]
+    for m, r in rows.items():
+        L.append(f"| audio (real WAVs, official evaluators) | {LABELS.get(m, m)} | "
+                 + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS) + " |")
+    for m, r in partials.items():
+        L.append(f"| audio (in progress, audio-truth reading) | {LABELS.get(m, m)} "
+                 f"({r['n']}/727 scenarios) | "
+                 + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS) + " |")
+    for m, r in text.items():
+        L.append(f"| text (synthetic stimuli, en) | {LABELS.get(m, m)} | "
+                 + " | ".join(fmt(r.get(c)) for c, _ in TOR_COLS) + " |")
+    L.append("")
+    L.append("Reading the two runs side by side: the text bench feeds clean "
+             "transcripts and knows where turns end, so it flatters every model; "
+             "the audio bench feeds ASR output and a real silence gate, which is "
+             "where the over-eager pt-BR models separate from the upstream one.\n")
+    return L
 
 
 def collect(mode_dir: Path) -> dict[str, dict]:
@@ -89,11 +178,6 @@ def main() -> None:
              "bc_jsd": "↓", "smooth_tor": "↑", "smooth_lat": "↓", "intr_tor": "↑",
              "intr_rel": "↑", "intr_lat": "↓"}
 
-    def fmt(v) -> str:
-        if v is None:
-            return "—"
-        return f"{v:.3f}" if isinstance(v, float) else str(v)
-
     L: list[str] = []
     L.append("# Audio Full-Duplex-Bench: real FDB v1.0 audio\n")
     L.append("Produced by `fdb_bench/audio/` (design and caveats in "
@@ -126,6 +210,15 @@ def main() -> None:
              "carries a 4 s tail. FDB's own outputs are exactly input-length, so "
              "those replies would be scored as silence there — the trace keeps both "
              "readings (`spoke` vs `audible_within_input`).\n")
+
+    partials = {}
+    for d in sorted((args.results / args.mode).iterdir()):
+        if d.is_dir() and not (d / "metrics.json").is_file():
+            pr = partial_audio_tor(args.results / args.mode, d.name)
+            if pr.get("n"):
+                partials[d.name] = pr
+    text = text_rows(Path("results/en/summary.json"))
+    L = L[:3] + tor_section(rows, text, partials) + L[3:]
 
     out = args.results / args.mode / "COMPARISON.md"
     out.write_text("\n".join(L), encoding="utf-8")

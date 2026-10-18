@@ -4,6 +4,25 @@ Produced by `fdb_bench/audio/` (design and caveats in `fdb_bench/audio/README.md
 
 ## Official task metrics
 
+## Take-over rates, everything tested
+
+The same five columns the benchmark reports TOR for. Arrow = the good direction; pause and backchannel rate a model that speaks too eagerly, smooth turn-taking and interruption rate a model that answers.
+
+| run | model | pause_synth ↓ | pause_candor ↓ | bc_tor ↓ | smooth_tor ↑ | intr_tor ↑ |
+|---|---|---|---|---|---|---|
+| *published* | *DuplexCascade (EN audio, GPT-4o)* | *0.058* | *0.222* | *0.218* | *0.832* | *0.955* |
+| audio (real WAVs, official evaluators) | Distill (pt-BR) | 0.226 | 0.269 | 0.345 | 0.706 | 0.605 |
+| audio (real WAVs, official evaluators) | Original (upstream, EN) | 0.088 | 0.190 | 0.182 | 0.630 | 0.945 |
+| audio (real WAVs, official evaluators) | SFT (pt-BR) | 0.825 | 0.713 | 0.673 | 0.866 | 0.930 |
+| audio (in progress, audio-truth reading) | MTP companion (pt-BR) (353/727 scenarios) | 0.971 | 0.907 | — | — | — |
+| text (synthetic stimuli, en) | Base (control) | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
+| text (synthetic stimuli, en) | Distill (pt-BR) | 0.095 | 0.065 | 1.000 | 0.941 | 0.915 |
+| text (synthetic stimuli, en) | MTP companion (pt-BR) | 0.066 | 0.000 | 1.000 | 1.000 | 1.000 |
+| text (synthetic stimuli, en) | Original (upstream, EN) | 0.095 | 0.102 | 0.345 | 1.000 | 1.000 |
+| text (synthetic stimuli, en) | SFT (pt-BR) | 0.051 | 0.000 | 1.000 | 1.000 | 0.995 |
+
+Reading the two runs side by side: the text bench feeds clean transcripts and knows where turns end, so it flatters every model; the audio bench feeds ASR output and a real silence gate, which is where the over-eager pt-BR models separate from the upstream one.
+
 | model | pause_synth ↓ | pause_candor ↓ | bc_tor ↓ | bc_freq ↑ | bc_jsd ↓ | smooth_tor ↑ | smooth_lat ↓ | intr_tor ↑ | intr_rel ↑ | intr_lat ↓ |
 |---|---|---|---|---|---|---|---|---|---|---|
 | *published DuplexCascade (EN audio, GPT-4o)* | *0.058* | *0.222* | *0.218* | *0.009* | *0.949* | *0.832* | *1.724* | *0.955* | *4.016* | *1.225* |

@@ -12,3 +12,12 @@
 [audio/mtp_like] 125/727 queue (9.0s/scenario, 9.4s audio) spoke=True pieces=15
 [audio/mtp_like] 150/727 queue (8.7s/scenario, 12.0s audio) spoke=True pieces=13
 [audio/mtp_like] 175/727 queue (8.7s/scenario, 12.6s audio) spoke=True pieces=14
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'You're right—announcing a big departure without cl...'
+[audio/mtp_like] 200/727 queue (8.7s/scenario, 10.9s audio) spoke=True pieces=13
+[audio/mtp_like] 225/727 queue (8.9s/scenario, 8.7s audio) spoke=True pieces=10
+[audio/mtp_like] 250/727 queue (9.0s/scenario, 9.6s audio) spoke=True pieces=10
+[audio/mtp_like] 275/727 queue (9.1s/scenario, 7.0s audio) spoke=True pieces=9
+[audio/mtp_like] 300/727 queue (9.3s/scenario, 7.2s audio) spoke=True pieces=7
+[audio/mtp_like] 325/727 queue (9.3s/scenario, 7.2s audio) spoke=True pieces=8
+[audio/mtp_like] 350/727 queue (9.3s/scenario, 10.6s audio) spoke=True pieces=15
+[audio/mtp_like] 375/727 queue (9.2s/scenario, 9.9s audio) spoke=True pieces=13
