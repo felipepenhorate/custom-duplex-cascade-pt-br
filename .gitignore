@@ -32,6 +32,16 @@ results/**/*.jsonl.bak
 # The superseded run kept for the turn-length bug write-up, not a result.
 results_longturns_buggy/
 
+# Audio Full-Duplex-Bench outputs (fdb_bench/audio/README.md).
+#
+# results_audio/ IS committed: it holds the rendered audio, the parakeet
+# transcripts, the session traces and the benchmark's own metric outputs -- the
+# evidence behind the audio tables. Server logs and the judge's raw replies are
+# noise, and the llama.cpp servers are re-runnable from the committed config.
+results_audio/**/llama-server.log
+results_audio/**/judge-server.log
+results_audio/**/*.log.bak
+
 # Runtime logs
 **/logs/*.log
 **/logs/*.err
