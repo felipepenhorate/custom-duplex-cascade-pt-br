@@ -80,19 +80,39 @@ def wsola(x: np.ndarray, rate: float, *, sr: int = 24000, frame_ms: float = 40.0
 
 
 def fit_to_slot(audio: np.ndarray, slot_s: float, *, sr: int = 24000,
-                cap: float = 2.0) -> tuple[np.ndarray, float, bool]:
-    """Stretch ``audio`` to ``slot_s`` seconds exactly; returns (audio, rate, clamped)."""
+                cap: float = 2.0, min_rate: float = 0.75
+                ) -> tuple[np.ndarray, float, bool, bool, bool]:
+    """Put ``audio`` in ``slot_s`` seconds, never damaging the timeline.
+
+    Returns ``(audio, rate, clamped, padded, truncated)`` with exactly
+    ``slot_s * sr`` samples.
+
+    The first pt-BR build stretched every span to fill its slot in *both*
+    directions, and heavy expansion is what destroyed it: at rates near 0.3-0.5
+    WSOLA stops resynthesising speech and drones on a repeated pitch period, which
+    whisper then transcribes as a run of one character ("Ooooo...", "Peeee...").
+    Measured over the 727 rebuilt scenarios, every degraded file was one with
+    expansion (rate < 0.75) and every file that only ever compressed was clean.
+
+    So the policy is one-sided: compress up to ``cap`` (and truncate at the slot
+    end rather than overflow into a pause), expand at most to ``min_rate``, and
+    below that leave the span short and pad silence. The annotations still hold --
+    the pause begins when the silence begins; the span simply ends earlier than
+    its English counterpart.
+    """
     if audio.size == 0 or slot_s <= 0:
-        return audio, 1.0, False
+        return audio, 1.0, False, False, False
     target = int(round(slot_s * sr))
     rate = (audio.size / sr) / slot_s
-    clamped = False
-    if rate > cap or rate < 1.0 / cap:
-        rate = min(max(rate, 1.0 / cap), cap)
-        clamped = True
+    clamped = padded = truncated = False
+    if rate > cap:                     # far too long: compress all we allow
+        rate, clamped = cap, True
+    elif rate < min_rate:              # far too short: do NOT drone, pad instead
+        rate, clamped, padded = 1.0, True, True
     y = wsola(audio, rate, sr=sr)
     if y.size < target:
         y = np.pad(y, (0, target - y.size))
-    else:
-        y = y[:target]
-    return y.astype(np.float32), rate, clamped
+        padded = padded or rate < 0.999
+    elif y.size > target:
+        y, truncated = y[:target], True
+    return y.astype(np.float32), rate, clamped, padded, truncated

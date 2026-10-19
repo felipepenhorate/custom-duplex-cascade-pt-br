@@ -81,6 +81,8 @@ class Segment:
     stretch: float = 1.0       # rate applied (synth -> slot); 1.0 = untouched
     gain: float = 1.0          # level normalisation applied to the synthesis
     clamped: bool = False
+    padded: bool = False      # silence added because the synthesis was short
+    truncated: bool = False   # cut at the slot end rather than overflow a pause
     error: str | None = None
 
     @property
@@ -166,7 +168,7 @@ def translate_segments(segments: list[Segment], *, api_base: str,
             s.error = f"translate:{type(e).__name__}"
 
 
-def time_fit(audio: np.ndarray, slot_s: float, *, cap: float = 2.0) -> tuple[np.ndarray, float, bool]:
+def time_fit(audio: np.ndarray, slot_s: float, *, cap: float = 2.0):
     """Stretch ``audio`` to fill ``slot_s`` exactly (pitch-preserving WSOLA).
 
     No librosa: its phase vocoder needs numba, and the numba wheel here refuses
@@ -316,11 +318,13 @@ def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str
                      else _speak_with_state(voice, state, s.text_pt, max_words))
             levelled, gain = peak_normalise(chunk.audio, 0.7)
             s.gain = round(gain, 3)
-            fitted, rate, clamped = time_fit(levelled, s.slot_s)
+            fitted, rate, clamped, padded, truncated = time_fit(levelled, s.slot_s)
             s.synth_s = round(chunk.audio.size / SR, 3)
             s.fitted_s = round(fitted.size / SR, 3)
             s.stretch = round(rate, 3)
             s.clamped = clamped
+            s.padded = padded
+            s.truncated = truncated
             a = int(round(s.start * SR))
             b = min(out.size, a + fitted.size)
             if b > a:
@@ -349,6 +353,7 @@ def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str
                 "index": s.index, "start": round(s.start, 3), "end": round(s.end, 3),
                 "slot_s": round(s.slot_s, 3), "synth_s": s.synth_s,
                 "fitted_s": s.fitted_s, "stretch": s.stretch, "clamped": s.clamped,
+                "padded": s.padded, "truncated": s.truncated,
                 "gain": s.gain,
                 "text_en": s.text_en, "text_pt": s.text_pt, "error": s.error,
             } for s in segments],
