@@ -1,0 +1,82 @@
+{
+    "text": "Tenda preoccupation with important brackets can be a forecast to me.",
+    "chunks": [
+        {
+            "text": "Tenda",
+            "timestamp": [
+                4.72,
+                5.12
+            ]
+        },
+        {
+            "text": "preoccupation",
+            "timestamp": [
+                5.12,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                7.28,
+                7.36
+            ]
+        },
+        {
+            "text": "brackets",
+            "timestamp": [
+                8.16,
+                8.56
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                9.120000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                9.28,
+                9.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.44,
+                9.52
+            ]
+        },
+        {
+            "text": "forecast",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "me.",
+            "timestamp": [
+                12.0,
+                12.08
+            ]
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "text": "If you are tortured, also consume and submit.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                15.704,
+                15.783999999999999
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.783999999999999,
+                15.864
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                16.664,
+                16.744
+            ]
+        },
+        {
+            "text": "tortured,",
+            "timestamp": [
+                16.823999999999998,
+                17.384
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                18.184,
+                18.264
+            ]
+        },
+        {
+            "text": "consume",
+            "timestamp": [
+                18.584,
+                18.904
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                19.464,
+                19.544
+            ]
+        },
+        {
+            "text": "submit.",
+            "timestamp": [
+                19.864,
+                20.184
+            ]
+        }
+    ]
+}

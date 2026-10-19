@@ -1,0 +1,75 @@
+{
+    "text": "For goods, you know, and if you can explore it.",
+    "chunks": [
+        {
+            "text": "For",
+            "timestamp": [
+                4.8,
+                4.88
+            ]
+        },
+        {
+            "text": "goods,",
+            "timestamp": [
+                5.36,
+                6.32
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.72,
+                6.8
+            ]
+        },
+        {
+            "text": "know,",
+            "timestamp": [
+                7.28,
+                7.36
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                7.84,
+                7.92
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                9.44,
+                9.52
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                11.52,
+                11.6
+            ]
+        },
+        {
+            "text": "explore",
+            "timestamp": [
+                11.76,
+                12.0
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                13.040000000000001,
+                13.120000000000001
+            ]
+        }
+    ]
+}

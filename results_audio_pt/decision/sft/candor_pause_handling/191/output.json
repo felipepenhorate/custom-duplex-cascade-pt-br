@@ -1,0 +1,40 @@
+{
+    "text": "Time very preoccupation with it.",
+    "chunks": [
+        {
+            "text": "Time",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "preoccupation",
+            "timestamp": [
+                9.040000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                19.84,
+                19.92
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "text": "Flexibility is a perspective.",
+    "chunks": [
+        {
+            "text": "Flexibility",
+            "timestamp": [
+                4.96,
+                5.44
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.08,
+                10.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "perspective.",
+            "timestamp": [
+                11.28,
+                11.68
+            ]
+        }
+    ]
+}

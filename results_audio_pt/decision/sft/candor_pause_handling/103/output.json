@@ -1,0 +1,61 @@
+{
+    "text": "If you have my school frustration, I think.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                8.4,
+                8.48
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "school",
+            "timestamp": [
+                9.6,
+                9.92
+            ]
+        },
+        {
+            "text": "frustration,",
+            "timestamp": [
+                14.32,
+                14.64
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                15.52,
+                15.6
+            ]
+        },
+        {
+            "text": "think.",
+            "timestamp": [
+                15.76,
+                15.84
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "text": "So that's why you can't.",
+    "chunks": [
+        {
+            "text": "So",
+            "timestamp": [
+                2.24,
+                2.32
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                2.48,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "why",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "can't.",
+            "timestamp": [
+                9.92,
+                11.28
+            ]
+        }
+    ]
+}

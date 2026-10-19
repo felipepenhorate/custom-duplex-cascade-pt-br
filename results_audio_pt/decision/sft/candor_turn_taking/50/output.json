@@ -1,0 +1,47 @@
+{
+    "text": "I think Jesse for the moment",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                6.48,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                6.8,
+                6.88
+            ]
+        },
+        {
+            "text": "Jesse",
+            "timestamp": [
+                6.96,
+                7.2
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                7.36,
+                7.44
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                8.4,
+                8.48
+            ]
+        },
+        {
+            "text": "moment",
+            "timestamp": [
+                8.48,
+                8.64
+            ]
+        }
+    ]
+}

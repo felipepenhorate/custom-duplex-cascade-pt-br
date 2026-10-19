@@ -1,0 +1,40 @@
+{
+    "text": "Aye, Tengia. O Sabetudoenspun Sabetud.",
+    "chunks": [
+        {
+            "text": "Aye,",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "Tengia.",
+            "timestamp": [
+                10.08,
+                10.48
+            ]
+        },
+        {
+            "text": "O",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "Sabetudoenspun",
+            "timestamp": [
+                10.88,
+                13.68
+            ]
+        },
+        {
+            "text": "Sabetud.",
+            "timestamp": [
+                13.92,
+                14.48
+            ]
+        }
+    ]
+}

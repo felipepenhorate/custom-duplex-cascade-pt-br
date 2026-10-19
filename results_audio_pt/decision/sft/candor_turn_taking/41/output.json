@@ -1,0 +1,68 @@
+{
+    "text": "Si tatran quilo tome unoladio maqua est\u00e1 jumatem\u00e1ch casada.",
+    "chunks": [
+        {
+            "text": "Si",
+            "timestamp": [
+                5.5200000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "tatran",
+            "timestamp": [
+                5.92,
+                6.16
+            ]
+        },
+        {
+            "text": "quilo",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "tome",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "unoladio",
+            "timestamp": [
+                6.88,
+                7.36
+            ]
+        },
+        {
+            "text": "maqua",
+            "timestamp": [
+                7.44,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "est\u00e1",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "jumatem\u00e1ch",
+            "timestamp": [
+                7.84,
+                8.48
+            ]
+        },
+        {
+            "text": "casada.",
+            "timestamp": [
+                8.56,
+                9.120000000000001
+            ]
+        }
+    ]
+}

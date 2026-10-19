@@ -1,0 +1,26 @@
+{
+    "text": "Ah, belles, dancing.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "belles,",
+            "timestamp": [
+                6.4,
+                6.72
+            ]
+        },
+        {
+            "text": "dancing.",
+            "timestamp": [
+                7.04,
+                7.28
+            ]
+        }
+    ]
+}

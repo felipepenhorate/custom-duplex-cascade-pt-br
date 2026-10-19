@@ -1,0 +1,68 @@
+{
+    "text": "Ah, and my big approach was nuances this way.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                9.040000000000001,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "approach",
+            "timestamp": [
+                9.68,
+                10.0
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "nuances",
+            "timestamp": [
+                10.32,
+                10.72
+            ]
+        },
+        {
+            "text": "this",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "way.",
+            "timestamp": [
+                11.120000000000001,
+                11.200000000000001
+            ]
+        }
+    ]
+}

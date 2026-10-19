@@ -1,0 +1,26 @@
+{
+    "text": "Popasi Tertu isob",
+    "chunks": [
+        {
+            "text": "Popasi",
+            "timestamp": [
+                3.84,
+                4.72
+            ]
+        },
+        {
+            "text": "Tertu",
+            "timestamp": [
+                6.88,
+                7.28
+            ]
+        },
+        {
+            "text": "isob",
+            "timestamp": [
+                7.36,
+                7.68
+            ]
+        }
+    ]
+}

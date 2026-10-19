@@ -1,0 +1,96 @@
+{
+    "text": "Pusha qui baja y que conte se tamenche for pufa desperin sato vez.",
+    "chunks": [
+        {
+            "text": "Pusha",
+            "timestamp": [
+                2.8000000000000003,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "qui",
+            "timestamp": [
+                3.36,
+                3.52
+            ]
+        },
+        {
+            "text": "baja",
+            "timestamp": [
+                3.52,
+                4.08
+            ]
+        },
+        {
+            "text": "y",
+            "timestamp": [
+                4.32,
+                4.4
+            ]
+        },
+        {
+            "text": "que",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "conte",
+            "timestamp": [
+                4.64,
+                4.96
+            ]
+        },
+        {
+            "text": "se",
+            "timestamp": [
+                4.96,
+                5.04
+            ]
+        },
+        {
+            "text": "tamenche",
+            "timestamp": [
+                5.28,
+                5.76
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                7.04,
+                7.12
+            ]
+        },
+        {
+            "text": "pufa",
+            "timestamp": [
+                7.2,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "desperin",
+            "timestamp": [
+                7.68,
+                8.08
+            ]
+        },
+        {
+            "text": "sato",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "vez.",
+            "timestamp": [
+                8.56,
+                8.8
+            ]
+        }
+    ]
+}

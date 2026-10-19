@@ -1,0 +1,117 @@
+{
+    "text": "For a pelage, more like a viral intensity, if you have a bomb, and a bomb.",
+    "chunks": [
+        {
+            "text": "For",
+            "timestamp": [
+                11.912,
+                11.992
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.152000000000001,
+                12.232000000000001
+            ]
+        },
+        {
+            "text": "pelage,",
+            "timestamp": [
+                12.712,
+                12.872
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                13.112,
+                13.192
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                13.752,
+                13.832
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.912,
+                13.992
+            ]
+        },
+        {
+            "text": "viral",
+            "timestamp": [
+                14.072000000000001,
+                14.312000000000001
+            ]
+        },
+        {
+            "text": "intensity,",
+            "timestamp": [
+                16.552,
+                16.872
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                16.952,
+                17.032
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.192,
+                17.272
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                17.672,
+                17.752000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.752000000000002,
+                17.832
+            ]
+        },
+        {
+            "text": "bomb,",
+            "timestamp": [
+                17.912,
+                18.152
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                18.472,
+                18.552
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.552,
+                18.632
+            ]
+        },
+        {
+            "text": "bomb.",
+            "timestamp": [
+                18.712,
+                18.952
+            ]
+        }
+    ]
+}

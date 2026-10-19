@@ -1,0 +1,54 @@
+{
+    "text": "Ah, quite another institution for Flex Civil.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "quite",
+            "timestamp": [
+                6.48,
+                6.72
+            ]
+        },
+        {
+            "text": "another",
+            "timestamp": [
+                7.84,
+                7.92
+            ]
+        },
+        {
+            "text": "institution",
+            "timestamp": [
+                26.0,
+                26.240000000000002
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                27.76,
+                27.84
+            ]
+        },
+        {
+            "text": "Flex",
+            "timestamp": [
+                28.32,
+                28.560000000000002
+            ]
+        },
+        {
+            "text": "Civil.",
+            "timestamp": [
+                28.64,
+                28.88
+            ]
+        }
+    ]
+}

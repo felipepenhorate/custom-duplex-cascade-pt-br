@@ -1,0 +1,68 @@
+{
+    "text": "Because chatting that can be great in these moments.",
+    "chunks": [
+        {
+            "text": "Because",
+            "timestamp": [
+                6.8,
+                6.88
+            ]
+        },
+        {
+            "text": "chatting",
+            "timestamp": [
+                7.76,
+                8.08
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.96,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                9.120000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "great",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "these",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "moments.",
+            "timestamp": [
+                10.0,
+                10.4
+            ]
+        }
+    ]
+}

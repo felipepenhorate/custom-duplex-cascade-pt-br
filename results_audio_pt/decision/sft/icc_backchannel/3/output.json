@@ -1,0 +1,89 @@
+{
+    "text": "And it's good as well, if you're out, but I'm very happy.",
+    "chunks": [
+        {
+            "text": "And",
+            "timestamp": [
+                18.240000000000002,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                18.48,
+                18.72
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                18.72,
+                18.8
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                19.04,
+                19.12
+            ]
+        },
+        {
+            "text": "well,",
+            "timestamp": [
+                23.28,
+                23.36
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                24.48,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                24.72,
+                24.88
+            ]
+        },
+        {
+            "text": "out,",
+            "timestamp": [
+                25.12,
+                25.2
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                25.44,
+                25.52
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                29.04,
+                29.44
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                29.44,
+                29.6
+            ]
+        },
+        {
+            "text": "happy.",
+            "timestamp": [
+                29.92,
+                30.0
+            ]
+        }
+    ]
+}

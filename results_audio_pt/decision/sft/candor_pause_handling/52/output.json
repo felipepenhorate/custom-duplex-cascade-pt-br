@@ -1,0 +1,47 @@
+{
+    "text": "Alegao, Chipu, Cochu Jujovo Semazling Beha.",
+    "chunks": [
+        {
+            "text": "Alegao,",
+            "timestamp": [
+                6.640000000000001,
+                7.44
+            ]
+        },
+        {
+            "text": "Chipu,",
+            "timestamp": [
+                7.5200000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "Cochu",
+            "timestamp": [
+                7.92,
+                8.24
+            ]
+        },
+        {
+            "text": "Jujovo",
+            "timestamp": [
+                8.32,
+                8.8
+            ]
+        },
+        {
+            "text": "Semazling",
+            "timestamp": [
+                8.8,
+                9.36
+            ]
+        },
+        {
+            "text": "Beha.",
+            "timestamp": [
+                9.44,
+                9.92
+            ]
+        }
+    ]
+}

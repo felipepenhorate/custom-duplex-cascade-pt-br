@@ -1,0 +1,89 @@
+{
+    "text": "You have more fince. If you want more ventures, it's more fast.",
+    "chunks": [
+        {
+            "text": "You",
+            "timestamp": [
+                2.8000000000000003,
+                2.88
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                3.36,
+                3.44
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                3.68,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "fince.",
+            "timestamp": [
+                8.4,
+                8.72
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                9.84,
+                9.92
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                11.52,
+                11.6
+            ]
+        },
+        {
+            "text": "ventures,",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                12.56,
+                12.72
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                13.040000000000001,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "fast.",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "text": "Opa Belize, if you combined what?",
+    "chunks": [
+        {
+            "text": "Opa",
+            "timestamp": [
+                6.640000000000001,
+                7.04
+            ]
+        },
+        {
+            "text": "Belize,",
+            "timestamp": [
+                7.12,
+                7.44
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                9.44,
+                9.52
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "combined",
+            "timestamp": [
+                10.48,
+                10.96
+            ]
+        },
+        {
+            "text": "what?",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        }
+    ]
+}

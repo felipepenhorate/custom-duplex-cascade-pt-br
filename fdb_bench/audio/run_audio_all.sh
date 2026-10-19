@@ -103,6 +103,7 @@ for model in $MODELS; do
       --api-base "$MODEL_API" --big-api-base "$MODEL_API" \
       --judge-api-base "$JUDGE_API" --audio-root "$AUDIO_ROOT" \
       ${LIMIT:+--limit "$LIMIT"} \
+      ${PROMPT_CANDIDATE:+--prompt-candidate "$PROMPT_CANDIDATE"} \
       --skip-score > "$out/inference.log" 2>&1; then
     log "  INFERENCE FAILED for $model — see $out/inference.log"
     tail -12 "$out/inference.log" | sed 's/^/    /'

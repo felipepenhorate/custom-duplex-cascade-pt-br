@@ -1,0 +1,54 @@
+{
+    "text": "Ah, coach, put your plante. Thank you.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                2.08,
+                2.24
+            ]
+        },
+        {
+            "text": "coach,",
+            "timestamp": [
+                2.4,
+                2.56
+            ]
+        },
+        {
+            "text": "put",
+            "timestamp": [
+                2.8000000000000003,
+                2.88
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                2.96,
+                3.04
+            ]
+        },
+        {
+            "text": "plante.",
+            "timestamp": [
+                3.12,
+                3.68
+            ]
+        },
+        {
+            "text": "Thank",
+            "timestamp": [
+                5.04,
+                5.36
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                5.36,
+                5.44
+            ]
+        }
+    ]
+}

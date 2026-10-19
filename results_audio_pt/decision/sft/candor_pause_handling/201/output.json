@@ -1,0 +1,89 @@
+{
+    "text": "Ain't J People for Cano Kiamais Faso Jinten De Primero Papegao Hichu.",
+    "chunks": [
+        {
+            "text": "Ain't",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "J",
+            "timestamp": [
+                8.88,
+                8.96
+            ]
+        },
+        {
+            "text": "People",
+            "timestamp": [
+                14.16,
+                14.4
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                14.64,
+                14.72
+            ]
+        },
+        {
+            "text": "Cano",
+            "timestamp": [
+                14.8,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "Kiamais",
+            "timestamp": [
+                15.040000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "Faso",
+            "timestamp": [
+                15.52,
+                15.84
+            ]
+        },
+        {
+            "text": "Jinten",
+            "timestamp": [
+                15.84,
+                16.16
+            ]
+        },
+        {
+            "text": "De",
+            "timestamp": [
+                16.240000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "Primero",
+            "timestamp": [
+                16.4,
+                16.8
+            ]
+        },
+        {
+            "text": "Papegao",
+            "timestamp": [
+                16.8,
+                17.28
+            ]
+        },
+        {
+            "text": "Hichu.",
+            "timestamp": [
+                17.28,
+                17.68
+            ]
+        }
+    ]
+}

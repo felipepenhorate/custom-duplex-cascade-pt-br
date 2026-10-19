@@ -1,0 +1,19 @@
+{
+    "text": "Intendal success.",
+    "chunks": [
+        {
+            "text": "Intendal",
+            "timestamp": [
+                4.4,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "success.",
+            "timestamp": [
+                26.32,
+                26.560000000000002
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "Pop up, Beliezers. See what set up in Sunning",
+    "chunks": [
+        {
+            "text": "Pop",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "up,",
+            "timestamp": [
+                6.8,
+                6.88
+            ]
+        },
+        {
+            "text": "Beliezers.",
+            "timestamp": [
+                6.96,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "See",
+            "timestamp": [
+                8.0,
+                8.08
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                8.16,
+                8.24
+            ]
+        },
+        {
+            "text": "set",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "Sunning",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        }
+    ]
+}

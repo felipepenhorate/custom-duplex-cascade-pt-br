@@ -29,3 +29,10 @@ WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EO
 [audio/sft] 525/727 queue (12.1s/scenario, 22.5s audio) spoke=True pieces=25
 [audio/sft] 550/727 queue (12.2s/scenario, 29.7s audio) spoke=True pieces=34
 [audio/sft] 575/727 queue (12.3s/scenario, 26.3s audio) spoke=True pieces=27
+[audio/sft] 600/727 queue (12.2s/scenario, 27.8s audio) spoke=True pieces=29
+[audio/sft] 625/727 queue (12.1s/scenario, 28.8s audio) spoke=True pieces=31
+[audio/sft] 650/727 queue (12.0s/scenario, 28.5s audio) spoke=True pieces=29
+[audio/sft] 675/727 queue (11.9s/scenario, 29.5s audio) spoke=True pieces=32
+[audio/sft] 700/727 queue (11.9s/scenario, 28.1s audio) spoke=True pieces=31
+[audio/sft] 725/727 queue (11.7s/scenario, 28.3s audio) spoke=True pieces=31
+[audio] done -> /home/penhfel/github/custom-duplex-cascade-pt-br/results_audio_pt/decision/sft

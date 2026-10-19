@@ -1,0 +1,47 @@
+{
+    "text": "Poshatu is a very important thing.",
+    "chunks": [
+        {
+            "text": "Poshatu",
+            "timestamp": [
+                5.36,
+                6.4
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                6.4,
+                6.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.56,
+                10.56
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                10.56,
+                10.56
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                10.56,
+                10.56
+            ]
+        },
+        {
+            "text": "thing.",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        }
+    ]
+}

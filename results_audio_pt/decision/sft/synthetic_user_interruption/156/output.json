@@ -1,0 +1,82 @@
+{
+    "text": "If you focus on films, it is serious in Casa Compock.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                14.696,
+                14.776
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.936,
+                15.016
+            ]
+        },
+        {
+            "text": "focus",
+            "timestamp": [
+                15.016,
+                15.176
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                15.256,
+                15.336
+            ]
+        },
+        {
+            "text": "films,",
+            "timestamp": [
+                15.496,
+                15.736
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                19.656,
+                19.736
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                19.736,
+                19.816
+            ]
+        },
+        {
+            "text": "serious",
+            "timestamp": [
+                19.816,
+                20.056
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                20.136,
+                20.216
+            ]
+        },
+        {
+            "text": "Casa",
+            "timestamp": [
+                20.296,
+                20.536
+            ]
+        },
+        {
+            "text": "Compock.",
+            "timestamp": [
+                20.616,
+                21.096
+            ]
+        }
+    ]
+}

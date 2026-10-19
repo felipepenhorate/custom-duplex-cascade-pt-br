@@ -1,0 +1,40 @@
+{
+    "text": "Ah, call Serie, call Nomi.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                4.96,
+                5.28
+            ]
+        },
+        {
+            "text": "call",
+            "timestamp": [
+                5.36,
+                5.44
+            ]
+        },
+        {
+            "text": "Serie,",
+            "timestamp": [
+                5.6000000000000005,
+                6.08
+            ]
+        },
+        {
+            "text": "call",
+            "timestamp": [
+                6.24,
+                6.32
+            ]
+        },
+        {
+            "text": "Nomi.",
+            "timestamp": [
+                6.48,
+                6.96
+            ]
+        }
+    ]
+}

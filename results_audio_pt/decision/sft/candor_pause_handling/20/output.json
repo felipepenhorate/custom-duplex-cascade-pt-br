@@ -1,0 +1,61 @@
+{
+    "text": "Ah, beleza. I voice it in mud mezzo.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                4.48,
+                4.64
+            ]
+        },
+        {
+            "text": "beleza.",
+            "timestamp": [
+                4.8,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.08,
+                6.16
+            ]
+        },
+        {
+            "text": "voice",
+            "timestamp": [
+                6.24,
+                6.48
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                7.04,
+                7.12
+            ]
+        },
+        {
+            "text": "mud",
+            "timestamp": [
+                7.2,
+                7.28
+            ]
+        },
+        {
+            "text": "mezzo.",
+            "timestamp": [
+                7.92,
+                8.32
+            ]
+        }
+    ]
+}

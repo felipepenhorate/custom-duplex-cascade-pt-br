@@ -1,0 +1,40 @@
+{
+    "text": "Hey, what are we saying?",
+    "chunks": [
+        {
+            "text": "Hey,",
+            "timestamp": [
+                13.208,
+                13.527999999999999
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                13.687999999999999,
+                13.767999999999999
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                14.088,
+                14.168
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                14.168,
+                14.248
+            ]
+        },
+        {
+            "text": "saying?",
+            "timestamp": [
+                14.808,
+                14.888
+            ]
+        }
+    ]
+}

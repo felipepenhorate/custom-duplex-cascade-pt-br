@@ -1,0 +1,117 @@
+{
+    "text": "Depending on your interest, you can live online, or specialize as Amazon, who have very data.",
+    "chunks": [
+        {
+            "text": "Depending",
+            "timestamp": [
+                16.536,
+                17.016000000000002
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                17.016000000000002,
+                17.096
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                17.176000000000002,
+                17.256
+            ]
+        },
+        {
+            "text": "interest,",
+            "timestamp": [
+                17.416,
+                17.496000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.816000000000003,
+                17.896
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                18.136,
+                18.216
+            ]
+        },
+        {
+            "text": "live",
+            "timestamp": [
+                19.016,
+                19.176000000000002
+            ]
+        },
+        {
+            "text": "online,",
+            "timestamp": [
+                19.576,
+                19.816000000000003
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                19.976,
+                20.056
+            ]
+        },
+        {
+            "text": "specialize",
+            "timestamp": [
+                20.136,
+                20.536
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                20.856,
+                21.016
+            ]
+        },
+        {
+            "text": "Amazon,",
+            "timestamp": [
+                21.176000000000002,
+                21.416
+            ]
+        },
+        {
+            "text": "who",
+            "timestamp": [
+                21.496000000000002,
+                21.576
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                21.656,
+                21.736
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                21.816000000000003,
+                21.896
+            ]
+        },
+        {
+            "text": "data.",
+            "timestamp": [
+                22.376,
+                22.536
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "text": "What is very pushed into the event, which is planned on Bank Prompt.",
+    "chunks": [
+        {
+            "text": "What",
+            "timestamp": [
+                4.24,
+                4.32
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                5.5200000000000005,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                5.68,
+                5.76
+            ]
+        },
+        {
+            "text": "pushed",
+            "timestamp": [
+                5.92,
+                6.24
+            ]
+        },
+        {
+            "text": "into",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "event,",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "which",
+            "timestamp": [
+                11.120000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "planned",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                12.0,
+                12.08
+            ]
+        },
+        {
+            "text": "Bank",
+            "timestamp": [
+                12.08,
+                12.48
+            ]
+        },
+        {
+            "text": "Prompt.",
+            "timestamp": [
+                12.56,
+                12.8
+            ]
+        }
+    ]
+}

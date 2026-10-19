@@ -1,0 +1,19 @@
+{
+    "text": "For augment",
+    "chunks": [
+        {
+            "text": "For",
+            "timestamp": [
+                5.76,
+                5.84
+            ]
+        },
+        {
+            "text": "augment",
+            "timestamp": [
+                5.92,
+                6.16
+            ]
+        }
+    ]
+}

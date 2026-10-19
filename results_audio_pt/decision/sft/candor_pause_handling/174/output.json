@@ -1,0 +1,54 @@
+{
+    "text": "Ah, cashoo son crives. A commission, more.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "cashoo",
+            "timestamp": [
+                8.56,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "son",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "crives.",
+            "timestamp": [
+                9.44,
+                9.84
+            ]
+        },
+        {
+            "text": "A",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "commission,",
+            "timestamp": [
+                10.4,
+                10.96
+            ]
+        },
+        {
+            "text": "more.",
+            "timestamp": [
+                11.52,
+                11.6
+            ]
+        }
+    ]
+}

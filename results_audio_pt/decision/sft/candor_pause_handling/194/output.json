@@ -1,0 +1,40 @@
+{
+    "text": "Aki shatuko tingje on hobinet",
+    "chunks": [
+        {
+            "text": "Aki",
+            "timestamp": [
+                6.16,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "shatuko",
+            "timestamp": [
+                6.640000000000001,
+                7.2
+            ]
+        },
+        {
+            "text": "tingje",
+            "timestamp": [
+                12.64,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "hobinet",
+            "timestamp": [
+                13.36,
+                13.92
+            ]
+        }
+    ]
+}

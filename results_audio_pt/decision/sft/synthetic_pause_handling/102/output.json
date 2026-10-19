@@ -1,0 +1,47 @@
+{
+    "text": "Technology, but the point of it.",
+    "chunks": [
+        {
+            "text": "Technology,",
+            "timestamp": [
+                6.96,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.44,
+                9.52
+            ]
+        },
+        {
+            "text": "point",
+            "timestamp": [
+                9.52,
+                9.6
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        }
+    ]
+}

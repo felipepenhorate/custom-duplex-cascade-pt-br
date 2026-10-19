@@ -1,0 +1,40 @@
+{
+    "text": "Popa Ponce Use and Transformer.",
+    "chunks": [
+        {
+            "text": "Popa",
+            "timestamp": [
+                3.36,
+                4.24
+            ]
+        },
+        {
+            "text": "Ponce",
+            "timestamp": [
+                7.2,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "Use",
+            "timestamp": [
+                9.200000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "Transformer.",
+            "timestamp": [
+                10.32,
+                10.72
+            ]
+        }
+    ]
+}

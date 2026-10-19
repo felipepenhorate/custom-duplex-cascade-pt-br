@@ -1,0 +1,75 @@
+{
+    "text": "Boy Day, if you have a vision modern, we are.",
+    "chunks": [
+        {
+            "text": "Boy",
+            "timestamp": [
+                7.2,
+                7.36
+            ]
+        },
+        {
+            "text": "Day,",
+            "timestamp": [
+                7.68,
+                8.24
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.28,
+                9.36
+            ]
+        },
+        {
+            "text": "vision",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "modern,",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "are.",
+            "timestamp": [
+                10.8,
+                10.8
+            ]
+        }
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "text": "Hi, it's been como, you know, it's good. And important that you're not going to be able to do it,",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                19.36,
+                19.52
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                19.68,
+                19.84
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                19.92,
+                20.0
+            ]
+        },
+        {
+            "text": "como,",
+            "timestamp": [
+                20.16,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                20.88,
+                20.96
+            ]
+        },
+        {
+            "text": "know,",
+            "timestamp": [
+                20.96,
+                21.04
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                21.12,
+                21.28
+            ]
+        },
+        {
+            "text": "good.",
+            "timestamp": [
+                21.28,
+                21.36
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                22.400000000000002,
+                22.48
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                24.48,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                24.96,
+                25.04
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                25.04,
+                25.28
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                25.92,
+                26.0
+            ]
+        },
+        {
+            "text": "going",
+            "timestamp": [
+                26.240000000000002,
+                26.560000000000002
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                26.560000000000002,
+                26.64
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                26.96,
+                27.28
+            ]
+        },
+        {
+            "text": "able",
+            "timestamp": [
+                27.28,
+                27.6
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                27.6,
+                27.68
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                27.68,
+                28.0
+            ]
+        },
+        {
+            "text": "it,",
+            "timestamp": [
+                28.0,
+                28.32
+            ]
+        }
+    ]
+}

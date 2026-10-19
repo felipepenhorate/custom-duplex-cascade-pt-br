@@ -1,0 +1,33 @@
+{
+    "text": "Component of the city",
+    "chunks": [
+        {
+            "text": "Component",
+            "timestamp": [
+                6.88,
+                7.36
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                7.36,
+                7.44
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                8.4,
+                8.48
+            ]
+        },
+        {
+            "text": "city",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        }
+    ]
+}

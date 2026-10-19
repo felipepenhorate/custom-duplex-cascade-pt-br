@@ -1,0 +1,33 @@
+{
+    "text": "Opa Bora he feel",
+    "chunks": [
+        {
+            "text": "Opa",
+            "timestamp": [
+                2.48,
+                2.96
+            ]
+        },
+        {
+            "text": "Bora",
+            "timestamp": [
+                3.04,
+                3.68
+            ]
+        },
+        {
+            "text": "he",
+            "timestamp": [
+                4.32,
+                4.4
+            ]
+        },
+        {
+            "text": "feel",
+            "timestamp": [
+                4.64,
+                4.72
+            ]
+        }
+    ]
+}

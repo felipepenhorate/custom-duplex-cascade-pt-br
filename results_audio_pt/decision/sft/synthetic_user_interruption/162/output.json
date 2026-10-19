@@ -1,0 +1,89 @@
+{
+    "text": "Action is fundamental to GLM that validates to guarantee quality of products.",
+    "chunks": [
+        {
+            "text": "Action",
+            "timestamp": [
+                16.712,
+                16.951999999999998
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                17.752,
+                17.832
+            ]
+        },
+        {
+            "text": "fundamental",
+            "timestamp": [
+                17.912,
+                18.232
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                18.472,
+                18.552
+            ]
+        },
+        {
+            "text": "GLM",
+            "timestamp": [
+                20.552,
+                20.872
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                21.032,
+                21.112
+            ]
+        },
+        {
+            "text": "validates",
+            "timestamp": [
+                21.752,
+                22.072
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                22.232,
+                22.311999999999998
+            ]
+        },
+        {
+            "text": "guarantee",
+            "timestamp": [
+                22.392,
+                22.631999999999998
+            ]
+        },
+        {
+            "text": "quality",
+            "timestamp": [
+                22.872,
+                23.192
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                23.351999999999997,
+                23.432
+            ]
+        },
+        {
+            "text": "products.",
+            "timestamp": [
+                23.592,
+                24.631999999999998
+            ]
+        }
+    ]
+}

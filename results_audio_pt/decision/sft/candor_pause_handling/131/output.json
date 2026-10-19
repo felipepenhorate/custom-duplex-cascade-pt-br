@@ -1,0 +1,40 @@
+{
+    "text": "Here, however, in a vision.",
+    "chunks": [
+        {
+            "text": "Here,",
+            "timestamp": [
+                6.0,
+                6.16
+            ]
+        },
+        {
+            "text": "however,",
+            "timestamp": [
+                8.24,
+                10.08
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.76,
+                11.92
+            ]
+        },
+        {
+            "text": "vision.",
+            "timestamp": [
+                12.4,
+                12.88
+            ]
+        }
+    ]
+}

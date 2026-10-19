@@ -1,0 +1,47 @@
+{
+    "text": "Type is super like the moment.",
+    "chunks": [
+        {
+            "text": "Type",
+            "timestamp": [
+                1.76,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                8.0,
+                8.08
+            ]
+        },
+        {
+            "text": "super",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.4,
+                12.48
+            ]
+        },
+        {
+            "text": "moment.",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        }
+    ]
+}

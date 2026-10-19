@@ -1,0 +1,61 @@
+{
+    "text": "I think you are advantageous for technology price.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.8000000000000003,
+                2.88
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                3.2,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.640000000000001,
+                6.72
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                6.72,
+                6.8
+            ]
+        },
+        {
+            "text": "advantageous",
+            "timestamp": [
+                7.44,
+                7.84
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                8.08,
+                8.16
+            ]
+        },
+        {
+            "text": "technology",
+            "timestamp": [
+                8.32,
+                8.88
+            ]
+        },
+        {
+            "text": "price.",
+            "timestamp": [
+                9.200000000000001,
+                9.52
+            ]
+        }
+    ]
+}

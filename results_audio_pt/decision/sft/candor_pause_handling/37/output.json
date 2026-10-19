@@ -1,0 +1,19 @@
+{
+    "text": "I complicated.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                4.48,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "complicated.",
+            "timestamp": [
+                4.88,
+                5.2
+            ]
+        }
+    ]
+}

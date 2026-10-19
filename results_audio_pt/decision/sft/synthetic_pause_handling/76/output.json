@@ -1,0 +1,40 @@
+{
+    "text": "19 years. Rescue Joe Cain.",
+    "chunks": [
+        {
+            "text": "19",
+            "timestamp": [
+                2.64,
+                3.04
+            ]
+        },
+        {
+            "text": "years.",
+            "timestamp": [
+                3.2800000000000002,
+                3.36
+            ]
+        },
+        {
+            "text": "Rescue",
+            "timestamp": [
+                9.52,
+                9.76
+            ]
+        },
+        {
+            "text": "Joe",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        },
+        {
+            "text": "Cain.",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        }
+    ]
+}

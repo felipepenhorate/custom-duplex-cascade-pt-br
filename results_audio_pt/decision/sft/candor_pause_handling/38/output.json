@@ -1,0 +1,54 @@
+{
+    "text": "Ah, mysterious program if we speak more.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                16.32,
+                16.48
+            ]
+        },
+        {
+            "text": "mysterious",
+            "timestamp": [
+                16.8,
+                17.36
+            ]
+        },
+        {
+            "text": "program",
+            "timestamp": [
+                20.72,
+                20.96
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                21.28,
+                21.36
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                21.76,
+                21.84
+            ]
+        },
+        {
+            "text": "speak",
+            "timestamp": [
+                22.32,
+                22.56
+            ]
+        },
+        {
+            "text": "more.",
+            "timestamp": [
+                22.72,
+                22.8
+            ]
+        }
+    ]
+}

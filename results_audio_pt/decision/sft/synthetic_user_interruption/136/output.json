@@ -1,0 +1,68 @@
+{
+    "text": "Hi, Stafford Bainten, Su Timmos Maislev, on the Jabo.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                15.336000000000002,
+                15.496000000000002
+            ]
+        },
+        {
+            "text": "Stafford",
+            "timestamp": [
+                15.656000000000002,
+                16.056
+            ]
+        },
+        {
+            "text": "Bainten,",
+            "timestamp": [
+                16.376,
+                16.856
+            ]
+        },
+        {
+            "text": "Su",
+            "timestamp": [
+                16.936,
+                17.096
+            ]
+        },
+        {
+            "text": "Timmos",
+            "timestamp": [
+                17.096,
+                17.416
+            ]
+        },
+        {
+            "text": "Maislev,",
+            "timestamp": [
+                17.896,
+                18.456000000000003
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                19.016000000000002,
+                19.096000000000004
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                19.496000000000002,
+                19.576
+            ]
+        },
+        {
+            "text": "Jabo.",
+            "timestamp": [
+                19.896,
+                20.296
+            ]
+        }
+    ]
+}

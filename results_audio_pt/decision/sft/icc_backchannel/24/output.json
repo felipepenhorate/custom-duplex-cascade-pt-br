@@ -1,0 +1,47 @@
+{
+    "text": "Ah, secure persistent melodama checkout, that",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        },
+        {
+            "text": "secure",
+            "timestamp": [
+                14.48,
+                14.88
+            ]
+        },
+        {
+            "text": "persistent",
+            "timestamp": [
+                19.2,
+                19.6
+            ]
+        },
+        {
+            "text": "melodama",
+            "timestamp": [
+                19.76,
+                20.32
+            ]
+        },
+        {
+            "text": "checkout,",
+            "timestamp": [
+                20.32,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                24.72,
+                24.8
+            ]
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "text": "A point super important. If I was a plan, topical space co-workers and we were working. You know, we were during the day.",
+    "chunks": [
+        {
+            "text": "A",
+            "timestamp": [
+                14.296,
+                14.376
+            ]
+        },
+        {
+            "text": "point",
+            "timestamp": [
+                14.536,
+                14.616
+            ]
+        },
+        {
+            "text": "super",
+            "timestamp": [
+                14.936,
+                15.096
+            ]
+        },
+        {
+            "text": "important.",
+            "timestamp": [
+                15.176,
+                15.256
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                15.576,
+                15.656
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                15.975999999999999,
+                16.056
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                16.696,
+                16.776
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.176000000000002,
+                17.256
+            ]
+        },
+        {
+            "text": "plan,",
+            "timestamp": [
+                17.336,
+                17.496000000000002
+            ]
+        },
+        {
+            "text": "topical",
+            "timestamp": [
+                17.976,
+                18.616
+            ]
+        },
+        {
+            "text": "space",
+            "timestamp": [
+                18.776,
+                18.936
+            ]
+        },
+        {
+            "text": "co-workers",
+            "timestamp": [
+                19.256,
+                19.576
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                19.576,
+                19.656
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                20.056,
+                20.136
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                20.376,
+                20.456
+            ]
+        },
+        {
+            "text": "working.",
+            "timestamp": [
+                21.896,
+                22.216
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                23.096,
+                23.176000000000002
+            ]
+        },
+        {
+            "text": "know,",
+            "timestamp": [
+                23.656,
+                23.736
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                24.296,
+                24.375999999999998
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                24.695999999999998,
+                24.776
+            ]
+        },
+        {
+            "text": "during",
+            "timestamp": [
+                25.016,
+                25.256
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                25.896,
+                25.976
+            ]
+        },
+        {
+            "text": "day.",
+            "timestamp": [
+                25.976,
+                26.056
+            ]
+        }
+    ]
+}

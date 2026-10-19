@@ -1,0 +1,47 @@
+{
+    "text": "Tente only to just a tasan.",
+    "chunks": [
+        {
+            "text": "Tente",
+            "timestamp": [
+                11.52,
+                12.0
+            ]
+        },
+        {
+            "text": "only",
+            "timestamp": [
+                12.0,
+                12.08
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.32,
+                12.4
+            ]
+        },
+        {
+            "text": "just",
+            "timestamp": [
+                12.48,
+                12.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.72,
+                12.8
+            ]
+        },
+        {
+            "text": "tasan.",
+            "timestamp": [
+                12.8,
+                13.280000000000001
+            ]
+        }
+    ]
+}

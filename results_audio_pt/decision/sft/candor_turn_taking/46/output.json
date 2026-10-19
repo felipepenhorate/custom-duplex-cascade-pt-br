@@ -1,0 +1,19 @@
+{
+    "text": "I conversely.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                4.32,
+                4.4
+            ]
+        },
+        {
+            "text": "conversely.",
+            "timestamp": [
+                5.5200000000000005,
+                12.0
+            ]
+        }
+    ]
+}

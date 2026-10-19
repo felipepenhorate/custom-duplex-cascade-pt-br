@@ -1,0 +1,96 @@
+{
+    "text": "If you identify Piquet or a disguise, a son can be a son.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                14.312000000000001,
+                14.392
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.552,
+                14.632
+            ]
+        },
+        {
+            "text": "identify",
+            "timestamp": [
+                16.792,
+                17.192
+            ]
+        },
+        {
+            "text": "Piquet",
+            "timestamp": [
+                18.792,
+                19.112000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                19.352,
+                19.432000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.432000000000002,
+                19.512
+            ]
+        },
+        {
+            "text": "disguise,",
+            "timestamp": [
+                19.592,
+                19.912
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.432000000000002,
+                21.512
+            ]
+        },
+        {
+            "text": "son",
+            "timestamp": [
+                22.392000000000003,
+                22.472
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                22.552,
+                22.631999999999998
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                26.951999999999998,
+                27.192
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                29.912,
+                29.991999999999997
+            ]
+        },
+        {
+            "text": "son.",
+            "timestamp": [
+                30.631999999999998,
+                30.792
+            ]
+        }
+    ]
+}

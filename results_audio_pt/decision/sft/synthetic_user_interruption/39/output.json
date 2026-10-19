@@ -1,0 +1,40 @@
+{
+    "text": "Poor Sobiko setup in Sendo.",
+    "chunks": [
+        {
+            "text": "Poor",
+            "timestamp": [
+                12.296000000000001,
+                12.536000000000001
+            ]
+        },
+        {
+            "text": "Sobiko",
+            "timestamp": [
+                13.176,
+                13.576
+            ]
+        },
+        {
+            "text": "setup",
+            "timestamp": [
+                13.656,
+                13.896
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                13.976,
+                14.056000000000001
+            ]
+        },
+        {
+            "text": "Sendo.",
+            "timestamp": [
+                14.136000000000001,
+                14.536000000000001
+            ]
+        }
+    ]
+}

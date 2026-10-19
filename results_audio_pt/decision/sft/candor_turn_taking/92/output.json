@@ -1,0 +1,19 @@
+{
+    "text": "Thank you.",
+    "chunks": [
+        {
+            "text": "Thank",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                8.0,
+                8.08
+            ]
+        }
+    ]
+}

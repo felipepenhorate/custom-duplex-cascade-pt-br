@@ -1,0 +1,47 @@
+{
+    "text": "Whereas I think you're thinking more.",
+    "chunks": [
+        {
+            "text": "Whereas",
+            "timestamp": [
+                6.640000000000001,
+                7.28
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                7.44,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                7.76,
+                7.84
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "thinking",
+            "timestamp": [
+                8.4,
+                8.64
+            ]
+        },
+        {
+            "text": "more.",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        }
+    ]
+}

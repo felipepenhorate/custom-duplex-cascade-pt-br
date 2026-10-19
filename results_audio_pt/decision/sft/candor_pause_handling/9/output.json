@@ -1,0 +1,54 @@
+{
+    "text": "Feliz and perfectly precise point for us.",
+    "chunks": [
+        {
+            "text": "Feliz",
+            "timestamp": [
+                6.88,
+                7.2
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                7.28,
+                7.36
+            ]
+        },
+        {
+            "text": "perfectly",
+            "timestamp": [
+                8.88,
+                9.28
+            ]
+        },
+        {
+            "text": "precise",
+            "timestamp": [
+                12.32,
+                12.56
+            ]
+        },
+        {
+            "text": "point",
+            "timestamp": [
+                13.040000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                13.52,
+                13.6
+            ]
+        },
+        {
+            "text": "us.",
+            "timestamp": [
+                13.92,
+                13.92
+            ]
+        }
+    ]
+}

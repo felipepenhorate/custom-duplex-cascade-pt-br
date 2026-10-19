@@ -1,0 +1,131 @@
+{
+    "text": "Brazil, temptament for here for a place to prove a good cafe in Caso and Quebec. Thank you.",
+    "chunks": [
+        {
+            "text": "Brazil,",
+            "timestamp": [
+                2.96,
+                3.44
+            ]
+        },
+        {
+            "text": "temptament",
+            "timestamp": [
+                3.84,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                5.12,
+                5.2
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                5.36,
+                5.44
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                5.68,
+                5.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.84,
+                5.92
+            ]
+        },
+        {
+            "text": "place",
+            "timestamp": [
+                6.88,
+                6.96
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                7.04,
+                7.12
+            ]
+        },
+        {
+            "text": "prove",
+            "timestamp": [
+                7.28,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.84,
+                7.92
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                7.92,
+                8.0
+            ]
+        },
+        {
+            "text": "cafe",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "Caso",
+            "timestamp": [
+                8.64,
+                8.96
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.040000000000001,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "Quebec.",
+            "timestamp": [
+                9.92,
+                10.32
+            ]
+        },
+        {
+            "text": "Thank",
+            "timestamp": [
+                12.48,
+                12.72
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                12.72,
+                12.88
+            ]
+        }
+    ]
+}

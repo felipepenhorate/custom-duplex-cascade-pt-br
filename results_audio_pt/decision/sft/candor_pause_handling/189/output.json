@@ -1,0 +1,47 @@
+{
+    "text": "Maintain as well as the maintenance.",
+    "chunks": [
+        {
+            "text": "Maintain",
+            "timestamp": [
+                12.16,
+                12.56
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        },
+        {
+            "text": "well",
+            "timestamp": [
+                18.48,
+                18.56
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                18.72,
+                18.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                21.68,
+                21.68
+            ]
+        },
+        {
+            "text": "maintenance.",
+            "timestamp": [
+                21.68,
+                21.68
+            ]
+        }
+    ]
+}

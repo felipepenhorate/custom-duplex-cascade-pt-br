@@ -1,0 +1,40 @@
+{
+    "text": "Fi focus values quizza sobernces.",
+    "chunks": [
+        {
+            "text": "Fi",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "focus",
+            "timestamp": [
+                10.96,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "values",
+            "timestamp": [
+                11.44,
+                11.84
+            ]
+        },
+        {
+            "text": "quizza",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "sobernces.",
+            "timestamp": [
+                12.48,
+                13.280000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "text": "Those gadgets are energy interesting, for example.",
+    "chunks": [
+        {
+            "text": "Those",
+            "timestamp": [
+                14.696,
+                14.776
+            ]
+        },
+        {
+            "text": "gadgets",
+            "timestamp": [
+                14.856,
+                15.176
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                16.856,
+                16.936
+            ]
+        },
+        {
+            "text": "energy",
+            "timestamp": [
+                17.096,
+                17.496000000000002
+            ]
+        },
+        {
+            "text": "interesting,",
+            "timestamp": [
+                17.816000000000003,
+                18.376
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                19.096,
+                19.176000000000002
+            ]
+        },
+        {
+            "text": "example.",
+            "timestamp": [
+                19.176000000000002,
+                19.336
+            ]
+        }
+    ]
+}

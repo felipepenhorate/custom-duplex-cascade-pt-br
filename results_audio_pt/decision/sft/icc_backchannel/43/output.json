@@ -1,0 +1,54 @@
+{
+    "text": "That flux of context is a pull.",
+    "chunks": [
+        {
+            "text": "That",
+            "timestamp": [
+                24.48,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "flux",
+            "timestamp": [
+                25.6,
+                25.84
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                26.0,
+                26.080000000000002
+            ]
+        },
+        {
+            "text": "context",
+            "timestamp": [
+                26.16,
+                26.48
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                28.400000000000002,
+                28.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                28.560000000000002,
+                28.64
+            ]
+        },
+        {
+            "text": "pull.",
+            "timestamp": [
+                28.64,
+                28.8
+            ]
+        }
+    ]
+}

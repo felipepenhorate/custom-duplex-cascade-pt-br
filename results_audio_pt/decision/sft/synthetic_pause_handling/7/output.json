@@ -1,0 +1,54 @@
+{
+    "text": "Us pass crucial like adaptables in beings.",
+    "chunks": [
+        {
+            "text": "Us",
+            "timestamp": [
+                9.040000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "pass",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "crucial",
+            "timestamp": [
+                9.68,
+                9.92
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "adaptables",
+            "timestamp": [
+                11.200000000000001,
+                11.6
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "beings.",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        }
+    ]
+}

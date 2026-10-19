@@ -1,0 +1,47 @@
+{
+    "text": "Ponce Tes. Great. Paro Pique especially.",
+    "chunks": [
+        {
+            "text": "Ponce",
+            "timestamp": [
+                2.08,
+                2.56
+            ]
+        },
+        {
+            "text": "Tes.",
+            "timestamp": [
+                2.64,
+                2.88
+            ]
+        },
+        {
+            "text": "Great.",
+            "timestamp": [
+                6.72,
+                6.96
+            ]
+        },
+        {
+            "text": "Paro",
+            "timestamp": [
+                7.44,
+                7.76
+            ]
+        },
+        {
+            "text": "Pique",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "especially.",
+            "timestamp": [
+                8.56,
+                8.88
+            ]
+        }
+    ]
+}

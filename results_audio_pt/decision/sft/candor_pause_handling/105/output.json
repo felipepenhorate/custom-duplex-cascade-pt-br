@@ -1,0 +1,117 @@
+{
+    "text": "Aha ha, Tingi, my new haggard view. I am going to prefer my class, my population.",
+    "chunks": [
+        {
+            "text": "Aha",
+            "timestamp": [
+                4.72,
+                5.12
+            ]
+        },
+        {
+            "text": "ha,",
+            "timestamp": [
+                5.2,
+                5.28
+            ]
+        },
+        {
+            "text": "Tingi,",
+            "timestamp": [
+                5.44,
+                5.84
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                6.0,
+                6.08
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                6.24,
+                6.32
+            ]
+        },
+        {
+            "text": "haggard",
+            "timestamp": [
+                6.48,
+                6.88
+            ]
+        },
+        {
+            "text": "view.",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                14.64,
+                14.72
+            ]
+        },
+        {
+            "text": "am",
+            "timestamp": [
+                15.120000000000001,
+                15.200000000000001
+            ]
+        },
+        {
+            "text": "going",
+            "timestamp": [
+                15.52,
+                15.6
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.6,
+                15.68
+            ]
+        },
+        {
+            "text": "prefer",
+            "timestamp": [
+                15.84,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                16.240000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "class,",
+            "timestamp": [
+                16.56,
+                16.72
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                17.04,
+                17.12
+            ]
+        },
+        {
+            "text": "population.",
+            "timestamp": [
+                17.36,
+                18.400000000000002
+            ]
+        }
+    ]
+}

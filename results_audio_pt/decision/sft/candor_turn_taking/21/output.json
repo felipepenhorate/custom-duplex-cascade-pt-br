@@ -1,0 +1,47 @@
+{
+    "text": "Five feet more than we have.",
+    "chunks": [
+        {
+            "text": "Five",
+            "timestamp": [
+                5.12,
+                5.28
+            ]
+        },
+        {
+            "text": "feet",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                6.640000000000001,
+                6.72
+            ]
+        },
+        {
+            "text": "than",
+            "timestamp": [
+                7.2,
+                7.28
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                8.08,
+                8.16
+            ]
+        },
+        {
+            "text": "have.",
+            "timestamp": [
+                8.16,
+                8.24
+            ]
+        }
+    ]
+}

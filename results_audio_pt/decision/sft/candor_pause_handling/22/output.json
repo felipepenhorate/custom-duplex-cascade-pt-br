@@ -1,0 +1,26 @@
+{
+    "text": "Supernormal 500 concentration.",
+    "chunks": [
+        {
+            "text": "Supernormal",
+            "timestamp": [
+                1.84,
+                2.32
+            ]
+        },
+        {
+            "text": "500",
+            "timestamp": [
+                2.56,
+                7.44
+            ]
+        },
+        {
+            "text": "concentration.",
+            "timestamp": [
+                9.44,
+                9.84
+            ]
+        }
+    ]
+}

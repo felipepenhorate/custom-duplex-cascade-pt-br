@@ -1,0 +1,82 @@
+{
+    "text": "Here goes a space we have superbo perfectly concerted towards constant.",
+    "chunks": [
+        {
+            "text": "Here",
+            "timestamp": [
+                4.4,
+                4.64
+            ]
+        },
+        {
+            "text": "goes",
+            "timestamp": [
+                5.12,
+                7.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.84,
+                7.92
+            ]
+        },
+        {
+            "text": "space",
+            "timestamp": [
+                8.0,
+                8.24
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "superbo",
+            "timestamp": [
+                8.96,
+                10.0
+            ]
+        },
+        {
+            "text": "perfectly",
+            "timestamp": [
+                10.08,
+                10.56
+            ]
+        },
+        {
+            "text": "concerted",
+            "timestamp": [
+                11.68,
+                12.72
+            ]
+        },
+        {
+            "text": "towards",
+            "timestamp": [
+                12.72,
+                13.44
+            ]
+        },
+        {
+            "text": "constant.",
+            "timestamp": [
+                14.16,
+                14.56
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "text": "What my day is a little bit of story and all the story.",
+    "chunks": [
+        {
+            "text": "What",
+            "timestamp": [
+                3.36,
+                3.44
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                3.92,
+                4.0
+            ]
+        },
+        {
+            "text": "day",
+            "timestamp": [
+                4.08,
+                4.16
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                5.28,
+                5.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.76,
+                5.84
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                6.640000000000001,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "bit",
+            "timestamp": [
+                6.640000000000001,
+                6.72
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.36,
+                11.44
+            ]
+        },
+        {
+            "text": "story",
+            "timestamp": [
+                11.6,
+                11.76
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.0,
+                12.08
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                12.64,
+                12.72
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        },
+        {
+            "text": "story.",
+            "timestamp": [
+                13.120000000000001,
+                13.280000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "Delta Michael Petrochi Pugeto This is a concomitant canada",
+    "chunks": [
+        {
+            "text": "Delta",
+            "timestamp": [
+                23.04,
+                23.36
+            ]
+        },
+        {
+            "text": "Michael",
+            "timestamp": [
+                23.44,
+                24.400000000000002
+            ]
+        },
+        {
+            "text": "Petrochi",
+            "timestamp": [
+                28.8,
+                29.6
+            ]
+        },
+        {
+            "text": "Pugeto",
+            "timestamp": [
+                29.6,
+                30.400000000000002
+            ]
+        },
+        {
+            "text": "This",
+            "timestamp": [
+                31.36,
+                31.44
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                31.52,
+                31.6
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                31.68,
+                31.76
+            ]
+        },
+        {
+            "text": "concomitant",
+            "timestamp": [
+                31.76,
+                32.32
+            ]
+        },
+        {
+            "text": "canada",
+            "timestamp": [
+                32.8,
+                33.36
+            ]
+        }
+    ]
+}

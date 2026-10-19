@@ -1,0 +1,40 @@
+{
+    "text": "It's a very important thing.",
+    "chunks": [
+        {
+            "text": "It's",
+            "timestamp": [
+                33.36,
+                33.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                33.68,
+                33.76
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                33.76,
+                33.84
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                33.92,
+                34.0
+            ]
+        },
+        {
+            "text": "thing.",
+            "timestamp": [
+                34.72,
+                34.800000000000004
+            ]
+        }
+    ]
+}

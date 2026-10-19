@@ -1,0 +1,61 @@
+{
+    "text": "Ain't tingji for set up sunny mudajluga mesm.",
+    "chunks": [
+        {
+            "text": "Ain't",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "tingji",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "set",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        },
+        {
+            "text": "up",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "sunny",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "mudajluga",
+            "timestamp": [
+                9.200000000000001,
+                9.92
+            ]
+        },
+        {
+            "text": "mesm.",
+            "timestamp": [
+                9.92,
+                10.32
+            ]
+        }
+    ]
+}

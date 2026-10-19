@@ -1,0 +1,110 @@
+{
+    "text": "Ah, dependency algorithm with drama of life. I prefer to be able to do it.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                12.952,
+                13.112
+            ]
+        },
+        {
+            "text": "dependency",
+            "timestamp": [
+                13.272,
+                13.752
+            ]
+        },
+        {
+            "text": "algorithm",
+            "timestamp": [
+                15.272,
+                15.512
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                16.152,
+                16.232
+            ]
+        },
+        {
+            "text": "drama",
+            "timestamp": [
+                16.872,
+                17.112000000000002
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                17.192,
+                17.272000000000002
+            ]
+        },
+        {
+            "text": "life.",
+            "timestamp": [
+                18.472,
+                18.552
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                18.872,
+                18.952
+            ]
+        },
+        {
+            "text": "prefer",
+            "timestamp": [
+                19.592,
+                19.752000000000002
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                26.392000000000003,
+                26.472
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                26.472,
+                26.472
+            ]
+        },
+        {
+            "text": "able",
+            "timestamp": [
+                26.472,
+                26.632
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                26.632,
+                26.712000000000003
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                26.712000000000003,
+                26.712000000000003
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                26.712000000000003,
+                26.712000000000003
+            ]
+        }
+    ]
+}

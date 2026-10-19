@@ -1,0 +1,33 @@
+{
+    "text": "When perfect, but definitely.",
+    "chunks": [
+        {
+            "text": "When",
+            "timestamp": [
+                2.56,
+                2.72
+            ]
+        },
+        {
+            "text": "perfect,",
+            "timestamp": [
+                3.04,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                14.64,
+                14.72
+            ]
+        },
+        {
+            "text": "definitely.",
+            "timestamp": [
+                15.36,
+                15.84
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "text": "If a very part of the folk",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "part",
+            "timestamp": [
+                10.88,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.44,
+                11.52
+            ]
+        },
+        {
+            "text": "folk",
+            "timestamp": [
+                12.32,
+                12.48
+            ]
+        }
+    ]
+}

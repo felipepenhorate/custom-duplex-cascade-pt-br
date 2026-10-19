@@ -1,0 +1,61 @@
+{
+    "text": "Hi Tengi, if you have classic modern colours.",
+    "chunks": [
+        {
+            "text": "Hi",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "Tengi,",
+            "timestamp": [
+                8.64,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "classic",
+            "timestamp": [
+                10.4,
+                10.64
+            ]
+        },
+        {
+            "text": "modern",
+            "timestamp": [
+                11.28,
+                11.6
+            ]
+        },
+        {
+            "text": "colours.",
+            "timestamp": [
+                11.84,
+                11.84
+            ]
+        }
+    ]
+}

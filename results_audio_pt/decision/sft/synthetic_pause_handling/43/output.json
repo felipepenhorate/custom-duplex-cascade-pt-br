@@ -1,0 +1,47 @@
+{
+    "text": "Popa, whose watch can be aware.",
+    "chunks": [
+        {
+            "text": "Popa,",
+            "timestamp": [
+                3.92,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "whose",
+            "timestamp": [
+                4.8,
+                9.44
+            ]
+        },
+        {
+            "text": "watch",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "aware.",
+            "timestamp": [
+                11.040000000000001,
+                11.68
+            ]
+        }
+    ]
+}

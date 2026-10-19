@@ -1,0 +1,40 @@
+{
+    "text": "Aye, Ding Tong kitachin kom",
+    "chunks": [
+        {
+            "text": "Aye,",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "Ding",
+            "timestamp": [
+                9.28,
+                9.44
+            ]
+        },
+        {
+            "text": "Tong",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "kitachin",
+            "timestamp": [
+                9.92,
+                10.4
+            ]
+        },
+        {
+            "text": "kom",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        }
+    ]
+}

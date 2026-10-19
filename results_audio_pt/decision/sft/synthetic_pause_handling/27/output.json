@@ -1,0 +1,152 @@
+{
+    "text": "When it is done, when I stay positive or negative, it is a very super dynamic and a lot of people.",
+    "chunks": [
+        {
+            "text": "When",
+            "timestamp": [
+                3.12,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                3.6,
+                3.68
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                3.68,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "done,",
+            "timestamp": [
+                3.84,
+                3.92
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                5.6000000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.96,
+                7.04
+            ]
+        },
+        {
+            "text": "stay",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "positive",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                8.96,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "negative,",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                11.36,
+                11.44
+            ]
+        },
+        {
+            "text": "super",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "dynamic",
+            "timestamp": [
+                12.24,
+                12.48
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.72,
+                12.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.200000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                13.280000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                13.280000000000001,
+                13.280000000000001
+            ]
+        },
+        {
+            "text": "people.",
+            "timestamp": [
+                13.280000000000001,
+                13.280000000000001
+            ]
+        }
+    ]
+}

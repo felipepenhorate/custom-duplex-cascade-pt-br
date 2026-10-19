@@ -1,0 +1,26 @@
+{
+    "text": "Pointendo is here.",
+    "chunks": [
+        {
+            "text": "Pointendo",
+            "timestamp": [
+                10.08,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                13.44,
+                13.52
+            ]
+        },
+        {
+            "text": "here.",
+            "timestamp": [
+                14.8,
+                14.88
+            ]
+        }
+    ]
+}

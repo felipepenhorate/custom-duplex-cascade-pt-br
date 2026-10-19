@@ -1,0 +1,40 @@
+{
+    "text": "There are also more compactions.",
+    "chunks": [
+        {
+            "text": "There",
+            "timestamp": [
+                5.68,
+                5.76
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                5.84,
+                5.92
+            ]
+        },
+        {
+            "text": "also",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "compactions.",
+            "timestamp": [
+                10.72,
+                12.0
+            ]
+        }
+    ]
+}

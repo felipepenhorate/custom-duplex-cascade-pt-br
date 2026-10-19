@@ -1,0 +1,89 @@
+{
+    "text": "Here, bond that flush strange, but crucial registration of our data orders.",
+    "chunks": [
+        {
+            "text": "Here,",
+            "timestamp": [
+                2.64,
+                2.88
+            ]
+        },
+        {
+            "text": "bond",
+            "timestamp": [
+                6.48,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                7.44,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "flush",
+            "timestamp": [
+                7.84,
+                8.08
+            ]
+        },
+        {
+            "text": "strange,",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        },
+        {
+            "text": "crucial",
+            "timestamp": [
+                12.8,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "registration",
+            "timestamp": [
+                13.36,
+                13.84
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                14.16,
+                14.24
+            ]
+        },
+        {
+            "text": "our",
+            "timestamp": [
+                14.24,
+                14.32
+            ]
+        },
+        {
+            "text": "data",
+            "timestamp": [
+                14.56,
+                14.72
+            ]
+        },
+        {
+            "text": "orders.",
+            "timestamp": [
+                14.96,
+                15.280000000000001
+            ]
+        }
+    ]
+}

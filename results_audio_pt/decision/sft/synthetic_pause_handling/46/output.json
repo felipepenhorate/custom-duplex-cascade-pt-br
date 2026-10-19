@@ -1,0 +1,40 @@
+{
+    "text": "Tilegao, podcast, have a point.",
+    "chunks": [
+        {
+            "text": "Tilegao,",
+            "timestamp": [
+                3.2800000000000002,
+                4.0
+            ]
+        },
+        {
+            "text": "podcast,",
+            "timestamp": [
+                4.32,
+                4.72
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "point.",
+            "timestamp": [
+                12.16,
+                12.24
+            ]
+        }
+    ]
+}

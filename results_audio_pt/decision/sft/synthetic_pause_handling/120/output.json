@@ -1,0 +1,159 @@
+{
+    "text": "The town cafe is a gaze for all the centers that are moving, but there is a good space for the chat.",
+    "chunks": [
+        {
+            "text": "The",
+            "timestamp": [
+                3.12,
+                3.2
+            ]
+        },
+        {
+            "text": "town",
+            "timestamp": [
+                3.2800000000000002,
+                3.44
+            ]
+        },
+        {
+            "text": "cafe",
+            "timestamp": [
+                3.6,
+                3.84
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                4.0,
+                4.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.12,
+                5.2
+            ]
+        },
+        {
+            "text": "gaze",
+            "timestamp": [
+                5.36,
+                5.68
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                5.84,
+                5.92
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                6.0,
+                6.08
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                6.16,
+                6.24
+            ]
+        },
+        {
+            "text": "centers",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                6.72,
+                6.8
+            ]
+        },
+        {
+            "text": "moving,",
+            "timestamp": [
+                7.28,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                8.0,
+                8.08
+            ]
+        },
+        {
+            "text": "there",
+            "timestamp": [
+                8.16,
+                8.24
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                8.4,
+                8.48
+            ]
+        },
+        {
+            "text": "space",
+            "timestamp": [
+                8.72,
+                8.88
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                9.040000000000001,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.28,
+                9.36
+            ]
+        },
+        {
+            "text": "chat.",
+            "timestamp": [
+                9.52,
+                9.92
+            ]
+        }
+    ]
+}

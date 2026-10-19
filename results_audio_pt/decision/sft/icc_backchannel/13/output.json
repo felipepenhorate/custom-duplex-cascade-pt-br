@@ -1,0 +1,40 @@
+{
+    "text": "If focus on our convoys.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                25.44,
+                25.52
+            ]
+        },
+        {
+            "text": "focus",
+            "timestamp": [
+                25.76,
+                25.92
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                26.32,
+                26.400000000000002
+            ]
+        },
+        {
+            "text": "our",
+            "timestamp": [
+                26.560000000000002,
+                26.64
+            ]
+        },
+        {
+            "text": "convoys.",
+            "timestamp": [
+                30.8,
+                31.68
+            ]
+        }
+    ]
+}

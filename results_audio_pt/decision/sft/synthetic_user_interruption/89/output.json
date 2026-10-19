@@ -1,0 +1,82 @@
+{
+    "text": "What do you decide as I enter? I'm in the parification.",
+    "chunks": [
+        {
+            "text": "What",
+            "timestamp": [
+                15.32,
+                15.399999999999999
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                15.719999999999999,
+                15.799999999999999
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.799999999999999,
+                15.879999999999999
+            ]
+        },
+        {
+            "text": "decide",
+            "timestamp": [
+                16.2,
+                16.439999999999998
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                16.68,
+                16.759999999999998
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                17.08,
+                17.16
+            ]
+        },
+        {
+            "text": "enter?",
+            "timestamp": [
+                17.24,
+                17.4
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                19.16,
+                19.96
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                20.119999999999997,
+                20.2
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                20.759999999999998,
+                20.84
+            ]
+        },
+        {
+            "text": "parification.",
+            "timestamp": [
+                21.16,
+                22.28
+            ]
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "text": "In our context, they can be when it contends that you work very well.",
+    "chunks": [
+        {
+            "text": "In",
+            "timestamp": [
+                4.16,
+                4.24
+            ]
+        },
+        {
+            "text": "our",
+            "timestamp": [
+                4.48,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "context,",
+            "timestamp": [
+                5.36,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "they",
+            "timestamp": [
+                6.640000000000001,
+                6.72
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                6.96,
+                7.04
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                7.36,
+                7.44
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "contends",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "work",
+            "timestamp": [
+                12.0,
+                12.08
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                12.48,
+                12.56
+            ]
+        },
+        {
+            "text": "well.",
+            "timestamp": [
+                13.040000000000001,
+                13.120000000000001
+            ]
+        }
+    ]
+}

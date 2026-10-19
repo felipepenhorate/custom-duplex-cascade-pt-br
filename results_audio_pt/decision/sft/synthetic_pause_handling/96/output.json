@@ -1,0 +1,68 @@
+{
+    "text": "The competency project, but a plane good what machine",
+    "chunks": [
+        {
+            "text": "The",
+            "timestamp": [
+                3.2,
+                3.2800000000000002
+            ]
+        },
+        {
+            "text": "competency",
+            "timestamp": [
+                3.92,
+                4.4
+            ]
+        },
+        {
+            "text": "project,",
+            "timestamp": [
+                4.4,
+                4.48
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                4.64,
+                4.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.12,
+                5.2
+            ]
+        },
+        {
+            "text": "plane",
+            "timestamp": [
+                5.28,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                6.0,
+                6.08
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "machine",
+            "timestamp": [
+                6.88,
+                7.12
+            ]
+        }
+    ]
+}

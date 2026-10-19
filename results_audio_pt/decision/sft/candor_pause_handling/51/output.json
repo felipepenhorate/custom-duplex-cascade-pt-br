@@ -1,0 +1,54 @@
+{
+    "text": "Forum proceeds more aggressive with adoption contradictions.",
+    "chunks": [
+        {
+            "text": "Forum",
+            "timestamp": [
+                9.52,
+                9.84
+            ]
+        },
+        {
+            "text": "proceeds",
+            "timestamp": [
+                10.0,
+                10.56
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "aggressive",
+            "timestamp": [
+                10.8,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                11.44,
+                11.6
+            ]
+        },
+        {
+            "text": "adoption",
+            "timestamp": [
+                12.4,
+                12.8
+            ]
+        },
+        {
+            "text": "contradictions.",
+            "timestamp": [
+                13.44,
+                14.08
+            ]
+        }
+    ]
+}

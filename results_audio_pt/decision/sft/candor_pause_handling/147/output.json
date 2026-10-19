@@ -1,0 +1,82 @@
+{
+    "text": "Ah, here, if you promise a tranquil party with a museum.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "here,",
+            "timestamp": [
+                7.04,
+                7.12
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                8.0,
+                8.08
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "promise",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.040000000000001,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "tranquil",
+            "timestamp": [
+                9.36,
+                9.68
+            ]
+        },
+        {
+            "text": "party",
+            "timestamp": [
+                10.0,
+                10.32
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                10.32,
+                10.4
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "museum.",
+            "timestamp": [
+                11.200000000000001,
+                11.52
+            ]
+        }
+    ]
+}

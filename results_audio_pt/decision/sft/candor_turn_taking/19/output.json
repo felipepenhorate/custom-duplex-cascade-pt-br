@@ -1,0 +1,82 @@
+{
+    "text": "Before very serious, you have formalized a time to do it.",
+    "chunks": [
+        {
+            "text": "Before",
+            "timestamp": [
+                7.76,
+                7.92
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "serious,",
+            "timestamp": [
+                8.64,
+                8.88
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.040000000000001,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                9.84,
+                9.92
+            ]
+        },
+        {
+            "text": "formalized",
+            "timestamp": [
+                10.0,
+                10.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.280000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "time",
+            "timestamp": [
+                13.44,
+                13.52
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.76,
+                13.84
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                15.52,
+                15.6
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                15.6,
+                15.68
+            ]
+        }
+    ]
+}

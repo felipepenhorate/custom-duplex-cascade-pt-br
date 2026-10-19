@@ -1,0 +1,40 @@
+{
+    "text": "Boyd, it's simple with it.",
+    "chunks": [
+        {
+            "text": "Boyd,",
+            "timestamp": [
+                6.8,
+                7.44
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                8.24,
+                8.4
+            ]
+        },
+        {
+            "text": "simple",
+            "timestamp": [
+                8.48,
+                8.72
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                9.52,
+                9.6
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        }
+    ]
+}

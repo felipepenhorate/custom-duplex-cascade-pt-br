@@ -1,0 +1,33 @@
+{
+    "text": "I think it's agitated.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                16.0,
+                16.16
+            ]
+        },
+        {
+            "text": "agitated.",
+            "timestamp": [
+                16.88,
+                17.44
+            ]
+        }
+    ]
+}

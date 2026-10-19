@@ -1,0 +1,89 @@
+{
+    "text": "Ah, coach. And if you have more, we have all the options.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                2.96,
+                3.12
+            ]
+        },
+        {
+            "text": "coach.",
+            "timestamp": [
+                3.2800000000000002,
+                3.44
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "more,",
+            "timestamp": [
+                10.4,
+                10.48
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                12.16,
+                12.24
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.56,
+                12.56
+            ]
+        },
+        {
+            "text": "options.",
+            "timestamp": [
+                12.56,
+                12.56
+            ]
+        }
+    ]
+}

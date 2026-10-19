@@ -1,0 +1,40 @@
+{
+    "text": "But the cadets like injury.",
+    "chunks": [
+        {
+            "text": "But",
+            "timestamp": [
+                3.84,
+                3.92
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                4.5600000000000005,
+                4.64
+            ]
+        },
+        {
+            "text": "cadets",
+            "timestamp": [
+                5.04,
+                12.16
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                12.32,
+                12.4
+            ]
+        },
+        {
+            "text": "injury.",
+            "timestamp": [
+                21.28,
+                21.6
+            ]
+        }
+    ]
+}

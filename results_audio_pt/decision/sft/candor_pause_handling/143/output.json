@@ -1,0 +1,19 @@
+{
+    "text": "And I'm",
+    "chunks": [
+        {
+            "text": "And",
+            "timestamp": [
+                5.28,
+                5.44
+            ]
+        },
+        {
+            "text": "I'm",
+            "timestamp": [
+                5.44,
+                5.6000000000000005
+            ]
+        }
+    ]
+}

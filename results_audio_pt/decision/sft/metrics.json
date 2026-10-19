@@ -1,0 +1,133 @@
+{
+  "model": "sft",
+  "mode": "decision",
+  "lang": "pt",
+  "vad": "silero",
+  "silence_s": 0.6,
+  "partial_interval_s": 0.6,
+  "partial_commit_s": 0.5,
+  "whisper": "medium",
+  "tts_language": "english",
+  "tts_temp": 0.7,
+  "asr_scorer": "nvidia/parakeet-tdt-0.6b-v2",
+  "judge": "http://127.0.0.1:8099/v1",
+  "official_task_metrics": {
+    "candor_pause_handling": {
+      "tor": 0.4861111111111111,
+      "_raw_tail": "---------------------------------------------------\n[Result]\nAverage take turn:  0.4861111111111111\n---------------------------------------------------\n"
+    },
+    "synthetic_pause_handling": {
+      "tor": 0.6131386861313869,
+      "_raw_tail": "---------------------------------------------------\n[Result]\nAverage take turn:  0.6131386861313869\n---------------------------------------------------\n"
+    },
+    "candor_turn_taking": {
+      "tor": 0.5546218487394958,
+      "latency_s": 0.2637878787878874,
+      "_raw_tail": "/opencode/audio_score/pt_v1.0_decision_sft/candor_turn_taking/8/output.json\nthe TOR is 1\nthe latency is 0.42999999999998195\n/tmp/opencode/audio_score/pt_v1.0_decision_sft/candor_turn_taking/112/output.json\nthe TOR is 1\nthe latency is 0.8199999999999728\n/tmp/opencode/audio_score/pt_v1.0_decision_sft/candor_turn_taking/44/output.json\nthe TOR is 0\nthe latency is None\n/tmp/opencode/audio_score/pt_v1.0_decision_sft/candor_turn_taking/103/output.json\nthe TOR is 1\nthe latency is 0.7099999999998907\n/tmp/opencode/audio_score/pt_v1.0_decision_sft/candor_turn_taking/28/output.json\nthe TOR is 1\nthe latency is 1.6799999999999997\n/tmp/opencode/audio_score/pt_v1.0_decision_sft/candor_turn_taking/33/output.json\nthe TOR is 1\nthe latency is -0.07999999999989083\n/tmp/opencode/audio_score/pt_v1.0_decision_sft/candor_turn_taking/53/output.json\nthe TOR is 1\nthe latency is -2.350000000000014\n/tmp/opencode/audio_score/pt_v1.0_decision_sft/candor_turn_taking/54/output.json\nthe TOR is 1\nthe latency is 0.35000000000002096\n---------------------------------------------------\n[Result]\nAverage take turn:  0.5546218487394958\nAverage latency:  0.2637878787878874\n---------------------------------------------------\n"
+    },
+    "icc_backchannel": {
+      "jsd_mean": 0.705,
+      "jsd_mean_std": 0.1044,
+      "tor": 0.8364,
+      "tor_std": 0.3699,
+      "freq_mean": 0.1175,
+      "freq_mean_std": 0.0725,
+      "_raw_tail": "s ['pain,']\nduration is 0.3000000000000007\ncurr_text is []\nduration is 0.5999999999999979\ncurr_text is []\nduration is 0.3999999999999986\ncurr_text is []\nduration is 0.5\ncurr_text is ['Palio,']\nduration is 0.3999999999999986\ncurr_text is ['Charles.']\nduration is 0.7000000000000028\ncurr_text is ['Hi,', 'sir.']\nduration is 1.0\ncurr_text is []\nduration is 0.5\ncurr_text is []\nduration is 0.7000000000000028\ncurr_text is []\nduration is 1.1000000000000014\ncurr_text is []\nduration is 0.8999999999999986\ncurr_text is []\nduration is 0.7999999999999972\ncurr_text is []\nduration is 2.1000000000000085\ncurr_text is []\nduration is 1.6000000000000085\ncurr_text is []\nduration is 1.5\ncurr_text is []\nbackchannel prediction is [[6.9, 7.9], [15.6, 15.9], [16.1, 16.7], [18.8, 19.2], [21.0, 21.5], [24.1, 24.5], [28.4, 29.1], [32.9, 33.9], [40.1, 40.6], [44.5, 45.2], [45.6, 46.7], [52.2, 53.1], [60.0, 60.8], [64.8, 66.9], [68.6, 70.2], [78.7, 80.2]]\nJSD: 0.6599044825369164\n---------------------------------------------------\n[Result]\nJSD - Mean: 0.7050 ± 0.1044\nTOR - Mean: 0.8364 ± 0.3699\nFrequency - Mean: 0.1175 ± 0.0725\n\n[Raw Counts]\nNumber of samples: 55\n---------------------------------------------------\n"
+    },
+    "synthetic_user_interruption": {
+      "relevance": 0.45454545454545453,
+      "tor": 0.605,
+      "latency_s": 1.417520661157025,
+      "_raw_tail": "earn a language\" to \"improving writing skills in a language.\" The AI's response, however, is grammatically broken (\"Praise a English\") and semantically unclear, appearing to list general vocabulary advice rather than addressing the specific request about *writing skills*. Furthermore, the AI fails to acknowledge the topic switch entirely, making the response neither coherent nor relevant to the user's new constraint.\n\nI would rate the AI's response as 1.\n{'analysis': 'The user\\'s interrupting turn explicitly shifts the topic from \"starting to learn a language\" to \"improving writing skills in a language.\" The AI\\'s response, however, is grammatically broken (\"Praise a English\") and semantically unclear, appearing to list general vocabulary advice rather than addressing the specific request about *writing skills*. Furthermore, the AI fails to acknowledge the topic switch entirely, making the response neither coherent nor relevant to the user\\'s new constraint.', 'rating': 1}\n---------------------------------------------------\n[Result]\nAverage rating:  0.45454545454545453\nAverage take turn:  0.605\nAverage latency:  1.417520661157025\n---------------------------------------------------\n"
+    }
+  },
+  "audio_rollup": {
+    "candor_pause_handling": {
+      "n": 216,
+      "spoke_rate": 0.9491,
+      "audible_within_input_rate": 0.9028,
+      "spoke_but_late_only_rate": 0.0463,
+      "mean_first_speech_start_s": 5.503,
+      "formal_turn_by_audio": 0.9491,
+      "mean_compute_s": 0.856,
+      "max_decision_s": 0.577,
+      "mean_tts_s": 2.632,
+      "mean_stt_s": 0.093,
+      "mean_stt_final_s": 0.025,
+      "tts_capped_turns": 156,
+      "n_finalized": 869,
+      "n_skipped_utt": 67,
+      "clipped_speech_s": 33.402
+    },
+    "synthetic_pause_handling": {
+      "n": 137,
+      "spoke_rate": 0.9781,
+      "audible_within_input_rate": 0.9124,
+      "spoke_but_late_only_rate": 0.0657,
+      "mean_first_speech_start_s": 4.319,
+      "formal_turn_by_audio": 0.9781,
+      "mean_compute_s": 0.862,
+      "max_decision_s": 0.506,
+      "mean_tts_s": 3.019,
+      "mean_stt_s": 0.067,
+      "mean_stt_final_s": 0.02,
+      "tts_capped_turns": 165,
+      "n_finalized": 482,
+      "n_skipped_utt": 15,
+      "clipped_speech_s": 36.876
+    },
+    "candor_turn_taking": {
+      "n": 119,
+      "spoke_rate": 0.8992,
+      "audible_within_input_rate": 0.8992,
+      "spoke_but_late_only_rate": 0.0,
+      "mean_first_speech_start_s": 5.499,
+      "formal_turn_by_audio": 0.8908,
+      "mean_compute_s": 0.85,
+      "max_decision_s": 0.546,
+      "mean_tts_s": 2.712,
+      "mean_stt_s": 0.127,
+      "mean_stt_final_s": 0.019,
+      "tts_capped_turns": 28,
+      "n_finalized": 344,
+      "n_skipped_utt": 117,
+      "clipped_speech_s": 7.57
+    },
+    "icc_backchannel": {
+      "n": 55,
+      "spoke_rate": 1.0,
+      "audible_within_input_rate": 0.9818,
+      "spoke_but_late_only_rate": 0.0182,
+      "mean_first_speech_start_s": 8.133,
+      "formal_turn_by_audio": 1.0,
+      "mean_compute_s": 6.984,
+      "max_decision_s": 4.351,
+      "mean_tts_s": 17.883,
+      "mean_stt_s": 0.315,
+      "mean_stt_final_s": 0.088,
+      "tts_capped_turns": 34,
+      "n_finalized": 632,
+      "n_skipped_utt": 55,
+      "clipped_speech_s": 5.985
+    },
+    "synthetic_user_interruption": {
+      "n": 200,
+      "spoke_rate": 0.97,
+      "audible_within_input_rate": 0.97,
+      "spoke_but_late_only_rate": 0.0,
+      "mean_first_speech_start_s": 5.291,
+      "formal_turn_by_audio": 0.97,
+      "mean_compute_s": 1.838,
+      "max_decision_s": 1.815,
+      "mean_tts_s": 5.364,
+      "mean_stt_s": 0.365,
+      "mean_stt_final_s": 0.028,
+      "tts_capped_turns": 5,
+      "n_finalized": 535,
+      "n_skipped_utt": 201,
+      "clipped_speech_s": 4.555,
+      "latency_vs_reference_s": 1.448,
+      "latency_n": 170
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+    "text": "If we are not a classic, more strides in the crisis.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                13.976,
+                14.056000000000001
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                14.456000000000001,
+                14.536000000000001
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                15.016,
+                15.096
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                15.576,
+                15.656
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                17.096,
+                17.176000000000002
+            ]
+        },
+        {
+            "text": "classic,",
+            "timestamp": [
+                17.336000000000002,
+                17.656
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                18.376,
+                18.456
+            ]
+        },
+        {
+            "text": "strides",
+            "timestamp": [
+                19.416,
+                19.816000000000003
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                21.256,
+                21.336
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                21.496000000000002,
+                21.576
+            ]
+        },
+        {
+            "text": "crisis.",
+            "timestamp": [
+                22.056,
+                22.616
+            ]
+        }
+    ]
+}

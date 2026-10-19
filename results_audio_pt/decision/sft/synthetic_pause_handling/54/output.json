@@ -1,0 +1,33 @@
+{
+    "text": "Pasupos a little patience.",
+    "chunks": [
+        {
+            "text": "Pasupos",
+            "timestamp": [
+                5.44,
+                8.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.32,
+                10.4
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                10.4,
+                10.48
+            ]
+        },
+        {
+            "text": "patience.",
+            "timestamp": [
+                10.88,
+                11.200000000000001
+            ]
+        }
+    ]
+}

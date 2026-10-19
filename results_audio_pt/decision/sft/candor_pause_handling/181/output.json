@@ -1,0 +1,54 @@
+{
+    "text": "Tenda frustration, if you can see it.",
+    "chunks": [
+        {
+            "text": "Tenda",
+            "timestamp": [
+                2.88,
+                3.2
+            ]
+        },
+        {
+            "text": "frustration,",
+            "timestamp": [
+                3.2800000000000002,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                4.72,
+                4.8
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.88,
+                4.96
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                6.48,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                8.08,
+                8.16
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        }
+    ]
+}

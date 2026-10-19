@@ -1,0 +1,61 @@
+{
+    "text": "What if I was a lot of myself?",
+    "chunks": [
+        {
+            "text": "What",
+            "timestamp": [
+                3.2800000000000002,
+                3.36
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                5.36,
+                5.44
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.5200000000000005,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                7.92,
+                8.0
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.88,
+                8.96
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                8.96,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "myself?",
+            "timestamp": [
+                10.56,
+                11.120000000000001
+            ]
+        }
+    ]
+}
