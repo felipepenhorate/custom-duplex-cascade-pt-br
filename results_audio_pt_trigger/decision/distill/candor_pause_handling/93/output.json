@@ -1,0 +1,61 @@
+{
+    "text": "Sadziga Mugerau Ein Ting in Tuel Noesso Bedurai.",
+    "chunks": [
+        {
+            "text": "Sadziga",
+            "timestamp": [
+                21.04,
+                22.0
+            ]
+        },
+        {
+            "text": "Mugerau",
+            "timestamp": [
+                34.800000000000004,
+                35.6
+            ]
+        },
+        {
+            "text": "Ein",
+            "timestamp": [
+                36.0,
+                36.160000000000004
+            ]
+        },
+        {
+            "text": "Ting",
+            "timestamp": [
+                36.24,
+                36.4
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                36.800000000000004,
+                36.88
+            ]
+        },
+        {
+            "text": "Tuel",
+            "timestamp": [
+                37.04,
+                37.36
+            ]
+        },
+        {
+            "text": "Noesso",
+            "timestamp": [
+                37.68,
+                38.24
+            ]
+        },
+        {
+            "text": "Bedurai.",
+            "timestamp": [
+                38.24,
+                39.04
+            ]
+        }
+    ]
+}

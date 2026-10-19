@@ -145,9 +145,18 @@ def main() -> None:
         if not sdirs:
             continue
         root = args.score_tmp / f"pt_{args.mode}_{args.model}" / subset
+        # Published layout is <root>/<subset>/<subset>/<id>/ while the pt-BR
+        # re-voicing writes <root>/<subset>/<id>/. Test for the *sample* dir, not
+        # just the subset dir: v1.0/synthetic_user_interruption exists but only
+        # holds the nested set, so an is_dir() test silently picked the outer
+        # level and every annotation copy was skipped -- then the evaluator died on
+        # the missing interrupt.json, which my own grep had hidden.
         src_root = args.data_root / subset
-        if not src_root.is_dir():
-            src_root = args.data_root / subset / subset
+        if not src_root.is_dir() or not any((src_root / "1" / n).is_file()
+                                            for n in ("pause.json", "turn_taking.json", "interrupt.json")):
+            nested = args.data_root / subset / subset
+            if nested.is_dir():
+                src_root = nested
         print(f"[rescore] {subset}: {len(sdirs)} samples", flush=True)
         for n, sd in enumerate(sdirs, 1):
             d = root / sd.name

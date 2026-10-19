@@ -1,0 +1,61 @@
+[audio] 727 scenarios across 5 subsets
+OneLogger: Setting error_handling_strategy to DISABLE_QUIETLY_AND_REPORT_METRIC_ERROR for rank (rank=0) with OneLogger disabled. To override: explicitly set error_handling_strategy parameter.
+No exporters were provided. This means that no telemetry data will be collected.
+[NeMo I 2026-10-19 20:24:22 mixins:194] Tokenizer SentencePieceTokenizer initialized with 1024 tokens
+[NeMo W 2026-10-19 20:24:22 modelPT:175] If you intend to do training or fine-tuning, please call the ModelPT.setup_training_data() method and provide a valid configuration file to setup the train data loader.
+    Train config : 
+    use_lhotse: true
+    skip_missing_manifest_entries: true
+    input_cfg: null
+    tarred_audio_filepaths: null
+    manifest_filepath: null
+    sample_rate: 16000
+    shuffle: true
+    num_workers: 2
+    pin_memory: true
+    max_duration: 40.0
+    min_duration: 0.1
+    text_field: answer
+    batch_duration: null
+    use_bucketing: true
+    bucket_duration_bins: null
+    bucket_batch_size: null
+    num_buckets: 30
+    bucket_buffer_size: 20000
+    shuffle_buffer_size: 10000
+    
+[NeMo W 2026-10-19 20:24:22 modelPT:182] If you intend to do validation, please call the ModelPT.setup_validation_data() or ModelPT.setup_multiple_validation_data() method and provide a valid configuration file to setup the validation data loader(s). 
+    Validation config : 
+    use_lhotse: true
+    manifest_filepath: null
+    sample_rate: 16000
+    batch_size: 16
+    shuffle: false
+    max_duration: 40.0
+    min_duration: 0.1
+    num_workers: 2
+    pin_memory: true
+    text_field: answer
+    
+[NeMo I 2026-10-19 20:24:26 rnnt_models:226] Using RNNT Loss : tdt
+    Loss tdt_kwargs: {'fastemit_lambda': 0.0, 'clamp': -1.0, 'durations': [0, 1, 2, 3, 4], 'sigma': 0.02, 'omega': 0.1}
+[NeMo I 2026-10-19 20:24:26 rnnt_models:226] Using RNNT Loss : tdt
+    Loss tdt_kwargs: {'fastemit_lambda': 0.0, 'clamp': -1.0, 'durations': [0, 1, 2, 3, 4], 'sigma': 0.02, 'omega': 0.1}
+[NeMo I 2026-10-19 20:24:26 rnnt_models:226] Using RNNT Loss : tdt
+    Loss tdt_kwargs: {'fastemit_lambda': 0.0, 'clamp': -1.0, 'durations': [0, 1, 2, 3, 4], 'sigma': 0.02, 'omega': 0.1}
+[NeMo I 2026-10-19 20:24:28 save_restore_connector:287] Model EncDecRNNTBPEModel was successfully restored from /mnt/f/huggingface/hub/models--nvidia--parakeet-tdt-0.6b-v2/snapshots/ae9ad07059c7c739ffaf932226a8fe64ae2620b0/parakeet-tdt-0.6b-v2.nemo.
+[score] candor_pause_handling: 216 samples -> parakeet
+evaluate:   0%|          | 0/216 [00:00<?, ?it/s]evaluate: 100%|██████████| 216/216 [00:00<00:00, 57202.28it/s]
+[score] candor_pause_handling: {"tor": 0.06018518518518518, "_raw_tail": "---------------------------------------------------\n[Result]\nAverage take turn:  0.06018518518518518\n---------------------------------------------------\n"}
+[score] synthetic_pause_handling: 137 samples -> parakeet
+evaluate:   0%|          | 0/137 [00:00<?, ?it/s]evaluate: 100%|██████████| 137/137 [00:00<00:00, 56707.75it/s]
+[score] synthetic_pause_handling: {"tor": 0.08759124087591241, "_raw_tail": "---------------------------------------------------\n[Result]\nAverage take turn:  0.08759124087591241\n---------------------------------------------------\n"}
+[score] candor_turn_taking: 119 samples -> parakeet
+evaluate: 0it [00:00, ?it/s]evaluate: 119it [00:00, 25823.79it/s]
+[score] candor_turn_taking: {"tor": 0.15966386554621848, "latency_s": 2.754210526315785, "_raw_tail": "ndor_turn_taking/100/output.json\nthe TOR is 0\nthe latency is None\n/tmp/opencode/audio_score/pt_v1.0_decision_distill/candor_turn_taking/8/output.json\nthe TOR is 0\nthe latency is None\n/tmp/opencode/audio_score/pt_v1.0_de
+[score] icc_backchannel: 55 samples -> parakeet
+[score] icc_backchannel: {"jsd_mean": 0.9762, "jsd_mean_std": 0.0692, "tor": 0.0364, "tor_std": 0.1872, "freq_mean": 0.0043, "freq_mean_std": 0.0126, "_raw_tail": " []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD: 1\nbackchannel prediction is []\nJSD:
+[score] synthetic_user_interruption: 200 samples -> parakeet
+  0%|          | 0/200 [00:00<?, ?it/s]  0%|          | 1/200 [00:01<06:04,  1.83s/it]  1%|          | 2/200 [00:03<05:00,  1.52s/it]  4%|▍         | 8/200 [00:04<01:21,  2.35it/s]  6%|▌         | 11/200 [00:05<01:21,  2.31it/s]  6%|▌         | 12/200 [00:07<01:49,  1.71it/s] 10%|█         | 20/200 [00:08<01:00,  2.99it/s] 12%|█▏        | 23/200 [00:09<00:59,  2.95it/s] 12%|█▏        | 24/200 [00:11<01:19,  2.21it/s] 13%|█▎        | 26/200 [00:12<01:27,  1.98it/s] 14%|█▎        | 27/200 [00:14<01:59,  1.45it/s] 14%|█▍        | 29/200 [00:15<01:53,  1.51it/s] 16%|█▌        | 31/200 [00:16<01:47,  1.58it/s] 16%|█▌        | 32/200 [00:17<02:01,  1.38it/s] 16%|█▋        | 33/200 [00:19<02:21,  1.18it/s] 17%|█▋        | 34/200 [00:20<02:32,  1.09it/s] 19%|█▉        | 38/200 [00:21<01:34,  1.72it/s] 20%|█▉        | 39/200 [00:22<01:50,  1.46it/s] 20%|██        | 40/200 [00:23<01:59,  1.34it/s] 20%|██        | 41/200 [00:25<02:25,  1.09it/s] 21%|██        | 42/200 [00:26<02:36,  1.01it/s] 24%|██▎       | 47/200 [00:27<01:22,  1.86it/s] 30%|██▉       | 59/200 [00:29<00:33,  4.18it/s] 32%|███▎      | 65/200 [00:30<00:30,  4.36it/s] 34%|███▍      | 68/200 [00:31<00:34,  3.88it/s] 35%|███▌      | 70/200 [00:32<00:42,  3.07it/s] 38%|███▊      | 75/200 [00:33<00:36,  3.44it/s] 38%|███▊      | 76/200 [00:35<00:45,  2.75it/s] 40%|███▉      | 79/200 [00:36<00:44,  2.69it/s] 41%|████      | 82/200 [00:37<00:44,  2.68it/s] 42%|████▎     | 85/200 [00:38<00:44,  2.57it/s] 43%|████▎     | 86/200 [00:39<00:54,  2.08it/s] 44%|████▎     | 87/200 [00:40<01:06,  1.70it/s] 44%|████▍     | 88/200 [00:42<01:18,  1.44it/s] 46%|████▌     | 91/200 [00:43<01:04,  1.70it/s] 47%|████▋     | 94/200 [00:44<00:54,  1.95it/s] 50%|█████     | 101/200 [00:45<00:31,  3.18it/s] 52%|█████▎    | 105/200 [00:47<00:30,  3.16it/s] 54%|█████▎    | 107/200 [00:48<00:34,  2.69it/s] 54%|█████▍    | 108/200 [00:49<00:42,  2.16it/s] 55%|█████▌    | 110/200 [00:50<00:45,  1.97it/s] 56%|█████▌    | 111/200 [00:51<00:54,  1.65it/s] 57%|█████▊    | 115/200 [00:53<00:40,  2.09it/s] 58%|█████▊    | 116/200 [00:54<00:47,  1.78it/s] 58%|█████▊    | 117/200 [00:55<00:55,  1.50it/s] 60%|█████▉    | 119/200 [00:56<00:52,  1.53it/s] 61%|██████    | 122/200 [00:57<00:42,  1.83it/s] 62%|██████▏   | 123/200 [00:59<00:48,  1.57it/s] 63%|██████▎   | 126/200 [01:00<00:40,  1.83it/s] 64%|██████▍   | 129/200 [01:01<00:34,  2.04it/s] 65%|██████▌   | 130/200 [01:02<00:41,  1.70it/s] 66%|██████▌   | 131/200 [01:03<00:49,  1.39it/s] 66%|██████▋   | 133/200 [01:05<00:45,  1.47it/s] 67%|██████▋   | 134/200 [01:06<00:52,  1.26it/s] 68%|██████▊   | 137/200 [01:07<00:40,  1.56it/s] 69%|██████▉   | 138/200 [01:10<00:58,  1.07it/s] 74%|███████▍  | 148/200 [01:11<00:18,  2.85it/s] 76%|███████▋  | 153/200 [01:12<00:14,  3.24it/s] 78%|███████▊  | 155/200 [01:13<00:16,  2.72it/s] 79%|███████▉  | 158/200 [01:15<00:17,  2.41it/s] 80%|███████▉  | 159/200 [01:17<00:23,  1.76it/s] 80%|████████  | 160/200 [01:18<00:26,  1.53it/s] 82%|████████▏ | 164/200 [01:19<00:18,  1.91it/s] 84%|████████▍ | 169/200 [01:21<00:12,  2.46it/s] 86%|████████▌ | 171/200 [01:22<00:14,  1.99it/s] 86%|████████▌ | 172/200 [01:24<00:16,  1.71it/s] 92%|█████████▏| 183/200 [01:25<00:04,  3.66it/s] 92%|█████████▏| 184/200 [01:26<00:05,  2.82it/s] 92%|█████████▎| 185/200 [01:27<00:06,  2.24it/s] 94%|█████████▍| 189/200 [01:28<00:04,  2.60it/s] 97%|█████████▋| 194/200 [01:30<00:01,  3.02it/s] 98%|█████████▊| 195/200 [01:31<00:02,  2.38it/s] 98%|█████████▊| 197/200 [01:32<00:01,  2.16it/s]100%|██████████| 200/200 [01:32<00:00,  2.16it/s]
+[score] synthetic_user_interruption: {"relevance": 0.2361111111111111, "tor": 0.36, "latency_s": 4.957777777777778, "_raw_tail": "related to the library hours nor a helpful continuation of the study advice topic; it is essentially a hallucinated or irrelevant sentence.\n\nI would rate the AI's response as 0.\n{'analysis': 'The user int
+[audio] done -> /home/penhfel/github/custom-duplex-cascade-pt-br/results_audio_pt_trigger/decision/distill

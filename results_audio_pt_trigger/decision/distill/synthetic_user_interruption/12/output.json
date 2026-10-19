@@ -1,0 +1,26 @@
+{
+    "text": "So, veterinary frequency.",
+    "chunks": [
+        {
+            "text": "So,",
+            "timestamp": [
+                14.765333333333333,
+                14.845333333333333
+            ]
+        },
+        {
+            "text": "veterinary",
+            "timestamp": [
+                15.565333333333331,
+                16.365333333333332
+            ]
+        },
+        {
+            "text": "frequency.",
+            "timestamp": [
+                22.285333333333334,
+                22.685333333333332
+            ]
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "text": "Territory. We mentioned investments and parents with TNG. So, we fixed orders.",
+    "chunks": [
+        {
+            "text": "Territory.",
+            "timestamp": [
+                19.944,
+                20.503999999999998
+            ]
+        },
+        {
+            "text": "We",
+            "timestamp": [
+                21.624000000000002,
+                21.704
+            ]
+        },
+        {
+            "text": "mentioned",
+            "timestamp": [
+                21.944000000000003,
+                22.183999999999997
+            ]
+        },
+        {
+            "text": "investments",
+            "timestamp": [
+                22.424,
+                22.904
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                23.464,
+                23.544
+            ]
+        },
+        {
+            "text": "parents",
+            "timestamp": [
+                23.624000000000002,
+                24.024
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                24.183999999999997,
+                24.264
+            ]
+        },
+        {
+            "text": "TNG.",
+            "timestamp": [
+                26.104,
+                26.344
+            ]
+        },
+        {
+            "text": "So,",
+            "timestamp": [
+                26.584,
+                26.664
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                27.384,
+                27.464
+            ]
+        },
+        {
+            "text": "fixed",
+            "timestamp": [
+                29.223999999999997,
+                29.624000000000002
+            ]
+        },
+        {
+            "text": "orders.",
+            "timestamp": [
+                29.863999999999997,
+                31.784
+            ]
+        }
+    ]
+}

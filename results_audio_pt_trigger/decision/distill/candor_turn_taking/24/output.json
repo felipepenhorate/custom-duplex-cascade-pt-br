@@ -1,0 +1,26 @@
+{
+    "text": "Pus Pares Agor",
+    "chunks": [
+        {
+            "text": "Pus",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        },
+        {
+            "text": "Pares",
+            "timestamp": [
+                11.76,
+                12.16
+            ]
+        },
+        {
+            "text": "Agor",
+            "timestamp": [
+                12.8,
+                13.44
+            ]
+        }
+    ]
+}

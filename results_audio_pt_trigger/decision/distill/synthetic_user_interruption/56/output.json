@@ -1,0 +1,40 @@
+{
+    "text": "Aguarantinji perfectly historic. And I",
+    "chunks": [
+        {
+            "text": "Aguarantinji",
+            "timestamp": [
+                17.688000000000002,
+                18.488
+            ]
+        },
+        {
+            "text": "perfectly",
+            "timestamp": [
+                18.568,
+                19.048000000000002
+            ]
+        },
+        {
+            "text": "historic.",
+            "timestamp": [
+                22.888,
+                23.208000000000002
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                28.888,
+                29.048000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                33.048,
+                33.128
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "text": "I won the job serundioguncerio.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                22.72,
+                22.8
+            ]
+        },
+        {
+            "text": "won",
+            "timestamp": [
+                22.88,
+                23.04
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                23.12,
+                23.2
+            ]
+        },
+        {
+            "text": "job",
+            "timestamp": [
+                23.28,
+                23.52
+            ]
+        },
+        {
+            "text": "serundioguncerio.",
+            "timestamp": [
+                23.84,
+                37.76
+            ]
+        }
+    ]
+}

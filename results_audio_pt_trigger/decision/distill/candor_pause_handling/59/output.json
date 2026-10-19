@@ -1,0 +1,26 @@
+{
+    "text": "Agua Ring Tingji.",
+    "chunks": [
+        {
+            "text": "Agua",
+            "timestamp": [
+                19.6,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "Ring",
+            "timestamp": [
+                20.16,
+                20.32
+            ]
+        },
+        {
+            "text": "Tingji.",
+            "timestamp": [
+                20.400000000000002,
+                20.8
+            ]
+        }
+    ]
+}

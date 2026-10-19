@@ -1,0 +1,75 @@
+{
+    "text": "It is combining this. It is probably like a digital.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                16.744,
+                16.824
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                17.144,
+                17.224
+            ]
+        },
+        {
+            "text": "combining",
+            "timestamp": [
+                17.464,
+                17.864
+            ]
+        },
+        {
+            "text": "this.",
+            "timestamp": [
+                19.544,
+                19.624000000000002
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                23.944000000000003,
+                24.024
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                24.024,
+                24.104
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                24.184,
+                24.264000000000003
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                28.424,
+                28.504
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                28.904,
+                28.984
+            ]
+        },
+        {
+            "text": "digital.",
+            "timestamp": [
+                29.304000000000002,
+                29.624000000000002
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "text": "Go ahead and sit to understand two sites to compare.",
+    "chunks": [
+        {
+            "text": "Go",
+            "timestamp": [
+                23.976,
+                24.136000000000003
+            ]
+        },
+        {
+            "text": "ahead",
+            "timestamp": [
+                24.536,
+                24.695999999999998
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                24.856,
+                24.936
+            ]
+        },
+        {
+            "text": "sit",
+            "timestamp": [
+                25.176000000000002,
+                25.336
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                25.496000000000002,
+                25.576
+            ]
+        },
+        {
+            "text": "understand",
+            "timestamp": [
+                25.736,
+                25.816000000000003
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                31.016,
+                31.096000000000004
+            ]
+        },
+        {
+            "text": "sites",
+            "timestamp": [
+                31.656,
+                31.816000000000003
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                31.896,
+                31.976
+            ]
+        },
+        {
+            "text": "compare.",
+            "timestamp": [
+                32.056,
+                32.216
+            ]
+        }
+    ]
+}

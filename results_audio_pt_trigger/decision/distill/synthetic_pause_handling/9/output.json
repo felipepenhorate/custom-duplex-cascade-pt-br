@@ -1,0 +1,33 @@
+{
+    "text": "Agua Temos todos detalis.",
+    "chunks": [
+        {
+            "text": "Agua",
+            "timestamp": [
+                10.64,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "Temos",
+            "timestamp": [
+                11.120000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "todos",
+            "timestamp": [
+                11.44,
+                11.76
+            ]
+        },
+        {
+            "text": "detalis.",
+            "timestamp": [
+                11.84,
+                12.32
+            ]
+        }
+    ]
+}

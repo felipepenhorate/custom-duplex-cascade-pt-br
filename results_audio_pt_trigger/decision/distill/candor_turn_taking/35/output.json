@@ -1,0 +1,19 @@
+{
+    "text": "Agwaring thing.",
+    "chunks": [
+        {
+            "text": "Agwaring",
+            "timestamp": [
+                10.0,
+                10.72
+            ]
+        },
+        {
+            "text": "thing.",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        }
+    ]
+}

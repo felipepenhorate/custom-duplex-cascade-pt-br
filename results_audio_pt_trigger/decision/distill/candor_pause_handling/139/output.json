@@ -1,0 +1,33 @@
+{
+    "text": "According to Feta Mange",
+    "chunks": [
+        {
+            "text": "According",
+            "timestamp": [
+                13.36,
+                13.76
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.84,
+                13.92
+            ]
+        },
+        {
+            "text": "Feta",
+            "timestamp": [
+                14.4,
+                14.64
+            ]
+        },
+        {
+            "text": "Mange",
+            "timestamp": [
+                14.72,
+                14.96
+            ]
+        }
+    ]
+}

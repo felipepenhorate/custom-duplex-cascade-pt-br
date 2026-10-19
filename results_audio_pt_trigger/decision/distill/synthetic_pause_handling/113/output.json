@@ -1,0 +1,33 @@
+{
+    "text": "Here magica soda par",
+    "chunks": [
+        {
+            "text": "Here",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        },
+        {
+            "text": "magica",
+            "timestamp": [
+                9.120000000000001,
+                9.6
+            ]
+        },
+        {
+            "text": "soda",
+            "timestamp": [
+                9.6,
+                9.92
+            ]
+        },
+        {
+            "text": "par",
+            "timestamp": [
+                10.08,
+                10.24
+            ]
+        }
+    ]
+}
