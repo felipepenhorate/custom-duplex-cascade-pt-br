@@ -401,10 +401,12 @@ def stage_verify(scenarios, out_root: Path, *, limit: int | None = None) -> None
 
     from faster_whisper import WhisperModel
 
-    from .dataset import load_scenario
-
     bad_re = re.compile(r"(.)\1{5,}")
-    model = WhisperModel("medium", device="cuda", compute_type="float16")
+    # medium was the wrong judge for this: given language="pt" it *translates*
+    # English audio into fluent Portuguese (verified on the English control), so a
+    # degenerate transcript said nothing reliable. large-v3 transcribes instead of
+    # translating and is the model used for the check that found the real bug.
+    model = WhisperModel("large-v3", device="cuda", compute_type="float16")
     rows, bad = [], 0
     if limit:
         scenarios = scenarios[:limit]
