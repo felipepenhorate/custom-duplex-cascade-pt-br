@@ -251,7 +251,8 @@ def stage_asr(scenarios, out_root: Path, *, limit: int | None) -> None:
 
 
 def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str,
-                voice_source: str, api_base: str, dry_run: bool) -> None:
+                voice_source: str, api_base: str, dry_run: bool,
+                max_words: int = 15) -> None:
     import soundfile as sf
 
     if limit:
@@ -311,7 +312,8 @@ def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str
         for s in segments:
             if not s.text_pt:
                 continue
-            chunk = voice.speak(s.text_pt) if state is None else _speak_with_state(voice, state, s.text_pt)
+            chunk = (voice.speak(s.text_pt, max_words=max_words) if state is None
+                     else _speak_with_state(voice, state, s.text_pt, max_words))
             levelled, gain = peak_normalise(chunk.audio, 0.7)
             s.gain = round(gain, 3)
             fitted, rate, clamped = time_fit(levelled, s.slot_s)
@@ -361,7 +363,7 @@ def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str
     print(f"[build] done: {n_done} built, {n_skip} already present -> {out_root}", flush=True)
 
 
-def _speak_with_state(voice, state, text: str):
+def _speak_with_state(voice, state, text: str, max_words: int = 15):
     """pocket-tts synthesis with an explicit (cloned) conditioning state."""
     import numpy as np
 
@@ -369,7 +371,7 @@ def _speak_with_state(voice, state, text: str):
 
     t0 = time.monotonic()
     parts: list[np.ndarray] = []
-    for piece in split_for_tts(strip_for_speech(text)):
+    for piece in split_for_tts(strip_for_speech(text), max_words=max_words):
         try:
             for chunk in voice.model.generate_audio_stream(state, piece):
                 if hasattr(chunk, "detach"):
@@ -381,10 +383,50 @@ def _speak_with_state(voice, state, text: str):
     return SpokenChunk(text, audio, audio.size / SR, time.monotonic() - t0)
 
 
+def stage_verify(scenarios, out_root: Path, *, limit: int | None = None) -> None:
+    """Re-recognise what was built and flag held-vowel degeneration.
+
+    Prevention (the word cap above) is the first line, but the failure mode is
+    silent in the audio and only visible in what a recogniser makes of it -- a
+    held vowel transcribes as a run of one character. So the check is the same
+    one that found the problem: ASR the built input and look for long runs of a
+    repeated character.
+    """
+    import re
+
+    from faster_whisper import WhisperModel
+
+    from .dataset import load_scenario
+
+    bad_re = re.compile(r"(.)\1{5,}")
+    model = WhisperModel("medium", device="cuda", compute_type="float16")
+    rows, bad = [], 0
+    if limit:
+        scenarios = scenarios[:limit]
+    for n, sc in enumerate(scenarios, 1):
+        d = out_root / sc.subset / sc.sid
+        wav = d / "input.wav"
+        if not wav.is_file():
+            continue
+        segs, _ = model.transcribe(str(wav), language="pt", beam_size=1,
+                                   temperature=0.0, word_timestamps=False)
+        text = " ".join(s.text for s in segs)
+        hit = bool(bad_re.search(text))
+        bad += hit
+        rows.append({"subset": sc.subset, "sid": sc.sid, "degraded": hit,
+                     "text": text[:300]})
+        if n % 50 == 0 or n <= 3:
+            print(f"[verify] {n} checked, {bad} degraded", flush=True)
+    (out_root / "verify.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1),
+                                          encoding="utf-8")
+    print(f"[verify] {bad}/{len(rows)} scenarios show held-vowel degeneration "
+          f"-> {out_root / 'verify.json'}", flush=True)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--stage", default="build", choices=["asr", "build"])
+    ap.add_argument("--stage", default="build", choices=["asr", "build", "verify"])
     ap.add_argument("--data-root", type=Path, default=EN_ROOT)
     ap.add_argument("--out", type=Path, default=OUT_ROOT)
     ap.add_argument("--tasks", default="all",
@@ -393,6 +435,10 @@ def main() -> None:
     ap.add_argument("--voice", default=None,
                     help="pocket-tts catalog voice (default: the pt-BR default)")
     ap.add_argument("--voice-source", default="catalog", choices=["catalog", "clone"])
+    ap.add_argument("--max-words", type=int, default=15,
+                    help="words per pocket-tts call. The 30-word default produced "
+                         "50+ token chunks and a held-vowel degeneration on 57%% of "
+                         "the first pt-BR build; 15 keeps it inside the limit.")
     ap.add_argument("--api-base", default="http://127.0.0.1:8099/v1",
                     help="llama-server used for translation (Qwen3.5-9B)")
     ap.add_argument("--dry-run", action="store_true",
@@ -410,7 +456,9 @@ def main() -> None:
     else:
         stage_build(scenarios, args.out, limit=args.limit, voice_name=args.voice,
                     voice_source=args.voice_source, api_base=args.api_base,
-                    dry_run=args.dry_run)
+                    dry_run=args.dry_run, max_words=args.max_words)
+    if args.stage == "verify":
+        stage_verify(scenarios, args.out, limit=args.limit)
 
 
 if __name__ == "__main__":

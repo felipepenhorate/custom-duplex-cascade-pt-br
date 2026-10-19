@@ -128,7 +128,8 @@ class AssistantVoice:
         self.total_compute_s = 0.0
         self._torch = torch
 
-    def speak(self, text: str, *, tts_safe: bool | None = None) -> SpokenChunk:
+    def speak(self, text: str, *, tts_safe: bool | None = None,
+              max_words: int = 30) -> SpokenChunk:
         """Synthesize one assistant text chunk. Never raises.
 
         ``tts_safe`` defaults to the bridge's rule being applied for Portuguese
@@ -142,7 +143,7 @@ class AssistantVoice:
         if tts_safe:
             text = filter_period_for_tts(text).strip()
         text = strip_for_speech(text)
-        pieces_text = split_for_tts(text)
+        pieces_text = split_for_tts(text, max_words=max_words)
         if not pieces_text:
             return SpokenChunk("", np.zeros(0, dtype=np.float32), 0.0, 0.0)
         t0 = time.monotonic()
