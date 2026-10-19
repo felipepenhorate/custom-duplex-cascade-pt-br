@@ -1,0 +1,54 @@
+{
+    "text": "Properties because it's not a good thing.",
+    "chunks": [
+        {
+            "text": "Properties",
+            "timestamp": [
+                6.16,
+                6.88
+            ]
+        },
+        {
+            "text": "because",
+            "timestamp": [
+                9.040000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                12.96,
+                12.96
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                12.96,
+                12.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                12.96,
+                12.96
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                12.96,
+                12.96
+            ]
+        },
+        {
+            "text": "thing.",
+            "timestamp": [
+                12.96,
+                12.96
+            ]
+        }
+    ]
+}

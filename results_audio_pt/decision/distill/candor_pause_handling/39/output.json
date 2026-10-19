@@ -1,0 +1,19 @@
+{
+    "text": "According to",
+    "chunks": [
+        {
+            "text": "According",
+            "timestamp": [
+                18.32,
+                18.88
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                18.96,
+                19.04
+            ]
+        }
+    ]
+}

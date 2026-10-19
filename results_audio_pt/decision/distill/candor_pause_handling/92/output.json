@@ -1,0 +1,26 @@
+{
+    "text": "Message is a",
+    "chunks": [
+        {
+            "text": "Message",
+            "timestamp": [
+                8.56,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.120000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.36,
+                9.52
+            ]
+        }
+    ]
+}

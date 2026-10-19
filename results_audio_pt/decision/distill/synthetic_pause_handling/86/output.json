@@ -1,0 +1,47 @@
+{
+    "text": "Clarque sin. Open vex podemos organizais.",
+    "chunks": [
+        {
+            "text": "Clarque",
+            "timestamp": [
+                5.04,
+                5.68
+            ]
+        },
+        {
+            "text": "sin.",
+            "timestamp": [
+                5.76,
+                6.16
+            ]
+        },
+        {
+            "text": "Open",
+            "timestamp": [
+                6.8,
+                7.2
+            ]
+        },
+        {
+            "text": "vex",
+            "timestamp": [
+                7.28,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "podemos",
+            "timestamp": [
+                7.76,
+                8.16
+            ]
+        },
+        {
+            "text": "organizais.",
+            "timestamp": [
+                8.24,
+                8.8
+            ]
+        }
+    ]
+}

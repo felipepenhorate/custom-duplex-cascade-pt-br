@@ -1,0 +1,19 @@
+{
+    "text": "Yay, Abon",
+    "chunks": [
+        {
+            "text": "Yay,",
+            "timestamp": [
+                10.16,
+                10.56
+            ]
+        },
+        {
+            "text": "Abon",
+            "timestamp": [
+                11.36,
+                12.0
+            ]
+        }
+    ]
+}

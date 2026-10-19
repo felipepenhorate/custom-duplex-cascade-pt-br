@@ -1,0 +1,19 @@
+{
+    "text": "Clark C",
+    "chunks": [
+        {
+            "text": "Clark",
+            "timestamp": [
+                10.32,
+                10.72
+            ]
+        },
+        {
+            "text": "C",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "text": "It's probably here, disease, disease, disease. We can clarify and.",
+    "chunks": [
+        {
+            "text": "It's",
+            "timestamp": [
+                15.944,
+                16.184
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                16.184,
+                16.264
+            ]
+        },
+        {
+            "text": "here,",
+            "timestamp": [
+                16.904,
+                16.984
+            ]
+        },
+        {
+            "text": "disease,",
+            "timestamp": [
+                17.704,
+                18.024
+            ]
+        },
+        {
+            "text": "disease,",
+            "timestamp": [
+                18.504,
+                18.824
+            ]
+        },
+        {
+            "text": "disease.",
+            "timestamp": [
+                18.984,
+                19.624000000000002
+            ]
+        },
+        {
+            "text": "We",
+            "timestamp": [
+                24.184,
+                24.264000000000003
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                24.744,
+                24.823999999999998
+            ]
+        },
+        {
+            "text": "clarify",
+            "timestamp": [
+                25.304000000000002,
+                25.864
+            ]
+        },
+        {
+            "text": "and.",
+            "timestamp": [
+                26.024,
+                26.184
+            ]
+        }
+    ]
+}

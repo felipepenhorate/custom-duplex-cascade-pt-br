@@ -1,0 +1,47 @@
+{
+    "text": "It's probably fast format or something.",
+    "chunks": [
+        {
+            "text": "It's",
+            "timestamp": [
+                14.08,
+                14.24
+            ]
+        },
+        {
+            "text": "probably",
+            "timestamp": [
+                14.32,
+                14.4
+            ]
+        },
+        {
+            "text": "fast",
+            "timestamp": [
+                15.44,
+                15.6
+            ]
+        },
+        {
+            "text": "format",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                16.64,
+                16.72
+            ]
+        },
+        {
+            "text": "something.",
+            "timestamp": [
+                19.04,
+                19.04
+            ]
+        }
+    ]
+}

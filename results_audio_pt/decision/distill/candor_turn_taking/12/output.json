@@ -1,0 +1,117 @@
+{
+    "text": "It is like the PlayStation here in Tengi. How the PlayStation or what to do is.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                6.24,
+                6.32
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                6.32,
+                6.4
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                7.76,
+                7.84
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "PlayStation",
+            "timestamp": [
+                8.48,
+                8.88
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "Tengi.",
+            "timestamp": [
+                10.96,
+                11.36
+            ]
+        },
+        {
+            "text": "How",
+            "timestamp": [
+                14.16,
+                14.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                15.040000000000001,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "PlayStation",
+            "timestamp": [
+                15.200000000000001,
+                15.6
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                16.240000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                16.4,
+                16.48
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                17.12,
+                17.2
+            ]
+        },
+        {
+            "text": "do",
+            "timestamp": [
+                17.28,
+                17.36
+            ]
+        },
+        {
+            "text": "is.",
+            "timestamp": [
+                17.76,
+                17.84
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "text": "With justice, ah, guaranteed. You can see.",
+    "chunks": [
+        {
+            "text": "With",
+            "timestamp": [
+                13.44,
+                13.6
+            ]
+        },
+        {
+            "text": "justice,",
+            "timestamp": [
+                14.4,
+                14.72
+            ]
+        },
+        {
+            "text": "ah,",
+            "timestamp": [
+                15.120000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "guaranteed.",
+            "timestamp": [
+                15.76,
+                16.16
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                18.32,
+                18.400000000000002
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                18.8,
+                18.88
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                19.28,
+                19.28
+            ]
+        }
+    ]
+}

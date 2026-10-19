@@ -1,0 +1,47 @@
+{
+    "text": "Well, we are conversing with people.",
+    "chunks": [
+        {
+            "text": "Well,",
+            "timestamp": [
+                18.232,
+                18.311999999999998
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                18.472,
+                18.552
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                18.872,
+                18.951999999999998
+            ]
+        },
+        {
+            "text": "conversing",
+            "timestamp": [
+                20.072,
+                20.311999999999998
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                21.192,
+                21.272
+            ]
+        },
+        {
+            "text": "people.",
+            "timestamp": [
+                28.472,
+                28.631999999999998
+            ]
+        }
+    ]
+}

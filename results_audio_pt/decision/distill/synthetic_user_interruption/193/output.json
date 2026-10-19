@@ -1,0 +1,40 @@
+{
+    "text": "It's guaranteed to me that.",
+    "chunks": [
+        {
+            "text": "It's",
+            "timestamp": [
+                14.728,
+                14.968
+            ]
+        },
+        {
+            "text": "guaranteed",
+            "timestamp": [
+                15.368,
+                15.927999999999999
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                16.567999999999998,
+                16.648
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                17.048000000000002,
+                17.128
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                17.288,
+                17.368
+            ]
+        }
+    ]
+}

@@ -125,13 +125,14 @@ def main() -> None:
     ap.add_argument("--data-root", type=Path, default=Path("/mnt/f/fdb_data/pt_v1.0"))
     ap.add_argument("--score-tmp", type=Path, default=Path("/tmp/opencode/score_pt_whisper"))
     ap.add_argument("--whisper", default="large-v3")
+    ap.add_argument("--lang", default="pt", help="ASR language (pt for the re-voiced set, en to check a code-switching English run)")
     ap.add_argument("--judge-api-base", default="http://127.0.0.1:8099/v1")
     ap.add_argument("--tasks", default="all")
     ap.add_argument("--out-name", default="metrics_whisper.json")
     args = ap.parse_args()
 
     tasks = list(TASKS) if args.tasks == "all" else args.tasks.split(",")
-    scorer = WhisperScorer(args.whisper, "pt")
+    scorer = WhisperScorer(args.whisper, args.lang)
     judge = LocalJudgeShim(args.judge_api_base)
     metrics: dict = {}
     for subset in tasks:
@@ -190,7 +191,7 @@ def main() -> None:
 
     out = args.results / args.mode / args.model / args.out_name
     out.write_text(json.dumps({
-        "model": args.model, "asr": f"faster-whisper {args.whisper}", "language": "pt",
+        "model": args.model, "asr": f"faster-whisper {args.whisper}", "language": args.lang,
         "note": "parakeet (the upstream recipe) is English-only; this re-scores the "
                 "same audio and annotations with a Portuguese recogniser",
         "official_task_metrics": metrics,
