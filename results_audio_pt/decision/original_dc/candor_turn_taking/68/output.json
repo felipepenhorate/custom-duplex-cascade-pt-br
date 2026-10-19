@@ -1,0 +1,89 @@
+{
+    "text": "We have the important target and investment regulation here, and we are.",
+    "chunks": [
+        {
+            "text": "We",
+            "timestamp": [
+                24.64,
+                24.72
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                24.72,
+                24.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                27.12,
+                27.2
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                27.92,
+                28.0
+            ]
+        },
+        {
+            "text": "target",
+            "timestamp": [
+                28.400000000000002,
+                28.560000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                28.88,
+                28.96
+            ]
+        },
+        {
+            "text": "investment",
+            "timestamp": [
+                29.6,
+                29.92
+            ]
+        },
+        {
+            "text": "regulation",
+            "timestamp": [
+                30.16,
+                30.72
+            ]
+        },
+        {
+            "text": "here,",
+            "timestamp": [
+                30.88,
+                31.04
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                31.28,
+                31.36
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                31.44,
+                31.52
+            ]
+        },
+        {
+            "text": "are.",
+            "timestamp": [
+                31.52,
+                31.6
+            ]
+        }
+    ]
+}

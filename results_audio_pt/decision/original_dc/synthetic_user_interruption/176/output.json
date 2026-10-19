@@ -1,0 +1,61 @@
+{
+    "text": "Various forms, including sarcasm, ironia, saches, forget, situational.",
+    "chunks": [
+        {
+            "text": "Various",
+            "timestamp": [
+                26.631999999999998,
+                26.872
+            ]
+        },
+        {
+            "text": "forms,",
+            "timestamp": [
+                26.951999999999998,
+                27.192
+            ]
+        },
+        {
+            "text": "including",
+            "timestamp": [
+                27.432000000000002,
+                27.752000000000002
+            ]
+        },
+        {
+            "text": "sarcasm,",
+            "timestamp": [
+                27.912,
+                28.631999999999998
+            ]
+        },
+        {
+            "text": "ironia,",
+            "timestamp": [
+                29.031999999999996,
+                29.592
+            ]
+        },
+        {
+            "text": "saches,",
+            "timestamp": [
+                29.832,
+                30.311999999999998
+            ]
+        },
+        {
+            "text": "forget,",
+            "timestamp": [
+                30.392000000000003,
+                30.792
+            ]
+        },
+        {
+            "text": "situational.",
+            "timestamp": [
+                31.032000000000004,
+                31.351999999999997
+            ]
+        }
+    ]
+}

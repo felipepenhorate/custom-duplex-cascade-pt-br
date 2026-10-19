@@ -1,0 +1,61 @@
+{
+    "text": "For us, we have consulted more than that.",
+    "chunks": [
+        {
+            "text": "For",
+            "timestamp": [
+                6.48,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "us,",
+            "timestamp": [
+                9.28,
+                9.36
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "consulted",
+            "timestamp": [
+                10.08,
+                10.48
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "than",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                13.040000000000001,
+                13.120000000000001
+            ]
+        }
+    ]
+}

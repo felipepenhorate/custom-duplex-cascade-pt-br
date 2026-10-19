@@ -1,0 +1,54 @@
+{
+    "text": "Paro, it is a possibility of luck.",
+    "chunks": [
+        {
+            "text": "Paro,",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "possibility",
+            "timestamp": [
+                10.24,
+                10.56
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "luck.",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        }
+    ]
+}

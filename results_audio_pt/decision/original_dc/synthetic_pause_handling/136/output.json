@@ -1,0 +1,54 @@
+{
+    "text": "Paro que tamasetas quebra 4 esto 1.",
+    "chunks": [
+        {
+            "text": "Paro",
+            "timestamp": [
+                6.32,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "que",
+            "timestamp": [
+                6.8,
+                6.96
+            ]
+        },
+        {
+            "text": "tamasetas",
+            "timestamp": [
+                6.96,
+                7.76
+            ]
+        },
+        {
+            "text": "quebra",
+            "timestamp": [
+                9.68,
+                10.16
+            ]
+        },
+        {
+            "text": "4",
+            "timestamp": [
+                10.8,
+                10.96
+            ]
+        },
+        {
+            "text": "esto",
+            "timestamp": [
+                11.28,
+                11.6
+            ]
+        },
+        {
+            "text": "1.",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        }
+    ]
+}

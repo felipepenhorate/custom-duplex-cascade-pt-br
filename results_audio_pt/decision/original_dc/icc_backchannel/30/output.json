@@ -1,0 +1,201 @@
+{
+    "text": "Turkey school universities and university and Boston University work and here. Ferences who can localize universities in Boston. They are two schools important to consider as localization, also.",
+    "chunks": [
+        {
+            "text": "Turkey",
+            "timestamp": [
+                22.0,
+                22.32
+            ]
+        },
+        {
+            "text": "school",
+            "timestamp": [
+                23.28,
+                23.44
+            ]
+        },
+        {
+            "text": "universities",
+            "timestamp": [
+                24.96,
+                25.44
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                25.44,
+                25.52
+            ]
+        },
+        {
+            "text": "university",
+            "timestamp": [
+                26.16,
+                26.560000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                26.96,
+                27.04
+            ]
+        },
+        {
+            "text": "Boston",
+            "timestamp": [
+                27.28,
+                27.52
+            ]
+        },
+        {
+            "text": "University",
+            "timestamp": [
+                27.6,
+                27.84
+            ]
+        },
+        {
+            "text": "work",
+            "timestamp": [
+                30.96,
+                31.04
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                32.32,
+                32.4
+            ]
+        },
+        {
+            "text": "here.",
+            "timestamp": [
+                33.12,
+                33.2
+            ]
+        },
+        {
+            "text": "Ferences",
+            "timestamp": [
+                34.0,
+                34.32
+            ]
+        },
+        {
+            "text": "who",
+            "timestamp": [
+                34.56,
+                34.64
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                34.72,
+                34.800000000000004
+            ]
+        },
+        {
+            "text": "localize",
+            "timestamp": [
+                37.76,
+                38.24
+            ]
+        },
+        {
+            "text": "universities",
+            "timestamp": [
+                38.480000000000004,
+                38.800000000000004
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                40.0,
+                40.08
+            ]
+        },
+        {
+            "text": "Boston.",
+            "timestamp": [
+                40.480000000000004,
+                40.72
+            ]
+        },
+        {
+            "text": "They",
+            "timestamp": [
+                50.800000000000004,
+                50.88
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                50.88,
+                50.96
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                51.04,
+                51.120000000000005
+            ]
+        },
+        {
+            "text": "schools",
+            "timestamp": [
+                51.44,
+                51.68
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                52.72,
+                52.800000000000004
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                53.120000000000005,
+                53.2
+            ]
+        },
+        {
+            "text": "consider",
+            "timestamp": [
+                53.2,
+                53.44
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                54.08,
+                54.160000000000004
+            ]
+        },
+        {
+            "text": "localization,",
+            "timestamp": [
+                54.32,
+                54.800000000000004
+            ]
+        },
+        {
+            "text": "also.",
+            "timestamp": [
+                55.04,
+                55.120000000000005
+            ]
+        }
+    ]
+}

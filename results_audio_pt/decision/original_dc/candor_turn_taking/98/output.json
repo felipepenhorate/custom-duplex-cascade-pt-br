@@ -1,0 +1,68 @@
+{
+    "text": "These are experienced graduation, a work with transition projects.",
+    "chunks": [
+        {
+            "text": "These",
+            "timestamp": [
+                26.8,
+                27.12
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                27.52,
+                27.6
+            ]
+        },
+        {
+            "text": "experienced",
+            "timestamp": [
+                28.32,
+                28.560000000000002
+            ]
+        },
+        {
+            "text": "graduation,",
+            "timestamp": [
+                28.88,
+                29.36
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                30.560000000000002,
+                30.64
+            ]
+        },
+        {
+            "text": "work",
+            "timestamp": [
+                30.8,
+                30.88
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                31.2,
+                31.28
+            ]
+        },
+        {
+            "text": "transition",
+            "timestamp": [
+                32.56,
+                32.88
+            ]
+        },
+        {
+            "text": "projects.",
+            "timestamp": [
+                33.12,
+                33.76
+            ]
+        }
+    ]
+}

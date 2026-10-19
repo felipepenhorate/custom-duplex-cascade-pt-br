@@ -1,0 +1,19 @@
+{
+    "text": "Importantly, society.",
+    "chunks": [
+        {
+            "text": "Importantly,",
+            "timestamp": [
+                12.32,
+                12.72
+            ]
+        },
+        {
+            "text": "society.",
+            "timestamp": [
+                13.76,
+                14.08
+            ]
+        }
+    ]
+}

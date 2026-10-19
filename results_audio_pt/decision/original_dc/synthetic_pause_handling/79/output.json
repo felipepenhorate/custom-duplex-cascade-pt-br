@@ -1,0 +1,40 @@
+{
+    "text": "And very adventure and tourizad.",
+    "chunks": [
+        {
+            "text": "And",
+            "timestamp": [
+                3.7600000000000002,
+                3.84
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                4.5600000000000005,
+                4.64
+            ]
+        },
+        {
+            "text": "adventure",
+            "timestamp": [
+                6.24,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                6.88,
+                6.96
+            ]
+        },
+        {
+            "text": "tourizad.",
+            "timestamp": [
+                7.2,
+                7.92
+            ]
+        }
+    ]
+}

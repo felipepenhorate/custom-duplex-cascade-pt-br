@@ -1,0 +1,19 @@
+{
+    "text": "Poem here.",
+    "chunks": [
+        {
+            "text": "Poem",
+            "timestamp": [
+                5.36,
+                5.68
+            ]
+        },
+        {
+            "text": "here.",
+            "timestamp": [
+                8.08,
+                8.16
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "text": "Professor Institutor video tutorial or the city.",
+    "chunks": [
+        {
+            "text": "Professor",
+            "timestamp": [
+                5.36,
+                5.92
+            ]
+        },
+        {
+            "text": "Institutor",
+            "timestamp": [
+                6.24,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "video",
+            "timestamp": [
+                6.88,
+                7.2
+            ]
+        },
+        {
+            "text": "tutorial",
+            "timestamp": [
+                7.44,
+                7.76
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "city.",
+            "timestamp": [
+                12.32,
+                12.4
+            ]
+        }
+    ]
+}

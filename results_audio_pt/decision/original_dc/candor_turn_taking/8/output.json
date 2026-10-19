@@ -1,0 +1,110 @@
+{
+    "text": "We are collecting and as artificial intelligence has been information and assistance with our data.",
+    "chunks": [
+        {
+            "text": "We",
+            "timestamp": [
+                3.04,
+                3.12
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                3.2800000000000002,
+                3.36
+            ]
+        },
+        {
+            "text": "collecting",
+            "timestamp": [
+                3.52,
+                4.0
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                4.24,
+                4.32
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                4.5600000000000005,
+                4.64
+            ]
+        },
+        {
+            "text": "artificial",
+            "timestamp": [
+                5.84,
+                6.08
+            ]
+        },
+        {
+            "text": "intelligence",
+            "timestamp": [
+                6.16,
+                6.32
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                11.52,
+                11.6
+            ]
+        },
+        {
+            "text": "information",
+            "timestamp": [
+                11.68,
+                12.16
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.56,
+                12.64
+            ]
+        },
+        {
+            "text": "assistance",
+            "timestamp": [
+                12.8,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                13.44,
+                13.52
+            ]
+        },
+        {
+            "text": "our",
+            "timestamp": [
+                14.0,
+                14.08
+            ]
+        },
+        {
+            "text": "data.",
+            "timestamp": [
+                14.24,
+                14.4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "text": "School people confused, but you know, messaging if you don't specify.",
+    "chunks": [
+        {
+            "text": "School",
+            "timestamp": [
+                5.84,
+                6.08
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                6.16,
+                6.24
+            ]
+        },
+        {
+            "text": "confused,",
+            "timestamp": [
+                6.5600000000000005,
+                6.88
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                7.04,
+                7.12
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.76,
+                7.84
+            ]
+        },
+        {
+            "text": "know,",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "messaging",
+            "timestamp": [
+                8.56,
+                8.8
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                8.96,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                9.120000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "specify.",
+            "timestamp": [
+                11.44,
+                11.76
+            ]
+        }
+    ]
+}

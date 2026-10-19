@@ -1,0 +1,26 @@
+{
+    "text": "Here we are.",
+    "chunks": [
+        {
+            "text": "Here",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        },
+        {
+            "text": "are.",
+            "timestamp": [
+                8.56,
+                8.72
+            ]
+        }
+    ]
+}

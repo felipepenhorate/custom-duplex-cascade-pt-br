@@ -1,0 +1,96 @@
+{
+    "text": "If you are so good in control, you will be able to see.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                10.4,
+                10.48
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                11.36,
+                11.44
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                13.52,
+                13.6
+            ]
+        },
+        {
+            "text": "control,",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.4,
+                14.48
+            ]
+        },
+        {
+            "text": "will",
+            "timestamp": [
+                14.56,
+                14.64
+            ]
+        },
+        {
+            "text": "be",
+            "timestamp": [
+                14.8,
+                14.88
+            ]
+        },
+        {
+            "text": "able",
+            "timestamp": [
+                14.88,
+                14.96
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.96,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "see.",
+            "timestamp": [
+                15.36,
+                15.44
+            ]
+        }
+    ]
+}

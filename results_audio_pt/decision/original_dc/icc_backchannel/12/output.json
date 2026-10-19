@@ -1,0 +1,82 @@
+{
+    "text": "Sotenta today combat referring to the space that is causing it.",
+    "chunks": [
+        {
+            "text": "Sotenta",
+            "timestamp": [
+                6.88,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "today",
+            "timestamp": [
+                7.68,
+                7.76
+            ]
+        },
+        {
+            "text": "combat",
+            "timestamp": [
+                8.24,
+                8.64
+            ]
+        },
+        {
+            "text": "referring",
+            "timestamp": [
+                36.56,
+                36.96
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                39.76,
+                39.84
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                41.2,
+                41.28
+            ]
+        },
+        {
+            "text": "space",
+            "timestamp": [
+                41.28,
+                41.52
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                43.68,
+                43.76
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                43.76,
+                43.84
+            ]
+        },
+        {
+            "text": "causing",
+            "timestamp": [
+                43.92,
+                44.4
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                44.800000000000004,
+                45.04
+            ]
+        }
+    ]
+}

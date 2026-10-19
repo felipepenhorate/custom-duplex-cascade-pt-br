@@ -1,0 +1,75 @@
+{
+    "text": "Adores Pedro Philosophal. Adoriz Adores Philosophal. Jackie Hollington. Pedro Philosophal.",
+    "chunks": [
+        {
+            "text": "Adores",
+            "timestamp": [
+                1.76,
+                2.32
+            ]
+        },
+        {
+            "text": "Pedro",
+            "timestamp": [
+                2.56,
+                2.88
+            ]
+        },
+        {
+            "text": "Philosophal.",
+            "timestamp": [
+                2.96,
+                3.6
+            ]
+        },
+        {
+            "text": "Adoriz",
+            "timestamp": [
+                4.32,
+                4.96
+            ]
+        },
+        {
+            "text": "Adores",
+            "timestamp": [
+                7.84,
+                8.32
+            ]
+        },
+        {
+            "text": "Philosophal.",
+            "timestamp": [
+                8.56,
+                9.36
+            ]
+        },
+        {
+            "text": "Jackie",
+            "timestamp": [
+                9.84,
+                10.48
+            ]
+        },
+        {
+            "text": "Hollington.",
+            "timestamp": [
+                10.56,
+                10.96
+            ]
+        },
+        {
+            "text": "Pedro",
+            "timestamp": [
+                12.88,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "Philosophal.",
+            "timestamp": [
+                13.280000000000001,
+                13.68
+            ]
+        }
+    ]
+}

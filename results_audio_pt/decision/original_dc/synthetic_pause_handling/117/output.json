@@ -1,0 +1,61 @@
+{
+    "text": "Sebastian como and many of them for this.",
+    "chunks": [
+        {
+            "text": "Sebastian",
+            "timestamp": [
+                5.92,
+                6.4
+            ]
+        },
+        {
+            "text": "como",
+            "timestamp": [
+                6.640000000000001,
+                6.96
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                6.96,
+                7.04
+            ]
+        },
+        {
+            "text": "many",
+            "timestamp": [
+                7.12,
+                7.2
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.120000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "them",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                9.52,
+                9.6
+            ]
+        },
+        {
+            "text": "this.",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        }
+    ]
+}

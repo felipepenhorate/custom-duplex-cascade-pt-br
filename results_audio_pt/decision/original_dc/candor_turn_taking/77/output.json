@@ -1,0 +1,40 @@
+{
+    "text": "$5 million, significant and supportive.",
+    "chunks": [
+        {
+            "text": "$5",
+            "timestamp": [
+                7.84,
+                7.92
+            ]
+        },
+        {
+            "text": "million,",
+            "timestamp": [
+                8.16,
+                8.4
+            ]
+        },
+        {
+            "text": "significant",
+            "timestamp": [
+                10.16,
+                10.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                11.84,
+                11.92
+            ]
+        },
+        {
+            "text": "supportive.",
+            "timestamp": [
+                12.08,
+                12.8
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "text": "Varo understand.",
+    "chunks": [
+        {
+            "text": "Varo",
+            "timestamp": [
+                8.72,
+                9.36
+            ]
+        },
+        {
+            "text": "understand.",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        }
+    ]
+}

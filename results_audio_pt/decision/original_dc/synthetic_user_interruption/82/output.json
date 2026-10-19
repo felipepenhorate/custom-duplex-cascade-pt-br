@@ -1,0 +1,33 @@
+{
+    "text": "Claro, podemos modadoy costalojo.",
+    "chunks": [
+        {
+            "text": "Claro,",
+            "timestamp": [
+                15.389333333333333,
+                15.789333333333333
+            ]
+        },
+        {
+            "text": "podemos",
+            "timestamp": [
+                15.869333333333334,
+                16.349333333333334
+            ]
+        },
+        {
+            "text": "modadoy",
+            "timestamp": [
+                16.349333333333334,
+                16.989333333333335
+            ]
+        },
+        {
+            "text": "costalojo.",
+            "timestamp": [
+                17.069333333333333,
+                19.149333333333335
+            ]
+        }
+    ]
+}

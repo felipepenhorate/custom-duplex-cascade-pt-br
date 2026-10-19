@@ -1,0 +1,47 @@
+{
+    "text": "Guys, specifically, for example, more information.",
+    "chunks": [
+        {
+            "text": "Guys,",
+            "timestamp": [
+                12.242666666666667,
+                12.402666666666667
+            ]
+        },
+        {
+            "text": "specifically,",
+            "timestamp": [
+                12.562666666666667,
+                12.882666666666665
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                14.162666666666667,
+                14.242666666666667
+            ]
+        },
+        {
+            "text": "example,",
+            "timestamp": [
+                14.242666666666667,
+                14.402666666666667
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                15.442666666666666,
+                15.522666666666666
+            ]
+        },
+        {
+            "text": "information.",
+            "timestamp": [
+                17.282666666666668,
+                17.602666666666664
+            ]
+        }
+    ]
+}

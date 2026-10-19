@@ -1,0 +1,68 @@
+{
+    "text": "And today, we instinctively characteristic of Alabama and coincidence.",
+    "chunks": [
+        {
+            "text": "And",
+            "timestamp": [
+                6.5600000000000005,
+                6.72
+            ]
+        },
+        {
+            "text": "today,",
+            "timestamp": [
+                6.96,
+                7.04
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                8.16,
+                8.24
+            ]
+        },
+        {
+            "text": "instinctively",
+            "timestamp": [
+                9.040000000000001,
+                9.76
+            ]
+        },
+        {
+            "text": "characteristic",
+            "timestamp": [
+                9.92,
+                10.4
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                12.16,
+                12.24
+            ]
+        },
+        {
+            "text": "Alabama",
+            "timestamp": [
+                12.24,
+                12.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        },
+        {
+            "text": "coincidence.",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "text": "Play here to convey information as possible, possibly various manures.",
+    "chunks": [
+        {
+            "text": "Play",
+            "timestamp": [
+                5.36,
+                5.68
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                7.12,
+                7.2
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                7.28,
+                7.36
+            ]
+        },
+        {
+            "text": "convey",
+            "timestamp": [
+                7.44,
+                7.76
+            ]
+        },
+        {
+            "text": "information",
+            "timestamp": [
+                8.32,
+                8.56
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                8.96,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "possible,",
+            "timestamp": [
+                9.200000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "possibly",
+            "timestamp": [
+                10.56,
+                10.88
+            ]
+        },
+        {
+            "text": "various",
+            "timestamp": [
+                11.6,
+                11.84
+            ]
+        },
+        {
+            "text": "manures.",
+            "timestamp": [
+                12.0,
+                12.48
+            ]
+        }
+    ]
+}

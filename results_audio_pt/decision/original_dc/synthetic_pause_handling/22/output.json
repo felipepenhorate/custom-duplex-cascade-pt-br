@@ -1,0 +1,40 @@
+{
+    "text": "Plaro, what are you doing?",
+    "chunks": [
+        {
+            "text": "Plaro,",
+            "timestamp": [
+                8.0,
+                8.4
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.32,
+                10.4
+            ]
+        },
+        {
+            "text": "doing?",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "text": "How artificial intelligence is, so.",
+    "chunks": [
+        {
+            "text": "How",
+            "timestamp": [
+                5.76,
+                5.92
+            ]
+        },
+        {
+            "text": "artificial",
+            "timestamp": [
+                7.2,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "intelligence",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "is,",
+            "timestamp": [
+                8.16,
+                8.24
+            ]
+        },
+        {
+            "text": "so.",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        }
+    ]
+}

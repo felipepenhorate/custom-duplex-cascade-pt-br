@@ -1,0 +1,61 @@
+{
+    "text": "Scoopy, my friend, my continued converse on SO.",
+    "chunks": [
+        {
+            "text": "Scoopy,",
+            "timestamp": [
+                17.12,
+                17.76
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                17.92,
+                18.0
+            ]
+        },
+        {
+            "text": "friend,",
+            "timestamp": [
+                20.96,
+                21.04
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                43.68,
+                43.76
+            ]
+        },
+        {
+            "text": "continued",
+            "timestamp": [
+                44.32,
+                44.64
+            ]
+        },
+        {
+            "text": "converse",
+            "timestamp": [
+                44.800000000000004,
+                45.04
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                45.12,
+                45.2
+            ]
+        },
+        {
+            "text": "SO.",
+            "timestamp": [
+                45.28,
+                45.92
+            ]
+        }
+    ]
+}

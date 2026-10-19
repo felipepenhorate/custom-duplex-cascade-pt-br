@@ -1,0 +1,68 @@
+{
+    "text": "Afraid of the world, the suggestion of the world.",
+    "chunks": [
+        {
+            "text": "Afraid",
+            "timestamp": [
+                13.120000000000001,
+                13.84
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                14.56,
+                14.64
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                15.68,
+                15.68
+            ]
+        },
+        {
+            "text": "world,",
+            "timestamp": [
+                15.68,
+                15.68
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                15.92,
+                16.0
+            ]
+        },
+        {
+            "text": "suggestion",
+            "timestamp": [
+                16.72,
+                16.96
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                16.96,
+                16.96
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.96,
+                16.96
+            ]
+        },
+        {
+            "text": "world.",
+            "timestamp": [
+                16.96,
+                16.96
+            ]
+        }
+    ]
+}

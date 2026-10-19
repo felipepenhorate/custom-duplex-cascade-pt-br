@@ -1,0 +1,89 @@
+{
+    "text": "So it is procured information about history and culture of Pennsylvania, however.",
+    "chunks": [
+        {
+            "text": "So",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                13.84,
+                13.92
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                13.92,
+                14.0
+            ]
+        },
+        {
+            "text": "procured",
+            "timestamp": [
+                14.08,
+                14.48
+            ]
+        },
+        {
+            "text": "information",
+            "timestamp": [
+                14.64,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                15.280000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "history",
+            "timestamp": [
+                15.68,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                16.56,
+                16.72
+            ]
+        },
+        {
+            "text": "culture",
+            "timestamp": [
+                16.88,
+                17.44
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                17.44,
+                17.52
+            ]
+        },
+        {
+            "text": "Pennsylvania,",
+            "timestamp": [
+                17.6,
+                18.16
+            ]
+        },
+        {
+            "text": "however.",
+            "timestamp": [
+                18.72,
+                20.400000000000002
+            ]
+        }
+    ]
+}

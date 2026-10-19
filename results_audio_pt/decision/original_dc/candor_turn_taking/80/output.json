@@ -1,0 +1,68 @@
+{
+    "text": "I think when you imagine 5 Starbucks and Macadonia.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                9.52,
+                9.6
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "imagine",
+            "timestamp": [
+                11.76,
+                12.08
+            ]
+        },
+        {
+            "text": "5",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        },
+        {
+            "text": "Starbucks",
+            "timestamp": [
+                14.48,
+                14.8
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                14.88,
+                14.96
+            ]
+        },
+        {
+            "text": "Macadonia.",
+            "timestamp": [
+                15.040000000000001,
+                15.68
+            ]
+        }
+    ]
+}

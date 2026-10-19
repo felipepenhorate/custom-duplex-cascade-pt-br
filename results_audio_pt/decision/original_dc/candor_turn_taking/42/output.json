@@ -1,0 +1,82 @@
+{
+    "text": "But I for example, if you have a service online and",
+    "chunks": [
+        {
+            "text": "But",
+            "timestamp": [
+                5.28,
+                5.36
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.84,
+                5.92
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "example,",
+            "timestamp": [
+                6.640000000000001,
+                6.72
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                6.88,
+                6.96
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                7.04,
+                7.12
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                7.44,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "service",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "online",
+            "timestamp": [
+                8.88,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        }
+    ]
+}

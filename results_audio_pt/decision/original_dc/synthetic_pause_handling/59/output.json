@@ -1,0 +1,26 @@
+{
+    "text": "Bridge Fomar Salapot",
+    "chunks": [
+        {
+            "text": "Bridge",
+            "timestamp": [
+                3.2,
+                3.6
+            ]
+        },
+        {
+            "text": "Fomar",
+            "timestamp": [
+                3.7600000000000002,
+                4.16
+            ]
+        },
+        {
+            "text": "Salapot",
+            "timestamp": [
+                4.32,
+                4.88
+            ]
+        }
+    ]
+}

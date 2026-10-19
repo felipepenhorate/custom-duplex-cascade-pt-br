@@ -1,0 +1,61 @@
+{
+    "text": "Simply Quart\u00e9bec, expressing the Gerald contest of sports.",
+    "chunks": [
+        {
+            "text": "Simply",
+            "timestamp": [
+                8.24,
+                8.72
+            ]
+        },
+        {
+            "text": "Quart\u00e9bec,",
+            "timestamp": [
+                9.120000000000001,
+                9.76
+            ]
+        },
+        {
+            "text": "expressing",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.88,
+                10.96
+            ]
+        },
+        {
+            "text": "Gerald",
+            "timestamp": [
+                11.28,
+                11.52
+            ]
+        },
+        {
+            "text": "contest",
+            "timestamp": [
+                12.0,
+                12.16
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                12.4,
+                12.48
+            ]
+        },
+        {
+            "text": "sports.",
+            "timestamp": [
+                12.48,
+                12.8
+            ]
+        }
+    ]
+}

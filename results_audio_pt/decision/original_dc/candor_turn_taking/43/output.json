@@ -1,0 +1,82 @@
+{
+    "text": "Here is a child as you can see here information because.",
+    "chunks": [
+        {
+            "text": "Here",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                6.4,
+                6.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "child",
+            "timestamp": [
+                7.92,
+                8.0
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                9.120000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                9.44,
+                9.52
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "information",
+            "timestamp": [
+                10.4,
+                10.88
+            ]
+        },
+        {
+            "text": "because.",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "For example, it is a little generic and positive.",
+    "chunks": [
+        {
+            "text": "For",
+            "timestamp": [
+                2.32,
+                2.4
+            ]
+        },
+        {
+            "text": "example,",
+            "timestamp": [
+                2.56,
+                2.72
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                3.92,
+                4.0
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                4.0,
+                4.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                4.08,
+                4.16
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                4.24,
+                4.32
+            ]
+        },
+        {
+            "text": "generic",
+            "timestamp": [
+                4.64,
+                4.88
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                5.2,
+                5.28
+            ]
+        },
+        {
+            "text": "positive.",
+            "timestamp": [
+                5.44,
+                6.08
+            ]
+        }
+    ]
+}

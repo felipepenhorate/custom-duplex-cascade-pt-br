@@ -1,0 +1,33 @@
+{
+    "text": "Paro, consider how climax.",
+    "chunks": [
+        {
+            "text": "Paro,",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "consider",
+            "timestamp": [
+                11.76,
+                12.16
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                12.24,
+                12.32
+            ]
+        },
+        {
+            "text": "climax.",
+            "timestamp": [
+                12.48,
+                12.88
+            ]
+        }
+    ]
+}

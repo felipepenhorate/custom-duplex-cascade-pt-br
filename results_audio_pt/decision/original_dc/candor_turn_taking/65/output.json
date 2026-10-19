@@ -1,0 +1,89 @@
+{
+    "text": "If you are here, I decrease polemic or conflict of importance, but.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                10.08,
+                10.16
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "here,",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.84,
+                11.92
+            ]
+        },
+        {
+            "text": "decrease",
+            "timestamp": [
+                12.4,
+                12.64
+            ]
+        },
+        {
+            "text": "polemic",
+            "timestamp": [
+                12.8,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                13.6,
+                13.68
+            ]
+        },
+        {
+            "text": "conflict",
+            "timestamp": [
+                14.48,
+                14.88
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                15.36,
+                15.44
+            ]
+        },
+        {
+            "text": "importance,",
+            "timestamp": [
+                15.52,
+                15.68
+            ]
+        },
+        {
+            "text": "but.",
+            "timestamp": [
+                16.72,
+                16.8
+            ]
+        }
+    ]
+}

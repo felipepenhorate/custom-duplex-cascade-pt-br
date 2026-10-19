@@ -1,0 +1,40 @@
+{
+    "text": "Paro, yo, posture judaka judak",
+    "chunks": [
+        {
+            "text": "Paro,",
+            "timestamp": [
+                2.4,
+                2.72
+            ]
+        },
+        {
+            "text": "yo,",
+            "timestamp": [
+                2.88,
+                3.04
+            ]
+        },
+        {
+            "text": "posture",
+            "timestamp": [
+                3.12,
+                3.44
+            ]
+        },
+        {
+            "text": "judaka",
+            "timestamp": [
+                3.52,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "judak",
+            "timestamp": [
+                7.6000000000000005,
+                8.16
+            ]
+        }
+    ]
+}

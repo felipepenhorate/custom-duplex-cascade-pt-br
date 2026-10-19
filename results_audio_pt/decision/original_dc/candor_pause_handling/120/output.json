@@ -1,0 +1,47 @@
+{
+    "text": "Flaro, so that's not a problem.",
+    "chunks": [
+        {
+            "text": "Flaro,",
+            "timestamp": [
+                7.84,
+                8.32
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                9.120000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                9.52,
+                10.16
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "problem.",
+            "timestamp": [
+                10.88,
+                10.88
+            ]
+        }
+    ]
+}

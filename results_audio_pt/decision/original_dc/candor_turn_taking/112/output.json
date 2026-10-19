@@ -1,0 +1,61 @@
+{
+    "text": "For their appearance, and present discovery of great.",
+    "chunks": [
+        {
+            "text": "For",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "their",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "appearance,",
+            "timestamp": [
+                9.040000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        },
+        {
+            "text": "present",
+            "timestamp": [
+                10.32,
+                10.56
+            ]
+        },
+        {
+            "text": "discovery",
+            "timestamp": [
+                10.88,
+                11.28
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                12.32,
+                12.4
+            ]
+        },
+        {
+            "text": "great.",
+            "timestamp": [
+                12.48,
+                12.56
+            ]
+        }
+    ]
+}

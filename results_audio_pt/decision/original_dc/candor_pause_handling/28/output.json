@@ -1,0 +1,68 @@
+{
+    "text": "Use 20 for essentials for people with respirators agrades.",
+    "chunks": [
+        {
+            "text": "Use",
+            "timestamp": [
+                10.72,
+                10.88
+            ]
+        },
+        {
+            "text": "20",
+            "timestamp": [
+                10.96,
+                11.92
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                12.0,
+                12.08
+            ]
+        },
+        {
+            "text": "essentials",
+            "timestamp": [
+                12.4,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                14.0,
+                14.08
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                14.4,
+                14.56
+            ]
+        },
+        {
+            "text": "respirators",
+            "timestamp": [
+                15.36,
+                15.84
+            ]
+        },
+        {
+            "text": "agrades.",
+            "timestamp": [
+                16.080000000000002,
+                16.4
+            ]
+        }
+    ]
+}

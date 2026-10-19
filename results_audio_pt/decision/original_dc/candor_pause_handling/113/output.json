@@ -1,0 +1,26 @@
+{
+    "text": "How is this?",
+    "chunks": [
+        {
+            "text": "How",
+            "timestamp": [
+                1.52,
+                1.68
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                1.92,
+                2.0
+            ]
+        },
+        {
+            "text": "this?",
+            "timestamp": [
+                2.0,
+                2.08
+            ]
+        }
+    ]
+}

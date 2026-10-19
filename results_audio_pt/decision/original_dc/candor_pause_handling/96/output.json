@@ -1,0 +1,54 @@
+{
+    "text": "It appears you were discussing your fear.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                13.92,
+                14.0
+            ]
+        },
+        {
+            "text": "appears",
+            "timestamp": [
+                14.24,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.36,
+                15.6
+            ]
+        },
+        {
+            "text": "were",
+            "timestamp": [
+                15.6,
+                15.84
+            ]
+        },
+        {
+            "text": "discussing",
+            "timestamp": [
+                15.84,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                16.240000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "fear.",
+            "timestamp": [
+                16.32,
+                16.48
+            ]
+        }
+    ]
+}

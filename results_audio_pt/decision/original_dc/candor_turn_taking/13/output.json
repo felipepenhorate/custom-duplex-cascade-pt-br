@@ -1,0 +1,68 @@
+{
+    "text": "I peg those pies, passage your quails, five squares,",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                2.48,
+                2.56
+            ]
+        },
+        {
+            "text": "peg",
+            "timestamp": [
+                2.72,
+                2.88
+            ]
+        },
+        {
+            "text": "those",
+            "timestamp": [
+                4.24,
+                4.32
+            ]
+        },
+        {
+            "text": "pies,",
+            "timestamp": [
+                4.5600000000000005,
+                4.72
+            ]
+        },
+        {
+            "text": "passage",
+            "timestamp": [
+                4.96,
+                5.2
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                5.28,
+                5.36
+            ]
+        },
+        {
+            "text": "quails,",
+            "timestamp": [
+                5.44,
+                5.76
+            ]
+        },
+        {
+            "text": "five",
+            "timestamp": [
+                6.0,
+                6.16
+            ]
+        },
+        {
+            "text": "squares,",
+            "timestamp": [
+                6.24,
+                6.5600000000000005
+            ]
+        }
+    ]
+}

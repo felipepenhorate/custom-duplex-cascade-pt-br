@@ -1,0 +1,33 @@
+{
+    "text": "Como pose judal intent",
+    "chunks": [
+        {
+            "text": "Como",
+            "timestamp": [
+                3.68,
+                4.08
+            ]
+        },
+        {
+            "text": "pose",
+            "timestamp": [
+                4.16,
+                4.24
+            ]
+        },
+        {
+            "text": "judal",
+            "timestamp": [
+                4.48,
+                4.8
+            ]
+        },
+        {
+            "text": "intent",
+            "timestamp": [
+                4.96,
+                5.36
+            ]
+        }
+    ]
+}

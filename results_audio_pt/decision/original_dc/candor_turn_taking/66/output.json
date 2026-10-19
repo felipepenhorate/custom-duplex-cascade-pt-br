@@ -1,0 +1,75 @@
+{
+    "text": "Time, very in Europe for a efficient transport and urban.",
+    "chunks": [
+        {
+            "text": "Time,",
+            "timestamp": [
+                8.4,
+                8.72
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                9.52,
+                9.6
+            ]
+        },
+        {
+            "text": "Europe",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.32,
+                10.4
+            ]
+        },
+        {
+            "text": "efficient",
+            "timestamp": [
+                11.92,
+                12.24
+            ]
+        },
+        {
+            "text": "transport",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.8,
+                12.88
+            ]
+        },
+        {
+            "text": "urban.",
+            "timestamp": [
+                14.4,
+                14.72
+            ]
+        }
+    ]
+}

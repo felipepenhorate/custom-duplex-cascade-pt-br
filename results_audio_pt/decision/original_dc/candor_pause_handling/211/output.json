@@ -1,0 +1,54 @@
+{
+    "text": "If it has been perceived other people.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                8.16,
+                8.32
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "been",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "perceived",
+            "timestamp": [
+                9.36,
+                9.76
+            ]
+        },
+        {
+            "text": "other",
+            "timestamp": [
+                10.08,
+                10.16
+            ]
+        },
+        {
+            "text": "people.",
+            "timestamp": [
+                10.4,
+                10.48
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "text": "Prigado can enter contact with us what is procured information about the Archie.",
+    "chunks": [
+        {
+            "text": "Prigado",
+            "timestamp": [
+                6.16,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                6.72,
+                6.8
+            ]
+        },
+        {
+            "text": "enter",
+            "timestamp": [
+                6.88,
+                7.04
+            ]
+        },
+        {
+            "text": "contact",
+            "timestamp": [
+                7.2,
+                7.44
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                7.5200000000000005,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "us",
+            "timestamp": [
+                7.68,
+                7.76
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                7.92,
+                8.0
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                8.56,
+                8.64
+            ]
+        },
+        {
+            "text": "procured",
+            "timestamp": [
+                8.72,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "information",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                13.92,
+                14.0
+            ]
+        },
+        {
+            "text": "Archie.",
+            "timestamp": [
+                14.0,
+                14.4
+            ]
+        }
+    ]
+}

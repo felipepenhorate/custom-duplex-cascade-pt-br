@@ -1,0 +1,33 @@
+{
+    "text": "Afraid all the insights",
+    "chunks": [
+        {
+            "text": "Afraid",
+            "timestamp": [
+                3.2,
+                3.68
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                3.84,
+                3.92
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                5.68,
+                5.76
+            ]
+        },
+        {
+            "text": "insights",
+            "timestamp": [
+                6.8,
+                7.2
+            ]
+        }
+    ]
+}

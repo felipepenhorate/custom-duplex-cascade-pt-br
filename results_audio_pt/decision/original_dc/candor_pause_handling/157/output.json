@@ -1,0 +1,110 @@
+{
+    "text": "Au composer judal, a composer, au composa judal, au composa je dalogie, pau composa judalogi",
+    "chunks": [
+        {
+            "text": "Au",
+            "timestamp": [
+                1.2,
+                1.44
+            ]
+        },
+        {
+            "text": "composer",
+            "timestamp": [
+                1.6,
+                2.08
+            ]
+        },
+        {
+            "text": "judal,",
+            "timestamp": [
+                2.16,
+                2.48
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                2.96,
+                3.04
+            ]
+        },
+        {
+            "text": "composer,",
+            "timestamp": [
+                3.12,
+                3.52
+            ]
+        },
+        {
+            "text": "au",
+            "timestamp": [
+                3.6,
+                3.7600000000000002
+            ]
+        },
+        {
+            "text": "composa",
+            "timestamp": [
+                3.7600000000000002,
+                4.24
+            ]
+        },
+        {
+            "text": "judal,",
+            "timestamp": [
+                4.32,
+                4.64
+            ]
+        },
+        {
+            "text": "au",
+            "timestamp": [
+                7.2,
+                7.44
+            ]
+        },
+        {
+            "text": "composa",
+            "timestamp": [
+                7.44,
+                8.08
+            ]
+        },
+        {
+            "text": "je",
+            "timestamp": [
+                8.08,
+                8.24
+            ]
+        },
+        {
+            "text": "dalogie,",
+            "timestamp": [
+                8.24,
+                8.8
+            ]
+        },
+        {
+            "text": "pau",
+            "timestamp": [
+                8.88,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "composa",
+            "timestamp": [
+                9.120000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "judalogi",
+            "timestamp": [
+                9.6,
+                10.4
+            ]
+        }
+    ]
+}

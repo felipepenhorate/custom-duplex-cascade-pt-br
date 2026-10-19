@@ -1,0 +1,47 @@
+{
+    "text": "Paro, here some ideas for you.",
+    "chunks": [
+        {
+            "text": "Paro,",
+            "timestamp": [
+                6.0,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                6.72,
+                6.8
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                7.28,
+                7.36
+            ]
+        },
+        {
+            "text": "ideas",
+            "timestamp": [
+                7.6000000000000005,
+                7.84
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                8.08,
+                8.16
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        }
+    ]
+}

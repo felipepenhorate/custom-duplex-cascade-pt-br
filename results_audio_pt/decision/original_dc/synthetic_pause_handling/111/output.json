@@ -1,0 +1,40 @@
+{
+    "text": "Trift that contract to investigate.",
+    "chunks": [
+        {
+            "text": "Trift",
+            "timestamp": [
+                8.72,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "contract",
+            "timestamp": [
+                9.36,
+                9.6
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "investigate.",
+            "timestamp": [
+                10.08,
+                10.4
+            ]
+        }
+    ]
+}

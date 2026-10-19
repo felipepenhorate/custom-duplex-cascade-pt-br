@@ -1,0 +1,117 @@
+{
+    "text": "Ten, so it is perando, and I pass 15 minutes to specify what I can do.",
+    "chunks": [
+        {
+            "text": "Ten,",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        },
+        {
+            "text": "perando,",
+            "timestamp": [
+                11.6,
+                11.92
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.16,
+                12.24
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.24,
+                12.32
+            ]
+        },
+        {
+            "text": "pass",
+            "timestamp": [
+                12.4,
+                12.56
+            ]
+        },
+        {
+            "text": "15",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "minutes",
+            "timestamp": [
+                13.280000000000001,
+                13.52
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                13.68,
+                13.76
+            ]
+        },
+        {
+            "text": "specify",
+            "timestamp": [
+                14.08,
+                14.48
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                15.200000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.080000000000002,
+                16.16
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                16.240000000000002,
+                16.32
+            ]
+        },
+        {
+            "text": "do.",
+            "timestamp": [
+                16.64,
+                16.72
+            ]
+        }
+    ]
+}

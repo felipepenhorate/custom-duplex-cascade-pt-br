@@ -1,0 +1,54 @@
+{
+    "text": "If you have vegans and achieve it.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                12.8,
+                12.88
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                13.6,
+                13.68
+            ]
+        },
+        {
+            "text": "vegans",
+            "timestamp": [
+                14.96,
+                15.6
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                15.6,
+                15.68
+            ]
+        },
+        {
+            "text": "achieve",
+            "timestamp": [
+                15.92,
+                16.32
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                16.32,
+                16.4
+            ]
+        }
+    ]
+}

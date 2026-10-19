@@ -1,0 +1,33 @@
+{
+    "text": "Para queuma suggests that.",
+    "chunks": [
+        {
+            "text": "Para",
+            "timestamp": [
+                9.36,
+                9.68
+            ]
+        },
+        {
+            "text": "queuma",
+            "timestamp": [
+                9.76,
+                10.4
+            ]
+        },
+        {
+            "text": "suggests",
+            "timestamp": [
+                10.4,
+                10.8
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                12.08,
+                12.16
+            ]
+        }
+    ]
+}

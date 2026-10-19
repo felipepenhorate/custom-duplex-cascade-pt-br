@@ -1,0 +1,131 @@
+{
+    "text": "If you are currently for a living, here are some Julian Stafford, Julian. This library contains all Staffordshire.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                16.936,
+                17.016000000000002
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.016000000000002,
+                17.096
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                17.336000000000002,
+                17.416
+            ]
+        },
+        {
+            "text": "currently",
+            "timestamp": [
+                17.656000000000002,
+                17.896
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                18.056,
+                18.136000000000003
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.376,
+                18.456000000000003
+            ]
+        },
+        {
+            "text": "living,",
+            "timestamp": [
+                19.656000000000002,
+                19.816000000000003
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                20.056,
+                20.136000000000003
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                20.376,
+                20.456000000000003
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                20.696,
+                20.776000000000003
+            ]
+        },
+        {
+            "text": "Julian",
+            "timestamp": [
+                29.016000000000002,
+                29.336000000000002
+            ]
+        },
+        {
+            "text": "Stafford,",
+            "timestamp": [
+                29.656000000000002,
+                29.896
+            ]
+        },
+        {
+            "text": "Julian.",
+            "timestamp": [
+                30.056,
+                30.296
+            ]
+        },
+        {
+            "text": "This",
+            "timestamp": [
+                30.536,
+                30.616
+            ]
+        },
+        {
+            "text": "library",
+            "timestamp": [
+                30.776000000000003,
+                31.096000000000004
+            ]
+        },
+        {
+            "text": "contains",
+            "timestamp": [
+                31.176000000000002,
+                31.416000000000004
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                31.416000000000004,
+                31.496000000000002
+            ]
+        },
+        {
+            "text": "Staffordshire.",
+            "timestamp": [
+                32.776,
+                33.256
+            ]
+        }
+    ]
+}

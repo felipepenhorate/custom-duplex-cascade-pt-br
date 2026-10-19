@@ -1,0 +1,40 @@
+{
+    "text": "Ise woachimo. Libros como aukimi.",
+    "chunks": [
+        {
+            "text": "Ise",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "woachimo.",
+            "timestamp": [
+                10.48,
+                11.28
+            ]
+        },
+        {
+            "text": "Libros",
+            "timestamp": [
+                12.16,
+                12.64
+            ]
+        },
+        {
+            "text": "como",
+            "timestamp": [
+                12.72,
+                12.96
+            ]
+        },
+        {
+            "text": "aukimi.",
+            "timestamp": [
+                12.96,
+                13.280000000000001
+            ]
+        }
+    ]
+}

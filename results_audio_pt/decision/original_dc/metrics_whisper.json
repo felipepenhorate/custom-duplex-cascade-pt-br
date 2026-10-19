@@ -1,0 +1,13 @@
+{
+  "model": "original_dc",
+  "asr": "faster-whisper large-v3",
+  "language": "pt",
+  "note": "parakeet (the upstream recipe) is English-only; this re-scores the same audio and annotations with a Portuguese recogniser",
+  "official_task_metrics": {
+    "synthetic_user_interruption": {
+      "relevance": 1.9593023255813953,
+      "tor": 0.86,
+      "latency_s": 0.6883139534883721
+    }
+  }
+}

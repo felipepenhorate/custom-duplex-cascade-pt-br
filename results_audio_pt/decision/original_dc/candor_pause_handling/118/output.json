@@ -1,0 +1,117 @@
+{
+    "text": "A phrase: here some possibilities interpretation of situation, or circumstances that incident to colour, for example,",
+    "chunks": [
+        {
+            "text": "A",
+            "timestamp": [
+                4.0,
+                4.08
+            ]
+        },
+        {
+            "text": "phrase:",
+            "timestamp": [
+                4.24,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "possibilities",
+            "timestamp": [
+                10.56,
+                10.96
+            ]
+        },
+        {
+            "text": "interpretation",
+            "timestamp": [
+                11.200000000000001,
+                11.68
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "situation,",
+            "timestamp": [
+                13.200000000000001,
+                13.6
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                14.0,
+                14.08
+            ]
+        },
+        {
+            "text": "circumstances",
+            "timestamp": [
+                14.32,
+                14.8
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                14.96,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "incident",
+            "timestamp": [
+                15.200000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.68,
+                15.76
+            ]
+        },
+        {
+            "text": "colour,",
+            "timestamp": [
+                15.92,
+                16.16
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                16.4,
+                16.48
+            ]
+        },
+        {
+            "text": "example,",
+            "timestamp": [
+                16.48,
+                16.64
+            ]
+        }
+    ]
+}

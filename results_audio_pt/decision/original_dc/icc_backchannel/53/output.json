@@ -1,0 +1,89 @@
+{
+    "text": "And publication is the market that produces auto quality to verify data.",
+    "chunks": [
+        {
+            "text": "And",
+            "timestamp": [
+                16.8,
+                16.88
+            ]
+        },
+        {
+            "text": "publication",
+            "timestamp": [
+                20.400000000000002,
+                20.8
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                21.12,
+                21.2
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                21.36,
+                21.44
+            ]
+        },
+        {
+            "text": "market",
+            "timestamp": [
+                22.48,
+                22.72
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                22.88,
+                22.96
+            ]
+        },
+        {
+            "text": "produces",
+            "timestamp": [
+                23.04,
+                23.2
+            ]
+        },
+        {
+            "text": "auto",
+            "timestamp": [
+                24.0,
+                24.240000000000002
+            ]
+        },
+        {
+            "text": "quality",
+            "timestamp": [
+                24.32,
+                24.560000000000002
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                24.88,
+                24.96
+            ]
+        },
+        {
+            "text": "verify",
+            "timestamp": [
+                25.76,
+                26.16
+            ]
+        },
+        {
+            "text": "data.",
+            "timestamp": [
+                26.32,
+                26.48
+            ]
+        }
+    ]
+}

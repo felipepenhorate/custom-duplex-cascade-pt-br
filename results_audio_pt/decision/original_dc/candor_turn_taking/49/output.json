@@ -1,0 +1,96 @@
+{
+    "text": "I can tell you with your online thing that you have to do.",
+    "chunks": [
+        {
+            "text": "I",
+            "timestamp": [
+                7.76,
+                7.84
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                8.0,
+                8.08
+            ]
+        },
+        {
+            "text": "tell",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                8.88,
+                8.96
+            ]
+        },
+        {
+            "text": "your",
+            "timestamp": [
+                9.040000000000001,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "online",
+            "timestamp": [
+                9.84,
+                10.24
+            ]
+        },
+        {
+            "text": "thing",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                11.040000000000001,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.120000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                12.56,
+                12.64
+            ]
+        },
+        {
+            "text": "do.",
+            "timestamp": [
+                13.280000000000001,
+                13.36
+            ]
+        }
+    ]
+}
