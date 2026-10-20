@@ -85,8 +85,8 @@ def main() -> None:
         if r:
             pt_rows[m] = r
             L.append(fmt(r))
-    dep = row("Self-distillation, production configuration (deployed prompt, prime mode)",
-              load("results_audio_pt_deployed/prime/distill/metrics_whisper.json"))
+    dep = row("Self-distillation, production configuration (deployed prompt, decision mode)",
+              load("results_audio_pt_deployed/decision/distill/metrics_whisper.json"))
     if dep:
         L.append(fmt(dep))
 

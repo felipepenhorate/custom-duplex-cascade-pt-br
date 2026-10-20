@@ -41,3 +41,7 @@ WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EO
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
 [audio/distill] 200/727 queue (13.6s/scenario, 10.9s audio) spoke=False pieces=11
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: '! ✅ Sim — estou totalmente pronto para abordar iss...'
+[audio/distill] 225/727 queue (13.6s/scenario, 9.4s audio) spoke=True pieces=10
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
