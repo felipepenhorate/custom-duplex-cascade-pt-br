@@ -28,6 +28,11 @@ RESULTS="${RESULTS:-$ROOT/results_audio}"
 AUDIO_ROOT="${AUDIO_ROOT:-/mnt/f/fdb_audio}"
 MODELS="${MODELS:-original_dc sft distill mtp_like}"
 MODE="${MODE:-decision}"
+# SCORE_MODE=parakeet (default) runs the benchmark's own scorer; SCORE_MODE=none
+# leaves the scoring to a language-matched recogniser (rescore_pt.py), which is
+# what the pt-BR set needs -- parakeet is English-only and reads a Portuguese
+# reply as silence.
+SCORE_MODE="${SCORE_MODE:-parakeet}"
 # Language / data set: the English v1.0 set by default; point these at the pt-BR
 # re-voicing (build_pt_audio.py) to measure the same models in distribution.
 # NB: not LANG, which is the locale.
@@ -116,6 +121,10 @@ for model in $MODELS; do
   pkill -f "llama-server -m $g" 2>/dev/null || true
   sleep 5
 
+  if [[ "${SCORE_MODE:-parakeet}" == "none" ]]; then
+    log "=== scoring: skipped (SCORE_MODE=none) ==="
+    continue
+  fi
   log "=== scoring: $model ==="
   ensure_judge || log "  judge unavailable — interruption relevance will be missing"
   if ! "$PY_SCORE" -m fdb_bench.audio.run_audio \

@@ -129,23 +129,90 @@ def spans_to_segments(wav24: np.ndarray, words: list[dict]) -> list[Segment]:
     return [g for g in segs if g.text_en]
 
 
+def qwen_chat(system: str, user: str, *, api_base: str, max_tokens: int = 1200) -> str:
+    """One chat completion against the local llama-server."""
+    import urllib.request
+
+    body = json.dumps({
+        "messages": [{"role": "system", "content": system},
+                     {"role": "user", "content": user}],
+        "max_tokens": max_tokens, "temperature": 0.0, "top_p": 1.0,
+        "chat_template_kwargs": {"enable_thinking": False},
+    }).encode()
+    req = urllib.request.Request(
+        f"{api_base.rstrip('/')}/chat/completions", data=body,
+        headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=300) as r:
+        return json.loads(r.read().decode())["choices"][0]["message"]["content"]
+
+
+def load_cached_translations(cache_dir: Path, subset: str, sid: str):
+    """The previous build's translations for one scenario, keyed by segment index.
+
+    The cache stores the English source next to each translation, so a cache
+    that does not match the audio is detected instead of silently producing a
+    mismatched pair. Returns ``None`` when no cache is in use at all.
+    """
+    if cache_dir is None:
+        return None
+    f = Path(cache_dir) / subset / sid / "translation.json"
+    if not f.is_file():
+        return {}
+    doc = json.loads(f.read_text(encoding="utf-8"))
+    out = {}
+    for sg in doc.get("segments", []):
+        out[int(sg["index"])] = (sg.get("text_en", ""), sg.get("text_pt", ""))
+    return out
+
+
+def apply_cached_translations(segments: list[Segment], cached: dict) -> None:
+    """Fill in ``text_pt`` from the cache, keeping only entries that still match."""
+    for sg in segments:
+        entry = cached.get(sg.index)
+        if entry is None:
+            continue
+        en, pt = entry
+        if en and sg.text_en and en.strip() != sg.text_en.strip():
+            continue          # the audio changed under the cache: do not reuse it
+        if pt:
+            sg.text_pt = pt
+
+
+_PT_MARKERS = set("ãõçáéíóúâêôãõüàèìòù")
+
+
+def translate_interrupt_texts(doc, *, api_base: str) -> dict:
+    """Put the interrupting turn and its context in the language of the audio.
+
+    The relevance rubric quotes both verbatim (``Contextual user turn``,
+    ``User interrupting turn``). On the re-voiced set the audio is Portuguese, so
+    leaving them in English makes the relevance column measure a language
+    mismatch rather than the reply.
+    """
+    for item in doc:
+        for key in ("context", "interrupt"):
+            txt = item.get(key)
+            if not txt or not isinstance(txt, str):
+                continue
+            if any(ch in _PT_MARKERS for ch in txt):
+                continue                      # already Portuguese
+            try:
+                pt = qwen_chat(
+                    TRANSLATE_SYSTEM,
+                    f"1: {txt}", api_base=api_base, max_tokens=300)
+            except Exception:                # noqa: BLE001 - keep the English
+                continue
+            pt = re.sub(r"^\s*1\s*[:.)-]\s*", "", (pt or "").strip()).strip()
+            if pt:
+                item[key] = pt
+    return doc
+
+
 def translate_segments(segments: list[Segment], *, api_base: str,
                        max_tokens: int = 1200) -> None:
     """One numbered Qwen call per scenario, with per-segment retry fallback."""
-    import urllib.request
-
     def qwen(system: str, user: str) -> str:
-        body = json.dumps({
-            "messages": [{"role": "system", "content": system},
-                         {"role": "user", "content": user}],
-            "max_tokens": max_tokens, "temperature": 0.0, "top_p": 1.0,
-            "chat_template_kwargs": {"enable_thinking": False},
-        }).encode()
-        req = urllib.request.Request(
-            f"{api_base.rstrip('/')}/chat/completions", data=body,
-            headers={"Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=300) as r:
-            return json.loads(r.read().decode())["choices"][0]["message"]["content"]
+        return qwen_chat(system, user, api_base=api_base, max_tokens=max_tokens)
 
     listing = "\n".join(f"{i + 1}: {s.text_en}" for i, s in enumerate(segments))
     out = qwen(TRANSLATE_SYSTEM, listing)
@@ -173,12 +240,84 @@ def time_fit(audio: np.ndarray, slot_s: float, *, cap: float = 2.0):
 
     No librosa: its phase vocoder needs numba, and the numba wheel here refuses
     the installed numpy. ``stretch.fit_to_slot`` is dependency-free, keeps the
-    pitch and returns exactly the slot's length, which is what lets the English
-    annotations transfer to the Portuguese audio unchanged.
+    pitch and returns exactly the slot's length.
+
+    **Not used any more.** Filling the slot is what put silence *inside* the
+    user's turn: the Portuguese TTS is shorter than the English span in 61% of
+    the segments (median 0.91 of the slot, and 30.4% of them needed more than
+    1.33x of expansion), so the remainder was padded with digital silence. The
+    harness's turn-end signal is a 0.6 s silence gate, so every padded gap was a
+    new invitation to take the floor -- 303 of them landed in silence the
+    benchmark does not annotate as a pause, against 58 in the English recording,
+    and at every class of invitation every model took the floor 1.2-2.0x more
+    often on the re-voiced audio, including the English-trained upstream model.
+    See :func:`plan_timeline` for what replaces it.
     """
     from .stretch import fit_to_slot
 
     return fit_to_slot(audio, slot_s, sr=SR, cap=cap)
+
+
+# --------------------------------------------------------------- the timeline
+def plan_timeline(segments: list[Segment], durs: list[float]) -> list[float]:
+    """Where each synthesised span starts in the re-timed Portuguese scene.
+
+    Nothing is stretched and nothing is padded. The Portuguese speaker says the
+    same thing at their own speed; the gap between two consecutive spans -- the
+    real pause the benchmark annotates -- keeps its length exactly; and the
+    scene shifts by the accumulated difference between the Portuguese speech and
+    the English span it replaces.
+
+    The result is a scene with the same *structure* as the original recording
+    (same spans, same gaps, same annotations after remapping) and a speaker who
+    is simply a Portuguese speaker. The alternative -- stretching each span to
+    fill its English slot -- was rejected on measurement: 30.4% of the segments
+    would have needed more than 1.33x of expansion and 10.8% more than 2x, which
+    is a larger distortion than a uniform rate difference.
+    """
+    starts: list[float] = []
+    for i, s in enumerate(segments):
+        if i == 0:
+            starts.append(s.start)
+        else:
+            gap = max(0.0, s.start - segments[i - 1].end)
+            starts.append(starts[i - 1] + durs[i - 1] + gap)
+    return starts
+
+
+def make_remap(segments: list[Segment], starts: list[float], durs: list[float]):
+    """A continuous map from English audio time to Portuguese audio time.
+
+    Inside a span the map scales (the words keep their relative position); in a
+    gap it shifts (the gap keeps its length). It is continuous at the span
+    boundaries, so every annotation the benchmark ships transfers.
+    """
+    n = len(segments)
+
+    def remap(t: float) -> float:
+        for i, s in enumerate(segments):
+            if t < s.start:                       # in the gap before span i
+                if i == 0:
+                    return t
+                prev = segments[i - 1]
+                return starts[i - 1] + durs[i - 1] + (t - prev.end)
+            if t < s.end:                         # inside span i
+                f = durs[i] / max(1e-6, s.slot_s)
+                return starts[i] + (t - s.start) * f
+        return starts[n - 1] + durs[n - 1] + (t - segments[n - 1].end)
+
+    return remap
+
+
+def remap_annotation(doc, remap) -> dict:
+    """Re-time an annotation document (pause / turn_taking / interrupt)."""
+    out = json.loads(json.dumps(doc))
+    for item in out:
+        ts = item.get("timestamp")
+        if isinstance(ts, list) and len(ts) >= 2:
+            item["timestamp"] = [round(remap(float(ts[0])), 3),
+                                 round(remap(float(ts[1])), 3)]
+    return out
 
 
 def peak_normalise(audio: np.ndarray, target: float) -> tuple[np.ndarray, float]:
@@ -198,24 +337,25 @@ def peak_normalise(audio: np.ndarray, target: float) -> tuple[np.ndarray, float]
     return (audio * g).astype(np.float32), g
 
 
-def derived_transcription(segments: list[Segment]) -> list[dict]:
+def derived_transcription(segments: list[Segment], starts: list[float],
+                          durs: list[float]) -> list[dict]:
     """Word-level transcript for the new audio, distributed by word length.
 
     Nothing downstream depends on it (the benchmark's evaluators read the model's
     *output*, and this harness uses the GT only as a reference), so the words are
     spread proportionally inside their segment rather than force-aligned. The
-    segment boundaries themselves are exact.
+    segment boundaries themselves are exact, and they are the *new* ones.
     """
     out: list[dict] = []
-    for s in segments:
+    for i, s in enumerate(segments):
         words = s.text_pt.split()
         if not words:
             continue
         weights = np.array([len(w) + 1 for w in words], dtype=np.float64)
         weights /= weights.sum()
-        t = s.start
+        t = starts[i]
         for w, frac in zip(words, weights):
-            d = s.slot_s * float(frac)
+            d = durs[i] * float(frac)
             out.append({"text": w, "timestamp": [round(t, 3), round(t + d, 3)]})
             t += d
     return out
@@ -254,7 +394,7 @@ def stage_asr(scenarios, out_root: Path, *, limit: int | None) -> None:
 
 def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str,
                 voice_source: str, api_base: str, dry_run: bool,
-                max_words: int = 15) -> None:
+                max_words: int = 15, translations: Path | None = None) -> None:
     import soundfile as sf
 
     if limit:
@@ -286,7 +426,16 @@ def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str
             print(f"[build] SKIP {sc.key}: no speech spans")
             continue
 
-        translate_segments(segments, api_base=api_base)
+        cached = load_cached_translations(translations, sc.subset, sc.sid)
+        if cached is not None:
+            apply_cached_translations(segments, cached)
+            missing = [sg for sg in segments if not sg.text_pt]
+            if missing:
+                print(f"[build] {sc.key}: {len(missing)} segment(s) missing from the "
+                      f"cache -> translating", flush=True)
+                translate_segments(missing, api_base=api_base)
+        else:
+            translate_segments(segments, api_base=api_base)
         if dry_run:
             n_done += 1
             continue
@@ -310,53 +459,85 @@ def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str
                 state = None
                 used_voice = f"{voice.voice} (clone unavailable: {type(e).__name__})"
 
-        out = np.zeros(wav24.size, dtype=np.float32)
-        for s in segments:
-            if not s.text_pt:
+        # Synthesise at the TTS's natural rate: no time-fit, no padding.
+        audios: list[np.ndarray] = []
+        for sg in segments:
+            if not sg.text_pt:
+                audios.append(np.zeros(0, dtype=np.float32))
+                sg.error = sg.error or "empty_translation"
                 continue
-            chunk = (voice.speak(s.text_pt, max_words=max_words) if state is None
-                     else _speak_with_state(voice, state, s.text_pt, max_words))
+            chunk = (voice.speak(sg.text_pt, max_words=max_words) if state is None
+                     else _speak_with_state(voice, state, sg.text_pt, max_words))
             levelled, gain = peak_normalise(chunk.audio, 0.7)
-            s.gain = round(gain, 3)
-            fitted, rate, clamped, padded, truncated = time_fit(levelled, s.slot_s)
-            s.synth_s = round(chunk.audio.size / SR, 3)
-            s.fitted_s = round(fitted.size / SR, 3)
-            s.stretch = round(rate, 3)
-            s.clamped = clamped
-            s.padded = padded
-            s.truncated = truncated
-            a = int(round(s.start * SR))
-            b = min(out.size, a + fitted.size)
-            if b > a:
-                out[a:b] += fitted[: b - a]
+            sg.gain = round(gain, 3)
+            sg.synth_s = round(levelled.size / SR, 3)
+            sg.fitted_s = sg.synth_s
+            sg.stretch = 1.0
+            audios.append(levelled)
+
+        # A segment with no translation would leave a hole in the user's turn --
+        # the exact defect this rebuild exists to remove. Fail loudly instead.
+        empty = [sg for sg in segments if not sg.text_pt]
+        if empty:
+            raise RuntimeError(
+                f"{sc.key}: {len(empty)} segment(s) have no translation; the audio "
+                f"would carry a silence inside the user's turn. Fix the "
+                f"translation and rebuild.")
+
+        durs = [a.size / SR for a in audios]
+        starts = plan_timeline(segments, durs)
+        remap = make_remap(segments, starts, durs)
+
+        total = starts[-1] + durs[-1] + max(0.0, wav24.size / SR - segments[-1].end)
+        out = np.zeros(max(1, int(round(total * SR))), dtype=np.float32)
+        for i, a in enumerate(audios):
+            if a.size == 0:
+                continue
+            p0 = int(round(starts[i] * SR))
+            p1 = min(out.size, p0 + a.size)
+            if p1 > p0:
+                out[p0:p1] += a[: p1 - p0]
 
         sf.write(str(out_dir / "input.wav"), np.clip(out, -1.0, 1.0), SR, subtype="PCM_16")
-        # annotations transfer verbatim: same seconds, same events
+        # annotations transfer, re-timed: same events, new seconds
         for name in ("pause.json", "turn_taking.json", "interrupt.json"):
             src = src_dir / name
             if src.is_file():
-                (out_dir / name).write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+                doc = json.loads(src.read_text(encoding="utf-8"))
+                if name == "interrupt.json" and api_base:
+                    doc = translate_interrupt_texts(doc, api_base=api_base)
+                (out_dir / name).write_text(
+                    json.dumps(remap_annotation(doc, remap), ensure_ascii=False, indent=1),
+                    encoding="utf-8")
         # interruption subset also ships its pieces as separate files
         if sc.interrupt_span:
             i0, i1 = sc.interrupt_span
-            sf.write(str(out_dir / "context.wav"), np.clip(out[: int(i0 * SR)], -1, 1), SR, subtype="PCM_16")
-            sf.write(str(out_dir / "interrupt.wav"), np.clip(out[int(i0 * SR): int(i1 * SR)], -1, 1), SR, subtype="PCM_16")
+            n0, n1 = remap(i0), remap(i1)
+            sf.write(str(out_dir / "context.wav"),
+                     np.clip(out[: int(n0 * SR)], -1, 1), SR, subtype="PCM_16")
+            sf.write(str(out_dir / "interrupt.wav"),
+                     np.clip(out[int(n0 * SR): int(n1 * SR)], -1, 1), SR, subtype="PCM_16")
         (out_dir / "transcription.json").write_text(
-            json.dumps(derived_transcription(segments), ensure_ascii=False, indent=1),
+            json.dumps(derived_transcription(segments, starts, durs),
+                       ensure_ascii=False, indent=1),
             encoding="utf-8")
         (out_dir / "translation.json").write_text(json.dumps({
             "subset": sc.subset, "sid": sc.sid, "sr": SR,
             "voice": used_voice, "voice_source": voice_source,
             "text_source": "gt_transcription" if sc.gt_words else "parakeet",
             "source_duration_s": round(wav24.size / SR, 3),
+            "built_duration_s": round(total, 3),
+            "policy": "natural rate, gaps preserved, no padding, annotations re-timed",
             "segments": [{
-                "index": s.index, "start": round(s.start, 3), "end": round(s.end, 3),
-                "slot_s": round(s.slot_s, 3), "synth_s": s.synth_s,
-                "fitted_s": s.fitted_s, "stretch": s.stretch, "clamped": s.clamped,
-                "padded": s.padded, "truncated": s.truncated,
-                "gain": s.gain,
-                "text_en": s.text_en, "text_pt": s.text_pt, "error": s.error,
-            } for s in segments],
+                "index": sg.index, "start": round(sg.start, 3), "end": round(sg.end, 3),
+                "slot_s": round(sg.slot_s, 3), "synth_s": sg.synth_s,
+                "fitted_s": sg.fitted_s, "stretch": sg.stretch, "clamped": False,
+                "padded": False, "truncated": False,
+                "new_start": round(starts[i], 3),
+                "new_end": round(starts[i] + durs[i], 3),
+                "gain": sg.gain,
+                "text_en": sg.text_en, "text_pt": sg.text_pt, "error": sg.error,
+            } for i, sg in enumerate(segments)],
         }, ensure_ascii=False, indent=1), encoding="utf-8")
 
         n_done += 1
@@ -448,6 +629,11 @@ def main() -> None:
                          "the first pt-BR build; 15 keeps it inside the limit.")
     ap.add_argument("--api-base", default="http://127.0.0.1:8099/v1",
                     help="llama-server used for translation (Qwen3.5-9B)")
+    ap.add_argument("--translations", type=Path, default=None,
+                    help="reuse the translations of a previous build "
+                         "(<dir>/<subset>/<sid>/translation.json); the English "
+                         "source is checked against the audio, so a stale cache "
+                         "is refused rather than silently reused")
     ap.add_argument("--dry-run", action="store_true",
                     help="translate only, no audio (checks the translator)")
     args = ap.parse_args()
@@ -463,7 +649,8 @@ def main() -> None:
     else:
         stage_build(scenarios, args.out, limit=args.limit, voice_name=args.voice,
                     voice_source=args.voice_source, api_base=args.api_base,
-                    dry_run=args.dry_run, max_words=args.max_words)
+                    dry_run=args.dry_run, max_words=args.max_words,
+                    translations=args.translations)
     if args.stage == "verify":
         stage_verify(scenarios, args.out, limit=args.limit)
 

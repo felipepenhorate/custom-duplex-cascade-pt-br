@@ -730,13 +730,28 @@ positions.
 \paragraph{Cross-lingual transfer.}
 \label{sec:results_transfer}
 All variants are fine-tuned on pt-BR only, and the protocol transfers: ATA is
-0.986 (SFT), 0.984 (companion) and 0.924 (distill) on the English scenarios---SFT
-and the companion are as good or better in English than in pt-BR, with the
-companion's interruption relevance rising to 4.88. Only the distill variant
-degrades (0.955$\rightarrow$0.924, interruption TOR 0.995$\rightarrow$0.915),
-consistent with it being the most fragile of the three. The ranking of the
-approaches is stable across languages, which is a good sign that it reflects the
-models rather than the run.
+0.986 (SFT), 0.984 (companion) and 0.924 (distill) on the English
+scenarios---SFT and the companion are as good or better in English than in
+pt-BR, with the companion's interruption relevance rising to 4.88. Only the
+distill variant degrades (0.955$\rightarrow$0.924, interruption TOR
+0.995$\rightarrow$0.915), consistent with it being the most fragile of the three.
+The ranking of the approaches is stable across languages, which is a good sign
+that it reflects the models rather than the run.
+
+The two language runs are parallel translations of the same synthetic
+scenarios, so the comparison is controlled---but it is not symmetric, and the
+asymmetry is worth naming because it produces an apparent inversion. The
+Portuguese stimuli are longer than their English originals, so the chunker
+yields more pieces: the same 727 scenarios produce 9{,}747 decision points in
+pt-BR against 8{,}858 in English, and every pause column is a rate over those
+opportunities. The whole of the SFT inversion is therefore the pause term: pause
+TOR 0.051$\rightarrow$0.080 and 0.000$\rightarrow$0.032 give
+$-0.007-0.008$ of ATA, which is the entire 0.986$\rightarrow$0.971 difference,
+while smooth-turn and interruption TOR are unchanged to three decimals. In
+other words the in-distribution set is not easier for these models; it offers
+them more chances to misfire. On real audio the same asymmetry is far larger
+($\S\ref{sec:audio}$), for reasons that belong to the measurement rather than
+to the models.
 
 \paragraph{Backchannel is a data gap, not a capability gap.} Every pt-BR variant
 scores BC TOR $=1.000$ where the upstream model scores 0.436: they always take a

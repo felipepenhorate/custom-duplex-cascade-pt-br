@@ -77,6 +77,7 @@ class WhisperScorer:
             wav = wav[int(offset * sr):]
         if wav.size < int(0.05 * sr):
             return []
+        wav = normalise_for_recognition(wav)
         segs, _ = self.model.transcribe(
             wav.astype(np.float32), language=self.language, beam_size=5,
             temperature=0.0, word_timestamps=True,

@@ -13,7 +13,7 @@ real FDB input.wav
           └─ the model decides (same protocol as the text bench)
                  └─ pocket-tts (the deployed voice) ─────────────► assistant audio
                         └─ rendered output.wav, timed on the input's clock
-                               └─ parakeet-tdt-0.6b-v2 ──────────► output.json
+                               └─ peak-normalised ───────────────► parakeet (EN) / whisper large-v3 (pt)
                                       └─ the benchmark's eval_*.py ─► metrics
 ```
 
@@ -28,7 +28,7 @@ real FDB input.wav
 | assistant speech | not produced | **pocket-tts** (the deployed voice) |
 | barge-in | truncate the text timeline | **truncate real playback** |
 | scoring | FDB's rules ported to text | **upstream `eval_*.py`**, unmodified |
-| `output.json` | n/a | **parakeet-tdt-0.6b-v2** (upstream's own recipe) |
+| `output.json` | n/a | **parakeet-tdt-0.6b-v2** (upstream's own recipe); whisper large-v3 on the pt-BR set, which parakeet cannot read |
 | interruption judge | local Qwen3.5-9B | local Qwen3.5-9B (upstream uses `gpt-4-turbo`; no API key here) |
 
 ## How the user stream is built
@@ -64,6 +64,63 @@ Three deliberate departures, each measurable:
 
 Pieces are cut to the training maximum (`user_chunk_max=7`); the emitted stream is
 asserted to be lossless and to stay within that bound.
+
+## The pt-BR set: a re-voicing, and what makes it faithful
+
+The pt-BR set is the same 727 scenarios with the user side in Portuguese: the
+benchmark's audio is segmented with silero, each span is translated, spoken by
+pocket-tts, and put back on the timeline. `build_pt_audio.py` does it; the
+result lives in `/mnt/f/fdb_data/pt_v1.0`.
+
+**The build policy is: nothing stretched, nothing padded.** The Portuguese
+speaker says the same thing at their own speed; the gap between two consecutive
+spans -- the real pause the benchmark annotates -- keeps its length exactly; and
+the scene shifts by the accumulated difference between the Portuguese speech and
+the English span it replaces. The annotations (`pause.json`,
+`turn_taking.json`, `interrupt.json`) are re-timed with the same map, so the set
+is internally consistent: the same events, at the same place in the scene.
+
+That policy replaced the obvious one, and the reason is worth recording because
+the obvious one looked fine. The first build time-fitted every translated span
+into the English span it replaced and filled the remainder with digital silence.
+The Portuguese TTS is shorter than the English span in 61% of the segments
+(median 0.91 of the slot; 30.4% needed more than 1.33x of expansion to fill),
+so 30.4% of the segments carried a pad. **That pad was silence inside the
+user's turn**, and the harness's turn-end signal is a 0.6 s silence gate: the
+padding produced turn-end invitations in the middle of a sentence. Measured on
+the traces, invitations landing in silence the benchmark does *not* annotate as
+a pause went from 58 (English) to 303 (Portuguese) over the same 353 scenarios,
+and at every class of invitation every model took the floor 1.2-2.0x more often
+on the re-voiced audio -- including the English-trained upstream model, which
+cannot be a language-skill effect. The full diagnosis is in
+`OOD_PARADOX.md`.
+
+Stretching to fill the slot instead was rejected on measurement: 30.4% of the
+segments would have needed more than 1.33x of expansion and 10.8% more than 2x,
+which is a larger distortion than a speaker's uniform rate difference.
+
+**`check_pt_structure.py` is the gate**, and it is what the first build lacked.
+It compares the pt audio with the recording it was made from -- speech fraction,
+spans, gaps of 0.6 s or more, and silence outside the benchmark's own pause
+windows -- and fails if the two shapes differ. A set that fails it is not a
+Portuguese benchmark; it is a different test.
+
+**Recognition is level-normalised, in both sets.** The two pocket-tts voices
+differ by 12.6 dB (english -18.5 dB RMS, portuguese -31.1 dB), and whisper's VAD
+-- which runs before the decoder -- rejects a reply it cannot find speech in: on
+the pt set 23 of 119 smooth scenarios had audible audio and an empty
+transcript, so the model was scored as mute. Every rendered file is therefore
+peak-normalised before it is recognised (`score.normalise_for_recognition`), so
+the recogniser reads what was said rather than how loud the voice was. The
+English renders were already at a normal level (median peak 0.58), and the same
+rule is applied to them.
+
+**The scorer is language-matched.** `parakeet-tdt-0.6b-v2` is the benchmark's own
+recipe and it is English-only, so it reads a Portuguese reply as silence: it
+inflates the pause columns (an unread reply looks like good restraint) and
+deflates smooth-turn and interruption. The pt set is therefore scored with
+`faster-whisper large-v3 --language pt` (`rescore_pt.py`), and the English set
+keeps parakeet. Both scorers run on normalised audio.
 
 ## A known accounting gap (found on the pt-BR set)
 

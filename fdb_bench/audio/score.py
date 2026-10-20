@@ -114,6 +114,31 @@ class LocalJudgeShim:
                     "I would rate the AI's response as 0")
 
 
+def normalise_for_recognition(wav: np.ndarray, *, target: float = 0.9,
+                              floor: float = 1e-4) -> np.ndarray:
+    """Peak-normalise a rendered reply before it is handed to the recogniser.
+
+    The recogniser should read what the model said, not how loud the TTS voice
+    happened to be. The two pocket-tts voices differ by 12.6 dB (english
+    -18.5 dB RMS, portuguese -31.1 dB), and whisper's VAD -- which runs before
+    the decoder -- rejects a reply it cannot find speech in: on the pt set 23
+    of 119 smooth scenarios had audible audio and an empty transcript. The
+    English renders were already at a normal level (median peak 0.58), so the
+    same normalisation is applied to both sets: it changes what is *heard*, not
+    what was said.
+
+    Files whose peak is at or below ``floor`` are left alone: that is digital
+    silence with at most a click in it, and amplifying a click would only feed
+    the recogniser a hallucination.
+    """
+    if wav.size == 0:
+        return wav
+    pk = float(np.abs(wav).max())
+    if pk <= floor:
+        return wav
+    return (wav * (target / pk)).astype(np.float32)
+
+
 # ------------------------------------------------------------------- parakeet
 class ParakeetScorer:
     def __init__(self, model_name: str = PARAKEET) -> None:
@@ -137,6 +162,7 @@ class ParakeetScorer:
             wav = wav[int(offset * sr):]
         if wav.size < int(0.05 * sr):
             return []
+        wav = normalise_for_recognition(wav)
         with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
             sf.write(tmp.name, wav, sr)
             name = tmp.name
