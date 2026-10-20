@@ -320,6 +320,51 @@ def remap_annotation(doc, remap) -> dict:
     return out
 
 
+def fit_span_to_slot(audio: np.ndarray, *, keep_internal_s: float = 0.05):
+    """Make the synthesised span occupy its slot the way the original span did.
+
+    The recording's span is one utterance. The detector merges speech separated
+    by less than 100 ms, so a span holds at most a 100 ms hitch, and it begins
+    and ends on speech. The synthesiser does neither: it opens with a few tens
+    of milliseconds of silence, closes with some, and pauses for longer than
+    100 ms at punctuation. Every such pause **split the Portuguese span in two**
+    -- the same defect as the padding, one level down. Measured on the
+    backchannel subset: 12.9 silero spans per Portuguese scenario against the
+    recording's 9.4, with 1.35 extra gaps of 0.6 s or more *inside* the user's
+    turns, each one a turn-end invitation the recording never offers.
+
+    So the edges are trimmed to the speech and the internal hitches are
+    shortened to below the detector's own merge threshold. The speech itself is
+    untouched; only silence is.
+    """
+    from .stt import silero_spans
+
+    if audio.size == 0:
+        return audio
+    spans = silero_spans(audio, speech_pad_ms=0)
+    if not spans:
+        return audio                      # too short for the detector: leave it
+    head = int(spans[0][0] * SR)
+    tail = int(spans[-1][1] * SR)
+    trimmed = audio[head:tail]
+    if trimmed.size == 0:
+        return audio
+    spans = [(a - spans[0][0], b - spans[0][0]) for a, b in spans]
+    if len(spans) == 1:
+        return trimmed
+    out = []
+    cursor = 0.0
+    for i in range(1, len(spans)):
+        gap_s, gap_e = spans[i - 1][1], spans[i][0]
+        if gap_e - gap_s <= keep_internal_s:
+            continue
+        out.append(trimmed[int(cursor * SR):int(gap_s * SR)])
+        out.append(trimmed[int(gap_s * SR):int((gap_s + keep_internal_s) * SR)])
+        cursor = gap_e
+    out.append(trimmed[int(cursor * SR):])
+    return np.concatenate(out) if out else trimmed
+
+
 def peak_normalise(audio: np.ndarray, target: float) -> tuple[np.ndarray, float]:
     """Scale to a target peak, returning the gain applied.
 
@@ -469,6 +514,7 @@ def stage_build(scenarios, out_root: Path, *, limit: int | None, voice_name: str
             chunk = (voice.speak(sg.text_pt, max_words=max_words) if state is None
                      else _speak_with_state(voice, state, sg.text_pt, max_words))
             levelled, gain = peak_normalise(chunk.audio, 0.7)
+            levelled = fit_span_to_slot(levelled)
             sg.gain = round(gain, 3)
             sg.synth_s = round(levelled.size / SR, 3)
             sg.fitted_s = sg.synth_s

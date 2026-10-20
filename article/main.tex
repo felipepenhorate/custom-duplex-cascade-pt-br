@@ -742,16 +742,19 @@ The two language runs are parallel translations of the same synthetic
 scenarios, so the comparison is controlled---but it is not symmetric, and the
 asymmetry is worth naming because it produces an apparent inversion. The
 Portuguese stimuli are longer than their English originals, so the chunker
-yields more pieces: the same 727 scenarios produce 9{,}747 decision points in
-pt-BR against 8{,}858 in English, and every pause column is a rate over those
-opportunities. The whole of the SFT inversion is therefore the pause term: pause
-TOR 0.051$\rightarrow$0.080 and 0.000$\rightarrow$0.032 give
-$-0.007-0.008$ of ATA, which is the entire 0.986$\rightarrow$0.971 difference,
-while smooth-turn and interruption TOR are unchanged to three decimals. In
-other words the in-distribution set is not easier for these models; it offers
-them more chances to misfire. On real audio the same asymmetry is far larger
-($\S\ref{sec:audio}$), for reasons that belong to the measurement rather than
-to the models.
+yields more pieces: the same 727 scenarios produce 5.78 user pieces against
+4.57, and every turn-taking rate is measured over those opportunities. The
+whole of the SFT inversion is therefore the pause term: pause TOR
+0.051$\rightarrow$0.080 and 0.000$\rightarrow$0.032 give $-0.007-0.008$ of ATA,
+which is the entire 0.986$\rightarrow$0.971 difference, while smooth-turn and
+interruption TOR are unchanged to three decimals. In absolute terms the pause
+term moves by a handful of scenarios out of 353. The model that changes most
+is the upstream English release, whose pause TOR doubles (0.099$\rightarrow$0.207
+over the two pause subsets): the direction a genuine cross-lingual effect
+would predict for a model trained in English, and the opposite of what the
+in-distribution reading of the trained variants would suggest. On real audio the
+same asymmetry appears far larger ($\S\ref{sec:audio}$), for reasons that belong
+to the measurement rather than to the models.
 
 \paragraph{Backchannel is a data gap, not a capability gap.} Every pt-BR variant
 scores BC TOR $=1.000$ where the upstream model scores 0.436: they always take a
