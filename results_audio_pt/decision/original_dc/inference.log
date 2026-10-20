@@ -1,0 +1,8 @@
+[audio] 727 scenarios across 5 subsets
+[audio] tts voice=rafael language=portuguese
+[0;93m2026-10-20 09:49:19.146376193 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[audio/original_dc] 1/727 queue (12.6s/scenario, 29.5s audio) spoke=False pieces=30
+WARNING:pocket_tts.models.tts_model:Chunk has 56 tokens (max 50), generation may skip words: 'Being at home can be very comfortable and relaxing...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'it sounds like you're feeling unsure about what yo...'
+[audio/original_dc] 2/727 queue (14.9s/scenario, 7.2s audio) spoke=True pieces=11
+[audio/original_dc] 3/727 queue (12.4s/scenario, 9.3s audio) spoke=True pieces=10
