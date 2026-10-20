@@ -1,0 +1,26 @@
+{
+    "text": "Paris will disitzeve.",
+    "chunks": [
+        {
+            "text": "Paris",
+            "timestamp": [
+                9.200000000000001,
+                9.44
+            ]
+        },
+        {
+            "text": "will",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "disitzeve.",
+            "timestamp": [
+                10.24,
+                13.92
+            ]
+        }
+    ]
+}

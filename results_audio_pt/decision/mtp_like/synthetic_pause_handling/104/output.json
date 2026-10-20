@@ -1,0 +1,19 @@
+{
+    "text": "Italian experience.",
+    "chunks": [
+        {
+            "text": "Italian",
+            "timestamp": [
+                10.16,
+                10.4
+            ]
+        },
+        {
+            "text": "experience.",
+            "timestamp": [
+                10.56,
+                10.88
+            ]
+        }
+    ]
+}

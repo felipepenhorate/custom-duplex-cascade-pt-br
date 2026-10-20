@@ -1,0 +1,68 @@
+{
+    "text": "Hi, it's a simple scene. And I canceled it.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                8.32,
+                8.48
+            ]
+        },
+        {
+            "text": "it's",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        },
+        {
+            "text": "simple",
+            "timestamp": [
+                10.64,
+                10.88
+            ]
+        },
+        {
+            "text": "scene.",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                12.72,
+                12.8
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.8,
+                12.88
+            ]
+        },
+        {
+            "text": "canceled",
+            "timestamp": [
+                13.6,
+                14.0
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                15.6,
+                15.68
+            ]
+        }
+    ]
+}

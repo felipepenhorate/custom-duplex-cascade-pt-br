@@ -1,0 +1,26 @@
+{
+    "text": "Taiwanese very listening.",
+    "chunks": [
+        {
+            "text": "Taiwanese",
+            "timestamp": [
+                4.96,
+                6.16
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                6.24,
+                6.32
+            ]
+        },
+        {
+            "text": "listening.",
+            "timestamp": [
+                12.32,
+                12.64
+            ]
+        }
+    ]
+}

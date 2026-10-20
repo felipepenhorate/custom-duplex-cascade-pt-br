@@ -1,0 +1,61 @@
+{
+    "text": "Tina problem here in Baltamado paper news here.",
+    "chunks": [
+        {
+            "text": "Tina",
+            "timestamp": [
+                15.52,
+                15.84
+            ]
+        },
+        {
+            "text": "problem",
+            "timestamp": [
+                16.16,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                16.64,
+                16.72
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                19.36,
+                19.44
+            ]
+        },
+        {
+            "text": "Baltamado",
+            "timestamp": [
+                19.44,
+                20.080000000000002
+            ]
+        },
+        {
+            "text": "paper",
+            "timestamp": [
+                20.32,
+                20.56
+            ]
+        },
+        {
+            "text": "news",
+            "timestamp": [
+                20.64,
+                20.96
+            ]
+        },
+        {
+            "text": "here.",
+            "timestamp": [
+                21.12,
+                21.2
+            ]
+        }
+    ]
+}

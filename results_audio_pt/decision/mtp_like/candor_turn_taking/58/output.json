@@ -1,0 +1,131 @@
+{
+    "text": "So, you want to say more, but don't prices, which is contamination for pollution, not especially industrial to.",
+    "chunks": [
+        {
+            "text": "So,",
+            "timestamp": [
+                3.92,
+                4.0
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                4.08,
+                4.16
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                4.64,
+                4.72
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                4.88,
+                4.96
+            ]
+        },
+        {
+            "text": "say",
+            "timestamp": [
+                4.96,
+                5.04
+            ]
+        },
+        {
+            "text": "more,",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                6.08,
+                6.16
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                6.4,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "prices,",
+            "timestamp": [
+                6.5600000000000005,
+                6.88
+            ]
+        },
+        {
+            "text": "which",
+            "timestamp": [
+                7.12,
+                7.2
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                15.44,
+                15.52
+            ]
+        },
+        {
+            "text": "contamination",
+            "timestamp": [
+                15.68,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                16.4,
+                16.48
+            ]
+        },
+        {
+            "text": "pollution,",
+            "timestamp": [
+                16.64,
+                16.88
+            ]
+        },
+        {
+            "text": "not",
+            "timestamp": [
+                17.44,
+                17.52
+            ]
+        },
+        {
+            "text": "especially",
+            "timestamp": [
+                20.080000000000002,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "industrial",
+            "timestamp": [
+                21.28,
+                21.52
+            ]
+        },
+        {
+            "text": "to.",
+            "timestamp": [
+                22.0,
+                22.080000000000002
+            ]
+        }
+    ]
+}

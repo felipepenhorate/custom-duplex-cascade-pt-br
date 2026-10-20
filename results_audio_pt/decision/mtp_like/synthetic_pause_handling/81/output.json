@@ -1,0 +1,26 @@
+{
+    "text": "Corvejuca pares 19",
+    "chunks": [
+        {
+            "text": "Corvejuca",
+            "timestamp": [
+                2.56,
+                3.44
+            ]
+        },
+        {
+            "text": "pares",
+            "timestamp": [
+                3.6,
+                3.92
+            ]
+        },
+        {
+            "text": "19",
+            "timestamp": [
+                5.6000000000000005,
+                5.92
+            ]
+        }
+    ]
+}

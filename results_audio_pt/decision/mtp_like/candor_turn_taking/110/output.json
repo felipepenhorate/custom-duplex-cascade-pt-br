@@ -1,0 +1,103 @@
+{
+    "text": "Hello, everybody. Oh, I was going to bring you the struggle, but I can't.",
+    "chunks": [
+        {
+            "text": "Hello,",
+            "timestamp": [
+                8.24,
+                8.64
+            ]
+        },
+        {
+            "text": "everybody.",
+            "timestamp": [
+                9.52,
+                10.16
+            ]
+        },
+        {
+            "text": "Oh,",
+            "timestamp": [
+                12.8,
+                12.88
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.52,
+                13.6
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                13.84,
+                13.92
+            ]
+        },
+        {
+            "text": "going",
+            "timestamp": [
+                14.8,
+                14.88
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.88,
+                14.96
+            ]
+        },
+        {
+            "text": "bring",
+            "timestamp": [
+                14.96,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                15.280000000000001,
+                15.36
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                15.52,
+                15.6
+            ]
+        },
+        {
+            "text": "struggle,",
+            "timestamp": [
+                15.68,
+                15.92
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                17.84,
+                17.92
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                24.240000000000002,
+                24.32
+            ]
+        },
+        {
+            "text": "can't.",
+            "timestamp": [
+                24.48,
+                25.36
+            ]
+        }
+    ]
+}

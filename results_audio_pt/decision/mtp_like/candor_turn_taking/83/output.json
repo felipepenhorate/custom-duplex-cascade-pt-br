@@ -1,0 +1,61 @@
+{
+    "text": "No, don't watch the tip man I think.",
+    "chunks": [
+        {
+            "text": "No,",
+            "timestamp": [
+                4.64,
+                4.8
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                4.96,
+                5.2
+            ]
+        },
+        {
+            "text": "watch",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                5.44,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "tip",
+            "timestamp": [
+                5.5200000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "man",
+            "timestamp": [
+                5.76,
+                5.84
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.0,
+                6.08
+            ]
+        },
+        {
+            "text": "think.",
+            "timestamp": [
+                6.08,
+                6.24
+            ]
+        }
+    ]
+}

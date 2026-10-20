@@ -1,0 +1,54 @@
+{
+    "text": "So no ten affalado nada sobroa sunto",
+    "chunks": [
+        {
+            "text": "So",
+            "timestamp": [
+                4.16,
+                4.24
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                4.96,
+                5.04
+            ]
+        },
+        {
+            "text": "ten",
+            "timestamp": [
+                5.12,
+                5.2
+            ]
+        },
+        {
+            "text": "affalado",
+            "timestamp": [
+                5.28,
+                5.76
+            ]
+        },
+        {
+            "text": "nada",
+            "timestamp": [
+                5.76,
+                6.08
+            ]
+        },
+        {
+            "text": "sobroa",
+            "timestamp": [
+                6.08,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "sunto",
+            "timestamp": [
+                6.72,
+                7.36
+            ]
+        }
+    ]
+}

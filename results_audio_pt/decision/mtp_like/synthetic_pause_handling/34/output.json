@@ -1,0 +1,40 @@
+{
+    "text": "An Quilegao Tin of Japanese.",
+    "chunks": [
+        {
+            "text": "An",
+            "timestamp": [
+                4.24,
+                4.32
+            ]
+        },
+        {
+            "text": "Quilegao",
+            "timestamp": [
+                6.08,
+                7.04
+            ]
+        },
+        {
+            "text": "Tin",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "Japanese.",
+            "timestamp": [
+                11.84,
+                13.040000000000001
+            ]
+        }
+    ]
+}

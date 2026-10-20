@@ -1,0 +1,54 @@
+{
+    "text": "Y bon vis, okay, voice bring candle.",
+    "chunks": [
+        {
+            "text": "Y",
+            "timestamp": [
+                3.7600000000000002,
+                3.84
+            ]
+        },
+        {
+            "text": "bon",
+            "timestamp": [
+                3.92,
+                4.16
+            ]
+        },
+        {
+            "text": "vis,",
+            "timestamp": [
+                4.24,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "okay,",
+            "timestamp": [
+                4.8,
+                4.88
+            ]
+        },
+        {
+            "text": "voice",
+            "timestamp": [
+                10.72,
+                10.96
+            ]
+        },
+        {
+            "text": "bring",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "candle.",
+            "timestamp": [
+                11.44,
+                11.92
+            ]
+        }
+    ]
+}

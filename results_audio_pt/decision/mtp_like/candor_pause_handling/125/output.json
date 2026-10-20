@@ -1,0 +1,40 @@
+{
+    "text": "Eduffism is important and contemporary.",
+    "chunks": [
+        {
+            "text": "Eduffism",
+            "timestamp": [
+                8.64,
+                9.120000000000001
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                9.52,
+                9.6
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "contemporary.",
+            "timestamp": [
+                11.44,
+                12.16
+            ]
+        }
+    ]
+}

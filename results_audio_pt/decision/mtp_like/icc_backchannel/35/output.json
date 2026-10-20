@@ -1,0 +1,33 @@
+{
+    "text": "Ah, interdio Tiregao perfectly.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "interdio",
+            "timestamp": [
+                9.120000000000001,
+                9.92
+            ]
+        },
+        {
+            "text": "Tiregao",
+            "timestamp": [
+                24.64,
+                25.6
+            ]
+        },
+        {
+            "text": "perfectly.",
+            "timestamp": [
+                48.4,
+                48.88
+            ]
+        }
+    ]
+}

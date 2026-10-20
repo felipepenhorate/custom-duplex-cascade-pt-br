@@ -1,0 +1,40 @@
+{
+    "text": "Reich in the list of",
+    "chunks": [
+        {
+            "text": "Reich",
+            "timestamp": [
+                17.512,
+                17.832
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                17.912,
+                17.991999999999997
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                18.072,
+                18.152
+            ]
+        },
+        {
+            "text": "list",
+            "timestamp": [
+                18.152,
+                18.311999999999998
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                21.032,
+                21.112
+            ]
+        }
+    ]
+}

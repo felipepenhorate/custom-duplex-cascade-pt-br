@@ -1,0 +1,33 @@
+{
+    "text": "Alega, if you like.",
+    "chunks": [
+        {
+            "text": "Alega,",
+            "timestamp": [
+                2.16,
+                2.8000000000000003
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                6.72,
+                6.8
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.96,
+                7.04
+            ]
+        },
+        {
+            "text": "like.",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        }
+    ]
+}

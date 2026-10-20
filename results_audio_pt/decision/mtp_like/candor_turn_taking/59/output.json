@@ -1,0 +1,61 @@
+{
+    "text": "This phone comes influenciaded to medicine. I think.",
+    "chunks": [
+        {
+            "text": "This",
+            "timestamp": [
+                12.96,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "phone",
+            "timestamp": [
+                13.280000000000001,
+                13.44
+            ]
+        },
+        {
+            "text": "comes",
+            "timestamp": [
+                13.68,
+                13.92
+            ]
+        },
+        {
+            "text": "influenciaded",
+            "timestamp": [
+                14.4,
+                14.8
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                14.96,
+                15.040000000000001
+            ]
+        },
+        {
+            "text": "medicine.",
+            "timestamp": [
+                15.76,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.48,
+                16.56
+            ]
+        },
+        {
+            "text": "think.",
+            "timestamp": [
+                16.96,
+                17.04
+            ]
+        }
+    ]
+}

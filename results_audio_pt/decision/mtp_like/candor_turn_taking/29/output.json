@@ -1,0 +1,103 @@
+{
+    "text": "Hi, Intendeo. So, more dollars in the total with all the contents for me.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                7.28,
+                7.44
+            ]
+        },
+        {
+            "text": "Intendeo.",
+            "timestamp": [
+                7.6000000000000005,
+                8.08
+            ]
+        },
+        {
+            "text": "So,",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "dollars",
+            "timestamp": [
+                9.68,
+                9.84
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                9.92,
+                10.0
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "total",
+            "timestamp": [
+                10.08,
+                10.32
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                10.56,
+                10.72
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.96,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "contents",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.52,
+                11.6
+            ]
+        },
+        {
+            "text": "me.",
+            "timestamp": [
+                14.16,
+                14.24
+            ]
+        }
+    ]
+}

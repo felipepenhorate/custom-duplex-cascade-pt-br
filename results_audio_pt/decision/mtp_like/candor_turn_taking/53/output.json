@@ -1,0 +1,54 @@
+{
+    "text": "No, I don't have a medical incident.",
+    "chunks": [
+        {
+            "text": "No,",
+            "timestamp": [
+                5.6000000000000005,
+                5.76
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                5.92,
+                6.0
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                6.0,
+                6.08
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                6.24,
+                6.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                6.4,
+                6.48
+            ]
+        },
+        {
+            "text": "medical",
+            "timestamp": [
+                6.48,
+                8.32
+            ]
+        },
+        {
+            "text": "incident.",
+            "timestamp": [
+                9.28,
+                9.76
+            ]
+        }
+    ]
+}

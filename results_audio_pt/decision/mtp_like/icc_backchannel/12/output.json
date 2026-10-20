@@ -1,0 +1,61 @@
+{
+    "text": "Ata Ficoma escaro como ingueno te pu como.",
+    "chunks": [
+        {
+            "text": "Ata",
+            "timestamp": [
+                9.84,
+                10.24
+            ]
+        },
+        {
+            "text": "Ficoma",
+            "timestamp": [
+                10.32,
+                10.8
+            ]
+        },
+        {
+            "text": "escaro",
+            "timestamp": [
+                10.88,
+                11.52
+            ]
+        },
+        {
+            "text": "como",
+            "timestamp": [
+                42.56,
+                42.800000000000004
+            ]
+        },
+        {
+            "text": "ingueno",
+            "timestamp": [
+                42.800000000000004,
+                43.28
+            ]
+        },
+        {
+            "text": "te",
+            "timestamp": [
+                43.28,
+                43.36
+            ]
+        },
+        {
+            "text": "pu",
+            "timestamp": [
+                43.76,
+                44.0
+            ]
+        },
+        {
+            "text": "como.",
+            "timestamp": [
+                44.24,
+                44.56
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "text": "Passive films and novels recommend a classical class and histories that you have.",
+    "chunks": [
+        {
+            "text": "Passive",
+            "timestamp": [
+                14.776,
+                15.816
+            ]
+        },
+        {
+            "text": "films",
+            "timestamp": [
+                16.056,
+                16.296
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                16.296,
+                16.376
+            ]
+        },
+        {
+            "text": "novels",
+            "timestamp": [
+                16.456,
+                16.696
+            ]
+        },
+        {
+            "text": "recommend",
+            "timestamp": [
+                16.856,
+                17.176000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                19.336,
+                19.496000000000002
+            ]
+        },
+        {
+            "text": "classical",
+            "timestamp": [
+                19.576,
+                19.816
+            ]
+        },
+        {
+            "text": "class",
+            "timestamp": [
+                21.176000000000002,
+                21.256
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                22.296,
+                22.375999999999998
+            ]
+        },
+        {
+            "text": "histories",
+            "timestamp": [
+                22.375999999999998,
+                22.695999999999998
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                22.936,
+                23.016
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                23.336,
+                23.416
+            ]
+        },
+        {
+            "text": "have.",
+            "timestamp": [
+                24.695999999999998,
+                25.016
+            ]
+        }
+    ]
+}

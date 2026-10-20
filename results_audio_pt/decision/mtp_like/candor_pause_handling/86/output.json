@@ -1,0 +1,33 @@
+{
+    "text": "Now Inde obligado abrigado",
+    "chunks": [
+        {
+            "text": "Now",
+            "timestamp": [
+                3.2,
+                3.36
+            ]
+        },
+        {
+            "text": "Inde",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        },
+        {
+            "text": "obligado",
+            "timestamp": [
+                9.36,
+                10.16
+            ]
+        },
+        {
+            "text": "abrigado",
+            "timestamp": [
+                10.72,
+                13.36
+            ]
+        }
+    ]
+}

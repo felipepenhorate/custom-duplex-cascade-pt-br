@@ -1,0 +1,89 @@
+{
+    "text": "Ah, bring it for nothing. But we have a temple and value.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                5.28,
+                5.44
+            ]
+        },
+        {
+            "text": "bring",
+            "timestamp": [
+                5.68,
+                5.84
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                5.92,
+                6.0
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                6.08,
+                6.16
+            ]
+        },
+        {
+            "text": "nothing.",
+            "timestamp": [
+                6.24,
+                7.04
+            ]
+        },
+        {
+            "text": "But",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                11.120000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "temple",
+            "timestamp": [
+                11.36,
+                11.6
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.08,
+                12.16
+            ]
+        },
+        {
+            "text": "value.",
+            "timestamp": [
+                13.200000000000001,
+                13.36
+            ]
+        }
+    ]
+}

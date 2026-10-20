@@ -1,0 +1,47 @@
+{
+    "text": "Hoy si, I here who precisely.",
+    "chunks": [
+        {
+            "text": "Hoy",
+            "timestamp": [
+                3.12,
+                3.44
+            ]
+        },
+        {
+            "text": "si,",
+            "timestamp": [
+                4.0,
+                4.32
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                4.5600000000000005,
+                4.64
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                5.04,
+                5.12
+            ]
+        },
+        {
+            "text": "who",
+            "timestamp": [
+                13.36,
+                13.44
+            ]
+        },
+        {
+            "text": "precisely.",
+            "timestamp": [
+                14.0,
+                14.48
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "text": "Paro Bonketa Fallon Jog Macero, netudo.",
+    "chunks": [
+        {
+            "text": "Paro",
+            "timestamp": [
+                4.5600000000000005,
+                5.04
+            ]
+        },
+        {
+            "text": "Bonketa",
+            "timestamp": [
+                11.040000000000001,
+                15.68
+            ]
+        },
+        {
+            "text": "Fallon",
+            "timestamp": [
+                15.68,
+                15.92
+            ]
+        },
+        {
+            "text": "Jog",
+            "timestamp": [
+                16.0,
+                16.16
+            ]
+        },
+        {
+            "text": "Macero,",
+            "timestamp": [
+                16.32,
+                16.72
+            ]
+        },
+        {
+            "text": "netudo.",
+            "timestamp": [
+                16.8,
+                17.44
+            ]
+        }
+    ]
+}

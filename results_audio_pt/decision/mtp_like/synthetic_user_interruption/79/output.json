@@ -1,0 +1,68 @@
+{
+    "text": "Ah, a live very well. Gilivia Gomez Tura Levi.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                14.936,
+                15.096
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                15.576,
+                15.656
+            ]
+        },
+        {
+            "text": "live",
+            "timestamp": [
+                15.656,
+                15.816
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                16.376,
+                16.456
+            ]
+        },
+        {
+            "text": "well.",
+            "timestamp": [
+                16.616,
+                16.696
+            ]
+        },
+        {
+            "text": "Gilivia",
+            "timestamp": [
+                28.136000000000003,
+                28.695999999999998
+            ]
+        },
+        {
+            "text": "Gomez",
+            "timestamp": [
+                28.856,
+                29.096
+            ]
+        },
+        {
+            "text": "Tura",
+            "timestamp": [
+                29.656,
+                29.976
+            ]
+        },
+        {
+            "text": "Levi.",
+            "timestamp": [
+                30.055999999999997,
+                30.456000000000003
+            ]
+        }
+    ]
+}

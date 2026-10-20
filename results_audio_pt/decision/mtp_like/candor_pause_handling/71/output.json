@@ -1,0 +1,40 @@
+{
+    "text": "Today we firmly agree important.",
+    "chunks": [
+        {
+            "text": "Today",
+            "timestamp": [
+                16.0,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                16.8,
+                16.88
+            ]
+        },
+        {
+            "text": "firmly",
+            "timestamp": [
+                17.44,
+                17.76
+            ]
+        },
+        {
+            "text": "agree",
+            "timestamp": [
+                20.32,
+                20.48
+            ]
+        },
+        {
+            "text": "important.",
+            "timestamp": [
+                20.8,
+                20.96
+            ]
+        }
+    ]
+}

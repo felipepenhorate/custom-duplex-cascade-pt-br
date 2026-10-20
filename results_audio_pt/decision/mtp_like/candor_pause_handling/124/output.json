@@ -1,0 +1,33 @@
+{
+    "text": "It was very countries.",
+    "chunks": [
+        {
+            "text": "It",
+            "timestamp": [
+                11.68,
+                11.76
+            ]
+        },
+        {
+            "text": "was",
+            "timestamp": [
+                11.92,
+                12.0
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                12.4,
+                12.48
+            ]
+        },
+        {
+            "text": "countries.",
+            "timestamp": [
+                13.68,
+                13.92
+            ]
+        }
+    ]
+}

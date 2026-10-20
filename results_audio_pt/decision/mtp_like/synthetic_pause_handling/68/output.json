@@ -1,0 +1,26 @@
+{
+    "text": "Taubrigado quidad collision.",
+    "chunks": [
+        {
+            "text": "Taubrigado",
+            "timestamp": [
+                12.16,
+                13.120000000000001
+            ]
+        },
+        {
+            "text": "quidad",
+            "timestamp": [
+                13.280000000000001,
+                13.6
+            ]
+        },
+        {
+            "text": "collision.",
+            "timestamp": [
+                13.76,
+                14.0
+            ]
+        }
+    ]
+}

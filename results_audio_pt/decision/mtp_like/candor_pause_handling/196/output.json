@@ -1,0 +1,61 @@
+{
+    "text": "As a pandemic, we all have to go.",
+    "chunks": [
+        {
+            "text": "As",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.6,
+                13.68
+            ]
+        },
+        {
+            "text": "pandemic,",
+            "timestamp": [
+                13.76,
+                14.0
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                14.08,
+                14.16
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                14.72,
+                14.8
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                15.040000000000001,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.76,
+                15.84
+            ]
+        },
+        {
+            "text": "go.",
+            "timestamp": [
+                15.84,
+                15.84
+            ]
+        }
+    ]
+}

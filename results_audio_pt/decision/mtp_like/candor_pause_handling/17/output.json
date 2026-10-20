@@ -1,0 +1,68 @@
+{
+    "text": "Ah, you guys in Judaism for the first time.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                5.5200000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.84,
+                5.92
+            ]
+        },
+        {
+            "text": "guys",
+            "timestamp": [
+                9.200000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "Judaism",
+            "timestamp": [
+                9.44,
+                9.84
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.68,
+                11.68
+            ]
+        },
+        {
+            "text": "first",
+            "timestamp": [
+                11.68,
+                11.68
+            ]
+        },
+        {
+            "text": "time.",
+            "timestamp": [
+                11.68,
+                11.68
+            ]
+        }
+    ]
+}

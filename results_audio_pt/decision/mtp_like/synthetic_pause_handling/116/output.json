@@ -1,0 +1,82 @@
+{
+    "text": "Yes, bencho mum cua are vo est\u00e1 consterando aviaja qui combinada.",
+    "chunks": [
+        {
+            "text": "Yes,",
+            "timestamp": [
+                2.88,
+                3.2
+            ]
+        },
+        {
+            "text": "bencho",
+            "timestamp": [
+                3.2800000000000002,
+                3.68
+            ]
+        },
+        {
+            "text": "mum",
+            "timestamp": [
+                3.7600000000000002,
+                3.92
+            ]
+        },
+        {
+            "text": "cua",
+            "timestamp": [
+                4.32,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                4.72,
+                4.88
+            ]
+        },
+        {
+            "text": "vo",
+            "timestamp": [
+                4.96,
+                5.04
+            ]
+        },
+        {
+            "text": "est\u00e1",
+            "timestamp": [
+                5.12,
+                5.36
+            ]
+        },
+        {
+            "text": "consterando",
+            "timestamp": [
+                5.36,
+                6.0
+            ]
+        },
+        {
+            "text": "aviaja",
+            "timestamp": [
+                10.0,
+                10.96
+            ]
+        },
+        {
+            "text": "qui",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        },
+        {
+            "text": "combinada.",
+            "timestamp": [
+                12.4,
+                12.88
+            ]
+        }
+    ]
+}

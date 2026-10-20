@@ -1,0 +1,68 @@
+{
+    "text": "When you celebrate, and tranquil, you can concentrate organization.",
+    "chunks": [
+        {
+            "text": "When",
+            "timestamp": [
+                16.770666666666667,
+                16.930666666666667
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.090666666666667,
+                17.170666666666666
+            ]
+        },
+        {
+            "text": "celebrate,",
+            "timestamp": [
+                17.810666666666666,
+                18.21066666666667
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                19.890666666666668,
+                19.970666666666666
+            ]
+        },
+        {
+            "text": "tranquil,",
+            "timestamp": [
+                20.770666666666667,
+                21.090666666666667
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                21.650666666666666,
+                21.730666666666664
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                22.130666666666666,
+                22.21066666666667
+            ]
+        },
+        {
+            "text": "concentrate",
+            "timestamp": [
+                22.53066666666667,
+                23.010666666666665
+            ]
+        },
+        {
+            "text": "organization.",
+            "timestamp": [
+                30.610666666666667,
+                31.010666666666665
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "text": "To the bank, no, back to Gera\u00e7\u00e3o now. When Gerazon,",
+    "chunks": [
+        {
+            "text": "To",
+            "timestamp": [
+                1.28,
+                1.36
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                1.52,
+                1.68
+            ]
+        },
+        {
+            "text": "bank,",
+            "timestamp": [
+                1.68,
+                1.92
+            ]
+        },
+        {
+            "text": "no,",
+            "timestamp": [
+                7.12,
+                7.44
+            ]
+        },
+        {
+            "text": "back",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                10.0,
+                10.08
+            ]
+        },
+        {
+            "text": "Gera\u00e7\u00e3o",
+            "timestamp": [
+                10.16,
+                10.72
+            ]
+        },
+        {
+            "text": "now.",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "When",
+            "timestamp": [
+                12.8,
+                12.96
+            ]
+        },
+        {
+            "text": "Gerazon,",
+            "timestamp": [
+                13.200000000000001,
+                13.44
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "text": "Hi, thank you.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                12.16,
+                12.4
+            ]
+        },
+        {
+            "text": "thank",
+            "timestamp": [
+                12.64,
+                12.96
+            ]
+        },
+        {
+            "text": "you.",
+            "timestamp": [
+                12.96,
+                13.120000000000001
+            ]
+        }
+    ]
+}

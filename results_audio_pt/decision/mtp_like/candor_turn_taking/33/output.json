@@ -1,0 +1,40 @@
+{
+    "text": "Vigado. Hi, Tengi. Today continuously.",
+    "chunks": [
+        {
+            "text": "Vigado.",
+            "timestamp": [
+                1.52,
+                2.4
+            ]
+        },
+        {
+            "text": "Hi,",
+            "timestamp": [
+                4.88,
+                5.04
+            ]
+        },
+        {
+            "text": "Tengi.",
+            "timestamp": [
+                5.36,
+                5.76
+            ]
+        },
+        {
+            "text": "Today",
+            "timestamp": [
+                6.4,
+                6.8
+            ]
+        },
+        {
+            "text": "continuously.",
+            "timestamp": [
+                7.12,
+                7.68
+            ]
+        }
+    ]
+}

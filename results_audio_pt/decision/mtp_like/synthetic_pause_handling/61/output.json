@@ -1,0 +1,75 @@
+{
+    "text": "As part of the distance of progressive form, for example.",
+    "chunks": [
+        {
+            "text": "As",
+            "timestamp": [
+                6.8,
+                6.88
+            ]
+        },
+        {
+            "text": "part",
+            "timestamp": [
+                7.5200000000000005,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "distance",
+            "timestamp": [
+                9.28,
+                9.52
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "progressive",
+            "timestamp": [
+                10.24,
+                10.72
+            ]
+        },
+        {
+            "text": "form,",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                11.44,
+                11.52
+            ]
+        },
+        {
+            "text": "example.",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        }
+    ]
+}

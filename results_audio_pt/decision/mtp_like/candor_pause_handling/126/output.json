@@ -1,0 +1,54 @@
+{
+    "text": "Type 9 perfect. My speech is perceived.",
+    "chunks": [
+        {
+            "text": "Type",
+            "timestamp": [
+                4.48,
+                5.04
+            ]
+        },
+        {
+            "text": "9",
+            "timestamp": [
+                5.36,
+                5.44
+            ]
+        },
+        {
+            "text": "perfect.",
+            "timestamp": [
+                6.5600000000000005,
+                6.96
+            ]
+        },
+        {
+            "text": "My",
+            "timestamp": [
+                7.5200000000000005,
+                7.68
+            ]
+        },
+        {
+            "text": "speech",
+            "timestamp": [
+                7.84,
+                8.0
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "perceived.",
+            "timestamp": [
+                9.44,
+                9.84
+            ]
+        }
+    ]
+}

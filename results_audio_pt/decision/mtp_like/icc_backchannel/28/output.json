@@ -1,0 +1,103 @@
+{
+    "text": "For that moment, I put in the middle of the middle of the morning.",
+    "chunks": [
+        {
+            "text": "For",
+            "timestamp": [
+                4.72,
+                4.8
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                4.96,
+                5.04
+            ]
+        },
+        {
+            "text": "moment,",
+            "timestamp": [
+                5.2,
+                5.44
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                13.76,
+                13.84
+            ]
+        },
+        {
+            "text": "put",
+            "timestamp": [
+                13.92,
+                14.08
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                14.32,
+                14.4
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                15.68,
+                15.76
+            ]
+        },
+        {
+            "text": "middle",
+            "timestamp": [
+                15.76,
+                15.76
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                15.76,
+                15.84
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                15.84,
+                15.84
+            ]
+        },
+        {
+            "text": "middle",
+            "timestamp": [
+                15.84,
+                16.32
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                16.4,
+                16.48
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.48,
+                16.56
+            ]
+        },
+        {
+            "text": "morning.",
+            "timestamp": [
+                17.6,
+                17.68
+            ]
+        }
+    ]
+}

@@ -164,6 +164,11 @@ def main() -> None:
     ap.add_argument("--big-api-base", default=None)
     ap.add_argument("--judge-api-base", default="http://127.0.0.1:8099/v1")
     ap.add_argument("--prompt-candidate", default=None)
+    ap.add_argument("--floor-by-text", action="store_true",
+                    help="treat any assistant text as taking the floor. The deployed "
+                         "distill bridge works this way: its prompt says not to print "
+                         "tags, the text goes straight to TTS, and the turn ends on "
+                         "<|user is thinking|>.")
     ap.add_argument("--system-override", default=None,
                     help="replace the model's system prompt entirely (used to "
                          "measure whether pinning the reply language fixes a "
@@ -213,6 +218,7 @@ def main() -> None:
             device=args.device, prime_mode=args.mode, lang=args.lang,
             prompt_candidate=args.prompt_candidate,
             system_override=args.system_override,
+            floor_by_text=(True if args.floor_by_text else None),
         )
         from faster_whisper import WhisperModel
 

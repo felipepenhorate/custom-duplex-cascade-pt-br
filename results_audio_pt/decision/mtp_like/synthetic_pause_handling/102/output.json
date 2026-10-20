@@ -1,0 +1,33 @@
+{
+    "text": "At all phases, whatever.",
+    "chunks": [
+        {
+            "text": "At",
+            "timestamp": [
+                9.040000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                9.28,
+                9.36
+            ]
+        },
+        {
+            "text": "phases,",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "whatever.",
+            "timestamp": [
+                10.16,
+                11.36
+            ]
+        }
+    ]
+}

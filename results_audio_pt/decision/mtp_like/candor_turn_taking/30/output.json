@@ -1,0 +1,89 @@
+{
+    "text": "Hi, that's a big governor, so I have some political social policy.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                7.12,
+                7.76
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "big",
+            "timestamp": [
+                8.4,
+                8.48
+            ]
+        },
+        {
+            "text": "governor,",
+            "timestamp": [
+                9.28,
+                9.76
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                10.64,
+                10.72
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "political",
+            "timestamp": [
+                11.44,
+                11.68
+            ]
+        },
+        {
+            "text": "social",
+            "timestamp": [
+                11.92,
+                12.08
+            ]
+        },
+        {
+            "text": "policy.",
+            "timestamp": [
+                12.24,
+                12.32
+            ]
+        }
+    ]
+}

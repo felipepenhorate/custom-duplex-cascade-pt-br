@@ -1,0 +1,47 @@
+{
+    "text": "Ah, a bain, for example, post.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.32,
+                10.4
+            ]
+        },
+        {
+            "text": "bain,",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "example,",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "post.",
+            "timestamp": [
+                12.16,
+                12.32
+            ]
+        }
+    ]
+}

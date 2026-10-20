@@ -1,0 +1,110 @@
+{
+    "text": "Erro, and that's very different. Or when they comment on a film of a person.",
+    "chunks": [
+        {
+            "text": "Erro,",
+            "timestamp": [
+                14.152,
+                14.792
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                15.032,
+                15.192
+            ]
+        },
+        {
+            "text": "that's",
+            "timestamp": [
+                15.352,
+                15.591999999999999
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                17.192,
+                17.272
+            ]
+        },
+        {
+            "text": "different.",
+            "timestamp": [
+                17.592,
+                17.672
+            ]
+        },
+        {
+            "text": "Or",
+            "timestamp": [
+                18.311999999999998,
+                18.472
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                18.712,
+                18.792
+            ]
+        },
+        {
+            "text": "they",
+            "timestamp": [
+                19.032,
+                19.112000000000002
+            ]
+        },
+        {
+            "text": "comment",
+            "timestamp": [
+                19.832,
+                20.152
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                20.872,
+                20.951999999999998
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                20.951999999999998,
+                21.032
+            ]
+        },
+        {
+            "text": "film",
+            "timestamp": [
+                21.032,
+                21.272
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                21.512,
+                21.592
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.912,
+                21.991999999999997
+            ]
+        },
+        {
+            "text": "person.",
+            "timestamp": [
+                22.072,
+                22.232
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "text": "And you can see the world.",
+    "chunks": [
+        {
+            "text": "And",
+            "timestamp": [
+                14.0,
+                14.16
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.28,
+                17.36
+            ]
+        },
+        {
+            "text": "can",
+            "timestamp": [
+                17.76,
+                17.84
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                18.0,
+                18.0
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                18.0,
+                18.0
+            ]
+        },
+        {
+            "text": "world.",
+            "timestamp": [
+                18.0,
+                18.0
+            ]
+        }
+    ]
+}

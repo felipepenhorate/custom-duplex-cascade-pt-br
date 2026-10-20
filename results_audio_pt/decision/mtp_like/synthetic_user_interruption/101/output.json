@@ -1,0 +1,61 @@
+{
+    "text": "Prime Ligua and Olympia or Matthew Bohasha Paris",
+    "chunks": [
+        {
+            "text": "Prime",
+            "timestamp": [
+                16.792,
+                17.032
+            ]
+        },
+        {
+            "text": "Ligua",
+            "timestamp": [
+                17.272,
+                17.592
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                17.752000000000002,
+                17.832
+            ]
+        },
+        {
+            "text": "Olympia",
+            "timestamp": [
+                17.832,
+                18.072
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                21.032,
+                21.112000000000002
+            ]
+        },
+        {
+            "text": "Matthew",
+            "timestamp": [
+                21.192,
+                21.352
+            ]
+        },
+        {
+            "text": "Bohasha",
+            "timestamp": [
+                21.992,
+                22.631999999999998
+            ]
+        },
+        {
+            "text": "Paris",
+            "timestamp": [
+                22.712,
+                23.672
+            ]
+        }
+    ]
+}

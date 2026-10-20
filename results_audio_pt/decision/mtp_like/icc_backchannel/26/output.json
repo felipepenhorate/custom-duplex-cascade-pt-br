@@ -1,0 +1,33 @@
+{
+    "text": "Radio. It has pressed",
+    "chunks": [
+        {
+            "text": "Radio.",
+            "timestamp": [
+                24.96,
+                25.68
+            ]
+        },
+        {
+            "text": "It",
+            "timestamp": [
+                26.0,
+                26.080000000000002
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                26.32,
+                26.400000000000002
+            ]
+        },
+        {
+            "text": "pressed",
+            "timestamp": [
+                27.76,
+                28.88
+            ]
+        }
+    ]
+}

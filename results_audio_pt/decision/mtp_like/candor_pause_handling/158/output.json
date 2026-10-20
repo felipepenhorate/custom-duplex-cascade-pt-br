@@ -1,0 +1,26 @@
+{
+    "text": "Vietnamese tattoo baby.",
+    "chunks": [
+        {
+            "text": "Vietnamese",
+            "timestamp": [
+                9.28,
+                11.52
+            ]
+        },
+        {
+            "text": "tattoo",
+            "timestamp": [
+                12.96,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "baby.",
+            "timestamp": [
+                13.36,
+                13.52
+            ]
+        }
+    ]
+}

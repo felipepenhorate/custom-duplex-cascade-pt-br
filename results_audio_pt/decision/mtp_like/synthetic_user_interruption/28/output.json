@@ -1,0 +1,40 @@
+{
+    "text": "Experiment with interest, two triggers.",
+    "chunks": [
+        {
+            "text": "Experiment",
+            "timestamp": [
+                17.357333333333333,
+                17.757333333333335
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                18.957333333333334,
+                19.037333333333333
+            ]
+        },
+        {
+            "text": "interest,",
+            "timestamp": [
+                19.917333333333332,
+                19.997333333333334
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                22.397333333333336,
+                22.477333333333334
+            ]
+        },
+        {
+            "text": "triggers.",
+            "timestamp": [
+                23.837333333333333,
+                24.237333333333332
+            ]
+        }
+    ]
+}

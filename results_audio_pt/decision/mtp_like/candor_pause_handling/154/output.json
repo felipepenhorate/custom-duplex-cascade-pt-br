@@ -1,0 +1,26 @@
+{
+    "text": "In the Abeles.",
+    "chunks": [
+        {
+            "text": "In",
+            "timestamp": [
+                3.04,
+                3.12
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                3.2800000000000002,
+                3.36
+            ]
+        },
+        {
+            "text": "Abeles.",
+            "timestamp": [
+                6.96,
+                7.76
+            ]
+        }
+    ]
+}

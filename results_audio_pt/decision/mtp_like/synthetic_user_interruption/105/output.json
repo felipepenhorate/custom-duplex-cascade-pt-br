@@ -1,0 +1,61 @@
+{
+    "text": "If I recommend bank researchers, more and talk.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                15.735999999999999,
+                15.815999999999999
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                16.695999999999998,
+                16.776
+            ]
+        },
+        {
+            "text": "recommend",
+            "timestamp": [
+                17.976,
+                18.456
+            ]
+        },
+        {
+            "text": "bank",
+            "timestamp": [
+                21.176,
+                21.336
+            ]
+        },
+        {
+            "text": "researchers,",
+            "timestamp": [
+                21.496,
+                22.136
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                23.576,
+                23.656
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                24.216,
+                24.296
+            ]
+        },
+        {
+            "text": "talk.",
+            "timestamp": [
+                24.536,
+                24.616
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "text": "Ah, legal felicity climate friends.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                7.12,
+                7.28
+            ]
+        },
+        {
+            "text": "legal",
+            "timestamp": [
+                7.44,
+                7.76
+            ]
+        },
+        {
+            "text": "felicity",
+            "timestamp": [
+                8.24,
+                8.56
+            ]
+        },
+        {
+            "text": "climate",
+            "timestamp": [
+                9.52,
+                9.84
+            ]
+        },
+        {
+            "text": "friends.",
+            "timestamp": [
+                10.0,
+                10.16
+            ]
+        }
+    ]
+}

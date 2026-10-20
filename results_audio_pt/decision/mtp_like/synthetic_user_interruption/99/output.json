@@ -1,0 +1,96 @@
+{
+    "text": "We have a basis for all paragraphs once or twice. And the vocabulary",
+    "chunks": [
+        {
+            "text": "We",
+            "timestamp": [
+                17.352,
+                17.432000000000002
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                17.832,
+                17.912
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.152,
+                18.232
+            ]
+        },
+        {
+            "text": "basis",
+            "timestamp": [
+                18.312,
+                18.712
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                18.872,
+                18.952
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                19.832,
+                19.912
+            ]
+        },
+        {
+            "text": "paragraphs",
+            "timestamp": [
+                22.152,
+                22.472
+            ]
+        },
+        {
+            "text": "once",
+            "timestamp": [
+                22.552,
+                23.112000000000002
+            ]
+        },
+        {
+            "text": "or",
+            "timestamp": [
+                23.752000000000002,
+                23.832
+            ]
+        },
+        {
+            "text": "twice.",
+            "timestamp": [
+                24.392000000000003,
+                24.712
+            ]
+        },
+        {
+            "text": "And",
+            "timestamp": [
+                25.352,
+                25.432000000000002
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                26.951999999999998,
+                27.032
+            ]
+        },
+        {
+            "text": "vocabulary",
+            "timestamp": [
+                27.112000000000002,
+                27.592
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "text": "Hi, Intendeo. So, however, when you have a bureaucracy, super practical.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                4.4,
+                4.64
+            ]
+        },
+        {
+            "text": "Intendeo.",
+            "timestamp": [
+                4.8,
+                5.6000000000000005
+            ]
+        },
+        {
+            "text": "So,",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        },
+        {
+            "text": "however,",
+            "timestamp": [
+                12.08,
+                13.68
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                14.48,
+                14.56
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.64,
+                14.72
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                16.080000000000002,
+                16.16
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                16.4,
+                16.48
+            ]
+        },
+        {
+            "text": "bureaucracy,",
+            "timestamp": [
+                16.48,
+                17.04
+            ]
+        },
+        {
+            "text": "super",
+            "timestamp": [
+                18.16,
+                18.32
+            ]
+        },
+        {
+            "text": "practical.",
+            "timestamp": [
+                18.48,
+                18.96
+            ]
+        }
+    ]
+}

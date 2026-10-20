@@ -1,0 +1,19 @@
+{
+    "text": "Hi Sinumeiju.",
+    "chunks": [
+        {
+            "text": "Hi",
+            "timestamp": [
+                12.88,
+                13.040000000000001
+            ]
+        },
+        {
+            "text": "Sinumeiju.",
+            "timestamp": [
+                13.200000000000001,
+                13.92
+            ]
+        }
+    ]
+}

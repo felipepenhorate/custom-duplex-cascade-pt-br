@@ -1,0 +1,47 @@
+{
+    "text": "Granada Priado Miogato. Miogato. Miogato is.",
+    "chunks": [
+        {
+            "text": "Granada",
+            "timestamp": [
+                1.2,
+                2.08
+            ]
+        },
+        {
+            "text": "Priado",
+            "timestamp": [
+                7.2,
+                8.0
+            ]
+        },
+        {
+            "text": "Miogato.",
+            "timestamp": [
+                8.32,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "Miogato.",
+            "timestamp": [
+                9.120000000000001,
+                9.76
+            ]
+        },
+        {
+            "text": "Miogato",
+            "timestamp": [
+                10.0,
+                10.64
+            ]
+        },
+        {
+            "text": "is.",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        }
+    ]
+}

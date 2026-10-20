@@ -1,0 +1,68 @@
+{
+    "text": "Thai, Tengi. If you have a lot of people.",
+    "chunks": [
+        {
+            "text": "Thai,",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "Tengi.",
+            "timestamp": [
+                8.08,
+                8.4
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.48,
+                10.48
+            ]
+        },
+        {
+            "text": "lot",
+            "timestamp": [
+                10.48,
+                10.48
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.48,
+                10.48
+            ]
+        },
+        {
+            "text": "people.",
+            "timestamp": [
+                10.48,
+                10.48
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "text": "All good and all depending on climate and everything, I think.",
+    "chunks": [
+        {
+            "text": "All",
+            "timestamp": [
+                14.776,
+                14.856
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                15.975999999999999,
+                16.056
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                16.776,
+                17.016
+            ]
+        },
+        {
+            "text": "all",
+            "timestamp": [
+                17.016,
+                17.176
+            ]
+        },
+        {
+            "text": "depending",
+            "timestamp": [
+                18.376,
+                18.776
+            ]
+        },
+        {
+            "text": "on",
+            "timestamp": [
+                18.776,
+                18.856
+            ]
+        },
+        {
+            "text": "climate",
+            "timestamp": [
+                20.056,
+                20.375999999999998
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                20.536,
+                20.616
+            ]
+        },
+        {
+            "text": "everything,",
+            "timestamp": [
+                21.016,
+                21.096
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                21.416,
+                21.496
+            ]
+        },
+        {
+            "text": "think.",
+            "timestamp": [
+                21.896,
+                21.976
+            ]
+        }
+    ]
+}

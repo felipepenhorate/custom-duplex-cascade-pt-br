@@ -1,0 +1,75 @@
+{
+    "text": "Above, my certainty here with my school, when you go.",
+    "chunks": [
+        {
+            "text": "Above,",
+            "timestamp": [
+                3.12,
+                3.68
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                3.92,
+                4.0
+            ]
+        },
+        {
+            "text": "certainty",
+            "timestamp": [
+                4.48,
+                4.8
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                5.04,
+                5.12
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                6.16,
+                6.24
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                6.8,
+                6.88
+            ]
+        },
+        {
+            "text": "school,",
+            "timestamp": [
+                7.36,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "when",
+            "timestamp": [
+                7.92,
+                8.0
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                8.16,
+                8.24
+            ]
+        },
+        {
+            "text": "go.",
+            "timestamp": [
+                8.48,
+                8.56
+            ]
+        }
+    ]
+}

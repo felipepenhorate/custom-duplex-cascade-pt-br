@@ -1,0 +1,19 @@
+{
+    "text": "Recommend Jimmy.",
+    "chunks": [
+        {
+            "text": "Recommend",
+            "timestamp": [
+                30.8,
+                31.44
+            ]
+        },
+        {
+            "text": "Jimmy.",
+            "timestamp": [
+                31.6,
+                31.92
+            ]
+        }
+    ]
+}

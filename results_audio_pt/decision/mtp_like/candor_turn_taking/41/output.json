@@ -1,0 +1,47 @@
+{
+    "text": "Hi, brigado. Mazador converse about it.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                7.04,
+                7.28
+            ]
+        },
+        {
+            "text": "brigado.",
+            "timestamp": [
+                7.5200000000000005,
+                8.32
+            ]
+        },
+        {
+            "text": "Mazador",
+            "timestamp": [
+                12.32,
+                12.88
+            ]
+        },
+        {
+            "text": "converse",
+            "timestamp": [
+                13.040000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "about",
+            "timestamp": [
+                13.44,
+                13.52
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                13.76,
+                13.84
+            ]
+        }
+    ]
+}

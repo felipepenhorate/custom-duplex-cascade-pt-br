@@ -1,0 +1,26 @@
+{
+    "text": "Paro vamosiagoa s\u00ed.",
+    "chunks": [
+        {
+            "text": "Paro",
+            "timestamp": [
+                9.200000000000001,
+                9.84
+            ]
+        },
+        {
+            "text": "vamosiagoa",
+            "timestamp": [
+                10.48,
+                11.52
+            ]
+        },
+        {
+            "text": "s\u00ed.",
+            "timestamp": [
+                11.52,
+                11.68
+            ]
+        }
+    ]
+}

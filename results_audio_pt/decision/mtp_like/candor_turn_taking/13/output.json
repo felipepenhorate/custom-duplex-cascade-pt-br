@@ -1,0 +1,82 @@
+{
+    "text": "If we have sufficient critics, it is created with consistent security.",
+    "chunks": [
+        {
+            "text": "If",
+            "timestamp": [
+                13.36,
+                13.44
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                13.68,
+                13.76
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                14.08,
+                14.16
+            ]
+        },
+        {
+            "text": "sufficient",
+            "timestamp": [
+                14.4,
+                14.72
+            ]
+        },
+        {
+            "text": "critics,",
+            "timestamp": [
+                15.120000000000001,
+                15.44
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                15.68,
+                15.76
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                15.76,
+                15.84
+            ]
+        },
+        {
+            "text": "created",
+            "timestamp": [
+                18.64,
+                18.88
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                19.04,
+                19.12
+            ]
+        },
+        {
+            "text": "consistent",
+            "timestamp": [
+                19.2,
+                19.6
+            ]
+        },
+        {
+            "text": "security.",
+            "timestamp": [
+                19.76,
+                20.16
+            ]
+        }
+    ]
+}

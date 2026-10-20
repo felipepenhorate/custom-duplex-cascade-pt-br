@@ -1,0 +1,89 @@
+{
+    "text": "Ata, tabeno impregnate fazen films. Interesting, you see a show, a show.",
+    "chunks": [
+        {
+            "text": "Ata,",
+            "timestamp": [
+                5.04,
+                5.68
+            ]
+        },
+        {
+            "text": "tabeno",
+            "timestamp": [
+                6.640000000000001,
+                7.12
+            ]
+        },
+        {
+            "text": "impregnate",
+            "timestamp": [
+                7.2,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "fazen",
+            "timestamp": [
+                7.6000000000000005,
+                7.92
+            ]
+        },
+        {
+            "text": "films.",
+            "timestamp": [
+                8.0,
+                8.48
+            ]
+        },
+        {
+            "text": "Interesting,",
+            "timestamp": [
+                10.16,
+                10.72
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                11.040000000000001,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                11.44,
+                11.52
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                11.6,
+                11.68
+            ]
+        },
+        {
+            "text": "show,",
+            "timestamp": [
+                11.76,
+                11.84
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                13.92,
+                14.0
+            ]
+        },
+        {
+            "text": "show.",
+            "timestamp": [
+                14.16,
+                14.24
+            ]
+        }
+    ]
+}

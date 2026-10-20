@@ -1,0 +1,103 @@
+{
+    "text": "Hi, Intendeo. It's a career in other sites that are initially as many sites.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "Intendeo.",
+            "timestamp": [
+                8.48,
+                8.96
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                9.120000000000001,
+                9.28
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        },
+        {
+            "text": "career",
+            "timestamp": [
+                9.44,
+                9.6
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                9.6,
+                9.68
+            ]
+        },
+        {
+            "text": "other",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "sites",
+            "timestamp": [
+                10.72,
+                10.96
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                11.040000000000001,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                11.200000000000001,
+                11.28
+            ]
+        },
+        {
+            "text": "initially",
+            "timestamp": [
+                11.36,
+                11.68
+            ]
+        },
+        {
+            "text": "as",
+            "timestamp": [
+                12.24,
+                12.32
+            ]
+        },
+        {
+            "text": "many",
+            "timestamp": [
+                13.6,
+                13.68
+            ]
+        },
+        {
+            "text": "sites.",
+            "timestamp": [
+                13.92,
+                14.16
+            ]
+        }
+    ]
+}

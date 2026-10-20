@@ -1,0 +1,103 @@
+{
+    "text": "Father here, you know, here for you to live. So it is simple because.",
+    "chunks": [
+        {
+            "text": "Father",
+            "timestamp": [
+                15.032,
+                15.112
+            ]
+        },
+        {
+            "text": "here,",
+            "timestamp": [
+                15.352,
+                15.432
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                16.951999999999998,
+                17.032
+            ]
+        },
+        {
+            "text": "know,",
+            "timestamp": [
+                17.592,
+                17.672
+            ]
+        },
+        {
+            "text": "here",
+            "timestamp": [
+                17.912,
+                17.992
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                18.232,
+                18.312
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                18.472,
+                18.552
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                18.632,
+                18.712
+            ]
+        },
+        {
+            "text": "live.",
+            "timestamp": [
+                18.792,
+                18.951999999999998
+            ]
+        },
+        {
+            "text": "So",
+            "timestamp": [
+                26.712,
+                26.792
+            ]
+        },
+        {
+            "text": "it",
+            "timestamp": [
+                27.832,
+                27.912
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                27.912,
+                27.992
+            ]
+        },
+        {
+            "text": "simple",
+            "timestamp": [
+                28.072000000000003,
+                28.311999999999998
+            ]
+        },
+        {
+            "text": "because.",
+            "timestamp": [
+                29.112000000000002,
+                29.192
+            ]
+        }
+    ]
+}

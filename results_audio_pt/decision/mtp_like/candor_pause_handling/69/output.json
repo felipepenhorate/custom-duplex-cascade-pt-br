@@ -1,0 +1,131 @@
+{
+    "text": "Today, my interest. If many people work, you don't want to cedad for the work and the money.",
+    "chunks": [
+        {
+            "text": "Today,",
+            "timestamp": [
+                10.56,
+                10.88
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                11.040000000000001,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "interest.",
+            "timestamp": [
+                11.44,
+                11.52
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                12.88,
+                12.96
+            ]
+        },
+        {
+            "text": "many",
+            "timestamp": [
+                13.120000000000001,
+                13.200000000000001
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                13.44,
+                13.52
+            ]
+        },
+        {
+            "text": "work,",
+            "timestamp": [
+                13.76,
+                13.84
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                14.72,
+                14.8
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                15.040000000000001,
+                15.120000000000001
+            ]
+        },
+        {
+            "text": "want",
+            "timestamp": [
+                15.68,
+                15.76
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                15.76,
+                15.84
+            ]
+        },
+        {
+            "text": "cedad",
+            "timestamp": [
+                16.0,
+                16.240000000000002
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                16.4,
+                16.48
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                16.56,
+                16.64
+            ]
+        },
+        {
+            "text": "work",
+            "timestamp": [
+                16.72,
+                16.8
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                17.36,
+                17.44
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                19.92,
+                20.0
+            ]
+        },
+        {
+            "text": "money.",
+            "timestamp": [
+                20.0,
+                20.0
+            ]
+        }
+    ]
+}

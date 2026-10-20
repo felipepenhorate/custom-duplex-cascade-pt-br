@@ -1,0 +1,26 @@
+{
+    "text": "To the bed.",
+    "chunks": [
+        {
+            "text": "To",
+            "timestamp": [
+                2.08,
+                2.16
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                2.24,
+                2.4
+            ]
+        },
+        {
+            "text": "bed.",
+            "timestamp": [
+                2.4,
+                2.72
+            ]
+        }
+    ]
+}

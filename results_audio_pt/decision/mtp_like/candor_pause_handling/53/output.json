@@ -1,0 +1,89 @@
+{
+    "text": "Soon, this penetration is present a little confused by Jaguar, the security.",
+    "chunks": [
+        {
+            "text": "Soon,",
+            "timestamp": [
+                14.08,
+                15.76
+            ]
+        },
+        {
+            "text": "this",
+            "timestamp": [
+                16.0,
+                16.080000000000002
+            ]
+        },
+        {
+            "text": "penetration",
+            "timestamp": [
+                16.48,
+                16.96
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                17.2,
+                17.28
+            ]
+        },
+        {
+            "text": "present",
+            "timestamp": [
+                18.080000000000002,
+                18.32
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                18.48,
+                18.56
+            ]
+        },
+        {
+            "text": "little",
+            "timestamp": [
+                18.64,
+                18.72
+            ]
+        },
+        {
+            "text": "confused",
+            "timestamp": [
+                18.8,
+                19.2
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                19.36,
+                19.44
+            ]
+        },
+        {
+            "text": "Jaguar,",
+            "timestamp": [
+                20.56,
+                20.88
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                21.6,
+                21.68
+            ]
+        },
+        {
+            "text": "security.",
+            "timestamp": [
+                22.72,
+                23.12
+            ]
+        }
+    ]
+}

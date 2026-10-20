@@ -1,0 +1,40 @@
+{
+    "text": "Now I think automatic sequences.",
+    "chunks": [
+        {
+            "text": "Now",
+            "timestamp": [
+                1.76,
+                1.84
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                2.0,
+                2.08
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                2.08,
+                2.16
+            ]
+        },
+        {
+            "text": "automatic",
+            "timestamp": [
+                8.48,
+                8.88
+            ]
+        },
+        {
+            "text": "sequences.",
+            "timestamp": [
+                8.96,
+                9.28
+            ]
+        }
+    ]
+}

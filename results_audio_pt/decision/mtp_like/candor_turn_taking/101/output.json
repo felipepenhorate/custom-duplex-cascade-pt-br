@@ -1,0 +1,68 @@
+{
+    "text": "So this is like a talk and conforto with.",
+    "chunks": [
+        {
+            "text": "So",
+            "timestamp": [
+                6.4,
+                6.48
+            ]
+        },
+        {
+            "text": "this",
+            "timestamp": [
+                7.12,
+                7.2
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                7.76,
+                7.84
+            ]
+        },
+        {
+            "text": "like",
+            "timestamp": [
+                8.4,
+                8.56
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "talk",
+            "timestamp": [
+                10.24,
+                10.32
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "conforto",
+            "timestamp": [
+                12.8,
+                13.6
+            ]
+        },
+        {
+            "text": "with.",
+            "timestamp": [
+                13.68,
+                13.84
+            ]
+        }
+    ]
+}

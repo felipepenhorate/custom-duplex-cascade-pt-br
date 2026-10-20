@@ -1,0 +1,33 @@
+{
+    "text": "Arro Tacerto Bomu cortauji.",
+    "chunks": [
+        {
+            "text": "Arro",
+            "timestamp": [
+                5.76,
+                6.24
+            ]
+        },
+        {
+            "text": "Tacerto",
+            "timestamp": [
+                12.32,
+                13.44
+            ]
+        },
+        {
+            "text": "Bomu",
+            "timestamp": [
+                14.08,
+                14.48
+            ]
+        },
+        {
+            "text": "cortauji.",
+            "timestamp": [
+                14.56,
+                15.280000000000001
+            ]
+        }
+    ]
+}

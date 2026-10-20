@@ -1,0 +1,61 @@
+{
+    "text": "Here, simply, how balanced, proteins, magnets, and foreigners.",
+    "chunks": [
+        {
+            "text": "Here,",
+            "timestamp": [
+                14.376000000000001,
+                14.616
+            ]
+        },
+        {
+            "text": "simply,",
+            "timestamp": [
+                15.656,
+                15.976
+            ]
+        },
+        {
+            "text": "how",
+            "timestamp": [
+                17.816000000000003,
+                17.976
+            ]
+        },
+        {
+            "text": "balanced,",
+            "timestamp": [
+                18.776,
+                19.176000000000002
+            ]
+        },
+        {
+            "text": "proteins,",
+            "timestamp": [
+                22.456000000000003,
+                22.856
+            ]
+        },
+        {
+            "text": "magnets,",
+            "timestamp": [
+                23.016,
+                23.336
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                23.496000000000002,
+                23.576
+            ]
+        },
+        {
+            "text": "foreigners.",
+            "timestamp": [
+                25.096,
+                25.256
+            ]
+        }
+    ]
+}

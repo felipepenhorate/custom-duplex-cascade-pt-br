@@ -1,0 +1,61 @@
+{
+    "text": "Here some people have confidence for chicken voice.",
+    "chunks": [
+        {
+            "text": "Here",
+            "timestamp": [
+                15.96,
+                16.2
+            ]
+        },
+        {
+            "text": "some",
+            "timestamp": [
+                16.68,
+                16.76
+            ]
+        },
+        {
+            "text": "people",
+            "timestamp": [
+                18.28,
+                18.36
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                18.84,
+                19.0
+            ]
+        },
+        {
+            "text": "confidence",
+            "timestamp": [
+                19.0,
+                19.48
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                21.96,
+                22.12
+            ]
+        },
+        {
+            "text": "chicken",
+            "timestamp": [
+                22.28,
+                22.52
+            ]
+        },
+        {
+            "text": "voice.",
+            "timestamp": [
+                22.68,
+                22.92
+            ]
+        }
+    ]
+}

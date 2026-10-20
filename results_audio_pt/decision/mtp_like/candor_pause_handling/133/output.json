@@ -1,0 +1,33 @@
+{
+    "text": "Hi, thank you siteng.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                4.88,
+                5.04
+            ]
+        },
+        {
+            "text": "thank",
+            "timestamp": [
+                5.2,
+                5.36
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.44,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "siteng.",
+            "timestamp": [
+                5.6000000000000005,
+                6.0
+            ]
+        }
+    ]
+}

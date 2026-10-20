@@ -774,6 +774,7 @@ def build_adapter(
     prompt_candidate: str | None = None,
     system_override: str | None = None,
     lang: str = "pt",
+    floor_by_text: bool | None = None,
 ) -> Any:
     """Instantiate the adapter for a :data:`protocol.MODEL_REGISTRY` key.
 
@@ -793,7 +794,8 @@ def build_adapter(
             LlamaClient(api_base), variant, gen, name=key,
             system_prompt=system, prime_mode=prime_mode,
             prompt_candidate=candidate,
-            floor_by_text=(variant == "original_dc"),
+            floor_by_text=(variant == "original_dc" if floor_by_text is None
+                           else floor_by_text),
             prepend_bos=(variant == "original_dc"),
         )
         return adapter

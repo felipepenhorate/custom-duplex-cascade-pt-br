@@ -1,0 +1,61 @@
+{
+    "text": "Presently, confused by the side of the city.",
+    "chunks": [
+        {
+            "text": "Presently,",
+            "timestamp": [
+                3.44,
+                4.88
+            ]
+        },
+        {
+            "text": "confused",
+            "timestamp": [
+                5.68,
+                6.08
+            ]
+        },
+        {
+            "text": "by",
+            "timestamp": [
+                6.24,
+                6.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                9.68,
+                9.76
+            ]
+        },
+        {
+            "text": "side",
+            "timestamp": [
+                10.48,
+                10.72
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                10.8,
+                10.88
+            ]
+        },
+        {
+            "text": "city.",
+            "timestamp": [
+                11.92,
+                11.92
+            ]
+        }
+    ]
+}

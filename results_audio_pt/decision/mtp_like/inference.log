@@ -1,18 +1,7 @@
 [audio] 727 scenarios across 5 subsets
-Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:   0%|          | 1/320 [00:04<22:00,  4.14s/it]Loading weights:   2%|▏         | 6/320 [00:04<02:45,  1.90it/s]Loading weights:   4%|▍         | 12/320 [00:04<01:08,  4.48it/s]Loading weights:   7%|▋         | 23/320 [00:04<00:27, 10.74it/s]Loading weights:   9%|▉         | 29/320 [00:04<00:20, 14.39it/s]Loading weights:  12%|█▏        | 39/320 [00:04<00:12, 22.88it/s]Loading weights:  15%|█▍        | 47/320 [00:04<00:10, 26.78it/s]Loading weights:  19%|█▉        | 61/320 [00:05<00:06, 39.52it/s]Loading weights:  22%|██▏       | 69/320 [00:05<00:05, 44.61it/s]Loading weights:  24%|██▍       | 78/320 [00:05<00:04, 52.13it/s]Loading weights:  27%|██▋       | 86/320 [00:05<00:04, 57.20it/s]Loading weights:  29%|██▉       | 94/320 [00:05<00:04, 54.16it/s]Loading weights:  32%|███▏      | 101/320 [00:05<00:04, 53.59it/s]Loading weights:  36%|███▌      | 114/320 [00:05<00:03, 66.01it/s]Loading weights:  38%|███▊      | 122/320 [00:05<00:03, 63.25it/s]Loading weights:  41%|████      | 130/320 [00:06<00:02, 66.68it/s]Loading weights:  43%|████▎     | 138/320 [00:06<00:02, 69.45it/s]Loading weights:  46%|████▌     | 146/320 [00:06<00:02, 66.47it/s]Loading weights:  48%|████▊     | 153/320 [00:06<00:02, 56.77it/s]Loading weights:  52%|█████▏    | 166/320 [00:06<00:02, 69.00it/s]Loading weights:  54%|█████▍    | 174/320 [00:06<00:02, 64.67it/s]Loading weights:  57%|█████▊    | 184/320 [00:06<00:01, 72.08it/s]Loading weights:  60%|██████    | 192/320 [00:06<00:01, 72.16it/s]Loading weights:  62%|██████▎   | 200/320 [00:07<00:01, 63.51it/s]Loading weights:  65%|██████▍   | 207/320 [00:07<00:01, 59.73it/s]Loading weights:  69%|██████▉   | 220/320 [00:07<00:01, 67.00it/s]Loading weights:  71%|███████   | 227/320 [00:07<00:01, 64.76it/s]Loading weights:  74%|███████▍  | 237/320 [00:07<00:01, 73.06it/s]Loading weights:  77%|███████▋  | 245/320 [00:07<00:01, 73.67it/s]Loading weights:  79%|███████▉  | 253/320 [00:07<00:01, 64.36it/s]Loading weights:  81%|████████▏ | 260/320 [00:08<00:00, 60.25it/s]Loading weights:  85%|████████▌ | 273/320 [00:08<00:00, 71.41it/s]Loading weights:  88%|████████▊ | 281/320 [00:08<00:00, 66.94it/s]Loading weights:  90%|█████████ | 289/320 [00:08<00:00, 68.99it/s]Loading weights:  93%|█████████▎| 297/320 [00:08<00:00, 69.42it/s]Loading weights:  95%|█████████▌| 305/320 [00:08<00:00, 65.95it/s]Loading weights:  98%|█████████▊| 312/320 [00:08<00:00, 56.99it/s]Loading weights: 100%|██████████| 320/320 [00:08<00:00, 35.87it/s]
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:   0%|          | 1/320 [00:04<23:51,  4.49s/it]Loading weights:   2%|▏         | 6/320 [00:04<03:00,  1.74it/s]Loading weights:   3%|▎         | 11/320 [00:04<01:24,  3.67it/s]Loading weights:   4%|▍         | 14/320 [00:04<01:01,  5.00it/s]Loading weights:   7%|▋         | 22/320 [00:05<00:29, 10.10it/s]Loading weights:   8%|▊         | 26/320 [00:05<00:25, 11.53it/s]Loading weights:  11%|█▏        | 36/320 [00:05<00:15, 18.56it/s]Loading weights:  12%|█▎        | 40/320 [00:05<00:14, 19.72it/s]Loading weights:  14%|█▍        | 44/320 [00:05<00:13, 20.95it/s]Loading weights:  15%|█▌        | 48/320 [00:06<00:13, 20.29it/s]Loading weights:  17%|█▋        | 53/320 [00:06<00:11, 23.49it/s]Loading weights:  19%|█▉        | 61/320 [00:06<00:08, 30.87it/s]Loading weights:  20%|██        | 65/320 [00:06<00:08, 29.34it/s]Loading weights:  22%|██▏       | 69/320 [00:06<00:08, 28.84it/s]Loading weights:  23%|██▎       | 75/320 [00:06<00:08, 30.31it/s]Loading weights:  25%|██▍       | 79/320 [00:06<00:08, 27.76it/s]Loading weights:  28%|██▊       | 89/320 [00:07<00:06, 34.39it/s]Loading weights:  29%|██▉       | 93/320 [00:07<00:07, 28.44it/s]Loading weights:  31%|███       | 98/320 [00:07<00:07, 28.94it/s]Loading weights:  32%|███▏      | 101/320 [00:07<00:08, 26.78it/s]Loading weights:  33%|███▎      | 106/320 [00:07<00:07, 29.16it/s]Loading weights:  35%|███▌      | 112/320 [00:08<00:07, 29.64it/s]Loading weights:  37%|███▋      | 118/320 [00:08<00:05, 34.17it/s]Loading weights:  38%|███▊      | 122/320 [00:08<00:06, 31.95it/s]Loading weights:  40%|████      | 128/320 [00:08<00:05, 32.34it/s]Loading weights:  41%|████▏     | 132/320 [00:08<00:05, 32.81it/s]Loading weights:  42%|████▎     | 136/320 [00:08<00:05, 30.69it/s]Loading weights:  44%|████▍     | 142/320 [00:08<00:05, 34.59it/s]Loading weights:  46%|████▌     | 146/320 [00:09<00:05, 31.65it/s]Loading weights:  47%|████▋     | 150/320 [00:09<00:05, 29.45it/s]Loading weights:  48%|████▊     | 154/320 [00:09<00:06, 25.37it/s]Loading weights:  50%|████▉     | 159/320 [00:09<00:05, 28.21it/s]Loading weights:  52%|█████▏    | 167/320 [00:09<00:04, 35.69it/s]Loading weights:  53%|█████▎    | 171/320 [00:09<00:05, 28.47it/s]Loading weights:  57%|█████▋    | 181/320 [00:10<00:04, 32.57it/s]Loading weights:  58%|█████▊    | 185/320 [00:10<00:04, 33.43it/s]Loading weights:  59%|█████▉    | 189/320 [00:10<00:04, 32.33it/s]Loading weights:  61%|██████    | 195/320 [00:10<00:03, 35.69it/s]Loading weights:  62%|██████▏   | 199/320 [00:10<00:04, 29.18it/s]Loading weights:  64%|██████▍   | 204/320 [00:10<00:03, 30.39it/s]Loading weights:  65%|██████▌   | 208/320 [00:11<00:03, 30.02it/s]Loading weights:  66%|██████▋   | 212/320 [00:11<00:03, 30.18it/s]Loading weights:  69%|██████▉   | 220/320 [00:11<00:02, 38.11it/s]Loading weights:  70%|███████   | 224/320 [00:11<00:03, 30.51it/s]Loading weights:  73%|███████▎  | 234/320 [00:11<00:02, 34.64it/s]Loading weights:  74%|███████▍  | 238/320 [00:11<00:02, 34.80it/s]Loading weights:  76%|███████▌  | 242/320 [00:12<00:02, 33.38it/s]Loading weights:  78%|███████▊  | 248/320 [00:12<00:01, 36.19it/s]Loading weights:  79%|███████▉  | 252/320 [00:12<00:02, 33.38it/s]Loading weights:  80%|████████  | 256/320 [00:12<00:02, 31.46it/s]Loading weights:  81%|████████▏ | 260/320 [00:12<00:02, 27.03it/s]Loading weights:  82%|████████▎ | 264/320 [00:12<00:01, 28.08it/s]Loading weights:  85%|████████▌ | 273/320 [00:12<00:01, 38.54it/s]Loading weights:  87%|████████▋ | 278/320 [00:13<00:01, 29.00it/s]Loading weights:  90%|████████▉ | 287/320 [00:13<00:00, 35.29it/s]Loading weights:  91%|█████████ | 291/320 [00:13<00:00, 35.74it/s]Loading weights:  92%|█████████▏| 295/320 [00:13<00:00, 33.87it/s]Loading weights:  94%|█████████▍| 301/320 [00:13<00:00, 37.59it/s]Loading weights:  95%|█████████▌| 305/320 [00:13<00:00, 34.21it/s]Loading weights:  97%|█████████▋| 309/320 [00:14<00:00, 32.38it/s]Loading weights:  98%|█████████▊| 313/320 [00:14<00:00, 27.47it/s]Loading weights:  99%|█████████▉| 316/320 [00:14<00:00, 26.52it/s]Loading weights: 100%|██████████| 320/320 [00:14<00:00, 22.14it/s]
 [audio] tts voice=rafael language=portuguese
-[0;93m2026-10-19 20:29:21.893033946 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
-WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-[audio/mtp_like] 400/727 queue (0.5s/scenario, 17.0s audio) spoke=True pieces=26
+[0;93m2026-10-19 22:50:57.736035897 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
@@ -28,10 +17,112 @@ WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EO
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: '"como cuidar de uma piscina caseira" "manutenção d...'
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
-[audio/mtp_like] 425/727 queue (1.2s/scenario, 10.8s audio) spoke=True pieces=15
-WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/mtp_like] 525/727 queue (1.8s/scenario, 22.5s audio) spoke=True pieces=25
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 57 tokens (max 50), generation may skip words: 'Parece que há um pequeno erro de digitação — "até ...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'Que bom! Qual o seu uso principal? (Trabalho, estu...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: 'Uma ótima sugestão é O Código Da Vinci de Dan Brow...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/mtp_like] 550/727 queue (3.3s/scenario, 29.7s audio) spoke=True pieces=34
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/mtp_like] 575/727 queue (4.2s/scenario, 26.3s audio) spoke=True pieces=27
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/mtp_like] 600/727 queue (5.1s/scenario, 27.8s audio) spoke=False pieces=29
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'Que bom! Qual o seu uso principal? (Trabalho, estu...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 61 tokens (max 50), generation may skip words: 'Comece definindo metas diárias e priorizando taref...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/mtp_like] 625/727 queue (6.0s/scenario, 28.8s audio) spoke=True pieces=31
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/mtp_like] 650/727 queue (6.7s/scenario, 28.5s audio) spoke=True pieces=29
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: 'O laptop mais recente é o MacBook Pro M3 (lançado ...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/mtp_like] 675/727 queue (7.5s/scenario, 29.5s audio) spoke=True pieces=32
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/mtp_like] 700/727 queue (8.1s/scenario, 28.1s audio) spoke=True pieces=31
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'Claro! Qual o seu objetivo? (Por exemplo: perder p...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/mtp_like] 725/727 queue (8.7s/scenario, 28.3s audio) spoke=True pieces=31
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio] done -> /home/penhfel/github/custom-duplex-cascade-pt-br/results_audio_pt/decision/mtp_like

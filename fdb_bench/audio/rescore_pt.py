@@ -36,7 +36,7 @@ from pathlib import Path
 import numpy as np
 
 from .dataset import TASKS
-from .score import EVAL_DIR, LocalJudgeShim, run_task_eval
+from .score import EVAL_DIR, LocalJudgeShim, _patch_torchaudio_load, run_task_eval
 
 if str(EVAL_DIR) not in sys.path:
     sys.path.insert(0, str(EVAL_DIR))
@@ -132,6 +132,11 @@ def main() -> None:
     args = ap.parse_args()
 
     tasks = list(TASKS) if args.tasks == "all" else args.tasks.split(",")
+    # eval_backchannel calls torchaudio.load, which in this torchaudio build
+    # delegates to TorchCodec (not installed); score.py already shims it through
+    # libsndfile, and without the same shim here the pt re-score died at the
+    # backchannel subset *after* transcribing 527 files.
+    _patch_torchaudio_load()
     scorer = WhisperScorer(args.whisper, args.lang)
     judge = LocalJudgeShim(args.judge_api_base)
     metrics: dict = {}
@@ -169,7 +174,10 @@ def main() -> None:
             if link.is_symlink() or link.exists():
                 link.unlink()
             os.symlink((sd / "output.wav").resolve(), link)
-            scorer.write_output_json(d, TASKS[subset])
+            # transcriptions are cached in the score tree: a re-run after a
+            # failure downstream must not redo the ASR for 727 files
+            if not (d / "output.json").is_file():
+                scorer.write_output_json(d, TASKS[subset])
             if n % 100 == 0:
                 print(f"   {n}/{len(sdirs)} transcribed", flush=True)
         buf = io.StringIO()

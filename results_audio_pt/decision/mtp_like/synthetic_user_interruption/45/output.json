@@ -1,0 +1,75 @@
+{
+    "text": "Ah, interesting. Archeen profound, and we are like, with it.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                13.56,
+                13.72
+            ]
+        },
+        {
+            "text": "interesting.",
+            "timestamp": [
+                13.96,
+                14.600000000000001
+            ]
+        },
+        {
+            "text": "Archeen",
+            "timestamp": [
+                15.32,
+                16.44
+            ]
+        },
+        {
+            "text": "profound,",
+            "timestamp": [
+                16.92,
+                17.240000000000002
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                20.36,
+                20.520000000000003
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                20.520000000000003,
+                20.6
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                20.840000000000003,
+                20.92
+            ]
+        },
+        {
+            "text": "like,",
+            "timestamp": [
+                21.64,
+                21.72
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                24.28,
+                24.36
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                25.400000000000002,
+                25.48
+            ]
+        }
+    ]
+}

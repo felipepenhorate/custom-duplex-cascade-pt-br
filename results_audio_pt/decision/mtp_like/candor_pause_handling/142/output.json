@@ -1,0 +1,40 @@
+{
+    "text": "Hi, I think. Hi, Intengi.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                5.84,
+                6.0
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.16,
+                6.24
+            ]
+        },
+        {
+            "text": "think.",
+            "timestamp": [
+                6.24,
+                6.24
+            ]
+        },
+        {
+            "text": "Hi,",
+            "timestamp": [
+                8.88,
+                8.96
+            ]
+        },
+        {
+            "text": "Intengi.",
+            "timestamp": [
+                9.120000000000001,
+                9.76
+            ]
+        }
+    ]
+}

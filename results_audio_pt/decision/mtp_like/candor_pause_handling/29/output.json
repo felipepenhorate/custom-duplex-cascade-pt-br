@@ -1,0 +1,47 @@
+{
+    "text": "A wet dresny. No, no vivalogiski.",
+    "chunks": [
+        {
+            "text": "A",
+            "timestamp": [
+                8.72,
+                8.8
+            ]
+        },
+        {
+            "text": "wet",
+            "timestamp": [
+                8.96,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "dresny.",
+            "timestamp": [
+                9.44,
+                10.0
+            ]
+        },
+        {
+            "text": "No,",
+            "timestamp": [
+                10.48,
+                10.64
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                10.72,
+                10.8
+            ]
+        },
+        {
+            "text": "vivalogiski.",
+            "timestamp": [
+                10.96,
+                12.0
+            ]
+        }
+    ]
+}

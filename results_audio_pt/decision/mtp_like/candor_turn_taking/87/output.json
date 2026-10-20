@@ -1,0 +1,47 @@
+{
+    "text": "This really points to what important.",
+    "chunks": [
+        {
+            "text": "This",
+            "timestamp": [
+                9.76,
+                9.92
+            ]
+        },
+        {
+            "text": "really",
+            "timestamp": [
+                10.16,
+                10.24
+            ]
+        },
+        {
+            "text": "points",
+            "timestamp": [
+                10.96,
+                11.28
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                11.52,
+                11.6
+            ]
+        },
+        {
+            "text": "what",
+            "timestamp": [
+                15.200000000000001,
+                15.280000000000001
+            ]
+        },
+        {
+            "text": "important.",
+            "timestamp": [
+                18.16,
+                18.240000000000002
+            ]
+        }
+    ]
+}

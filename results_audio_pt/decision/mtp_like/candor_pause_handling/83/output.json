@@ -1,0 +1,47 @@
+{
+    "text": "Pose pause, and two states very.",
+    "chunks": [
+        {
+            "text": "Pose",
+            "timestamp": [
+                11.200000000000001,
+                11.36
+            ]
+        },
+        {
+            "text": "pause,",
+            "timestamp": [
+                12.08,
+                12.32
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                12.72,
+                12.8
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                13.280000000000001,
+                13.36
+            ]
+        },
+        {
+            "text": "states",
+            "timestamp": [
+                13.6,
+                13.68
+            ]
+        },
+        {
+            "text": "very.",
+            "timestamp": [
+                13.92,
+                14.0
+            ]
+        }
+    ]
+}

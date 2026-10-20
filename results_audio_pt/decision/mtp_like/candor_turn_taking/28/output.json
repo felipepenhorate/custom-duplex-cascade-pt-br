@@ -1,0 +1,89 @@
+{
+    "text": "Ah, you are a chronometer. If for two introduced volumes, I commerce.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                6.48,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                6.88,
+                6.96
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                7.04,
+                7.12
+            ]
+        },
+        {
+            "text": "chronometer.",
+            "timestamp": [
+                7.2,
+                7.84
+            ]
+        },
+        {
+            "text": "If",
+            "timestamp": [
+                8.32,
+                8.4
+            ]
+        },
+        {
+            "text": "for",
+            "timestamp": [
+                8.64,
+                8.72
+            ]
+        },
+        {
+            "text": "two",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "introduced",
+            "timestamp": [
+                9.200000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "volumes,",
+            "timestamp": [
+                10.8,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                12.0,
+                12.08
+            ]
+        },
+        {
+            "text": "commerce.",
+            "timestamp": [
+                12.48,
+                12.96
+            ]
+        }
+    ]
+}

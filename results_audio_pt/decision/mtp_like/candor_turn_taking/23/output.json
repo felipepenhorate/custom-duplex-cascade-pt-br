@@ -1,0 +1,54 @@
+{
+    "text": "Hi, Tengi. You jaffela, auntie, masquerade present.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                5.04,
+                5.28
+            ]
+        },
+        {
+            "text": "Tengi.",
+            "timestamp": [
+                5.5200000000000005,
+                5.92
+            ]
+        },
+        {
+            "text": "You",
+            "timestamp": [
+                6.4,
+                6.48
+            ]
+        },
+        {
+            "text": "jaffela,",
+            "timestamp": [
+                6.88,
+                7.5200000000000005
+            ]
+        },
+        {
+            "text": "auntie,",
+            "timestamp": [
+                9.52,
+                9.92
+            ]
+        },
+        {
+            "text": "masquerade",
+            "timestamp": [
+                18.080000000000002,
+                18.48
+            ]
+        },
+        {
+            "text": "present.",
+            "timestamp": [
+                18.72,
+                19.2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "text": "Paro, if you are",
+    "chunks": [
+        {
+            "text": "Paro,",
+            "timestamp": [
+                4.4,
+                4.8
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                5.04,
+                5.12
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                5.28,
+                5.36
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                6.0,
+                6.08
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "text": "My teammate.",
+    "chunks": [
+        {
+            "text": "My",
+            "timestamp": [
+                8.64,
+                8.8
+            ]
+        },
+        {
+            "text": "teammate.",
+            "timestamp": [
+                9.76,
+                10.08
+            ]
+        }
+    ]
+}

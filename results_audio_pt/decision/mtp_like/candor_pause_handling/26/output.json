@@ -1,0 +1,61 @@
+{
+    "text": "Ah, tavern, and the other is the same.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                1.28,
+                1.44
+            ]
+        },
+        {
+            "text": "tavern,",
+            "timestamp": [
+                1.6,
+                1.92
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                7.04,
+                7.12
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.76,
+                11.76
+            ]
+        },
+        {
+            "text": "other",
+            "timestamp": [
+                11.76,
+                11.76
+            ]
+        },
+        {
+            "text": "is",
+            "timestamp": [
+                11.76,
+                11.76
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                11.76,
+                11.76
+            ]
+        },
+        {
+            "text": "same.",
+            "timestamp": [
+                11.76,
+                11.76
+            ]
+        }
+    ]
+}

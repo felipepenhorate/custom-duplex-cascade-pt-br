@@ -1,0 +1,40 @@
+{
+    "text": "Hi, Celegao. Bercua Mincha Tiente.",
+    "chunks": [
+        {
+            "text": "Hi,",
+            "timestamp": [
+                6.24,
+                6.4
+            ]
+        },
+        {
+            "text": "Celegao.",
+            "timestamp": [
+                6.5600000000000005,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "Bercua",
+            "timestamp": [
+                8.56,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "Mincha",
+            "timestamp": [
+                9.200000000000001,
+                9.52
+            ]
+        },
+        {
+            "text": "Tiente.",
+            "timestamp": [
+                9.6,
+                10.0
+            ]
+        }
+    ]
+}

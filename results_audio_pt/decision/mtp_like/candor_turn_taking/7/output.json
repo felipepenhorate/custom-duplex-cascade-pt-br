@@ -1,0 +1,54 @@
+{
+    "text": "Ah, integer. It's better. Quarto 3, 6.",
+    "chunks": [
+        {
+            "text": "Ah,",
+            "timestamp": [
+                4.72,
+                4.88
+            ]
+        },
+        {
+            "text": "integer.",
+            "timestamp": [
+                5.44,
+                6.08
+            ]
+        },
+        {
+            "text": "It's",
+            "timestamp": [
+                6.5600000000000005,
+                6.8
+            ]
+        },
+        {
+            "text": "better.",
+            "timestamp": [
+                7.04,
+                7.12
+            ]
+        },
+        {
+            "text": "Quarto",
+            "timestamp": [
+                8.32,
+                8.8
+            ]
+        },
+        {
+            "text": "3,",
+            "timestamp": [
+                8.88,
+                8.96
+            ]
+        },
+        {
+            "text": "6.",
+            "timestamp": [
+                10.56,
+                10.64
+            ]
+        }
+    ]
+}

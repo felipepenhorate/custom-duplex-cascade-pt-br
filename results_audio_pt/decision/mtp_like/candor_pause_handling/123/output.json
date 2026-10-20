@@ -1,0 +1,40 @@
+{
+    "text": "Acerto verdi, quizzes no simple.",
+    "chunks": [
+        {
+            "text": "Acerto",
+            "timestamp": [
+                13.52,
+                14.16
+            ]
+        },
+        {
+            "text": "verdi,",
+            "timestamp": [
+                14.24,
+                14.96
+            ]
+        },
+        {
+            "text": "quizzes",
+            "timestamp": [
+                15.280000000000001,
+                15.76
+            ]
+        },
+        {
+            "text": "no",
+            "timestamp": [
+                15.76,
+                15.84
+            ]
+        },
+        {
+            "text": "simple.",
+            "timestamp": [
+                16.080000000000002,
+                16.240000000000002
+            ]
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "text": "Tabe sing ciao. Te priori dadid dades avis.",
+    "chunks": [
+        {
+            "text": "Tabe",
+            "timestamp": [
+                2.48,
+                2.96
+            ]
+        },
+        {
+            "text": "sing",
+            "timestamp": [
+                3.04,
+                3.2
+            ]
+        },
+        {
+            "text": "ciao.",
+            "timestamp": [
+                3.44,
+                4.16
+            ]
+        },
+        {
+            "text": "Te",
+            "timestamp": [
+                10.24,
+                10.4
+            ]
+        },
+        {
+            "text": "priori",
+            "timestamp": [
+                10.72,
+                11.040000000000001
+            ]
+        },
+        {
+            "text": "dadid",
+            "timestamp": [
+                11.120000000000001,
+                11.44
+            ]
+        },
+        {
+            "text": "dades",
+            "timestamp": [
+                11.44,
+                11.76
+            ]
+        },
+        {
+            "text": "avis.",
+            "timestamp": [
+                11.84,
+                12.24
+            ]
+        }
+    ]
+}

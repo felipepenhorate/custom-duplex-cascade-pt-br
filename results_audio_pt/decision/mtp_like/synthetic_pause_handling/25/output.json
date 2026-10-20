@@ -1,0 +1,47 @@
+{
+    "text": "Special mikantamaise. Atoki medijeni nu koheo.",
+    "chunks": [
+        {
+            "text": "Special",
+            "timestamp": [
+                3.6,
+                3.92
+            ]
+        },
+        {
+            "text": "mikantamaise.",
+            "timestamp": [
+                4.88,
+                5.92
+            ]
+        },
+        {
+            "text": "Atoki",
+            "timestamp": [
+                10.08,
+                10.8
+            ]
+        },
+        {
+            "text": "medijeni",
+            "timestamp": [
+                10.88,
+                11.6
+            ]
+        },
+        {
+            "text": "nu",
+            "timestamp": [
+                11.68,
+                11.84
+            ]
+        },
+        {
+            "text": "koheo.",
+            "timestamp": [
+                11.84,
+                12.4
+            ]
+        }
+    ]
+}

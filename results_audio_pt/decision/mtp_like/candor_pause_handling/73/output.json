@@ -1,0 +1,40 @@
+{
+    "text": "Chima of Darkness. Tanaji Brinkako.",
+    "chunks": [
+        {
+            "text": "Chima",
+            "timestamp": [
+                8.48,
+                8.8
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                8.8,
+                8.88
+            ]
+        },
+        {
+            "text": "Darkness.",
+            "timestamp": [
+                8.96,
+                9.36
+            ]
+        },
+        {
+            "text": "Tanaji",
+            "timestamp": [
+                9.92,
+                10.56
+            ]
+        },
+        {
+            "text": "Brinkako.",
+            "timestamp": [
+                10.56,
+                11.200000000000001
+            ]
+        }
+    ]
+}

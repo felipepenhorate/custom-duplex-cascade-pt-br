@@ -1,0 +1,89 @@
+{
+    "text": "No, I don't know Arizona. They are assistant in Portuguese esto aqueous.",
+    "chunks": [
+        {
+            "text": "No,",
+            "timestamp": [
+                6.32,
+                6.4
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                6.640000000000001,
+                6.72
+            ]
+        },
+        {
+            "text": "don't",
+            "timestamp": [
+                6.72,
+                6.88
+            ]
+        },
+        {
+            "text": "know",
+            "timestamp": [
+                6.96,
+                7.04
+            ]
+        },
+        {
+            "text": "Arizona.",
+            "timestamp": [
+                7.2,
+                7.6000000000000005
+            ]
+        },
+        {
+            "text": "They",
+            "timestamp": [
+                7.76,
+                7.84
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                7.84,
+                7.92
+            ]
+        },
+        {
+            "text": "assistant",
+            "timestamp": [
+                8.0,
+                8.32
+            ]
+        },
+        {
+            "text": "in",
+            "timestamp": [
+                8.96,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "Portuguese",
+            "timestamp": [
+                9.040000000000001,
+                9.36
+            ]
+        },
+        {
+            "text": "esto",
+            "timestamp": [
+                9.6,
+                9.84
+            ]
+        },
+        {
+            "text": "aqueous.",
+            "timestamp": [
+                9.84,
+                10.08
+            ]
+        }
+    ]
+}

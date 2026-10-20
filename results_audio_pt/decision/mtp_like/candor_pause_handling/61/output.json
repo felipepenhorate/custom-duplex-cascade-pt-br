@@ -1,0 +1,40 @@
+{
+    "text": "Today we preoccupied the city.",
+    "chunks": [
+        {
+            "text": "Today",
+            "timestamp": [
+                8.8,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "we",
+            "timestamp": [
+                9.76,
+                9.84
+            ]
+        },
+        {
+            "text": "preoccupied",
+            "timestamp": [
+                9.92,
+                10.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.0,
+                12.0
+            ]
+        },
+        {
+            "text": "city.",
+            "timestamp": [
+                12.0,
+                12.0
+            ]
+        }
+    ]
+}

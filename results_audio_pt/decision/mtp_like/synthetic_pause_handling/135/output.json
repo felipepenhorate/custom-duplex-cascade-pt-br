@@ -1,0 +1,47 @@
+{
+    "text": "Paro, confirmed that I have more.",
+    "chunks": [
+        {
+            "text": "Paro,",
+            "timestamp": [
+                4.8,
+                5.36
+            ]
+        },
+        {
+            "text": "confirmed",
+            "timestamp": [
+                5.68,
+                6.4
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                10.48,
+                10.56
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                11.040000000000001,
+                11.120000000000001
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                11.120000000000001,
+                11.200000000000001
+            ]
+        },
+        {
+            "text": "more.",
+            "timestamp": [
+                11.52,
+                11.6
+            ]
+        }
+    ]
+}

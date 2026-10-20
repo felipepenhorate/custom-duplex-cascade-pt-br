@@ -1,0 +1,68 @@
+{
+    "text": "We have more connected stress and the same thing.",
+    "chunks": [
+        {
+            "text": "We",
+            "timestamp": [
+                15.544,
+                15.624
+            ]
+        },
+        {
+            "text": "have",
+            "timestamp": [
+                15.624,
+                15.704
+            ]
+        },
+        {
+            "text": "more",
+            "timestamp": [
+                16.344,
+                16.424
+            ]
+        },
+        {
+            "text": "connected",
+            "timestamp": [
+                17.144,
+                17.544
+            ]
+        },
+        {
+            "text": "stress",
+            "timestamp": [
+                20.584,
+                20.823999999999998
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                21.064,
+                21.144
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                31.304000000000002,
+                31.384
+            ]
+        },
+        {
+            "text": "same",
+            "timestamp": [
+                31.384,
+                31.384
+            ]
+        },
+        {
+            "text": "thing.",
+            "timestamp": [
+                31.384,
+                31.464
+            ]
+        }
+    ]
+}

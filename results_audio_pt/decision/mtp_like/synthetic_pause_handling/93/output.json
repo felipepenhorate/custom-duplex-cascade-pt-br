@@ -1,0 +1,54 @@
+{
+    "text": "Paro, whatever with me with the problem.",
+    "chunks": [
+        {
+            "text": "Paro,",
+            "timestamp": [
+                4.0,
+                4.5600000000000005
+            ]
+        },
+        {
+            "text": "whatever",
+            "timestamp": [
+                5.36,
+                6.16
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                6.48,
+                6.5600000000000005
+            ]
+        },
+        {
+            "text": "me",
+            "timestamp": [
+                7.2,
+                7.28
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                7.36,
+                7.44
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "problem.",
+            "timestamp": [
+                8.4,
+                8.48
+            ]
+        }
+    ]
+}

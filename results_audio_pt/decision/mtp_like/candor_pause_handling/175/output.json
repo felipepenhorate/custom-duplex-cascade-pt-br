@@ -1,0 +1,26 @@
+{
+    "text": "Arroyo with specifications.",
+    "chunks": [
+        {
+            "text": "Arroyo",
+            "timestamp": [
+                2.4,
+                4.16
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                4.24,
+                4.32
+            ]
+        },
+        {
+            "text": "specifications.",
+            "timestamp": [
+                4.88,
+                16.4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "text": "Claro, my species confirmed that.",
+    "chunks": [
+        {
+            "text": "Claro,",
+            "timestamp": [
+                5.76,
+                6.32
+            ]
+        },
+        {
+            "text": "my",
+            "timestamp": [
+                6.5600000000000005,
+                6.640000000000001
+            ]
+        },
+        {
+            "text": "species",
+            "timestamp": [
+                6.8,
+                7.04
+            ]
+        },
+        {
+            "text": "confirmed",
+            "timestamp": [
+                7.2,
+                7.68
+            ]
+        },
+        {
+            "text": "that.",
+            "timestamp": [
+                11.28,
+                11.36
+            ]
+        }
+    ]
+}

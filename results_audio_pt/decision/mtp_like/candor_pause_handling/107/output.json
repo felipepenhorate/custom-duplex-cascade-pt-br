@@ -1,0 +1,26 @@
+{
+    "text": "Don't think problem.",
+    "chunks": [
+        {
+            "text": "Don't",
+            "timestamp": [
+                3.7600000000000002,
+                4.08
+            ]
+        },
+        {
+            "text": "think",
+            "timestamp": [
+                4.08,
+                4.24
+            ]
+        },
+        {
+            "text": "problem.",
+            "timestamp": [
+                4.32,
+                4.48
+            ]
+        }
+    ]
+}

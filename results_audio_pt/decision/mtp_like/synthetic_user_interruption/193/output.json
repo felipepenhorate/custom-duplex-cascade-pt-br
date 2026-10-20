@@ -1,0 +1,68 @@
+{
+    "text": "Ata, if you vacuum, you are entrusted with it.",
+    "chunks": [
+        {
+            "text": "Ata,",
+            "timestamp": [
+                14.248,
+                14.888
+            ]
+        },
+        {
+            "text": "if",
+            "timestamp": [
+                15.208,
+                15.288
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                16.408,
+                16.488
+            ]
+        },
+        {
+            "text": "vacuum,",
+            "timestamp": [
+                16.567999999999998,
+                16.887999999999998
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                17.608,
+                17.688
+            ]
+        },
+        {
+            "text": "are",
+            "timestamp": [
+                18.247999999999998,
+                18.328
+            ]
+        },
+        {
+            "text": "entrusted",
+            "timestamp": [
+                18.488,
+                18.808
+            ]
+        },
+        {
+            "text": "with",
+            "timestamp": [
+                18.887999999999998,
+                18.968
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                21.288,
+                21.368000000000002
+            ]
+        }
+    ]
+}

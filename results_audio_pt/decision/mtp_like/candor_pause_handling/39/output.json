@@ -1,0 +1,47 @@
+{
+    "text": "Brazil has diversified linguistic Portuguese conventions.",
+    "chunks": [
+        {
+            "text": "Brazil",
+            "timestamp": [
+                15.52,
+                15.76
+            ]
+        },
+        {
+            "text": "has",
+            "timestamp": [
+                15.92,
+                16.0
+            ]
+        },
+        {
+            "text": "diversified",
+            "timestamp": [
+                16.240000000000002,
+                16.64
+            ]
+        },
+        {
+            "text": "linguistic",
+            "timestamp": [
+                16.88,
+                17.28
+            ]
+        },
+        {
+            "text": "Portuguese",
+            "timestamp": [
+                20.080000000000002,
+                20.400000000000002
+            ]
+        },
+        {
+            "text": "conventions.",
+            "timestamp": [
+                20.56,
+                20.8
+            ]
+        }
+    ]
+}

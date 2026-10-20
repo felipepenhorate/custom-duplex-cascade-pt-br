@@ -1,0 +1,54 @@
+{
+    "text": "Thomas Poco, three important training, but not.",
+    "chunks": [
+        {
+            "text": "Thomas",
+            "timestamp": [
+                4.16,
+                4.4
+            ]
+        },
+        {
+            "text": "Poco,",
+            "timestamp": [
+                4.96,
+                5.2
+            ]
+        },
+        {
+            "text": "three",
+            "timestamp": [
+                7.92,
+                8.0
+            ]
+        },
+        {
+            "text": "important",
+            "timestamp": [
+                8.24,
+                8.32
+            ]
+        },
+        {
+            "text": "training,",
+            "timestamp": [
+                8.8,
+                8.96
+            ]
+        },
+        {
+            "text": "but",
+            "timestamp": [
+                9.120000000000001,
+                9.200000000000001
+            ]
+        },
+        {
+            "text": "not.",
+            "timestamp": [
+                9.36,
+                9.44
+            ]
+        }
+    ]
+}
