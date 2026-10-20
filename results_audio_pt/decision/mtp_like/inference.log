@@ -115,3 +115,9 @@ WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EO
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
 [audio/mtp_like] 225/727 queue (11.4s/scenario, 9.4s audio) spoke=True pieces=10
 WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/mtp_like] 250/727 queue (12.9s/scenario, 11.4s audio) spoke=True pieces=14
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.

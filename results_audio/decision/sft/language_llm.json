@@ -1,0 +1,24 @@
+{
+ "n_turns": 1462,
+ "n_scenarios": 683,
+ "turns_pt": 332,
+ "turns_en": 1130,
+ "turns_unclear": 0,
+ "share_turns_pt": 0.2270861833105335,
+ "share_scenarios_pt": 0.19912152269399708,
+ "share_scenarios_any_pt": 0.232796486090776,
+ "share_words_pt": 0.27769661553445335,
+ "heuristic_agreement": {
+  "en/en": 934,
+  "en/pt": 29,
+  "en/unclear": 167,
+  "pt/en": 21,
+  "pt/pt": 295,
+  "pt/unclear": 16
+ },
+ "label": "EN sft",
+ "results": "results_audio/decision/sft",
+ "judge": "Qwen3.5-9B (local llama-server)",
+ "judge_calls": 147,
+ "judge_retries": 0
+}
