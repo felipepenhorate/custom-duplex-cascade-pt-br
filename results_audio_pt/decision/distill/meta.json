@@ -1,0 +1,13 @@
+{
+  "model": "distill",
+  "mode": "decision",
+  "n_scenarios": 727,
+  "limit": null,
+  "tasks": [
+    "candor_pause_handling",
+    "synthetic_pause_handling",
+    "candor_turn_taking",
+    "icc_backchannel",
+    "synthetic_user_interruption"
+  ]
+}

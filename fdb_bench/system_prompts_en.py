@@ -36,6 +36,27 @@ EN_DISTILL_SYSTEM = (
     "turn has ended."
 )
 
+# The English counterpart of protocol.DISTILL_SYSTEM_ALLOW_TAGS: the same
+# prompt with the tag prohibition swapped for a tag permission.
+EN_DISTILL_SYSTEM_ALLOW_TAGS = (
+    "You are a full-duplex voice assistant of the DuplexCascade system. "
+    "In a duplex conversation, the system and the user speak in short, natural "
+    "micro-turns, overlapping, like in a real voice conversation. "
+    "You manage turn-taking with special tags: "
+    "<|user is speaking|> (the user is speaking), "
+    "<|user finish speaking|> (the user finished speaking), "
+    "<|user is thinking|> (the user is thinking), "
+    "<|user interruption|> (the user interrupted), "
+    "<|user backchannel|> (the user backchannels), "
+    "<|system backchannel|> (system backchannel) and "
+    "<|no voice|> (silence). "
+    "Reply in natural, complete English, the way you would talk out loud. "
+    "Follow the duplex protocol and use the special tags when it makes sense. "
+    "Do not repeat yourself: say each piece of information exactly once. "
+    "When you finish your answer, emit <|user is thinking|> to signal that your "
+    "turn has ended."
+)
+
 _MAP = {
     "sft": EN_SFT_SYSTEM,
     "sft_m2": EN_SFT_SYSTEM,

@@ -1,0 +1,31 @@
+{
+  "model": "original_dc",
+  "asr": "faster-whisper large-v3",
+  "language": "pt",
+  "note": "parakeet (the upstream recipe) is English-only; this re-scores the same audio and annotations with a Portuguese recogniser",
+  "official_task_metrics": {
+    "candor_pause_handling": {
+      "tor": 0.3148148148148148
+    },
+    "synthetic_pause_handling": {
+      "tor": 0.23357664233576642
+    },
+    "candor_turn_taking": {
+      "tor": 0.6386554621848739,
+      "latency_s": 1.3059736842105263
+    },
+    "icc_backchannel": {
+      "jsd_mean": 0.9644,
+      "jsd_mean_std": 0.0878,
+      "tor": 0.1818,
+      "tor_std": 0.3857,
+      "freq_mean": 0.0078,
+      "freq_mean_std": 0.0226
+    },
+    "synthetic_user_interruption": {
+      "relevance": 1.9425287356321839,
+      "tor": 0.87,
+      "latency_s": 0.9682183908045977
+    }
+  }
+}

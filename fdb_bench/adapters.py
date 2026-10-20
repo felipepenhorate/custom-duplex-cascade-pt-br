@@ -665,7 +665,7 @@ PROMPT_CANDIDATES: dict[str, list[str]] = {
     #                          none, bridge prompt, tag-permissive, duplex trigger
     "sft":       ["none", "deployed", "tag"],
     "sft_m2":    ["none", "deployed", "tag"],
-    "distill":   ["none", "deployed", "tag", "trigger", "trigger_tags"],
+    "distill":   ["none", "deployed", "deployed_tags", "tag", "trigger", "trigger_tags"],
     "mtp_like":  ["none", "instruction"],
     "base":      ["none", "deployed", "tag"],
     "original_dc": ["none", "deployed"],
@@ -748,6 +748,14 @@ def resolve_system_prompt(
 
     if candidate == "tag":
         return P.TAG_PERMITTING_SYSTEM if lang == "pt" else TAG_PERMITTING_SYSTEM_EN
+
+    if candidate == "deployed_tags":
+        # the production prompt with its tag prohibition swapped for a tag
+        # permission (protocol.DISTILL_SYSTEM_ALLOW_TAGS)
+        if lang == "en":
+            from .system_prompts_en import EN_DISTILL_SYSTEM_ALLOW_TAGS
+            return EN_DISTILL_SYSTEM_ALLOW_TAGS
+        return P.DISTILL_SYSTEM_ALLOW_TAGS
 
     if candidate in ("trigger", "trigger_tags"):
         tp = P.distill_teacher_prompts()

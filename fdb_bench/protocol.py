@@ -220,6 +220,35 @@ ORIGINAL_SYSTEM = (
 
 SYSTEM_PROMPTS = {"sft": SFT_SYSTEM, "distill": DISTILL_SYSTEM, "base": SFT_SYSTEM}
 
+# The production prompt with its tag prohibition swapped for a tag permission.
+# It is the *same* prompt in every other word -- the role, the tag list, the
+# register, the "do not repeat yourself", and the closing "<|user is thinking|>"
+# instruction -- with one clause changed, exactly as the teacher pair differs
+# (TRIGGER_SYSTEM vs TRIGGER_SYSTEM_ALLOW_TAGS in distill/data/teacher_prompts.py).
+# The point of the arm: the production prompt forbids tags, so the turn
+# decision has to come from somewhere else (the shipped bridge primes the model
+# at turn ends); with the prohibition lifted, the model can express the
+# protocol itself and the prompt is the only thing that changed.
+DISTILL_SYSTEM_ALLOW_TAGS = (
+    "Você é um assistente de voz full-duplex do sistema DuplexCascade. "
+    "Numa conversa duplex, sistema e usuário falam em micro-turnos curtos e "
+    "naturais, com sobreposição, como numa conversa de voz real. "
+    "Você gerencia a tomada de turno com tags especiais: "
+    "<|user is speaking|> (usuário está falando), "
+    "<|user finish speaking|> (usuário terminou de falar), "
+    "<|user is thinking|> (usuário está pensando), "
+    "<|user interruption|> (usuário interrompeu), "
+    "<|user backchannel|> (usuário faz um backchannel), "
+    "<|system backchannel|> (backchannel do sistema) e "
+    "<|no voice|> (silêncio). "
+    "Responda de forma natural e completa, em português brasileiro coloquial, "
+    "como uma fala falada em voz alta. Siga o protocolo duplex e use as tags "
+    "especiais quando fizer sentido. Não se repita: diga cada informação "
+    "uma única vez. "
+    "Quando terminar de responder, emita <|user is thinking|> para indicar "
+    "que seu turno terminou."
+)
+
 # A system prompt that *permits* the protocol tags. Used by the "tag" prompt
 # mode to isolate a model's protocol ability from prompt-induced tag
 # suppression.
