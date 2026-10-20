@@ -36,7 +36,8 @@ from pathlib import Path
 import numpy as np
 
 from .dataset import TASKS
-from .score import EVAL_DIR, LocalJudgeShim, _patch_torchaudio_load, run_task_eval
+from .score import (EVAL_DIR, LocalJudgeShim, _patch_torchaudio_load,
+                     normalise_for_recognition, run_task_eval)
 
 if str(EVAL_DIR) not in sys.path:
     sys.path.insert(0, str(EVAL_DIR))

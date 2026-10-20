@@ -6,3 +6,102 @@ WARNING:pocket_tts.models.tts_model:Chunk has 56 tokens (max 50), generation may
 WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'it sounds like you're feeling unsure about what yo...'
 [audio/original_dc] 2/727 queue (14.9s/scenario, 7.2s audio) spoke=True pieces=11
 [audio/original_dc] 3/727 queue (12.4s/scenario, 9.3s audio) spoke=True pieces=10
+[audio/original_dc] 25/727 queue (6.0s/scenario, 10.4s audio) spoke=True pieces=10
+[audio/original_dc] 50/727 queue (5.9s/scenario, 8.0s audio) spoke=False pieces=8
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: 'Just let me know when you're ready to continue or ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'It seems like your message got cut off Could you p...'
+WARNING:pocket_tts.models.tts_model:Chunk has 58 tokens (max 50), generation may skip words: 'It seems like you're starting a sentence but it go...'
+WARNING:pocket_tts.models.tts_model:Chunk has 60 tokens (max 50), generation may skip words: 'It appears you're starting a sentence but it's inc...'
+[audio/original_dc] 75/727 queue (6.9s/scenario, 26.5s audio) spoke=False pieces=26
+WARNING:pocket_tts.models.tts_model:Chunk has 58 tokens (max 50), generation may skip words: 'Itive! itive! itive! itive! itive! itive! itive! i...'
+[audio/original_dc] 100/727 queue (7.1s/scenario, 28.7s audio) spoke=False pieces=33
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: '000 pessoas vivendo no Alasca, segundo estim ações...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'A frase "A verdade é uma coincidência bem louca" é...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'It seems like you've made a typo If you're asking ...'
+[audio/original_dc] 125/727 queue (7.2s/scenario, 9.2s audio) spoke=True pieces=12
+WARNING:pocket_tts.models.tts_model:Chunk has 71 tokens (max 50), generation may skip words: 'It seems like your message got cut off Could you p...'
+[audio/original_dc] 150/727 queue (6.8s/scenario, 9.9s audio) spoke=False pieces=11
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 59 tokens (max 50), generation may skip words: 'I'm here to assist you It seems like you might nee...'
+[audio/original_dc] 175/727 queue (6.8s/scenario, 11.5s audio) spoke=False pieces=13
+[audio/original_dc] 200/727 queue (6.7s/scenario, 10.9s audio) spoke=False pieces=11
+WARNING:pocket_tts.models.tts_model:Chunk has 78 tokens (max 50), generation may skip words: 'but your message seems a bit unclear Are you refer...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'eu posso fornecer informações gerais sobre auto-li...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/original_dc] 225/727 queue (6.6s/scenario, 9.4s audio) spoke=False pieces=10
+[audio/original_dc] 250/727 queue (6.6s/scenario, 11.4s audio) spoke=False pieces=14
+[audio/original_dc] 275/727 queue (6.5s/scenario, 3.5s audio) spoke=True pieces=4
+[audio/original_dc] 300/727 queue (6.4s/scenario, 6.6s audio) spoke=False pieces=7
+[audio/original_dc] 325/727 queue (6.2s/scenario, 8.1s audio) spoke=False pieces=10
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 72 tokens (max 50), generation may skip words: 'El cuidado de animales implica una variedad de tar...'
+[audio/original_dc] 350/727 queue (6.3s/scenario, 9.1s audio) spoke=True pieces=10
+WARNING:pocket_tts.models.tts_model:Chunk has 65 tokens (max 50), generation may skip words: 'Arizona is a large state in the southwestern regio...'
+[audio/original_dc] 375/727 queue (6.5s/scenario, 10.1s audio) spoke=False pieces=12
+WARNING:pocket_tts.models.tts_model:Chunk has 61 tokens (max 50), generation may skip words: 'I'm here to assist you Could you please provide mo...'
+[audio/original_dc] 400/727 queue (6.5s/scenario, 12.7s audio) spoke=True pieces=19
+WARNING:pocket_tts.models.tts_model:Chunk has 85 tokens (max 50), generation may skip words: 'CasinoKim Sportsbook is an online platform that of...'
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: 'ensuring that it operates within legal boundaries ...'
+[audio/original_dc] 425/727 queue (6.6s/scenario, 9.0s audio) spoke=False pieces=10
+[audio/original_dc] 450/727 queue (6.5s/scenario, 11.4s audio) spoke=True pieces=15
+WARNING:pocket_tts.models.tts_model:Chunk has 57 tokens (max 50), generation may skip words: 'it seems like you're referring to the difficulty l...'
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: 'and the complexity of the material Here are some f...'
+WARNING:pocket_tts.models.tts_model:Chunk has 57 tokens (max 50), generation may skip words: 'it seems like you're referring to the difficulty l...'
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: 'and the complexity of the material Here are some f...'
+WARNING:pocket_tts.models.tts_model:Chunk has 81 tokens (max 50), generation may skip words: 'it seems like you're referring to the difficulty l...'
+WARNING:pocket_tts.models.tts_model:Chunk has 60 tokens (max 50), generation may skip words: 'it seems like you're reflecting on starting your c...'
+WARNING:pocket_tts.models.tts_model:Chunk has 60 tokens (max 50), generation may skip words: 'Some families might surprise their mothers with un...'
+[audio/original_dc] 475/727 queue (6.9s/scenario, 42.3s audio) spoke=False pieces=43
+[audio/original_dc] 500/727 queue (7.3s/scenario, 55.6s audio) spoke=False pieces=67
+[audio/original_dc] 525/727 queue (7.8s/scenario, 19.7s audio) spoke=False pieces=18
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'As plantas de interior precisam de luz solar para ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'O instrumento musical mais fácil para começar a ap...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '1 "O Homem que Ate a Noite" por Agatha Christie - ...'
+[audio/original_dc] 550/727 queue (8.3s/scenario, 28.8s audio) spoke=True pieces=31
+WARNING:pocket_tts.models.tts_model:Chunk has 60 tokens (max 50), generation may skip words: 'Manter um jardim de laguns sa údável sem o uso de ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: '"Modernismo" é um movimento cultural que surgiu no...'
+WARNING:pocket_tts.models.tts_model:Chunk has 62 tokens (max 50), generation may skip words: 'O fitness está em alta devido à crescente conscien...'
+WARNING:pocket_tts.models.tts_model:Chunk has 69 tokens (max 50), generation may skip words: 'A Brief History of Humankind" por Yuval Noah Harar...'
+[audio/original_dc] 575/727 queue (8.7s/scenario, 25.2s audio) spoke=True pieces=26
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: 'O armazenamento em nuvem é uma forma de armazenar ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: '"The History of Rome" - Este é um podcast que segu...'
+WARNING:pocket_tts.models.tts_model:Chunk has 58 tokens (max 50), generation may skip words: '1 "An In convenient Truth" (2006) - Este documentá...'
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: 'As plantas de interior precisam de luz solar para ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 61 tokens (max 50), generation may skip words: 'The Movie" (2 021) - Esta é uma adapta ção cinemat...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'Economizar água é uma prática importante para pres...'
+[audio/original_dc] 600/727 queue (9.1s/scenario, 27.7s audio) spoke=False pieces=27
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'As estações espaciais são complexos sistemas que r...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'Plann ing ahead is a great step towards ensuring a...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'Mudar para uma dieta mais saudável é uma grande de...'
+WARNING:pocket_tts.models.tts_model:Chunk has 60 tokens (max 50), generation may skip words: 'Use um recip iente anti-grudir ou untado com m ant...'
+[audio/original_dc] 625/727 queue (9.4s/scenario, 28.8s audio) spoke=True pieces=31
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'Um check-up e limpeza Is so permite que o dentista...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: '- 200g de alface picada 100g de tomate corte 100 g...'
+WARNING:pocket_tts.models.tts_model:Chunk has 59 tokens (max 50), generation may skip words: 'Uma boa ficção científica deve cum prir várias car...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '1 "A arte de Viv ir Feliz" de Dalai Lama e Howard ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'Pode melhorar sua saúde mental e emocional 3 "O po...'
+WARNING:pocket_tts.models.tts_model:Chunk has 52 tokens (max 50), generation may skip words: 'a reciclagem é uma parte crucial da gestão de resí...'
+[audio/original_dc] 650/727 queue (9.8s/scenario, 28.6s audio) spoke=True pieces=30
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '1 colher de sopa de maizena - 1 colher de sopa de ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 66 tokens (max 50), generation may skip words: '"Parasite" (201 9) - Um filme sul-coreano que gan ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 62 tokens (max 50), generation may skip words: 'No romance homônimo de Margaret Mitchell 2 "Citize...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 56 tokens (max 50), generation may skip words: 'Segu a as instruções na embalagem das sementes ou ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '1 colher de sopa de bicarbonato de potássio 1 colh...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'Ará de leite 1/2 xíc ará de óleo 1 xíc arada de ch...'
+[audio/original_dc] 675/727 queue (10.1s/scenario, 29.6s audio) spoke=True pieces=32
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'but your message seems to be cut off Could you ple...'
+WARNING:pocket_tts.models.tts_model:Chunk has 129 tokens (max 50), generation may skip words: 'fazer exercícios de resistência com bandas el ásti...'
+[audio/original_dc] 700/727 queue (10.5s/scenario, 26.9s audio) spoke=True pieces=30
+WARNING:pocket_tts.models.tts_model:Chunk has 53 tokens (max 50), generation may skip words: 'Elho - Este livro é uma história encantadora que e...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'História futur ística que explora a possibilidade ...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 56 tokens (max 50), generation may skip words: 'A expressão "fim de semana" refere -se ao período ...'
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '1/4 xícara de mostarda ada empanada 1/4 x ícara de...'
+WARNING:pocket_tts.models.tts_model:Chunk has 62 tokens (max 50), generation may skip words: 'Empanada 1/4 x ícara de mostarda empanada 1/4 xíca...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 58 tokens (max 50), generation may skip words: 'Cuidar de orquídeas pode ser uma tarefa gratifican...'
+[audio/original_dc] 725/727 queue (10.8s/scenario, 28.5s audio) spoke=True pieces=30
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: 'existem várias regiões na Europa que são conhecida...'
+[audio] done -> /home/penhfel/github/custom-duplex-cascade-pt-br/results_audio_pt/decision/original_dc

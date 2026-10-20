@@ -1,0 +1,43 @@
+[audio] 727 scenarios across 5 subsets
+[audio] tts voice=rafael language=portuguese
+[0;93m2026-10-20 13:43:11.461603689 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[audio/distill] 1/727 queue (38.9s/scenario, 29.5s audio) spoke=True pieces=30
+[audio/distill] 2/727 queue (24.1s/scenario, 7.2s audio) spoke=False pieces=11
+[audio/distill] 3/727 queue (20.3s/scenario, 9.3s audio) spoke=True pieces=10
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: ', "Ela é louca? " — essa frase pode ser interpreta...'
+[audio/distill] 25/727 queue (12.3s/scenario, 10.4s audio) spoke=False pieces=10
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/distill] 50/727 queue (12.8s/scenario, 8.0s audio) spoke=False pieces=8
+WARNING:pocket_tts.models.tts_model:Chunk has 55 tokens (max 50), generation may skip words: '안 좋게 느껴지네요 무슨 일이 있었나요?...'
+WARNING:pocket_tts.models.tts_model:Chunk has 56 tokens (max 50), generation may skip words: '😊 혹시 'P'가 무슨 의미인지 궁금해요면....'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 60 tokens (max 50), generation may skip words: '정말 아쉽습니다 많은 사람들이가 사망하고....'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/distill] 75/727 queue (14.3s/scenario, 26.5s audio) spoke=False pieces=26
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'Agora entendi perfeitamente — você quer dizer: 👉 "...'
+[audio/distill] 100/727 queue (14.2s/scenario, 28.7s audio) spoke=True pieces=33
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 86 tokens (max 50), generation may skip words: '"celular"은 '모바일' 또는 '휴대폰'을 의미합니다 혹 "Пf"가 아니라면,...'
+WARNING:pocket_tts.models.tts_model:Chunk has 56 tokens (max 50), generation may skip words: '아마도 "Pf"를 말씀하신 것 같네요 그런데,...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 60 tokens (max 50), generation may skip words: 'Você provavelmente quer dizer "L'você" ou talvez e...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/distill] 125/727 queue (13.9s/scenario, 9.2s audio) spoke=False pieces=12
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/distill] 150/727 queue (13.8s/scenario, 9.9s audio) spoke=True pieces=11
+WARNING:pocket_tts.models.tts_model:Chunk has 51 tokens (max 50), generation may skip words: 'Você provavelmente quer dizer: "Tu ia montar Eu ia...'
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Chunk has 54 tokens (max 50), generation may skip words: '아~ 하루~ 😊 오늘도 빛나는 하루~ 🌞✨...'
+[audio/distill] 175/727 queue (13.8s/scenario, 11.5s audio) spoke=True pieces=13
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
+[audio/distill] 200/727 queue (13.6s/scenario, 10.9s audio) spoke=False pieces=11
+WARNING:pocket_tts.models.tts_model:Maximum generation length reached without EOS, this very often indicates an error.
