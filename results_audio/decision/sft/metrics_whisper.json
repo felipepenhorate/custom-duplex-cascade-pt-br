@@ -4,6 +4,24 @@
   "language": "en",
   "note": "parakeet (the upstream recipe) is English-only; this re-scores the same audio and annotations with a Portuguese recogniser",
   "official_task_metrics": {
+    "candor_pause_handling": {
+      "tor": 0.7268518518518519
+    },
+    "synthetic_pause_handling": {
+      "tor": 0.8613138686131386
+    },
+    "candor_turn_taking": {
+      "tor": 0.8571428571428571,
+      "latency_s": 0.23823529411765157
+    },
+    "icc_backchannel": {
+      "jsd_mean": 0.713,
+      "jsd_mean_std": 0.1084,
+      "tor": 0.6545,
+      "tor_std": 0.4755,
+      "freq_mean": 0.1162,
+      "freq_mean_std": 0.0836
+    },
     "synthetic_user_interruption": {
       "relevance": 3.225130890052356,
       "tor": 0.955,

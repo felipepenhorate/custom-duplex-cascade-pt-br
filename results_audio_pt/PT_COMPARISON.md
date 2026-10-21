@@ -19,10 +19,21 @@ The Portuguese set is a re-voicing: the benchmark's own audio is segmented, tran
 
 | model | pause_syn ↓ | pause_cand ↓ | BC TOR ↓ | smooth ↑ | smooth lat ↓ | intr ↑ | relevance ↑ | intr lat ↓ | **ATA** ↑ | ATA raw | reply in pt | other langs |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Original DuplexCascade (upstream) | 0.088 | 0.190 | 0.164 | 0.630 | 1.48 | 0.945 | 3.66 | 1.46 | **0.824** | 0.824 | | 0.0% / 0.0% | - | 1.0% / 0.0%|
-| SFT (pt-BR) | 0.825 | 0.713 | 0.673 | 0.866 | 0.34 | 0.930 | 3.09 | 0.65 | **0.564** | 0.564 | | 25.6% / 22.3% | - | 0.1% / 0.0%|
-| Self-distillation (pt-BR) | 0.219 | 0.264 | 0.345 | 0.697 | 3.80 | 0.605 | 1.47 | 2.71 | **0.705** | 0.705 | | 0.0% / 0.0% | ko:296 | 61.1% / 60.6%|
-| Companion (MTP-style) | 0.920 | 0.829 | 0.782 | 0.891 | 0.61 | 0.935 | 4.40 | 1.05 | **0.519** | 0.519 | | 0.0% / 0.0% | - | 0.0% / 0.0%|
+| Original DuplexCascade (upstream) | 0.095 | 0.194 | 0.182 | 0.630 | 1.40 | 0.945 | 3.79 | 1.29 | **0.821** | 0.821 | | 0.0% / 0.0% | - | 1.0% / 0.0%|
+| SFT (pt-BR) | 0.861 | 0.727 | 0.654 | 0.857 | 0.24 | 0.955 | 3.23 | 0.48 | **0.556** | 0.556 | | 25.6% / 22.3% | - | 0.1% / 0.0%|
+| Self-distillation (pt-BR) | 0.270 | 0.296 | 0.400 | 0.689 | 3.66 | 0.605 | 1.48 | 2.29 | **0.682** | 0.682 | | 0.0% / 0.0% | ko:296 | 61.1% / 60.6%|
+| Companion (MTP-style) | 0.927 | 0.838 | 0.764 | 0.891 | 0.53 | 0.935 | 4.28 | 0.87 | **0.515** | 0.515 | | 0.0% / 0.0% | - | 0.0% / 0.0%|
+
+## English, read by the benchmark's own scorer (parakeet)
+
+The number comparable with the published row: parakeet is English-only, so it belongs on the English set. These are the same renders as the table above, peak-normalised before recognition.
+
+| model | pause_syn ↓ | pause_cand ↓ | BC TOR ↓ | smooth ↑ | smooth lat ↓ | intr ↑ | relevance ↑ | intr lat ↓ | **ATA** ↑ |
+|---|---|---|---|---|---|---|---|---|---|
+| Original DuplexCascade (upstream) | 0.088 | 0.190 | 0.164 | 0.630 | 1.48 | 0.945 | 3.66 | 1.46 | **0.824** |
+| SFT (pt-BR) | 0.825 | 0.713 | 0.673 | 0.866 | 0.34 | 0.930 | 3.09 | 0.65 | **0.564** |
+| Self-distillation (pt-BR) | 0.219 | 0.264 | 0.345 | 0.697 | 3.80 | 0.605 | 1.47 | 2.71 | **0.705** |
+| Companion (MTP-style) | 0.920 | 0.829 | 0.782 | 0.891 | 0.61 | 0.935 | 4.40 | 1.05 | **0.519** |
 
 ## The distilled model's degeneration, and the prompt that fixes it
 
@@ -32,15 +43,17 @@ The language judge labels a reply by the language it judges the turn to be in, a
 |---|---|---|---|---|---|---|---|---|---|
 | PT, no prompt | 79.0% / 9.7% / 11.3% | 88.9% / 8.3% / 2.7% | 18.8% | 34.4 | 1.56 | 2.36 s | 0.378 (raw 0.650) |
 | PT, production prompt | 81.4% / 12.6% / 5.9% | 82.9% / 15.2% / 1.9% | 4.8% | 14.7 | 3.36 | 0.22 s | 0.143 (raw 0.550) |
-| EN, no prompt | 0.0% / 72.0% / 28.0% | 0.2% / 97.1% / 2.7% | 60.6% | 38.7 | 1.47 | 3.80 s | 0.705 (raw 0.705) |
+| EN, no prompt | 0.0% / 72.0% / 28.0% | 0.2% / 97.1% / 2.7% | 60.6% | 38.7 | 1.48 | 3.66 s | 0.682 (raw 0.682) |
 
 ## The difference the rebuild was about
 
 PT is the in-distribution set for the trained variants, so a negative number means the model did better on its own language. The upstream model is English-trained, so for it the sign is expected to point the other way.
 
-| model | ATA EN (OOD) | ATA PT (ID) | Δ (PT−EN) |
-|---|---|---|---|
-| Original DuplexCascade (upstream) | 0.824 | 0.740 | -0.084 |
-| SFT (pt-BR) | 0.564 | 0.494 | -0.070 |
-| Self-distillation (pt-BR) | 0.705 | 0.378 | -0.327 |
-| Companion (MTP-style) | 0.519 | 0.520 | +0.001 |
+Both sides of this table are read by the **same** recogniser (whisper large-v3), with only the language setting changing, because two recognisers measure two things. `raw` is the plain four-term mean; the guarded column is the project's convention, whose cliff (smooth < 0.5 collapses ATA to smooth) turns "late" into "mute".
+
+| model | ATA EN (OOD) | ATA PT (ID) | Δ (PT−EN) | Δ raw | Δ pause cand | Δ backchannel | Δ smooth |
+|---|---|---|---|---|---|---|---|
+| Original DuplexCascade (upstream) | 0.821 | 0.740 | -0.081 | -0.081 | +0.120 | +0.000 | +0.008 |
+| SFT (pt-BR) | 0.556 | 0.494 | -0.062 | -0.062 | +0.116 | +0.255 | -0.008 |
+| Self-distillation (pt-BR) | 0.682 | 0.378 | -0.304 | -0.032 | -0.139 | -0.036 | -0.311 |
+| Companion (MTP-style) | 0.515 | 0.520 | +0.005 | +0.005 | -0.032 | +0.073 | -0.109 |

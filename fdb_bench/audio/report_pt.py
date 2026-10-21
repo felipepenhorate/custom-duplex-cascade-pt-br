@@ -166,10 +166,25 @@ def main() -> None:
           "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     en_rows = {}
     for m in MODELS:
-        r = row(LABEL[m], load(f"results_audio/decision/{m}/metrics.json"))
+        r = row(LABEL[m], load(f"results_audio/decision/{m}/metrics_whisper.json"))
         if r:
             en_rows[m] = r
             L.append(fmt(r, f"results_audio/decision/{m}"))
+
+    L += ["", "## English, read by the benchmark's own scorer (parakeet)", "",
+          "The number comparable with the published row: parakeet is "
+          "English-only, so it belongs on the English set. These are the same "
+          "renders as the table above, peak-normalised before recognition.",
+          "",
+          "| model | pause_syn ↓ | pause_cand ↓ | BC TOR ↓ | smooth ↑ | smooth lat ↓ | intr ↑ | relevance ↑ | intr lat ↓ | **ATA** ↑ |",
+          "|---|---|---|---|---|---|---|---|---|---|"]
+    for m in MODELS:
+        r = row(LABEL[m], load(f"results_audio/decision/{m}/metrics.json"))
+        if r:
+            L.append(f"| {r['tag']} | {r['pause_syn']:.3f} | {r['pause_cand']:.3f} | "
+                     f"{r['bc']:.3f} | {r['smooth']:.3f} | {r['smooth_lat']:.2f} | "
+                     f"{r['intr']:.3f} | {r['rel']:.2f} | {r['intr_lat']:.2f} | "
+                     f"**{r['ata']:.3f}** |")
 
     # ------------------------------------------------ the degeneration table
     L += ["", "## The distilled model's degeneration, and the prompt that fixes it",
@@ -210,13 +225,27 @@ def main() -> None:
               "PT is the in-distribution set for the trained variants, so a "
               "negative number means the model did better on its own language. "
               "The upstream model is English-trained, so for it the sign is "
-              "expected to point the other way.", "",
-              "| model | ATA EN (OOD) | ATA PT (ID) | Δ (PT−EN) |", "|---|---|---|---|"]
+              "expected to point the other way.",
+              "",
+              "Both sides of this table are read by the **same** recogniser "
+              "(whisper large-v3), with only the language setting changing, "
+              "because two recognisers measure two things. `raw` is the plain "
+              "four-term mean; the guarded column is the project's convention, "
+              "whose cliff (smooth < 0.5 collapses ATA to smooth) turns "
+              "\"late\" into \"mute\".",
+              "",
+              "| model | ATA EN (OOD) | ATA PT (ID) | Δ (PT−EN) | Δ raw | "
+              "Δ pause cand | Δ backchannel | Δ smooth |",
+              "|---|---|---|---|---|---|---|---|"]
         for m in MODELS:
-            if m in pt_rows and m in en_rows:
-                L.append(f"| {LABEL[m]} | {en_rows[m]['ata']:.3f} | "
-                         f"{pt_rows[m]['ata']:.3f} | "
-                         f"{pt_rows[m]['ata'] - en_rows[m]['ata']:+.3f} |")
+            if m not in pt_rows or m not in en_rows:
+                continue
+            e, t = en_rows[m], pt_rows[m]
+            L.append(f"| {LABEL[m]} | {e['ata']:.3f} | {t['ata']:.3f} | "
+                     f"{t['ata'] - e['ata']:+.3f} | {t['raw'] - e['raw']:+.3f} | "
+                     f"{t['pause_cand'] - e['pause_cand']:+.3f} | "
+                     f"{t['bc'] - e['bc']:+.3f} | "
+                     f"{t['smooth'] - e['smooth']:+.3f} |")
 
     out = Path("results_audio_pt/PT_COMPARISON.md")
     out.parent.mkdir(parents=True, exist_ok=True)
