@@ -1,5 +1,5 @@
 {
-    "text": "That sounds like a close, friendly vibe, like a cozy chat with a friend. What's on your mind? The hulimen",
+    "text": "That sounds like a close, friendly vibe, like a cozy chat with a friend. What's on your mind?",
     "chunks": [
         {
             "text": "That",
@@ -125,20 +125,6 @@
             "timestamp": [
                 10.0,
                 10.32
-            ]
-        },
-        {
-            "text": "The",
-            "timestamp": [
-                10.56,
-                10.64
-            ]
-        },
-        {
-            "text": "hulimen",
-            "timestamp": [
-                10.8,
-                11.44
             ]
         }
     ]

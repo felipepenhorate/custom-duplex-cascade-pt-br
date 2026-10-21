@@ -1,5 +1,5 @@
 {
-    "text": "I'm sorry you're That sounds really intense. Oh, that's heavy. When everyone knows your every move, it can feel like you're constantly on display. No privacy.",
+    "text": "I'm sorry you're That sounds really intense Oh, that's heavy. When everyone knows your every move, it can feel like you're constantly on display. No privacy.",
     "chunks": [
         {
             "text": "I'm",
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "text": "intense.",
+            "text": "intense",
             "timestamp": [
                 7.84,
                 8.4

@@ -1,5 +1,5 @@
 {
-    "text": "That's okay. That's really thoughtful of you. Volunteering can be tough to fit in. Sometimes it's a",
+    "text": "That's okay. That's really thoughtful of you. Volunteering can be tough to fit in. Sometimes it's a bad.",
     "chunks": [
         {
             "text": "That's",
@@ -102,7 +102,7 @@
         {
             "text": "Sometimes",
             "timestamp": [
-                13.200000000000001,
+                13.120000000000001,
                 13.36
             ]
         },
@@ -118,6 +118,13 @@
             "timestamp": [
                 13.52,
                 13.6
+            ]
+        },
+        {
+            "text": "bad.",
+            "timestamp": [
+                13.6,
+                13.68
             ]
         }
     ]

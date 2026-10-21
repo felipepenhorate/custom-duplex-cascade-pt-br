@@ -1,5 +1,5 @@
 {
-    "text": "Claro O quite interesimes, podemos philar sobre alguma area especifica, tipo support, o alguma dica de otimizasau.",
+    "text": "Claro O quite interesimes, podemos philar sobre alguma area especifica. Tipo support o alguma dica de otimiza sau.",
     "chunks": [
         {
             "text": "Claro",
@@ -65,21 +65,21 @@
             ]
         },
         {
-            "text": "especifica,",
+            "text": "especifica.",
             "timestamp": [
                 17.186666666666667,
                 18.14666666666667
             ]
         },
         {
-            "text": "tipo",
+            "text": "Tipo",
             "timestamp": [
                 18.306666666666665,
                 18.866666666666667
             ]
         },
         {
-            "text": "support,",
+            "text": "support",
             "timestamp": [
                 18.866666666666667,
                 19.266666666666666
@@ -114,10 +114,17 @@
             ]
         },
         {
-            "text": "otimizasau.",
+            "text": "otimiza",
             "timestamp": [
                 20.546666666666667,
-                21.746666666666666
+                21.186666666666667
+            ]
+        },
+        {
+            "text": "sau.",
+            "timestamp": [
+                21.186666666666667,
+                21.586666666666666
             ]
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "text": "That sounds like a great plan. What type of dinner would you prefer? Here are a few suggestions. 1. Healthy stir-fry. You can prepare a stir-fry with a variety of vegetables, like bell peppers, broccoli, carrots, and snap peas, and a lean protein source such.",
+    "text": "That sounds like a great plan. What type of dinner would you prefer? Here are a few suggestions. 1. Healthy stir-fry. You can prepare a stir-fry with a variety of vegetables like bell peppers, broccoli, carrots, and snap peas, and a lean protein source such.",
     "chunks": [
         {
             "text": "That",
@@ -130,7 +130,7 @@
         {
             "text": "1.",
             "timestamp": [
-                21.549333333333337,
+                21.469333333333335,
                 21.789333333333335
             ]
         },
@@ -212,7 +212,7 @@
             ]
         },
         {
-            "text": "vegetables,",
+            "text": "vegetables",
             "timestamp": [
                 25.309333333333335,
                 25.949333333333335

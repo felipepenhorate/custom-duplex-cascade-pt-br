@@ -1,5 +1,5 @@
 {
-    "text": "I hear you. It's",
+    "text": "I hear you. It's a very good idea.",
     "chunks": [
         {
             "text": "I",
@@ -27,6 +27,34 @@
             "timestamp": [
                 20.400000000000002,
                 20.72
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                21.36,
+                21.44
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                21.44,
+                21.44
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                21.44,
+                21.44
+            ]
+        },
+        {
+            "text": "idea.",
+            "timestamp": [
+                21.44,
+                21.44
             ]
         }
     ]

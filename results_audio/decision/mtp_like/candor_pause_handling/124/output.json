@@ -1,5 +1,5 @@
 {
-    "text": "Got it, I'm in the middle of the morning.",
+    "text": "Got it. Immediate.",
     "chunks": [
         {
             "text": "Got",
@@ -9,59 +9,17 @@
             ]
         },
         {
-            "text": "it,",
+            "text": "it.",
             "timestamp": [
                 2.48,
                 2.72
             ]
         },
         {
-            "text": "I'm",
+            "text": "Immediate.",
             "timestamp": [
                 3.04,
-                3.44
-            ]
-        },
-        {
-            "text": "in",
-            "timestamp": [
-                3.44,
-                3.6
-            ]
-        },
-        {
-            "text": "the",
-            "timestamp": [
-                4.16,
-                4.16
-            ]
-        },
-        {
-            "text": "middle",
-            "timestamp": [
-                4.16,
-                4.16
-            ]
-        },
-        {
-            "text": "of",
-            "timestamp": [
-                4.16,
-                4.16
-            ]
-        },
-        {
-            "text": "the",
-            "timestamp": [
-                4.16,
-                4.16
-            ]
-        },
-        {
-            "text": "morning.",
-            "timestamp": [
-                4.16,
-                4.16
+                3.7600000000000002
             ]
         }
     ]

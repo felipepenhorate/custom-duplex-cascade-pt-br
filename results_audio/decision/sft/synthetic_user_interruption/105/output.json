@@ -1,5 +1,5 @@
 {
-    "text": "Qui tal um suspense me liv, tem um film novo quetabo mando, typo, o mecanismo, qu mistera muta technologia camuma historia bem involvente.",
+    "text": "Qui tal um suspense me liv, tem um film novo quitabomando, typo, o mecanismo, qu mistera muta technologia camuma historia bem involvente.",
     "chunks": [
         {
             "text": "Qui",
@@ -72,16 +72,9 @@
             ]
         },
         {
-            "text": "quetabo",
+            "text": "quitabomando,",
             "timestamp": [
                 17.896,
-                18.456
-            ]
-        },
-        {
-            "text": "mando,",
-            "timestamp": [
-                18.456,
                 18.855999999999998
             ]
         },

@@ -1,5 +1,5 @@
 {
-    "text": "That's pretty common these days. Many people stay close to home, especially with online shopping and delivery options. Uh, sorry. Admin.",
+    "text": "That's pretty common these days. Many people stay close to home, especially with online shopping and delivery options. Uh sorry. Admin.",
     "chunks": [
         {
             "text": "That's",
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "text": "Uh,",
+            "text": "Uh",
             "timestamp": [
                 15.36,
                 15.76

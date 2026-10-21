@@ -1,24 +1,24 @@
 {
-    "text": "As an AI, I don't have the capability to send links directly, however you can easily find the information or resource you're looking.",
+    "text": "As an AI, I don't have the capability to send links directly. However, you can easily find the information or resource you're looking.",
     "chunks": [
         {
             "text": "As",
             "timestamp": [
-                6.32,
-                6.640000000000001
+                6.4,
+                6.72
             ]
         },
         {
             "text": "an",
             "timestamp": [
-                6.640000000000001,
-                6.96
+                6.72,
+                6.88
             ]
         },
         {
             "text": "AI,",
             "timestamp": [
-                6.96,
+                6.88,
                 7.36
             ]
         },
@@ -79,14 +79,14 @@
             ]
         },
         {
-            "text": "directly,",
+            "text": "directly.",
             "timestamp": [
                 9.44,
                 9.84
             ]
         },
         {
-            "text": "however",
+            "text": "However,",
             "timestamp": [
                 10.16,
                 10.48

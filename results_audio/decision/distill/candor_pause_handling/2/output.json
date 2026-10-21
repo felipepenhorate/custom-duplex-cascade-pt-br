@@ -1,8 +1,8 @@
 {
-    "text": "Uha at home like um",
+    "text": "Uha, at home, like um",
     "chunks": [
         {
-            "text": "Uha",
+            "text": "Uha,",
             "timestamp": [
                 2.24,
                 2.88
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "text": "home",
+            "text": "home,",
             "timestamp": [
                 3.6,
-                4.0
+                3.92
             ]
         },
         {

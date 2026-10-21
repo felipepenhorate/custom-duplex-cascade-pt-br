@@ -1,5 +1,5 @@
 {
-    "text": "Penn State University Corvallis is a city located in the Uemqua Valley region of Oregon, United States. It is the seat of Benton County.",
+    "text": "Penn State University Corvallis is a city located in the Uemqua Valley region of Oregon, United States. It is the seat of Benton County and the United States.",
     "chunks": [
         {
             "text": "Penn",
@@ -163,10 +163,38 @@
             ]
         },
         {
-            "text": "County.",
+            "text": "County",
             "timestamp": [
                 20.240000000000002,
                 20.48
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                20.64,
+                20.72
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                20.88,
+                20.88
+            ]
+        },
+        {
+            "text": "United",
+            "timestamp": [
+                20.88,
+                20.88
+            ]
+        },
+        {
+            "text": "States.",
+            "timestamp": [
+                20.88,
+                20.88
             ]
         }
     ]

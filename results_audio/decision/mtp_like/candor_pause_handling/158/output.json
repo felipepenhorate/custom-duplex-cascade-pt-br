@@ -1,5 +1,5 @@
 {
-    "text": "You're right. There are so many.",
+    "text": "You're right. There are so many",
     "chunks": [
         {
             "text": "You're",
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "text": "many.",
+            "text": "many",
             "timestamp": [
                 9.84,
                 10.08

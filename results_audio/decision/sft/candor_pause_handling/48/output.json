@@ -1,5 +1,5 @@
 {
-    "text": "Nah, I can't say I care, to be honest. Feud bowl, not futzel. I just can't wrap my head around it. I just can't believe it, to be honest. I just can't wrap my head around it, to be real.",
+    "text": "Nah, I can't say I care, to be honest. Feudbowl, not futzel. I just can't wrap my head around it. I just can't believe it, to be honest. I just can't wrap my head around it, to be real.",
     "chunks": [
         {
             "text": "Nah,",
@@ -65,16 +65,9 @@
             ]
         },
         {
-            "text": "Feud",
+            "text": "Feudbowl,",
             "timestamp": [
                 8.08,
-                8.32
-            ]
-        },
-        {
-            "text": "bowl,",
-            "timestamp": [
-                8.4,
                 8.64
             ]
         },
@@ -89,7 +82,7 @@
             "text": "futzel.",
             "timestamp": [
                 8.88,
-                9.6
+                9.52
             ]
         },
         {
@@ -201,13 +194,13 @@
             "text": "honest.",
             "timestamp": [
                 25.84,
-                26.560000000000002
+                26.48
             ]
         },
         {
             "text": "I",
             "timestamp": [
-                26.88,
+                26.8,
                 27.04
             ]
         },

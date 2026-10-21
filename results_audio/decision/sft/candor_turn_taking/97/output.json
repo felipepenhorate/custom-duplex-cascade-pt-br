@@ -1,5 +1,5 @@
 {
-    "text": "I can't seem to be a lot of no-shows, to be honest. I know. It's a bummer. I just hope it resolves.",
+    "text": "I can't comp seem to be a lot of no-shows, to be honest. I know. It's a bummer. I just hope it resolves.",
     "chunks": [
         {
             "text": "I",
@@ -13,6 +13,13 @@
             "timestamp": [
                 2.72,
                 3.12
+            ]
+        },
+        {
+            "text": "comp",
+            "timestamp": [
+                3.12,
+                3.2
             ]
         },
         {

@@ -1,5 +1,5 @@
 {
-    "text": "Sure. What tech topic are you interested in? AI, smartphones, space tech, or something else? Ah, Mendo?",
+    "text": "Sure. What tech topic are you interested in? AI, smartphones, space tech, or something else? Ah, mendu?",
     "chunks": [
         {
             "text": "Sure.",
@@ -114,10 +114,10 @@
             ]
         },
         {
-            "text": "Mendo?",
+            "text": "mendu?",
             "timestamp": [
                 20.066666666666666,
-                20.386666666666667
+                20.546666666666667
             ]
         }
     ]

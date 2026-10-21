@@ -1,24 +1,17 @@
 {
-    "text": "Carioca C Quixaramente. O proceso de a provaso e bem ditalhado",
+    "text": "Carioca Cadamente. O proceso de a provaso e bem ditalhado.",
     "chunks": [
         {
             "text": "Carioca",
             "timestamp": [
                 2.32,
-                3.36
+                3.2
             ]
         },
         {
-            "text": "C",
+            "text": "Cadamente.",
             "timestamp": [
                 5.6000000000000005,
-                5.68
-            ]
-        },
-        {
-            "text": "Quixaramente.",
-            "timestamp": [
-                11.68,
                 12.8
             ]
         },
@@ -72,7 +65,7 @@
             ]
         },
         {
-            "text": "ditalhado",
+            "text": "ditalhado.",
             "timestamp": [
                 15.280000000000001,
                 15.76

@@ -1,5 +1,5 @@
 {
-    "text": "Ah, I remember. Bingo, I can help. Do you prefer a particular vibe? Ah.",
+    "text": "Ah, I remember. Bingo, I can help. Do you prefer a particular vibe?",
     "chunks": [
         {
             "text": "Ah,",
@@ -26,7 +26,7 @@
             "text": "Bingo,",
             "timestamp": [
                 6.24,
-                6.88
+                6.8
             ]
         },
         {
@@ -90,13 +90,6 @@
             "timestamp": [
                 8.96,
                 9.68
-            ]
-        },
-        {
-            "text": "Ah.",
-            "timestamp": [
-                13.52,
-                14.0
             ]
         }
     ]

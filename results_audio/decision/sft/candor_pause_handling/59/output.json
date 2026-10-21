@@ -1,5 +1,5 @@
 {
-    "text": "CS Pan? Is that a T V chan? Ah, I can under No, no, I just meant I can.",
+    "text": "CS Pan? Is that a T V channel? Ah, I can under No, no, I just meant I can.",
     "chunks": [
         {
             "text": "CS",
@@ -51,10 +51,10 @@
             ]
         },
         {
-            "text": "chan?",
+            "text": "channel?",
             "timestamp": [
                 8.48,
-                8.64
+                8.88
             ]
         },
         {

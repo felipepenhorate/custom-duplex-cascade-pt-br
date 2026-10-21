@@ -1,5 +1,5 @@
 {
-    "text": "That sounds peaceful. Just being there, watching your kids grow. Oh, quiet, beautiful kind of love. And.",
+    "text": "That sounds peaceful. Just being there, watching your kids grow. Oh, summer break. Quiet, beautiful kind of love. And.",
     "chunks": [
         {
             "text": "That",
@@ -79,7 +79,21 @@
             ]
         },
         {
-            "text": "quiet,",
+            "text": "summer",
+            "timestamp": [
+                7.12,
+                7.36
+            ]
+        },
+        {
+            "text": "break.",
+            "timestamp": [
+                7.36,
+                7.44
+            ]
+        },
+        {
+            "text": "Quiet,",
             "timestamp": [
                 7.76,
                 8.0

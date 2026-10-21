@@ -1,15 +1,15 @@
 {
-    "text": "Cum sortesa. Si for um cafe me as elaborado, experimente um moder de graus especiere, quida um saber different. Se quiser algomes pratico, um filtro di qualida ja resolve muto bem.",
+    "text": "Com sorteza. Si for um cafe me as elaborado, experimente um moder de graus especiere, quida um saber different. Se quizer algomes pratico, um filtro di qualida ja resolve muto bem.",
     "chunks": [
         {
-            "text": "Cum",
+            "text": "Com",
             "timestamp": [
                 14.04,
                 14.279999999999998
             ]
         },
         {
-            "text": "sortesa.",
+            "text": "sorteza.",
             "timestamp": [
                 14.519999999999998,
                 15.319999999999999
@@ -40,7 +40,7 @@
             "text": "cafe",
             "timestamp": [
                 16.279999999999998,
-                16.439999999999998
+                16.52
             ]
         },
         {
@@ -142,7 +142,7 @@
             ]
         },
         {
-            "text": "quiser",
+            "text": "quizer",
             "timestamp": [
                 22.68,
                 23.08

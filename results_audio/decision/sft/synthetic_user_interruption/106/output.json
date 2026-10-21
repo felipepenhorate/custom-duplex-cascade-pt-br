@@ -1,5 +1,5 @@
 {
-    "text": "Oof, I can't cook, I can't assist. I can, however, recommend a few online, pet-friendly, and super-fast to prepare. For a light, protein-packed bowl, a quinoa, and lentil bowl is a hit.",
+    "text": "Oof, I can't cook, I can't assist. I can, however, recommend a few online, pet-friendly, and super-fast to prepare. For a light, protein-packed bowl, a quinoa and lentil bowl is a hit.",
     "chunks": [
         {
             "text": "Oof,",
@@ -177,7 +177,7 @@
             ]
         },
         {
-            "text": "quinoa,",
+            "text": "quinoa",
             "timestamp": [
                 24.792,
                 25.512

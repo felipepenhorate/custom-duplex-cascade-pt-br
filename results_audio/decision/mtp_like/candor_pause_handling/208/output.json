@@ -1,5 +1,5 @@
 {
-    "text": "That's totally fine. Many happy marriages happen without kids. Got it. What's your life like that? Thanks for sharing. How have things been lately?",
+    "text": "That's totally fine. Many happy marriages happen without kids. Got it. What's your lifelike? Thanks for sharing. How have things been lately?",
     "chunks": [
         {
             "text": "That's",
@@ -93,24 +93,10 @@
             ]
         },
         {
-            "text": "life",
+            "text": "lifelike?",
             "timestamp": [
                 7.92,
-                8.0
-            ]
-        },
-        {
-            "text": "like",
-            "timestamp": [
-                8.08,
                 8.16
-            ]
-        },
-        {
-            "text": "that?",
-            "timestamp": [
-                8.24,
-                8.24
             ]
         },
         {
@@ -138,13 +124,13 @@
             "text": "How",
             "timestamp": [
                 9.44,
-                9.6
+                9.68
             ]
         },
         {
             "text": "have",
             "timestamp": [
-                9.6,
+                9.68,
                 9.84
             ]
         },

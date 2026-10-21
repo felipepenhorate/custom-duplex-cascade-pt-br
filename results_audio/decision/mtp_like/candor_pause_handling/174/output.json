@@ -1,8 +1,8 @@
 {
-    "text": "Um, I'm not a dog. I'm a voice assistant.",
+    "text": "Um I'm not a dog, I'm a voice assistant.",
     "chunks": [
         {
-            "text": "Um,",
+            "text": "Um",
             "timestamp": [
                 8.88,
                 9.200000000000001
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "text": "dog.",
+            "text": "dog,",
             "timestamp": [
                 10.0,
                 10.32

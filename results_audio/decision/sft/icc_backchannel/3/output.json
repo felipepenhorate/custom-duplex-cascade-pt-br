@@ -1,5 +1,5 @@
 {
-    "text": "I do Ah no, not a lot No Haha, I can imagine but I can't believe I just got a free pass to a cinema I can't believe I just got a free pass to a cinema or",
+    "text": "I do. Ah, no, not a lot. No. Haha, I can imagine. But I can't believe I just got a free pass to a cinema. I can't believe I just got a free pass to a cinema or.",
     "chunks": [
         {
             "text": "I",
@@ -9,14 +9,14 @@
             ]
         },
         {
-            "text": "do",
+            "text": "do.",
             "timestamp": [
                 5.6000000000000005,
-                5.92
+                5.84
             ]
         },
         {
-            "text": "Ah",
+            "text": "Ah,",
             "timestamp": [
                 18.080000000000002,
                 18.72
@@ -44,14 +44,14 @@
             ]
         },
         {
-            "text": "lot",
+            "text": "lot.",
             "timestamp": [
                 21.04,
                 21.28
             ]
         },
         {
-            "text": "No",
+            "text": "No.",
             "timestamp": [
                 25.04,
                 25.36
@@ -61,7 +61,7 @@
             "text": "Haha,",
             "timestamp": [
                 31.28,
-                31.84
+                31.68
             ]
         },
         {
@@ -75,18 +75,18 @@
             "text": "can",
             "timestamp": [
                 32.08,
-                32.24
+                32.32
             ]
         },
         {
-            "text": "imagine",
+            "text": "imagine.",
             "timestamp": [
-                32.24,
+                32.32,
                 32.88
             ]
         },
         {
-            "text": "but",
+            "text": "But",
             "timestamp": [
                 33.2,
                 33.44
@@ -170,7 +170,7 @@
             ]
         },
         {
-            "text": "cinema",
+            "text": "cinema.",
             "timestamp": [
                 39.76,
                 40.4
@@ -261,7 +261,7 @@
             ]
         },
         {
-            "text": "or",
+            "text": "or.",
             "timestamp": [
                 44.800000000000004,
                 45.04

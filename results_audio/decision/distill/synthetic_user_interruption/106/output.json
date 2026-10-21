@@ -1,5 +1,5 @@
 {
-    "text": "Ah, you're asking about a quick dinner. Great question. You probably meant Pia. I think you might have meant puppy, not pref. Yeah. Let me help with your quick dinner idea. Here's a fast, easy, and healthy recipe perfect for a busy night. Yuan pan baked chicken.",
+    "text": "Ah, you're asking about a quick dinner. Great question. You probably meant Pia. I think you might have meant puppy, not pref. Yeah, let me help with your quick dinner idea. Here's a fast, easy, and healthy recipe perfect for a busy night. Yuan pan baked chicken.",
     "chunks": [
         {
             "text": "Ah,",
@@ -156,14 +156,14 @@
             ]
         },
         {
-            "text": "Yeah.",
+            "text": "Yeah,",
             "timestamp": [
                 25.832,
                 25.992
             ]
         },
         {
-            "text": "Let",
+            "text": "let",
             "timestamp": [
                 26.631999999999998,
                 26.792

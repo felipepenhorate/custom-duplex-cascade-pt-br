@@ -1,5 +1,5 @@
 {
-    "text": "Kesha, you're suggesting Philippa can marry Marcus. That sounds like a good idea.",
+    "text": "Kesha, you're suggesting Philippa can marry Marcus. That sounds",
     "chunks": [
         {
             "text": "Kesha,",
@@ -62,34 +62,6 @@
             "timestamp": [
                 22.88,
                 23.04
-            ]
-        },
-        {
-            "text": "like",
-            "timestamp": [
-                23.2,
-                23.2
-            ]
-        },
-        {
-            "text": "a",
-            "timestamp": [
-                23.2,
-                23.2
-            ]
-        },
-        {
-            "text": "good",
-            "timestamp": [
-                23.2,
-                23.2
-            ]
-        },
-        {
-            "text": "idea.",
-            "timestamp": [
-                23.2,
-                23.2
             ]
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "text": "Sounds like an intense experience. What happened? Em, that sounds a bit unclear. Maybe you meant something about a character or a scene? Could you clarify a bit? A bit?",
+    "text": "Sounds like an intense experience. What happened? Em, that sounds a bit unclear. Maybe you meant something about a character or a scene. Could you clarify a bit? A bit?",
     "chunks": [
         {
             "text": "Sounds",
@@ -103,13 +103,13 @@
             "text": "you",
             "timestamp": [
                 12.0,
-                12.16
+                12.08
             ]
         },
         {
             "text": "meant",
             "timestamp": [
-                12.16,
+                12.08,
                 12.4
             ]
         },
@@ -156,7 +156,7 @@
             ]
         },
         {
-            "text": "scene?",
+            "text": "scene.",
             "timestamp": [
                 13.68,
                 14.08

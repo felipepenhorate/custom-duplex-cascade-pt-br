@@ -1,5 +1,5 @@
 {
-    "text": "Thanks for the kind words. I'm here to help with whatever you need. That means a lot. Thanks for sharing that. I'm glad I could make you feel seen.",
+    "text": "Thanks for the kind words. I'm here to help with whatever you need. Shamanin, that means a lot. Thanks for sharing that. I'm glad I could make you feel seen.",
     "chunks": [
         {
             "text": "Thanks",
@@ -93,7 +93,14 @@
             ]
         },
         {
-            "text": "That",
+            "text": "Shamanin,",
+            "timestamp": [
+                7.6000000000000005,
+                8.32
+            ]
+        },
+        {
+            "text": "that",
             "timestamp": [
                 8.56,
                 8.72

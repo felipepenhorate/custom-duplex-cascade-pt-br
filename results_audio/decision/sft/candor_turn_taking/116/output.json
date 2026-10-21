@@ -1,5 +1,5 @@
 {
-    "text": "I can, I just can.",
+    "text": "I can. I just can.",
     "chunks": [
         {
             "text": "I",
@@ -9,7 +9,7 @@
             ]
         },
         {
-            "text": "can,",
+            "text": "can.",
             "timestamp": [
                 3.6,
                 3.92

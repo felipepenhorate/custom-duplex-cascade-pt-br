@@ -1,5 +1,5 @@
 {
-    "text": "Sure. How about? Haha, you're making me laugh. I'll take that as a perfect compliment. Maybe. Oh, life upside down. That sounds like a delightful mix.",
+    "text": "Sure. How about haha? You're making me laugh. I'll take that as a perfect compliment. Maybe. Oh, life upside down. That sounds like a delightful mix.",
     "chunks": [
         {
             "text": "Sure.",
@@ -16,21 +16,21 @@
             ]
         },
         {
-            "text": "about?",
+            "text": "about",
             "timestamp": [
                 4.24,
                 4.48
             ]
         },
         {
-            "text": "Haha,",
+            "text": "haha?",
             "timestamp": [
                 5.12,
-                5.5200000000000005
+                5.76
             ]
         },
         {
-            "text": "you're",
+            "text": "You're",
             "timestamp": [
                 6.0,
                 6.24
@@ -61,13 +61,13 @@
             "text": "I'll",
             "timestamp": [
                 7.5200000000000005,
-                8.24
+                8.16
             ]
         },
         {
             "text": "take",
             "timestamp": [
-                8.24,
+                8.16,
                 8.4
             ]
         },

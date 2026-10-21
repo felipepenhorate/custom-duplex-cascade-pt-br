@@ -1,8 +1,8 @@
 {
-    "text": "Ah let's switch topics. That sounds like a great idea. What would you like to talk about ah, P F or F again? You might have meant how often should I go to the gym? But if we're switching topics now,",
+    "text": "Ah, let's switch topics. That sounds like a great idea. What would you like to talk about ah, P F or F again? You might have meant how often should I go to the gym? But if we're switching topics now,",
     "chunks": [
         {
-            "text": "Ah",
+            "text": "Ah,",
             "timestamp": [
                 17.069333333333333,
                 17.469333333333335
@@ -82,13 +82,13 @@
             "text": "would",
             "timestamp": [
                 23.389333333333333,
-                23.629333333333335
+                23.549333333333333
             ]
         },
         {
             "text": "you",
             "timestamp": [
-                23.629333333333335,
+                23.549333333333333,
                 23.709333333333333
             ]
         },
@@ -110,14 +110,14 @@
             "text": "talk",
             "timestamp": [
                 24.029333333333334,
-                24.189333333333334
+                24.109333333333332
             ]
         },
         {
             "text": "about",
             "timestamp": [
-                24.189333333333334,
-                24.349333333333334
+                24.109333333333332,
+                24.269333333333336
             ]
         },
         {

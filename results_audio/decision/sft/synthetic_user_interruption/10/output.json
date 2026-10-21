@@ -1,5 +1,5 @@
 {
-    "text": "Claro, o sano e crucial, tente manter horarios regulares, mesmo nos fins de samana, e evit tellas antes de dietar, iso ejuda, muto irregular, o susiclo",
+    "text": "Claro, o sano e crucial, tente manter horarios regulares, mesmo nos fins de samana, e evit tellas antes de dietar, iso ejuda muto irregular o susiclo",
     "chunks": [
         {
             "text": "Claro,",
@@ -149,7 +149,7 @@
             ]
         },
         {
-            "text": "ejuda,",
+            "text": "ejuda",
             "timestamp": [
                 21.890666666666668,
                 22.370666666666665
@@ -163,7 +163,7 @@
             ]
         },
         {
-            "text": "irregular,",
+            "text": "irregular",
             "timestamp": [
                 23.010666666666665,
                 23.410666666666664

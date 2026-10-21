@@ -1,5 +1,5 @@
 {
-    "text": "That's a great step. What kind of role or industry are you interested in? Emma? Exactly.",
+    "text": "That's a great step. What kind of role or industry are you interested in? Emmond? Exactly.",
     "chunks": [
         {
             "text": "That's",
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "text": "Emma?",
+            "text": "Emmond?",
             "timestamp": [
                 6.96,
                 7.6000000000000005

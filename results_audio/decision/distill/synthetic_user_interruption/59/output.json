@@ -1,5 +1,5 @@
 {
-    "text": "Yes. You're asking for tips on how to impress in your new job. Ah. You likely meant, How can I impress in my new job? Source. Yes, here are some real practical tips to help you make a great impression from day one. Ye one. Be punctual at Professional arrive on time, even five to ten minutes early.",
+    "text": "Yes. You're asking for tips on how to impress in your new job. Ah. You likely meant, How can I impress in my new job? Source. Yes, here are some real practical tips to help you make a great impression from day one. Ye well one. Be punctual at Professional arrive on time, even five to ten minutes early.",
     "chunks": [
         {
             "text": "Yes.",
@@ -307,6 +307,13 @@
             "timestamp": [
                 26.28,
                 26.6
+            ]
+        },
+        {
+            "text": "well",
+            "timestamp": [
+                26.759999999999998,
+                26.92
             ]
         },
         {

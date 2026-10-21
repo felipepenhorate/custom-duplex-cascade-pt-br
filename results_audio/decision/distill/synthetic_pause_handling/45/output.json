@@ -1,5 +1,5 @@
 {
-    "text": "I'm really sorry you're feeling that way. Being over, you were trying to say, I need to manage my time better.",
+    "text": "I'm really sorry you're feeling that way. Being over you were trying to say, I need to manage my time better.",
     "chunks": [
         {
             "text": "I'm",
@@ -58,10 +58,10 @@
             ]
         },
         {
-            "text": "over,",
+            "text": "over",
             "timestamp": [
                 8.16,
-                8.4
+                8.32
             ]
         },
         {

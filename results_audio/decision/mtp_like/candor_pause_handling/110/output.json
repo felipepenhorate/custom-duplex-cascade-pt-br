@@ -1,5 +1,5 @@
 {
-    "text": "Yeah, sometimes things don't. Wow, that's incredible.",
+    "text": "Yeah, sometimes things don't have to be a very good idea.",
     "chunks": [
         {
             "text": "Yeah,",
@@ -23,31 +23,59 @@
             ]
         },
         {
-            "text": "don't.",
+            "text": "don't",
             "timestamp": [
                 3.84,
                 4.16
             ]
         },
         {
-            "text": "Wow,",
+            "text": "have",
             "timestamp": [
-                9.52,
-                9.92
+                5.2,
+                5.2
             ]
         },
         {
-            "text": "that's",
+            "text": "to",
             "timestamp": [
-                10.08,
-                10.4
+                5.2,
+                5.2
             ]
         },
         {
-            "text": "incredible.",
+            "text": "be",
             "timestamp": [
-                10.4,
-                11.040000000000001
+                5.2,
+                5.2
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                5.2,
+                5.2
+            ]
+        },
+        {
+            "text": "very",
+            "timestamp": [
+                5.2,
+                5.2
+            ]
+        },
+        {
+            "text": "good",
+            "timestamp": [
+                5.2,
+                5.2
+            ]
+        },
+        {
+            "text": "idea.",
+            "timestamp": [
+                5.2,
+                5.2
             ]
         }
     ]

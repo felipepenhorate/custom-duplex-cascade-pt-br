@@ -1,5 +1,5 @@
 {
-    "text": "I can imagine",
+    "text": "I can imagine that I can't make a new picture of the colours.",
     "chunks": [
         {
             "text": "I",
@@ -20,6 +20,76 @@
             "timestamp": [
                 24.64,
                 25.36
+            ]
+        },
+        {
+            "text": "that",
+            "timestamp": [
+                29.52,
+                29.84
+            ]
+        },
+        {
+            "text": "I",
+            "timestamp": [
+                29.84,
+                30.16
+            ]
+        },
+        {
+            "text": "can't",
+            "timestamp": [
+                30.16,
+                30.48
+            ]
+        },
+        {
+            "text": "make",
+            "timestamp": [
+                30.48,
+                30.560000000000002
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                30.560000000000002,
+                30.64
+            ]
+        },
+        {
+            "text": "new",
+            "timestamp": [
+                30.64,
+                30.64
+            ]
+        },
+        {
+            "text": "picture",
+            "timestamp": [
+                30.64,
+                30.72
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                30.72,
+                30.96
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                30.96,
+                30.96
+            ]
+        },
+        {
+            "text": "colours.",
+            "timestamp": [
+                30.96,
+                30.96
             ]
         }
     ]

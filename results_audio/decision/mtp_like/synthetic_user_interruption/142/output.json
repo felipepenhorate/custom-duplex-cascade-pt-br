@@ -1,5 +1,5 @@
 {
-    "text": "Great question. Here's a simple home made lasagna recipe. Ingredients Lasagna noodles. Twelve lasagna noodles, or use no boil noodles. Sauce. Two cups tomato.",
+    "text": "Great question. Here's a simple homemade lasagna recipe. Ingredients Lasagna noodles. Twelve lasagna noodles, or use no boil noodles. Sauce. Two cups tomato.",
     "chunks": [
         {
             "text": "Great",
@@ -12,13 +12,13 @@
             "text": "question.",
             "timestamp": [
                 13.165333333333333,
-                13.405333333333333
+                13.325333333333333
             ]
         },
         {
             "text": "Here's",
             "timestamp": [
-                13.965333333333334,
+                13.885333333333334,
                 14.205333333333334
             ]
         },
@@ -37,17 +37,10 @@
             ]
         },
         {
-            "text": "home",
+            "text": "homemade",
             "timestamp": [
                 14.605333333333334,
-                14.845333333333333
-            ]
-        },
-        {
-            "text": "made",
-            "timestamp": [
-                14.845333333333333,
-                14.925333333333333
+                15.005333333333333
             ]
         },
         {

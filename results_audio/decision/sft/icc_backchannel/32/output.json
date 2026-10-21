@@ -1,5 +1,5 @@
 {
-    "text": "Ah, I've seen a video of that, I think. Is it a lot of demand? Am, I can imagine. Is it a precise fit, or do they just do a close fit?",
+    "text": "Ah, I've seen a video of that, I think. Is it a lot of demand? Am I can imagine? Is it a precise fit, or do they just do a close fit?",
     "chunks": [
         {
             "text": "Ah,",
@@ -107,7 +107,7 @@
             ]
         },
         {
-            "text": "Am,",
+            "text": "Am",
             "timestamp": [
                 29.12,
                 29.2
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "text": "imagine.",
+            "text": "imagine?",
             "timestamp": [
                 30.16,
                 30.64

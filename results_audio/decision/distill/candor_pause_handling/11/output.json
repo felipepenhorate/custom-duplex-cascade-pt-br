@@ -1,5 +1,5 @@
 {
-    "text": "Ah, you are absolutely right. Don't touch your face. Cheat, oh, it, oh, you're saying play.",
+    "text": "Ah, you uh are absolutely right. Don't touch your face. Cheat, oh, it, oh, you're saying play.",
     "chunks": [
         {
             "text": "Ah,",
@@ -13,6 +13,13 @@
             "timestamp": [
                 12.64,
                 12.8
+            ]
+        },
+        {
+            "text": "uh",
+            "timestamp": [
+                12.88,
+                13.040000000000001
             ]
         },
         {

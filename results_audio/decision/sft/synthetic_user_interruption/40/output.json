@@ -1,5 +1,5 @@
 {
-    "text": "Of course, I can. Car or plane?",
+    "text": "Of course I can. Car or plane?",
     "chunks": [
         {
             "text": "Of",
@@ -9,7 +9,7 @@
             ]
         },
         {
-            "text": "course,",
+            "text": "course",
             "timestamp": [
                 13.554666666666666,
                 13.874666666666666

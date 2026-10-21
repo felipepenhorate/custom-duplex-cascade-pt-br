@@ -1,5 +1,5 @@
 {
-    "text": "A lighthearted break. Paddington Two or Sausage Man are hits. Paddington Two is a hit or Sausage Man for a chill vibe.",
+    "text": "A lighthearted break. Paddington 2 or Sausage Man are hits. Paddington 2 is a hit or Sausage Man for a chill vibe.",
     "chunks": [
         {
             "text": "A",
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "text": "Two",
+            "text": "2",
             "timestamp": [
                 17.058666666666667,
                 17.378666666666668
@@ -40,13 +40,13 @@
             "text": "or",
             "timestamp": [
                 17.538666666666668,
-                17.858666666666668
+                17.778666666666666
             ]
         },
         {
             "text": "Sausage",
             "timestamp": [
-                17.858666666666668,
+                17.778666666666666,
                 18.33866666666667
             ]
         },
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "text": "Two",
+            "text": "2",
             "timestamp": [
                 19.778666666666666,
                 19.938666666666666

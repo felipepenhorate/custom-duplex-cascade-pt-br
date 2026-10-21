@@ -1,15 +1,15 @@
 {
-    "text": "Sal? Depende du typo de sal. Tipo, doso salgado?",
+    "text": "Sal, depende du typo de sal. Tipo, doso salgado.",
     "chunks": [
         {
-            "text": "Sal?",
+            "text": "Sal,",
             "timestamp": [
                 13.890666666666668,
                 14.210666666666667
             ]
         },
         {
-            "text": "Depende",
+            "text": "depende",
             "timestamp": [
                 14.610666666666667,
                 15.250666666666667
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "text": "salgado?",
+            "text": "salgado.",
             "timestamp": [
                 17.890666666666668,
                 18.690666666666665

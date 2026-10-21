@@ -1,5 +1,5 @@
 {
-    "text": "Oh, that's that must have been really tough. I'm sorry for your loss. SI am I'm here.",
+    "text": "Oh, that's that must have been really tough. I'm sorry for your loss. SIM I'm here.",
     "chunks": [
         {
             "text": "Oh,",
@@ -93,16 +93,9 @@
             ]
         },
         {
-            "text": "SI",
+            "text": "SIM",
             "timestamp": [
                 13.76,
-                14.08
-            ]
-        },
-        {
-            "text": "am",
-            "timestamp": [
-                14.16,
                 14.24
             ]
         },

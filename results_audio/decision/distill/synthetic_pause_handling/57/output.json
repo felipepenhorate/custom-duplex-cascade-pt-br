@@ -1,8 +1,8 @@
 {
-    "text": "Turnos, you are asking for the material.",
+    "text": "Termos, you are asking for the market.",
     "chunks": [
         {
-            "text": "Turnos,",
+            "text": "Termos,",
             "timestamp": [
                 12.88,
                 13.68
@@ -32,22 +32,22 @@
         {
             "text": "for",
             "timestamp": [
-                14.64,
-                14.64
+                14.56,
+                14.56
             ]
         },
         {
             "text": "the",
             "timestamp": [
-                14.64,
-                14.64
+                14.56,
+                14.56
             ]
         },
         {
-            "text": "material.",
+            "text": "market.",
             "timestamp": [
-                14.64,
-                14.64
+                14.56,
+                14.56
             ]
         }
     ]

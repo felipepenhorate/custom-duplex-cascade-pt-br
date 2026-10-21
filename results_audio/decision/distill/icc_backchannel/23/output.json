@@ -1,5 +1,5 @@
 {
-    "text": "Uh, I think you might be starting to share something interesting. Maybe a moment from your freshman year, ah, P, could you mean P as in P10? Or is it a typo for P like in pain? ER, are you referring to something more personal? Maybe a moment from your freshman year? Ah, you're saying, you saying.",
+    "text": "Uh, I think you might be starting to share something interesting. Maybe a moment from your freshman year, ah, P, could you mean P as in P10? Or is it a typo for P like in pain? ER, are you referring to something more personal? Maybe a moment from your freshman year? Ah. You're saying, you saying.",
     "chunks": [
         {
             "text": "Uh,",
@@ -366,14 +366,14 @@
             ]
         },
         {
-            "text": "Ah,",
+            "text": "Ah.",
             "timestamp": [
                 24.16,
-                24.560000000000002
+                24.48
             ]
         },
         {
-            "text": "you're",
+            "text": "You're",
             "timestamp": [
                 24.88,
                 25.2
@@ -383,7 +383,7 @@
             "text": "saying,",
             "timestamp": [
                 25.28,
-                25.36
+                25.44
             ]
         },
         {

@@ -1,5 +1,5 @@
 {
-    "text": "Grooming is super personal, so I can't give a one size fits all answer, ha ha But regular brushing, a clean, and a checkup to prevent issues is a must.",
+    "text": "Grooming is super personal, so I can't give a one-size-fits-all answer, ha ha But regular brushing, a clean, and a checkup to prevent issues is a must.",
     "chunks": [
         {
             "text": "Grooming",
@@ -65,31 +65,10 @@
             ]
         },
         {
-            "text": "one",
+            "text": "one-size-fits-all",
             "timestamp": [
                 17.096,
-                17.256
-            ]
-        },
-        {
-            "text": "size",
-            "timestamp": [
-                17.336,
-                17.656
-            ]
-        },
-        {
-            "text": "fits",
-            "timestamp": [
-                17.736,
-                17.976
-            ]
-        },
-        {
-            "text": "all",
-            "timestamp": [
-                18.056,
-                18.296
+                18.136
             ]
         },
         {

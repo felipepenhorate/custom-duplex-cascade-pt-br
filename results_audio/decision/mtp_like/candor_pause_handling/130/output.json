@@ -1,5 +1,5 @@
 {
-    "text": "Eam, I'm here if you want to talk. What That's totally o Aw, I see. You mean the people around you, not just.",
+    "text": "Eam, I'm here if you want to talk. What That's totally o Oh, I see. You mean the people around you, not just.",
     "chunks": [
         {
             "text": "Eam,",
@@ -86,10 +86,10 @@
             ]
         },
         {
-            "text": "Aw,",
+            "text": "Oh,",
             "timestamp": [
                 8.96,
-                9.28
+                9.040000000000001
             ]
         },
         {

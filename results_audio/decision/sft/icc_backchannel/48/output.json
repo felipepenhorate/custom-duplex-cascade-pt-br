@@ -1,8 +1,8 @@
 {
-    "text": "Ah no, I don't know. I just know I wasn't listening. I can imagine. Especially at Oof, that's a lot of pressure. Totally. Mosses are full of stories, I suppose. Hum, I can sense a mix of fondness and exasperation.",
+    "text": "Uh, no, I don't know. I just know I wasn't listening. I can imagine. Especially at Oof, that's a lot of pressure. Totally. Buses are full of stories, I suppose. Hum, I can sense a mix of fondness and exasperation.",
     "chunks": [
         {
-            "text": "Ah",
+            "text": "Uh,",
             "timestamp": [
                 8.4,
                 8.88
@@ -110,7 +110,7 @@
             "text": "at",
             "timestamp": [
                 20.32,
-                20.56
+                20.48
             ]
         },
         {
@@ -131,13 +131,13 @@
             "text": "a",
             "timestamp": [
                 23.36,
-                23.52
+                23.44
             ]
         },
         {
             "text": "lot",
             "timestamp": [
-                23.52,
+                23.44,
                 23.6
             ]
         },
@@ -163,10 +163,10 @@
             ]
         },
         {
-            "text": "Mosses",
+            "text": "Buses",
             "timestamp": [
                 27.76,
-                28.240000000000002
+                28.16
             ]
         },
         {

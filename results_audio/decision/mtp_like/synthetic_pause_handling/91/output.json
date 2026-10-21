@@ -1,5 +1,5 @@
 {
-    "text": "Great! What's Sarah's favorite thing to do? That perfect. A cozy, intimate gathering at Sarah's home site.",
+    "text": "Great! What's Sarah's favorite thing to do? That perfect. A cozy, intimate gathering at Sarah's home.",
     "chunks": [
         {
             "text": "Great!",
@@ -103,21 +103,14 @@
             "text": "Sarah's",
             "timestamp": [
                 14.88,
-                15.200000000000001
+                15.280000000000001
             ]
         },
         {
-            "text": "home",
+            "text": "home.",
             "timestamp": [
-                15.200000000000001,
+                15.280000000000001,
                 15.36
-            ]
-        },
-        {
-            "text": "site.",
-            "timestamp": [
-                15.36,
-                15.52
             ]
         }
     ]

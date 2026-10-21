@@ -1,5 +1,5 @@
 {
-    "text": "Thanks. I'm doing great. And I'm glad you're doing well, too. School's been a bit busy, but I'm keeping it positive. Hope you're having a great time.",
+    "text": "Thanks. I'm doing great. And I'm glad you're doing well too. School's been a bit busy, but I'm keeping it positive. Hope you're having a great time.",
     "chunks": [
         {
             "text": "Thanks.",
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "text": "well,",
+            "text": "well",
             "timestamp": [
                 8.08,
                 8.24

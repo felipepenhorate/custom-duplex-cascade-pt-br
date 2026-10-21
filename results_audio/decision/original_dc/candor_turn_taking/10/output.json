@@ -1,5 +1,5 @@
 {
-    "text": "I'm sorry, but I can't provide the help you seem to be looking for. If you're dealing with a situation where someone you know, I'm sorry, but I.",
+    "text": "I'm sorry, but I can't provide the help you seem to be looking for. If you're dealing with a situation where someone you know I'm sorry, but I.",
     "chunks": [
         {
             "text": "I'm",
@@ -163,7 +163,7 @@
             ]
         },
         {
-            "text": "know,",
+            "text": "know",
             "timestamp": [
                 11.68,
                 11.84
@@ -194,7 +194,7 @@
             "text": "I.",
             "timestamp": [
                 12.88,
-                13.120000000000001
+                13.040000000000001
             ]
         }
     ]

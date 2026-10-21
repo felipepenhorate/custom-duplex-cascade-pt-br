@@ -1,5 +1,5 @@
 {
-    "text": "As an AI language model, I'm here to assist you with any questions or concerns you may have. Please feel free to ask me anything you'd like, and I'll do my best to provide you with accurate and helpful information, whether it's as an AI language model.",
+    "text": "As an AI language model, I'm here to assist you with any questions or concerns you may have. Please feel free to ask me anything you'd like, and I'll do my best to provide you with accurate and helpful information, whether it's as an AI language model,",
     "chunks": [
         {
             "text": "As",
@@ -284,7 +284,7 @@
         {
             "text": "whether",
             "timestamp": [
-                13.6,
+                13.52,
                 13.84
             ]
         },
@@ -324,7 +324,7 @@
             ]
         },
         {
-            "text": "model.",
+            "text": "model,",
             "timestamp": [
                 15.44,
                 15.76

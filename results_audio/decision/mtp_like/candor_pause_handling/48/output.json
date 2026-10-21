@@ -1,5 +1,5 @@
 {
-    "text": "Yeah, this season has been wild. Unexpected twists, crazy. Oh, I true. When most of the action is just a few teams playing a handful of games.",
+    "text": "Yeah, this season has been wild. Unexpected twists, crazy. True. When most of the action is just a few teams playing a handful of games.",
     "chunks": [
         {
             "text": "Yeah,",
@@ -65,21 +65,7 @@
             ]
         },
         {
-            "text": "Oh,",
-            "timestamp": [
-                13.120000000000001,
-                13.36
-            ]
-        },
-        {
-            "text": "I",
-            "timestamp": [
-                13.44,
-                13.76
-            ]
-        },
-        {
-            "text": "true.",
+            "text": "True.",
             "timestamp": [
                 25.92,
                 26.400000000000002

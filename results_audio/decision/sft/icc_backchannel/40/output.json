@@ -1,5 +1,5 @@
 {
-    "text": "Opa, quiligal, sem problemas, say comm Intendi, a primira unedaid costume ah, intendi A super commom, seses tema sao classicos du enem.",
+    "text": "Opa, quiligal, sem problemas, se comm intendi, a primira unedaid costume ah, intendi A super commom, seses tema sao classicos du enem.",
     "chunks": [
         {
             "text": "Opa,",
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "text": "say",
+            "text": "se",
             "timestamp": [
                 10.0,
                 10.16
@@ -40,11 +40,11 @@
             "text": "comm",
             "timestamp": [
                 10.64,
-                10.8
+                10.88
             ]
         },
         {
-            "text": "Intendi,",
+            "text": "intendi,",
             "timestamp": [
                 12.72,
                 13.44

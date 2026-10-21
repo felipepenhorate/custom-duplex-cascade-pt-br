@@ -1,5 +1,5 @@
 {
-    "text": "A year asking, How do I bake a cake? Great question. Here, ha ha, you probably meant please. And yes, if you'd like to know how to bake a cake, I'm ready to help. The Let me know. Do you want a simple vanilla cake, or something more?",
+    "text": "A year asking, how do I bake a cake? Great question. Here, ha ha, you probably meant please. And yes, if you'd like to know how to bake a cake, I'm ready to help. The Let me know. Do you want a simple vanilla cake, or something more?",
     "chunks": [
         {
             "text": "A",
@@ -12,7 +12,7 @@
             "text": "year",
             "timestamp": [
                 17.821333333333335,
-                17.901333333333334
+                17.981333333333332
             ]
         },
         {
@@ -23,17 +23,17 @@
             ]
         },
         {
-            "text": "How",
+            "text": "how",
             "timestamp": [
                 18.541333333333334,
-                18.701333333333334
+                18.621333333333332
             ]
         },
         {
             "text": "do",
             "timestamp": [
                 18.781333333333333,
-                18.861333333333334
+                18.941333333333333
             ]
         },
         {
@@ -82,7 +82,7 @@
             "text": "Here,",
             "timestamp": [
                 20.941333333333333,
-                21.101333333333333
+                21.181333333333335
             ]
         },
         {
@@ -292,13 +292,13 @@
             "text": "a",
             "timestamp": [
                 30.141333333333336,
-                30.301333333333336
+                30.221333333333334
             ]
         },
         {
             "text": "simple",
             "timestamp": [
-                30.301333333333336,
+                30.221333333333334,
                 30.621333333333332
             ]
         },

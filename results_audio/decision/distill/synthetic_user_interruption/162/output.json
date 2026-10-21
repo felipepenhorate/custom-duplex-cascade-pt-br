@@ -1,5 +1,5 @@
 {
-    "text": "You're trying to add milk to your shopping list and you probably meant, I ah, I think you're asking, yeah, can I add milk to my shopping list? Or should I add?",
+    "text": "You're trying to add milk to your shopping list and you probably meant I ah, I think you're asking yeah, can I add milk to my shopping list? Or should I add?",
     "chunks": [
         {
             "text": "You're",
@@ -86,7 +86,7 @@
             ]
         },
         {
-            "text": "meant,",
+            "text": "meant",
             "timestamp": [
                 24.232,
                 24.792
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "text": "asking,",
+            "text": "asking",
             "timestamp": [
                 26.631999999999998,
                 27.032
@@ -138,7 +138,7 @@
             "text": "yeah,",
             "timestamp": [
                 27.351999999999997,
-                27.592
+                27.512
             ]
         },
         {
@@ -201,7 +201,7 @@
             "text": "Or",
             "timestamp": [
                 31.272,
-                31.592
+                31.512
             ]
         },
         {

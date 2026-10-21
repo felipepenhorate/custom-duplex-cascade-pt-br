@@ -1,5 +1,5 @@
 {
-    "text": "Absolutely Here are a few beginner friendly tips. Start with basic chords. Learn C, G, D, and A chords. These are easy and used in many songs. Practice daily. Even Oh, sorry, you're right. I meant to help with guitar practice, not sleep. Ha for a good sleeping pattern, if you're aiming.",
+    "text": "Absolutely Here are a few beginner friendly tips. Start with basic chords. Learn C, G, D and A chords. These are easy and used in many songs. Practice daily. Even Oh, sorry, you're right. I meant to help with guitar practice, not sleep. Ha for a good sleeping pattern, if you're aiming.",
     "chunks": [
         {
             "text": "Absolutely",
@@ -40,7 +40,7 @@
             "text": "beginner",
             "timestamp": [
                 14.914666666666667,
-                15.314666666666668
+                15.234666666666667
             ]
         },
         {
@@ -107,7 +107,7 @@
             ]
         },
         {
-            "text": "D,",
+            "text": "D",
             "timestamp": [
                 19.074666666666666,
                 19.23466666666667

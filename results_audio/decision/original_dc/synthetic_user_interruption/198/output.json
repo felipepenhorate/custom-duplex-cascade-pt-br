@@ -1,5 +1,5 @@
 {
-    "text": "There are several reputable websites where you can buy books online. Here are some popular options. 1. Amazon. One of the largest online retailers. Amazon offers a vast selection of books across various genres and formats: hardcover, paperback, e-book.",
+    "text": "There are several reputable websites where you can buy books online. Here are some popular options. 1. Amazon, one of the largest online retailers. Amazon offers a vast selection of books across various genres and formats: hardcover, paperback, e-book.",
     "chunks": [
         {
             "text": "There",
@@ -110,7 +110,7 @@
             "text": "options.",
             "timestamp": [
                 20.216,
-                20.696
+                20.616
             ]
         },
         {
@@ -121,14 +121,14 @@
             ]
         },
         {
-            "text": "Amazon.",
+            "text": "Amazon,",
             "timestamp": [
                 21.416,
                 22.296
             ]
         },
         {
-            "text": "One",
+            "text": "one",
             "timestamp": [
                 22.616,
                 22.776

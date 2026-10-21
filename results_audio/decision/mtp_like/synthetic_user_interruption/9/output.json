@@ -1,5 +1,5 @@
 {
-    "text": "Prices vary by region and carrier, but the latest flagship models, like the iPhone 15 Pro or Samsung Galaxy S24 Ultra, typically range from $999 to $1299. Always check the official retailer.",
+    "text": "Prices vary by region and carrier, but the latest flagship models, like the iPhone 15 Pro or Samsung Galaxy S24 Ultra, typically range from $999 to $1.299. Always check the official retailer.",
     "chunks": [
         {
             "text": "Prices",
@@ -184,7 +184,7 @@
             ]
         },
         {
-            "text": "$1299.",
+            "text": "$1.299.",
             "timestamp": [
                 24.957333333333334,
                 26.637333333333334
@@ -194,13 +194,13 @@
             "text": "Always",
             "timestamp": [
                 26.957333333333334,
-                27.277333333333335
+                27.197333333333333
             ]
         },
         {
             "text": "check",
             "timestamp": [
-                27.277333333333335,
+                27.197333333333333,
                 27.517333333333333
             ]
         },

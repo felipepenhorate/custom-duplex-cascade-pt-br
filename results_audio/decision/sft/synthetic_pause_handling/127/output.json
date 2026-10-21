@@ -1,5 +1,5 @@
 {
-    "text": "Ah, us erudors do Rio e de Nitoroi temum climax.",
+    "text": "Ah, us erudors do Rio e de Nitoroi Temum Climax.",
     "chunks": [
         {
             "text": "Ah,",
@@ -58,14 +58,14 @@
             ]
         },
         {
-            "text": "temum",
+            "text": "Temum",
             "timestamp": [
                 11.120000000000001,
                 11.44
             ]
         },
         {
-            "text": "climax.",
+            "text": "Climax.",
             "timestamp": [
                 11.44,
                 11.68

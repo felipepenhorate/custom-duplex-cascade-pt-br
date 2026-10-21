@@ -1,5 +1,5 @@
 {
-    "text": "You're probably asking, can you remind me to call the someone something ah? I think you're trying to say, Can you remind me to call my mechanic? Or maybe can you remind me to check my oil? If so, here's a helpful reminder for you.",
+    "text": "You're probably asking, can you remind me to call the someone something ah? I think you're trying to say, Can you remind me to call my mechanic? Or maybe can you remind me to check my oil? If so, here's a helpful reminder for you. Degrees you should.",
     "chunks": [
         {
             "text": "You're",
@@ -81,8 +81,8 @@
         {
             "text": "something",
             "timestamp": [
-                22.664,
-                22.823999999999998
+                22.584,
+                22.904
             ]
         },
         {
@@ -159,13 +159,13 @@
             "text": "me",
             "timestamp": [
                 26.584,
-                26.744
+                26.664
             ]
         },
         {
             "text": "to",
             "timestamp": [
-                26.744,
+                26.664,
                 26.823999999999998
             ]
         },
@@ -208,7 +208,7 @@
             "text": "can",
             "timestamp": [
                 28.503999999999998,
-                28.744
+                28.584
             ]
         },
         {
@@ -314,6 +314,27 @@
             "timestamp": [
                 32.344,
                 32.584
+            ]
+        },
+        {
+            "text": "Degrees",
+            "timestamp": [
+                32.903999999999996,
+                33.304
+            ]
+        },
+        {
+            "text": "you",
+            "timestamp": [
+                33.384,
+                33.464
+            ]
+        },
+        {
+            "text": "should.",
+            "timestamp": [
+                33.464,
+                33.544
             ]
         }
     ]

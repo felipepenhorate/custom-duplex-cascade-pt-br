@@ -1,5 +1,5 @@
 {
-    "text": "That sounds cool. Did you see any great live bands in Manhattan? Nice. Walking around and seeing people dance is that such a powerful feeling, like you were living in the moment.",
+    "text": "That sounds cool. Did you see any great live bands in Manhattan? Nice. Walking around and seeing people dance is that such a powerful feeling. Like you were living in the moment.",
     "chunks": [
         {
             "text": "That",
@@ -170,14 +170,14 @@
             ]
         },
         {
-            "text": "feeling,",
+            "text": "feeling.",
             "timestamp": [
                 15.120000000000001,
                 15.44
             ]
         },
         {
-            "text": "like",
+            "text": "Like",
             "timestamp": [
                 15.6,
                 15.76

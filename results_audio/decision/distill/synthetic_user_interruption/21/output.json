@@ -1,11 +1,11 @@
 {
-    "text": "Ah, you're welcome and thanks for the watch. Even if ah, even if ah, you are likely trying to ask, How often should I exercise each week to stay healthy? Answer for most adults, the recommended amount of physical activity is",
+    "text": "Ah, you're welcome. And thanks for the watch. Even if ah, even if ah, you are likely trying to ask, how often should I exercise each week to stay healthy? Answer. For most adults, the recommended amount of physical activity is",
     "chunks": [
         {
             "text": "Ah,",
             "timestamp": [
                 16.749333333333333,
-                17.149333333333335
+                17.309333333333335
             ]
         },
         {
@@ -16,14 +16,14 @@
             ]
         },
         {
-            "text": "welcome",
+            "text": "welcome.",
             "timestamp": [
                 17.869333333333334,
                 18.349333333333334
             ]
         },
         {
-            "text": "and",
+            "text": "And",
             "timestamp": [
                 18.589333333333332,
                 18.749333333333333
@@ -75,7 +75,7 @@
             "text": "ah,",
             "timestamp": [
                 20.669333333333334,
-                21.069333333333333
+                20.989333333333335
             ]
         },
         {
@@ -142,10 +142,10 @@
             ]
         },
         {
-            "text": "How",
+            "text": "how",
             "timestamp": [
                 24.029333333333334,
-                24.269333333333336
+                24.109333333333332
             ]
         },
         {
@@ -212,14 +212,14 @@
             ]
         },
         {
-            "text": "Answer",
+            "text": "Answer.",
             "timestamp": [
                 27.949333333333335,
                 28.429333333333332
             ]
         },
         {
-            "text": "for",
+            "text": "For",
             "timestamp": [
                 28.669333333333334,
                 28.909333333333336

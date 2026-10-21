@@ -1,5 +1,5 @@
 {
-    "text": "Consider going for a hike, picnic. It seems like you might have been planning to share. Also, there's a location about your new hobbies. Cultural career is a very important thing. Check if there are any art exhibits. I'm here to listen to you. These are the expressions of the space to learn something new and enjoy some entertainment. Sports.",
+    "text": "Consider going for a hike, picnic. It seems like you might have been planning to share. Also, there's a location about your new hobbies. Cultural career, check if there are any art exhibits. I'm here to listen to you. These are great sports to learn something new and enjoy some entertainment. Sports.",
     "chunks": [
         {
             "text": "Consider",
@@ -177,49 +177,14 @@
             ]
         },
         {
-            "text": "career",
+            "text": "career,",
             "timestamp": [
                 19.66133333333333,
                 19.66133333333333
             ]
         },
         {
-            "text": "is",
-            "timestamp": [
-                19.66133333333333,
-                19.66133333333333
-            ]
-        },
-        {
-            "text": "a",
-            "timestamp": [
-                19.66133333333333,
-                19.66133333333333
-            ]
-        },
-        {
-            "text": "very",
-            "timestamp": [
-                19.66133333333333,
-                19.66133333333333
-            ]
-        },
-        {
-            "text": "important",
-            "timestamp": [
-                19.66133333333333,
-                19.66133333333333
-            ]
-        },
-        {
-            "text": "thing.",
-            "timestamp": [
-                19.66133333333333,
-                19.66133333333333
-            ]
-        },
-        {
-            "text": "Check",
+            "text": "check",
             "timestamp": [
                 19.82133333333333,
                 19.981333333333332
@@ -324,38 +289,17 @@
             ]
         },
         {
-            "text": "the",
+            "text": "great",
             "timestamp": [
-                26.221333333333334,
-                26.221333333333334
+                26.781333333333333,
+                26.941333333333333
             ]
         },
         {
-            "text": "expressions",
+            "text": "sports",
             "timestamp": [
-                26.221333333333334,
-                26.221333333333334
-            ]
-        },
-        {
-            "text": "of",
-            "timestamp": [
-                26.221333333333334,
-                26.301333333333332
-            ]
-        },
-        {
-            "text": "the",
-            "timestamp": [
-                27.181333333333335,
-                27.261333333333333
-            ]
-        },
-        {
-            "text": "space",
-            "timestamp": [
-                27.261333333333333,
-                27.261333333333333
+                26.941333333333333,
+                27.181333333333335
             ]
         },
         {

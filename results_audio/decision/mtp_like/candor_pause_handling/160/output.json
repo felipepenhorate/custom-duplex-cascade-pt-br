@@ -1,41 +1,6 @@
 {
-    "text": "I'm not sure I fully I'm here and Thanks. I'm just a voice assistant so I don't own things.",
+    "text": "I'm here and Thanks. I'm just a voice assistant, so I don't own things.",
     "chunks": [
-        {
-            "text": "I'm",
-            "timestamp": [
-                4.5600000000000005,
-                4.88
-            ]
-        },
-        {
-            "text": "not",
-            "timestamp": [
-                4.88,
-                5.04
-            ]
-        },
-        {
-            "text": "sure",
-            "timestamp": [
-                5.04,
-                5.28
-            ]
-        },
-        {
-            "text": "I",
-            "timestamp": [
-                5.28,
-                5.36
-            ]
-        },
-        {
-            "text": "fully",
-            "timestamp": [
-                5.36,
-                5.6000000000000005
-            ]
-        },
         {
             "text": "I'm",
             "timestamp": [
@@ -93,7 +58,7 @@
             ]
         },
         {
-            "text": "assistant",
+            "text": "assistant,",
             "timestamp": [
                 16.080000000000002,
                 16.56

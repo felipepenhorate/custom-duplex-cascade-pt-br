@@ -1,5 +1,5 @@
 {
-    "text": "That's awesome to hear. It sounds like, oh, high school. That's such a big part of growing up. Sounds like you had some great memories there.",
+    "text": "That's awesome to hear. It sounds like, oh, high school. That such a big part of growing up. Sounds like you had some great memories there.",
     "chunks": [
         {
             "text": "That's",
@@ -19,13 +19,13 @@
             "text": "to",
             "timestamp": [
                 5.84,
-                6.0
+                6.08
             ]
         },
         {
             "text": "hear.",
             "timestamp": [
-                6.0,
+                6.08,
                 6.32
             ]
         },
@@ -72,10 +72,10 @@
             ]
         },
         {
-            "text": "That's",
+            "text": "That",
             "timestamp": [
                 8.56,
-                8.96
+                8.8
             ]
         },
         {

@@ -1,10 +1,10 @@
 {
-    "text": "You're asking about how to improve your Wi-Fi speed. Great question! Here are some practical and ah, I think you may have meant how to improve my Wi-Fi speed. Yes, here are some easy and effective ways to boost your internet speed. Move closer to the router, signal weakens with distance. Try.",
+    "text": "You're asking about how to improve your Wi-Fi speed. Great question! Here are some practical and ah, I think you may have meant how to improve my Wi-Fi speed. Yes, here are some easy and effective ways to boost your internet speed. Move closer to the router. Signal weakens with distance. Try.",
     "chunks": [
         {
             "text": "You're",
             "timestamp": [
-                17.597333333333335,
+                17.677333333333333,
                 18.077333333333335
             ]
         },
@@ -208,7 +208,7 @@
             "text": "Yes,",
             "timestamp": [
                 27.037333333333336,
-                27.437333333333335
+                27.357333333333333
             ]
         },
         {
@@ -324,14 +324,14 @@
             ]
         },
         {
-            "text": "router,",
+            "text": "router.",
             "timestamp": [
                 32.077333333333335,
                 32.55733333333333
             ]
         },
         {
-            "text": "signal",
+            "text": "Signal",
             "timestamp": [
                 32.797333333333334,
                 33.19733333333333

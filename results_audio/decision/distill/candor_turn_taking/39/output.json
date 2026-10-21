@@ -1,5 +1,5 @@
 {
-    "text": "You were referring to PF. But now I think I get it. You're. Ah. You were saying when your husband's family used to live in the south, and ah, you're",
+    "text": "You were referring to PF. But now I think I get it. You were saying, when your husband's family used to live in the south, and ah, you're",
     "chunks": [
         {
             "text": "You",
@@ -86,20 +86,6 @@
             ]
         },
         {
-            "text": "You're.",
-            "timestamp": [
-                20.96,
-                21.36
-            ]
-        },
-        {
-            "text": "Ah.",
-            "timestamp": [
-                28.400000000000002,
-                28.64
-            ]
-        },
-        {
             "text": "You",
             "timestamp": [
                 29.12,
@@ -114,7 +100,7 @@
             ]
         },
         {
-            "text": "saying",
+            "text": "saying,",
             "timestamp": [
                 29.6,
                 29.92

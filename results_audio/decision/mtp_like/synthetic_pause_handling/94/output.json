@@ -1,5 +1,5 @@
 {
-    "text": "That sounds great. How about we plan a mix? Somehow,",
+    "text": "That sounds great. How about we plan a mix? Somehow.",
     "chunks": [
         {
             "text": "That",
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "text": "Somehow,",
+            "text": "Somehow.",
             "timestamp": [
                 10.88,
                 11.28

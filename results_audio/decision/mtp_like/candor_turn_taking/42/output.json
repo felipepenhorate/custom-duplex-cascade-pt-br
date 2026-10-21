@@ -1,5 +1,5 @@
 {
-    "text": "Yeah, it is simple, solid, like a truth we've always known. Absolutely. It is, reflects a society's quiet acceptance, a kind of shared reality, unchallenged.",
+    "text": "Yeah, it is simple, solid, like a truth we've always known. Absolutely. It is, reflects a society's quiet acceptance, a kind of shared reality, unchallenged, unsure.",
     "chunks": [
         {
             "text": "Yeah,",
@@ -170,10 +170,17 @@
             ]
         },
         {
-            "text": "unchallenged.",
+            "text": "unchallenged,",
             "timestamp": [
                 16.080000000000002,
                 16.72
+            ]
+        },
+        {
+            "text": "unsure.",
+            "timestamp": [
+                16.8,
+                17.04
             ]
         }
     ]

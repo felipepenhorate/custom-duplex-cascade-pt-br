@@ -1,5 +1,5 @@
 {
-    "text": "Cordoba, Seville, and Valencia are also super worth a visit, or Dieu.",
+    "text": "Cordoba, Seville, and Valencia are also super worth a visit, or do you?",
     "chunks": [
         {
             "text": "Cordoba,",
@@ -79,10 +79,17 @@
             ]
         },
         {
-            "text": "Dieu.",
+            "text": "do",
             "timestamp": [
                 14.0,
-                14.32
+                14.08
+            ]
+        },
+        {
+            "text": "you?",
+            "timestamp": [
+                14.16,
+                14.24
             ]
         }
     ]

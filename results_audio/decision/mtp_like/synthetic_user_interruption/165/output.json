@@ -1,5 +1,5 @@
 {
-    "text": "Sure. On most phones, go to settings to sound, ringer and alerts, then turn off the ringer or set it to silent. Your phone will now be silent. I said, I'm not sure what you mean. Could you clarify or ask again?",
+    "text": "Sure. On most phones, go to Settings to Sound, Ringer and Alerts, then turn off the ringer or set it to silent. Your phone will now be silent. I'm not sure what you mean. Could you clarify or ask again?",
     "chunks": [
         {
             "text": "Sure.",
@@ -44,10 +44,10 @@
             ]
         },
         {
-            "text": "settings",
+            "text": "Settings",
             "timestamp": [
                 16.290666666666667,
-                16.690666666666665
+                16.610666666666667
             ]
         },
         {
@@ -58,14 +58,14 @@
             ]
         },
         {
-            "text": "sound,",
+            "text": "Sound,",
             "timestamp": [
                 16.850666666666665,
                 17.170666666666666
             ]
         },
         {
-            "text": "ringer",
+            "text": "Ringer",
             "timestamp": [
                 17.330666666666666,
                 17.810666666666666
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "text": "alerts,",
+            "text": "Alerts,",
             "timestamp": [
                 17.970666666666666,
                 18.370666666666665
@@ -89,7 +89,7 @@
             "text": "then",
             "timestamp": [
                 18.530666666666665,
-                18.770666666666667
+                18.610666666666667
             ]
         },
         {
@@ -195,20 +195,6 @@
             "timestamp": [
                 21.650666666666666,
                 22.21066666666667
-            ]
-        },
-        {
-            "text": "I",
-            "timestamp": [
-                22.53066666666667,
-                22.610666666666667
-            ]
-        },
-        {
-            "text": "said,",
-            "timestamp": [
-                22.85066666666667,
-                22.930666666666667
             ]
         },
         {

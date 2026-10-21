@@ -1,8 +1,8 @@
 {
-    "text": "Great That's awesome being that's totally cool intro yeah totally some things just feel fuzzy at first. That's okay sometimes the hardest",
+    "text": "Great! That's awesome. Being that's totally cool. Intro. Yeah, totally. Some things just feel fuzzy at first. That's okay. Sometimes the hardest.",
     "chunks": [
         {
-            "text": "Great",
+            "text": "Great!",
             "timestamp": [
                 5.36,
                 6.0
@@ -16,17 +16,17 @@
             ]
         },
         {
-            "text": "awesome",
+            "text": "awesome.",
             "timestamp": [
                 19.6,
                 20.080000000000002
             ]
         },
         {
-            "text": "being",
+            "text": "Being",
             "timestamp": [
                 20.240000000000002,
-                20.400000000000002
+                20.48
             ]
         },
         {
@@ -44,38 +44,38 @@
             ]
         },
         {
-            "text": "cool",
+            "text": "cool.",
             "timestamp": [
                 22.0,
                 22.32
             ]
         },
         {
-            "text": "intro",
+            "text": "Intro.",
             "timestamp": [
                 22.48,
                 22.72
             ]
         },
         {
-            "text": "yeah",
+            "text": "Yeah,",
             "timestamp": [
                 23.28,
                 23.36
             ]
         },
         {
-            "text": "totally",
+            "text": "totally.",
             "timestamp": [
                 23.92,
                 24.560000000000002
             ]
         },
         {
-            "text": "some",
+            "text": "Some",
             "timestamp": [
                 24.88,
-                24.96
+                25.12
             ]
         },
         {
@@ -128,14 +128,14 @@
             ]
         },
         {
-            "text": "okay",
+            "text": "okay.",
             "timestamp": [
                 27.12,
                 27.36
             ]
         },
         {
-            "text": "sometimes",
+            "text": "Sometimes",
             "timestamp": [
                 27.52,
                 27.76
@@ -149,7 +149,7 @@
             ]
         },
         {
-            "text": "hardest",
+            "text": "hardest.",
             "timestamp": [
                 27.92,
                 28.16

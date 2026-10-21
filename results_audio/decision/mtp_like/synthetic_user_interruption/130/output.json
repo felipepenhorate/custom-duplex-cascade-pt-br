@@ -1,5 +1,5 @@
 {
-    "text": "Absolutely. Exercise and healthy eating go hand in hand. Start with movement you enjoy, walking, dancing, cycling, or even stretching at home. Aim for at least 150 minutes of moderate activity each week, like brisk walking.",
+    "text": "Absolutely. Exercise and healthy eating go hand in hand. Start with movement you enjoy, walking, dancing, cycling, or even stretching at home. Aim for at least one hundred and fifty minutes of moderate activity each week, like brisk walking.",
     "chunks": [
         {
             "text": "Absolutely.",
@@ -184,9 +184,30 @@
             ]
         },
         {
-            "text": "150",
+            "text": "one",
             "timestamp": [
                 23.602666666666664,
+                23.762666666666668
+            ]
+        },
+        {
+            "text": "hundred",
+            "timestamp": [
+                23.762666666666668,
+                23.922666666666665
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                23.922666666666665,
+                24.002666666666666
+            ]
+        },
+        {
+            "text": "fifty",
+            "timestamp": [
+                24.082666666666668,
                 24.562666666666665
             ]
         },

@@ -1,5 +1,5 @@
 {
-    "text": "Claro, Dipende du Sunival, Mascum Car, Com thirty minutos, De Camenhada, Moderata Ja Ajuda Muto, Acostumer o Corpor. Se quizer algomes, intenso, A Academia eum otimo panto de partida.",
+    "text": "Claro, Dipende du Sunival, Mascum Car, Com. Thirty minutos de camenhada moderada ja a juda muto e a costumer o corpor. Se quizer algomaise intenso, e academia eum otimo panto de partida.",
     "chunks": [
         {
             "text": "Claro,",
@@ -33,7 +33,7 @@
             "text": "Mascum",
             "timestamp": [
                 15.778666666666666,
-                16.33866666666667
+                16.258666666666667
             ]
         },
         {
@@ -44,72 +44,93 @@
             ]
         },
         {
-            "text": "Com",
+            "text": "Com.",
             "timestamp": [
                 17.138666666666666,
                 17.458666666666666
             ]
         },
         {
-            "text": "thirty",
+            "text": "Thirty",
             "timestamp": [
                 17.778666666666666,
                 18.098666666666666
             ]
         },
         {
-            "text": "minutos,",
+            "text": "minutos",
             "timestamp": [
                 18.098666666666666,
                 18.898666666666667
             ]
         },
         {
-            "text": "De",
+            "text": "de",
             "timestamp": [
                 19.218666666666667,
-                19.458666666666666
+                19.298666666666666
             ]
         },
         {
-            "text": "Camenhada,",
+            "text": "camenhada",
             "timestamp": [
                 19.458666666666666,
                 20.178666666666665
             ]
         },
         {
-            "text": "Moderata",
+            "text": "moderada",
             "timestamp": [
                 20.33866666666667,
-                20.818666666666665
+                20.898666666666667
             ]
         },
         {
-            "text": "Ja",
+            "text": "ja",
             "timestamp": [
                 20.97866666666667,
                 21.218666666666664
             ]
         },
         {
-            "text": "Ajuda",
+            "text": "a",
             "timestamp": [
                 21.378666666666668,
+                21.458666666666666
+            ]
+        },
+        {
+            "text": "juda",
+            "timestamp": [
+                21.538666666666664,
                 21.858666666666664
             ]
         },
         {
-            "text": "Muto,",
+            "text": "muto",
             "timestamp": [
                 21.938666666666666,
                 22.418666666666667
             ]
         },
         {
-            "text": "Acostumer",
+            "text": "e",
+            "timestamp": [
+                22.578666666666667,
+                22.65866666666667
+            ]
+        },
+        {
+            "text": "a",
             "timestamp": [
                 22.818666666666665,
+                22.898666666666667
+            ]
+        },
+        {
+            "text": "costumer",
+            "timestamp": [
+                22.97866666666667,
                 23.458666666666666
             ]
         },
@@ -121,7 +142,7 @@
             ]
         },
         {
-            "text": "Corpor.",
+            "text": "corpor.",
             "timestamp": [
                 23.698666666666668,
                 24.098666666666666
@@ -142,10 +163,10 @@
             ]
         },
         {
-            "text": "algomes,",
+            "text": "algomaise",
             "timestamp": [
                 25.058666666666667,
-                25.698666666666668
+                25.778666666666666
             ]
         },
         {
@@ -156,17 +177,17 @@
             ]
         },
         {
-            "text": "A",
+            "text": "e",
             "timestamp": [
                 26.65866666666667,
                 26.818666666666665
             ]
         },
         {
-            "text": "Academia",
+            "text": "academia",
             "timestamp": [
                 26.97866666666667,
-                27.378666666666668
+                27.458666666666666
             ]
         },
         {

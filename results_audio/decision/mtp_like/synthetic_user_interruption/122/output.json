@@ -1,10 +1,10 @@
 {
-    "text": "Great question. As of now, some fresh movie releases you might enjoy include The Batman, twenty twenty two, a thrilling, intense, superhero film with a strong story and great performances. Dune.",
+    "text": "Great question. As of now, some fresh movie releases you might enjoy include The Batman, 2022, a thrilling, intense, superhero film with a strong story and great performances. Dune.",
     "chunks": [
         {
             "text": "Great",
             "timestamp": [
-                14.616,
+                14.536,
                 15.096
             ]
         },
@@ -33,7 +33,7 @@
             "text": "now,",
             "timestamp": [
                 16.456,
-                16.696
+                16.616
             ]
         },
         {
@@ -107,37 +107,23 @@
             ]
         },
         {
-            "text": "twenty",
+            "text": "2022,",
             "timestamp": [
                 20.856,
-                21.176000000000002
-            ]
-        },
-        {
-            "text": "twenty",
-            "timestamp": [
-                21.176000000000002,
-                21.416
-            ]
-        },
-        {
-            "text": "two,",
-            "timestamp": [
-                21.496000000000002,
-                21.576
+                21.656
             ]
         },
         {
             "text": "a",
             "timestamp": [
                 22.136000000000003,
-                22.375999999999998
+                22.296
             ]
         },
         {
             "text": "thrilling,",
             "timestamp": [
-                22.375999999999998,
+                22.296,
                 22.776
             ]
         },

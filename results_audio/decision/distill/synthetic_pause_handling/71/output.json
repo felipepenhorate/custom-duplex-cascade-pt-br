@@ -1,5 +1,5 @@
 {
-    "text": "You're referring to the side of the city.",
+    "text": "You're referring to the science of the city.",
     "chunks": [
         {
             "text": "You're",
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "text": "side",
+            "text": "science",
             "timestamp": [
                 11.6,
                 11.76
@@ -40,13 +40,13 @@
             "text": "of",
             "timestamp": [
                 11.76,
-                11.84
+                11.76
             ]
         },
         {
             "text": "the",
             "timestamp": [
-                11.84,
+                11.76,
                 11.84
             ]
         },

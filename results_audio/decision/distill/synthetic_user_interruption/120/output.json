@@ -1,27 +1,6 @@
 {
-    "text": "Uh chad hands. You're asking about tomorrow's weather. Great question. You were clearly having a fun little chat. Might be a playful typo of pells, please. Or maybe just trying to say lol. You asked about tomorrow's weather",
+    "text": "You're asking about tomorrow's weather. Great question. You were clearly having a fun little chat. Might be a playful typo of PELS, please. Or maybe just trying to say lol. You asked about tomorrow's weather.",
     "chunks": [
-        {
-            "text": "Uh",
-            "timestamp": [
-                13.4,
-                13.64
-            ]
-        },
-        {
-            "text": "chad",
-            "timestamp": [
-                13.96,
-                14.2
-            ]
-        },
-        {
-            "text": "hands.",
-            "timestamp": [
-                14.280000000000001,
-                14.52
-            ]
-        },
         {
             "text": "You're",
             "timestamp": [
@@ -170,10 +149,10 @@
             ]
         },
         {
-            "text": "pells,",
+            "text": "PELS,",
             "timestamp": [
                 24.200000000000003,
-                24.84
+                24.759999999999998
             ]
         },
         {
@@ -261,7 +240,7 @@
             ]
         },
         {
-            "text": "weather",
+            "text": "weather.",
             "timestamp": [
                 29.560000000000002,
                 29.8

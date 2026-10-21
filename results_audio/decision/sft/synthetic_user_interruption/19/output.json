@@ -1,5 +1,5 @@
 {
-    "text": "Dipende muto du pais que vo seva ai, Geromente, e bonchicar, as rigrad de entrada da soi d'estino, se for um lugermes restritivo, pod sur persiso om agendimento previo",
+    "text": "Dipende muto du pais que vo seva ai, Geromente, e bonchicar, as rigrad de entrada da soi d'estino. Se for um lugermes restritivo, pod sur persiso om agendamento previo",
     "chunks": [
         {
             "text": "Dipende",
@@ -121,17 +121,17 @@
             ]
         },
         {
-            "text": "d'estino,",
+            "text": "d'estino.",
             "timestamp": [
                 23.14933333333333,
                 23.709333333333333
             ]
         },
         {
-            "text": "se",
+            "text": "Se",
             "timestamp": [
                 23.869333333333334,
-                23.949333333333335
+                24.029333333333334
             ]
         },
         {
@@ -191,7 +191,7 @@
             ]
         },
         {
-            "text": "agendimento",
+            "text": "agendamento",
             "timestamp": [
                 27.46933333333333,
                 28.029333333333334

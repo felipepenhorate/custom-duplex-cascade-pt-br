@@ -1,5 +1,5 @@
 {
-    "text": "I'm sorry, I don't know if I can do it.",
+    "text": "I'm sorry, I don't know if it's a good idea.",
     "chunks": [
         {
             "text": "I'm",
@@ -32,43 +32,43 @@
         {
             "text": "know",
             "timestamp": [
-                2.96,
-                3.04
+                3.36,
+                3.44
             ]
         },
         {
             "text": "if",
             "timestamp": [
-                3.04,
-                3.04
+                3.44,
+                3.44
             ]
         },
         {
-            "text": "I",
+            "text": "it's",
             "timestamp": [
-                3.04,
-                3.04
+                3.44,
+                3.52
             ]
         },
         {
-            "text": "can",
+            "text": "a",
             "timestamp": [
-                3.04,
-                3.04
+                3.52,
+                3.6
             ]
         },
         {
-            "text": "do",
+            "text": "good",
             "timestamp": [
-                3.04,
-                3.04
+                3.6,
+                3.68
             ]
         },
         {
-            "text": "it.",
+            "text": "idea.",
             "timestamp": [
-                3.04,
-                3.04
+                3.68,
+                3.7600000000000002
             ]
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "text": "Sure. To bake a simple cake, preheat your oven to 350 degrees Fahrenheit, one hundred and seventy five degrees Celsius. Mix one cup of flour, one cup of sugar, one half cup of",
+    "text": "Sure. To bake a simple cake, preheat your oven to 350 degrees Fahrenheit, 175 degrees Celsius. Mix one cup of flour, one cup of sugar, one half cup of",
     "chunks": [
         {
             "text": "Sure.",
@@ -93,38 +93,10 @@
             ]
         },
         {
-            "text": "one",
+            "text": "175",
             "timestamp": [
                 20.861333333333334,
-                21.021333333333335
-            ]
-        },
-        {
-            "text": "hundred",
-            "timestamp": [
-                21.101333333333333,
-                21.261333333333333
-            ]
-        },
-        {
-            "text": "and",
-            "timestamp": [
-                21.261333333333333,
-                21.341333333333335
-            ]
-        },
-        {
-            "text": "seventy",
-            "timestamp": [
-                21.341333333333335,
-                21.581333333333333
-            ]
-        },
-        {
-            "text": "five",
-            "timestamp": [
-                21.661333333333335,
-                21.821333333333335
+                21.741333333333333
             ]
         },
         {

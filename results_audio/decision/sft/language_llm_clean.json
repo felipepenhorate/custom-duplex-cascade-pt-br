@@ -1,0 +1,25 @@
+{
+ "n_turns": 1462,
+ "n_scenarios": 683,
+ "labels": {
+  "en": 1087,
+  "pt": 375
+ },
+ "share_turns_pt": 0.25649794801641584,
+ "share_turns_en": 0.7435020519835841,
+ "share_turns_other": 0.0,
+ "other_breakdown": {},
+ "share_scenarios_pt": 0.2225475841874085,
+ "share_scenarios_any_pt": 0.26500732064421667,
+ "share_words_pt": 0.31316451586721855,
+ "heuristic_agreement": {
+  "en/en": 927,
+  "en/pt": 2,
+  "en/unclear": 158,
+  "pt/en": 28,
+  "pt/pt": 322,
+  "pt/unclear": 25
+ },
+ "leading_drift_removed": 0,
+ "leading_drift_share": 0.0
+}

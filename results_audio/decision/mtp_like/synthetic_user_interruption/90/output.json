@@ -1,5 +1,5 @@
 {
-    "text": "Great follow-up. For indoor plants, watering frequency depends on the species, but here's a general rule. Check the soil. Water when the top one to two inches feel dry to the touch. Water thoroughly.",
+    "text": "Great follow-up. For indoor plants, watering frequency depends on the species, but here's a general rule. Check the soil. Water when the top 1 to 2 inches feel dry to the touch. Water thoroughly.",
     "chunks": [
         {
             "text": "Great",
@@ -39,7 +39,7 @@
         {
             "text": "watering",
             "timestamp": [
-                18.589333333333336,
+                18.509333333333334,
                 19.069333333333333
             ]
         },
@@ -110,7 +110,7 @@
             "text": "rule.",
             "timestamp": [
                 22.029333333333334,
-                22.349333333333334
+                22.269333333333336
             ]
         },
         {
@@ -163,10 +163,10 @@
             ]
         },
         {
-            "text": "one",
+            "text": "1",
             "timestamp": [
                 24.589333333333336,
-                24.669333333333334
+                24.829333333333334
             ]
         },
         {
@@ -177,10 +177,10 @@
             ]
         },
         {
-            "text": "two",
+            "text": "2",
             "timestamp": [
                 24.909333333333336,
-                24.989333333333335
+                25.149333333333335
             ]
         },
         {

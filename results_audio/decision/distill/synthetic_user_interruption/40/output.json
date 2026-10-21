@@ -1,5 +1,5 @@
 {
-    "text": "Yeah, you're asking, can we talk about something else? Absolutely. Ah, you're probably trying to say. Sorry, can we talk about something else? Yes, let's explore a new topic together. Whether it's travel, technology, nature, dreams.",
+    "text": "Yeah, you're asking, can we talk about something else? Absolutely. Ah, you're probably trying to say, Sorry, can we talk about something else? Yes, let's explore a new topic together. Whether it's travel, technology, nature, dreams.",
     "chunks": [
         {
             "text": "Yeah,",
@@ -107,7 +107,7 @@
             ]
         },
         {
-            "text": "say.",
+            "text": "say,",
             "timestamp": [
                 22.034666666666666,
                 22.354666666666667
@@ -117,7 +117,7 @@
             "text": "Sorry,",
             "timestamp": [
                 22.994666666666667,
-                23.314666666666668
+                23.394666666666666
             ]
         },
         {

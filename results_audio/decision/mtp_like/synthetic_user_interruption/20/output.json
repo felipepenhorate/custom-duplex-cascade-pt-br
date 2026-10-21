@@ -1,5 +1,5 @@
 {
-    "text": "The girl on the train have access to real-time weather data. You might want to check a weather website or app like weather.com, AccuWeather, or your phone's built-in weather feature for the most up-to-date. I'm sorry, but I can't provide real-time or future weather forecasts. For tomorrow's weather, I recommend checking a trusted weather service like Weather.",
+    "text": "The girl on the train-time weather data. You might want to check a weather website or app like weather.com, AccuWeather, or your phone's built-in weather feature for the most up-to-date. I'm sorry, but I can't provide real-time or future weather forecasts. For tomorrow's weather, I recommend checking a trusted weather service like Weather.",
     "chunks": [
         {
             "text": "The",
@@ -30,37 +30,9 @@
             ]
         },
         {
-            "text": "train",
+            "text": "train-time",
             "timestamp": [
                 14.429333333333332,
-                14.589333333333332
-            ]
-        },
-        {
-            "text": "have",
-            "timestamp": [
-                15.949333333333334,
-                16.109333333333332
-            ]
-        },
-        {
-            "text": "access",
-            "timestamp": [
-                16.109333333333332,
-                16.349333333333334
-            ]
-        },
-        {
-            "text": "to",
-            "timestamp": [
-                16.349333333333334,
-                16.509333333333334
-            ]
-        },
-        {
-            "text": "real-time",
-            "timestamp": [
-                16.509333333333334,
                 16.989333333333335
             ]
         },

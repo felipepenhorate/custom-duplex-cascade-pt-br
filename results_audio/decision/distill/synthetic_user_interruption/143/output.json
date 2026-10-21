@@ -1,5 +1,5 @@
 {
-    "text": "Ah, you're asking about what the weather will be like tomorrow. But but or I think you're trying to ask. Sh, what's the weather like tomorrow? But it looks like there might be a small mix-up with the words. Maybe you meant plants?",
+    "text": "Ah, you're asking about what the weather will be like tomorrow. But but or I think you're trying to ask, Shia, what's the weather like tomorrow? But it looks like there might be a small mix-up with the words, maybe you meant plants?",
     "chunks": [
         {
             "text": "Ah,",
@@ -102,8 +102,8 @@
         {
             "text": "I",
             "timestamp": [
-                22.045333333333332,
-                22.205333333333336
+                21.885333333333335,
+                22.045333333333332
             ]
         },
         {
@@ -135,17 +135,17 @@
             ]
         },
         {
-            "text": "ask.",
+            "text": "ask,",
             "timestamp": [
                 23.405333333333335,
                 23.645333333333333
             ]
         },
         {
-            "text": "Sh,",
+            "text": "Shia,",
             "timestamp": [
                 23.965333333333334,
-                24.205333333333336
+                24.365333333333332
             ]
         },
         {
@@ -268,17 +268,17 @@
             ]
         },
         {
-            "text": "words.",
+            "text": "words,",
             "timestamp": [
                 29.40533333333333,
                 29.72533333333333
             ]
         },
         {
-            "text": "Maybe",
+            "text": "maybe",
             "timestamp": [
                 29.885333333333335,
-                30.205333333333336
+                30.045333333333332
             ]
         },
         {

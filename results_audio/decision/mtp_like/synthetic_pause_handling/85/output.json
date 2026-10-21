@@ -1,11 +1,11 @@
 {
-    "text": "Oh, I love",
+    "text": "Oh, I will.",
     "chunks": [
         {
             "text": "Oh,",
             "timestamp": [
                 5.84,
-                6.08
+                5.92
             ]
         },
         {
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "text": "love",
+            "text": "will.",
             "timestamp": [
-                6.24,
-                6.32
+                6.32,
+                6.4
             ]
         }
     ]

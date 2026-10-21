@@ -1,5 +1,5 @@
 {
-    "text": "I can't check real time. I can only use a model to infer. But I can tell you to monitor. In a dryer, or a moister, or a light, or a dryer, or a light, or a dryer, or a light, or a drear, or a light or a dryer, or a light or a dryer, or",
+    "text": "I can't check real time. I can only use a model to infer. But I can tell you to monitor. In a dryer, or a moister, or a light, or a dryer, or a light, or a dryer, or a light, or a drear, or a light, or a dryer, or a light, or a dryer, or",
     "chunks": [
         {
             "text": "I",
@@ -324,10 +324,10 @@
             ]
         },
         {
-            "text": "light",
+            "text": "light,",
             "timestamp": [
                 26.285333333333334,
-                26.605333333333334
+                26.525333333333336
             ]
         },
         {
@@ -366,7 +366,7 @@
             ]
         },
         {
-            "text": "light",
+            "text": "light,",
             "timestamp": [
                 27.72533333333333,
                 27.965333333333334

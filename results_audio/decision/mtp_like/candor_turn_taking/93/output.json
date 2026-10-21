@@ -1,5 +1,5 @@
 {
-    "text": "Oh, I wasn't drinking, I was just thinking. Yeah, first thing in the morning, perfect time for quiet thoughts.",
+    "text": "Oh, I wasn't drinking. I was just thinking. Yeah, first thing in the morning, perfect time for quiet thoughts.",
     "chunks": [
         {
             "text": "Oh,",
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "text": "drinking,",
+            "text": "drinking.",
             "timestamp": [
                 4.08,
                 4.48

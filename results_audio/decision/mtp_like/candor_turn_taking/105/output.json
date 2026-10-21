@@ -1,5 +1,5 @@
 {
-    "text": "Yeah, that's a fair point. Consistent, if not exciting. Like McDonald's, it's reliable, which can be comforting, even if it's not grounded.",
+    "text": "Yeah, that's a fair point. Consistent, if not exciting. Like McDonald's, it's reliable, which can be comforting even if it's not grounded.",
     "chunks": [
         {
             "text": "Yeah,",
@@ -114,7 +114,7 @@
             ]
         },
         {
-            "text": "comforting,",
+            "text": "comforting",
             "timestamp": [
                 15.84,
                 16.32

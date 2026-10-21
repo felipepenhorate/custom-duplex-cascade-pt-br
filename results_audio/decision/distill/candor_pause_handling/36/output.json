@@ -1,5 +1,5 @@
 {
-    "text": "You're looking for a great night out to shop for dresses? Eh, that sounds like such a oh. You were saying, we are saying, uh, maybe you meant a nice night out shopping for. I hear you.",
+    "text": "You're looking for a great night out to shop for dresses? Eh, that sounds like such a oh. You're saying, we're saying, uh, maybe you meant a nice night out shopping for. I hear you.",
     "chunks": [
         {
             "text": "You're",
@@ -128,16 +128,9 @@
             ]
         },
         {
-            "text": "You",
+            "text": "You're",
             "timestamp": [
                 13.76,
-                13.92
-            ]
-        },
-        {
-            "text": "were",
-            "timestamp": [
-                13.92,
                 14.0
             ]
         },
@@ -149,16 +142,9 @@
             ]
         },
         {
-            "text": "we",
+            "text": "we're",
             "timestamp": [
                 14.32,
-                14.4
-            ]
-        },
-        {
-            "text": "are",
-            "timestamp": [
-                14.56,
                 14.64
             ]
         },

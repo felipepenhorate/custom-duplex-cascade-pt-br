@@ -1,5 +1,5 @@
 {
-    "text": "You're welcome anytime. I'm glad you liked her. Gotcha. You're very welcome. Is she men?",
+    "text": "You're welcome anytime. I'm glad you liked her. Gotcha. You're very welcome.",
     "chunks": [
         {
             "text": "You're",
@@ -83,27 +83,6 @@
             "timestamp": [
                 7.44,
                 8.0
-            ]
-        },
-        {
-            "text": "Is",
-            "timestamp": [
-                9.040000000000001,
-                9.200000000000001
-            ]
-        },
-        {
-            "text": "she",
-            "timestamp": [
-                9.36,
-                9.44
-            ]
-        },
-        {
-            "text": "men?",
-            "timestamp": [
-                9.6,
-                9.92
             ]
         }
     ]

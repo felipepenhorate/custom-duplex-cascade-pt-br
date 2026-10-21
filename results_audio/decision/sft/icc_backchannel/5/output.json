@@ -1,5 +1,5 @@
 {
-    "text": "Ah, so you're is that a real depends on the program. Nah, not bike. As ah, so some of it is, some of it is.",
+    "text": "Ah, so you're is that a real depends on the program. Nah, not a bike. As ah, so some of it is, some of it is.",
     "chunks": [
         {
             "text": "Ah,",
@@ -90,6 +90,13 @@
             "timestamp": [
                 25.76,
                 25.92
+            ]
+        },
+        {
+            "text": "a",
+            "timestamp": [
+                26.0,
+                26.16
             ]
         },
         {

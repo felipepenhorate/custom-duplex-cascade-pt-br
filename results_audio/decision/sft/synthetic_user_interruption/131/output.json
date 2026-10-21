@@ -1,5 +1,5 @@
 {
-    "text": "Dependemuto du supais de origem, view. Si for um pais que fas part dazona delivre circulaza, sim, vosa precisara solicitar um visto. Upaso tejidar echicar is o di pois.",
+    "text": "Dependemuto du supais de origem, view. Si for um pais que fas part dazona delivre circulaza, sim, vosa precisara solicitar um visto. U paso tejidar echicar is o di pois.",
     "chunks": [
         {
             "text": "Dependemuto",
@@ -156,9 +156,16 @@
             ]
         },
         {
-            "text": "Upaso",
+            "text": "U",
             "timestamp": [
                 27.821333333333335,
+                27.901333333333334
+            ]
+        },
+        {
+            "text": "paso",
+            "timestamp": [
+                27.981333333333332,
                 28.301333333333332
             ]
         },

@@ -1,5 +1,5 @@
 {
-    "text": "What's the movie about? I'm always up for a good story. Sinnen, oh cool. What kind of movie? I'm curious to hear.",
+    "text": "What's the movie about? I'm always up for a good story. Sin an oh cool. What kind of movie? I'm curious to hear.",
     "chunks": [
         {
             "text": "What's",
@@ -79,9 +79,16 @@
             ]
         },
         {
-            "text": "Sinnen,",
+            "text": "Sin",
             "timestamp": [
                 17.58666666666667,
+                17.826666666666668
+            ]
+        },
+        {
+            "text": "an",
+            "timestamp": [
+                17.986666666666668,
                 18.06666666666667
             ]
         },
@@ -89,7 +96,7 @@
             "text": "oh",
             "timestamp": [
                 18.30666666666667,
-                18.46666666666667
+                18.546666666666667
             ]
         },
         {

@@ -1,5 +1,5 @@
 {
-    "text": "You're not alone. Moving it Yeah.",
+    "text": "You're not alone. Movie night Yeah.",
     "chunks": [
         {
             "text": "You're",
@@ -23,16 +23,16 @@
             ]
         },
         {
-            "text": "Moving",
+            "text": "Movie",
             "timestamp": [
                 6.88,
-                7.12
+                7.2
             ]
         },
         {
-            "text": "it",
+            "text": "night",
             "timestamp": [
-                7.36,
+                7.28,
                 7.44
             ]
         },

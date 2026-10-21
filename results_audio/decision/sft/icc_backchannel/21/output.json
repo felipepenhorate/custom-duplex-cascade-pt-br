@@ -1,5 +1,5 @@
 {
-    "text": "Ah, I can understand. Bringing up some of the more sensitive parts of a story, Demons, you two I can't. I can't Demons, I can't.",
+    "text": "Ah, I can understand. Bringing up some of the more sensitive parts of a story Demons, you two I can't. I can't Demons, I can't.",
     "chunks": [
         {
             "text": "Ah,",
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "text": "story,",
+            "text": "story",
             "timestamp": [
                 15.280000000000001,
                 15.84

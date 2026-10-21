@@ -1,5 +1,5 @@
 {
-    "text": "That's great. A longtime user means you know what to look. You're welcome. That sounds like you're thinking of the latest version of a specific laptop. Maybe the MacBook.",
+    "text": "That's great. A longtime user means you know what to look. You're welcome. Sounds like you're thinking of the latest version of a specific laptop. Maybe the MacBook.",
     "chunks": [
         {
             "text": "That's",
@@ -93,14 +93,7 @@
             ]
         },
         {
-            "text": "That",
-            "timestamp": [
-                9.6,
-                9.76
-            ]
-        },
-        {
-            "text": "sounds",
+            "text": "Sounds",
             "timestamp": [
                 10.08,
                 10.4

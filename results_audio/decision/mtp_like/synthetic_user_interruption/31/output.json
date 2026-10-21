@@ -1,5 +1,5 @@
 {
-    "text": "Absolutely. How about we start with some simple, enjoyable activities you can do at home or outdoors? Amen. Got it. A simple, sustainable routine is key. How about 10-15 minutes of walking daily, or a few body weight exercises like squats and lunges? Easy to start and builds momentum. Want to train.",
+    "text": "Absolutely. How about we start with some simple, enjoyable activities you can do at home or outdoors? Amen. Got it. A simple, sustainable routine is key. How about 10-15 minutes of walking daily, or a few body weight exercises like squats and lunges? Easy to start and builds momentum. Want to",
     "chunks": [
         {
             "text": "Absolutely.",
@@ -75,13 +75,13 @@
             "text": "you",
             "timestamp": [
                 17.224,
-                17.384
+                17.304000000000002
             ]
         },
         {
             "text": "can",
             "timestamp": [
-                17.384,
+                17.304000000000002,
                 17.464
             ]
         },
@@ -356,13 +356,6 @@
             "timestamp": [
                 31.384,
                 31.543999999999997
-            ]
-        },
-        {
-            "text": "train.",
-            "timestamp": [
-                31.543999999999997,
-                31.624000000000002
             ]
         }
     ]

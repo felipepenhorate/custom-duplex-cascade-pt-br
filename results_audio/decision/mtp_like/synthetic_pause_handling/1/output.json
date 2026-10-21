@@ -1,10 +1,10 @@
 {
-    "text": "That's a big decision. Good to hear you're thinking about it. What's on your mind specifically? Awesome, and that's awesome.",
+    "text": "That's a big decision. Good to hear you're thinking about it. What's on your mind specifically? Well, so man, that's awesome.",
     "chunks": [
         {
             "text": "That's",
             "timestamp": [
-                3.52,
+                3.6,
                 4.0
             ]
         },
@@ -114,17 +114,24 @@
             ]
         },
         {
-            "text": "Awesome,",
+            "text": "Well,",
             "timestamp": [
-                9.040000000000001,
+                8.96,
+                9.040000000000001
+            ]
+        },
+        {
+            "text": "so",
+            "timestamp": [
+                9.36,
                 9.44
             ]
         },
         {
-            "text": "and",
+            "text": "man,",
             "timestamp": [
-                9.68,
-                9.76
+                9.6,
+                9.68
             ]
         },
         {

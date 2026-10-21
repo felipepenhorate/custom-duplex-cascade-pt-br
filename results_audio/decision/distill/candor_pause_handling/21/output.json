@@ -1,5 +1,5 @@
 {
-    "text": "You're right. Middle school you.",
+    "text": "You're right. Middle school you see",
     "chunks": [
         {
             "text": "You're",
@@ -30,10 +30,17 @@
             ]
         },
         {
-            "text": "you.",
+            "text": "you",
             "timestamp": [
                 8.64,
                 8.8
+            ]
+        },
+        {
+            "text": "see",
+            "timestamp": [
+                8.88,
+                8.96
             ]
         }
     ]

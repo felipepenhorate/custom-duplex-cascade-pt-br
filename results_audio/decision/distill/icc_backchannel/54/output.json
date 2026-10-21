@@ -1,11 +1,11 @@
 {
-    "text": "I you were saying I lived in this great, diverse community.",
+    "text": "I, you were saying, I lived in this great, diverse community.",
     "chunks": [
         {
-            "text": "I",
+            "text": "I,",
             "timestamp": [
                 36.24,
-                36.4
+                36.32
             ]
         },
         {
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "text": "saying",
+            "text": "saying,",
             "timestamp": [
                 37.6,
                 37.92

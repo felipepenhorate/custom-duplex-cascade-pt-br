@@ -1,5 +1,5 @@
 {
-    "text": "You're asking a great question. How to save water at home? Chis. Ah. I think you might have meant plastic or maybe save water. You asked, can I do? Asked, can I do? And then typed PEL, which could be a mix-up. Let me help with the real question.",
+    "text": "You're asking a great question how to save water at home. Chis. Ah. I think you might have meant plastic or maybe save water. You asked, can I do? Asked, can I do? And then typed PEL, which could be a mix-up. Let me help with the real question.",
     "chunks": [
         {
             "text": "You're",
@@ -30,14 +30,14 @@
             ]
         },
         {
-            "text": "question.",
+            "text": "question",
             "timestamp": [
                 16.482666666666667,
                 16.722666666666665
             ]
         },
         {
-            "text": "How",
+            "text": "how",
             "timestamp": [
                 16.882666666666665,
                 17.042666666666666
@@ -72,7 +72,7 @@
             ]
         },
         {
-            "text": "home?",
+            "text": "home.",
             "timestamp": [
                 18.002666666666666,
                 18.242666666666665

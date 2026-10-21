@@ -1,5 +1,5 @@
 {
-    "text": "As an AI language model, I'm here to assist you with any questions or concerns you may have. Please feel free to ask me anything you'd like to do. As an AI language model model, I'm here. I'm here to.",
+    "text": "As an AI language model, I'm here to assist you with any questions or concerns you may have. Please feel free to ask me anything you'd like to do. As an AI language model, I'm here. I'm here to.",
     "chunks": [
         {
             "text": "As",
@@ -233,17 +233,10 @@
             ]
         },
         {
-            "text": "model",
-            "timestamp": [
-                9.76,
-                9.92
-            ]
-        },
-        {
             "text": "model,",
             "timestamp": [
-                10.08,
-                10.16
+                9.76,
+                10.0
             ]
         },
         {

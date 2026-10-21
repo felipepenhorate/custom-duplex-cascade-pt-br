@@ -1,5 +1,5 @@
 {
-    "text": "Ah, so it's a no, I just meant are there.",
+    "text": "Ah, so it's a No, I just meant, are there",
     "chunks": [
         {
             "text": "Ah,",
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "text": "no,",
+            "text": "No,",
             "timestamp": [
                 10.56,
                 10.88
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "text": "meant",
+            "text": "meant,",
             "timestamp": [
                 11.36,
                 11.6
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "text": "there.",
+            "text": "there",
             "timestamp": [
                 11.92,
                 12.16

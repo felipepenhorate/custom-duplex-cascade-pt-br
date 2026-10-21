@@ -1,5 +1,5 @@
 {
-    "text": "Pra da Oma Volta. Mas Dentro de Casa Da Oma Ojada Emum Cinema Novo Qui Abrio. Els Tamum Catalogo Gigante de Films. Des de Blockbusters ate comedias meleves.",
+    "text": "Pra da Oma Volta. Mas Dentro de Casa, da uma ojada emum cinema novo qui abrio. Els tamum catalogo gigante de films. Des de blockbusters ate comedias meleves.",
     "chunks": [
         {
             "text": "Pra",
@@ -51,63 +51,63 @@
             ]
         },
         {
-            "text": "Casa",
+            "text": "Casa,",
             "timestamp": [
                 17.0,
                 17.479999999999997
             ]
         },
         {
-            "text": "Da",
+            "text": "da",
             "timestamp": [
                 17.799999999999997,
                 17.96
             ]
         },
         {
-            "text": "Oma",
+            "text": "uma",
             "timestamp": [
                 18.04,
                 18.28
             ]
         },
         {
-            "text": "Ojada",
+            "text": "ojada",
             "timestamp": [
                 18.36,
                 18.84
             ]
         },
         {
-            "text": "Emum",
+            "text": "emum",
             "timestamp": [
                 18.919999999999998,
                 19.16
             ]
         },
         {
-            "text": "Cinema",
+            "text": "cinema",
             "timestamp": [
                 19.24,
                 19.56
             ]
         },
         {
-            "text": "Novo",
+            "text": "novo",
             "timestamp": [
                 19.64,
                 19.96
             ]
         },
         {
-            "text": "Qui",
+            "text": "qui",
             "timestamp": [
                 19.96,
-                20.119999999999997
+                20.2
             ]
         },
         {
-            "text": "Abrio.",
+            "text": "abrio.",
             "timestamp": [
                 20.2,
                 20.6
@@ -121,21 +121,21 @@
             ]
         },
         {
-            "text": "Tamum",
+            "text": "tamum",
             "timestamp": [
                 21.24,
                 21.72
             ]
         },
         {
-            "text": "Catalogo",
+            "text": "catalogo",
             "timestamp": [
                 21.799999999999997,
                 22.52
             ]
         },
         {
-            "text": "Gigante",
+            "text": "gigante",
             "timestamp": [
                 22.6,
                 23.24
@@ -149,10 +149,10 @@
             ]
         },
         {
-            "text": "Films.",
+            "text": "films.",
             "timestamp": [
                 23.479999999999997,
-                23.88
+                23.799999999999997
             ]
         },
         {
@@ -170,7 +170,7 @@
             ]
         },
         {
-            "text": "Blockbusters",
+            "text": "blockbusters",
             "timestamp": [
                 24.68,
                 25.32

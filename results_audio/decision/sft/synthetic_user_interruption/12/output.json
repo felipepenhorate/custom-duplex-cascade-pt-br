@@ -1,5 +1,5 @@
 {
-    "text": "Geralmente A frecencia veri muto, mas para manter soda geril, a bomphasarum check up annual, se ella estiverbem, a rotina pode surmais flexival, mas sempervail epenamonitorar sinais de desconforto.",
+    "text": "Geralmente A frecencia veri muto, mas para manter soda geril, a bomphasarum check up annual, se ella estiverbem, a rotina pode sur mais flexival, mas sempervail epenamonitorar sinais de desconforto.",
     "chunks": [
         {
             "text": "Geralmente",
@@ -149,9 +149,16 @@
             ]
         },
         {
-            "text": "surmais",
+            "text": "sur",
             "timestamp": [
                 23.08533333333333,
+                23.245333333333335
+            ]
+        },
+        {
+            "text": "mais",
+            "timestamp": [
+                23.40533333333333,
                 23.645333333333333
             ]
         },

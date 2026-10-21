@@ -1,5 +1,5 @@
 {
-    "text": "Danata Estiver Akando o caprisissa, podmi dyser maze sobre o queta procurando, a sim u ajudo melhor. Sei four.",
+    "text": "Danata Ah, intendi, sevo sa estiver akando o quersissa, podmi dyser maze sobre o queta procurando, a sim u ajudo melhor. Sei four.",
     "chunks": [
         {
             "text": "Danata",
@@ -9,14 +9,42 @@
             ]
         },
         {
-            "text": "Estiver",
+            "text": "Ah,",
+            "timestamp": [
+                3.6,
+                4.0
+            ]
+        },
+        {
+            "text": "intendi,",
+            "timestamp": [
+                4.16,
+                4.88
+            ]
+        },
+        {
+            "text": "sevo",
+            "timestamp": [
+                5.12,
+                5.5200000000000005
+            ]
+        },
+        {
+            "text": "sa",
+            "timestamp": [
+                5.6000000000000005,
+                5.68
+            ]
+        },
+        {
+            "text": "estiver",
             "timestamp": [
                 5.84,
                 6.24
             ]
         },
         {
-            "text": "Akando",
+            "text": "akando",
             "timestamp": [
                 6.32,
                 6.8
@@ -30,7 +58,7 @@
             ]
         },
         {
-            "text": "caprisissa,",
+            "text": "quersissa,",
             "timestamp": [
                 7.04,
                 7.76

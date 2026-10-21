@@ -1,5 +1,5 @@
 {
-    "text": "Come Sertiza C. for sobra historia de mysterio, unde estamu cora sao, temum clima bem sambrio e intrigante, e um otimo ponto de partida para explorer, um Guinero Maisdenso",
+    "text": "Come Sertiza Si for sobra historia de mysterio, and de estamu cora\u00e7\u00e3o, temum clima bem sambrio e intrigante, e um otimo ponto de partida para explorer, um Guinero Maisdenso",
     "chunks": [
         {
             "text": "Come",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "text": "C.",
+            "text": "Si",
             "timestamp": [
                 14.157333333333334,
-                14.317333333333334
+                14.397333333333334
             ]
         },
         {
@@ -58,9 +58,16 @@
             ]
         },
         {
-            "text": "unde",
+            "text": "and",
             "timestamp": [
                 16.637333333333334,
+                16.797333333333334
+            ]
+        },
+        {
+            "text": "de",
+            "timestamp": [
+                16.877333333333333,
                 17.037333333333333
             ]
         },
@@ -72,16 +79,9 @@
             ]
         },
         {
-            "text": "cora",
+            "text": "cora\u00e7\u00e3o,",
             "timestamp": [
                 17.677333333333333,
-                17.997333333333334
-            ]
-        },
-        {
-            "text": "sao,",
-            "timestamp": [
-                18.077333333333335,
                 18.317333333333334
             ]
         },

@@ -1,5 +1,5 @@
 {
-    "text": "Yeah, this talking thing. Well, I'm your voice assistant here to chat, help, and answer questions. So, yeah, I'm all about the talking. What's up? Ebim End. Oh, prolific.",
+    "text": "Yeah, this talking thing. Well, I'm your voice assistant here to chat, help, and answer questions. So yeah, I'm all about the talking. What's up? Ebim End. Oh, prolific.",
     "chunks": [
         {
             "text": "Yeah,",
@@ -114,7 +114,7 @@
             ]
         },
         {
-            "text": "So,",
+            "text": "So",
             "timestamp": [
                 10.0,
                 10.08

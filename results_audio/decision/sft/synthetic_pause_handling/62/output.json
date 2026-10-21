@@ -1,11 +1,11 @@
 {
-    "text": "Exatamente is vezas ampuco de para.",
+    "text": "Exatamente is vezas in the middle of the city.",
     "chunks": [
         {
             "text": "Exatamente",
             "timestamp": [
                 8.64,
-                9.68
+                9.92
             ]
         },
         {
@@ -23,23 +23,44 @@
             ]
         },
         {
-            "text": "ampuco",
+            "text": "in",
             "timestamp": [
                 11.6,
-                12.08
+                11.68
             ]
         },
         {
-            "text": "de",
+            "text": "the",
             "timestamp": [
-                12.16,
-                12.24
+                12.32,
+                12.32
             ]
         },
         {
-            "text": "para.",
+            "text": "middle",
             "timestamp": [
-                12.24,
+                12.32,
+                12.32
+            ]
+        },
+        {
+            "text": "of",
+            "timestamp": [
+                12.32,
+                12.32
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                12.32,
+                12.32
+            ]
+        },
+        {
+            "text": "city.",
+            "timestamp": [
+                12.32,
                 12.32
             ]
         }

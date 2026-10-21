@@ -1,5 +1,5 @@
 {
-    "text": "My yoga saying, S I don't do any work in my room, but I but",
+    "text": "My yoga saying, S I don't do any work in my room, but I but la",
     "chunks": [
         {
             "text": "My",
@@ -19,7 +19,7 @@
             "text": "saying,",
             "timestamp": [
                 33.92,
-                34.0
+                34.08
             ]
         },
         {
@@ -104,6 +104,13 @@
             "timestamp": [
                 38.32,
                 38.4
+            ]
+        },
+        {
+            "text": "la",
+            "timestamp": [
+                38.56,
+                38.64
             ]
         }
     ]

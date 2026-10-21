@@ -1,5 +1,5 @@
 {
-    "text": "Opa quale es soa pragunta to aqui pra ajudar",
+    "text": "Opa quale eswa pragunta to aqui pra ajudar",
     "chunks": [
         {
             "text": "Opa",
@@ -16,16 +16,9 @@
             ]
         },
         {
-            "text": "es",
+            "text": "eswa",
             "timestamp": [
                 5.44,
-                5.5200000000000005
-            ]
-        },
-        {
-            "text": "soa",
-            "timestamp": [
-                5.6000000000000005,
                 5.92
             ]
         },

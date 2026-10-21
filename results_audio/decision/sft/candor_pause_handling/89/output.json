@@ -1,5 +1,5 @@
 {
-    "text": "Ah, a social impact",
+    "text": "Ah, a social impact.",
     "chunks": [
         {
             "text": "Ah,",
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "text": "impact",
+            "text": "impact.",
             "timestamp": [
                 7.76,
                 8.16

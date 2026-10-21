@@ -1,18 +1,11 @@
 {
-    "text": "Meam, not quite. Carla, do you know?",
+    "text": "Not quite. Carla, do you know?",
     "chunks": [
         {
-            "text": "Meam,",
-            "timestamp": [
-                4.88,
-                5.36
-            ]
-        },
-        {
-            "text": "not",
+            "text": "Not",
             "timestamp": [
                 5.6000000000000005,
-                5.76
+                5.92
             ]
         },
         {

@@ -1,5 +1,5 @@
 {
-    "text": "Ah, I can't remember.",
+    "text": "Ah, I can't do it.",
     "chunks": [
         {
             "text": "Ah,",
@@ -19,14 +19,21 @@
             "text": "can't",
             "timestamp": [
                 7.5200000000000005,
-                8.72
+                8.32
             ]
         },
         {
-            "text": "remember.",
+            "text": "do",
             "timestamp": [
-                8.72,
-                8.88
+                8.32,
+                8.32
+            ]
+        },
+        {
+            "text": "it.",
+            "timestamp": [
+                8.32,
+                8.32
             ]
         }
     ]

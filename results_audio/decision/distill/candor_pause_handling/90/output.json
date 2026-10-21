@@ -1,31 +1,52 @@
 {
-    "text": "Sabina, Tigri, Ursa Army.",
+    "text": "Sabina Tigri Ursana, the United States, and",
     "chunks": [
         {
-            "text": "Sabina,",
+            "text": "Sabina",
             "timestamp": [
                 17.2,
                 17.84
             ]
         },
         {
-            "text": "Tigri,",
+            "text": "Tigri",
             "timestamp": [
                 17.92,
                 18.240000000000002
             ]
         },
         {
-            "text": "Ursa",
+            "text": "Ursana,",
             "timestamp": [
                 18.400000000000002,
-                18.64
+                18.72
             ]
         },
         {
-            "text": "Army.",
+            "text": "the",
             "timestamp": [
-                18.64,
+                18.72,
+                18.72
+            ]
+        },
+        {
+            "text": "United",
+            "timestamp": [
+                18.72,
+                18.72
+            ]
+        },
+        {
+            "text": "States,",
+            "timestamp": [
+                18.72,
+                18.72
+            ]
+        },
+        {
+            "text": "and",
+            "timestamp": [
+                18.72,
                 18.72
             ]
         }

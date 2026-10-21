@@ -1,5 +1,5 @@
 {
-    "text": "Claro Sculptura et supercreativa Vocepod Camocais Mais Simples Typo Vasos O Picanos Bichinhos O Sigredo ertastando Materies Comotera Made ira o ate mesmo metal",
+    "text": "Claro Sculptura et super creativa Vocepod Camocais Mais Simples Typo Vasos O Picanos Bichinhos O Sigredo ertastando Materies Comotera Made ira o ate mesmo metal",
     "chunks": [
         {
             "text": "Claro",
@@ -23,9 +23,16 @@
             ]
         },
         {
-            "text": "supercreativa",
+            "text": "super",
             "timestamp": [
                 13.922666666666666,
+                14.082666666666665
+            ]
+        },
+        {
+            "text": "creativa",
+            "timestamp": [
+                14.242666666666665,
                 14.962666666666665
             ]
         },
@@ -152,7 +159,7 @@
             "text": "ate",
             "timestamp": [
                 25.682666666666666,
-                26.082666666666668
+                26.002666666666666
             ]
         },
         {

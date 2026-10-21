@@ -1,5 +1,5 @@
 {
-    "text": "You were likely referring to the movie Fright or PR. Oh uh, you were probably talking about the bear or maybe a new movie in the Fright series, but it looks like there's been some confusion with the spelling.",
+    "text": "You were likely referring to the movie Fright or PR. Oh uh. You were probably talking about the bear or maybe a new movie in the Fright series, but it looks like there's been some confusion with the spelling.",
     "chunks": [
         {
             "text": "You",
@@ -79,14 +79,14 @@
             ]
         },
         {
-            "text": "uh,",
+            "text": "uh.",
             "timestamp": [
                 20.989333333333335,
                 21.14933333333333
             ]
         },
         {
-            "text": "you",
+            "text": "You",
             "timestamp": [
                 21.46933333333333,
                 21.629333333333335

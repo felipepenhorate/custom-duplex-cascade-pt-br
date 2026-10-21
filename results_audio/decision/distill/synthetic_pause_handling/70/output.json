@@ -1,5 +1,5 @@
 {
-    "text": "You're absolutely.",
+    "text": "You're absolutely",
     "chunks": [
         {
             "text": "You're",
@@ -9,7 +9,7 @@
             ]
         },
         {
-            "text": "absolutely.",
+            "text": "absolutely",
             "timestamp": [
                 13.280000000000001,
                 13.68

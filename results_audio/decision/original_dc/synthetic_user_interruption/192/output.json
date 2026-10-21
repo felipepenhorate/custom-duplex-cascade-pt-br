@@ -1,5 +1,5 @@
 {
-    "text": "Depending on the context, such as a hiking trail, a route on the other side of the person's particular interest, technology, health, travel, or any other identify the path. Feel free to share it. Is it a hiking training? And I'll do my best to provide information or street address related to it.",
+    "text": "Depending on the context, such as a hiking trail, a route on the other side of the path. Such as hobby, direct technology, health, travel, or any other identify the pathway in the topic you're trying to feel free to share it. Is it a hiking train? And I'll do my best to provide information or street address related to it.",
     "chunks": [
         {
             "text": "Depending",
@@ -117,35 +117,49 @@
             "text": "the",
             "timestamp": [
                 16.24266666666667,
-                16.322666666666667
+                16.24266666666667
             ]
         },
         {
-            "text": "person's",
+            "text": "path.",
             "timestamp": [
-                16.40266666666667,
-                16.562666666666665
+                16.24266666666667,
+                16.24266666666667
             ]
         },
         {
-            "text": "particular",
+            "text": "Such",
             "timestamp": [
-                16.562666666666665,
-                16.802666666666667
+                17.602666666666668,
+                17.682666666666666
             ]
         },
         {
-            "text": "interest,",
+            "text": "as",
             "timestamp": [
-                16.962666666666667,
-                17.04266666666667
+                17.682666666666666,
+                17.762666666666668
+            ]
+        },
+        {
+            "text": "hobby,",
+            "timestamp": [
+                17.842666666666666,
+                18.082666666666668
+            ]
+        },
+        {
+            "text": "direct",
+            "timestamp": [
+                18.322666666666667,
+                18.482666666666667
             ]
         },
         {
             "text": "technology,",
             "timestamp": [
                 18.482666666666667,
-                18.962666666666667
+                19.04266666666667
             ]
         },
         {
@@ -198,14 +212,56 @@
             ]
         },
         {
-            "text": "path.",
+            "text": "pathway",
             "timestamp": [
                 21.122666666666667,
-                21.202666666666666
+                21.842666666666666
             ]
         },
         {
-            "text": "Feel",
+            "text": "in",
+            "timestamp": [
+                22.482666666666667,
+                22.562666666666665
+            ]
+        },
+        {
+            "text": "the",
+            "timestamp": [
+                22.642666666666667,
+                22.72266666666667
+            ]
+        },
+        {
+            "text": "topic",
+            "timestamp": [
+                22.72266666666667,
+                22.882666666666665
+            ]
+        },
+        {
+            "text": "you're",
+            "timestamp": [
+                23.36266666666667,
+                23.442666666666668
+            ]
+        },
+        {
+            "text": "trying",
+            "timestamp": [
+                23.442666666666668,
+                23.522666666666666
+            ]
+        },
+        {
+            "text": "to",
+            "timestamp": [
+                23.522666666666666,
+                23.522666666666666
+            ]
+        },
+        {
+            "text": "feel",
             "timestamp": [
                 23.762666666666668,
                 23.842666666666666
@@ -268,7 +324,7 @@
             ]
         },
         {
-            "text": "training?",
+            "text": "train?",
             "timestamp": [
                 24.802666666666667,
                 24.882666666666665

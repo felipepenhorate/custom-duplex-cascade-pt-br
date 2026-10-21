@@ -1,5 +1,5 @@
 {
-    "text": "Absolutely. A tidy, well organized workspace can boost focus and productivity. Want to start with tips for keeping it clean or maybe setting up a productive routine?",
+    "text": "Absolutely. A tidy, well-organized workspace can boost focus and productivity. Want to start with tips for keeping it clean or maybe setting up a productive routine?",
     "chunks": [
         {
             "text": "Absolutely.",
@@ -23,16 +23,9 @@
             ]
         },
         {
-            "text": "well",
+            "text": "well-organized",
             "timestamp": [
                 16.642666666666667,
-                16.802666666666667
-            ]
-        },
-        {
-            "text": "organized",
-            "timestamp": [
-                16.882666666666665,
                 17.362666666666666
             ]
         },

@@ -1,5 +1,5 @@
 {
-    "text": "That sounds tough. Language classes can be Wow, that's a big shift. Harder than Orgo.",
+    "text": "That sounds tough. Language classes can be Wow, that's a big shift. Harder than Orgo?",
     "chunks": [
         {
             "text": "That",
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "text": "Orgo.",
+            "text": "Orgo?",
             "timestamp": [
                 26.48,
                 27.04

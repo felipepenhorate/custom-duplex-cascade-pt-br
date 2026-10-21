@@ -1,5 +1,5 @@
 {
-    "text": "I think you might have meant shit. Set an alarm for tomorrow's shoe. You're saying p sh. Yeah, saying PF. But it's really Pell? Wait. Uh, uh, I think you're trying to say PL, or maybe please.",
+    "text": "I think you might have meant shit. Set an alarm for tomorrow's shoe. You're saying p sh. Yeah, saying PF. But it's really Pell? Wait. Uh, uh, I think you're trying to say PL or maybe please.",
     "chunks": [
         {
             "text": "I",
@@ -233,7 +233,7 @@
             ]
         },
         {
-            "text": "PL,",
+            "text": "PL",
             "timestamp": [
                 29.741333333333333,
                 30.301333333333332
