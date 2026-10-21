@@ -738,10 +738,13 @@ distill variant degrades (0.955$\rightarrow$0.924, interruption TOR
 The ranking of the approaches is stable across languages, which is a good sign
 that it reflects the models rather than the run.
 
-The two language runs are parallel translations of the same synthetic
-scenarios, so the comparison is controlled---but it is not symmetric, and the
-asymmetry is worth naming because it produces an apparent inversion. The
-Portuguese stimuli are longer than their English originals, so the chunker
+The two language runs draw from the same generator, with the same scenario
+sizes, the same chunking and the same (parallel) topic inventories, so the
+comparison is controlled in distribution rather than dialogue by dialogue---the
+per-language seed offset means the two runs are different draws from that
+distribution. It is not symmetric, and the asymmetry is worth naming because it
+produces an apparent inversion. The Portuguese stimuli are longer than their
+English counterparts, so the chunker
 yields more pieces: the same 727 scenarios produce 5.78 user pieces against
 4.57, and every turn-taking rate is measured over those opportunities. The
 whole of the SFT inversion is therefore the pause term: pause TOR
