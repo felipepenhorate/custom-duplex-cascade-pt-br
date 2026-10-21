@@ -39,7 +39,7 @@
   "vi/pt": 2,
   "vi/unclear": 9
  },
- "label": "deployed_tags",
+ "label": "PT distill+deployed_tags",
  "results": "results_audio_pt_deployed_tags/decision/distill",
  "judge": "Qwen3.5-9B (local llama-server)",
  "judge_calls": 54,

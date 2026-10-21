@@ -1,20 +1,24 @@
 {
  "n_turns": 1462,
  "n_scenarios": 683,
- "turns_pt": 332,
- "turns_en": 1130,
- "turns_unclear": 0,
- "share_turns_pt": 0.2270861833105335,
- "share_scenarios_pt": 0.19912152269399708,
- "share_scenarios_any_pt": 0.232796486090776,
- "share_words_pt": 0.27769661553445335,
+ "labels": {
+  "en": 1087,
+  "pt": 375
+ },
+ "share_turns_pt": 0.25649794801641584,
+ "share_turns_en": 0.7435020519835841,
+ "share_turns_other": 0.0,
+ "other_breakdown": {},
+ "share_scenarios_pt": 0.2225475841874085,
+ "share_scenarios_any_pt": 0.26500732064421667,
+ "share_words_pt": 0.31316451586721855,
  "heuristic_agreement": {
-  "en/en": 934,
-  "en/pt": 29,
-  "en/unclear": 167,
-  "pt/en": 21,
-  "pt/pt": 295,
-  "pt/unclear": 16
+  "en/en": 927,
+  "en/pt": 2,
+  "en/unclear": 158,
+  "pt/en": 28,
+  "pt/pt": 322,
+  "pt/unclear": 25
  },
  "label": "EN sft",
  "results": "results_audio/decision/sft",

@@ -1,0 +1,33 @@
+{
+ "n_turns": 1318,
+ "n_scenarios": 679,
+ "labels": {
+  "pt": 1041,
+  "ko": 149,
+  "en": 128
+ },
+ "share_turns_pt": 0.7898330804248862,
+ "share_turns_en": 0.09711684370257967,
+ "share_turns_other": 0.11305007587253414,
+ "other_breakdown": {
+  "ko": 149
+ },
+ "share_scenarios_pt": 0.7731958762886598,
+ "share_scenarios_any_pt": 0.8055964653902798,
+ "share_words_pt": 0.8338992642897567,
+ "heuristic_agreement": {
+  "en/en": 2,
+  "en/pt": 115,
+  "en/unclear": 11,
+  "ko/en": 2,
+  "ko/pt": 117,
+  "ko/unclear": 30,
+  "pt/pt": 997,
+  "pt/unclear": 44
+ },
+ "label": "PT distill",
+ "results": "results_audio_pt/decision/distill",
+ "judge": "Qwen3.5-9B (local llama-server)",
+ "judge_calls": 132,
+ "judge_retries": 0
+}

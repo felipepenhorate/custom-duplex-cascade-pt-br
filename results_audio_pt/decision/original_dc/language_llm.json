@@ -1,0 +1,38 @@
+{
+ "n_turns": 993,
+ "n_scenarios": 454,
+ "labels": {
+  "pt": 829,
+  "en": 155,
+  "xx": 5,
+  "es": 3,
+  "zh": 1
+ },
+ "share_turns_pt": 0.8348439073514602,
+ "share_turns_en": 0.15609264853977844,
+ "share_turns_other": 0.00906344410876133,
+ "other_breakdown": {
+  "xx": 5,
+  "es": 3,
+  "zh": 1
+ },
+ "share_scenarios_pt": 0.8348017621145375,
+ "share_scenarios_any_pt": 0.8832599118942731,
+ "share_words_pt": 0.8936945061043285,
+ "heuristic_agreement": {
+  "en/en": 57,
+  "en/pt": 56,
+  "en/unclear": 42,
+  "es/pt": 2,
+  "es/unclear": 1,
+  "pt/pt": 737,
+  "pt/unclear": 92,
+  "xx/unclear": 5,
+  "zh/unclear": 1
+ },
+ "label": "PT original",
+ "results": "results_audio_pt/decision/original_dc",
+ "judge": "Qwen3.5-9B (local llama-server)",
+ "judge_calls": 101,
+ "judge_retries": 1
+}

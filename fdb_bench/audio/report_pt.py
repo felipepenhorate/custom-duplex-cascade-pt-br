@@ -45,14 +45,66 @@ def row(tag: str, o: dict | None):
     a = ata({"pause_synthetic_tor": p1, "pause_candor_tor": p2,
              "smooth_tor": sm, "intr_tor": it})
     return {"tag": tag, "pause_syn": p1, "pause_cand": p2, "bc": bc, "smooth": sm,
-            "smooth_lat": sml, "intr": it, "rel": rel, "intr_lat": itl, "ata": a}
+            "smooth_lat": sml, "intr": it, "rel": rel, "intr_lat": itl, "ata": a,
+            "raw": (1.0 - p1 + 1.0 - p2 + sm + it) / 4.0}
 
 
-def fmt(r) -> str:
+def language(results_dir: str) -> dict | None:
+    """The LLM-judged reply-language summary of a run, if it has one."""
+    p = Path(results_dir) / "language_llm.json"
+    if not p.is_file():
+        return None
+    return json.loads(p.read_text())
+
+
+_NON_LATIN = __import__("re").compile(
+    r"[\uac00-\ud7af\u1100-\u11ff\u3040-\u30ff\u4e00-\u9fff\u0400-\u04ff]")
+
+
+def drift(results_dir: str) -> dict:
+    """Objective non-Latin drift: replies containing (or opening with) a stray
+    non-Latin token.
+
+    The language judge answers "which language is this text", and a reply that
+    *opens* with a stray Korean interjection gets labelled Korean even when the
+    rest of it is English. This counts the artefact itself, with no judge and
+    no judgement call: the share of replies containing a non-Latin character,
+    and the share that open with one.
+    """
+    n = with_any = opens_with = 0
+    for td in Path(results_dir).glob("*/*/trace.json"):
+        d = json.loads(td.read_text())
+        for t in d.get("turns") or []:
+            txt = (t.get("text") or "")
+            if not txt.strip():
+                continue
+            n += 1
+            if _NON_LATIN.search(txt):
+                with_any += 1
+                if _NON_LATIN.match(txt.strip()):
+                    opens_with += 1
+    return {"n_turns": n, "with_non_latin": with_any, "opening_non_latin": opens_with,
+            "share_with": with_any / max(1, n), "share_opening": opens_with / max(1, n)}
+
+
+def fmt(r, results_dir: str = "") -> str:
+    tail = ""
+    lang = language(results_dir) if results_dir else None
+    if lang:
+        other = ", ".join(f"{k}:{v}" for k, v in
+                          list(lang.get("other_breakdown", {}).items())[:3])
+        tail = (f" | {lang.get('share_turns_pt', 0):.1%} / "
+                f"{lang.get('share_scenarios_pt', 0):.1%}"
+                f" | {other or '-'}")
+    else:
+        tail = ""
+    d = drift(results_dir) if results_dir else None
+    if d:
+        tail += f" | {d['share_with']:.1%} / {d['share_opening']:.1%}"
     return (f"| {r['tag']} | {r['pause_syn']:.3f} | {r['pause_cand']:.3f} | "
             f"{r['bc']:.3f} | {r['smooth']:.3f} | {r['smooth_lat']:.2f} | "
             f"{r['intr']:.3f} | {r['rel']:.2f} | {r['intr_lat']:.2f} | "
-            f"**{r['ata']:.3f}** |")
+            f"**{r['ata']:.3f}** | {r['raw']:.3f} |{tail}|")
 
 
 def main() -> None:
@@ -68,6 +120,12 @@ def main() -> None:
         "recogniser that reads the assistant's replies (whisper large-v3 "
         "`--language pt` vs the benchmark's English-only parakeet).",
         "",
+        "Two ATA columns: the project's convention with its two guards, and the "
+        "plain four-term mean (`raw`), which is what the published row is. The "
+        "reply-language columns are the local Qwen3.5-9B judging each assistant "
+        "turn `pt`, `en`, or another language: the share of turns in Portuguese "
+        "and the share of scenarios whose answers are, then the languages that "
+        "showed up in the rest.",
         "The Portuguese set is a re-voicing: the benchmark's own audio is "
         "segmented, translated, spoken by pocket-tts and put back on the "
         "timeline with the gaps preserved and the annotations re-timed "
@@ -76,29 +134,29 @@ def main() -> None:
         "",
         "## Portuguese (in-distribution for the three trained variants)",
         "",
-        "| model | pause_syn ↓ | pause_cand ↓ | BC TOR ↓ | smooth ↑ | smooth lat ↓ | intr ↑ | relevance ↑ | intr lat ↓ | **ATA** ↑ |",
-        "|---|---|---|---|---|---|---|---|---|---|",
+        "| model | pause_syn ↓ | pause_cand ↓ | BC TOR ↓ | smooth ↑ | smooth lat ↓ | intr ↑ | relevance ↑ | intr lat ↓ | **ATA** ↑ | ATA raw | reply in pt | other langs | non-latin drift |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     pt_rows = {}
     for m in MODELS:
         r = row(LABEL[m], load(f"results_audio_pt/decision/{m}/metrics_whisper.json"))
         if r:
             pt_rows[m] = r
-            L.append(fmt(r))
+            L.append(fmt(r, f"results_audio_pt/decision/{m}"))
     dep = row("Self-distillation, production configuration (deployed prompt, decision mode)",
-              load("results_audio_pt_deployed/decision/distill/metrics_whisper.json"))
+              load("results_audio_pt_deployed_tags/decision/distill/metrics_whisper.json"))
     if dep:
-        L.append(fmt(dep))
+        L.append(fmt(dep, "results_audio_pt_deployed_tags/decision/distill"))
 
     L += ["", "## English (out-of-distribution for the three trained variants)", "",
-          "| model | pause_syn ↓ | pause_cand ↓ | BC TOR ↓ | smooth ↑ | smooth lat ↓ | intr ↑ | relevance ↑ | intr lat ↓ | **ATA** ↑ |",
-          "|---|---|---|---|---|---|---|---|---|---|"]
+          "| model | pause_syn ↓ | pause_cand ↓ | BC TOR ↓ | smooth ↑ | smooth lat ↓ | intr ↑ | relevance ↑ | intr lat ↓ | **ATA** ↑ | ATA raw | reply in pt | other langs |",
+          "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     en_rows = {}
     for m in MODELS:
         r = row(LABEL[m], load(f"results_audio/decision/{m}/metrics.json"))
         if r:
             en_rows[m] = r
-            L.append(fmt(r))
+            L.append(fmt(r, f"results_audio/decision/{m}"))
 
     if pt_rows and en_rows:
         L += ["", "## The difference the rebuild was about", "",

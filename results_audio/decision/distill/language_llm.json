@@ -1,17 +1,24 @@
 {
  "n_turns": 1058,
  "n_scenarios": 649,
- "turns_pt": 3,
- "turns_en": 1055,
- "turns_unclear": 0,
- "share_turns_pt": 0.002835538752362949,
- "share_scenarios_pt": 0.004622496147919877,
- "share_scenarios_any_pt": 0.004622496147919877,
- "share_words_pt": 0.003801772375572274,
+ "labels": {
+  "en": 762,
+  "ko": 296
+ },
+ "share_turns_pt": 0.0,
+ "share_turns_en": 0.720226843100189,
+ "share_turns_other": 0.27977315689981097,
+ "other_breakdown": {
+  "ko": 296
+ },
+ "share_scenarios_pt": 0.0,
+ "share_scenarios_any_pt": 0.0,
+ "share_words_pt": 0.0,
  "heuristic_agreement": {
-  "en/en": 903,
-  "en/unclear": 152,
-  "pt/unclear": 3
+  "en/en": 666,
+  "en/unclear": 96,
+  "ko/en": 237,
+  "ko/unclear": 59
  },
  "label": "EN distill",
  "results": "results_audio/decision/distill",
