@@ -861,6 +861,65 @@ rather than the duration branch. The clock is therefore a documented approximati
 that does not drive any conclusion in this paper. The latency columns are measured
 inference compute and are unaffected by it by construction.
 
+\subsection{The distilled model's prompt, and its degeneration}
+\label{sec:abl_prompt}
+
+The arms above are text-domain. This one is on the real Portuguese audio
+(\S\ref{sec:audio_pt}), and it changes one factor: the system prompt. The
+distilled model is trained on data that carries no system item at all, so the
+training distribution is an empty prompt; the prompt the shipped bridge uses is
+the one in \texttt{DuplexCascade/server.py}, which forbids the protocol tags
+(``\emph{Responda apenas com a fala---não imprima nenhuma tag especial}'').
+We also measure the variant that forbids nothing, replacing that one clause with
+a permission to use the tags---the same edit that distinguishes the teacher's two
+prompts---so the model can express the protocol itself and the prompt is the
+only thing that changed.
+
+\begin{table*}[t]
+\centering
+\caption{The distilled model with and without a system prompt, on the rebuilt
+Portuguese audio (727 scenarios each, read by \texttt{faster-whisper large-v3} in
+Portuguese). The last three columns are the degeneration: the share of replies
+opening with a stray non-Latin token, the mean reply length, and how many times
+the model takes the floor.}
+\label{tab:abl_prompt}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccccccccc}
+\toprule
+Arm & Prompt & Pause cand TOR $\downarrow$ & BC TOR $\downarrow$ & Smooth TOR $\uparrow$ & Floor lat.\,(s) $\downarrow$ & Intr.\ relevance $\uparrow$ & ATA $\uparrow$ & ATA raw & Stray-token replies & Words/turn & Floor takes \\
+\midrule
+main   & none (training distribution) & 0.157 & 0.364 & 0.378 & 2.36 & 1.56 & 0.378 & 0.650 & 18.8\% & 34.4 & 1422 \\
+A4     & production prompt, tags permitted & \textbf{0.148} & \textbf{0.145} & 0.143 & \textbf{0.22} & \textbf{3.36} & 0.143 & 0.550 & \textbf{4.8\%} & \textbf{14.7} & 909 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+
+\paragraph{The prompt fixes the degeneration, and pays in commitment.} With no
+prompt the distilled model answers in a degenerate register: its replies open
+with a stray non-Latin token in 18.8\% of cases, they run to 34 words, and the
+interruption relevance is 1.56, against 3.10 for SFT and 3.19 for the
+companion on the same set. The
+production prompt removes almost all of it---the stray token drops to 4.8\%, the
+replies to 14.7 words, the relevance more than doubles to 3.36, and the floor
+latency falls by an order of magnitude, 2.36\,s to 0.22\,s---and the backchannel
+and pause columns improve with it, because the model stops talking over
+monologues. What it costs is commitment: the model takes the floor 909 times
+instead of 1422 and its smooth-turn TOR falls from 0.378 to 0.143, so the
+guarded ATA collapses to 0.143 while the plain four-term mean is 0.550. The
+degeneration is thus a token-level artefact of the no-prompt setting rather than
+a property of the distillation, and it is fixable at the prompt level.
+
+\paragraph{Why the prompt and the priming belong together.} The production
+prompt is what the bridge ships, but the bridge also \emph{primes} the model
+with \texttt{<|user finish speaking|>} at the end of each user turn, and the
+prompt's ban on tags is why it has to: with the tags forbidden the model cannot
+say ``the user has finished'', so the turn decision has to come from somewhere
+else. The arm above isolates the prompt---decision mode, no priming---and is a
+diagnostic rather than a product configuration; the shipped product runs the
+prompt \emph{and} the priming.
+
 \subsection{Anchoring strength and capability retention}
 \label{sec:abl_lambda}
 The retention result of Section~\ref{sec:results}---distillation keeps function
@@ -1004,9 +1063,9 @@ Model & Pause TOR\textsubscript{syn} $\downarrow$ & Pause TOR\textsubscript{cand
 \midrule
 \emph{published DuplexCascade}    & \emph{0.058} & \emph{0.222} & \emph{0.218} & \emph{0.832} & \emph{1.72} & \emph{0.955} & \emph{4.02} & \emph{1.23} & \emph{0.858} \\
 \midrule
-Original DuplexCascade (upstream) & 0.088 & 0.190 & 0.182 & 0.630 & 1.48 & 0.945 & 3.67 & 1.46 & \textbf{0.824} \\
-Self-distillation                 & 0.226 & 0.269 & 0.345 & 0.706 & 3.82 & 0.605 & 1.49 & 2.70 & 0.704 \\
-SFT (original recipe)             & 0.825 & 0.713 & 0.673 & \textbf{0.866} & \textbf{0.33} & 0.930 & 3.11 & \textbf{0.65} & 0.564 \\
+Original DuplexCascade (upstream) & 0.088 & 0.190 & 0.164 & 0.630 & 1.48 & 0.945 & 3.66 & 1.46 & \textbf{0.824} \\
+Self-distillation                 & 0.219 & 0.264 & 0.345 & 0.697 & 3.80 & 0.605 & 1.47 & 2.71 & 0.704 \\
+SFT (original recipe)             & 0.825 & 0.713 & 0.673 & \textbf{0.866} & \textbf{0.34} & 0.930 & 3.09 & \textbf{0.65} & 0.564 \\
 Companion (MTP-style)             & 0.920 & 0.829 & 0.782 & 0.891 & 0.61 & 0.935 & \textbf{4.40} & 1.05 & 0.519 \\
 \bottomrule
 \end{tabular}%
@@ -1039,46 +1098,188 @@ audio---a dedicated timing head, an untouched content model---with the timing he
 transferring badly to English and the content model not having to.
 
 \paragraph{Language of the reply.} The audio run adds a constraint the text run did
-not have: the scorer's ASR is English-only, so a Portuguese reply reaches the
-relevance judge as a pseudo-English transcript. Measuring it
-(\texttt{output\_language.py}: discriminative function words plus diacritics)
-explains a column that would otherwise look like a content failure. SFT answers in
-Portuguese for 25\% of its turns, and for 33\% on the interruption subset, while
-distillation and the companion answer entirely in English
-(Table~\ref{tab:audio_lang}). SFT's interruption relevance of 3.11 against the
-companion's 4.40 is partly that: a third of its replies are in the wrong language
-for the judge. The split is systematic rather than accidental---SFT is trained only
-on pt-BR duplex data, whereas distillation is anchored to the base model
-everywhere except the tags, and the companion's content comes from the stock model.
+not have: the benchmark's own scorer is English-only, so a Portuguese reply
+reaches the relevance judge as a pseudo-English transcript. We measure it with
+the local model rather than with a heuristic: the Qwen3.5-9B that answers the
+benchmark's interruption rubric labels every assistant turn \texttt{pt},
+\texttt{en}, or another language (Table~\ref{tab:audio_lang}). On the English
+set, SFT answers in Portuguese for 26\% of its turns and the other three models
+answer entirely in English; SFT's interruption relevance of 3.09 against the
+companion's 4.40 is partly that---a quarter of its replies are in the wrong
+language for the judge. The split is systematic rather than accidental: SFT is
+trained only on pt-BR duplex data, whereas distillation is anchored to the base
+model everywhere except the tags, and the companion's content comes from the
+stock model.
 
 \begin{table}[t]
 \centering
-\caption{Invitations and reply language on real audio. ``P(floor)'' is the
-probability of taking the floor given an invitation---the per-scenario TOR of
+\caption{Invitations on real audio. ``P(floor)'' is the probability of taking
+the floor given an invitation---the per-scenario TOR of
 Tables~\ref{tab:fdb2} and~\ref{tab:audio_ours} is that rate times the number of
 invitations, which is why the two harnesses cannot be compared on the scenario
-figure alone. The language columns are the share of assistant turns classified as
-Portuguese.}
+figure alone.}
 \label{tab:audio_inv}
 \footnotesize
 \resizebox{\columnwidth}{!}{%
-\begin{tabular}{lcccc}
+\begin{tabular}{lccc}
 \toprule
-Model & P(floor) text & P(floor) audio & PT turns & PT turns (intr.) \\
+Model & P(floor) text & P(floor) audio & P(floor) audio, pt set \\
 \midrule
-Original DuplexCascade (upstream) & 0.119 & \textbf{0.079} & 0.004 & 0.000 \\
-Self-distillation                 & 0.081 & 0.294 & 0.000 & 0.000 \\
-SFT (original recipe)             & 0.086 & 0.397 & 0.253 & 0.333 \\
-Companion (MTP-style)             & 0.086 & 0.441 & 0.000 & 0.000 \\
+Original DuplexCascade (upstream) & 0.119 & \textbf{0.079} & 0.129 \\
+Self-distillation                 & 0.081 & 0.294 & 0.460 \\
+SFT (original recipe)             & 0.086 & 0.397 & 0.527 \\
+Companion (MTP-style)             & 0.086 & 0.441 & 0.521 \\
 \bottomrule
 \end{tabular}%
 }
 \end{table}
 
+\begin{table*}[t]
+\centering
+\caption{Reply language on real audio, judged by the local model. Every assistant
+turn is labelled \texttt{pt}, \texttt{en} or another language by the Qwen3.5-9B
+that answers the benchmark's interruption rubric. The ``main language'' column is
+the same judgement on the same reply with a stray leading token removed, and the
+last column counts non-Latin tokens directly, with no judgement call---the
+distilled model's replies open with one (\S\ref{sec:abl_prompt}).}
+\label{tab:audio_lang}
+\footnotesize
+\begin{tabular}{llccccccc}
+\toprule
+Set & Model & pt & en & other & main language & non-Latin (any) & (opening) \\
+\midrule
+EN & Original DuplexCascade (upstream) & 0.0\% & 100.0\% & 0.0\% & --- & 1.0\% & 0.0\% \\
+EN & SFT (original recipe)             & 25.6\% & 74.4\% & 0.0\% & --- & 0.1\% & 0.0\% \\
+EN & Self-distillation                 & 0.0\% & 72.0\% & \textbf{28.0\%} & 97.1\% en & \textbf{61.1\%} & \textbf{60.6\%} \\
+EN & Companion (MTP-style)             & 0.0\% & 100.0\% & 0.0\% & --- & 0.0\% & 0.0\% \\
+\midrule
+PT & Original DuplexCascade (upstream) & 83.5\% & 15.6\% & 0.9\% & --- & 0.7\% & 0.1\% \\
+PT & SFT (original recipe)             & \textbf{98.6\%} & 1.4\% & 0.0\% & --- & 0.0\% & 0.0\% \\
+PT & Self-distillation                 & 79.0\% & 9.7\% & 11.3\% & 88.9\% pt & 19.0\% & 18.8\% \\
+PT & Companion (MTP-style)             & 94.6\% & 5.4\% & 0.0\% & --- & 0.0\% & 0.0\% \\
+PT & Self-distillation, production prompt & 81.4\% & 12.6\% & 5.9\% & 82.9\% pt & 7.6\% & 4.8\% \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{The same benchmark in Portuguese}
+\label{sec:audio_pt}
+
+The three variants are fine-tuned on pt-BR duplex data, so a Portuguese
+re-voicing of the benchmark is their \emph{in-distribution} set and the English
+recording is out-of-distribution for them---and the comparison between the two
+is the one that says whether the protocol generalises at all. Building that set
+honestly took a repair, because the first version inverted the comparison and we
+only found out by auditing the evaluation rather than the models.
+
+\paragraph{The re-voicing has to keep the recording's shape.} The Portuguese set
+is the benchmark's own audio, segmented with the benchmark's own detector,
+translated, spoken by the synthesiser and put back on the timeline. The obvious
+way to put it back---time-fit each translated span into the English span it
+replaces and pad the remainder with silence---is wrong, and the reason is
+mechanical: the pad is silence \emph{inside} the user's turn, the harness's
+0.6\,s silence gate fires on it, and the model is invited to take the floor in
+the middle of a sentence. In the first build 30\% of the segments carried such a
+pad, and the turn-end invitations that fell in silence the benchmark does not
+annotate as a pause went from 58 on the English recording to 303 on the
+Portuguese one, over the same 353 scenarios. Every model answered more often
+because of it, the English-trained upstream release included, so the artefact
+could not be a language effect.
+
+The set is therefore rebuilt with nothing stretched and nothing padded: the
+Portuguese speaker keeps their own speed, the gap between two consecutive spans
+keeps its length, and the annotations are re-timed with the same map. A
+structural gate then compares the result with the recording it was made from---speech
+fraction, spans, gaps of 0.6\,s or more, and silence outside the benchmark's own
+pause windows---and the rebuilt set matches it (speech fraction 0.549 against
+0.583, long gaps 0.94 against 0.98 per scenario, phantom silence 8.51\,s against
+8.44\,s). The gate is what caught a second-order version of the same defect:
+the synthesiser pauses for longer than 100\,ms at punctuation, which split the
+user's turns in two, so the spans now have to occupy their slots the way the
+recorded spans did.
+
+\paragraph{One recogniser, two languages.} The benchmark's scorer is English-only
+and the two synthesised voices differ by 12.6\,dB, so every rendered reply is
+peak-normalised before it is read---in both sets---and the Portuguese set is read
+with \texttt{faster-whisper large-v3} in Portuguese while the English set keeps
+the benchmark's parakeet for the published comparison. The language comparison
+below reads \emph{both} sets with the same recogniser and changes only the
+language setting, because two recognisers measure two things.
+
+\begin{table*}[t]
+\centering
+\caption{The four models on the Portuguese re-voicing of FDB v1.0 (727 scenarios
+each), read by \texttt{faster-whisper large-v3} in Portuguese. ``ATA raw'' is the
+plain four-term mean; the guarded column is the project's convention, whose
+$0.5$ cliff (smooth TOR below 0.5 collapses ATA to smooth) turns \emph{late} into
+\emph{mute}. The last row is the distilled model in its production configuration
+(\S\ref{sec:abl_prompt}).}
+\label{tab:audio_pt}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccccc}
+\toprule
+Model & Pause TOR\textsubscript{syn} $\downarrow$ & Pause TOR\textsubscript{cand} $\downarrow$ & BC TOR $\downarrow$ & Smooth TOR $\uparrow$ & Floor lat.\,(s) $\downarrow$ & Intr.\ TOR $\uparrow$ & Intr.\ relevance $\uparrow$ & Intr.\ lat.\,(s) $\downarrow$ & \textbf{ATA} $\uparrow$ & ATA raw \\
+\midrule
+Original DuplexCascade (upstream) & 0.234 & 0.315 & \textbf{0.182} & \textbf{0.639} & 1.31 & \textbf{0.870} & 1.94 & 0.97 & \textbf{0.740} & 0.740 \\
+SFT (original recipe)             & 0.883 & 0.843 & 0.909 & 0.849 & \textbf{0.26} & 0.855 & 3.10 & \textbf{0.51} & 0.494 & 0.494 \\
+Self-distillation                 & \textbf{0.212} & 0.157 & 0.364 & 0.378 & 2.36 & 0.590 & 1.56 & 3.85 & 0.378 & \textbf{0.650} \\
+Companion (MTP-style)             & 0.730 & 0.806 & 0.836 & 0.782 & 0.97 & 0.835 & 3.19 & 1.10 & 0.520 & 0.520 \\
+Self-distillation, production prompt & 0.380 & \textbf{0.148} & \textbf{0.145} & 0.143 & 0.22 & 0.585 & \textbf{3.36} & 0.48 & 0.143 & 0.550 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{In-distribution against out-of-distribution, read by the same recogniser
+with only the language setting changing. Portuguese is the in-distribution set
+for the three trained variants, so a negative $\Delta$ means the model did
+\emph{less} well on its own language; the upstream release is English-trained, so
+for it the sign is expected to point the other way. The last four columns say
+where the difference lives.}
+\label{tab:audio_delta}
+\footnotesize
+\begin{tabular}{lccccccc}
+\toprule
+Model & ATA EN (OOD) & ATA PT (ID) & $\Delta$ ATA & $\Delta$ raw & $\Delta$ pause cand & $\Delta$ backchannel & $\Delta$ smooth \\
+\midrule
+Original DuplexCascade (upstream) & 0.821 & 0.740 & $-0.081$ & $-0.081$ & $+0.120$ & $+0.000$ & $+0.008$ \\
+SFT (original recipe)             & 0.556 & 0.494 & $-0.062$ & $-0.062$ & $+0.116$ & $+0.255$ & $-0.008$ \\
+Self-distillation                 & 0.682 & 0.378 & $-0.304$ & $-0.032$ & $-0.139$ & $-0.036$ & $-0.311$ \\
+Companion (MTP-style)             & 0.515 & 0.520 & $+0.005$ & $+0.005$ & $-0.032$ & $+0.073$ & $-0.109$ \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\paragraph{Out-of-distribution no longer beats in-distribution.} On the rebuilt
+set the companion is level ($+0.005$), the distilled model's real gap is $-0.032$
+(its $-0.304$ is the guard's cliff, not a Portuguese-capability gap), and the
+upstream release points the other way, as an English-trained model should. What
+remains is one asymmetry of the re-voicing itself: on the synthesised Portuguese
+speech every model---the upstream release included---takes the floor more often
+than on the English recording, which is what moves SFT's backchannel column by
+$+0.255$ and the upstream release's pause columns by $+0.12$. That is a property
+of the re-voiced audio, not of the models' Portuguese.
+
+\paragraph{The distilled model's degeneration is a token, not a language.} On the
+English set the language judge calls 28\% of the distilled model's replies
+Korean. They are not: the reply opens with a stray token (\emph{아!}) and the
+body is English---61\% of its English replies contain such a token and 61\%
+open with one, against \textbf{zero} for every other model. Strip the leading
+token and the model is answering in its own language 97\% of the time
+(Table~\ref{tab:audio_lang}). On the Portuguese set the same artefact is milder
+(19\% of replies) and the production prompt removes most of it
+(\S\ref{sec:abl_prompt}), which is what makes it a fixable problem rather than
+a property of the distillation.
+
 \paragraph{Caveats.} These rows are a pipeline measurement, not a live session:
 response latency excludes network jitter and audio-device buffering, one seed per
-configuration, and the audio run is English-only because the benchmark is, so the
-pt-BR models are measured cross-lingually. Replies that begin after the input ends
+configuration, and the Portuguese set is a re-voicing rather than a native
+recording: the synthesised speaker is not the one who produced the pauses, and
+its transcript is a machine translation of a machine transcript
+(\S\ref{sec:audio_pt}). Replies that begin after the input ends
 are audible here only because the render carries a 4\,s tail---upstream's own
 outputs are exactly input-length---and the trace keeps both readings
 (\texttt{spoke} versus \texttt{audible\_within\_input}); 2.8\% of the upstream's
