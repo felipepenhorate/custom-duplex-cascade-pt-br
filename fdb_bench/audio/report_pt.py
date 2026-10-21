@@ -87,6 +87,19 @@ def drift(results_dir: str) -> dict:
             "share_with": with_any / max(1, n), "share_opening": opens_with / max(1, n)}
 
 
+def _words_per_turn(results_dir: str) -> float:
+    """Mean length of an assistant turn, in words (the degeneracy column)."""
+    n = 0.0
+    c = 0
+    for td in Path(results_dir).glob("*/*/trace.json"):
+        d = json.loads(td.read_text())
+        for t in d.get("turns") or []:
+            if (t.get("text") or "").strip():
+                n += t.get("n_words") or 0
+                c += 1
+    return n / max(1, c)
+
+
 def fmt(r, results_dir: str = "") -> str:
     tail = ""
     lang = language(results_dir) if results_dir else None
@@ -157,6 +170,40 @@ def main() -> None:
         if r:
             en_rows[m] = r
             L.append(fmt(r, f"results_audio/decision/{m}"))
+
+    # ------------------------------------------------ the degeneration table
+    L += ["", "## The distilled model's degeneration, and the prompt that fixes it",
+          "",
+          "The language judge labels a reply by the language it judges the turn "
+          "to be in, and it reads a turn from its first word. The distilled "
+          "model opens many replies with a stray non-Latin token "
+          "(\"\uc544! You're saying you know *a lot* of people ...\"), so the "
+          "judge calls those turns Korean even though the body of the reply is "
+          "in the model's own language. The `main language` column is the same "
+          "judgement on the same reply with that leading token removed: it is "
+          "what the model was actually saying.",
+          "",
+          "| run | reply: pt / en / other | main language: pt / en / other | replies opening with a stray token | words per turn | replies | relevance | floor latency | ATA |",
+          "|---|---|---|---|---|---|---|---|---|---|"]
+    for label, res in (("PT, no prompt", "results_audio_pt/decision/distill"),
+                       ("PT, production prompt", "results_audio_pt_deployed_tags/decision/distill"),
+                       ("EN, no prompt", "results_audio/decision/distill")):
+        lang = language(res)
+        clean = json.loads((Path(res) / "language_llm_clean.json").read_text()) \
+            if (Path(res) / "language_llm_clean.json").is_file() else None
+        m = row(LABEL["distill"], load(Path(res) / "metrics_whisper.json")) or \
+            row(LABEL["distill"], load(Path(res) / "metrics.json"))
+        d = drift(res)
+        if not (lang and m):
+            continue
+        L.append(
+            f"| {label} | {lang.get('share_turns_pt',0):.1%} / "
+            f"{lang.get('share_turns_en',0):.1%} / {lang.get('share_turns_other',0):.1%} | "
+            + (f"{clean.get('share_turns_pt',0):.1%} / {clean.get('share_turns_en',0):.1%} / "
+               f"{clean.get('share_turns_other',0):.1%} | "
+               if clean else "| | ")
+            + f"{d['share_opening']:.1%} | {_words_per_turn(res):.1f} | "
+              f"{m['rel']:.2f} | {m['smooth_lat']:.2f} s | {m['ata']:.3f} (raw {m['raw']:.3f}) |")
 
     if pt_rows and en_rows:
         L += ["", "## The difference the rebuild was about", "",

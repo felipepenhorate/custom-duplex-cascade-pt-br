@@ -74,6 +74,24 @@ def _normalise(label: str) -> str:
     return lab if lab in ("pt", "en") else (lab[:2] if len(lab) >= 2 else "xx")
 
 
+# A stray non-Latin token at the head of a reply: the distilled model's
+# degeneration ("아! You're saying you know *a lot* of people ..."). The body
+# of the turn is in the model's main language; the token is not a reply in
+# another language, and a language judge that reads the turn from its first
+# word will label the whole thing Korean.
+_LEAD_DRIFT = re.compile(
+    r"^[\s!.,?…:;\-–—()\[\]\"\']*"
+    r"([\uac00-\ud7af\u1100-\ud7ff\u3040-\u30ff\u4e00-\u9fff\u0400-\u04ff]+)")
+
+
+def strip_leading_drift(text: str) -> tuple[str, str | None]:
+    """The reply without its leading stray token, and the token itself."""
+    m = _LEAD_DRIFT.match(text)
+    if not m:
+        return text, None
+    return text[m.end():].lstrip(" \t!.,?…:;\u2014\u2013"), m.group(1)
+
+
 def _turns(root: Path) -> list[dict]:
     """Every assistant turn of a run, with its scenario key."""
     out = []
@@ -178,6 +196,10 @@ def main() -> None:
                          "one holding <subset>/<sid>/trace.json")
     ap.add_argument("--judge-api-base", default="http://127.0.0.1:8099/v1")
     ap.add_argument("--batch", type=int, default=BATCH)
+    ap.add_argument("--clean", action="store_true",
+                    help="judge the reply with its leading stray non-Latin token "
+                         "removed, which is what the model's main language is; "
+                         "writes <results dir>/language_llm_clean.json")
     ap.add_argument("--out", type=Path, default=None,
                     help="summary file (default: <results dir>/language_llm.json "
                          "per run, plus the printed table)")
@@ -190,6 +212,24 @@ def main() -> None:
         turns = _turns(root)
         if not turns:
             print(f"{label}: no traces under {root}")
+            continue
+        if args.clean:
+            cleaned, removed = [], 0
+            for t in turns:
+                body, tok = strip_leading_drift(t["text"])
+                if tok:
+                    removed += 1
+                cleaned.append({**t, "text": body or t["text"]})
+            res = judge(cleaned, args.judge_api_base, batch=args.batch)
+            summary = summarise(cleaned, res["labels"])
+            summary["leading_drift_removed"] = removed
+            summary["leading_drift_share"] = removed / max(1, len(turns))
+            (root / "language_llm_clean.json").write_text(
+                json.dumps(summary, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(f"{label:22s} CLEAN: pt {summary['share_turns_pt']:6.1%} "
+                  f"en {summary['share_turns_en']:6.1%} other "
+                  f"{summary['share_turns_other']:6.1%} | leading drift removed "
+                  f"{removed}/{len(turns)} ({removed/max(1,len(turns)):.0%})", flush=True)
             continue
         res = judge(turns, args.judge_api_base, batch=args.batch)
         summary = summarise(turns, res["labels"])
