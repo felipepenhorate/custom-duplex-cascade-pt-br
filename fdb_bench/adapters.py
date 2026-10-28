@@ -702,6 +702,7 @@ PROMPT_CANDIDATES: dict[str, list[str]] = {
     "mtp_like":  ["none", "instruction"],
     "laya_companion": ["none"],
     "laya_companion_v7": ["none"],
+    "laya_companion_commercial": ["none"],
     "base":      ["none", "deployed", "tag"],
     "original_dc": ["none", "deployed"],
     "original_dc_hf": ["none", "deployed"],
@@ -729,6 +730,7 @@ DEFAULT_PROMPT_CANDIDATE: dict[str, str] = {
     "mtp_like": "instruction",
     "laya_companion": "none",
     "laya_companion_v7": "none",
+    "laya_companion_commercial": "none",
     "base": "none",
     # the original runs with no system item by default, matching how the
     # three pt-BR variants are measured; "deployed" (a neutral prompt) is

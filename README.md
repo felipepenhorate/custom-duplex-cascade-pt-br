@@ -41,6 +41,9 @@ chunker, so that comparison is cross-arm. Audio ATA is computed from the task
 TORs with the same orientation and smooth-turn gate. Full tables:
 [`laya_approach/ATA.md`](./laya_approach/ATA.md).
 
+Commercial/permissive training recipe (MIT-only data, no CANDOR/ICC):
+[`laya_approach/COMMERCIAL.md`](./laya_approach/COMMERCIAL.md).
+
 ## Which one do I want?
 
 - **Distill (recommended)** — `distill/`: same duplex behavior, but keeps

@@ -364,6 +364,15 @@ MODEL_REGISTRY: dict[str, dict[str, Any]] = {
         "system": "",
         "label": "Laya companion v7 (stream contract + deferred silence + stock Qwen3-4B)",
     },
+    "laya_companion_commercial": {
+        "kind": "policy_companion",
+        "policy": "laya",
+        "variant": "laya_companion_commercial",
+        "companion": REPO_ROOT.parent / "laya_approach/runs/laya_companion_commercial/merged",
+        "big_gguf": None,
+        "system": "",
+        "label": "Laya companion commercial (MIT-only data, synthetic audio)",
+    },
     "base": {
         "kind": "llama_duplex",
         "variant": "sft",  # same protocol vocabulary, but UNTRAINED control
