@@ -280,6 +280,57 @@ from not taking a formal turn). The v7 audio metrics use faster-whisper
 mtp_like audio scores used large-v3. Compare TOR directionally, not to the last
 decimal.
 
+## Using the policy
+
+Source, training code and the full benchmark suite:
+**https://github.com/felipepenhorate/custom-duplex-cascade-pt-br/tree/main/laya_approach**
+
+```bash
+# from the GitHub checkout, with the .venv-unsloth environment
+source .venv-unsloth/bin/activate
+
+# published v7 checkpoint (Apache-2.0 Laya base; weights are CC BY-NC 4.0)
+huggingface-cli download lumierenoir/laya-duplex-cascade-pt-br \
+    --repo-type model --local-dir models/laya-companion
+```
+
+```python
+from laya_approach.policy import load
+
+# stream="text" for the text bench/live text; "audio" for the VAD stream
+policy = load("models/laya-companion", device="cuda", stream="text")
+
+items = [
+    {"role": "assistant", "text": "Claro, posso ajudar."},
+    {"role": "user", "text": "Eu queria saber",
+     "kind": "partial", "ends_turn": False, "system_speaking": False},
+]
+tag, probs = policy(items)
+assert tag == "user_is_speaking"
+
+items.append({"role": "user", "text": "o prazo de entrega",
+              "kind": "final", "ends_turn": True, "system_speaking": False})
+tag, probs = policy(items)   # "user_finish_speaking": run the content model
+```
+
+The newest item is always the user's stream event. `kind` is `partial`,
+`final` or `silence`; `ends_turn` is the semantic turn end for `text` and the
+VAD utterance end for `audio`; `system_speaking` is true while assistant audio
+is audible. Feed explicit silence ticks with `kind="silence"` and `text=""`.
+The audio contract expects the final plus the first two post-final ticks, and
+waits through pause/backchannel silence.
+
+Pass **incremental** pieces, not a cumulative transcript repeated on every
+event: a final that only adds punctuation to the preceding partial is
+ambiguous, and the policy waits for more speech. For a cumulative ASR
+transcript, send only the new suffix.
+
+`query`/`__call__` returns the tag and all seven probabilities. The runtime
+guard is on by default (`LAYA_GUARD=0` or `guard=False` to disable). Full
+docstrings, including the licensing note, are in
+[`policy/laya_policy.py`](./policy/laya_policy.py); the permissive retraining
+recipe is in [`COMMERCIAL.md`](./COMMERCIAL.md).
+
 ## FDB integration
 
 The companion is registered as `laya_companion` / `laya_companion_v2` /
