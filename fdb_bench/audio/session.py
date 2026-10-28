@@ -261,7 +261,15 @@ class AudioDuplexSession:
                     "t_start": ev.t_start, "t_end": ev.t_end, "t_avail": ev.t_avail,
                     "ends_turn": False, "utt": ev.utt_index,
                 })
-                items.append({"role": "user", "text": marker})
+                items.append({
+                    "role": "user",
+                    "text": marker,
+                    "kind": "silence",
+                    "ends_turn": False,
+                    "system_speaking": bool(
+                        speaking is not None and speaking.end > ev.t_avail
+                    ),
+                })
                 t_dec = ev.t_avail
                 tag, text = self.adapter.act(items)
                 res.n_decisions += 1
@@ -302,7 +310,15 @@ class AudioDuplexSession:
             if ev.ends_turn:
                 res.utt_finalized += 1
 
-            items.append({"role": "user", "text": ev.text})
+            items.append({
+                "role": "user",
+                "text": ev.text,
+                "kind": ev.kind,
+                "ends_turn": bool(ev.ends_turn),
+                "system_speaking": bool(
+                    speaking is not None and speaking.end > ev.t_avail
+                ),
+            })
             t_dec = ev.t_avail
 
             tag, text = self.adapter.act(items)

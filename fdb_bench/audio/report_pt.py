@@ -21,8 +21,9 @@ from fdb_bench.metrics import averaged_turn_taking_accuracy as ata
 LABEL = {"original_dc": "Original DuplexCascade (upstream)",
          "sft": "SFT (pt-BR)",
          "distill": "Self-distillation (pt-BR)",
-         "mtp_like": "Companion (MTP-style)"}
-MODELS = ("original_dc", "sft", "distill", "mtp_like")
+         "mtp_like": "Companion (MTP-style)",
+         "laya_companion": "Companion (Laya multilingual)"}
+MODELS = ("original_dc", "sft", "distill", "mtp_like", "laya_companion")
 
 
 def load(p) -> dict | None:

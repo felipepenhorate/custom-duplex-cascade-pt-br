@@ -1,0 +1,34 @@
+{
+  "model": "laya_companion_v7",
+  "label": "Laya companion v7 (stream contract + deferred silence + stock Qwen3-4B)",
+  "kind": "policy_companion",
+  "lang": "pt",
+  "tasks": [
+    "pause_candor",
+    "pause_synthetic",
+    "smooth_turn",
+    "backchannel_icc",
+    "interruption_synthetic"
+  ],
+  "limit": null,
+  "seed": 1234,
+  "prime_mode": "decision",
+  "prompt_candidate": "none",
+  "system_prompt": "<none>",
+  "words_per_second": 3.25,
+  "chunker": "word",
+  "chunker_fn": "word_chunker",
+  "turn_style": "training",
+  "n_server_rejected": 0,
+  "n_scenarios": 727,
+  "n_errors": 0,
+  "wall_s": 811.1,
+  "git_rev": "93a88a33",
+  "generation": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "max_tokens": 96
+  },
+  "adapter": "LayaPolicyAdapter",
+  "judge": "Qwen3.5-9B-UD-Q4_K_XL.gguf (see fdb_bench/judge.py)"
+}

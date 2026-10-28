@@ -13,6 +13,34 @@ arXiv:2603.09180):
 The whole point of the `distill/` version: learn the duplex micro-turn protocol
 without the capability regression that the plain SFT fine-tune shows.
 
+## Laya typed-decision companion (v7)
+
+[`laya_approach/`](./laya_approach/) adds a 322M-parameter **Laya multilingual**
+typed decision companion to the cascade. It chooses one of seven protocol tags
+from the stream event and hands the floor to the same stock Qwen3-4B content
+model; it never writes content itself. v7 introduces an explicit
+`stream: text|audio` contract and a deferred-silence rule for audio, which fixes
+the over-eager `user_finish_speaking` behavior.
+
+The full training code, data pipeline, evaluation scripts and model card are in
+[`laya_approach/`](./laya_approach/README.md). The released checkpoint is
+[`lumierenoir/laya-duplex-cascade-pt-br`](https://huggingface.co/lumierenoir/laya-duplex-cascade-pt-br).
+
+Averaged turn-taking accuracy (ATA) against the existing arms:
+
+| | pt text | en text | pt audio | en audio |
+|---|---:|---:|---:|---:|
+| **Laya companion v7** | **1.000** | **1.000** | **0.849** | **0.862** |
+| MTP-like (0.8B companion) | 0.973 | 0.984 | 0.520 | 0.515 |
+| SFT | 0.971 | 0.986 | - | - |
+| Distill | 0.955 | 0.924 | - | - |
+| Original DuplexCascade | 0.896 | 0.951 | - | - |
+
+Text results use the word chunker; the MTP-like text baseline used the training
+chunker, so that comparison is cross-arm. Audio ATA is computed from the task
+TORs with the same orientation and smooth-turn gate. Full tables:
+[`laya_approach/ATA.md`](./laya_approach/ATA.md).
+
 ## Which one do I want?
 
 - **Distill (recommended)** — `distill/`: same duplex behavior, but keeps

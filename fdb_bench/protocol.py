@@ -345,6 +345,25 @@ MODEL_REGISTRY: dict[str, dict[str, Any]] = {
         "system": MTP_COMPANION_SYSTEM,
         "label": "MTP-like (0.8B policy companion + stock Qwen3-4B)",
     },
+    "laya_companion": {
+        "kind": "policy_companion",
+        "policy": "laya",
+        "variant": "laya_companion",
+        "companion": REPO_ROOT.parent / "laya_approach/runs/laya_companion_v7_deferred/merged",
+        "big_gguf": None,  # same stock Qwen3-4B as mtp_like
+        # Laya reads its instructions from the typed question, not a system item.
+        "system": "",
+        "label": "Laya companion v7 (stream contract + deferred silence + stock Qwen3-4B)",
+    },
+    "laya_companion_v7": {
+        "kind": "policy_companion",
+        "policy": "laya",
+        "variant": "laya_companion_v7",
+        "companion": REPO_ROOT.parent / "laya_approach/runs/laya_companion_v7_deferred/merged",
+        "big_gguf": None,
+        "system": "",
+        "label": "Laya companion v7 (stream contract + deferred silence + stock Qwen3-4B)",
+    },
     "base": {
         "kind": "llama_duplex",
         "variant": "sft",  # same protocol vocabulary, but UNTRAINED control

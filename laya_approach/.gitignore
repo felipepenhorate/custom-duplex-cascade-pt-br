@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/generated*/
+data/duplexcascade_*/
+data/fdb_*audio*/
+data/fdb_audio*/
+data/hf_release*/
+runs/

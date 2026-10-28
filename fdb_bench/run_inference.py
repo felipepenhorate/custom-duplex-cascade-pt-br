@@ -55,8 +55,17 @@ def build_chunker(prefer_training: bool = True, kind: str = "training"):
         from transformers import AutoTokenizer
         src = P.MODEL_REGISTRY.get("sft", {}).get("gguf")
         # any of the merged checkpoints carries the same tokenizer
-        tok = AutoTokenizer.from_pretrained(
-            str(P.RUNS_ROOT / "continue/export/merged_bf16"), token=False)
+        merged = P.RUNS_ROOT / "continue/export/merged_bf16"
+        try:
+            tok = AutoTokenizer.from_pretrained(str(merged), token=False)
+        except Exception:
+            # The /mnt/f run store is not present on every machine; the same
+            # Qwen3-4B tokenizer is in the HF cache, and the chunker must not
+            # silently degrade to the word approximation when it is available.
+            tok = AutoTokenizer.from_pretrained(
+                "Qwen/Qwen3-4B-Instruct-2507", token=False, local_files_only=True
+            )
+            print(f"chunker: TrainingChunker (tokenizer from HF cache; {merged} absent)")
         return TrainingChunker(tok)
     except Exception as e:  # noqa: BLE001
         print(f"WARNING: falling back to the word chunker ({type(e).__name__}: {e})")
@@ -212,7 +221,11 @@ def main() -> None:
         "prompt_candidate": resolved_candidate(adapter, args),
         "system_prompt": adapter.system_prompt or "<none>",
         "words_per_second": args.words_per_second,
-        "chunker": type(chunker).__name__ if not callable(chunker) or hasattr(chunker, "__name__") else "?",
+        # Record the *arm* (`training` / `word` / `sentence`), not the Python
+        # callable's type: every arm is a function, so ``type(chunker)`` made
+        # distinct chunkers indistinguishable in the published tables.
+        "chunker": args.chunker,
+        "chunker_fn": getattr(chunker, "__name__", type(chunker).__name__),
         "turn_style": args.turn_style,
         "n_server_rejected": getattr(getattr(adapter, "client", None), "n_rejected", 0),
         "n_scenarios": n,

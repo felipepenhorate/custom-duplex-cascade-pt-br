@@ -8,6 +8,7 @@ Scenarios per subset follow FDB v1.0 sizes; clock = 3.25 words/s.
 | DuplexCascade-β (paper) _(published, EN audio)_ | en | 0.343 | 0.458 | 0.309 | 0.034 | 0.811 | 0.899 | 0.567 | 0.950 | 4.011 | 0.850 | - | - | **0.748** |
 | Base (untrained Qwen3-4B control) [none] | en | 0.000 | 0.000 | 0.000 | 0.000 | 1.000 | 0.000 | - | 0.000 | - | 0.147 | - | 2.806 | **0.000** |
 | Distill (self-distillation) [none] | en | 0.095 | 0.065 | 1.000 | 0.000 | 1.000 | 0.941 | 4.343 | 0.915 | 2.115 | 0.189 | 2.522 | 2.834 | **0.924** |
+| Laya companion v7 (stream contract + deferred silence + stock Qwen3-4B) [none] | en | 0.000 | 0.000 | 0.000 | 0.000 | 1.000 | 1.000 | 0.793 | 1.000 | - | 0.045 | 0.826 | - | **1.000** |
 | MTP-like (0.8B policy companion + stock Qwen3-4B) [instruction] | en | 0.066 | 0.000 | 1.000 | 0.000 | 1.000 | 1.000 | 0.318 | 1.000 | 4.875 | 0.057 | 0.327 | 4.824 | **0.984** |
 | Original DuplexCascade (sbintuitions, q4_k_m) [none] | en | 0.095 | 0.102 | 0.345 | 0.000 | 1.000 | 1.000 | 1.157 | 1.000 | 4.345 | 0.251 | 1.094 | 4.448 | **0.951** |
 | SFT (original recipe, continue) [none] | en | 0.051 | 0.000 | 1.000 | 0.000 | 1.000 | 1.000 | 0.265 | 0.995 | 4.080 | 0.031 | 0.271 | 4.157 | **0.986** |
@@ -137,7 +138,64 @@ Scenarios per subset follow FDB v1.0 sizes; clock = 3.25 words/s.
       "pause_synthetic": 4.62043795620438,
       "smooth_turn": 1.3305084745762712
     },
-    "ata": 0.9241177862061288
+    "ata": 0.9241177862061289
+  },
+  {
+    "model": "laya_companion_v7",
+    "label": "Laya companion v7 (stream contract + deferred silence + stock Qwen3-4B) [none]",
+    "prompt_candidate": "none",
+    "lang": "en",
+    "prime_mode": "decision",
+    "words_per_second": 3.25,
+    "n_scenarios": 727,
+    "n_errors": 0,
+    "empty_floor_takings": 0,
+    "s_per_scenario": 1.131,
+    "pause_synthetic_tor": 0.0,
+    "pause_synthetic_n": 137,
+    "pause_candor_tor": 0.0,
+    "pause_candor_n": 216,
+    "bc_tor": 0.0,
+    "bc_freq": 0.0,
+    "bc_jsd": 1.0,
+    "bc_n": 55,
+    "smooth_tor": 1.0,
+    "smooth_latency_chunks": 5.7478991596638656,
+    "smooth_latency_s": 0.793092435147582,
+    "smooth_latency_n": 119,
+    "smooth_n": 119,
+    "intr_tor": 1.0,
+    "intr_n_harness_unscored": 0,
+    "intr_response_compute_s": 0.8257969963550568,
+    "intr_yield_compute_s": 0.04468709826469421,
+    "intr_n": 200,
+    "intr_rating": NaN,
+    "intr_rating_all": NaN,
+    "intr_judge_n": 0,
+    "tag_hist": {
+      "user_is_speaking": 6374,
+      "user_is_thinking": 1924,
+      "no_tag": 1200,
+      "user_finish_speaking": 519,
+      "user_interruption": 158
+    },
+    "n_decisions": 4673,
+    "finish_precision": 1.0,
+    "finish_recall": 0.976878612716763,
+    "finish_f1": 0.9883040935672515,
+    "chunk_accuracy": 0.9974320564947571,
+    "pause_stayed_silent": 1.0,
+    "floor_on_post_turn_silence": 0.0093603744149766,
+    "tp": 507,
+    "fp": 0,
+    "fn": 12,
+    "tn": 4154,
+    "quality": NaN,
+    "quality_n": 0,
+    "quality_n_all": 0,
+    "quality_from_judge": 0,
+    "quality_by_task": {},
+    "ata": 1.0
   },
   {
     "model": "mtp_like",

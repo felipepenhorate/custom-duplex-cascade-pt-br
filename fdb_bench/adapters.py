@@ -142,6 +142,7 @@ class LlamaClient:
         if self.model:
             base["model"] = self.model
 
+        last: Exception | None = None
         for payload in (
             {**base, "chat_template_kwargs": {"enable_thinking": False}},
             base,
@@ -151,7 +152,6 @@ class LlamaClient:
                 f"{self.api_base}/chat/completions", data=data,
                 headers={"Content-Type": "application/json"},
             )
-            last: Exception | None = None
             for _ in range(3):
                 try:
                     with urllib.request.urlopen(req, timeout=self.timeout) as r:
@@ -162,14 +162,17 @@ class LlamaClient:
                         text = msg.get("reasoning_content") or ""
                     return text
                 except urllib.error.HTTPError as e:
-                    if e.code == 400:
-                        raise  # bad request: a retry will not help
                     last = e
+                    if e.code == 400:
+                        # The template rejected the kwargs (or the request
+                        # shape).  Fall through to the plain payload; a second
+                        # 400 is fatal.
+                        break
                     time.sleep(1.5)
                 except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
                     last = e
                     time.sleep(1.5)
-            if isinstance(last, urllib.error.HTTPError):
+            if isinstance(last, urllib.error.HTTPError) and last.code != 400:
                 break
         raise LlamaServerError(f"llama-server chat request failed: {last}")
 
@@ -651,6 +654,36 @@ class PolicyAdapter:
         return [(o["role"], o["content"]) for o in out]
 
 
+class LayaPolicyAdapter(PolicyAdapter):
+    """PolicyAdapter for Laya: keep the stream metadata the state needs.
+
+    The mtp_like adapter renders role+text into ChatML and therefore drops the
+    simulator's ``ends_turn`` hint on purpose.  Laya's state *reads* that hint
+    (and ``kind`` / ``system_speaking``), so the newest event must survive
+    intact, including an empty finalized tail.  Content generation, guards and
+    the big-model hand-off are inherited unchanged.
+
+    ``stream`` is the contract label from
+    :mod:`laya_approach.data.common`: ``text`` means ``ends_turn`` is a semantic
+    turn boundary; ``audio`` means it is the VAD's utterance boundary and a
+    pause final must not automatically start an answer.
+    """
+
+    _KEEP = ("role", "text", "kind", "ends_turn", "system_speaking", "partial")
+
+    def __init__(self, *args, stream: str = "text", **kwargs):
+        super().__init__(*args, **kwargs)
+        self.stream = stream
+        self.policy.stream = stream
+
+    def _policy_items(self, items: list[dict]) -> list[dict]:
+        return [
+            {key: item[key] for key in self._KEEP if key in item}
+            for item in items
+            if "role" in item and "text" in item
+        ]
+
+
 # ------------------------------------------------------------------ factory ---
 
 # Per-variant prompt candidates. Each entry is a *named way to run that
@@ -667,6 +700,8 @@ PROMPT_CANDIDATES: dict[str, list[str]] = {
     "sft_m2":    ["none", "deployed", "tag"],
     "distill":   ["none", "deployed", "deployed_tags", "tag", "trigger", "trigger_tags"],
     "mtp_like":  ["none", "instruction"],
+    "laya_companion": ["none"],
+    "laya_companion_v7": ["none"],
     "base":      ["none", "deployed", "tag"],
     "original_dc": ["none", "deployed"],
     "original_dc_hf": ["none", "deployed"],
@@ -692,6 +727,8 @@ DEFAULT_PROMPT_CANDIDATE: dict[str, str] = {
     "sft_m2": "none",
     "distill": "none",
     "mtp_like": "instruction",
+    "laya_companion": "none",
+    "laya_companion_v7": "none",
     "base": "none",
     # the original runs with no system item by default, matching how the
     # three pt-BR variants are measured; "deployed" (a neutral prompt) is
@@ -783,6 +820,7 @@ def build_adapter(
     system_override: str | None = None,
     lang: str = "pt",
     floor_by_text: bool | None = None,
+    stream: str = "text",
 ) -> Any:
     """Instantiate the adapter for a :data:`protocol.MODEL_REGISTRY` key.
 
@@ -809,12 +847,19 @@ def build_adapter(
         return adapter
 
     if kind == "policy_companion":
-        from .policy_companion import load_policy   # lazy: heavy import
-        policy = load_policy(spec["companion"], device=device)
+        from .policy_companion import load_laya_policy, load_policy  # lazy: heavy import
         # The content LLM is stock, so it gets the *shared* short voice prompt
         # rather than the companion's protocol instruction: the point of this
         # variant is that the big model never sees the tags.
         big_system = P.SFT_SYSTEM if lang == "pt" else EN_SFT_SYSTEM
+        if spec.get("policy") == "laya":
+            policy = load_laya_policy(spec["companion"], device=device)
+            return LayaPolicyAdapter(
+                policy, LlamaClient(big_api_base or api_base), name=key,
+                system_prompt=system or "", big_system=big_system,
+                prompt_candidate=candidate, stream=stream,
+            )
+        policy = load_policy(spec["companion"], device=device)
         return PolicyAdapter(
             policy, LlamaClient(big_api_base or api_base), name=key,
             system_prompt=system or "", big_system=big_system,

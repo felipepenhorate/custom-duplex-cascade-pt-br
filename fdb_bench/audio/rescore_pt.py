@@ -60,11 +60,14 @@ _PATTERNS = {
 class WhisperScorer:
     """Word-timestamped transcription with a Portuguese-capable model."""
 
-    def __init__(self, model: str = "large-v3", language: str = "pt") -> None:
+    def __init__(self, model: str = "large-v3", language: str = "pt",
+                 device: str = "cuda") -> None:
         from faster_whisper import WhisperModel
 
         self.language = language
-        self.model = WhisperModel(model, device="cuda", compute_type="float16")
+        self.model = WhisperModel(
+            model, device=device,
+            compute_type="float16" if device == "cuda" else "int8")
 
     def words(self, wav_path: Path, *, crop_from: float | None = None) -> list[dict]:
         import soundfile as sf
@@ -105,6 +108,73 @@ class WhisperScorer:
         return doc
 
 
+class TransformersWhisperScorer:
+    """Word-timestamped Whisper through transformers (ROCm-friendly).
+
+    ``faster-whisper`` is CTranslate2 and therefore CUDA-only; on this AMD box
+    its ``device='cuda'`` fails.  Transformers runs Whisper on ROCm, and its
+    ASR pipeline returns the same ``{"chunks": [{"text", "timestamp"}]}`` shape
+    the benchmark's evaluators consume.
+    """
+
+    def __init__(self, model: str = "openai/whisper-large-v3",
+                 language: str = "pt") -> None:
+        import torch
+        from transformers import pipeline
+
+        self.language = language
+        self._torch = torch
+        self.pipe = pipeline(
+            "automatic-speech-recognition", model=model, device=0,
+            dtype=torch.float16, chunk_length_s=30, ignore_warning=True,
+        )
+
+    def words(self, wav_path: Path, *, crop_from: float | None = None) -> list[dict]:
+        import soundfile as sf
+
+        wav, sr = sf.read(str(wav_path), dtype="float32", always_2d=False)
+        if wav.ndim > 1:
+            wav = wav.mean(axis=1)
+        offset = 0.0
+        if crop_from is not None:
+            offset = float(crop_from)
+            wav = wav[int(offset * sr):]
+        if wav.size < int(0.05 * sr):
+            return []
+        if sr != 16000:
+            from scipy.signal import resample_poly
+
+            g = np.gcd(int(sr), 16000)
+            wav = resample_poly(wav, 16000 // g, int(sr) // g).astype(np.float32)
+        wav = normalise_for_recognition(np.ascontiguousarray(wav, dtype=np.float32))
+        out = self.pipe(
+            wav,
+            return_timestamps="word",
+            generate_kwargs={"language": self.language, "task": "transcribe",
+                             "num_beams": 1},
+        )
+        words: list[dict] = []
+        for chunk in out.get("chunks") or []:
+            text = str(chunk.get("text") or "").strip()
+            ts = chunk.get("timestamp")
+            if not text or not ts or ts[0] is None:
+                continue
+            words.append({"text": text,
+                          "timestamp": [float(ts[0]) + offset,
+                                        float(ts[1] if ts[1] is not None else ts[0]) + offset]})
+        return words
+
+    def write_output_json(self, sample_dir: Path, task: str) -> dict:
+        crop = None
+        if task == "user_interruption":
+            meta = json.loads((sample_dir / "interrupt.json").read_text(encoding="utf-8"))
+            crop = float(meta[0]["timestamp"][1])
+        chunks = self.words(sample_dir / "output.wav", crop_from=crop)
+        doc = {"text": " ".join(c["text"] for c in chunks).strip(), "chunks": chunks}
+        (sample_dir / "output.json").write_text(json.dumps(doc, indent=4), encoding="utf-8")
+        return doc
+
+
 def parse(task: str, text: str) -> dict:
     out: dict = {}
     for key, pat in _PATTERNS[task].items():
@@ -127,6 +197,10 @@ def main() -> None:
     ap.add_argument("--data-root", type=Path, default=Path("/mnt/f/fdb_data/pt_v1.0"))
     ap.add_argument("--score-tmp", type=Path, default=Path("/tmp/opencode/score_pt_whisper"))
     ap.add_argument("--whisper", default="large-v3")
+    ap.add_argument("--backend", default="faster", choices=["faster", "transformers"],
+                    help="faster = CTranslate2 (CUDA); transformers = PyTorch/ROCm")
+    ap.add_argument("--device", default="cuda",
+                    help="faster backend device; cpu works on ROCm hosts")
     ap.add_argument("--lang", default="pt", help="ASR language (pt for the re-voiced set, en to check a code-switching English run)")
     ap.add_argument("--judge-api-base", default="http://127.0.0.1:8099/v1")
     ap.add_argument("--tasks", default="all")
@@ -139,7 +213,11 @@ def main() -> None:
     # libsndfile, and without the same shim here the pt re-score died at the
     # backchannel subset *after* transcribing 527 files.
     _patch_torchaudio_load()
-    scorer = WhisperScorer(args.whisper, args.lang)
+    scorer = (
+        TransformersWhisperScorer(f"openai/whisper-{args.whisper}", args.lang)
+        if args.backend == "transformers"
+        else WhisperScorer(args.whisper, args.lang, device=args.device)
+    )
     judge = LocalJudgeShim(args.judge_api_base)
     metrics: dict = {}
     for subset in tasks:

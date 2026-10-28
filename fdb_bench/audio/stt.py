@@ -85,6 +85,57 @@ def resample_24k_to_16k(pcm: np.ndarray) -> np.ndarray:
     return resample_poly(pcm, 2, 3)
 
 
+class TraceUserStream:
+    """Replay a recorded ASR stream instead of running Whisper.
+
+    ``results_audio*/decision/<model>/<subset>/<sid>/trace.json`` stores the
+    exact ``user_pieces`` the live session fed the model, including availability
+    times, ``kind``, ``ends_turn`` and the utterance index.  Re-deciding those
+    pieces is the audio analogue of the text bench and the paired way to compare
+    two companions on identical ASR input.  No microphone audio is decoded here;
+    the WAV is still used for the scenario clock and for rendering.
+    """
+
+    def __init__(self, trace: dict) -> None:
+        self.trace = trace
+        self.spans = [tuple(map(float, span))
+                      for span in (trace.get("speech_intervals") or [])]
+        self.utterances: list[Utterance] = []
+        self.stt_s = 0.0
+        self.stt_partial_s = 0.0
+        self.stt_final_s = 0.0
+        self.stt_calls = 0
+
+    def events(self, pcm24: np.ndarray) -> Iterator[UserPiece]:
+        scheduled: list[tuple[float, int, int, UserPiece]] = []
+        order = 0
+        for start, end in self.spans:
+            scheduled.append((start, 0, order, UserPiece(
+                t_start=start, t_end=start, kind=KIND_SPEECH_START,
+                t_avail=start)))
+            order += 1
+            scheduled.append((end, 2, order, UserPiece(
+                t_start=end, t_end=end, kind=KIND_SPEECH_END, t_avail=end)))
+            order += 1
+        for piece in self.trace.get("user_pieces") or []:
+            kind = piece.get("kind")
+            if kind not in (KIND_PARTIAL, KIND_FINAL, KIND_SILENCE):
+                continue
+            t_avail = float(piece.get("t_avail", piece.get("t_start", 0.0)))
+            t_start = float(piece.get("t_start", t_avail))
+            t_end = float(piece.get("t_end", t_avail))
+            scheduled.append((t_avail, 1, order, UserPiece(
+                t_start=t_start, t_end=t_end, kind=kind,
+                text=piece.get("text", ""),
+                ends_turn=bool(piece.get("ends_turn", False)),
+                utt_index=int(piece.get("utt", 0) or 0),
+                t_avail=t_avail)))
+            order += 1
+        scheduled.sort(key=lambda item: item[:3])
+        for _, _, _, event in scheduled:
+            yield event
+
+
 def load_wav_24k(path: str | Path) -> np.ndarray:
     """Load a benchmark WAV as mono float32 at the 24 kHz the stack expects."""
     import soundfile as sf

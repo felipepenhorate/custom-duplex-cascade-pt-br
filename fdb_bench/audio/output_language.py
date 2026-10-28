@@ -127,6 +127,7 @@ def text_run(model_dir: Path) -> dict:
 LABELS = {
     "original_dc": "Original (upstream, EN)", "sft": "SFT (pt-BR)",
     "distill": "Distill (pt-BR)", "mtp_like": "MTP companion (pt-BR)",
+    "laya_companion": "Laya companion (pt-BR)",
     "base": "Base (control)",
 }
 

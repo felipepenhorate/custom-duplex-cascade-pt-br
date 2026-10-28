@@ -28,7 +28,7 @@ from ..adapters import build_adapter
 from .dataset import DEFAULT_ROOT, TASKS, iter_scenarios
 from .render import render_output, write_wav
 from .session import AudioDuplexSession
-from .stt import AudioUserStream, load_wav_24k
+from .stt import AudioUserStream, TraceUserStream, load_wav_24k
 from .tts import AssistantVoice
 
 TASK_OF_SUBSET = dict(TASKS)
@@ -181,6 +181,11 @@ def main() -> None:
     ap.add_argument("--silence-s", type=float, default=0.6)
     ap.add_argument("--partial-interval-s", type=float, default=0.6)
     ap.add_argument("--partial-commit-s", type=float, default=0.5)
+    ap.add_argument("--stt-trace-root", type=Path, default=None,
+                    help="replay the recorded ASR pieces in "
+                         "<root>/<subset>/<sid>/trace.json instead of running "
+                         "faster-whisper. Used for a paired audio run against a "
+                         "stored model without paying for streaming ASR.")
     # TTS
     ap.add_argument("--tts-language", default="english")
     ap.add_argument("--tts-temp", type=float, default=0.7)
@@ -219,11 +224,13 @@ def main() -> None:
             prompt_candidate=args.prompt_candidate,
             system_override=args.system_override,
             floor_by_text=(True if args.floor_by_text else None),
+            stream="audio",
         )
         from faster_whisper import WhisperModel
 
-        whisper = WhisperModel(args.whisper_model, device=args.device,
-                               compute_type=args.whisper_compute)
+        whisper = None if args.stt_trace_root else WhisperModel(
+            args.whisper_model, device=args.device,
+            compute_type=args.whisper_compute)
         if not args.no_tts:
             voice = AssistantVoice(args.tts_language, device=args.device,
                                    temp=args.tts_temp)
@@ -244,11 +251,18 @@ def main() -> None:
         sample_dir.mkdir(parents=True, exist_ok=True)
         wav_path.parent.mkdir(parents=True, exist_ok=True)
         pcm = load_wav_24k(sc.input_wav)
-        stream = AudioUserStream(
-            whisper, language=args.lang, vad=args.vad, silence_s=args.silence_s,
-            partial_interval_s=args.partial_interval_s,
-            partial_commit_s=args.partial_commit_s,
-        )
+        if args.stt_trace_root:
+            trace_file = args.stt_trace_root / sc.subset / sc.sid / "trace.json"
+            if not trace_file.is_file():
+                raise SystemExit(f"missing ASR trace {trace_file}")
+            stream = TraceUserStream(
+                json.loads(trace_file.read_text(encoding="utf-8")))
+        else:
+            stream = AudioUserStream(
+                whisper, language=args.lang, vad=args.vad, silence_s=args.silence_s,
+                partial_interval_s=args.partial_interval_s,
+                partial_commit_s=args.partial_commit_s,
+            )
         session = AudioDuplexSession(adapter, stream, voice, mode=args.mode,
                                      max_speech_s=args.max_speech_s)
         res = session.run(sc, pcm)
@@ -336,6 +350,8 @@ def main() -> None:
         "partial_commit_s": args.partial_commit_s,
         "whisper": args.whisper_model, "tts_language": args.tts_language,
         "tts_temp": args.tts_temp, "asr_scorer": "nvidia/parakeet-tdt-0.6b-v2",
+        "stt": (f"trace:{args.stt_trace_root}" if args.stt_trace_root
+                else f"faster-whisper:{args.whisper_model}"),
         "judge": args.judge_api_base,
         "official_task_metrics": metrics,
         "audio_rollup": audio_agg,

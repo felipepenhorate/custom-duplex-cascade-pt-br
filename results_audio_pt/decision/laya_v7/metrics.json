@@ -1,0 +1,31 @@
+{
+  "model": "laya_companion_v7",
+  "asr": "faster-whisper small",
+  "language": "pt",
+  "note": "parakeet (the upstream recipe) is English-only; this re-scores the same audio and annotations with a Portuguese recogniser",
+  "official_task_metrics": {
+    "candor_pause_handling": {
+      "tor": 0.1388888888888889
+    },
+    "synthetic_pause_handling": {
+      "tor": 0.043795620437956206
+    },
+    "candor_turn_taking": {
+      "tor": 0.7647058823529411,
+      "latency_s": 1.766747252747254
+    },
+    "icc_backchannel": {
+      "jsd_mean": 0.9641,
+      "jsd_mean_std": 0.0819,
+      "tor": 0.0727,
+      "tor_std": 0.2597,
+      "freq_mean": 0.0048,
+      "freq_mean_std": 0.0113
+    },
+    "synthetic_user_interruption": {
+      "relevance": 3.226993865030675,
+      "tor": 0.815,
+      "latency_s": 1.279754601226994
+    }
+  }
+}

@@ -45,6 +45,7 @@ LABELS = {
     "sft": "SFT (pt-BR)",
     "distill": "Distill (pt-BR)",
     "mtp_like": "MTP companion (pt-BR)",
+    "laya_companion": "Laya companion (pt-BR)",
     "base": "Base (control)",
 }
 

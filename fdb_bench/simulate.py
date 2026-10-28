@@ -317,8 +317,17 @@ class DuplexSimulator:
                 # model has to *infer* the turn end from the text, exactly as
                 # it does live, where the ASR/VAD boundary is never shown to it.
                 # tests/test_parity.py asserts the prompt is byte-identical
-                # with and without this field.
-                items.append({"role": "user", "text": ev.text, "ends_turn": ev.ends_turn})
+                # with and without this field.  Laya is the exception: it reads
+                # the stream event, so the metadata is kept on the item (and
+                # PolicyAdapter._policy_items drops it again for mtp_like).
+                was_speaking = bool(speaking and (cur is None or cur.end > t))
+                items.append({
+                    "role": "user",
+                    "text": ev.text,
+                    "ends_turn": ev.ends_turn,
+                    "kind": "final" if ev.ends_turn else "partial",
+                    "system_speaking": was_speaking,
+                })
                 res.user_events.append(StreamEvent(
                     t_start=ev_start, t_end=t + dur, kind="chunk", text=ev.text,
                     ends_turn=ev.ends_turn, is_backchannel=ev.is_backchannel, index=idx,
@@ -398,8 +407,15 @@ class DuplexSimulator:
                 dur = float(ev.duration or SILENCE_TICK_S)
                 ticks = min(max(1, int(round(dur / SILENCE_TICK_S))), MAX_SILENCE_TICKS)
                 for _ in range(ticks):
-                    items.append({"role": "user", "text": self.adapter.no_voice_marker,
-                                  "ends_turn": False})
+                    items.append({
+                        "role": "user",
+                        "text": self.adapter.no_voice_marker,
+                        "ends_turn": False,
+                        "kind": "silence",
+                        "system_speaking": bool(
+                            speaking and (cur is None or cur.end > t)
+                        ),
+                    })
                     t += SILENCE_TICK_S
                     res.user_events.append(StreamEvent(
                         t_start=t - SILENCE_TICK_S, t_end=t, kind="silence", index=idx,
