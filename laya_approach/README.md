@@ -156,7 +156,7 @@ after the same finalized turn do not inflate the result.
 | audio replay: turns with a premature floor-take (mtp_like → raw → guarded) | 399 / 2270 → 40 → 0 | 399 / 2270 → **0** → **0** |
 | audio replay: mid-turn pieces finished (mtp_like → raw → guarded) | 461 / 4846 → 40 → 0 | 461 / 4846 → **0** → **0** |
 
-v1: one epoch on 30,000 stratified rows (81 min, 2.5 s/step on the RX 6600M).
+v1: one epoch on 30,000 stratified rows (81 min, 2.5 s/step on the AMD GPU).
 v2: the same recipe on `generated_v2` (78 min train, 86 min wall, train loss
 0.0888), calibrated on 8,343 validation rows.
 
@@ -276,7 +276,7 @@ The pause/backchannel failure is essentially gone. The cost is smooth latency
 (+0.8–1.7 s, deferred confirmation), a small smooth/interruption TOR drop, and
 still no listener backchannels (`bc_freq` remains near zero; the TOR gain is
 from not taking a formal turn). The v7 audio metrics use faster-whisper
-**small** on CPU because the RX 6600M has no CTranslate2 ROCm backend; the
+**small** on CPU because CTranslate2 has no ROCm backend on this host; the
 mtp_like audio scores used large-v3. Compare TOR directionally, not to the last
 decimal.
 
