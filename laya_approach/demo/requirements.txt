@@ -1,0 +1,17 @@
+# Onda Travel demo dependencies.
+#
+# Use a Python 3.11–3.13 environment with a CUDA/ROCm PyTorch build that matches
+# your machine.  The Laya policy needs Unsloth >= 2026.10.11 for
+# FastDecisionModel; older releases do not export it.
+fastapi>=0.115
+uvicorn[standard]>=0.30
+websockets>=12
+numpy>=1.26
+scipy>=1.11
+faster-whisper>=1.0
+soundfile>=0.12
+ptts>=0.6
+unsloth>=2026.10.11
+torch>=2.4
+transformers>=4.56
+accelerate>=1.0

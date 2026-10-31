@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="pt-BR" data-language="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5efe4">
+  <meta name="description" content="Onda Travel — a bilingual, voice-first travel demo powered by Laya's full-duplex companion.">
+  <title>Onda Travel · Voice-first journeys</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css?v=4">
+</head>
+<body>
+  <a class="skip-link" href="#collection" data-i18n="a11y.skip">Skip to trips</a>
+  <div class="page-grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Onda Travel home">
+      <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+        <path d="M4 27c5-8 10-8 15 0s10 8 15 0 6-6 6-6" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M9 34c4-5 8-5 12 0s8 5 12 0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity=".55"/>
+      </svg>
+      <span class="brand-word">onda<span class="brand-dot">.</span></span>
+      <span class="brand-tail">travel</span>
+    </a>
+
+    <nav class="topnav" aria-label="Main">
+      <a href="#collection" data-i18n="nav.collection">The collection</a>
+      <a href="#how" data-i18n="nav.how">How it works</a>
+      <span class="live-pill"><span class="live-dot"></span><span data-i18n="nav.live">Live voice demo</span></span>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="pt-BR" type="button">PT</button>
+      </div>
+      <button class="icon-btn debug-toggle" id="debugToggle" type="button" aria-pressed="false" aria-label="Toggle Laya telemetry">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V9m5 9V5m5 13v-7m5 7V3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow reveal"><span class="eyebrow-line"></span><span data-i18n="hero.eyebrow">Voice-first travel design</span></p>
+        <h1 id="hero-title" class="reveal">
+          <span data-i18n="hero.title1">Say it.</span>
+          <em data-i18n="hero.title2">See it.</em>
+          <span data-i18n="hero.title3">Go.</span>
+        </h1>
+        <p class="hero-sub reveal" data-i18n="hero.sub">
+          Talk to Laya like a person. She listens while you speak, reshapes the
+          collection in real time, and answers in English or Portuguese — whichever
+          language you choose.
+        </p>
+        <div class="hero-actions reveal">
+          <button class="hero-cta" id="heroMic" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4m-4 0h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <span data-i18n="hero.cta">Start a voice session</span>
+          </button>
+          <span class="hero-cta-note" data-i18n="hero.ctaNote">or type below — no account needed</span>
+        </div>
+        <div class="hero-meta reveal">
+          <span class="meta-pill"><span class="meta-icon">◉</span><span data-i18n="hero.meta1">Full-duplex turn-taking</span></span>
+          <span class="meta-pill"><span class="meta-icon">↔</span><span data-i18n="hero.meta2">English · Português</span></span>
+          <span class="meta-pill"><span class="meta-icon">✦</span><span data-i18n="hero.meta3">12 mock escapes</span></span>
+        </div>
+      </div>
+
+      <div class="hero-art reveal" aria-hidden="true">
+        <div class="hero-sun"></div>
+        <div class="hero-hill hill-back"></div>
+        <div class="hero-hill hill-mid"></div>
+        <div class="hero-hill hill-front"></div>
+        <svg class="hero-wave" viewBox="0 0 520 120" preserveAspectRatio="none">
+          <path d="M0 50c50-32 100-32 150 0s100 32 150 0 100-32 150 0 70 22 70 22v48H0z" fill="rgba(13,110,99,.9)"/>
+          <path d="M0 70c50-26 100-26 150 0s100 26 150 0 100-26 150 0 70 18 70 18v42H0z" fill="rgba(8,72,68,.95)"/>
+        </svg>
+        <div class="postcard">
+          <div class="postcard-top">
+            <span class="postcard-kicker" data-i18n="hero.postcardKicker">Live itinerary</span>
+            <span class="postcard-dot"></span>
+          </div>
+          <p class="postcard-title" data-i18n="hero.postcardTitle">“Somewhere warm, with a good beach and food.”</p>
+          <div class="postcard-row">
+            <span class="postcard-chip">Maragogi</span>
+            <span class="postcard-chip">Tulum</span>
+            <span class="postcard-chip">+1</span>
+          </div>
+          <div class="postcard-wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        </div>
+        <div class="hero-note">
+          <span class="hero-note-dot"></span>
+          <span data-i18n="hero.note">Laya is taking the floor</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="workspace" id="collection">
+      <aside class="agent-panel" id="agentPanel" aria-label="Laya voice assistant">
+        <div class="agent-head">
+          <div class="agent-avatar">
+            <span>L</span>
+            <span class="avatar-ring"></span>
+          </div>
+          <div class="agent-identity">
+            <p class="kicker" data-i18n="agent.kicker">Your travel designer</p>
+            <h2>Laya</h2>
+          </div>
+          <span class="status-chip" id="statusChip" aria-live="polite">
+            <span class="status-dot"></span>
+            <span id="statusText" data-i18n="state.idle">Ready</span>
+          </span>
+        </div>
+
+        <div class="degraded-banner" id="degradedBanner" role="alert" hidden></div>
+
+        <div class="voice-stage" id="voiceStage">
+          <div class="orb-wrap" id="orbWrap">
+            <span class="orb-ring ring-1"></span>
+            <span class="orb-ring ring-2"></span>
+            <span class="orb-ring ring-3"></span>
+            <button class="voice-orb" id="micBtn" type="button" aria-label="Start voice session" aria-pressed="false">
+              <span class="orb-glow"></span>
+              <span class="orb-core">
+                <svg class="mic-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="9" y="3" width="6" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                  <path d="M6 11a6 6 0 0 0 12 0M12 17v4m-4 0h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+                <svg class="stop-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="7" y="7" width="10" height="10" rx="2" fill="currentColor"/>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <p class="voice-label" id="voiceLabel" data-i18n="voice.start">Tap to speak</p>
+          <div class="waveform" id="waveform" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="transcript" id="transcript" aria-live="polite" aria-label="Conversation">
+          <div class="chat-empty" id="chatEmpty">
+            <p class="chat-empty-mark">✦</p>
+            <p data-i18n="agent.empty">Tell me what the trip should feel like. I’ll do the filtering.</p>
+          </div>
+        </div>
+
+        <div class="suggestions" id="suggestions" aria-label="Suggested prompts"></div>
+
+        <form class="composer" id="composer">
+          <input id="textInput" type="text" autocomplete="off" maxlength="400"
+                 data-i18n-placeholder="composer.placeholder"
+                 placeholder="Or type a message…" aria-label="Type a message">
+          <button class="send-btn" type="submit" aria-label="Send message">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h14m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </form>
+
+        <div class="agent-foot">
+          <button class="foot-btn" id="pauseBtn" type="button">
+            <span class="foot-dot"></span><span data-i18n="agent.pause">Pause mic</span>
+          </button>
+          <button class="foot-btn" id="resetBtn" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.7M4 4v5h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span data-i18n="agent.reset">Start over</span>
+          </button>
+          <button class="foot-btn" id="debugToggleAlt" type="button">
+            <span data-i18n="agent.telemetry">Laya telemetry</span>
+          </button>
+        </div>
+
+        <div class="telemetry" id="telemetry" hidden>
+          <div class="telemetry-head">
+            <span data-i18n="telemetry.title">Companion telemetry</span>
+            <span class="telemetry-mode" id="telemetryMode">loading</span>
+          </div>
+          <div class="telemetry-row">
+            <span class="telemetry-label" data-i18n="telemetry.tag">Last decision</span>
+            <span class="telemetry-value telemetry-tag" id="lastTag">—</span>
+          </div>
+          <div class="telemetry-row">
+            <span class="telemetry-label" data-i18n="telemetry.latency">Latency</span>
+            <span class="telemetry-value" id="lastLatency">—</span>
+          </div>
+          <div class="telemetry-row">
+            <span class="telemetry-label" data-i18n="telemetry.intent">Turn intent</span>
+            <span class="telemetry-value" id="lastIntent">—</span>
+          </div>
+          <div class="prob-bars" id="probBars"></div>
+          <div class="telemetry-models" id="telemetryModels"></div>
+        </div>
+      </aside>
+
+      <section class="results" aria-labelledby="results-title">
+        <div class="results-head">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="results.eyebrow">The collection</span></p>
+            <h2 id="results-title">
+              <span data-i18n="results.title">Trips with a point of view</span>
+              <span class="count-badge" id="resultCount">—</span>
+            </h2>
+          </div>
+          <div class="results-tools">
+            <button class="clear-btn" id="clearFilters" type="button" hidden>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <span data-i18n="results.clear">Clear filters</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="filter-bar" id="filterBar" aria-label="Active filters"></div>
+
+        <div class="cards" id="cards" aria-busy="true">
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+        </div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <div class="empty-mark">◌</div>
+          <h3 data-i18n="empty.title">Nothing matches all of that — yet.</h3>
+          <p data-i18n="empty.body">Try relaxing the budget or the number of nights. Laya can help you choose what to let go of.</p>
+          <div class="empty-actions">
+            <button class="primary-btn" id="emptyAsk" type="button" data-i18n="empty.ask">Ask Laya for ideas</button>
+            <button class="ghost-btn" id="emptyClear" type="button" data-i18n="empty.clear">Show everything</button>
+          </div>
+        </div>
+
+        <div class="catalog-note">
+          <span class="note-dot"></span>
+          <span data-i18n="results.note">Mock inventory for the demo · prices are per person, in USD</span>
+        </div>
+      </section>
+    </section>
+
+    <section class="how" id="how" aria-labelledby="how-title">
+      <div class="how-head">
+        <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="how.eyebrow">How it works</span></p>
+        <h2 id="how-title" data-i18n="how.title">A conversation, not a search box.</h2>
+      </div>
+      <div class="how-grid">
+        <article class="how-card">
+          <span class="how-num">01</span>
+          <h3 data-i18n="how.step1.title">You talk naturally</h3>
+          <p data-i18n="how.step1.body">Pause, think out loud, change your mind. The mic stays open while Laya speaks, so you can interrupt her mid-sentence.</p>
+        </article>
+        <article class="how-card">
+          <span class="how-num">02</span>
+          <h3 data-i18n="how.step2.title">Laya takes the floor</h3>
+          <p data-i18n="how.step2.body">The Laya companion reads the ASR stream and decides when your turn is really over — punctuation alone never fools it.</p>
+        </article>
+        <article class="how-card">
+          <span class="how-num">03</span>
+          <h3 data-i18n="how.step3.title">The page follows</h3>
+          <p data-i18n="how.step3.body">Qwen 3 4B turns your intent into filters, Phonon speaks the answer, and the collection reshuffles while the sentence is still landing.</p>
+        </article>
+      </div>
+      <div class="how-foot">
+        <span class="stack-chip">Laya v7</span>
+        <span class="stack-chip">Qwen3-4B-Instruct-2507</span>
+        <span class="stack-chip">Phonon 40m multilingual</span>
+        <span class="stack-chip">faster-whisper</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+        <path d="M4 27c5-8 10-8 15 0s10 8 15 0 6-6 6-6" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M9 34c4-5 8-5 12 0s8 5 12 0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity=".55"/>
+      </svg>
+      <span class="brand-word">onda<span class="brand-dot">.</span></span>
+    </div>
+    <p data-i18n="footer.note">A reference demo for the Laya duplex companion. All trips and prices are fictional.</p>
+    <div class="footer-links">
+      <a href="https://huggingface.co/lumierenoir/laya-duplex-cascade-pt-br" target="_blank" rel="noreferrer">Laya checkpoint</a>
+      <a href="https://github.com/felipepenhorate/custom-duplex-cascade-pt-br" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </footer>
+
+  <div class="boot-pill" id="bootPill" role="status">
+    <span class="boot-spinner"></span>
+    <span id="bootText" data-i18n="boot.loading">Waking Laya and the travel desk…</span>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <div class="modal" id="tripModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="/app.js?v=10" defer></script>
+</body>
+</html>

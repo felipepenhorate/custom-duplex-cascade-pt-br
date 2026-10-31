@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .venv/
+.venv-*/
 venv/
 unsloth_compiled_cache/
 
@@ -11,6 +12,10 @@ unsloth_compiled_cache/
 **/training/runs/
 *.gguf
 *.safetensors
+
+# Local demo checkpoints (Laya, Qwen, Phonon); download with the commands in
+# laya_approach/demo/README.md.
+/models/
 
 # Large generated datasets (rebuilt via the data pipeline)
 **/data/*.jsonl

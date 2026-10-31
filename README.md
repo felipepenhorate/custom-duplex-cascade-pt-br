@@ -44,6 +44,33 @@ TORs with the same orientation and smooth-turn gate. Full tables:
 Commercial/permissive training recipe (MIT-only data, no CANDOR/ICC):
 [`laya_approach/COMMERCIAL.md`](./laya_approach/COMMERCIAL.md).
 
+## Onda Travel voice demo
+
+[`laya_approach/demo/`](./laya_approach/demo/) is a runnable product example for
+the Laya companion: a bilingual voice-first travel storefront. The browser
+streams 24 kHz audio into faster-whisper; Laya decides when the turn ends or a
+barge-in starts; Qwen3-4B answers and Phonon 40m multilingual speaks. The demo
+handles travel filtering, small talk and general questions, switches the page
+and TTS between English and pt-BR mid-conversation, and keeps the visible cards
+in sync with the spoken answer.
+
+```bash
+# from the repository root, with the GPU environment active
+./laya_approach/demo/run_demo.sh
+# open http://localhost:7860
+
+# no models, text-only UI
+./laya_approach/demo/run_demo.sh --mock
+
+# explicit environment
+PYTHON=/path/to/venv/bin/python ./laya_approach/demo/run_demo.sh
+```
+
+The demo defaults to `models/laya-companion`, `models/qwen3-4b-instruct-2507`,
+`models/phonon` and `models/phonon-voices`; download commands, model licenses,
+flags, the demo script and troubleshooting are in
+[`laya_approach/demo/README.md`](./laya_approach/demo/README.md).
+
 ## Which one do I want?
 
 - **Distill (recommended)** — `distill/`: same duplex behavior, but keeps

@@ -331,6 +331,24 @@ docstrings, including the licensing note, are in
 [`policy/laya_policy.py`](./policy/laya_policy.py); the permissive retraining
 recipe is in [`COMMERCIAL.md`](./COMMERCIAL.md).
 
+## Travel demo
+
+[`demo/`](./demo) is a complete product example: **Onda Travel**, a bilingual
+voice-first storefront. The browser streams 24 kHz audio; faster-whisper emits
+incremental ASR pieces; this Laya checkpoint decides turn ends and barge-ins;
+Qwen3-4B writes the short answer; Phonon 40m multilingual speaks it; and the
+site filters a mocked travel catalog in the same turn. It also handles small
+talk and general questions without touching the catalog, and switches the page,
+cards and TTS between English and pt-BR mid-conversation.
+
+```bash
+./laya_approach/demo/run_demo.sh       # http://localhost:7860
+./laya_approach/demo/run_demo.sh --mock  # no models, text-only UI
+```
+
+See [`demo/README.md`](./demo/README.md) for the model downloads, flags, demo
+script and the full-duplex/barge-in contract.
+
 ## FDB integration
 
 The companion is registered as `laya_companion` / `laya_companion_v2` /
@@ -400,4 +418,5 @@ laya_approach/
   eval/check_fdb_parity.py     verify the published PT text set is reproduced
   policy/laya_policy.py        runtime query(items) companion
   tests/                       schema, guard and adapter-metadata tests
+  demo/                        Onda Travel bilingual voice storefront (Laya + Qwen + Phonon)
 ```
